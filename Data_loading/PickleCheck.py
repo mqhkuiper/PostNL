@@ -4,11 +4,13 @@
 
 import pickle
 from itertools import islice
+from pathlib import Path
 
+BASE_DIR = Path(__file__).resolve().parent
 # ------------------------------------------------------------
 # Load pickle
 # ------------------------------------------------------------
-with open("model_input.pkl", "rb") as f:
+with open(BASE_DIR/ "model_input.pkl", "rb") as f:
     data = pickle.load(f)
 
 print("\n=== CONTENTS OF model_input.pkl ===")
