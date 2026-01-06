@@ -1,8 +1,7 @@
 # ============================================================
 # MILP DEPOT + ROUTING MODEL
 # Depot-indexed vehicles + sparse arcs (KNN)
-# PC-RUNNABLE VERSION WITH DIAGNOSTICS
-#
+# 
 # IMPLEMENTS:
 #  1) Depot-indexed vehicles with per-type maxima (NO global K)
 #  2) Aggressive arc sparsification (KNN)
