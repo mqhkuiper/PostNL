@@ -1,0 +1,195 @@
+\ Model DepotRouting_Aggregated_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ assign_36A052: x[D224,36A052,Car] + x[D224,36A052,Moped]
+   + x[D224,36A052,EBikeCart] + x[D224,36A052,FootBike]
+   + x[D257,36A052,Car] + x[D257,36A052,Moped] + x[D257,36A052,EBikeCart]
+   + x[D257,36A052,FootBike] + x[D225,36A052,Car] + x[D225,36A052,Moped]
+   + x[D225,36A052,EBikeCart] + x[D225,36A052,FootBike]
+   + x[D258,36A052,Car] + x[D258,36A052,Moped] + x[D258,36A052,EBikeCart]
+   + x[D258,36A052,FootBike] + x[D223,36A052,Car] + x[D223,36A052,Moped]
+   + x[D223,36A052,EBikeCart] + x[D223,36A052,FootBike]
+   + x[D256,36A052,Car] + x[D256,36A052,Moped] + x[D256,36A052,EBikeCart]
+   + x[D256,36A052,FootBike] + x[D192,36A052,Car] + x[D192,36A052,Moped]
+   + x[D192,36A052,EBikeCart] + x[D192,36A052,FootBike]
+   + x[D290,36A052,Car] + x[D290,36A052,Moped] + x[D290,36A052,EBikeCart]
+   + x[D290,36A052,FootBike] + x[D193,36A052,Car] + x[D193,36A052,Moped]
+   + x[D193,36A052,EBikeCart] + x[D193,36A052,FootBike]
+   + x[D291,36A052,Car] + x[D291,36A052,Moped] + x[D291,36A052,EBikeCart]
+   + x[D291,36A052,FootBike] + x[D226,36A052,Car] + x[D226,36A052,Moped]
+   + x[D226,36A052,EBikeCart] + x[D226,36A052,FootBike]
+   + x[D259,36A052,Car] + x[D259,36A052,Moped] + x[D259,36A052,EBikeCart]
+   + x[D259,36A052,FootBike] + x[354F64,36A052,Car]
+   + x[354F64,36A052,Moped] + x[354F64,36A052,EBikeCart]
+   + x[354F64,36A052,FootBike] + x[356C15,36A052,Car]
+   + x[356C15,36A052,Moped] + x[356C15,36A052,EBikeCart]
+   + x[356C15,36A052,FootBike] + x[360F03,36A052,Car]
+   + x[360F03,36A052,Moped] + x[360F03,36A052,EBikeCart]
+   + x[360F03,36A052,FootBike] + x[360F04,36A052,Car]
+   + x[360F04,36A052,Moped] + x[360F04,36A052,EBikeCart]
+   + x[360F04,36A052,FootBike] + x[36A022,36A052,Car]
+   + x[36A022,36A052,Moped] + x[36A022,36A052,EBikeCart]
+   + x[36A022,36A052,FootBike] = 1
+ z_one_36A052: z[36A052,D224] + z[36A052,D257] + z[36A052,D225]
+   + z[36A052,D258] + z[36A052,D223] + z[36A052,D256] + z[36A052,D192]
+   + z[36A052,D290] + z[36A052,D193] + z[36A052,D291] + z[36A052,D226]
+   + z[36A052,D259] = 1
+ link_36A052_D192: x[D224,36A052,Car] + x[D224,36A052,Moped]
+   + x[D224,36A052,EBikeCart] + x[D224,36A052,FootBike]
+   + x[D257,36A052,Car] + x[D257,36A052,Moped] + x[D257,36A052,EBikeCart]
+   + x[D257,36A052,FootBike] + x[D225,36A052,Car] + x[D225,36A052,Moped]
+   + x[D225,36A052,EBikeCart] + x[D225,36A052,FootBike]
+   + x[D258,36A052,Car] + x[D258,36A052,Moped] + x[D258,36A052,EBikeCart]
+   + x[D258,36A052,FootBike] + x[D223,36A052,Car] + x[D223,36A052,Moped]
+   + x[D223,36A052,EBikeCart] + x[D223,36A052,FootBike]
+   + x[D256,36A052,Car] + x[D256,36A052,Moped] + x[D256,36A052,EBikeCart]
+   + x[D256,36A052,FootBike] + x[D192,36A052,Car] + x[D192,36A052,Moped]
+   + x[D192,36A052,EBikeCart] + x[D192,36A052,FootBike]
+   + x[D290,36A052,Car] + x[D290,36A052,Moped] + x[D290,36A052,EBikeCart]
+   + x[D290,36A052,FootBike] + x[D193,36A052,Car] + x[D193,36A052,Moped]
+   + x[D193,36A052,EBikeCart] + x[D193,36A052,FootBike]
+   + x[D291,36A052,Car] + x[D291,36A052,Moped] + x[D291,36A052,EBikeCart]
+   + x[D291,36A052,FootBike] + x[D226,36A052,Car] + x[D226,36A052,Moped]
+   + x[D226,36A052,EBikeCart] + x[D226,36A052,FootBike]
+   + x[D259,36A052,Car] + x[D259,36A052,Moped] + x[D259,36A052,EBikeCart]
+   + x[D259,36A052,FootBike] + x[354F64,36A052,Car]
+   + x[354F64,36A052,Moped] + x[354F64,36A052,EBikeCart]
+   + x[354F64,36A052,FootBike] + x[356C15,36A052,Car]
+   + x[356C15,36A052,Moped] + x[356C15,36A052,EBikeCart]
+   + x[356C15,36A052,FootBike] + x[360F03,36A052,Car]
+   + x[360F03,36A052,Moped] + x[360F03,36A052,EBikeCart]
+   + x[360F03,36A052,FootBike] + x[360F04,36A052,Car]
+   + x[360F04,36A052,Moped] + x[360F04,36A052,EBikeCart]
+   + x[360F04,36A052,FootBike] + x[36A022,36A052,Car]
+   + x[36A022,36A052,Moped] + x[36A022,36A052,EBikeCart]
+   + x[36A022,36A052,FootBike] - 4 z[36A052,D192] <= 0
+ link_36A052_D291: x[D224,36A052,Car] + x[D224,36A052,Moped]
+   + x[D224,36A052,EBikeCart] + x[D224,36A052,FootBike]
+   + x[D257,36A052,Car] + x[D257,36A052,Moped] + x[D257,36A052,EBikeCart]
+   + x[D257,36A052,FootBike] + x[D225,36A052,Car] + x[D225,36A052,Moped]
+   + x[D225,36A052,EBikeCart] + x[D225,36A052,FootBike]
+   + x[D258,36A052,Car] + x[D258,36A052,Moped] + x[D258,36A052,EBikeCart]
+   + x[D258,36A052,FootBike] + x[D223,36A052,Car] + x[D223,36A052,Moped]
+   + x[D223,36A052,EBikeCart] + x[D223,36A052,FootBike]
+   + x[D256,36A052,Car] + x[D256,36A052,Moped] + x[D256,36A052,EBikeCart]
+   + x[D256,36A052,FootBike] + x[D192,36A052,Car] + x[D192,36A052,Moped]
+   + x[D192,36A052,EBikeCart] + x[D192,36A052,FootBike]
+   + x[D290,36A052,Car] + x[D290,36A052,Moped] + x[D290,36A052,EBikeCart]
+   + x[D290,36A052,FootBike] + x[D193,36A052,Car] + x[D193,36A052,Moped]
+   + x[D193,36A052,EBikeCart] + x[D193,36A052,FootBike]
+   + x[D291,36A052,Car] + x[D291,36A052,Moped] + x[D291,36A052,EBikeCart]
+   + x[D291,36A052,FootBike] + x[D226,36A052,Car] + x[D226,36A052,Moped]
+   + x[D226,36A052,EBikeCart] + x[D226,36A052,FootBike]
+   + x[D259,36A052,Car] + x[D259,36A052,Moped] + x[D259,36A052,EBikeCart]
+   + x[D259,36A052,FootBike] + x[354F64,36A052,Car]
+   + x[354F64,36A052,Moped] + x[354F64,36A052,EBikeCart]
+   + x[354F64,36A052,FootBike] + x[356C15,36A052,Car]
+   + x[356C15,36A052,Moped] + x[356C15,36A052,EBikeCart]
+   + x[356C15,36A052,FootBike] + x[360F03,36A052,Car]
+   + x[360F03,36A052,Moped] + x[360F03,36A052,EBikeCart]
+   + x[360F03,36A052,FootBike] + x[360F04,36A052,Car]
+   + x[360F04,36A052,Moped] + x[360F04,36A052,EBikeCart]
+   + x[360F04,36A052,FootBike] + x[36A022,36A052,Car]
+   + x[36A022,36A052,Moped] + x[36A022,36A052,EBikeCart]
+   + x[36A022,36A052,FootBike] - 4 z[36A052,D291] <= 0
+Bounds
+ x[D224,36A052,Car] free
+ x[D224,36A052,Moped] free
+ x[D224,36A052,EBikeCart] free
+ x[D224,36A052,FootBike] free
+ x[D257,36A052,Car] free
+ x[D257,36A052,Moped] free
+ x[D257,36A052,EBikeCart] free
+ x[D257,36A052,FootBike] free
+ x[D225,36A052,Car] free
+ x[D225,36A052,Moped] free
+ x[D225,36A052,EBikeCart] free
+ x[D225,36A052,FootBike] free
+ x[D258,36A052,Car] free
+ x[D258,36A052,Moped] free
+ x[D258,36A052,EBikeCart] free
+ x[D258,36A052,FootBike] free
+ x[D223,36A052,Car] free
+ x[D223,36A052,Moped] free
+ x[D223,36A052,EBikeCart] free
+ x[D223,36A052,FootBike] free
+ x[D256,36A052,Car] free
+ x[D256,36A052,Moped] free
+ x[D256,36A052,EBikeCart] free
+ x[D256,36A052,FootBike] free
+ x[D192,36A052,Car] free
+ x[D192,36A052,Moped] free
+ x[D192,36A052,EBikeCart] free
+ x[D192,36A052,FootBike] free
+ x[D290,36A052,Car] free
+ x[D290,36A052,Moped] free
+ x[D290,36A052,EBikeCart] free
+ x[D290,36A052,FootBike] free
+ x[D193,36A052,Car] free
+ x[D193,36A052,Moped] free
+ x[D193,36A052,EBikeCart] free
+ x[D193,36A052,FootBike] free
+ x[D291,36A052,Car] free
+ x[D291,36A052,Moped] free
+ x[D291,36A052,EBikeCart] free
+ x[D291,36A052,FootBike] free
+ x[D226,36A052,Car] free
+ x[D226,36A052,Moped] free
+ x[D226,36A052,EBikeCart] free
+ x[D226,36A052,FootBike] free
+ x[D259,36A052,Car] free
+ x[D259,36A052,Moped] free
+ x[D259,36A052,EBikeCart] free
+ x[D259,36A052,FootBike] free
+ x[354F64,36A052,Car] free
+ x[354F64,36A052,Moped] free
+ x[354F64,36A052,EBikeCart] free
+ x[354F64,36A052,FootBike] free
+ x[356C15,36A052,Car] free
+ x[356C15,36A052,Moped] free
+ x[356C15,36A052,EBikeCart] free
+ x[356C15,36A052,FootBike] free
+ x[360F03,36A052,Car] free
+ x[360F03,36A052,Moped] free
+ x[360F03,36A052,EBikeCart] free
+ x[360F03,36A052,FootBike] free
+ x[360F04,36A052,Car] free
+ x[360F04,36A052,Moped] free
+ x[360F04,36A052,EBikeCart] free
+ x[360F04,36A052,FootBike] free
+ x[36A022,36A052,Car] free
+ x[36A022,36A052,Moped] free
+ x[36A022,36A052,EBikeCart] free
+ x[36A022,36A052,FootBike] free
+Binaries
+ z[36A052,D224] z[36A052,D257] z[36A052,D225] z[36A052,D258] z[36A052,D223]
+ z[36A052,D256] z[36A052,D192] z[36A052,D290] z[36A052,D193] z[36A052,D291]
+ z[36A052,D226] z[36A052,D259]
+Generals
+ x[D224,36A052,Car] x[D224,36A052,Moped] x[D224,36A052,EBikeCart]
+ x[D224,36A052,FootBike] x[D257,36A052,Car] x[D257,36A052,Moped]
+ x[D257,36A052,EBikeCart] x[D257,36A052,FootBike] x[D225,36A052,Car]
+ x[D225,36A052,Moped] x[D225,36A052,EBikeCart] x[D225,36A052,FootBike]
+ x[D258,36A052,Car] x[D258,36A052,Moped] x[D258,36A052,EBikeCart]
+ x[D258,36A052,FootBike] x[D223,36A052,Car] x[D223,36A052,Moped]
+ x[D223,36A052,EBikeCart] x[D223,36A052,FootBike] x[D256,36A052,Car]
+ x[D256,36A052,Moped] x[D256,36A052,EBikeCart] x[D256,36A052,FootBike]
+ x[D192,36A052,Car] x[D192,36A052,Moped] x[D192,36A052,EBikeCart]
+ x[D192,36A052,FootBike] x[D290,36A052,Car] x[D290,36A052,Moped]
+ x[D290,36A052,EBikeCart] x[D290,36A052,FootBike] x[D193,36A052,Car]
+ x[D193,36A052,Moped] x[D193,36A052,EBikeCart] x[D193,36A052,FootBike]
+ x[D291,36A052,Car] x[D291,36A052,Moped] x[D291,36A052,EBikeCart]
+ x[D291,36A052,FootBike] x[D226,36A052,Car] x[D226,36A052,Moped]
+ x[D226,36A052,EBikeCart] x[D226,36A052,FootBike] x[D259,36A052,Car]
+ x[D259,36A052,Moped] x[D259,36A052,EBikeCart] x[D259,36A052,FootBike]
+ x[354F64,36A052,Car] x[354F64,36A052,Moped] x[354F64,36A052,EBikeCart]
+ x[354F64,36A052,FootBike] x[356C15,36A052,Car] x[356C15,36A052,Moped]
+ x[356C15,36A052,EBikeCart] x[356C15,36A052,FootBike] x[360F03,36A052,Car]
+ x[360F03,36A052,Moped] x[360F03,36A052,EBikeCart]
+ x[360F03,36A052,FootBike] x[360F04,36A052,Car] x[360F04,36A052,Moped]
+ x[360F04,36A052,EBikeCart] x[360F04,36A052,FootBike] x[36A022,36A052,Car]
+ x[36A022,36A052,Moped] x[36A022,36A052,EBikeCart]
+ x[36A022,36A052,FootBike]
+End

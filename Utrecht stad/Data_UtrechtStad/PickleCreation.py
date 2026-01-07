@@ -17,7 +17,7 @@ PATH_DEPOT_ROUTE =  BASE_DIR / "delivery_times_2028.xlsx"
 PATH_ROUTE_ROUTE =  BASE_DIR / "OD_RouteRoute.xlsx"
 PATH_DEMAND      =  BASE_DIR / "Demand2028.xlsx"
 
-OUT_FILE =  BASE_DIR / "model_input.pkl"
+OUT_FILE =  BASE_DIR / "model_input_US.pkl"
 
 # ------------------------------------------------------------
 # Helpers
