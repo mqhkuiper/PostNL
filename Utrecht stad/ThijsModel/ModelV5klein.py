@@ -9,6 +9,7 @@ this model:
  - assigns each route to exactly one depot and one mode
 
 '''
+
 import os
 import pickle
 import pandas as pd
@@ -382,11 +383,28 @@ if m.SolCount > 0:
     }]
 
     # --------------------------------------------------------
-    # 2) DEPOT-LEVEL RESULTS
+    # 2) DEPOT-LEVEL RESULTS + COSTS
     # --------------------------------------------------------
     depot_rows = []
+    depot_cost_rows = []
+
     for j in J:
         assigned_routes = [i for i in I if (i, j) in z and z[i, j].X > 0.5]
+
+        cost_open = f_j[j] * y[j].X
+        cost_handling = sum(0.56 * c_s * D[i] for i in assigned_routes)
+
+        time_est = 0.0
+        cost_time_est = 0.0
+        for i in assigned_routes:
+            mode = next(t for t in T if r[i, t].X > 0.5)
+            t_srv = S.get((i, j, mode), 0.0)
+            t_out = L.get((j, i, mode), 0.0)
+            t_back = L.get((i, j, mode), 0.0)
+            t_i = t_out + t_srv + t_back
+            time_est += t_i
+            cost_time_est += (w + c_t[mode]) * t_i
+
         depot_rows.append({
             "depot": j,
             "open": int(round(y[j].X)),
@@ -395,71 +413,141 @@ if m.SolCount > 0:
             "capacity_used": sum(D[i] for i in assigned_routes) / C_d if y[j].X > 0 else 0.0
         })
 
+        depot_cost_rows.append({
+            "depot": j,
+            "cost_open": cost_open,
+            "cost_handling": cost_handling,
+            "time_estimate": time_est,
+            "cost_time_estimate": cost_time_est,
+            "cost_total_estimate": cost_open + cost_handling + cost_time_est
+        })
+
     # --------------------------------------------------------
-    # 3) ROUTE-LEVEL ASSIGNMENTS (FULL)
+    # 3) ROUTE-LEVEL RESULTS + COSTS
     # --------------------------------------------------------
     route_rows = []
+    route_cost_rows = []
+
     for i in I:
         depot = next(j for j in J_cand[i] if z[i, j].X > 0.5)
         mode = next(t for t in T if r[i, t].X > 0.5)
 
-        # travel times
-        travel_time_depot_to_route = L.get((depot, i, mode), 0.0)
-        travel_time_route_to_depot = L.get((i, depot, mode), 0.0)
+        t_srv = S.get((i, depot, mode), 0.0)
+        t_out = L.get((depot, i, mode), 0.0)
+        t_back = L.get((i, depot, mode), 0.0)
+
+        time_est = t_out + t_srv + t_back
+        cost_handling = 0.56 * c_s * D[i]
+        cost_time_est = (w + c_t[mode]) * time_est
 
         route_rows.append({
             "route": i,
             "assigned_depot": depot,
             "assigned_mode": mode,
             "demand": D[i],
-            "service_time": S.get((i, depot, mode), 0.0),
-            "travel_time_to_depot": travel_time_route_to_depot,
-            "travel_time_from_depot": travel_time_depot_to_route,
-            "round_trip_travel_time": (
-                travel_time_depot_to_route +
-                travel_time_route_to_depot
-            ),
-            "total_time_estimate": (
-                S.get((i, depot, mode), 0.0) +
-                travel_time_depot_to_route +
-                travel_time_route_to_depot
-            )
+            "service_time": t_srv,
+            "travel_time_from_depot": t_out,
+            "travel_time_to_depot": t_back,
+            "round_trip_travel_time": t_out + t_back,
+            "total_time_estimate": time_est
+        })
+
+        route_cost_rows.append({
+            "route": i,
+            "assigned_depot": depot,
+            "assigned_mode": mode,
+            "cost_handling": cost_handling,
+            "cost_time_estimate": cost_time_est,
+            "cost_total_estimate": cost_handling + cost_time_est
         })
 
     # --------------------------------------------------------
-    # 4) MODE-LEVEL (FLEET & TIME)
+    # 4) MODE-LEVEL (FLEET, TIME, SLACK)
     # --------------------------------------------------------
     mode_rows = []
+    uptime_rows = []
+
     for t in T:
-        routes_t = [i for i in I if r[i, t].X > 0.5]
         mode_rows.append({
             "mode": t,
             "vehicles_used": int(round(n[t].X)),
             "total_work_time": g[t].X,
             "max_available_time": n[t].X * R_t[t],
             "utilization": g[t].X / (n[t].X * R_t[t]) if n[t].X > 0 else 0.0,
-            "routes_served": len(routes_t),
-            "total_demand": sum(D[i] for i in routes_t)
+        })
+
+        uptime_rows.append({
+            "mode": t,
+            "g": g[t].X,
+            "n": n[t].X,
+            "R": R_t[t],
+            "nR": n[t].X * R_t[t],
+            "slack": (n[t].X * R_t[t]) - g[t].X
         })
 
     # --------------------------------------------------------
-    # 5) AGGREGATED ROUTING ARCS
+    # 5) ROUTE CHAINS (PREDECESSOR / SUCCESSOR)
     # --------------------------------------------------------
-    arc_rows = []
-    for (u, v) in A:
+    chain_rows = []
+    chain_edge_rows = []
+
+    for i in I:
+        mode = next(t for t in T if r[i, t].X > 0.5)
+        predecessors = [u for u in I if (u, i) in A_rr and x[u, i, mode].X > 0.5]
+        successors = [v for v in I if (i, v) in A_rr and x[i, v, mode].X > 0.5]
+
+        chain_rows.append({
+            "route": i,
+            "mode": mode,
+            "is_start": int(len(predecessors) == 0),
+            "is_end": int(len(successors) == 0),
+            "is_middle": int(len(predecessors) > 0 and len(successors) > 0),
+            "predecessors": ",".join(predecessors),
+            "successors": ",".join(successors),
+        })
+
+    for (u, v) in A_rr:
         for t in T:
-            if x[u, v, t].X > 0:
-                arc_rows.append({
-                    "from": u,
-                    "to": v,
+            if x[u, v, t].X > 0.5:
+                chain_edge_rows.append({
                     "mode": t,
+                    "from_route": u,
+                    "to_route": v,
                     "flow_count": int(round(x[u, v, t].X)),
-                    "distance": d.get((u, v), None),
-                    "travel_time": L.get((u, v, t), None)
+                    "travel_time": L.get((u, v, t), None),
+                    "distance": d.get((u, v), None)
                 })
 
     # --------------------------------------------------------
-    # 6) COST BREAKDOWN (POST-CALC)
+    # 6) RECONSTRUCT TOURS PER MODE
+    # --------------------------------------------------------
+    tour_rows = []
+
+    for t in T:
+        start_routes = [
+            i for i in I
+            if r[i, t].X > 0.5 and
+            not any((u, i) in A_rr and x[u, i, t].X > 0.5 for u in I)
+        ]
+
+        for start in start_routes:
+            tour = [start]
+            current = start
+            while True:
+                nxt = [v for v in I if (current, v) in A_rr and x[current, v, t].X > 0.5]
+                if not nxt:
+                    break
+                current = nxt[0]
+                tour.append(current)
+
+            tour_rows.append({
+                "mode": t,
+                "num_routes": len(tour),
+                "tour_sequence": " -> ".join(tour)
+            })
+
+    # --------------------------------------------------------
+    # 7) COST BREAKDOWN (MODEL LEVEL)
     # --------------------------------------------------------
     cost_rows = [{
         "cost_depots": sum(f_j[j] * y[j].X for j in J),
@@ -478,28 +566,22 @@ if m.SolCount > 0:
     out_path = os.path.join(SCRIPT_DIR, "solution_US.xlsx")
 
     with pd.ExcelWriter(out_path, engine="xlsxwriter") as writer:
-        pd.DataFrame(model_summary).to_excel(
-            writer, sheet_name="ModelSummary", index=False
-        )
-        pd.DataFrame(depot_rows).to_excel(
-            writer, sheet_name="Depots", index=False
-        )
-        pd.DataFrame(route_rows).to_excel(
-            writer, sheet_name="Routes", index=False
-        )
-        pd.DataFrame(mode_rows).to_excel(
-            writer, sheet_name="Modes", index=False
-        )
-        pd.DataFrame(arc_rows).to_excel(
-            writer, sheet_name="Arcs", index=False
-        )
-        pd.DataFrame(cost_rows).to_excel(
-            writer, sheet_name="CostBreakdown", index=False
-        )
+        pd.DataFrame(model_summary).to_excel(writer, sheet_name="ModelSummary", index=False)
+        pd.DataFrame(depot_rows).to_excel(writer, sheet_name="Depots", index=False)
+        pd.DataFrame(depot_cost_rows).to_excel(writer, sheet_name="DepotCosts", index=False)
+        pd.DataFrame(route_rows).to_excel(writer, sheet_name="Routes", index=False)
+        pd.DataFrame(route_cost_rows).to_excel(writer, sheet_name="RouteCosts", index=False)
+        pd.DataFrame(mode_rows).to_excel(writer, sheet_name="Modes", index=False)
+        pd.DataFrame(uptime_rows).to_excel(writer, sheet_name="UptimeSlack", index=False)
+        pd.DataFrame(chain_rows).to_excel(writer, sheet_name="RouteChains", index=False)
+        pd.DataFrame(chain_edge_rows).to_excel(writer, sheet_name="ChainEdges", index=False)
+        pd.DataFrame(tour_rows).to_excel(writer, sheet_name="Tours", index=False)
+        pd.DataFrame(cost_rows).to_excel(writer, sheet_name="CostBreakdown", index=False)
 
     print(f"[ok] extensive export written to: {out_path}")
 
 else:
     print("[warn] no feasible solution — nothing exported")
+    
 
 
