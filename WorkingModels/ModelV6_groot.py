@@ -62,8 +62,8 @@ C_d = 10000                        # depot capacity (non-binding)
 # fixed daily vehicle costs
 c_t_s = {
     "FootBike": 0.52,
-    "Car": 66.73,
-    "EBikeCart": 16.02,
+    "Car": 95.53,
+    "EBikeCart": 14.58,
     "Moped": 18.54
 }
 
@@ -92,10 +92,10 @@ Q_t = {
 '''
 # average speeds (km/h)
 v_t = {
-    "FootBike": 15,
-    "Car": 40,
+    "FootBike": 13,
+    "Car": 35,
     "EBikeCart": 17.5,
-    "Moped": 30
+    "Moped": 22.5
 }
 
 # maximum daily uptime (hours)
