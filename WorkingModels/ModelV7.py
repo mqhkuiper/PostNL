@@ -241,6 +241,8 @@ g = m.addVars(T, lb=0, name="g")
 # n[t]: number of vehicles of mode t used
 n = m.addVars(T, vtype=GRB.INTEGER, lb=0, name="n")
 
+n_jt = m.addVars(J, T, vtype=GRB.INTEGER, lb=0, name="n_jt")
+
 # ============================================================
 # 7) objective
 # ============================================================
@@ -256,7 +258,7 @@ print("[step 7] setting objective")
 m.setObjective(
     quicksum(f_j[j] * y[j] for j in J)
     + 0.56 * quicksum(c_s * D[i] * z[i, j] for (i, j) in z)
-    + 0.5 * quicksum(c_t_s[t] * x[j, i, t] for (j, i) in A_dr for t in T)
+    + 0.5 * quicksum(c_t_s[t] * n_jt[j, t] for j in J for t in T)
     + quicksum((c_t[t] + w) * g[t] for t in T),
     GRB.MINIMIZE
 )
@@ -327,6 +329,23 @@ for (i, j) in A_rd:
         m.addConstr(x[i, j, t] <= z[i, j])
 report("8.8 depot arc consistency", len(A_dr) * len(T) + len(A_rd) * len(T))
 
+# vehicles per depot per mode equals number of tours that start at that depot in that mode
+for j in J:
+    for t in T:
+        m.addConstr(
+            n_jt[j, t] == quicksum(x[j, i, t] for (j2, i) in A_dr if j2 == j)
+        )
+report("vehicles per depot/mode (start count)", len(J) * len(T))
+
+# (8.xx) total vehicles per mode
+# total number of vehicles of mode t equals sum over all depots
+for t in T:
+    m.addConstr(
+        n[t] == quicksum(n_jt[j, t] for j in J)
+    )
+report("total vehicles per mode", len(T))
+
+
 # 8.9 depot start = depot end for all modes
 # every vehicle that starts at a depot must also end at the same depot
 for t in T:
@@ -359,6 +378,8 @@ for t in T:
 report("8.11 uptime", len(T))
 
 print(f"[ok] total constraints added: {constr_count:,}")
+
+
 
 # ============================================================
 # 9) solve
@@ -628,12 +649,11 @@ if m.SolCount > 0:
         for i in I
     )
 
-    # fixed vehicle storage / lease costs (counted per vehicle departure)
-    cost_fixed_vehicle_storage = 0.5 * sum(
-        c_t_s[t] * x[j, i, t].X
-        for (j, i) in A_dr
-        for t in T
+    fixed_vehicle_storage_costs = 0.5 * sum(
+        c_t_s[t] * n_jt[j, t].X
+        for j in J for t in T
     )
+
 
     # variable routing costs: vehicle operational cost + mail carrier wage
     cost_variable_routing = sum(
@@ -644,12 +664,12 @@ if m.SolCount > 0:
     cost_breakdown_detailed = [{
         "fixed_depot_opening_costs": cost_fixed_depots,
         "variable_depot_storage_costs": cost_variable_depot_storage,
-        "fixed_vehicle_storage_costs": cost_fixed_vehicle_storage,
+        "fixed_vehicle_storage_costs": fixed_vehicle_storage_costs,
         "variable_routing_costs": cost_variable_routing,
         "total_cost": (
             cost_fixed_depots
             + cost_variable_depot_storage
-            + cost_fixed_vehicle_storage
+            + fixed_vehicle_storage_costs
             + cost_variable_routing
         )
     }]
