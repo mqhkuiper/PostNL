@@ -17,8 +17,9 @@ PKL_NAME = "model_inputUSXY.pkl"
 
 print(f"[step 1] loading data from {PKL_NAME}")
 
-with open("Utrecht stad/model_inputUSXY.pkl", "rb") as f:
+with open(os.path.join(SCRIPT_DIR, PKL_NAME), "rb") as f:
     model_data = pickle.load(f)
+
 
 # sets
 I_all = list(model_data["sets"]["I"])  # all routes / delivery clusters
@@ -76,6 +77,15 @@ print("[step 2] building parameters")
 c_s = 0.42  # storage / handling cost per delivery bag (per day)
 f_j = {j: 50 for j in J}  # fixed depot opening costs
 C_d = 10000  # depot capacity
+
+
+# vehicle capacities (bags)
+Q_t = {
+    "FootBike": 4,
+    "Car": 25,
+    "EBikeCart": 6,
+    "Moped": 4
+}
 
 # vehicle fixed costs per unit
 c_t_s = {
@@ -370,7 +380,32 @@ for day in T_days:
         for t in T:
             m.addConstr(x[i, j, t, day] <= z[i, j, day])
     report(f"{day}: 8.8 depot arc consistency", len(A_dr) * len(T) + len(A_rd) * len(T))
+
+    # 8.8b route–route arcs must stay within the same depot
+    for (u, v) in A_rr:
+        for t in T:
+            m.addConstr(
+                x[u, v, t, day] <=
+                quicksum(
+                    z[u, j, day] * z[v, j, day]
+                    for j in J_cand[u]
+                    if j in J_cand[v]
+                )
+            )
+
+    report(f"{day}: 8.8b route–route depot consistency", len(A_rr) * len(T))
+
     
+    # 8.8c capacity feasibility for chaining (route -> route)
+    # only allow u -> v if D[u] + D[v] <= Q_t[mode]
+    cnt = 0
+    for (u, v) in A_rr:
+        for t in T:
+            if D[u] + D[v] > Q_t[t]:
+                m.addConstr(x[u, v, t, day] == 0)
+                cnt += 1
+    report(f"{day}: 8.8c rr capacity cutoff (pairwise)", cnt)
+
     for t in T:
         for j in J:
             m.addConstr(
@@ -622,7 +657,7 @@ if m.SolCount > 0:
             })
 
     # ========== WRITE TO EXCEL ==========
-    out_path = os.path.join(SCRIPT_DIR, "solution_twoday_clean.xlsx")
+    out_path = os.path.join(SCRIPT_DIR, "solution_twoday.xlsx")
 
     with pd.ExcelWriter(out_path, engine="xlsxwriter") as writer:
         pd.DataFrame(model_summary).to_excel(writer, sheet_name="ModelSummary", index=False)
