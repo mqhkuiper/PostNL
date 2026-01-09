@@ -9,7 +9,7 @@ from collections import Counter
 
 BASE_DIR = Path(__file__).resolve().parent
 
-PICKLE_NAME = "model_inputUS.pkl"
+PICKLE_NAME = "model_inputUSXY.pkl"
 
 # ------------------------------------------------------------
 # Load pickle
