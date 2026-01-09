@@ -1,5 +1,5 @@
 # Solution for model DepotRoutingCleanFleet_TwoDay_XYSplit
-# Objective value = 2.0996495594336724e+04
+# Objective value = 2.2404391126339786e+04
 y[D100] 0
 y[D101] 0
 y[D102] 0
@@ -54,8 +54,8 @@ y[D223] 0
 y[D224] 0
 y[D225] 0
 y[D226] 0
-y[D227] 1
-y[D228] 0
+y[D227] 0
+y[D228] 1
 y[D229] 0
 y[D230] 0
 y[D231] 0
@@ -70,7 +70,7 @@ y[D256] 0
 y[D257] 0
 y[D258] 1
 y[D259] 0
-y[D260] 0
+y[D260] 1
 y[D261] 0
 y[D262] 0
 y[D263] 0
@@ -87,7 +87,7 @@ y[D290] 0
 y[D291] 0
 y[D292] 0
 y[D293] 0
-y[D294] 0
+y[D294] 1
 y[D295] 0
 y[D296] 0
 y[D297] 0
@@ -101,10 +101,10 @@ y[D322] 0
 y[D323] 0
 y[D324] 0
 y[D325] 0
-y[D326] 0
+y[D326] 1
 y[D327] 1
 y[D328] 1
-y[D329] 0
+y[D329] 1
 y[D330] 0
 y[D331] 0
 y[D332] 0
@@ -117,8 +117,8 @@ y[D356] 0
 y[D357] 0
 y[D358] 0
 y[D359] 0
-y[D360] 1
-y[D361] 0
+y[D360] 0
+y[D361] 1
 y[D362] 1
 y[D363] 1
 y[D364] 0
@@ -214,9 +214,9 @@ y[D75] 0
 y[D98] 0
 y[D99] 0
 n[Car] 0
-n[Moped] 9
-n[EBikeCart] 8
-n[FootBike] 219
+n[Moped] 10
+n[EBikeCart] 5
+n[FootBike] 221
 n_jt_TueThur[D100,Car] 0
 n_jt_TueThur[D100,Moped] 0
 n_jt_TueThur[D100,EBikeCart] 0
@@ -434,13 +434,13 @@ n_jt_TueThur[D226,Moped] 0
 n_jt_TueThur[D226,EBikeCart] 0
 n_jt_TueThur[D226,FootBike] 0
 n_jt_TueThur[D227,Car] 0
-n_jt_TueThur[D227,Moped] 1
+n_jt_TueThur[D227,Moped] 0
 n_jt_TueThur[D227,EBikeCart] 0
-n_jt_TueThur[D227,FootBike] 1
+n_jt_TueThur[D227,FootBike] 0
 n_jt_TueThur[D228,Car] 0
 n_jt_TueThur[D228,Moped] 0
 n_jt_TueThur[D228,EBikeCart] 0
-n_jt_TueThur[D228,FootBike] 0
+n_jt_TueThur[D228,FootBike] 26
 n_jt_TueThur[D229,Car] 0
 n_jt_TueThur[D229,Moped] 0
 n_jt_TueThur[D229,EBikeCart] 0
@@ -490,17 +490,17 @@ n_jt_TueThur[D257,Moped] 0
 n_jt_TueThur[D257,EBikeCart] 0
 n_jt_TueThur[D257,FootBike] 0
 n_jt_TueThur[D258,Car] 0
-n_jt_TueThur[D258,Moped] 0
+n_jt_TueThur[D258,Moped] 2
 n_jt_TueThur[D258,EBikeCart] 0
-n_jt_TueThur[D258,FootBike] 1
+n_jt_TueThur[D258,FootBike] 20
 n_jt_TueThur[D259,Car] 0
 n_jt_TueThur[D259,Moped] 0
 n_jt_TueThur[D259,EBikeCart] 0
 n_jt_TueThur[D259,FootBike] 0
 n_jt_TueThur[D260,Car] 0
-n_jt_TueThur[D260,Moped] 0
-n_jt_TueThur[D260,EBikeCart] 0
-n_jt_TueThur[D260,FootBike] 0
+n_jt_TueThur[D260,Moped] 1
+n_jt_TueThur[D260,EBikeCart] 1
+n_jt_TueThur[D260,FootBike] 8
 n_jt_TueThur[D261,Car] 0
 n_jt_TueThur[D261,Moped] 0
 n_jt_TueThur[D261,EBikeCart] 0
@@ -566,9 +566,9 @@ n_jt_TueThur[D293,Moped] 0
 n_jt_TueThur[D293,EBikeCart] 0
 n_jt_TueThur[D293,FootBike] 0
 n_jt_TueThur[D294,Car] 0
-n_jt_TueThur[D294,Moped] 0
-n_jt_TueThur[D294,EBikeCart] 0
-n_jt_TueThur[D294,FootBike] 0
+n_jt_TueThur[D294,Moped] 1
+n_jt_TueThur[D294,EBikeCart] 1
+n_jt_TueThur[D294,FootBike] 16
 n_jt_TueThur[D295,Car] 0
 n_jt_TueThur[D295,Moped] 0
 n_jt_TueThur[D295,EBikeCart] 0
@@ -622,21 +622,21 @@ n_jt_TueThur[D325,Moped] 0
 n_jt_TueThur[D325,EBikeCart] 0
 n_jt_TueThur[D325,FootBike] 0
 n_jt_TueThur[D326,Car] 0
-n_jt_TueThur[D326,Moped] 0
-n_jt_TueThur[D326,EBikeCart] 0
-n_jt_TueThur[D326,FootBike] 0
+n_jt_TueThur[D326,Moped] 2
+n_jt_TueThur[D326,EBikeCart] 1
+n_jt_TueThur[D326,FootBike] 7
 n_jt_TueThur[D327,Car] 0
-n_jt_TueThur[D327,Moped] 1
+n_jt_TueThur[D327,Moped] 0
 n_jt_TueThur[D327,EBikeCart] 0
-n_jt_TueThur[D327,FootBike] 0
+n_jt_TueThur[D327,FootBike] 22
 n_jt_TueThur[D328,Car] 0
 n_jt_TueThur[D328,Moped] 0
 n_jt_TueThur[D328,EBikeCart] 0
-n_jt_TueThur[D328,FootBike] 0
+n_jt_TueThur[D328,FootBike] 23
 n_jt_TueThur[D329,Car] 0
 n_jt_TueThur[D329,Moped] 0
 n_jt_TueThur[D329,EBikeCart] 0
-n_jt_TueThur[D329,FootBike] 0
+n_jt_TueThur[D329,FootBike] 9
 n_jt_TueThur[D330,Car] 0
 n_jt_TueThur[D330,Moped] 0
 n_jt_TueThur[D330,EBikeCart] 0
@@ -690,17 +690,17 @@ n_jt_TueThur[D360,Moped] 0
 n_jt_TueThur[D360,EBikeCart] 0
 n_jt_TueThur[D360,FootBike] 0
 n_jt_TueThur[D361,Car] 0
-n_jt_TueThur[D361,Moped] 0
-n_jt_TueThur[D361,EBikeCart] 0
-n_jt_TueThur[D361,FootBike] 0
+n_jt_TueThur[D361,Moped] 1
+n_jt_TueThur[D361,EBikeCart] 1
+n_jt_TueThur[D361,FootBike] 17
 n_jt_TueThur[D362,Car] 0
 n_jt_TueThur[D362,Moped] 0
 n_jt_TueThur[D362,EBikeCart] 0
-n_jt_TueThur[D362,FootBike] 0
+n_jt_TueThur[D362,FootBike] 29
 n_jt_TueThur[D363,Car] 0
-n_jt_TueThur[D363,Moped] 0
+n_jt_TueThur[D363,Moped] 1
 n_jt_TueThur[D363,EBikeCart] 0
-n_jt_TueThur[D363,FootBike] 0
+n_jt_TueThur[D363,FootBike] 17
 n_jt_TueThur[D364,Car] 0
 n_jt_TueThur[D364,Moped] 0
 n_jt_TueThur[D364,EBikeCart] 0
@@ -806,9 +806,9 @@ n_jt_TueThur[D428,Moped] 0
 n_jt_TueThur[D428,EBikeCart] 0
 n_jt_TueThur[D428,FootBike] 0
 n_jt_TueThur[D429,Car] 0
-n_jt_TueThur[D429,Moped] 0
-n_jt_TueThur[D429,EBikeCart] 0
-n_jt_TueThur[D429,FootBike] 0
+n_jt_TueThur[D429,Moped] 2
+n_jt_TueThur[D429,EBikeCart] 1
+n_jt_TueThur[D429,FootBike] 11
 n_jt_TueThur[D430,Car] 0
 n_jt_TueThur[D430,Moped] 0
 n_jt_TueThur[D430,EBikeCart] 0
@@ -1290,9 +1290,9 @@ n_jt_WedFri[D227,Moped] 0
 n_jt_WedFri[D227,EBikeCart] 0
 n_jt_WedFri[D227,FootBike] 0
 n_jt_WedFri[D228,Car] 0
-n_jt_WedFri[D228,Moped] 0
+n_jt_WedFri[D228,Moped] 1
 n_jt_WedFri[D228,EBikeCart] 0
-n_jt_WedFri[D228,FootBike] 0
+n_jt_WedFri[D228,FootBike] 17
 n_jt_WedFri[D229,Car] 0
 n_jt_WedFri[D229,Moped] 0
 n_jt_WedFri[D229,EBikeCart] 0
@@ -1342,17 +1342,17 @@ n_jt_WedFri[D257,Moped] 0
 n_jt_WedFri[D257,EBikeCart] 0
 n_jt_WedFri[D257,FootBike] 0
 n_jt_WedFri[D258,Car] 0
-n_jt_WedFri[D258,Moped] 0
-n_jt_WedFri[D258,EBikeCart] 0
-n_jt_WedFri[D258,FootBike] 0
+n_jt_WedFri[D258,Moped] 2
+n_jt_WedFri[D258,EBikeCart] 1
+n_jt_WedFri[D258,FootBike] 21
 n_jt_WedFri[D259,Car] 0
 n_jt_WedFri[D259,Moped] 0
 n_jt_WedFri[D259,EBikeCart] 0
 n_jt_WedFri[D259,FootBike] 0
 n_jt_WedFri[D260,Car] 0
-n_jt_WedFri[D260,Moped] 0
+n_jt_WedFri[D260,Moped] 2
 n_jt_WedFri[D260,EBikeCart] 0
-n_jt_WedFri[D260,FootBike] 0
+n_jt_WedFri[D260,FootBike] 18
 n_jt_WedFri[D261,Car] 0
 n_jt_WedFri[D261,Moped] 0
 n_jt_WedFri[D261,EBikeCart] 0
@@ -1418,9 +1418,9 @@ n_jt_WedFri[D293,Moped] 0
 n_jt_WedFri[D293,EBikeCart] 0
 n_jt_WedFri[D293,FootBike] 0
 n_jt_WedFri[D294,Car] 0
-n_jt_WedFri[D294,Moped] 0
-n_jt_WedFri[D294,EBikeCart] 0
-n_jt_WedFri[D294,FootBike] 0
+n_jt_WedFri[D294,Moped] 1
+n_jt_WedFri[D294,EBikeCart] 1
+n_jt_WedFri[D294,FootBike] 23
 n_jt_WedFri[D295,Car] 0
 n_jt_WedFri[D295,Moped] 0
 n_jt_WedFri[D295,EBikeCart] 0
@@ -1474,21 +1474,21 @@ n_jt_WedFri[D325,Moped] 0
 n_jt_WedFri[D325,EBikeCart] 0
 n_jt_WedFri[D325,FootBike] 0
 n_jt_WedFri[D326,Car] 0
-n_jt_WedFri[D326,Moped] 0
-n_jt_WedFri[D326,EBikeCart] 0
-n_jt_WedFri[D326,FootBike] 0
+n_jt_WedFri[D326,Moped] 1
+n_jt_WedFri[D326,EBikeCart] 1
+n_jt_WedFri[D326,FootBike] 12
 n_jt_WedFri[D327,Car] 0
 n_jt_WedFri[D327,Moped] 0
-n_jt_WedFri[D327,EBikeCart] 1
-n_jt_WedFri[D327,FootBike] 0
+n_jt_WedFri[D327,EBikeCart] 0
+n_jt_WedFri[D327,FootBike] 19
 n_jt_WedFri[D328,Car] 0
 n_jt_WedFri[D328,Moped] 0
 n_jt_WedFri[D328,EBikeCart] 0
-n_jt_WedFri[D328,FootBike] 0
+n_jt_WedFri[D328,FootBike] 8
 n_jt_WedFri[D329,Car] 0
-n_jt_WedFri[D329,Moped] 0
+n_jt_WedFri[D329,Moped] 2
 n_jt_WedFri[D329,EBikeCart] 0
-n_jt_WedFri[D329,FootBike] 0
+n_jt_WedFri[D329,FootBike] 14
 n_jt_WedFri[D330,Car] 0
 n_jt_WedFri[D330,Moped] 0
 n_jt_WedFri[D330,EBikeCart] 0
@@ -1544,15 +1544,15 @@ n_jt_WedFri[D360,FootBike] 0
 n_jt_WedFri[D361,Car] 0
 n_jt_WedFri[D361,Moped] 0
 n_jt_WedFri[D361,EBikeCart] 0
-n_jt_WedFri[D361,FootBike] 0
+n_jt_WedFri[D361,FootBike] 30
 n_jt_WedFri[D362,Car] 0
-n_jt_WedFri[D362,Moped] 0
-n_jt_WedFri[D362,EBikeCart] 0
-n_jt_WedFri[D362,FootBike] 0
+n_jt_WedFri[D362,Moped] 1
+n_jt_WedFri[D362,EBikeCart] 1
+n_jt_WedFri[D362,FootBike] 29
 n_jt_WedFri[D363,Car] 0
-n_jt_WedFri[D363,Moped] 1
-n_jt_WedFri[D363,EBikeCart] 0
-n_jt_WedFri[D363,FootBike] 0
+n_jt_WedFri[D363,Moped] 0
+n_jt_WedFri[D363,EBikeCart] 1
+n_jt_WedFri[D363,FootBike] 22
 n_jt_WedFri[D364,Car] 0
 n_jt_WedFri[D364,Moped] 0
 n_jt_WedFri[D364,EBikeCart] 0
@@ -1660,7 +1660,7 @@ n_jt_WedFri[D428,FootBike] 0
 n_jt_WedFri[D429,Car] 0
 n_jt_WedFri[D429,Moped] 0
 n_jt_WedFri[D429,EBikeCart] 0
-n_jt_WedFri[D429,FootBike] 1
+n_jt_WedFri[D429,FootBike] 8
 n_jt_WedFri[D430,Car] 0
 n_jt_WedFri[D430,Moped] 0
 n_jt_WedFri[D430,EBikeCart] 0
@@ -1924,7 +1924,7 @@ n_jt_WedFri[D99,FootBike] 0
 x_TueThur[D228,345D01,Car] 0
 x_TueThur[D228,345D01,Moped] 0
 x_TueThur[D228,345D01,EBikeCart] 0
-x_TueThur[D228,345D01,FootBike] 0
+x_TueThur[D228,345D01,FootBike] 1
 x_TueThur[D229,345D01,Car] 0
 x_TueThur[D229,345D01,Moped] 0
 x_TueThur[D229,345D01,EBikeCart] 0
@@ -2004,7 +2004,7 @@ x_TueThur[D163,345D01,FootBike] 0
 x_TueThur[D228,345D02,Car] 0
 x_TueThur[D228,345D02,Moped] 0
 x_TueThur[D228,345D02,EBikeCart] 0
-x_TueThur[D228,345D02,FootBike] 0
+x_TueThur[D228,345D02,FootBike] 1
 x_TueThur[D261,345D02,Car] 0
 x_TueThur[D261,345D02,Moped] 0
 x_TueThur[D261,345D02,EBikeCart] 0
@@ -2084,7 +2084,7 @@ x_TueThur[D165,345D02,FootBike] 0
 x_TueThur[D228,345D05,Car] 0
 x_TueThur[D228,345D05,Moped] 0
 x_TueThur[D228,345D05,EBikeCart] 0
-x_TueThur[D228,345D05,FootBike] 0
+x_TueThur[D228,345D05,FootBike] 1
 x_TueThur[D229,345D05,Car] 0
 x_TueThur[D229,345D05,Moped] 0
 x_TueThur[D229,345D05,EBikeCart] 0
@@ -2164,7 +2164,7 @@ x_TueThur[D293,345D05,FootBike] 0
 x_TueThur[D228,345D06,Car] 0
 x_TueThur[D228,345D06,Moped] 0
 x_TueThur[D228,345D06,EBikeCart] 0
-x_TueThur[D228,345D06,FootBike] 0
+x_TueThur[D228,345D06,FootBike] 1
 x_TueThur[D229,345D06,Car] 0
 x_TueThur[D229,345D06,Moped] 0
 x_TueThur[D229,345D06,EBikeCart] 0
@@ -2248,7 +2248,7 @@ x_TueThur[D261,345D09,FootBike] 0
 x_TueThur[D228,345D09,Car] 0
 x_TueThur[D228,345D09,Moped] 0
 x_TueThur[D228,345D09,EBikeCart] 0
-x_TueThur[D228,345D09,FootBike] 0
+x_TueThur[D228,345D09,FootBike] 1
 x_TueThur[D262,345D09,Car] 0
 x_TueThur[D262,345D09,Moped] 0
 x_TueThur[D262,345D09,EBikeCart] 0
@@ -2328,7 +2328,7 @@ x_TueThur[D261,345D10,FootBike] 0
 x_TueThur[D228,345D10,Car] 0
 x_TueThur[D228,345D10,Moped] 0
 x_TueThur[D228,345D10,EBikeCart] 0
-x_TueThur[D228,345D10,FootBike] 0
+x_TueThur[D228,345D10,FootBike] 1
 x_TueThur[D262,345D10,Car] 0
 x_TueThur[D262,345D10,Moped] 0
 x_TueThur[D262,345D10,EBikeCart] 0
@@ -2416,7 +2416,7 @@ x_TueThur[D229,345D13,FootBike] 0
 x_TueThur[D228,345D13,Car] 0
 x_TueThur[D228,345D13,Moped] 0
 x_TueThur[D228,345D13,EBikeCart] 0
-x_TueThur[D228,345D13,FootBike] 0
+x_TueThur[D228,345D13,FootBike] 1
 x_TueThur[D295,345D13,Car] 0
 x_TueThur[D295,345D13,Moped] 0
 x_TueThur[D295,345D13,EBikeCart] 0
@@ -2492,7 +2492,7 @@ x_TueThur[D262,345D14,FootBike] 0
 x_TueThur[D228,345D14,Car] 0
 x_TueThur[D228,345D14,Moped] 0
 x_TueThur[D228,345D14,EBikeCart] 0
-x_TueThur[D228,345D14,FootBike] 0
+x_TueThur[D228,345D14,FootBike] 1
 x_TueThur[D229,345D14,Car] 0
 x_TueThur[D229,345D14,Moped] 0
 x_TueThur[D229,345D14,EBikeCart] 0
@@ -2572,7 +2572,7 @@ x_TueThur[D262,345D17,FootBike] 0
 x_TueThur[D228,345D17,Car] 0
 x_TueThur[D228,345D17,Moped] 0
 x_TueThur[D228,345D17,EBikeCart] 0
-x_TueThur[D228,345D17,FootBike] 0
+x_TueThur[D228,345D17,FootBike] 1
 x_TueThur[D229,345D17,Car] 0
 x_TueThur[D229,345D17,Moped] 0
 x_TueThur[D229,345D17,EBikeCart] 0
@@ -2656,7 +2656,7 @@ x_TueThur[D229,345D18,FootBike] 0
 x_TueThur[D228,345D18,Car] 0
 x_TueThur[D228,345D18,Moped] 0
 x_TueThur[D228,345D18,EBikeCart] 0
-x_TueThur[D228,345D18,FootBike] 0
+x_TueThur[D228,345D18,FootBike] 1
 x_TueThur[D295,345D18,Car] 0
 x_TueThur[D295,345D18,Moped] 0
 x_TueThur[D295,345D18,EBikeCart] 0
@@ -2728,7 +2728,7 @@ x_TueThur[D261,345D21,FootBike] 0
 x_TueThur[D228,345D21,Car] 0
 x_TueThur[D228,345D21,Moped] 0
 x_TueThur[D228,345D21,EBikeCart] 0
-x_TueThur[D228,345D21,FootBike] 0
+x_TueThur[D228,345D21,FootBike] 1
 x_TueThur[D262,345D21,Car] 0
 x_TueThur[D262,345D21,Moped] 0
 x_TueThur[D262,345D21,EBikeCart] 0
@@ -2812,7 +2812,7 @@ x_TueThur[D262,345D22,FootBike] 0
 x_TueThur[D228,345D22,Car] 0
 x_TueThur[D228,345D22,Moped] 0
 x_TueThur[D228,345D22,EBikeCart] 0
-x_TueThur[D228,345D22,FootBike] 0
+x_TueThur[D228,345D22,FootBike] 1
 x_TueThur[D294,345D22,Car] 0
 x_TueThur[D294,345D22,Moped] 0
 x_TueThur[D294,345D22,EBikeCart] 0
@@ -2888,7 +2888,7 @@ x_TueThur[D261,345D25,FootBike] 0
 x_TueThur[D228,345D25,Car] 0
 x_TueThur[D228,345D25,Moped] 0
 x_TueThur[D228,345D25,EBikeCart] 0
-x_TueThur[D228,345D25,FootBike] 0
+x_TueThur[D228,345D25,FootBike] 1
 x_TueThur[D262,345D25,Car] 0
 x_TueThur[D262,345D25,Moped] 0
 x_TueThur[D262,345D25,EBikeCart] 0
@@ -2972,7 +2972,7 @@ x_TueThur[D262,345D26,FootBike] 0
 x_TueThur[D228,345D26,Car] 0
 x_TueThur[D228,345D26,Moped] 0
 x_TueThur[D228,345D26,EBikeCart] 0
-x_TueThur[D228,345D26,FootBike] 0
+x_TueThur[D228,345D26,FootBike] 1
 x_TueThur[D294,345D26,Car] 0
 x_TueThur[D294,345D26,Moped] 0
 x_TueThur[D294,345D26,EBikeCart] 0
@@ -3052,7 +3052,7 @@ x_TueThur[D262,345D29,FootBike] 0
 x_TueThur[D294,345D29,Car] 0
 x_TueThur[D294,345D29,Moped] 0
 x_TueThur[D294,345D29,EBikeCart] 0
-x_TueThur[D294,345D29,FootBike] 0
+x_TueThur[D294,345D29,FootBike] 1
 x_TueThur[D295,345D29,Car] 0
 x_TueThur[D295,345D29,Moped] 0
 x_TueThur[D295,345D29,EBikeCart] 0
@@ -3131,7 +3131,7 @@ x_TueThur[D262,345D30,EBikeCart] 0
 x_TueThur[D262,345D30,FootBike] 0
 x_TueThur[D294,345D30,Car] 0
 x_TueThur[D294,345D30,Moped] 0
-x_TueThur[D294,345D30,EBikeCart] 0
+x_TueThur[D294,345D30,EBikeCart] 1
 x_TueThur[D294,345D30,FootBike] 0
 x_TueThur[D295,345D30,Car] 0
 x_TueThur[D295,345D30,Moped] 0
@@ -3204,7 +3204,7 @@ x_TueThur[D195,345D30,FootBike] 0
 x_TueThur[D294,345D33,Car] 0
 x_TueThur[D294,345D33,Moped] 0
 x_TueThur[D294,345D33,EBikeCart] 0
-x_TueThur[D294,345D33,FootBike] 0
+x_TueThur[D294,345D33,FootBike] 1
 x_TueThur[D261,345D33,Car] 0
 x_TueThur[D261,345D33,Moped] 0
 x_TueThur[D261,345D33,EBikeCart] 0
@@ -3288,7 +3288,7 @@ x_TueThur[D261,345D34,FootBike] 0
 x_TueThur[D294,345D34,Car] 0
 x_TueThur[D294,345D34,Moped] 0
 x_TueThur[D294,345D34,EBikeCart] 0
-x_TueThur[D294,345D34,FootBike] 0
+x_TueThur[D294,345D34,FootBike] 1
 x_TueThur[D262,345D34,Car] 0
 x_TueThur[D262,345D34,Moped] 0
 x_TueThur[D262,345D34,EBikeCart] 0
@@ -3364,7 +3364,7 @@ x_TueThur[D362,345D34,FootBike] 0
 x_TueThur[D294,345D37,Car] 0
 x_TueThur[D294,345D37,Moped] 0
 x_TueThur[D294,345D37,EBikeCart] 0
-x_TueThur[D294,345D37,FootBike] 0
+x_TueThur[D294,345D37,FootBike] 1
 x_TueThur[D261,345D37,Car] 0
 x_TueThur[D261,345D37,Moped] 0
 x_TueThur[D261,345D37,EBikeCart] 0
@@ -3444,7 +3444,7 @@ x_TueThur[D361,345D37,FootBike] 0
 x_TueThur[D294,345D38,Car] 0
 x_TueThur[D294,345D38,Moped] 0
 x_TueThur[D294,345D38,EBikeCart] 0
-x_TueThur[D294,345D38,FootBike] 0
+x_TueThur[D294,345D38,FootBike] 1
 x_TueThur[D261,345D38,Car] 0
 x_TueThur[D261,345D38,Moped] 0
 x_TueThur[D261,345D38,EBikeCart] 0
@@ -3528,7 +3528,7 @@ x_TueThur[D261,345D41,FootBike] 0
 x_TueThur[D294,345D41,Car] 0
 x_TueThur[D294,345D41,Moped] 0
 x_TueThur[D294,345D41,EBikeCart] 0
-x_TueThur[D294,345D41,FootBike] 0
+x_TueThur[D294,345D41,FootBike] 1
 x_TueThur[D260,345D41,Car] 0
 x_TueThur[D260,345D41,Moped] 0
 x_TueThur[D260,345D41,EBikeCart] 0
@@ -3608,7 +3608,7 @@ x_TueThur[D261,345D42,FootBike] 0
 x_TueThur[D294,345D42,Car] 0
 x_TueThur[D294,345D42,Moped] 0
 x_TueThur[D294,345D42,EBikeCart] 0
-x_TueThur[D294,345D42,FootBike] 0
+x_TueThur[D294,345D42,FootBike] 1
 x_TueThur[D260,345D42,Car] 0
 x_TueThur[D260,345D42,Moped] 0
 x_TueThur[D260,345D42,EBikeCart] 0
@@ -3688,7 +3688,7 @@ x_TueThur[D261,345D45,FootBike] 0
 x_TueThur[D294,345D45,Car] 0
 x_TueThur[D294,345D45,Moped] 0
 x_TueThur[D294,345D45,EBikeCart] 0
-x_TueThur[D294,345D45,FootBike] 0
+x_TueThur[D294,345D45,FootBike] 1
 x_TueThur[D262,345D45,Car] 0
 x_TueThur[D262,345D45,Moped] 0
 x_TueThur[D262,345D45,EBikeCart] 0
@@ -3768,7 +3768,7 @@ x_TueThur[D261,345D46,FootBike] 0
 x_TueThur[D294,345D46,Car] 0
 x_TueThur[D294,345D46,Moped] 0
 x_TueThur[D294,345D46,EBikeCart] 0
-x_TueThur[D294,345D46,FootBike] 0
+x_TueThur[D294,345D46,FootBike] 1
 x_TueThur[D260,345D46,Car] 0
 x_TueThur[D260,345D46,Moped] 0
 x_TueThur[D260,345D46,EBikeCart] 0
@@ -3848,7 +3848,7 @@ x_TueThur[D261,345D49,FootBike] 0
 x_TueThur[D260,345D49,Car] 0
 x_TueThur[D260,345D49,Moped] 0
 x_TueThur[D260,345D49,EBikeCart] 0
-x_TueThur[D260,345D49,FootBike] 0
+x_TueThur[D260,345D49,FootBike] 1
 x_TueThur[D294,345D49,Car] 0
 x_TueThur[D294,345D49,Moped] 0
 x_TueThur[D294,345D49,EBikeCart] 0
@@ -3928,7 +3928,7 @@ x_TueThur[D261,345D50,FootBike] 0
 x_TueThur[D260,345D50,Car] 0
 x_TueThur[D260,345D50,Moped] 0
 x_TueThur[D260,345D50,EBikeCart] 0
-x_TueThur[D260,345D50,FootBike] 0
+x_TueThur[D260,345D50,FootBike] 1
 x_TueThur[D294,345D50,Car] 0
 x_TueThur[D294,345D50,Moped] 0
 x_TueThur[D294,345D50,EBikeCart] 0
@@ -4004,7 +4004,7 @@ x_TueThur[D197,345D50,FootBike] 0
 x_TueThur[D294,345D53,Car] 0
 x_TueThur[D294,345D53,Moped] 0
 x_TueThur[D294,345D53,EBikeCart] 0
-x_TueThur[D294,345D53,FootBike] 0
+x_TueThur[D294,345D53,FootBike] 1
 x_TueThur[D261,345D53,Car] 0
 x_TueThur[D261,345D53,Moped] 0
 x_TueThur[D261,345D53,EBikeCart] 0
@@ -4084,7 +4084,7 @@ x_TueThur[D326,345D53,FootBike] 0
 x_TueThur[D294,345D54,Car] 0
 x_TueThur[D294,345D54,Moped] 0
 x_TueThur[D294,345D54,EBikeCart] 0
-x_TueThur[D294,345D54,FootBike] 0
+x_TueThur[D294,345D54,FootBike] 1
 x_TueThur[D261,345D54,Car] 0
 x_TueThur[D261,345D54,Moped] 0
 x_TueThur[D261,345D54,EBikeCart] 0
@@ -4164,7 +4164,7 @@ x_TueThur[D326,345D54,FootBike] 0
 x_TueThur[D294,345D57,Car] 0
 x_TueThur[D294,345D57,Moped] 0
 x_TueThur[D294,345D57,EBikeCart] 0
-x_TueThur[D294,345D57,FootBike] 0
+x_TueThur[D294,345D57,FootBike] 1
 x_TueThur[D293,345D57,Car] 0
 x_TueThur[D293,345D57,Moped] 0
 x_TueThur[D293,345D57,EBikeCart] 0
@@ -4244,7 +4244,7 @@ x_TueThur[D263,345D57,FootBike] 0
 x_TueThur[D294,345D58,Car] 0
 x_TueThur[D294,345D58,Moped] 0
 x_TueThur[D294,345D58,EBikeCart] 0
-x_TueThur[D294,345D58,FootBike] 0
+x_TueThur[D294,345D58,FootBike] 1
 x_TueThur[D293,345D58,Car] 0
 x_TueThur[D293,345D58,Moped] 0
 x_TueThur[D293,345D58,EBikeCart] 0
@@ -4324,7 +4324,7 @@ x_TueThur[D226,345D58,FootBike] 0
 x_TueThur[D228,345F04,Car] 0
 x_TueThur[D228,345F04,Moped] 0
 x_TueThur[D228,345F04,EBikeCart] 0
-x_TueThur[D228,345F04,FootBike] 0
+x_TueThur[D228,345F04,FootBike] 1
 x_TueThur[D227,345F04,Car] 0
 x_TueThur[D227,345F04,Moped] 0
 x_TueThur[D227,345F04,EBikeCart] 0
@@ -4404,7 +4404,7 @@ x_TueThur[D263,345F04,FootBike] 0
 x_TueThur[D228,345F05,Car] 0
 x_TueThur[D228,345F05,Moped] 0
 x_TueThur[D228,345F05,EBikeCart] 0
-x_TueThur[D228,345F05,FootBike] 0
+x_TueThur[D228,345F05,FootBike] 1
 x_TueThur[D227,345F05,Car] 0
 x_TueThur[D227,345F05,Moped] 0
 x_TueThur[D227,345F05,EBikeCart] 0
@@ -4484,7 +4484,7 @@ x_TueThur[D292,345F05,FootBike] 0
 x_TueThur[D228,345F06,Car] 0
 x_TueThur[D228,345F06,Moped] 0
 x_TueThur[D228,345F06,EBikeCart] 0
-x_TueThur[D228,345F06,FootBike] 0
+x_TueThur[D228,345F06,FootBike] 1
 x_TueThur[D227,345F06,Car] 0
 x_TueThur[D227,345F06,Moped] 0
 x_TueThur[D227,345F06,EBikeCart] 0
@@ -4564,7 +4564,7 @@ x_TueThur[D165,345F06,FootBike] 0
 x_TueThur[D228,345F10,Car] 0
 x_TueThur[D228,345F10,Moped] 0
 x_TueThur[D228,345F10,EBikeCart] 0
-x_TueThur[D228,345F10,FootBike] 0
+x_TueThur[D228,345F10,FootBike] 1
 x_TueThur[D227,345F10,Car] 0
 x_TueThur[D227,345F10,Moped] 0
 x_TueThur[D227,345F10,EBikeCart] 0
@@ -4644,7 +4644,7 @@ x_TueThur[D225,345F10,FootBike] 0
 x_TueThur[D228,345F11,Car] 0
 x_TueThur[D228,345F11,Moped] 0
 x_TueThur[D228,345F11,EBikeCart] 0
-x_TueThur[D228,345F11,FootBike] 0
+x_TueThur[D228,345F11,FootBike] 1
 x_TueThur[D227,345F11,Car] 0
 x_TueThur[D227,345F11,Moped] 0
 x_TueThur[D227,345F11,EBikeCart] 0
@@ -4728,7 +4728,7 @@ x_TueThur[D227,345F12,FootBike] 0
 x_TueThur[D228,345F12,Car] 0
 x_TueThur[D228,345F12,Moped] 0
 x_TueThur[D228,345F12,EBikeCart] 0
-x_TueThur[D228,345F12,FootBike] 0
+x_TueThur[D228,345F12,FootBike] 1
 x_TueThur[D195,345F12,Car] 0
 x_TueThur[D195,345F12,Moped] 0
 x_TueThur[D195,345F12,EBikeCart] 0
@@ -4808,7 +4808,7 @@ x_TueThur[D227,345F13,FootBike] 0
 x_TueThur[D228,345F13,Car] 0
 x_TueThur[D228,345F13,Moped] 0
 x_TueThur[D228,345F13,EBikeCart] 0
-x_TueThur[D228,345F13,FootBike] 0
+x_TueThur[D228,345F13,FootBike] 1
 x_TueThur[D195,345F13,Car] 0
 x_TueThur[D195,345F13,Moped] 0
 x_TueThur[D195,345F13,EBikeCart] 0
@@ -4888,7 +4888,7 @@ x_TueThur[D227,345F14,FootBike] 0
 x_TueThur[D228,345F14,Car] 0
 x_TueThur[D228,345F14,Moped] 0
 x_TueThur[D228,345F14,EBikeCart] 0
-x_TueThur[D228,345F14,FootBike] 0
+x_TueThur[D228,345F14,FootBike] 1
 x_TueThur[D260,345F14,Car] 0
 x_TueThur[D260,345F14,Moped] 0
 x_TueThur[D260,345F14,EBikeCart] 0
@@ -4964,7 +4964,7 @@ x_TueThur[D295,345F14,FootBike] 0
 x_TueThur[D228,345F15,Car] 0
 x_TueThur[D228,345F15,Moped] 0
 x_TueThur[D228,345F15,EBikeCart] 0
-x_TueThur[D228,345F15,FootBike] 0
+x_TueThur[D228,345F15,FootBike] 1
 x_TueThur[D227,345F15,Car] 0
 x_TueThur[D227,345F15,Moped] 0
 x_TueThur[D227,345F15,EBikeCart] 0
@@ -5048,7 +5048,7 @@ x_TueThur[D227,345F16,FootBike] 0
 x_TueThur[D228,345F16,Car] 0
 x_TueThur[D228,345F16,Moped] 0
 x_TueThur[D228,345F16,EBikeCart] 0
-x_TueThur[D228,345F16,FootBike] 0
+x_TueThur[D228,345F16,FootBike] 1
 x_TueThur[D195,345F16,Car] 0
 x_TueThur[D195,345F16,Moped] 0
 x_TueThur[D195,345F16,EBikeCart] 0
@@ -5124,7 +5124,7 @@ x_TueThur[D292,345F16,FootBike] 0
 x_TueThur[D227,345F17,Car] 0
 x_TueThur[D227,345F17,Moped] 0
 x_TueThur[D227,345F17,EBikeCart] 0
-x_TueThur[D227,345F17,FootBike] 1
+x_TueThur[D227,345F17,FootBike] 0
 x_TueThur[D195,345F17,Car] 0
 x_TueThur[D195,345F17,Moped] 0
 x_TueThur[D195,345F17,EBikeCart] 0
@@ -5132,7 +5132,7 @@ x_TueThur[D195,345F17,FootBike] 0
 x_TueThur[D228,345F17,Car] 0
 x_TueThur[D228,345F17,Moped] 0
 x_TueThur[D228,345F17,EBikeCart] 0
-x_TueThur[D228,345F17,FootBike] 0
+x_TueThur[D228,345F17,FootBike] 1
 x_TueThur[D226,345F17,Car] 0
 x_TueThur[D226,345F17,Moped] 0
 x_TueThur[D226,345F17,EBikeCart] 0
@@ -5208,7 +5208,7 @@ x_TueThur[D261,345F24,FootBike] 0
 x_TueThur[D260,345F24,Car] 0
 x_TueThur[D260,345F24,Moped] 0
 x_TueThur[D260,345F24,EBikeCart] 0
-x_TueThur[D260,345F24,FootBike] 0
+x_TueThur[D260,345F24,FootBike] 1
 x_TueThur[D228,345F24,Car] 0
 x_TueThur[D228,345F24,Moped] 0
 x_TueThur[D228,345F24,EBikeCart] 0
@@ -5288,7 +5288,7 @@ x_TueThur[D227,345F25,FootBike] 0
 x_TueThur[D228,345F25,Car] 0
 x_TueThur[D228,345F25,Moped] 0
 x_TueThur[D228,345F25,EBikeCart] 0
-x_TueThur[D228,345F25,FootBike] 0
+x_TueThur[D228,345F25,FootBike] 1
 x_TueThur[D260,345F25,Car] 0
 x_TueThur[D260,345F25,Moped] 0
 x_TueThur[D260,345F25,EBikeCart] 0
@@ -5364,7 +5364,7 @@ x_TueThur[D162,345F25,FootBike] 0
 x_TueThur[D362,351F01,Car] 0
 x_TueThur[D362,351F01,Moped] 0
 x_TueThur[D362,351F01,EBikeCart] 0
-x_TueThur[D362,351F01,FootBike] 0
+x_TueThur[D362,351F01,FootBike] 1
 x_TueThur[D328,351F01,Car] 0
 x_TueThur[D328,351F01,Moped] 0
 x_TueThur[D328,351F01,EBikeCart] 0
@@ -5444,7 +5444,7 @@ x_TueThur[D261,351F01,FootBike] 0
 x_TueThur[D362,351F05,Car] 0
 x_TueThur[D362,351F05,Moped] 0
 x_TueThur[D362,351F05,EBikeCart] 0
-x_TueThur[D362,351F05,FootBike] 0
+x_TueThur[D362,351F05,FootBike] 1
 x_TueThur[D328,351F05,Car] 0
 x_TueThur[D328,351F05,Moped] 0
 x_TueThur[D328,351F05,EBikeCart] 0
@@ -5524,7 +5524,7 @@ x_TueThur[D429,351F05,FootBike] 0
 x_TueThur[D362,351F07,Car] 0
 x_TueThur[D362,351F07,Moped] 0
 x_TueThur[D362,351F07,EBikeCart] 0
-x_TueThur[D362,351F07,FootBike] 0
+x_TueThur[D362,351F07,FootBike] 1
 x_TueThur[D328,351F07,Car] 0
 x_TueThur[D328,351F07,Moped] 0
 x_TueThur[D328,351F07,EBikeCart] 0
@@ -5604,7 +5604,7 @@ x_TueThur[D429,351F07,FootBike] 0
 x_TueThur[D362,351F09,Car] 0
 x_TueThur[D362,351F09,Moped] 0
 x_TueThur[D362,351F09,EBikeCart] 0
-x_TueThur[D362,351F09,FootBike] 0
+x_TueThur[D362,351F09,FootBike] 1
 x_TueThur[D328,351F09,Car] 0
 x_TueThur[D328,351F09,Moped] 0
 x_TueThur[D328,351F09,EBikeCart] 0
@@ -5684,7 +5684,7 @@ x_TueThur[D292,351F09,FootBike] 0
 x_TueThur[D362,351F13,Car] 0
 x_TueThur[D362,351F13,Moped] 0
 x_TueThur[D362,351F13,EBikeCart] 0
-x_TueThur[D362,351F13,FootBike] 0
+x_TueThur[D362,351F13,FootBike] 1
 x_TueThur[D328,351F13,Car] 0
 x_TueThur[D328,351F13,Moped] 0
 x_TueThur[D328,351F13,EBikeCart] 0
@@ -5764,7 +5764,7 @@ x_TueThur[D429,351F13,FootBike] 0
 x_TueThur[D328,351F15,Car] 0
 x_TueThur[D328,351F15,Moped] 0
 x_TueThur[D328,351F15,EBikeCart] 0
-x_TueThur[D328,351F15,FootBike] 0
+x_TueThur[D328,351F15,FootBike] 1
 x_TueThur[D362,351F15,Car] 0
 x_TueThur[D362,351F15,Moped] 0
 x_TueThur[D362,351F15,EBikeCart] 0
@@ -5844,7 +5844,7 @@ x_TueThur[D260,351F15,FootBike] 0
 x_TueThur[D361,351F21,Car] 0
 x_TueThur[D361,351F21,Moped] 0
 x_TueThur[D361,351F21,EBikeCart] 0
-x_TueThur[D361,351F21,FootBike] 0
+x_TueThur[D361,351F21,FootBike] 1
 x_TueThur[D327,351F21,Car] 0
 x_TueThur[D327,351F21,Moped] 0
 x_TueThur[D327,351F21,EBikeCart] 0
@@ -5924,7 +5924,7 @@ x_TueThur[D260,351F21,FootBike] 0
 x_TueThur[D327,351F22,Car] 0
 x_TueThur[D327,351F22,Moped] 0
 x_TueThur[D327,351F22,EBikeCart] 0
-x_TueThur[D327,351F22,FootBike] 0
+x_TueThur[D327,351F22,FootBike] 1
 x_TueThur[D361,351F22,Car] 0
 x_TueThur[D361,351F22,Moped] 0
 x_TueThur[D361,351F22,EBikeCart] 0
@@ -6004,7 +6004,7 @@ x_TueThur[D261,351F22,FootBike] 0
 x_TueThur[D327,351F23,Car] 0
 x_TueThur[D327,351F23,Moped] 0
 x_TueThur[D327,351F23,EBikeCart] 0
-x_TueThur[D327,351F23,FootBike] 0
+x_TueThur[D327,351F23,FootBike] 1
 x_TueThur[D328,351F23,Car] 0
 x_TueThur[D328,351F23,Moped] 0
 x_TueThur[D328,351F23,EBikeCart] 0
@@ -6084,7 +6084,7 @@ x_TueThur[D359,351F23,FootBike] 0
 x_TueThur[D328,351F24,Car] 0
 x_TueThur[D328,351F24,Moped] 0
 x_TueThur[D328,351F24,EBikeCart] 0
-x_TueThur[D328,351F24,FootBike] 0
+x_TueThur[D328,351F24,FootBike] 1
 x_TueThur[D362,351F24,Car] 0
 x_TueThur[D362,351F24,Moped] 0
 x_TueThur[D362,351F24,EBikeCart] 0
@@ -6164,7 +6164,7 @@ x_TueThur[D260,351F24,FootBike] 0
 x_TueThur[D328,351F26,Car] 0
 x_TueThur[D328,351F26,Moped] 0
 x_TueThur[D328,351F26,EBikeCart] 0
-x_TueThur[D328,351F26,FootBike] 0
+x_TueThur[D328,351F26,FootBike] 1
 x_TueThur[D327,351F26,Car] 0
 x_TueThur[D327,351F26,Moped] 0
 x_TueThur[D327,351F26,EBikeCart] 0
@@ -6244,7 +6244,7 @@ x_TueThur[D364,351F26,FootBike] 0
 x_TueThur[D361,351F27,Car] 0
 x_TueThur[D361,351F27,Moped] 0
 x_TueThur[D361,351F27,EBikeCart] 0
-x_TueThur[D361,351F27,FootBike] 0
+x_TueThur[D361,351F27,FootBike] 1
 x_TueThur[D362,351F27,Car] 0
 x_TueThur[D362,351F27,Moped] 0
 x_TueThur[D362,351F27,EBikeCart] 0
@@ -6328,7 +6328,7 @@ x_TueThur[D364,352D09,FootBike] 0
 x_TueThur[D363,352D09,Car] 0
 x_TueThur[D363,352D09,Moped] 0
 x_TueThur[D363,352D09,EBikeCart] 0
-x_TueThur[D363,352D09,FootBike] 0
+x_TueThur[D363,352D09,FootBike] 1
 x_TueThur[D398,352D09,Car] 0
 x_TueThur[D398,352D09,Moped] 0
 x_TueThur[D398,352D09,EBikeCart] 0
@@ -6408,7 +6408,7 @@ x_TueThur[D364,352D10,FootBike] 0
 x_TueThur[D363,352D10,Car] 0
 x_TueThur[D363,352D10,Moped] 0
 x_TueThur[D363,352D10,EBikeCart] 0
-x_TueThur[D363,352D10,FootBike] 0
+x_TueThur[D363,352D10,FootBike] 1
 x_TueThur[D398,352D10,Car] 0
 x_TueThur[D398,352D10,Moped] 0
 x_TueThur[D398,352D10,EBikeCart] 0
@@ -6488,7 +6488,7 @@ x_TueThur[D364,352D13,FootBike] 0
 x_TueThur[D363,352D13,Car] 0
 x_TueThur[D363,352D13,Moped] 0
 x_TueThur[D363,352D13,EBikeCart] 0
-x_TueThur[D363,352D13,FootBike] 0
+x_TueThur[D363,352D13,FootBike] 1
 x_TueThur[D330,352D13,Car] 0
 x_TueThur[D330,352D13,Moped] 0
 x_TueThur[D330,352D13,EBikeCart] 0
@@ -6564,7 +6564,7 @@ x_TueThur[D332,352D13,FootBike] 0
 x_TueThur[D363,352D17,Car] 0
 x_TueThur[D363,352D17,Moped] 0
 x_TueThur[D363,352D17,EBikeCart] 0
-x_TueThur[D363,352D17,FootBike] 0
+x_TueThur[D363,352D17,FootBike] 1
 x_TueThur[D364,352D17,Car] 0
 x_TueThur[D364,352D17,Moped] 0
 x_TueThur[D364,352D17,EBikeCart] 0
@@ -6648,7 +6648,7 @@ x_TueThur[D364,352D18,FootBike] 0
 x_TueThur[D363,352D18,Car] 0
 x_TueThur[D363,352D18,Moped] 0
 x_TueThur[D363,352D18,EBikeCart] 0
-x_TueThur[D363,352D18,FootBike] 0
+x_TueThur[D363,352D18,FootBike] 1
 x_TueThur[D330,352D18,Car] 0
 x_TueThur[D330,352D18,Moped] 0
 x_TueThur[D330,352D18,EBikeCart] 0
@@ -6724,7 +6724,7 @@ x_TueThur[D361,352D18,FootBike] 0
 x_TueThur[D363,352D21,Car] 0
 x_TueThur[D363,352D21,Moped] 0
 x_TueThur[D363,352D21,EBikeCart] 0
-x_TueThur[D363,352D21,FootBike] 0
+x_TueThur[D363,352D21,FootBike] 1
 x_TueThur[D362,352D21,Car] 0
 x_TueThur[D362,352D21,Moped] 0
 x_TueThur[D362,352D21,EBikeCart] 0
@@ -6804,7 +6804,7 @@ x_TueThur[D399,352D21,FootBike] 0
 x_TueThur[D363,352D22,Car] 0
 x_TueThur[D363,352D22,Moped] 0
 x_TueThur[D363,352D22,EBikeCart] 0
-x_TueThur[D363,352D22,FootBike] 0
+x_TueThur[D363,352D22,FootBike] 1
 x_TueThur[D397,352D22,Car] 0
 x_TueThur[D397,352D22,Moped] 0
 x_TueThur[D397,352D22,EBikeCart] 0
@@ -6884,7 +6884,7 @@ x_TueThur[D331,352D22,FootBike] 0
 x_TueThur[D363,352D25,Car] 0
 x_TueThur[D363,352D25,Moped] 0
 x_TueThur[D363,352D25,EBikeCart] 0
-x_TueThur[D363,352D25,FootBike] 0
+x_TueThur[D363,352D25,FootBike] 1
 x_TueThur[D362,352D25,Car] 0
 x_TueThur[D362,352D25,Moped] 0
 x_TueThur[D362,352D25,EBikeCart] 0
@@ -6964,7 +6964,7 @@ x_TueThur[D331,352D25,FootBike] 0
 x_TueThur[D363,352D26,Car] 0
 x_TueThur[D363,352D26,Moped] 0
 x_TueThur[D363,352D26,EBikeCart] 0
-x_TueThur[D363,352D26,FootBike] 0
+x_TueThur[D363,352D26,FootBike] 1
 x_TueThur[D362,352D26,Car] 0
 x_TueThur[D362,352D26,Moped] 0
 x_TueThur[D362,352D26,EBikeCart] 0
@@ -7044,7 +7044,7 @@ x_TueThur[D432,352D26,FootBike] 0
 x_TueThur[D363,352D29,Car] 0
 x_TueThur[D363,352D29,Moped] 0
 x_TueThur[D363,352D29,EBikeCart] 0
-x_TueThur[D363,352D29,FootBike] 0
+x_TueThur[D363,352D29,FootBike] 1
 x_TueThur[D329,352D29,Car] 0
 x_TueThur[D329,352D29,Moped] 0
 x_TueThur[D329,352D29,EBikeCart] 0
@@ -7124,7 +7124,7 @@ x_TueThur[D430,352D29,FootBike] 0
 x_TueThur[D363,352D30,Car] 0
 x_TueThur[D363,352D30,Moped] 0
 x_TueThur[D363,352D30,EBikeCart] 0
-x_TueThur[D363,352D30,FootBike] 0
+x_TueThur[D363,352D30,FootBike] 1
 x_TueThur[D329,352D30,Car] 0
 x_TueThur[D329,352D30,Moped] 0
 x_TueThur[D329,352D30,EBikeCart] 0
@@ -7204,7 +7204,7 @@ x_TueThur[D430,352D30,FootBike] 0
 x_TueThur[D363,352D33,Car] 0
 x_TueThur[D363,352D33,Moped] 0
 x_TueThur[D363,352D33,EBikeCart] 0
-x_TueThur[D363,352D33,FootBike] 0
+x_TueThur[D363,352D33,FootBike] 1
 x_TueThur[D362,352D33,Car] 0
 x_TueThur[D362,352D33,Moped] 0
 x_TueThur[D362,352D33,EBikeCart] 0
@@ -7284,7 +7284,7 @@ x_TueThur[D331,352D33,FootBike] 0
 x_TueThur[D363,352D34,Car] 0
 x_TueThur[D363,352D34,Moped] 0
 x_TueThur[D363,352D34,EBikeCart] 0
-x_TueThur[D363,352D34,FootBike] 0
+x_TueThur[D363,352D34,FootBike] 1
 x_TueThur[D329,352D34,Car] 0
 x_TueThur[D329,352D34,Moped] 0
 x_TueThur[D329,352D34,EBikeCart] 0
@@ -7364,7 +7364,7 @@ x_TueThur[D293,352D34,FootBike] 0
 x_TueThur[D328,352D37,Car] 0
 x_TueThur[D328,352D37,Moped] 0
 x_TueThur[D328,352D37,EBikeCart] 0
-x_TueThur[D328,352D37,FootBike] 0
+x_TueThur[D328,352D37,FootBike] 1
 x_TueThur[D362,352D37,Car] 0
 x_TueThur[D362,352D37,Moped] 0
 x_TueThur[D362,352D37,EBikeCart] 0
@@ -7444,7 +7444,7 @@ x_TueThur[D292,352D37,FootBike] 0
 x_TueThur[D328,352D38,Car] 0
 x_TueThur[D328,352D38,Moped] 0
 x_TueThur[D328,352D38,EBikeCart] 0
-x_TueThur[D328,352D38,FootBike] 0
+x_TueThur[D328,352D38,FootBike] 1
 x_TueThur[D362,352D38,Car] 0
 x_TueThur[D362,352D38,Moped] 0
 x_TueThur[D362,352D38,EBikeCart] 0
@@ -7524,7 +7524,7 @@ x_TueThur[D262,352D38,FootBike] 0
 x_TueThur[D329,352D41,Car] 0
 x_TueThur[D329,352D41,Moped] 0
 x_TueThur[D329,352D41,EBikeCart] 0
-x_TueThur[D329,352D41,FootBike] 0
+x_TueThur[D329,352D41,FootBike] 1
 x_TueThur[D328,352D41,Car] 0
 x_TueThur[D328,352D41,Moped] 0
 x_TueThur[D328,352D41,EBikeCart] 0
@@ -7604,7 +7604,7 @@ x_TueThur[D365,352D41,FootBike] 0
 x_TueThur[D328,352D42,Car] 0
 x_TueThur[D328,352D42,Moped] 0
 x_TueThur[D328,352D42,EBikeCart] 0
-x_TueThur[D328,352D42,FootBike] 0
+x_TueThur[D328,352D42,FootBike] 1
 x_TueThur[D329,352D42,Car] 0
 x_TueThur[D329,352D42,Moped] 0
 x_TueThur[D329,352D42,EBikeCart] 0
@@ -7684,7 +7684,7 @@ x_TueThur[D360,352D42,FootBike] 0
 x_TueThur[D328,352D45,Car] 0
 x_TueThur[D328,352D45,Moped] 0
 x_TueThur[D328,352D45,EBikeCart] 0
-x_TueThur[D328,352D45,FootBike] 0
+x_TueThur[D328,352D45,FootBike] 1
 x_TueThur[D329,352D45,Car] 0
 x_TueThur[D329,352D45,Moped] 0
 x_TueThur[D329,352D45,EBikeCart] 0
@@ -7764,7 +7764,7 @@ x_TueThur[D263,352D45,FootBike] 0
 x_TueThur[D328,352D46,Car] 0
 x_TueThur[D328,352D46,Moped] 0
 x_TueThur[D328,352D46,EBikeCart] 0
-x_TueThur[D328,352D46,FootBike] 0
+x_TueThur[D328,352D46,FootBike] 1
 x_TueThur[D329,352D46,Car] 0
 x_TueThur[D329,352D46,Moped] 0
 x_TueThur[D329,352D46,EBikeCart] 0
@@ -7844,7 +7844,7 @@ x_TueThur[D395,352D46,FootBike] 0
 x_TueThur[D329,352D49,Car] 0
 x_TueThur[D329,352D49,Moped] 0
 x_TueThur[D329,352D49,EBikeCart] 0
-x_TueThur[D329,352D49,FootBike] 0
+x_TueThur[D329,352D49,FootBike] 1
 x_TueThur[D328,352D49,Car] 0
 x_TueThur[D328,352D49,Moped] 0
 x_TueThur[D328,352D49,EBikeCart] 0
@@ -7924,7 +7924,7 @@ x_TueThur[D297,352D49,FootBike] 0
 x_TueThur[D329,352D50,Car] 0
 x_TueThur[D329,352D50,Moped] 0
 x_TueThur[D329,352D50,EBikeCart] 0
-x_TueThur[D329,352D50,FootBike] 0
+x_TueThur[D329,352D50,FootBike] 1
 x_TueThur[D328,352D50,Car] 0
 x_TueThur[D328,352D50,Moped] 0
 x_TueThur[D328,352D50,EBikeCart] 0
@@ -8004,7 +8004,7 @@ x_TueThur[D260,352D50,FootBike] 0
 x_TueThur[D329,352D53,Car] 0
 x_TueThur[D329,352D53,Moped] 0
 x_TueThur[D329,352D53,EBikeCart] 0
-x_TueThur[D329,352D53,FootBike] 0
+x_TueThur[D329,352D53,FootBike] 1
 x_TueThur[D295,352D53,Car] 0
 x_TueThur[D295,352D53,Moped] 0
 x_TueThur[D295,352D53,EBikeCart] 0
@@ -8084,7 +8084,7 @@ x_TueThur[D365,352D53,FootBike] 0
 x_TueThur[D329,352D54,Car] 0
 x_TueThur[D329,352D54,Moped] 0
 x_TueThur[D329,352D54,EBikeCart] 0
-x_TueThur[D329,352D54,FootBike] 0
+x_TueThur[D329,352D54,FootBike] 1
 x_TueThur[D295,352D54,Car] 0
 x_TueThur[D295,352D54,Moped] 0
 x_TueThur[D295,352D54,EBikeCart] 0
@@ -8164,7 +8164,7 @@ x_TueThur[D365,352D54,FootBike] 0
 x_TueThur[D329,352D57,Car] 0
 x_TueThur[D329,352D57,Moped] 0
 x_TueThur[D329,352D57,EBikeCart] 0
-x_TueThur[D329,352D57,FootBike] 0
+x_TueThur[D329,352D57,FootBike] 1
 x_TueThur[D328,352D57,Car] 0
 x_TueThur[D328,352D57,Moped] 0
 x_TueThur[D328,352D57,EBikeCart] 0
@@ -8244,7 +8244,7 @@ x_TueThur[D260,352D57,FootBike] 0
 x_TueThur[D329,352D58,Car] 0
 x_TueThur[D329,352D58,Moped] 0
 x_TueThur[D329,352D58,EBikeCart] 0
-x_TueThur[D329,352D58,FootBike] 0
+x_TueThur[D329,352D58,FootBike] 1
 x_TueThur[D295,352D58,Car] 0
 x_TueThur[D295,352D58,Moped] 0
 x_TueThur[D295,352D58,EBikeCart] 0
@@ -8324,7 +8324,7 @@ x_TueThur[D260,352D58,FootBike] 0
 x_TueThur[D329,352D61,Car] 0
 x_TueThur[D329,352D61,Moped] 0
 x_TueThur[D329,352D61,EBikeCart] 0
-x_TueThur[D329,352D61,FootBike] 0
+x_TueThur[D329,352D61,FootBike] 1
 x_TueThur[D328,352D61,Car] 0
 x_TueThur[D328,352D61,Moped] 0
 x_TueThur[D328,352D61,EBikeCart] 0
@@ -8404,7 +8404,7 @@ x_TueThur[D297,352D61,FootBike] 0
 x_TueThur[D329,352D62,Car] 0
 x_TueThur[D329,352D62,Moped] 0
 x_TueThur[D329,352D62,EBikeCart] 0
-x_TueThur[D329,352D62,FootBike] 0
+x_TueThur[D329,352D62,FootBike] 1
 x_TueThur[D328,352D62,Car] 0
 x_TueThur[D328,352D62,Moped] 0
 x_TueThur[D328,352D62,EBikeCart] 0
@@ -8484,7 +8484,7 @@ x_TueThur[D297,352D62,FootBike] 0
 x_TueThur[D328,352D65,Car] 0
 x_TueThur[D328,352D65,Moped] 0
 x_TueThur[D328,352D65,EBikeCart] 0
-x_TueThur[D328,352D65,FootBike] 0
+x_TueThur[D328,352D65,FootBike] 1
 x_TueThur[D294,352D65,Car] 0
 x_TueThur[D294,352D65,Moped] 0
 x_TueThur[D294,352D65,EBikeCart] 0
@@ -8564,7 +8564,7 @@ x_TueThur[D397,352D65,FootBike] 0
 x_TueThur[D294,352D66,Car] 0
 x_TueThur[D294,352D66,Moped] 0
 x_TueThur[D294,352D66,EBikeCart] 0
-x_TueThur[D294,352D66,FootBike] 0
+x_TueThur[D294,352D66,FootBike] 1
 x_TueThur[D328,352D66,Car] 0
 x_TueThur[D328,352D66,Moped] 0
 x_TueThur[D328,352D66,EBikeCart] 0
@@ -8644,7 +8644,7 @@ x_TueThur[D396,352D66,FootBike] 0
 x_TueThur[D328,352D69,Car] 0
 x_TueThur[D328,352D69,Moped] 0
 x_TueThur[D328,352D69,EBikeCart] 0
-x_TueThur[D328,352D69,FootBike] 0
+x_TueThur[D328,352D69,FootBike] 1
 x_TueThur[D294,352D69,Car] 0
 x_TueThur[D294,352D69,Moped] 0
 x_TueThur[D294,352D69,EBikeCart] 0
@@ -8724,7 +8724,7 @@ x_TueThur[D263,352D69,FootBike] 0
 x_TueThur[D328,352D70,Car] 0
 x_TueThur[D328,352D70,Moped] 0
 x_TueThur[D328,352D70,EBikeCart] 0
-x_TueThur[D328,352D70,FootBike] 0
+x_TueThur[D328,352D70,FootBike] 1
 x_TueThur[D294,352D70,Car] 0
 x_TueThur[D294,352D70,Moped] 0
 x_TueThur[D294,352D70,EBikeCart] 0
@@ -8804,7 +8804,7 @@ x_TueThur[D397,352D70,FootBike] 0
 x_TueThur[D328,353F11,Car] 0
 x_TueThur[D328,353F11,Moped] 0
 x_TueThur[D328,353F11,EBikeCart] 0
-x_TueThur[D328,353F11,FootBike] 0
+x_TueThur[D328,353F11,FootBike] 1
 x_TueThur[D327,353F11,Car] 0
 x_TueThur[D327,353F11,Moped] 0
 x_TueThur[D327,353F11,EBikeCart] 0
@@ -8884,7 +8884,7 @@ x_TueThur[D296,353F11,FootBike] 0
 x_TueThur[D328,353F13,Car] 0
 x_TueThur[D328,353F13,Moped] 0
 x_TueThur[D328,353F13,EBikeCart] 0
-x_TueThur[D328,353F13,FootBike] 0
+x_TueThur[D328,353F13,FootBike] 1
 x_TueThur[D327,353F13,Car] 0
 x_TueThur[D327,353F13,Moped] 0
 x_TueThur[D327,353F13,EBikeCart] 0
@@ -8964,7 +8964,7 @@ x_TueThur[D364,353F13,FootBike] 0
 x_TueThur[D328,353F15,Car] 0
 x_TueThur[D328,353F15,Moped] 0
 x_TueThur[D328,353F15,EBikeCart] 0
-x_TueThur[D328,353F15,FootBike] 0
+x_TueThur[D328,353F15,FootBike] 1
 x_TueThur[D327,353F15,Car] 0
 x_TueThur[D327,353F15,Moped] 0
 x_TueThur[D327,353F15,EBikeCart] 0
@@ -9044,7 +9044,7 @@ x_TueThur[D262,353F15,FootBike] 0
 x_TueThur[D328,353F17,Car] 0
 x_TueThur[D328,353F17,Moped] 0
 x_TueThur[D328,353F17,EBikeCart] 0
-x_TueThur[D328,353F17,FootBike] 0
+x_TueThur[D328,353F17,FootBike] 1
 x_TueThur[D327,353F17,Car] 0
 x_TueThur[D327,353F17,Moped] 0
 x_TueThur[D327,353F17,EBikeCart] 0
@@ -9124,7 +9124,7 @@ x_TueThur[D296,353F17,FootBike] 0
 x_TueThur[D328,353F19,Car] 0
 x_TueThur[D328,353F19,Moped] 0
 x_TueThur[D328,353F19,EBikeCart] 0
-x_TueThur[D328,353F19,FootBike] 0
+x_TueThur[D328,353F19,FootBike] 1
 x_TueThur[D327,353F19,Car] 0
 x_TueThur[D327,353F19,Moped] 0
 x_TueThur[D327,353F19,EBikeCart] 0
@@ -9204,7 +9204,7 @@ x_TueThur[D397,353F19,FootBike] 0
 x_TueThur[D328,353F21,Car] 0
 x_TueThur[D328,353F21,Moped] 0
 x_TueThur[D328,353F21,EBikeCart] 0
-x_TueThur[D328,353F21,FootBike] 0
+x_TueThur[D328,353F21,FootBike] 1
 x_TueThur[D294,353F21,Car] 0
 x_TueThur[D294,353F21,Moped] 0
 x_TueThur[D294,353F21,EBikeCart] 0
@@ -9284,7 +9284,7 @@ x_TueThur[D395,353F21,FootBike] 0
 x_TueThur[D328,353F23,Car] 0
 x_TueThur[D328,353F23,Moped] 0
 x_TueThur[D328,353F23,EBikeCart] 0
-x_TueThur[D328,353F23,FootBike] 0
+x_TueThur[D328,353F23,FootBike] 1
 x_TueThur[D329,353F23,Car] 0
 x_TueThur[D329,353F23,Moped] 0
 x_TueThur[D329,353F23,EBikeCart] 0
@@ -9364,7 +9364,7 @@ x_TueThur[D395,353F23,FootBike] 0
 x_TueThur[D328,353F25,Car] 0
 x_TueThur[D328,353F25,Moped] 0
 x_TueThur[D328,353F25,EBikeCart] 0
-x_TueThur[D328,353F25,FootBike] 0
+x_TueThur[D328,353F25,FootBike] 1
 x_TueThur[D327,353F25,Car] 0
 x_TueThur[D327,353F25,Moped] 0
 x_TueThur[D327,353F25,EBikeCart] 0
@@ -9444,7 +9444,7 @@ x_TueThur[D262,353F25,FootBike] 0
 x_TueThur[D328,353F27,Car] 0
 x_TueThur[D328,353F27,Moped] 0
 x_TueThur[D328,353F27,EBikeCart] 0
-x_TueThur[D328,353F27,FootBike] 0
+x_TueThur[D328,353F27,FootBike] 1
 x_TueThur[D362,353F27,Car] 0
 x_TueThur[D362,353F27,Moped] 0
 x_TueThur[D362,353F27,EBikeCart] 0
@@ -9524,7 +9524,7 @@ x_TueThur[D296,353F27,FootBike] 0
 x_TueThur[D328,353F29,Car] 0
 x_TueThur[D328,353F29,Moped] 0
 x_TueThur[D328,353F29,EBikeCart] 0
-x_TueThur[D328,353F29,FootBike] 0
+x_TueThur[D328,353F29,FootBike] 1
 x_TueThur[D329,353F29,Car] 0
 x_TueThur[D329,353F29,Moped] 0
 x_TueThur[D329,353F29,EBikeCart] 0
@@ -9604,7 +9604,7 @@ x_TueThur[D260,353F29,FootBike] 0
 x_TueThur[D328,353F31,Car] 0
 x_TueThur[D328,353F31,Moped] 0
 x_TueThur[D328,353F31,EBikeCart] 0
-x_TueThur[D328,353F31,FootBike] 0
+x_TueThur[D328,353F31,FootBike] 1
 x_TueThur[D362,353F31,Car] 0
 x_TueThur[D362,353F31,Moped] 0
 x_TueThur[D362,353F31,EBikeCart] 0
@@ -9684,7 +9684,7 @@ x_TueThur[D296,353F31,FootBike] 0
 x_TueThur[D328,353F33,Car] 0
 x_TueThur[D328,353F33,Moped] 0
 x_TueThur[D328,353F33,EBikeCart] 0
-x_TueThur[D328,353F33,FootBike] 0
+x_TueThur[D328,353F33,FootBike] 1
 x_TueThur[D362,353F33,Car] 0
 x_TueThur[D362,353F33,Moped] 0
 x_TueThur[D362,353F33,EBikeCart] 0
@@ -9764,7 +9764,7 @@ x_TueThur[D296,353F33,FootBike] 0
 x_TueThur[D260,354F05,Car] 0
 x_TueThur[D260,354F05,Moped] 0
 x_TueThur[D260,354F05,EBikeCart] 0
-x_TueThur[D260,354F05,FootBike] 0
+x_TueThur[D260,354F05,FootBike] 1
 x_TueThur[D261,354F05,Car] 0
 x_TueThur[D261,354F05,Moped] 0
 x_TueThur[D261,354F05,EBikeCart] 0
@@ -9848,7 +9848,7 @@ x_TueThur[D293,354F19,FootBike] 0
 x_TueThur[D294,354F19,Car] 0
 x_TueThur[D294,354F19,Moped] 0
 x_TueThur[D294,354F19,EBikeCart] 0
-x_TueThur[D294,354F19,FootBike] 0
+x_TueThur[D294,354F19,FootBike] 1
 x_TueThur[D260,354F19,Car] 0
 x_TueThur[D260,354F19,Moped] 0
 x_TueThur[D260,354F19,EBikeCart] 0
@@ -9924,7 +9924,7 @@ x_TueThur[D296,354F19,FootBike] 0
 x_TueThur[D260,354F21,Car] 0
 x_TueThur[D260,354F21,Moped] 0
 x_TueThur[D260,354F21,EBikeCart] 0
-x_TueThur[D260,354F21,FootBike] 0
+x_TueThur[D260,354F21,FootBike] 1
 x_TueThur[D261,354F21,Car] 0
 x_TueThur[D261,354F21,Moped] 0
 x_TueThur[D261,354F21,EBikeCart] 0
@@ -10008,7 +10008,7 @@ x_TueThur[D261,354F23,FootBike] 0
 x_TueThur[D260,354F23,Car] 0
 x_TueThur[D260,354F23,Moped] 0
 x_TueThur[D260,354F23,EBikeCart] 0
-x_TueThur[D260,354F23,FootBike] 0
+x_TueThur[D260,354F23,FootBike] 1
 x_TueThur[D228,354F23,Car] 0
 x_TueThur[D228,354F23,Moped] 0
 x_TueThur[D228,354F23,EBikeCart] 0
@@ -10088,7 +10088,7 @@ x_TueThur[D261,354F25,FootBike] 0
 x_TueThur[D260,354F25,Car] 0
 x_TueThur[D260,354F25,Moped] 0
 x_TueThur[D260,354F25,EBikeCart] 0
-x_TueThur[D260,354F25,FootBike] 0
+x_TueThur[D260,354F25,FootBike] 1
 x_TueThur[D294,354F25,Car] 0
 x_TueThur[D294,354F25,Moped] 0
 x_TueThur[D294,354F25,EBikeCart] 0
@@ -10168,7 +10168,7 @@ x_TueThur[D261,354F27,FootBike] 0
 x_TueThur[D260,354F27,Car] 0
 x_TueThur[D260,354F27,Moped] 0
 x_TueThur[D260,354F27,EBikeCart] 0
-x_TueThur[D260,354F27,FootBike] 0
+x_TueThur[D260,354F27,FootBike] 1
 x_TueThur[D294,354F27,Car] 0
 x_TueThur[D294,354F27,Moped] 0
 x_TueThur[D294,354F27,EBikeCart] 0
@@ -10244,7 +10244,7 @@ x_TueThur[D296,354F27,FootBike] 0
 x_TueThur[D294,354F29,Car] 0
 x_TueThur[D294,354F29,Moped] 0
 x_TueThur[D294,354F29,EBikeCart] 0
-x_TueThur[D294,354F29,FootBike] 0
+x_TueThur[D294,354F29,FootBike] 1
 x_TueThur[D261,354F29,Car] 0
 x_TueThur[D261,354F29,Moped] 0
 x_TueThur[D261,354F29,EBikeCart] 0
@@ -10328,7 +10328,7 @@ x_TueThur[D259,354F47,FootBike] 0
 x_TueThur[D258,354F47,Car] 0
 x_TueThur[D258,354F47,Moped] 0
 x_TueThur[D258,354F47,EBikeCart] 0
-x_TueThur[D258,354F47,FootBike] 0
+x_TueThur[D258,354F47,FootBike] 1
 x_TueThur[D226,354F47,Car] 0
 x_TueThur[D226,354F47,Moped] 0
 x_TueThur[D226,354F47,EBikeCart] 0
@@ -10412,7 +10412,7 @@ x_TueThur[D226,354F48,FootBike] 0
 x_TueThur[D258,354F48,Car] 0
 x_TueThur[D258,354F48,Moped] 0
 x_TueThur[D258,354F48,EBikeCart] 0
-x_TueThur[D258,354F48,FootBike] 0
+x_TueThur[D258,354F48,FootBike] 1
 x_TueThur[D225,354F48,Car] 0
 x_TueThur[D225,354F48,Moped] 0
 x_TueThur[D225,354F48,EBikeCart] 0
@@ -10492,7 +10492,7 @@ x_TueThur[D226,354F49,FootBike] 0
 x_TueThur[D258,354F49,Car] 0
 x_TueThur[D258,354F49,Moped] 0
 x_TueThur[D258,354F49,EBikeCart] 0
-x_TueThur[D258,354F49,FootBike] 0
+x_TueThur[D258,354F49,FootBike] 1
 x_TueThur[D225,354F49,Car] 0
 x_TueThur[D225,354F49,Moped] 0
 x_TueThur[D225,354F49,EBikeCart] 0
@@ -10576,7 +10576,7 @@ x_TueThur[D225,354F50,FootBike] 0
 x_TueThur[D258,354F50,Car] 0
 x_TueThur[D258,354F50,Moped] 0
 x_TueThur[D258,354F50,EBikeCart] 0
-x_TueThur[D258,354F50,FootBike] 0
+x_TueThur[D258,354F50,FootBike] 1
 x_TueThur[D227,354F50,Car] 0
 x_TueThur[D227,354F50,Moped] 0
 x_TueThur[D227,354F50,EBikeCart] 0
@@ -10656,7 +10656,7 @@ x_TueThur[D225,354F51,FootBike] 0
 x_TueThur[D258,354F51,Car] 0
 x_TueThur[D258,354F51,Moped] 0
 x_TueThur[D258,354F51,EBikeCart] 0
-x_TueThur[D258,354F51,FootBike] 0
+x_TueThur[D258,354F51,FootBike] 1
 x_TueThur[D227,354F51,Car] 0
 x_TueThur[D227,354F51,Moped] 0
 x_TueThur[D227,354F51,EBikeCart] 0
@@ -10736,7 +10736,7 @@ x_TueThur[D225,354F52,FootBike] 0
 x_TueThur[D258,354F52,Car] 0
 x_TueThur[D258,354F52,Moped] 0
 x_TueThur[D258,354F52,EBikeCart] 0
-x_TueThur[D258,354F52,FootBike] 0
+x_TueThur[D258,354F52,FootBike] 1
 x_TueThur[D227,354F52,Car] 0
 x_TueThur[D227,354F52,Moped] 0
 x_TueThur[D227,354F52,EBikeCart] 0
@@ -10810,7 +10810,7 @@ x_TueThur[D226,354F53,Moped] 0
 x_TueThur[D226,354F53,EBikeCart] 0
 x_TueThur[D226,354F53,FootBike] 0
 x_TueThur[D258,354F53,Car] 0
-x_TueThur[D258,354F53,Moped] 0
+x_TueThur[D258,354F53,Moped] 1
 x_TueThur[D258,354F53,EBikeCart] 0
 x_TueThur[D258,354F53,FootBike] 0
 x_TueThur[D259,354F53,Car] 0
@@ -10896,7 +10896,7 @@ x_TueThur[D259,354F54,FootBike] 0
 x_TueThur[D258,354F54,Car] 0
 x_TueThur[D258,354F54,Moped] 0
 x_TueThur[D258,354F54,EBikeCart] 0
-x_TueThur[D258,354F54,FootBike] 0
+x_TueThur[D258,354F54,FootBike] 1
 x_TueThur[D194,354F54,Car] 0
 x_TueThur[D194,354F54,Moped] 0
 x_TueThur[D194,354F54,EBikeCart] 0
@@ -10968,7 +10968,7 @@ x_TueThur[D225,354F59,FootBike] 0
 x_TueThur[D258,354F59,Car] 0
 x_TueThur[D258,354F59,Moped] 0
 x_TueThur[D258,354F59,EBikeCart] 0
-x_TueThur[D258,354F59,FootBike] 0
+x_TueThur[D258,354F59,FootBike] 1
 x_TueThur[D226,354F59,Car] 0
 x_TueThur[D226,354F59,Moped] 0
 x_TueThur[D226,354F59,EBikeCart] 0
@@ -11052,7 +11052,7 @@ x_TueThur[D226,354F60,FootBike] 0
 x_TueThur[D258,354F60,Car] 0
 x_TueThur[D258,354F60,Moped] 0
 x_TueThur[D258,354F60,EBikeCart] 0
-x_TueThur[D258,354F60,FootBike] 0
+x_TueThur[D258,354F60,FootBike] 1
 x_TueThur[D193,354F60,Car] 0
 x_TueThur[D193,354F60,Moped] 0
 x_TueThur[D193,354F60,EBikeCart] 0
@@ -11136,7 +11136,7 @@ x_TueThur[D193,354F61,FootBike] 0
 x_TueThur[D258,354F61,Car] 0
 x_TueThur[D258,354F61,Moped] 0
 x_TueThur[D258,354F61,EBikeCart] 0
-x_TueThur[D258,354F61,FootBike] 0
+x_TueThur[D258,354F61,FootBike] 1
 x_TueThur[D224,354F61,Car] 0
 x_TueThur[D224,354F61,Moped] 0
 x_TueThur[D224,354F61,EBikeCart] 0
@@ -11212,7 +11212,7 @@ x_TueThur[D226,354F62,FootBike] 0
 x_TueThur[D258,354F62,Car] 0
 x_TueThur[D258,354F62,Moped] 0
 x_TueThur[D258,354F62,EBikeCart] 0
-x_TueThur[D258,354F62,FootBike] 0
+x_TueThur[D258,354F62,FootBike] 1
 x_TueThur[D259,354F62,Car] 0
 x_TueThur[D259,354F62,Moped] 0
 x_TueThur[D259,354F62,EBikeCart] 0
@@ -11288,7 +11288,7 @@ x_TueThur[D225,354F64,FootBike] 0
 x_TueThur[D258,354F64,Car] 0
 x_TueThur[D258,354F64,Moped] 0
 x_TueThur[D258,354F64,EBikeCart] 0
-x_TueThur[D258,354F64,FootBike] 0
+x_TueThur[D258,354F64,FootBike] 1
 x_TueThur[D224,354F64,Car] 0
 x_TueThur[D224,354F64,Moped] 0
 x_TueThur[D224,354F64,EBikeCart] 0
@@ -11370,7 +11370,7 @@ x_TueThur[D394,356B01,Moped] 0
 x_TueThur[D394,356B01,EBikeCart] 0
 x_TueThur[D394,356B01,FootBike] 0
 x_TueThur[D361,356B01,Car] 0
-x_TueThur[D361,356B01,Moped] 0
+x_TueThur[D361,356B01,Moped] 1
 x_TueThur[D361,356B01,EBikeCart] 0
 x_TueThur[D361,356B01,FootBike] 0
 x_TueThur[D395,356B01,Car] 0
@@ -11448,7 +11448,7 @@ x_TueThur[D292,356C07,FootBike] 0
 x_TueThur[D326,356C07,Car] 0
 x_TueThur[D326,356C07,Moped] 0
 x_TueThur[D326,356C07,EBikeCart] 0
-x_TueThur[D326,356C07,FootBike] 0
+x_TueThur[D326,356C07,FootBike] 1
 x_TueThur[D293,356C07,Car] 0
 x_TueThur[D293,356C07,Moped] 0
 x_TueThur[D293,356C07,EBikeCart] 0
@@ -11530,7 +11530,7 @@ x_TueThur[D291,356C13,Moped] 0
 x_TueThur[D291,356C13,EBikeCart] 0
 x_TueThur[D291,356C13,FootBike] 0
 x_TueThur[D326,356C13,Car] 0
-x_TueThur[D326,356C13,Moped] 0
+x_TueThur[D326,356C13,Moped] 1
 x_TueThur[D326,356C13,EBikeCart] 0
 x_TueThur[D326,356C13,FootBike] 0
 x_TueThur[D259,356C13,Car] 0
@@ -11604,7 +11604,7 @@ x_TueThur[D328,356C13,FootBike] 0
 x_TueThur[D326,356D01,Car] 0
 x_TueThur[D326,356D01,Moped] 0
 x_TueThur[D326,356D01,EBikeCart] 0
-x_TueThur[D326,356D01,FootBike] 0
+x_TueThur[D326,356D01,FootBike] 1
 x_TueThur[D360,356D01,Car] 0
 x_TueThur[D360,356D01,Moped] 0
 x_TueThur[D360,356D01,EBikeCart] 0
@@ -11688,7 +11688,7 @@ x_TueThur[D360,356D02,FootBike] 0
 x_TueThur[D326,356D02,Car] 0
 x_TueThur[D326,356D02,Moped] 0
 x_TueThur[D326,356D02,EBikeCart] 0
-x_TueThur[D326,356D02,FootBike] 0
+x_TueThur[D326,356D02,FootBike] 1
 x_TueThur[D361,356D02,Car] 0
 x_TueThur[D361,356D02,Moped] 0
 x_TueThur[D361,356D02,EBikeCart] 0
@@ -11764,7 +11764,7 @@ x_TueThur[D259,356D02,FootBike] 0
 x_TueThur[D326,356D05,Car] 0
 x_TueThur[D326,356D05,Moped] 0
 x_TueThur[D326,356D05,EBikeCart] 0
-x_TueThur[D326,356D05,FootBike] 0
+x_TueThur[D326,356D05,FootBike] 1
 x_TueThur[D360,356D05,Car] 0
 x_TueThur[D360,356D05,Moped] 0
 x_TueThur[D360,356D05,EBikeCart] 0
@@ -11844,7 +11844,7 @@ x_TueThur[D260,356D05,FootBike] 0
 x_TueThur[D326,356D06,Car] 0
 x_TueThur[D326,356D06,Moped] 0
 x_TueThur[D326,356D06,EBikeCart] 0
-x_TueThur[D326,356D06,FootBike] 0
+x_TueThur[D326,356D06,FootBike] 1
 x_TueThur[D360,356D06,Car] 0
 x_TueThur[D360,356D06,Moped] 0
 x_TueThur[D360,356D06,EBikeCart] 0
@@ -11924,7 +11924,7 @@ x_TueThur[D260,356D06,FootBike] 0
 x_TueThur[D326,356D09,Car] 0
 x_TueThur[D326,356D09,Moped] 0
 x_TueThur[D326,356D09,EBikeCart] 0
-x_TueThur[D326,356D09,FootBike] 0
+x_TueThur[D326,356D09,FootBike] 1
 x_TueThur[D327,356D09,Car] 0
 x_TueThur[D327,356D09,Moped] 0
 x_TueThur[D327,356D09,EBikeCart] 0
@@ -12004,7 +12004,7 @@ x_TueThur[D396,356D09,FootBike] 0
 x_TueThur[D326,356D10,Car] 0
 x_TueThur[D326,356D10,Moped] 0
 x_TueThur[D326,356D10,EBikeCart] 0
-x_TueThur[D326,356D10,FootBike] 0
+x_TueThur[D326,356D10,FootBike] 1
 x_TueThur[D327,356D10,Car] 0
 x_TueThur[D327,356D10,Moped] 0
 x_TueThur[D327,356D10,EBikeCart] 0
@@ -12084,7 +12084,7 @@ x_TueThur[D329,356D10,FootBike] 0
 x_TueThur[D327,356D13,Car] 0
 x_TueThur[D327,356D13,Moped] 0
 x_TueThur[D327,356D13,EBikeCart] 0
-x_TueThur[D327,356D13,FootBike] 0
+x_TueThur[D327,356D13,FootBike] 1
 x_TueThur[D326,356D13,Car] 0
 x_TueThur[D326,356D13,Moped] 0
 x_TueThur[D326,356D13,EBikeCart] 0
@@ -12164,7 +12164,7 @@ x_TueThur[D363,356D13,FootBike] 0
 x_TueThur[D327,356D14,Car] 0
 x_TueThur[D327,356D14,Moped] 0
 x_TueThur[D327,356D14,EBikeCart] 0
-x_TueThur[D327,356D14,FootBike] 0
+x_TueThur[D327,356D14,FootBike] 1
 x_TueThur[D326,356D14,Car] 0
 x_TueThur[D326,356D14,Moped] 0
 x_TueThur[D326,356D14,EBikeCart] 0
@@ -12248,7 +12248,7 @@ x_TueThur[D360,356D17,FootBike] 0
 x_TueThur[D361,356D17,Car] 0
 x_TueThur[D361,356D17,Moped] 0
 x_TueThur[D361,356D17,EBikeCart] 0
-x_TueThur[D361,356D17,FootBike] 0
+x_TueThur[D361,356D17,FootBike] 1
 x_TueThur[D326,356D17,Car] 0
 x_TueThur[D326,356D17,Moped] 0
 x_TueThur[D326,356D17,EBikeCart] 0
@@ -12324,7 +12324,7 @@ x_TueThur[D294,356D17,FootBike] 0
 x_TueThur[D361,356D18,Car] 0
 x_TueThur[D361,356D18,Moped] 0
 x_TueThur[D361,356D18,EBikeCart] 0
-x_TueThur[D361,356D18,FootBike] 0
+x_TueThur[D361,356D18,FootBike] 1
 x_TueThur[D360,356D18,Car] 0
 x_TueThur[D360,356D18,Moped] 0
 x_TueThur[D360,356D18,EBikeCart] 0
@@ -12408,7 +12408,7 @@ x_TueThur[D360,356D21,FootBike] 0
 x_TueThur[D361,356D21,Car] 0
 x_TueThur[D361,356D21,Moped] 0
 x_TueThur[D361,356D21,EBikeCart] 0
-x_TueThur[D361,356D21,FootBike] 0
+x_TueThur[D361,356D21,FootBike] 1
 x_TueThur[D326,356D21,Car] 0
 x_TueThur[D326,356D21,Moped] 0
 x_TueThur[D326,356D21,EBikeCart] 0
@@ -12488,7 +12488,7 @@ x_TueThur[D360,356D22,FootBike] 0
 x_TueThur[D361,356D22,Car] 0
 x_TueThur[D361,356D22,Moped] 0
 x_TueThur[D361,356D22,EBikeCart] 0
-x_TueThur[D361,356D22,FootBike] 0
+x_TueThur[D361,356D22,FootBike] 1
 x_TueThur[D326,356D22,Car] 0
 x_TueThur[D326,356D22,Moped] 0
 x_TueThur[D326,356D22,EBikeCart] 0
@@ -12564,7 +12564,7 @@ x_TueThur[D324,356D22,FootBike] 0
 x_TueThur[D361,356D25,Car] 0
 x_TueThur[D361,356D25,Moped] 0
 x_TueThur[D361,356D25,EBikeCart] 0
-x_TueThur[D361,356D25,FootBike] 0
+x_TueThur[D361,356D25,FootBike] 1
 x_TueThur[D360,356D25,Car] 0
 x_TueThur[D360,356D25,Moped] 0
 x_TueThur[D360,356D25,EBikeCart] 0
@@ -12644,7 +12644,7 @@ x_TueThur[D358,356D25,FootBike] 0
 x_TueThur[D361,356D26,Car] 0
 x_TueThur[D361,356D26,Moped] 0
 x_TueThur[D361,356D26,EBikeCart] 0
-x_TueThur[D361,356D26,FootBike] 0
+x_TueThur[D361,356D26,FootBike] 1
 x_TueThur[D360,356D26,Car] 0
 x_TueThur[D360,356D26,Moped] 0
 x_TueThur[D360,356D26,EBikeCart] 0
@@ -12724,7 +12724,7 @@ x_TueThur[D329,356D26,FootBike] 0
 x_TueThur[D327,356D29,Car] 0
 x_TueThur[D327,356D29,Moped] 0
 x_TueThur[D327,356D29,EBikeCart] 0
-x_TueThur[D327,356D29,FootBike] 0
+x_TueThur[D327,356D29,FootBike] 1
 x_TueThur[D361,356D29,Car] 0
 x_TueThur[D361,356D29,Moped] 0
 x_TueThur[D361,356D29,EBikeCart] 0
@@ -12804,7 +12804,7 @@ x_TueThur[D259,356D29,FootBike] 0
 x_TueThur[D327,356D30,Car] 0
 x_TueThur[D327,356D30,Moped] 0
 x_TueThur[D327,356D30,EBikeCart] 0
-x_TueThur[D327,356D30,FootBike] 0
+x_TueThur[D327,356D30,FootBike] 1
 x_TueThur[D361,356D30,Car] 0
 x_TueThur[D361,356D30,Moped] 0
 x_TueThur[D361,356D30,EBikeCart] 0
@@ -12884,7 +12884,7 @@ x_TueThur[D429,356D30,FootBike] 0
 x_TueThur[D327,356D33,Car] 0
 x_TueThur[D327,356D33,Moped] 0
 x_TueThur[D327,356D33,EBikeCart] 0
-x_TueThur[D327,356D33,FootBike] 0
+x_TueThur[D327,356D33,FootBike] 1
 x_TueThur[D326,356D33,Car] 0
 x_TueThur[D326,356D33,Moped] 0
 x_TueThur[D326,356D33,EBikeCart] 0
@@ -12964,7 +12964,7 @@ x_TueThur[D295,356D33,FootBike] 0
 x_TueThur[D327,356D34,Car] 0
 x_TueThur[D327,356D34,Moped] 0
 x_TueThur[D327,356D34,EBikeCart] 0
-x_TueThur[D327,356D34,FootBike] 0
+x_TueThur[D327,356D34,FootBike] 1
 x_TueThur[D326,356D34,Car] 0
 x_TueThur[D326,356D34,Moped] 0
 x_TueThur[D326,356D34,EBikeCart] 0
@@ -13044,7 +13044,7 @@ x_TueThur[D363,356D34,FootBike] 0
 x_TueThur[D327,356D37,Car] 0
 x_TueThur[D327,356D37,Moped] 0
 x_TueThur[D327,356D37,EBikeCart] 0
-x_TueThur[D327,356D37,FootBike] 0
+x_TueThur[D327,356D37,FootBike] 1
 x_TueThur[D293,356D37,Car] 0
 x_TueThur[D293,356D37,Moped] 0
 x_TueThur[D293,356D37,EBikeCart] 0
@@ -13124,7 +13124,7 @@ x_TueThur[D394,356D37,FootBike] 0
 x_TueThur[D327,356D38,Car] 0
 x_TueThur[D327,356D38,Moped] 0
 x_TueThur[D327,356D38,EBikeCart] 0
-x_TueThur[D327,356D38,FootBike] 0
+x_TueThur[D327,356D38,FootBike] 1
 x_TueThur[D293,356D38,Car] 0
 x_TueThur[D293,356D38,Moped] 0
 x_TueThur[D293,356D38,EBikeCart] 0
@@ -13204,7 +13204,7 @@ x_TueThur[D363,356D38,FootBike] 0
 x_TueThur[D327,356D41,Car] 0
 x_TueThur[D327,356D41,Moped] 0
 x_TueThur[D327,356D41,EBikeCart] 0
-x_TueThur[D327,356D41,FootBike] 0
+x_TueThur[D327,356D41,FootBike] 1
 x_TueThur[D293,356D41,Car] 0
 x_TueThur[D293,356D41,Moped] 0
 x_TueThur[D293,356D41,EBikeCart] 0
@@ -13284,7 +13284,7 @@ x_TueThur[D359,356D41,FootBike] 0
 x_TueThur[D327,356D42,Car] 0
 x_TueThur[D327,356D42,Moped] 0
 x_TueThur[D327,356D42,EBikeCart] 0
-x_TueThur[D327,356D42,FootBike] 0
+x_TueThur[D327,356D42,FootBike] 1
 x_TueThur[D293,356D42,Car] 0
 x_TueThur[D293,356D42,Moped] 0
 x_TueThur[D293,356D42,EBikeCart] 0
@@ -13364,7 +13364,7 @@ x_TueThur[D396,356D42,FootBike] 0
 x_TueThur[D327,356D45,Car] 0
 x_TueThur[D327,356D45,Moped] 0
 x_TueThur[D327,356D45,EBikeCart] 0
-x_TueThur[D327,356D45,FootBike] 0
+x_TueThur[D327,356D45,FootBike] 1
 x_TueThur[D326,356D45,Car] 0
 x_TueThur[D326,356D45,Moped] 0
 x_TueThur[D326,356D45,EBikeCart] 0
@@ -13444,7 +13444,7 @@ x_TueThur[D295,356D45,FootBike] 0
 x_TueThur[D327,356D46,Car] 0
 x_TueThur[D327,356D46,Moped] 0
 x_TueThur[D327,356D46,EBikeCart] 0
-x_TueThur[D327,356D46,FootBike] 0
+x_TueThur[D327,356D46,FootBike] 1
 x_TueThur[D326,356D46,Car] 0
 x_TueThur[D326,356D46,Moped] 0
 x_TueThur[D326,356D46,EBikeCart] 0
@@ -13524,7 +13524,7 @@ x_TueThur[D258,356D46,FootBike] 0
 x_TueThur[D327,356D49,Car] 0
 x_TueThur[D327,356D49,Moped] 0
 x_TueThur[D327,356D49,EBikeCart] 0
-x_TueThur[D327,356D49,FootBike] 0
+x_TueThur[D327,356D49,FootBike] 1
 x_TueThur[D293,356D49,Car] 0
 x_TueThur[D293,356D49,Moped] 0
 x_TueThur[D293,356D49,EBikeCart] 0
@@ -13604,7 +13604,7 @@ x_TueThur[D363,356D49,FootBike] 0
 x_TueThur[D327,356D50,Car] 0
 x_TueThur[D327,356D50,Moped] 0
 x_TueThur[D327,356D50,EBikeCart] 0
-x_TueThur[D327,356D50,FootBike] 0
+x_TueThur[D327,356D50,FootBike] 1
 x_TueThur[D293,356D50,Car] 0
 x_TueThur[D293,356D50,Moped] 0
 x_TueThur[D293,356D50,EBikeCart] 0
@@ -13688,7 +13688,7 @@ x_TueThur[D293,356D53,FootBike] 0
 x_TueThur[D327,356D53,Car] 0
 x_TueThur[D327,356D53,Moped] 0
 x_TueThur[D327,356D53,EBikeCart] 0
-x_TueThur[D327,356D53,FootBike] 0
+x_TueThur[D327,356D53,FootBike] 1
 x_TueThur[D292,356D53,Car] 0
 x_TueThur[D292,356D53,Moped] 0
 x_TueThur[D292,356D53,EBikeCart] 0
@@ -13764,7 +13764,7 @@ x_TueThur[D395,356D53,FootBike] 0
 x_TueThur[D327,356D54,Car] 0
 x_TueThur[D327,356D54,Moped] 0
 x_TueThur[D327,356D54,EBikeCart] 0
-x_TueThur[D327,356D54,FootBike] 0
+x_TueThur[D327,356D54,FootBike] 1
 x_TueThur[D293,356D54,Car] 0
 x_TueThur[D293,356D54,Moped] 0
 x_TueThur[D293,356D54,EBikeCart] 0
@@ -13844,7 +13844,7 @@ x_TueThur[D258,356D54,FootBike] 0
 x_TueThur[D327,356D57,Car] 0
 x_TueThur[D327,356D57,Moped] 0
 x_TueThur[D327,356D57,EBikeCart] 0
-x_TueThur[D327,356D57,FootBike] 0
+x_TueThur[D327,356D57,FootBike] 1
 x_TueThur[D293,356D57,Car] 0
 x_TueThur[D293,356D57,Moped] 0
 x_TueThur[D293,356D57,EBikeCart] 0
@@ -13928,7 +13928,7 @@ x_TueThur[D293,356D58,FootBike] 0
 x_TueThur[D327,356D58,Car] 0
 x_TueThur[D327,356D58,Moped] 0
 x_TueThur[D327,356D58,EBikeCart] 0
-x_TueThur[D327,356D58,FootBike] 0
+x_TueThur[D327,356D58,FootBike] 1
 x_TueThur[D292,356D58,Car] 0
 x_TueThur[D292,356D58,Moped] 0
 x_TueThur[D292,356D58,EBikeCart] 0
@@ -14004,7 +14004,7 @@ x_TueThur[D395,356D58,FootBike] 0
 x_TueThur[D327,356D61,Car] 0
 x_TueThur[D327,356D61,Moped] 0
 x_TueThur[D327,356D61,EBikeCart] 0
-x_TueThur[D327,356D61,FootBike] 0
+x_TueThur[D327,356D61,FootBike] 1
 x_TueThur[D326,356D61,Car] 0
 x_TueThur[D326,356D61,Moped] 0
 x_TueThur[D326,356D61,EBikeCart] 0
@@ -14084,7 +14084,7 @@ x_TueThur[D295,356D61,FootBike] 0
 x_TueThur[D327,356D62,Car] 0
 x_TueThur[D327,356D62,Moped] 0
 x_TueThur[D327,356D62,EBikeCart] 0
-x_TueThur[D327,356D62,FootBike] 0
+x_TueThur[D327,356D62,FootBike] 1
 x_TueThur[D326,356D62,Car] 0
 x_TueThur[D326,356D62,Moped] 0
 x_TueThur[D326,356D62,EBikeCart] 0
@@ -14164,7 +14164,7 @@ x_TueThur[D295,356D62,FootBike] 0
 x_TueThur[D361,356D65,Car] 0
 x_TueThur[D361,356D65,Moped] 0
 x_TueThur[D361,356D65,EBikeCart] 0
-x_TueThur[D361,356D65,FootBike] 0
+x_TueThur[D361,356D65,FootBike] 1
 x_TueThur[D395,356D65,Car] 0
 x_TueThur[D395,356D65,Moped] 0
 x_TueThur[D395,356D65,EBikeCart] 0
@@ -14244,7 +14244,7 @@ x_TueThur[D329,356D65,FootBike] 0
 x_TueThur[D361,356D66,Car] 0
 x_TueThur[D361,356D66,Moped] 0
 x_TueThur[D361,356D66,EBikeCart] 0
-x_TueThur[D361,356D66,FootBike] 0
+x_TueThur[D361,356D66,FootBike] 1
 x_TueThur[D395,356D66,Car] 0
 x_TueThur[D395,356D66,Moped] 0
 x_TueThur[D395,356D66,EBikeCart] 0
@@ -14324,7 +14324,7 @@ x_TueThur[D329,356D66,FootBike] 0
 x_TueThur[D361,356D69,Car] 0
 x_TueThur[D361,356D69,Moped] 0
 x_TueThur[D361,356D69,EBikeCart] 0
-x_TueThur[D361,356D69,FootBike] 0
+x_TueThur[D361,356D69,FootBike] 1
 x_TueThur[D395,356D69,Car] 0
 x_TueThur[D395,356D69,Moped] 0
 x_TueThur[D395,356D69,EBikeCart] 0
@@ -14404,7 +14404,7 @@ x_TueThur[D325,356D69,FootBike] 0
 x_TueThur[D361,356D70,Car] 0
 x_TueThur[D361,356D70,Moped] 0
 x_TueThur[D361,356D70,EBikeCart] 0
-x_TueThur[D361,356D70,FootBike] 0
+x_TueThur[D361,356D70,FootBike] 1
 x_TueThur[D362,356D70,Car] 0
 x_TueThur[D362,356D70,Moped] 0
 x_TueThur[D362,356D70,EBikeCart] 0
@@ -14514,7 +14514,7 @@ x_TueThur[D324,356D73,Moped] 0
 x_TueThur[D324,356D73,EBikeCart] 0
 x_TueThur[D324,356D73,FootBike] 0
 x_TueThur[D326,356D73,Car] 0
-x_TueThur[D326,356D73,Moped] 0
+x_TueThur[D326,356D73,Moped] 1
 x_TueThur[D326,356D73,EBikeCart] 0
 x_TueThur[D326,356D73,FootBike] 0
 x_TueThur[D427,356D73,Car] 0
@@ -14599,7 +14599,7 @@ x_TueThur[D360,356D74,EBikeCart] 0
 x_TueThur[D360,356D74,FootBike] 0
 x_TueThur[D326,356D74,Car] 0
 x_TueThur[D326,356D74,Moped] 0
-x_TueThur[D326,356D74,EBikeCart] 0
+x_TueThur[D326,356D74,EBikeCart] 1
 x_TueThur[D326,356D74,FootBike] 0
 x_TueThur[D290,356D74,Car] 0
 x_TueThur[D290,356D74,Moped] 0
@@ -14648,7 +14648,7 @@ x_TueThur[D395,357F04,FootBike] 0
 x_TueThur[D361,357F04,Car] 0
 x_TueThur[D361,357F04,Moped] 0
 x_TueThur[D361,357F04,EBikeCart] 0
-x_TueThur[D361,357F04,FootBike] 0
+x_TueThur[D361,357F04,FootBike] 1
 x_TueThur[D396,357F04,Car] 0
 x_TueThur[D396,357F04,Moped] 0
 x_TueThur[D396,357F04,EBikeCart] 0
@@ -14728,7 +14728,7 @@ x_TueThur[D395,357F05,FootBike] 0
 x_TueThur[D361,357F05,Car] 0
 x_TueThur[D361,357F05,Moped] 0
 x_TueThur[D361,357F05,EBikeCart] 0
-x_TueThur[D361,357F05,FootBike] 0
+x_TueThur[D361,357F05,FootBike] 1
 x_TueThur[D396,357F05,Car] 0
 x_TueThur[D396,357F05,Moped] 0
 x_TueThur[D396,357F05,EBikeCart] 0
@@ -14808,7 +14808,7 @@ x_TueThur[D395,357F06,FootBike] 0
 x_TueThur[D361,357F06,Car] 0
 x_TueThur[D361,357F06,Moped] 0
 x_TueThur[D361,357F06,EBikeCart] 0
-x_TueThur[D361,357F06,FootBike] 0
+x_TueThur[D361,357F06,FootBike] 1
 x_TueThur[D394,357F06,Car] 0
 x_TueThur[D394,357F06,Moped] 0
 x_TueThur[D394,357F06,EBikeCart] 0
@@ -14888,7 +14888,7 @@ x_TueThur[D395,357F07,FootBike] 0
 x_TueThur[D361,357F07,Car] 0
 x_TueThur[D361,357F07,Moped] 0
 x_TueThur[D361,357F07,EBikeCart] 0
-x_TueThur[D361,357F07,FootBike] 0
+x_TueThur[D361,357F07,FootBike] 1
 x_TueThur[D394,357F07,Car] 0
 x_TueThur[D394,357F07,Moped] 0
 x_TueThur[D394,357F07,EBikeCart] 0
@@ -14972,7 +14972,7 @@ x_TueThur[D397,358C01,FootBike] 0
 x_TueThur[D362,358C01,Car] 0
 x_TueThur[D362,358C01,Moped] 0
 x_TueThur[D362,358C01,EBikeCart] 0
-x_TueThur[D362,358C01,FootBike] 0
+x_TueThur[D362,358C01,FootBike] 1
 x_TueThur[D430,358C01,Car] 0
 x_TueThur[D430,358C01,Moped] 0
 x_TueThur[D430,358C01,EBikeCart] 0
@@ -15044,7 +15044,7 @@ x_TueThur[D463,358C01,FootBike] 0
 x_TueThur[D363,358C07,Car] 0
 x_TueThur[D363,358C07,Moped] 0
 x_TueThur[D363,358C07,EBikeCart] 0
-x_TueThur[D363,358C07,FootBike] 0
+x_TueThur[D363,358C07,FootBike] 1
 x_TueThur[D397,358C07,Car] 0
 x_TueThur[D397,358C07,Moped] 0
 x_TueThur[D397,358C07,EBikeCart] 0
@@ -15124,7 +15124,7 @@ x_TueThur[D294,358C07,FootBike] 0
 x_TueThur[D363,358C09,Car] 0
 x_TueThur[D363,358C09,Moped] 0
 x_TueThur[D363,358C09,EBikeCart] 0
-x_TueThur[D363,358C09,FootBike] 0
+x_TueThur[D363,358C09,FootBike] 1
 x_TueThur[D397,358C09,Car] 0
 x_TueThur[D397,358C09,Moped] 0
 x_TueThur[D397,358C09,EBikeCart] 0
@@ -15204,7 +15204,7 @@ x_TueThur[D429,358C09,FootBike] 0
 x_TueThur[D363,358D01,Car] 0
 x_TueThur[D363,358D01,Moped] 0
 x_TueThur[D363,358D01,EBikeCart] 0
-x_TueThur[D363,358D01,FootBike] 0
+x_TueThur[D363,358D01,FootBike] 1
 x_TueThur[D362,358D01,Car] 0
 x_TueThur[D362,358D01,Moped] 0
 x_TueThur[D362,358D01,EBikeCart] 0
@@ -15284,7 +15284,7 @@ x_TueThur[D429,358D01,FootBike] 0
 x_TueThur[D363,358D02,Car] 0
 x_TueThur[D363,358D02,Moped] 0
 x_TueThur[D363,358D02,EBikeCart] 0
-x_TueThur[D363,358D02,FootBike] 0
+x_TueThur[D363,358D02,FootBike] 1
 x_TueThur[D362,358D02,Car] 0
 x_TueThur[D362,358D02,Moped] 0
 x_TueThur[D362,358D02,EBikeCart] 0
@@ -15364,7 +15364,7 @@ x_TueThur[D293,358D02,FootBike] 0
 x_TueThur[D362,358D05,Car] 0
 x_TueThur[D362,358D05,Moped] 0
 x_TueThur[D362,358D05,EBikeCart] 0
-x_TueThur[D362,358D05,FootBike] 0
+x_TueThur[D362,358D05,FootBike] 1
 x_TueThur[D363,358D05,Car] 0
 x_TueThur[D363,358D05,Moped] 0
 x_TueThur[D363,358D05,EBikeCart] 0
@@ -15444,7 +15444,7 @@ x_TueThur[D429,358D05,FootBike] 0
 x_TueThur[D362,358D06,Car] 0
 x_TueThur[D362,358D06,Moped] 0
 x_TueThur[D362,358D06,EBikeCart] 0
-x_TueThur[D362,358D06,FootBike] 0
+x_TueThur[D362,358D06,FootBike] 1
 x_TueThur[D363,358D06,Car] 0
 x_TueThur[D363,358D06,Moped] 0
 x_TueThur[D363,358D06,EBikeCart] 0
@@ -15524,7 +15524,7 @@ x_TueThur[D429,358D06,FootBike] 0
 x_TueThur[D362,358D09,Car] 0
 x_TueThur[D362,358D09,Moped] 0
 x_TueThur[D362,358D09,EBikeCart] 0
-x_TueThur[D362,358D09,FootBike] 0
+x_TueThur[D362,358D09,FootBike] 1
 x_TueThur[D328,358D09,Car] 0
 x_TueThur[D328,358D09,Moped] 0
 x_TueThur[D328,358D09,EBikeCart] 0
@@ -15604,7 +15604,7 @@ x_TueThur[D398,358D09,FootBike] 0
 x_TueThur[D362,358D10,Car] 0
 x_TueThur[D362,358D10,Moped] 0
 x_TueThur[D362,358D10,EBikeCart] 0
-x_TueThur[D362,358D10,FootBike] 0
+x_TueThur[D362,358D10,FootBike] 1
 x_TueThur[D361,358D10,Car] 0
 x_TueThur[D361,358D10,Moped] 0
 x_TueThur[D361,358D10,EBikeCart] 0
@@ -15684,7 +15684,7 @@ x_TueThur[D431,358D10,FootBike] 0
 x_TueThur[D362,358D13,Car] 0
 x_TueThur[D362,358D13,Moped] 0
 x_TueThur[D362,358D13,EBikeCart] 0
-x_TueThur[D362,358D13,FootBike] 0
+x_TueThur[D362,358D13,FootBike] 1
 x_TueThur[D361,358D13,Car] 0
 x_TueThur[D361,358D13,Moped] 0
 x_TueThur[D361,358D13,EBikeCart] 0
@@ -15764,7 +15764,7 @@ x_TueThur[D431,358D13,FootBike] 0
 x_TueThur[D362,358D14,Car] 0
 x_TueThur[D362,358D14,Moped] 0
 x_TueThur[D362,358D14,EBikeCart] 0
-x_TueThur[D362,358D14,FootBike] 0
+x_TueThur[D362,358D14,FootBike] 1
 x_TueThur[D361,358D14,Car] 0
 x_TueThur[D361,358D14,Moped] 0
 x_TueThur[D361,358D14,EBikeCart] 0
@@ -15844,7 +15844,7 @@ x_TueThur[D330,358D14,FootBike] 0
 x_TueThur[D362,358D17,Car] 0
 x_TueThur[D362,358D17,Moped] 0
 x_TueThur[D362,358D17,EBikeCart] 0
-x_TueThur[D362,358D17,FootBike] 0
+x_TueThur[D362,358D17,FootBike] 1
 x_TueThur[D361,358D17,Car] 0
 x_TueThur[D361,358D17,Moped] 0
 x_TueThur[D361,358D17,EBikeCart] 0
@@ -15924,7 +15924,7 @@ x_TueThur[D292,358D17,FootBike] 0
 x_TueThur[D362,358D18,Car] 0
 x_TueThur[D362,358D18,Moped] 0
 x_TueThur[D362,358D18,EBikeCart] 0
-x_TueThur[D362,358D18,FootBike] 0
+x_TueThur[D362,358D18,FootBike] 1
 x_TueThur[D361,358D18,Car] 0
 x_TueThur[D361,358D18,Moped] 0
 x_TueThur[D361,358D18,EBikeCart] 0
@@ -16004,7 +16004,7 @@ x_TueThur[D330,358D18,FootBike] 0
 x_TueThur[D361,358D21,Car] 0
 x_TueThur[D361,358D21,Moped] 0
 x_TueThur[D361,358D21,EBikeCart] 0
-x_TueThur[D361,358D21,FootBike] 0
+x_TueThur[D361,358D21,FootBike] 1
 x_TueThur[D362,358D21,Car] 0
 x_TueThur[D362,358D21,Moped] 0
 x_TueThur[D362,358D21,EBikeCart] 0
@@ -16084,7 +16084,7 @@ x_TueThur[D364,358D21,FootBike] 0
 x_TueThur[D362,358D22,Car] 0
 x_TueThur[D362,358D22,Moped] 0
 x_TueThur[D362,358D22,EBikeCart] 0
-x_TueThur[D362,358D22,FootBike] 0
+x_TueThur[D362,358D22,FootBike] 1
 x_TueThur[D361,358D22,Car] 0
 x_TueThur[D361,358D22,Moped] 0
 x_TueThur[D361,358D22,EBikeCart] 0
@@ -16164,7 +16164,7 @@ x_TueThur[D359,358D22,FootBike] 0
 x_TueThur[D362,358D25,Car] 0
 x_TueThur[D362,358D25,Moped] 0
 x_TueThur[D362,358D25,EBikeCart] 0
-x_TueThur[D362,358D25,FootBike] 0
+x_TueThur[D362,358D25,FootBike] 1
 x_TueThur[D361,358D25,Car] 0
 x_TueThur[D361,358D25,Moped] 0
 x_TueThur[D361,358D25,EBikeCart] 0
@@ -16244,7 +16244,7 @@ x_TueThur[D398,358D25,FootBike] 0
 x_TueThur[D362,358D26,Car] 0
 x_TueThur[D362,358D26,Moped] 0
 x_TueThur[D362,358D26,EBikeCart] 0
-x_TueThur[D362,358D26,FootBike] 0
+x_TueThur[D362,358D26,FootBike] 1
 x_TueThur[D361,358D26,Car] 0
 x_TueThur[D361,358D26,Moped] 0
 x_TueThur[D361,358D26,EBikeCart] 0
@@ -16324,7 +16324,7 @@ x_TueThur[D398,358D26,FootBike] 0
 x_TueThur[D362,358D29,Car] 0
 x_TueThur[D362,358D29,Moped] 0
 x_TueThur[D362,358D29,EBikeCart] 0
-x_TueThur[D362,358D29,FootBike] 0
+x_TueThur[D362,358D29,FootBike] 1
 x_TueThur[D361,358D29,Car] 0
 x_TueThur[D361,358D29,Moped] 0
 x_TueThur[D361,358D29,EBikeCart] 0
@@ -16404,7 +16404,7 @@ x_TueThur[D359,358D29,FootBike] 0
 x_TueThur[D362,358D30,Car] 0
 x_TueThur[D362,358D30,Moped] 0
 x_TueThur[D362,358D30,EBikeCart] 0
-x_TueThur[D362,358D30,FootBike] 0
+x_TueThur[D362,358D30,FootBike] 1
 x_TueThur[D361,358D30,Car] 0
 x_TueThur[D361,358D30,Moped] 0
 x_TueThur[D361,358D30,EBikeCart] 0
@@ -16484,7 +16484,7 @@ x_TueThur[D398,358D30,FootBike] 0
 x_TueThur[D362,358D33,Car] 0
 x_TueThur[D362,358D33,Moped] 0
 x_TueThur[D362,358D33,EBikeCart] 0
-x_TueThur[D362,358D33,FootBike] 0
+x_TueThur[D362,358D33,FootBike] 1
 x_TueThur[D361,358D33,Car] 0
 x_TueThur[D361,358D33,Moped] 0
 x_TueThur[D361,358D33,EBikeCart] 0
@@ -16564,7 +16564,7 @@ x_TueThur[D398,358D33,FootBike] 0
 x_TueThur[D362,358D34,Car] 0
 x_TueThur[D362,358D34,Moped] 0
 x_TueThur[D362,358D34,EBikeCart] 0
-x_TueThur[D362,358D34,FootBike] 0
+x_TueThur[D362,358D34,FootBike] 1
 x_TueThur[D361,358D34,Car] 0
 x_TueThur[D361,358D34,Moped] 0
 x_TueThur[D361,358D34,EBikeCart] 0
@@ -16644,7 +16644,7 @@ x_TueThur[D295,358D34,FootBike] 0
 x_TueThur[D362,358D37,Car] 0
 x_TueThur[D362,358D37,Moped] 0
 x_TueThur[D362,358D37,EBikeCart] 0
-x_TueThur[D362,358D37,FootBike] 0
+x_TueThur[D362,358D37,FootBike] 1
 x_TueThur[D361,358D37,Car] 0
 x_TueThur[D361,358D37,Moped] 0
 x_TueThur[D361,358D37,EBikeCart] 0
@@ -16724,7 +16724,7 @@ x_TueThur[D295,358D37,FootBike] 0
 x_TueThur[D362,358D38,Car] 0
 x_TueThur[D362,358D38,Moped] 0
 x_TueThur[D362,358D38,EBikeCart] 0
-x_TueThur[D362,358D38,FootBike] 0
+x_TueThur[D362,358D38,FootBike] 1
 x_TueThur[D361,358D38,Car] 0
 x_TueThur[D361,358D38,Moped] 0
 x_TueThur[D361,358D38,EBikeCart] 0
@@ -16804,7 +16804,7 @@ x_TueThur[D295,358D38,FootBike] 0
 x_TueThur[D362,358D41,Car] 0
 x_TueThur[D362,358D41,Moped] 0
 x_TueThur[D362,358D41,EBikeCart] 0
-x_TueThur[D362,358D41,FootBike] 0
+x_TueThur[D362,358D41,FootBike] 1
 x_TueThur[D396,358D41,Car] 0
 x_TueThur[D396,358D41,Moped] 0
 x_TueThur[D396,358D41,EBikeCart] 0
@@ -16884,7 +16884,7 @@ x_TueThur[D330,358D41,FootBike] 0
 x_TueThur[D362,358D42,Car] 0
 x_TueThur[D362,358D42,Moped] 0
 x_TueThur[D362,358D42,EBikeCart] 0
-x_TueThur[D362,358D42,FootBike] 0
+x_TueThur[D362,358D42,FootBike] 1
 x_TueThur[D396,358D42,Car] 0
 x_TueThur[D396,358D42,Moped] 0
 x_TueThur[D396,358D42,EBikeCart] 0
@@ -16964,7 +16964,7 @@ x_TueThur[D428,358D42,FootBike] 0
 x_TueThur[D362,358D45,Car] 0
 x_TueThur[D362,358D45,Moped] 0
 x_TueThur[D362,358D45,EBikeCart] 0
-x_TueThur[D362,358D45,FootBike] 0
+x_TueThur[D362,358D45,FootBike] 1
 x_TueThur[D396,358D45,Car] 0
 x_TueThur[D396,358D45,Moped] 0
 x_TueThur[D396,358D45,EBikeCart] 0
@@ -17044,7 +17044,7 @@ x_TueThur[D293,358D45,FootBike] 0
 x_TueThur[D362,358D46,Car] 0
 x_TueThur[D362,358D46,Moped] 0
 x_TueThur[D362,358D46,EBikeCart] 0
-x_TueThur[D362,358D46,FootBike] 0
+x_TueThur[D362,358D46,FootBike] 1
 x_TueThur[D396,358D46,Car] 0
 x_TueThur[D396,358D46,Moped] 0
 x_TueThur[D396,358D46,EBikeCart] 0
@@ -17128,7 +17128,7 @@ x_TueThur[D396,358D49,FootBike] 0
 x_TueThur[D362,358D49,Car] 0
 x_TueThur[D362,358D49,Moped] 0
 x_TueThur[D362,358D49,EBikeCart] 0
-x_TueThur[D362,358D49,FootBike] 0
+x_TueThur[D362,358D49,FootBike] 1
 x_TueThur[D395,358D49,Car] 0
 x_TueThur[D395,358D49,Moped] 0
 x_TueThur[D395,358D49,EBikeCart] 0
@@ -17208,7 +17208,7 @@ x_TueThur[D396,358D50,FootBike] 0
 x_TueThur[D362,358D50,Car] 0
 x_TueThur[D362,358D50,Moped] 0
 x_TueThur[D362,358D50,EBikeCart] 0
-x_TueThur[D362,358D50,FootBike] 0
+x_TueThur[D362,358D50,FootBike] 1
 x_TueThur[D397,358D50,Car] 0
 x_TueThur[D397,358D50,Moped] 0
 x_TueThur[D397,358D50,EBikeCart] 0
@@ -17304,7 +17304,7 @@ x_TueThur[D464,358D53,FootBike] 0
 x_TueThur[D429,358D53,Car] 0
 x_TueThur[D429,358D53,Moped] 0
 x_TueThur[D429,358D53,EBikeCart] 0
-x_TueThur[D429,358D53,FootBike] 0
+x_TueThur[D429,358D53,FootBike] 1
 x_TueThur[D465,358D53,Car] 0
 x_TueThur[D465,358D53,Moped] 0
 x_TueThur[D465,358D53,EBikeCart] 0
@@ -17383,7 +17383,7 @@ x_TueThur[D464,358D54,EBikeCart] 0
 x_TueThur[D464,358D54,FootBike] 0
 x_TueThur[D429,358D54,Car] 0
 x_TueThur[D429,358D54,Moped] 0
-x_TueThur[D429,358D54,EBikeCart] 0
+x_TueThur[D429,358D54,EBikeCart] 1
 x_TueThur[D429,358D54,FootBike] 0
 x_TueThur[D465,358D54,Car] 0
 x_TueThur[D465,358D54,Moped] 0
@@ -17458,7 +17458,7 @@ x_TueThur[D397,35A042,Moped] 0
 x_TueThur[D397,35A042,EBikeCart] 0
 x_TueThur[D397,35A042,FootBike] 0
 x_TueThur[D429,35A042,Car] 0
-x_TueThur[D429,35A042,Moped] 0
+x_TueThur[D429,35A042,Moped] 1
 x_TueThur[D429,35A042,EBikeCart] 0
 x_TueThur[D429,35A042,FootBike] 0
 x_TueThur[D464,35A042,Car] 0
@@ -17522,7 +17522,7 @@ x_TueThur[D364,35A042,Moped] 0
 x_TueThur[D364,35A042,EBikeCart] 0
 x_TueThur[D364,35A042,FootBike] 0
 x_TueThur[D227,35B141,Car] 0
-x_TueThur[D227,35B141,Moped] 1
+x_TueThur[D227,35B141,Moped] 0
 x_TueThur[D227,35B141,EBikeCart] 0
 x_TueThur[D227,35B141,FootBike] 0
 x_TueThur[D226,35B141,Car] 0
@@ -17530,7 +17530,7 @@ x_TueThur[D226,35B141,Moped] 0
 x_TueThur[D226,35B141,EBikeCart] 0
 x_TueThur[D226,35B141,FootBike] 0
 x_TueThur[D260,35B141,Car] 0
-x_TueThur[D260,35B141,Moped] 0
+x_TueThur[D260,35B141,Moped] 1
 x_TueThur[D260,35B141,EBikeCart] 0
 x_TueThur[D260,35B141,FootBike] 0
 x_TueThur[D259,35B141,Car] 0
@@ -17606,11 +17606,11 @@ x_TueThur[D293,35B201,Moped] 0
 x_TueThur[D293,35B201,EBikeCart] 0
 x_TueThur[D293,35B201,FootBike] 0
 x_TueThur[D294,35B201,Car] 0
-x_TueThur[D294,35B201,Moped] 0
+x_TueThur[D294,35B201,Moped] 1
 x_TueThur[D294,35B201,EBikeCart] 0
 x_TueThur[D294,35B201,FootBike] 0
 x_TueThur[D327,35B201,Car] 0
-x_TueThur[D327,35B201,Moped] 1
+x_TueThur[D327,35B201,Moped] 0
 x_TueThur[D327,35B201,EBikeCart] 0
 x_TueThur[D327,35B201,FootBike] 0
 x_TueThur[D260,35B201,Car] 0
@@ -17691,7 +17691,7 @@ x_TueThur[D292,35B211,EBikeCart] 0
 x_TueThur[D292,35B211,FootBike] 0
 x_TueThur[D260,35B211,Car] 0
 x_TueThur[D260,35B211,Moped] 0
-x_TueThur[D260,35B211,EBikeCart] 0
+x_TueThur[D260,35B211,EBikeCart] 1
 x_TueThur[D260,35B211,FootBike] 0
 x_TueThur[D258,35B211,Car] 0
 x_TueThur[D258,35B211,Moped] 0
@@ -17790,7 +17790,7 @@ x_TueThur[D465,35B551,Moped] 0
 x_TueThur[D465,35B551,EBikeCart] 0
 x_TueThur[D465,35B551,FootBike] 0
 x_TueThur[D363,35B551,Car] 0
-x_TueThur[D363,35B551,Moped] 0
+x_TueThur[D363,35B551,Moped] 1
 x_TueThur[D363,35B551,EBikeCart] 0
 x_TueThur[D363,35B551,FootBike] 0
 x_TueThur[D466,35B551,Car] 0
@@ -17844,7 +17844,7 @@ x_TueThur[D329,35B551,FootBike] 0
 x_TueThur[D258,360F01,Car] 0
 x_TueThur[D258,360F01,Moped] 0
 x_TueThur[D258,360F01,EBikeCart] 0
-x_TueThur[D258,360F01,FootBike] 0
+x_TueThur[D258,360F01,FootBike] 1
 x_TueThur[D291,360F01,Car] 0
 x_TueThur[D291,360F01,Moped] 0
 x_TueThur[D291,360F01,EBikeCart] 0
@@ -17924,7 +17924,7 @@ x_TueThur[D194,360F01,FootBike] 0
 x_TueThur[D258,360F02,Car] 0
 x_TueThur[D258,360F02,Moped] 0
 x_TueThur[D258,360F02,EBikeCart] 0
-x_TueThur[D258,360F02,FootBike] 0
+x_TueThur[D258,360F02,FootBike] 1
 x_TueThur[D291,360F02,Car] 0
 x_TueThur[D291,360F02,Moped] 0
 x_TueThur[D291,360F02,EBikeCart] 0
@@ -18004,7 +18004,7 @@ x_TueThur[D192,360F02,FootBike] 0
 x_TueThur[D258,360F03,Car] 0
 x_TueThur[D258,360F03,Moped] 0
 x_TueThur[D258,360F03,EBikeCart] 0
-x_TueThur[D258,360F03,FootBike] 0
+x_TueThur[D258,360F03,FootBike] 1
 x_TueThur[D257,360F03,Car] 0
 x_TueThur[D257,360F03,Moped] 0
 x_TueThur[D257,360F03,EBikeCart] 0
@@ -18084,7 +18084,7 @@ x_TueThur[D194,360F03,FootBike] 0
 x_TueThur[D258,360F04,Car] 0
 x_TueThur[D258,360F04,Moped] 0
 x_TueThur[D258,360F04,EBikeCart] 0
-x_TueThur[D258,360F04,FootBike] 0
+x_TueThur[D258,360F04,FootBike] 1
 x_TueThur[D257,360F04,Car] 0
 x_TueThur[D257,360F04,Moped] 0
 x_TueThur[D257,360F04,EBikeCart] 0
@@ -18244,7 +18244,7 @@ x_TueThur[D227,360F05,FootBike] 0
 x_TueThur[D258,360F07,Car] 0
 x_TueThur[D258,360F07,Moped] 0
 x_TueThur[D258,360F07,EBikeCart] 0
-x_TueThur[D258,360F07,FootBike] 0
+x_TueThur[D258,360F07,FootBike] 1
 x_TueThur[D291,360F07,Car] 0
 x_TueThur[D291,360F07,Moped] 0
 x_TueThur[D291,360F07,EBikeCart] 0
@@ -18328,7 +18328,7 @@ x_TueThur[D291,360F12,FootBike] 0
 x_TueThur[D258,360F12,Car] 0
 x_TueThur[D258,360F12,Moped] 0
 x_TueThur[D258,360F12,EBikeCart] 0
-x_TueThur[D258,360F12,FootBike] 0
+x_TueThur[D258,360F12,FootBike] 1
 x_TueThur[D292,360F12,Car] 0
 x_TueThur[D292,360F12,Moped] 0
 x_TueThur[D292,360F12,EBikeCart] 0
@@ -18410,7 +18410,7 @@ x_TueThur[D292,360F15,Moped] 0
 x_TueThur[D292,360F15,EBikeCart] 0
 x_TueThur[D292,360F15,FootBike] 0
 x_TueThur[D258,360F15,Car] 0
-x_TueThur[D258,360F15,Moped] 0
+x_TueThur[D258,360F15,Moped] 1
 x_TueThur[D258,360F15,EBikeCart] 0
 x_TueThur[D258,360F15,FootBike] 0
 x_TueThur[D325,360F15,Car] 0
@@ -18488,7 +18488,7 @@ x_TueThur[D291,360J01,FootBike] 0
 x_TueThur[D258,360J01,Car] 0
 x_TueThur[D258,360J01,Moped] 0
 x_TueThur[D258,360J01,EBikeCart] 0
-x_TueThur[D258,360J01,FootBike] 0
+x_TueThur[D258,360J01,FootBike] 1
 x_TueThur[D290,360J01,Car] 0
 x_TueThur[D290,360J01,Moped] 0
 x_TueThur[D290,360J01,EBikeCart] 0
@@ -18568,7 +18568,7 @@ x_TueThur[D428,372F11,FootBike] 0
 x_TueThur[D429,372F11,Car] 0
 x_TueThur[D429,372F11,Moped] 0
 x_TueThur[D429,372F11,EBikeCart] 0
-x_TueThur[D429,372F11,FootBike] 0
+x_TueThur[D429,372F11,FootBike] 1
 x_TueThur[D394,372F11,Car] 0
 x_TueThur[D394,372F11,Moped] 0
 x_TueThur[D394,372F11,EBikeCart] 0
@@ -18656,7 +18656,7 @@ x_TueThur[D427,372J11,FootBike] 0
 x_TueThur[D429,372J11,Car] 0
 x_TueThur[D429,372J11,Moped] 0
 x_TueThur[D429,372J11,EBikeCart] 0
-x_TueThur[D429,372J11,FootBike] 0
+x_TueThur[D429,372J11,FootBike] 1
 x_TueThur[D394,372J11,Car] 0
 x_TueThur[D394,372J11,Moped] 0
 x_TueThur[D394,372J11,EBikeCart] 0
@@ -18726,7 +18726,7 @@ x_TueThur[D395,373F03,Moped] 0
 x_TueThur[D395,373F03,EBikeCart] 0
 x_TueThur[D395,373F03,FootBike] 0
 x_TueThur[D429,373F03,Car] 0
-x_TueThur[D429,373F03,Moped] 0
+x_TueThur[D429,373F03,Moped] 1
 x_TueThur[D429,373F03,EBikeCart] 0
 x_TueThur[D429,373F03,FootBike] 0
 x_TueThur[D396,373F03,Car] 0
@@ -18804,7 +18804,7 @@ x_TueThur[D328,373F03,FootBike] 0
 x_TueThur[D429,373F04,Car] 0
 x_TueThur[D429,373F04,Moped] 0
 x_TueThur[D429,373F04,EBikeCart] 0
-x_TueThur[D429,373F04,FootBike] 0
+x_TueThur[D429,373F04,FootBike] 1
 x_TueThur[D395,373F04,Car] 0
 x_TueThur[D395,373F04,Moped] 0
 x_TueThur[D395,373F04,EBikeCart] 0
@@ -18884,7 +18884,7 @@ x_TueThur[D327,373F04,FootBike] 0
 x_TueThur[D429,373F05,Car] 0
 x_TueThur[D429,373F05,Moped] 0
 x_TueThur[D429,373F05,EBikeCart] 0
-x_TueThur[D429,373F05,FootBike] 0
+x_TueThur[D429,373F05,FootBike] 1
 x_TueThur[D395,373F05,Car] 0
 x_TueThur[D395,373F05,Moped] 0
 x_TueThur[D395,373F05,EBikeCart] 0
@@ -18964,7 +18964,7 @@ x_TueThur[D359,373F05,FootBike] 0
 x_TueThur[D429,373F06,Car] 0
 x_TueThur[D429,373F06,Moped] 0
 x_TueThur[D429,373F06,EBikeCart] 0
-x_TueThur[D429,373F06,FootBike] 0
+x_TueThur[D429,373F06,FootBike] 1
 x_TueThur[D395,373F06,Car] 0
 x_TueThur[D395,373F06,Moped] 0
 x_TueThur[D395,373F06,EBikeCart] 0
@@ -19048,7 +19048,7 @@ x_TueThur[D428,373F11,FootBike] 0
 x_TueThur[D429,373F11,Car] 0
 x_TueThur[D429,373F11,Moped] 0
 x_TueThur[D429,373F11,EBikeCart] 0
-x_TueThur[D429,373F11,FootBike] 0
+x_TueThur[D429,373F11,FootBike] 1
 x_TueThur[D394,373F11,Car] 0
 x_TueThur[D394,373F11,Moped] 0
 x_TueThur[D394,373F11,EBikeCart] 0
@@ -19124,7 +19124,7 @@ x_TueThur[D392,373F11,FootBike] 0
 x_TueThur[D429,373F12,Car] 0
 x_TueThur[D429,373F12,Moped] 0
 x_TueThur[D429,373F12,EBikeCart] 0
-x_TueThur[D429,373F12,FootBike] 0
+x_TueThur[D429,373F12,FootBike] 1
 x_TueThur[D428,373F12,Car] 0
 x_TueThur[D428,373F12,Moped] 0
 x_TueThur[D428,373F12,EBikeCart] 0
@@ -19204,7 +19204,7 @@ x_TueThur[D426,373F12,FootBike] 0
 x_TueThur[D429,373F13,Car] 0
 x_TueThur[D429,373F13,Moped] 0
 x_TueThur[D429,373F13,EBikeCart] 0
-x_TueThur[D429,373F13,FootBike] 0
+x_TueThur[D429,373F13,FootBike] 1
 x_TueThur[D428,373F13,Car] 0
 x_TueThur[D428,373F13,Moped] 0
 x_TueThur[D428,373F13,EBikeCart] 0
@@ -19284,7 +19284,7 @@ x_TueThur[D397,373F13,FootBike] 0
 x_TueThur[D429,373F14,Car] 0
 x_TueThur[D429,373F14,Moped] 0
 x_TueThur[D429,373F14,EBikeCart] 0
-x_TueThur[D429,373F14,FootBike] 0
+x_TueThur[D429,373F14,FootBike] 1
 x_TueThur[D428,373F14,Car] 0
 x_TueThur[D428,373F14,Moped] 0
 x_TueThur[D428,373F14,EBikeCart] 0
@@ -19391,7 +19391,7 @@ x_TueThur[D427,373F98,EBikeCart] 0
 x_TueThur[D427,373F98,FootBike] 0
 x_TueThur[D361,373F98,Car] 0
 x_TueThur[D361,373F98,Moped] 0
-x_TueThur[D361,373F98,EBikeCart] 0
+x_TueThur[D361,373F98,EBikeCart] 1
 x_TueThur[D361,373F98,FootBike] 0
 x_TueThur[D429,373F98,Car] 0
 x_TueThur[D429,373F98,Moped] 0
@@ -19448,7 +19448,7 @@ x_TueThur[D428,373J12,FootBike] 0
 x_TueThur[D429,373J12,Car] 0
 x_TueThur[D429,373J12,Moped] 0
 x_TueThur[D429,373J12,EBikeCart] 0
-x_TueThur[D429,373J12,FootBike] 0
+x_TueThur[D429,373J12,FootBike] 1
 x_TueThur[D394,373J12,Car] 0
 x_TueThur[D394,373J12,Moped] 0
 x_TueThur[D394,373J12,EBikeCart] 0
@@ -19532,7 +19532,7 @@ x_TueThur[345D01,345D05,FootBike] 0
 x_TueThur[345D01,345D02,Car] 0
 x_TueThur[345D01,345D02,Moped] 0
 x_TueThur[345D01,345D02,EBikeCart] 0
-x_TueThur[345D01,345D02,FootBike] 1
+x_TueThur[345D01,345D02,FootBike] 0
 x_TueThur[345D01,345D10,Car] 0
 x_TueThur[345D01,345D10,Moped] 0
 x_TueThur[345D01,345D10,EBikeCart] 0
@@ -19588,7 +19588,7 @@ x_TueThur[345D02,345D10,FootBike] 0
 x_TueThur[345D02,345D01,Car] 0
 x_TueThur[345D02,345D01,Moped] 0
 x_TueThur[345D02,345D01,EBikeCart] 0
-x_TueThur[345D02,345D01,FootBike] 1
+x_TueThur[345D02,345D01,FootBike] 0
 x_TueThur[345D02,345D14,Car] 0
 x_TueThur[345D02,345D14,Moped] 0
 x_TueThur[345D02,345D14,EBikeCart] 0
@@ -19644,7 +19644,7 @@ x_TueThur[345D02,345F05,FootBike] 0
 x_TueThur[345D05,345D06,Car] 0
 x_TueThur[345D05,345D06,Moped] 0
 x_TueThur[345D05,345D06,EBikeCart] 0
-x_TueThur[345D05,345D06,FootBike] 1
+x_TueThur[345D05,345D06,FootBike] 0
 x_TueThur[345D05,345D01,Car] 0
 x_TueThur[345D05,345D01,Moped] 0
 x_TueThur[345D05,345D01,EBikeCart] 0
@@ -19704,7 +19704,7 @@ x_TueThur[345D05,345D13,FootBike] 0
 x_TueThur[345D06,345D05,Car] 0
 x_TueThur[345D06,345D05,Moped] 0
 x_TueThur[345D06,345D05,EBikeCart] 0
-x_TueThur[345D06,345D05,FootBike] 1
+x_TueThur[345D06,345D05,FootBike] 0
 x_TueThur[345D06,345D01,Car] 0
 x_TueThur[345D06,345D01,Moped] 0
 x_TueThur[345D06,345D01,EBikeCart] 0
@@ -19764,7 +19764,7 @@ x_TueThur[345D06,345D09,FootBike] 0
 x_TueThur[345D09,345D21,Car] 0
 x_TueThur[345D09,345D21,Moped] 0
 x_TueThur[345D09,345D21,EBikeCart] 0
-x_TueThur[345D09,345D21,FootBike] 1
+x_TueThur[345D09,345D21,FootBike] 0
 x_TueThur[345D09,345D22,Car] 0
 x_TueThur[345D09,345D22,Moped] 0
 x_TueThur[345D09,345D22,EBikeCart] 0
@@ -19828,7 +19828,7 @@ x_TueThur[345D10,345D21,FootBike] 0
 x_TueThur[345D10,345D25,Car] 0
 x_TueThur[345D10,345D25,Moped] 0
 x_TueThur[345D10,345D25,EBikeCart] 0
-x_TueThur[345D10,345D25,FootBike] 1
+x_TueThur[345D10,345D25,FootBike] 0
 x_TueThur[345D10,345D02,Car] 0
 x_TueThur[345D10,345D02,Moped] 0
 x_TueThur[345D10,345D02,EBikeCart] 0
@@ -19888,7 +19888,7 @@ x_TueThur[345D13,345D18,FootBike] 0
 x_TueThur[345D13,345D14,Car] 0
 x_TueThur[345D13,345D14,Moped] 0
 x_TueThur[345D13,345D14,EBikeCart] 0
-x_TueThur[345D13,345D14,FootBike] 1
+x_TueThur[345D13,345D14,FootBike] 0
 x_TueThur[345D13,345D17,Car] 0
 x_TueThur[345D13,345D17,Moped] 0
 x_TueThur[345D13,345D17,EBikeCart] 0
@@ -19948,7 +19948,7 @@ x_TueThur[345D14,345D25,FootBike] 0
 x_TueThur[345D14,345D13,Car] 0
 x_TueThur[345D14,345D13,Moped] 0
 x_TueThur[345D14,345D13,EBikeCart] 0
-x_TueThur[345D14,345D13,FootBike] 1
+x_TueThur[345D14,345D13,FootBike] 0
 x_TueThur[345D14,345D17,Car] 0
 x_TueThur[345D14,345D17,Moped] 0
 x_TueThur[345D14,345D17,EBikeCart] 0
@@ -20004,7 +20004,7 @@ x_TueThur[345D14,345D06,FootBike] 0
 x_TueThur[345D17,345D18,Car] 0
 x_TueThur[345D17,345D18,Moped] 0
 x_TueThur[345D17,345D18,EBikeCart] 0
-x_TueThur[345D17,345D18,FootBike] 1
+x_TueThur[345D17,345D18,FootBike] 0
 x_TueThur[345D17,345D14,Car] 0
 x_TueThur[345D17,345D14,Moped] 0
 x_TueThur[345D17,345D14,EBikeCart] 0
@@ -20068,7 +20068,7 @@ x_TueThur[345D18,345D13,FootBike] 0
 x_TueThur[345D18,345D17,Car] 0
 x_TueThur[345D18,345D17,Moped] 0
 x_TueThur[345D18,345D17,EBikeCart] 0
-x_TueThur[345D18,345D17,FootBike] 1
+x_TueThur[345D18,345D17,FootBike] 0
 x_TueThur[345D18,345D14,Car] 0
 x_TueThur[345D18,345D14,Moped] 0
 x_TueThur[345D18,345D14,EBikeCart] 0
@@ -20124,7 +20124,7 @@ x_TueThur[345D18,345D34,FootBike] 0
 x_TueThur[345D21,345D09,Car] 0
 x_TueThur[345D21,345D09,Moped] 0
 x_TueThur[345D21,345D09,EBikeCart] 0
-x_TueThur[345D21,345D09,FootBike] 1
+x_TueThur[345D21,345D09,FootBike] 0
 x_TueThur[345D21,345D25,Car] 0
 x_TueThur[345D21,345D25,Moped] 0
 x_TueThur[345D21,345D25,EBikeCart] 0
@@ -20184,7 +20184,7 @@ x_TueThur[345D21,345D01,FootBike] 0
 x_TueThur[345D22,345D26,Car] 0
 x_TueThur[345D22,345D26,Moped] 0
 x_TueThur[345D22,345D26,EBikeCart] 0
-x_TueThur[345D22,345D26,FootBike] 1
+x_TueThur[345D22,345D26,FootBike] 0
 x_TueThur[345D22,345D21,Car] 0
 x_TueThur[345D22,345D21,Moped] 0
 x_TueThur[345D22,345D21,EBikeCart] 0
@@ -20252,7 +20252,7 @@ x_TueThur[345D25,345D14,FootBike] 0
 x_TueThur[345D25,345D10,Car] 0
 x_TueThur[345D25,345D10,Moped] 0
 x_TueThur[345D25,345D10,EBikeCart] 0
-x_TueThur[345D25,345D10,FootBike] 1
+x_TueThur[345D25,345D10,FootBike] 0
 x_TueThur[345D25,345D22,Car] 0
 x_TueThur[345D25,345D22,Moped] 0
 x_TueThur[345D25,345D22,EBikeCart] 0
@@ -20304,7 +20304,7 @@ x_TueThur[345D25,345D29,FootBike] 0
 x_TueThur[345D26,345D22,Car] 0
 x_TueThur[345D26,345D22,Moped] 0
 x_TueThur[345D26,345D22,EBikeCart] 0
-x_TueThur[345D26,345D22,FootBike] 1
+x_TueThur[345D26,345D22,FootBike] 0
 x_TueThur[345D26,345D30,Car] 0
 x_TueThur[345D26,345D30,Moped] 0
 x_TueThur[345D26,345D30,EBikeCart] 0
@@ -20368,7 +20368,7 @@ x_TueThur[345D29,345D30,FootBike] 0
 x_TueThur[345D29,345D34,Car] 0
 x_TueThur[345D29,345D34,Moped] 0
 x_TueThur[345D29,345D34,EBikeCart] 0
-x_TueThur[345D29,345D34,FootBike] 1
+x_TueThur[345D29,345D34,FootBike] 0
 x_TueThur[345D29,345D45,Car] 0
 x_TueThur[345D29,345D45,Moped] 0
 x_TueThur[345D29,345D45,EBikeCart] 0
@@ -20435,7 +20435,7 @@ x_TueThur[345D30,345D22,EBikeCart] 0
 x_TueThur[345D30,345D22,FootBike] 0
 x_TueThur[345D30,345D45,Car] 0
 x_TueThur[345D30,345D45,Moped] 0
-x_TueThur[345D30,345D45,EBikeCart] 1
+x_TueThur[345D30,345D45,EBikeCart] 0
 x_TueThur[345D30,345D45,FootBike] 0
 x_TueThur[345D30,345D17,Car] 0
 x_TueThur[345D30,345D17,Moped] 0
@@ -20488,7 +20488,7 @@ x_TueThur[345D33,345D34,FootBike] 0
 x_TueThur[345D33,345D54,Car] 0
 x_TueThur[345D33,345D54,Moped] 0
 x_TueThur[345D33,345D54,EBikeCart] 0
-x_TueThur[345D33,345D54,FootBike] 1
+x_TueThur[345D33,345D54,FootBike] 0
 x_TueThur[345D33,345D53,Car] 0
 x_TueThur[345D33,345D53,Moped] 0
 x_TueThur[345D33,345D53,EBikeCart] 0
@@ -20548,7 +20548,7 @@ x_TueThur[345D34,345D33,FootBike] 0
 x_TueThur[345D34,345D29,Car] 0
 x_TueThur[345D34,345D29,Moped] 0
 x_TueThur[345D34,345D29,EBikeCart] 0
-x_TueThur[345D34,345D29,FootBike] 1
+x_TueThur[345D34,345D29,FootBike] 0
 x_TueThur[345D34,345D54,Car] 0
 x_TueThur[345D34,345D54,Moped] 0
 x_TueThur[345D34,345D54,EBikeCart] 0
@@ -20604,7 +20604,7 @@ x_TueThur[345D34,345D22,FootBike] 0
 x_TueThur[345D37,345D38,Car] 0
 x_TueThur[345D37,345D38,Moped] 0
 x_TueThur[345D37,345D38,EBikeCart] 0
-x_TueThur[345D37,345D38,FootBike] 1
+x_TueThur[345D37,345D38,FootBike] 0
 x_TueThur[345D37,345D57,Car] 0
 x_TueThur[345D37,345D57,Moped] 0
 x_TueThur[345D37,345D57,EBikeCart] 0
@@ -20664,7 +20664,7 @@ x_TueThur[345D37,345D49,FootBike] 0
 x_TueThur[345D38,345D37,Car] 0
 x_TueThur[345D38,345D37,Moped] 0
 x_TueThur[345D38,345D37,EBikeCart] 0
-x_TueThur[345D38,345D37,FootBike] 1
+x_TueThur[345D38,345D37,FootBike] 0
 x_TueThur[345D38,345D58,Car] 0
 x_TueThur[345D38,345D58,Moped] 0
 x_TueThur[345D38,345D58,EBikeCart] 0
@@ -20728,7 +20728,7 @@ x_TueThur[345D41,345D42,FootBike] 0
 x_TueThur[345D41,345D46,Car] 0
 x_TueThur[345D41,345D46,Moped] 0
 x_TueThur[345D41,345D46,EBikeCart] 0
-x_TueThur[345D41,345D46,FootBike] 1
+x_TueThur[345D41,345D46,FootBike] 0
 x_TueThur[345D41,345D37,Car] 0
 x_TueThur[345D41,345D37,Moped] 0
 x_TueThur[345D41,345D37,EBikeCart] 0
@@ -20787,7 +20787,7 @@ x_TueThur[345D42,345D41,EBikeCart] 0
 x_TueThur[345D42,345D41,FootBike] 0
 x_TueThur[345D42,345D53,Car] 0
 x_TueThur[345D42,345D53,Moped] 0
-x_TueThur[345D42,345D53,EBikeCart] 1
+x_TueThur[345D42,345D53,EBikeCart] 0
 x_TueThur[345D42,345D53,FootBike] 0
 x_TueThur[345D42,345D46,Car] 0
 x_TueThur[345D42,345D46,Moped] 0
@@ -20879,7 +20879,7 @@ x_TueThur[345D45,345D49,EBikeCart] 0
 x_TueThur[345D45,345D49,FootBike] 0
 x_TueThur[345D45,345D30,Car] 0
 x_TueThur[345D45,345D30,Moped] 0
-x_TueThur[345D45,345D30,EBikeCart] 1
+x_TueThur[345D45,345D30,EBikeCart] 0
 x_TueThur[345D45,345D30,FootBike] 0
 x_TueThur[345D45,345D37,Car] 0
 x_TueThur[345D45,345D37,Moped] 0
@@ -20904,7 +20904,7 @@ x_TueThur[345D45,354F27,FootBike] 0
 x_TueThur[345D46,345D41,Car] 0
 x_TueThur[345D46,345D41,Moped] 0
 x_TueThur[345D46,345D41,EBikeCart] 0
-x_TueThur[345D46,345D41,FootBike] 1
+x_TueThur[345D46,345D41,FootBike] 0
 x_TueThur[345D46,345D50,Car] 0
 x_TueThur[345D46,345D50,Moped] 0
 x_TueThur[345D46,345D50,EBikeCart] 0
@@ -20964,7 +20964,7 @@ x_TueThur[345D46,345D29,FootBike] 0
 x_TueThur[345D49,345D50,Car] 0
 x_TueThur[345D49,345D50,Moped] 0
 x_TueThur[345D49,345D50,EBikeCart] 0
-x_TueThur[345D49,345D50,FootBike] 1
+x_TueThur[345D49,345D50,FootBike] 0
 x_TueThur[345D49,345D46,Car] 0
 x_TueThur[345D49,345D46,Moped] 0
 x_TueThur[345D49,345D46,EBikeCart] 0
@@ -21024,7 +21024,7 @@ x_TueThur[345D49,345D29,FootBike] 0
 x_TueThur[345D50,345D49,Car] 0
 x_TueThur[345D50,345D49,Moped] 0
 x_TueThur[345D50,345D49,EBikeCart] 0
-x_TueThur[345D50,345D49,FootBike] 1
+x_TueThur[345D50,345D49,FootBike] 0
 x_TueThur[345D50,345D46,Car] 0
 x_TueThur[345D50,345D46,Moped] 0
 x_TueThur[345D50,345D46,EBikeCart] 0
@@ -21087,7 +21087,7 @@ x_TueThur[345D53,345D54,EBikeCart] 0
 x_TueThur[345D53,345D54,FootBike] 0
 x_TueThur[345D53,345D42,Car] 0
 x_TueThur[345D53,345D42,Moped] 0
-x_TueThur[345D53,345D42,EBikeCart] 1
+x_TueThur[345D53,345D42,EBikeCart] 0
 x_TueThur[345D53,345D42,FootBike] 0
 x_TueThur[345D53,345D34,Car] 0
 x_TueThur[345D53,345D34,Moped] 0
@@ -21148,7 +21148,7 @@ x_TueThur[345D54,345D53,FootBike] 0
 x_TueThur[345D54,345D33,Car] 0
 x_TueThur[345D54,345D33,Moped] 0
 x_TueThur[345D54,345D33,EBikeCart] 0
-x_TueThur[345D54,345D33,FootBike] 1
+x_TueThur[345D54,345D33,FootBike] 0
 x_TueThur[345D54,345D34,Car] 0
 x_TueThur[345D54,345D34,Moped] 0
 x_TueThur[345D54,345D34,EBikeCart] 0
@@ -21220,7 +21220,7 @@ x_TueThur[345D57,345D38,FootBike] 0
 x_TueThur[345D57,354F19,Car] 0
 x_TueThur[345D57,354F19,Moped] 0
 x_TueThur[345D57,354F19,EBikeCart] 0
-x_TueThur[345D57,354F19,FootBike] 1
+x_TueThur[345D57,354F19,FootBike] 0
 x_TueThur[345D57,345D41,Car] 0
 x_TueThur[345D57,345D41,Moped] 0
 x_TueThur[345D57,345D41,EBikeCart] 0
@@ -21264,7 +21264,7 @@ x_TueThur[345D57,35B201,FootBike] 0
 x_TueThur[345D58,345D57,Car] 0
 x_TueThur[345D58,345D57,Moped] 0
 x_TueThur[345D58,345D57,EBikeCart] 0
-x_TueThur[345D58,345D57,FootBike] 1
+x_TueThur[345D58,345D57,FootBike] 0
 x_TueThur[345D58,345D38,Car] 0
 x_TueThur[345D58,345D38,Moped] 0
 x_TueThur[345D58,345D38,EBikeCart] 0
@@ -21324,7 +21324,7 @@ x_TueThur[345D58,354F25,FootBike] 0
 x_TueThur[345F04,345F05,Car] 0
 x_TueThur[345F04,345F05,Moped] 0
 x_TueThur[345F04,345F05,EBikeCart] 0
-x_TueThur[345F04,345F05,FootBike] 1
+x_TueThur[345F04,345F05,FootBike] 0
 x_TueThur[345F04,345F06,Car] 0
 x_TueThur[345F04,345F06,Moped] 0
 x_TueThur[345F04,345F06,EBikeCart] 0
@@ -21388,7 +21388,7 @@ x_TueThur[345F05,345F15,FootBike] 0
 x_TueThur[345F05,345F04,Car] 0
 x_TueThur[345F05,345F04,Moped] 0
 x_TueThur[345F05,345F04,EBikeCart] 0
-x_TueThur[345F05,345F04,FootBike] 1
+x_TueThur[345F05,345F04,FootBike] 0
 x_TueThur[345F05,345F06,Car] 0
 x_TueThur[345F05,345F06,Moped] 0
 x_TueThur[345F05,345F06,EBikeCart] 0
@@ -21452,7 +21452,7 @@ x_TueThur[345F06,345F05,FootBike] 0
 x_TueThur[345F06,345F15,Car] 0
 x_TueThur[345F06,345F15,Moped] 0
 x_TueThur[345F06,345F15,EBikeCart] 0
-x_TueThur[345F06,345F15,FootBike] 1
+x_TueThur[345F06,345F15,FootBike] 0
 x_TueThur[345F06,345F04,Car] 0
 x_TueThur[345F06,345F04,Moped] 0
 x_TueThur[345F06,345F04,EBikeCart] 0
@@ -21504,7 +21504,7 @@ x_TueThur[345F06,345D01,FootBike] 0
 x_TueThur[345F10,345F11,Car] 0
 x_TueThur[345F10,345F11,Moped] 0
 x_TueThur[345F10,345F11,EBikeCart] 0
-x_TueThur[345F10,345F11,FootBike] 1
+x_TueThur[345F10,345F11,FootBike] 0
 x_TueThur[345F10,345F13,Car] 0
 x_TueThur[345F10,345F13,Moped] 0
 x_TueThur[345F10,345F13,EBikeCart] 0
@@ -21564,7 +21564,7 @@ x_TueThur[345F10,345F24,FootBike] 0
 x_TueThur[345F11,345F10,Car] 0
 x_TueThur[345F11,345F10,Moped] 0
 x_TueThur[345F11,345F10,EBikeCart] 0
-x_TueThur[345F11,345F10,FootBike] 1
+x_TueThur[345F11,345F10,FootBike] 0
 x_TueThur[345F11,345F12,Car] 0
 x_TueThur[345F11,345F12,Moped] 0
 x_TueThur[345F11,345F12,EBikeCart] 0
@@ -21624,7 +21624,7 @@ x_TueThur[345F11,345D02,FootBike] 0
 x_TueThur[345F12,345F13,Car] 0
 x_TueThur[345F12,345F13,Moped] 0
 x_TueThur[345F12,345F13,EBikeCart] 0
-x_TueThur[345F12,345F13,FootBike] 1
+x_TueThur[345F12,345F13,FootBike] 0
 x_TueThur[345F12,345F11,Car] 0
 x_TueThur[345F12,345F11,Moped] 0
 x_TueThur[345F12,345F11,EBikeCart] 0
@@ -21684,7 +21684,7 @@ x_TueThur[345F12,35B141,FootBike] 0
 x_TueThur[345F13,345F12,Car] 0
 x_TueThur[345F13,345F12,Moped] 0
 x_TueThur[345F13,345F12,EBikeCart] 0
-x_TueThur[345F13,345F12,FootBike] 1
+x_TueThur[345F13,345F12,FootBike] 0
 x_TueThur[345F13,345F16,Car] 0
 x_TueThur[345F13,345F16,Moped] 0
 x_TueThur[345F13,345F16,EBikeCart] 0
@@ -21744,7 +21744,7 @@ x_TueThur[345F13,345F24,FootBike] 0
 x_TueThur[345F14,345F06,Car] 0
 x_TueThur[345F14,345F06,Moped] 0
 x_TueThur[345F14,345F06,EBikeCart] 0
-x_TueThur[345F14,345F06,FootBike] 1
+x_TueThur[345F14,345F06,FootBike] 0
 x_TueThur[345F14,345F25,Car] 0
 x_TueThur[345F14,345F25,Moped] 0
 x_TueThur[345F14,345F25,EBikeCart] 0
@@ -21812,7 +21812,7 @@ x_TueThur[345F15,345F06,FootBike] 0
 x_TueThur[345F15,345F14,Car] 0
 x_TueThur[345F15,345F14,Moped] 0
 x_TueThur[345F15,345F14,EBikeCart] 0
-x_TueThur[345F15,345F14,FootBike] 1
+x_TueThur[345F15,345F14,FootBike] 0
 x_TueThur[345F15,345F04,Car] 0
 x_TueThur[345F15,345F04,Moped] 0
 x_TueThur[345F15,345F04,EBikeCart] 0
@@ -21872,7 +21872,7 @@ x_TueThur[345F16,345F13,FootBike] 0
 x_TueThur[345F16,345F25,Car] 0
 x_TueThur[345F16,345F25,Moped] 0
 x_TueThur[345F16,345F25,EBikeCart] 0
-x_TueThur[345F16,345F25,FootBike] 1
+x_TueThur[345F16,345F25,FootBike] 0
 x_TueThur[345F16,345F14,Car] 0
 x_TueThur[345F16,345F14,Moped] 0
 x_TueThur[345F16,345F14,EBikeCart] 0
@@ -21984,7 +21984,7 @@ x_TueThur[345F17,345D06,FootBike] 0
 x_TueThur[345F24,354F21,Car] 0
 x_TueThur[345F24,354F21,Moped] 0
 x_TueThur[345F24,354F21,EBikeCart] 0
-x_TueThur[345F24,354F21,FootBike] 1
+x_TueThur[345F24,354F21,FootBike] 0
 x_TueThur[345F24,354F23,Car] 0
 x_TueThur[345F24,354F23,Moped] 0
 x_TueThur[345F24,354F23,EBikeCart] 0
@@ -22048,7 +22048,7 @@ x_TueThur[345F25,345F14,FootBike] 0
 x_TueThur[345F25,345F16,Car] 0
 x_TueThur[345F25,345F16,Moped] 0
 x_TueThur[345F25,345F16,EBikeCart] 0
-x_TueThur[345F25,345F16,FootBike] 1
+x_TueThur[345F25,345F16,FootBike] 0
 x_TueThur[345F25,345F17,Car] 0
 x_TueThur[345F25,345F17,Moped] 0
 x_TueThur[345F25,345F17,EBikeCart] 0
@@ -22104,7 +22104,7 @@ x_TueThur[345F25,354F23,FootBike] 0
 x_TueThur[351F01,351F15,Car] 0
 x_TueThur[351F01,351F15,Moped] 0
 x_TueThur[351F01,351F15,EBikeCart] 0
-x_TueThur[351F01,351F15,FootBike] 1
+x_TueThur[351F01,351F15,FootBike] 0
 x_TueThur[351F01,351F07,Car] 0
 x_TueThur[351F01,351F07,Moped] 0
 x_TueThur[351F01,351F07,EBikeCart] 0
@@ -22164,7 +22164,7 @@ x_TueThur[351F01,352D38,FootBike] 0
 x_TueThur[351F05,351F07,Car] 0
 x_TueThur[351F05,351F07,Moped] 0
 x_TueThur[351F05,351F07,EBikeCart] 0
-x_TueThur[351F05,351F07,FootBike] 1
+x_TueThur[351F05,351F07,FootBike] 0
 x_TueThur[351F05,351F09,Car] 0
 x_TueThur[351F05,351F09,Moped] 0
 x_TueThur[351F05,351F09,EBikeCart] 0
@@ -22224,7 +22224,7 @@ x_TueThur[351F05,353F33,FootBike] 0
 x_TueThur[351F07,351F05,Car] 0
 x_TueThur[351F07,351F05,Moped] 0
 x_TueThur[351F07,351F05,EBikeCart] 0
-x_TueThur[351F07,351F05,FootBike] 1
+x_TueThur[351F07,351F05,FootBike] 0
 x_TueThur[351F07,351F09,Car] 0
 x_TueThur[351F07,351F09,Moped] 0
 x_TueThur[351F07,351F09,EBikeCart] 0
@@ -22292,7 +22292,7 @@ x_TueThur[351F09,358D09,FootBike] 0
 x_TueThur[351F09,351F13,Car] 0
 x_TueThur[351F09,351F13,Moped] 0
 x_TueThur[351F09,351F13,EBikeCart] 0
-x_TueThur[351F09,351F13,FootBike] 1
+x_TueThur[351F09,351F13,FootBike] 0
 x_TueThur[351F09,358D17,Car] 0
 x_TueThur[351F09,358D17,Moped] 0
 x_TueThur[351F09,358D17,EBikeCart] 0
@@ -22348,7 +22348,7 @@ x_TueThur[351F13,358D09,FootBike] 0
 x_TueThur[351F13,351F09,Car] 0
 x_TueThur[351F13,351F09,Moped] 0
 x_TueThur[351F13,351F09,EBikeCart] 0
-x_TueThur[351F13,351F09,FootBike] 1
+x_TueThur[351F13,351F09,FootBike] 0
 x_TueThur[351F13,351F01,Car] 0
 x_TueThur[351F13,351F01,Moped] 0
 x_TueThur[351F13,351F01,EBikeCart] 0
@@ -22412,7 +22412,7 @@ x_TueThur[351F15,353F31,FootBike] 0
 x_TueThur[351F15,351F01,Car] 0
 x_TueThur[351F15,351F01,Moped] 0
 x_TueThur[351F15,351F01,EBikeCart] 0
-x_TueThur[351F15,351F01,FootBike] 1
+x_TueThur[351F15,351F01,FootBike] 0
 x_TueThur[351F15,352D37,Car] 0
 x_TueThur[351F15,352D37,Moped] 0
 x_TueThur[351F15,352D37,EBikeCart] 0
@@ -22464,7 +22464,7 @@ x_TueThur[351F15,351F09,FootBike] 0
 x_TueThur[351F21,351F22,Car] 0
 x_TueThur[351F21,351F22,Moped] 0
 x_TueThur[351F21,351F22,EBikeCart] 0
-x_TueThur[351F21,351F22,FootBike] 1
+x_TueThur[351F21,351F22,FootBike] 0
 x_TueThur[351F21,351F27,Car] 0
 x_TueThur[351F21,351F27,Moped] 0
 x_TueThur[351F21,351F27,EBikeCart] 0
@@ -22524,7 +22524,7 @@ x_TueThur[351F21,353F13,FootBike] 0
 x_TueThur[351F22,351F21,Car] 0
 x_TueThur[351F22,351F21,Moped] 0
 x_TueThur[351F22,351F21,EBikeCart] 0
-x_TueThur[351F22,351F21,FootBike] 1
+x_TueThur[351F22,351F21,FootBike] 0
 x_TueThur[351F22,351F23,Car] 0
 x_TueThur[351F22,351F23,Moped] 0
 x_TueThur[351F22,351F23,EBikeCart] 0
@@ -22592,7 +22592,7 @@ x_TueThur[351F23,351F24,FootBike] 0
 x_TueThur[351F23,351F27,Car] 0
 x_TueThur[351F23,351F27,Moped] 0
 x_TueThur[351F23,351F27,EBikeCart] 0
-x_TueThur[351F23,351F27,FootBike] 1
+x_TueThur[351F23,351F27,FootBike] 0
 x_TueThur[351F23,351F21,Car] 0
 x_TueThur[351F23,351F21,Moped] 0
 x_TueThur[351F23,351F21,EBikeCart] 0
@@ -22644,7 +22644,7 @@ x_TueThur[351F23,351F01,FootBike] 0
 x_TueThur[351F24,351F26,Car] 0
 x_TueThur[351F24,351F26,Moped] 0
 x_TueThur[351F24,351F26,EBikeCart] 0
-x_TueThur[351F24,351F26,FootBike] 1
+x_TueThur[351F24,351F26,FootBike] 0
 x_TueThur[351F24,351F23,Car] 0
 x_TueThur[351F24,351F23,Moped] 0
 x_TueThur[351F24,351F23,EBikeCart] 0
@@ -22704,7 +22704,7 @@ x_TueThur[351F24,351F15,FootBike] 0
 x_TueThur[351F26,351F24,Car] 0
 x_TueThur[351F26,351F24,Moped] 0
 x_TueThur[351F26,351F24,EBikeCart] 0
-x_TueThur[351F26,351F24,FootBike] 1
+x_TueThur[351F26,351F24,FootBike] 0
 x_TueThur[351F26,353F15,Car] 0
 x_TueThur[351F26,353F15,Moped] 0
 x_TueThur[351F26,353F15,EBikeCart] 0
@@ -22764,7 +22764,7 @@ x_TueThur[351F26,351F21,FootBike] 0
 x_TueThur[351F27,351F23,Car] 0
 x_TueThur[351F27,351F23,Moped] 0
 x_TueThur[351F27,351F23,EBikeCart] 0
-x_TueThur[351F27,351F23,FootBike] 1
+x_TueThur[351F27,351F23,FootBike] 0
 x_TueThur[351F27,351F22,Car] 0
 x_TueThur[351F27,351F22,Moped] 0
 x_TueThur[351F27,351F22,EBikeCart] 0
@@ -22824,7 +22824,7 @@ x_TueThur[351F27,351F01,FootBike] 0
 x_TueThur[352D09,352D10,Car] 0
 x_TueThur[352D09,352D10,Moped] 0
 x_TueThur[352D09,352D10,EBikeCart] 0
-x_TueThur[352D09,352D10,FootBike] 1
+x_TueThur[352D09,352D10,FootBike] 0
 x_TueThur[352D09,352D13,Car] 0
 x_TueThur[352D09,352D13,Moped] 0
 x_TueThur[352D09,352D13,EBikeCart] 0
@@ -22884,7 +22884,7 @@ x_TueThur[352D09,352D33,FootBike] 0
 x_TueThur[352D10,352D09,Car] 0
 x_TueThur[352D10,352D09,Moped] 0
 x_TueThur[352D10,352D09,EBikeCart] 0
-x_TueThur[352D10,352D09,FootBike] 1
+x_TueThur[352D10,352D09,FootBike] 0
 x_TueThur[352D10,352D13,Car] 0
 x_TueThur[352D10,352D13,Moped] 0
 x_TueThur[352D10,352D13,EBikeCart] 0
@@ -22948,7 +22948,7 @@ x_TueThur[352D13,352D18,FootBike] 0
 x_TueThur[352D13,352D17,Car] 0
 x_TueThur[352D13,352D17,Moped] 0
 x_TueThur[352D13,352D17,EBikeCart] 0
-x_TueThur[352D13,352D17,FootBike] 1
+x_TueThur[352D13,352D17,FootBike] 0
 x_TueThur[352D13,352D09,Car] 0
 x_TueThur[352D13,352D09,Moped] 0
 x_TueThur[352D13,352D09,EBikeCart] 0
@@ -23004,7 +23004,7 @@ x_TueThur[352D13,358D02,FootBike] 0
 x_TueThur[352D17,352D18,Car] 0
 x_TueThur[352D17,352D18,Moped] 0
 x_TueThur[352D17,352D18,EBikeCart] 0
-x_TueThur[352D17,352D18,FootBike] 1
+x_TueThur[352D17,352D18,FootBike] 0
 x_TueThur[352D17,352D13,Car] 0
 x_TueThur[352D17,352D13,Moped] 0
 x_TueThur[352D17,352D13,EBikeCart] 0
@@ -23068,7 +23068,7 @@ x_TueThur[352D18,352D17,FootBike] 0
 x_TueThur[352D18,352D13,Car] 0
 x_TueThur[352D18,352D13,Moped] 0
 x_TueThur[352D18,352D13,EBikeCart] 0
-x_TueThur[352D18,352D13,FootBike] 1
+x_TueThur[352D18,352D13,FootBike] 0
 x_TueThur[352D18,352D09,Car] 0
 x_TueThur[352D18,352D09,Moped] 0
 x_TueThur[352D18,352D09,EBikeCart] 0
@@ -23128,7 +23128,7 @@ x_TueThur[352D21,352D25,FootBike] 0
 x_TueThur[352D21,352D22,Car] 0
 x_TueThur[352D21,352D22,Moped] 0
 x_TueThur[352D21,352D22,EBikeCart] 0
-x_TueThur[352D21,352D22,FootBike] 1
+x_TueThur[352D21,352D22,FootBike] 0
 x_TueThur[352D21,352D26,Car] 0
 x_TueThur[352D21,352D26,Moped] 0
 x_TueThur[352D21,352D26,EBikeCart] 0
@@ -23184,7 +23184,7 @@ x_TueThur[352D21,352D13,FootBike] 0
 x_TueThur[352D22,352D21,Car] 0
 x_TueThur[352D22,352D21,Moped] 0
 x_TueThur[352D22,352D21,EBikeCart] 0
-x_TueThur[352D22,352D21,FootBike] 1
+x_TueThur[352D22,352D21,FootBike] 0
 x_TueThur[352D22,352D25,Car] 0
 x_TueThur[352D22,352D25,Moped] 0
 x_TueThur[352D22,352D25,EBikeCart] 0
@@ -23248,7 +23248,7 @@ x_TueThur[352D25,352D21,FootBike] 0
 x_TueThur[352D25,352D26,Car] 0
 x_TueThur[352D25,352D26,Moped] 0
 x_TueThur[352D25,352D26,EBikeCart] 0
-x_TueThur[352D25,352D26,FootBike] 1
+x_TueThur[352D25,352D26,FootBike] 0
 x_TueThur[352D25,352D22,Car] 0
 x_TueThur[352D25,352D22,Moped] 0
 x_TueThur[352D25,352D22,EBikeCart] 0
@@ -23304,7 +23304,7 @@ x_TueThur[352D25,352D10,FootBike] 0
 x_TueThur[352D26,352D25,Car] 0
 x_TueThur[352D26,352D25,Moped] 0
 x_TueThur[352D26,352D25,EBikeCart] 0
-x_TueThur[352D26,352D25,FootBike] 1
+x_TueThur[352D26,352D25,FootBike] 0
 x_TueThur[352D26,352D34,Car] 0
 x_TueThur[352D26,352D34,Moped] 0
 x_TueThur[352D26,352D34,EBikeCart] 0
@@ -23364,7 +23364,7 @@ x_TueThur[352D26,352D17,FootBike] 0
 x_TueThur[352D29,352D30,Car] 0
 x_TueThur[352D29,352D30,Moped] 0
 x_TueThur[352D29,352D30,EBikeCart] 0
-x_TueThur[352D29,352D30,FootBike] 1
+x_TueThur[352D29,352D30,FootBike] 0
 x_TueThur[352D29,352D34,Car] 0
 x_TueThur[352D29,352D34,Moped] 0
 x_TueThur[352D29,352D34,EBikeCart] 0
@@ -23424,7 +23424,7 @@ x_TueThur[352D29,358C09,FootBike] 0
 x_TueThur[352D30,352D29,Car] 0
 x_TueThur[352D30,352D29,Moped] 0
 x_TueThur[352D30,352D29,EBikeCart] 0
-x_TueThur[352D30,352D29,FootBike] 1
+x_TueThur[352D30,352D29,FootBike] 0
 x_TueThur[352D30,352D34,Car] 0
 x_TueThur[352D30,352D34,Moped] 0
 x_TueThur[352D30,352D34,EBikeCart] 0
@@ -23484,7 +23484,7 @@ x_TueThur[352D30,352D38,FootBike] 0
 x_TueThur[352D33,352D34,Car] 0
 x_TueThur[352D33,352D34,Moped] 0
 x_TueThur[352D33,352D34,EBikeCart] 0
-x_TueThur[352D33,352D34,FootBike] 1
+x_TueThur[352D33,352D34,FootBike] 0
 x_TueThur[352D33,352D29,Car] 0
 x_TueThur[352D33,352D29,Moped] 0
 x_TueThur[352D33,352D29,EBikeCart] 0
@@ -23544,7 +23544,7 @@ x_TueThur[352D33,358D05,FootBike] 0
 x_TueThur[352D34,352D33,Car] 0
 x_TueThur[352D34,352D33,Moped] 0
 x_TueThur[352D34,352D33,EBikeCart] 0
-x_TueThur[352D34,352D33,FootBike] 1
+x_TueThur[352D34,352D33,FootBike] 0
 x_TueThur[352D34,352D29,Car] 0
 x_TueThur[352D34,352D29,Moped] 0
 x_TueThur[352D34,352D29,EBikeCart] 0
@@ -23612,7 +23612,7 @@ x_TueThur[352D37,353F29,FootBike] 0
 x_TueThur[352D37,352D38,Car] 0
 x_TueThur[352D37,352D38,Moped] 0
 x_TueThur[352D37,352D38,EBikeCart] 0
-x_TueThur[352D37,352D38,FootBike] 1
+x_TueThur[352D37,352D38,FootBike] 0
 x_TueThur[352D37,353F27,Car] 0
 x_TueThur[352D37,353F27,Moped] 0
 x_TueThur[352D37,353F27,EBikeCart] 0
@@ -23668,7 +23668,7 @@ x_TueThur[352D38,352D42,FootBike] 0
 x_TueThur[352D38,352D37,Car] 0
 x_TueThur[352D38,352D37,Moped] 0
 x_TueThur[352D38,352D37,EBikeCart] 0
-x_TueThur[352D38,352D37,FootBike] 1
+x_TueThur[352D38,352D37,FootBike] 0
 x_TueThur[352D38,352D41,Car] 0
 x_TueThur[352D38,352D41,Moped] 0
 x_TueThur[352D38,352D41,EBikeCart] 0
@@ -23724,7 +23724,7 @@ x_TueThur[352D38,352D50,FootBike] 0
 x_TueThur[352D41,352D42,Car] 0
 x_TueThur[352D41,352D42,Moped] 0
 x_TueThur[352D41,352D42,EBikeCart] 0
-x_TueThur[352D41,352D42,FootBike] 1
+x_TueThur[352D41,352D42,FootBike] 0
 x_TueThur[352D41,352D50,Car] 0
 x_TueThur[352D41,352D50,Moped] 0
 x_TueThur[352D41,352D50,EBikeCart] 0
@@ -23788,7 +23788,7 @@ x_TueThur[352D42,352D38,FootBike] 0
 x_TueThur[352D42,352D41,Car] 0
 x_TueThur[352D42,352D41,Moped] 0
 x_TueThur[352D42,352D41,EBikeCart] 0
-x_TueThur[352D42,352D41,FootBike] 1
+x_TueThur[352D42,352D41,FootBike] 0
 x_TueThur[352D42,352D37,Car] 0
 x_TueThur[352D42,352D37,Moped] 0
 x_TueThur[352D42,352D37,EBikeCart] 0
@@ -23848,7 +23848,7 @@ x_TueThur[352D45,352D69,FootBike] 0
 x_TueThur[352D45,352D46,Car] 0
 x_TueThur[352D45,352D46,Moped] 0
 x_TueThur[352D45,352D46,EBikeCart] 0
-x_TueThur[352D45,352D46,FootBike] 1
+x_TueThur[352D45,352D46,FootBike] 0
 x_TueThur[352D45,352D70,Car] 0
 x_TueThur[352D45,352D70,Moped] 0
 x_TueThur[352D45,352D70,EBikeCart] 0
@@ -23904,7 +23904,7 @@ x_TueThur[352D45,352D49,FootBike] 0
 x_TueThur[352D46,352D45,Car] 0
 x_TueThur[352D46,352D45,Moped] 0
 x_TueThur[352D46,352D45,EBikeCart] 0
-x_TueThur[352D46,352D45,FootBike] 1
+x_TueThur[352D46,352D45,FootBike] 0
 x_TueThur[352D46,352D50,Car] 0
 x_TueThur[352D46,352D50,Moped] 0
 x_TueThur[352D46,352D50,EBikeCart] 0
@@ -23964,7 +23964,7 @@ x_TueThur[352D46,352D54,FootBike] 0
 x_TueThur[352D49,352D50,Car] 0
 x_TueThur[352D49,352D50,Moped] 0
 x_TueThur[352D49,352D50,EBikeCart] 0
-x_TueThur[352D49,352D50,FootBike] 1
+x_TueThur[352D49,352D50,FootBike] 0
 x_TueThur[352D49,352D57,Car] 0
 x_TueThur[352D49,352D57,Moped] 0
 x_TueThur[352D49,352D57,EBikeCart] 0
@@ -24024,7 +24024,7 @@ x_TueThur[352D49,352D65,FootBike] 0
 x_TueThur[352D50,352D49,Car] 0
 x_TueThur[352D50,352D49,Moped] 0
 x_TueThur[352D50,352D49,EBikeCart] 0
-x_TueThur[352D50,352D49,FootBike] 1
+x_TueThur[352D50,352D49,FootBike] 0
 x_TueThur[352D50,352D46,Car] 0
 x_TueThur[352D50,352D46,Moped] 0
 x_TueThur[352D50,352D46,EBikeCart] 0
@@ -24084,7 +24084,7 @@ x_TueThur[352D50,352D70,FootBike] 0
 x_TueThur[352D53,352D54,Car] 0
 x_TueThur[352D53,352D54,Moped] 0
 x_TueThur[352D53,352D54,EBikeCart] 0
-x_TueThur[352D53,352D54,FootBike] 1
+x_TueThur[352D53,352D54,FootBike] 0
 x_TueThur[352D53,352D58,Car] 0
 x_TueThur[352D53,352D58,Moped] 0
 x_TueThur[352D53,352D58,EBikeCart] 0
@@ -24144,7 +24144,7 @@ x_TueThur[352D53,352D66,FootBike] 0
 x_TueThur[352D54,352D53,Car] 0
 x_TueThur[352D54,352D53,Moped] 0
 x_TueThur[352D54,352D53,EBikeCart] 0
-x_TueThur[352D54,352D53,FootBike] 1
+x_TueThur[352D54,352D53,FootBike] 0
 x_TueThur[352D54,352D58,Car] 0
 x_TueThur[352D54,352D58,Moped] 0
 x_TueThur[352D54,352D58,EBikeCart] 0
@@ -24204,7 +24204,7 @@ x_TueThur[352D54,352D42,FootBike] 0
 x_TueThur[352D57,352D58,Car] 0
 x_TueThur[352D57,352D58,Moped] 0
 x_TueThur[352D57,352D58,EBikeCart] 0
-x_TueThur[352D57,352D58,FootBike] 1
+x_TueThur[352D57,352D58,FootBike] 0
 x_TueThur[352D57,352D61,Car] 0
 x_TueThur[352D57,352D61,Moped] 0
 x_TueThur[352D57,352D61,EBikeCart] 0
@@ -24268,7 +24268,7 @@ x_TueThur[352D58,352D54,FootBike] 0
 x_TueThur[352D58,352D57,Car] 0
 x_TueThur[352D58,352D57,Moped] 0
 x_TueThur[352D58,352D57,EBikeCart] 0
-x_TueThur[352D58,352D57,FootBike] 1
+x_TueThur[352D58,352D57,FootBike] 0
 x_TueThur[352D58,352D53,Car] 0
 x_TueThur[352D58,352D53,Moped] 0
 x_TueThur[352D58,352D53,EBikeCart] 0
@@ -24324,7 +24324,7 @@ x_TueThur[352D58,352D42,FootBike] 0
 x_TueThur[352D61,352D62,Car] 0
 x_TueThur[352D61,352D62,Moped] 0
 x_TueThur[352D61,352D62,EBikeCart] 0
-x_TueThur[352D61,352D62,FootBike] 1
+x_TueThur[352D61,352D62,FootBike] 0
 x_TueThur[352D61,352D57,Car] 0
 x_TueThur[352D61,352D57,Moped] 0
 x_TueThur[352D61,352D57,EBikeCart] 0
@@ -24384,7 +24384,7 @@ x_TueThur[352D61,353F29,FootBike] 0
 x_TueThur[352D62,352D61,Car] 0
 x_TueThur[352D62,352D61,Moped] 0
 x_TueThur[352D62,352D61,EBikeCart] 0
-x_TueThur[352D62,352D61,FootBike] 1
+x_TueThur[352D62,352D61,FootBike] 0
 x_TueThur[352D62,352D57,Car] 0
 x_TueThur[352D62,352D57,Moped] 0
 x_TueThur[352D62,352D57,EBikeCart] 0
@@ -24444,7 +24444,7 @@ x_TueThur[352D62,353F23,FootBike] 0
 x_TueThur[352D65,352D66,Car] 0
 x_TueThur[352D65,352D66,Moped] 0
 x_TueThur[352D65,352D66,EBikeCart] 0
-x_TueThur[352D65,352D66,FootBike] 1
+x_TueThur[352D65,352D66,FootBike] 0
 x_TueThur[352D65,352D70,Car] 0
 x_TueThur[352D65,352D70,Moped] 0
 x_TueThur[352D65,352D70,EBikeCart] 0
@@ -24504,7 +24504,7 @@ x_TueThur[352D65,353F27,FootBike] 0
 x_TueThur[352D66,352D65,Car] 0
 x_TueThur[352D66,352D65,Moped] 0
 x_TueThur[352D66,352D65,EBikeCart] 0
-x_TueThur[352D66,352D65,FootBike] 1
+x_TueThur[352D66,352D65,FootBike] 0
 x_TueThur[352D66,352D70,Car] 0
 x_TueThur[352D66,352D70,Moped] 0
 x_TueThur[352D66,352D70,EBikeCart] 0
@@ -24564,7 +24564,7 @@ x_TueThur[352D66,353F17,FootBike] 0
 x_TueThur[352D69,352D70,Car] 0
 x_TueThur[352D69,352D70,Moped] 0
 x_TueThur[352D69,352D70,EBikeCart] 0
-x_TueThur[352D69,352D70,FootBike] 1
+x_TueThur[352D69,352D70,FootBike] 0
 x_TueThur[352D69,352D45,Car] 0
 x_TueThur[352D69,352D45,Moped] 0
 x_TueThur[352D69,352D45,EBikeCart] 0
@@ -24624,7 +24624,7 @@ x_TueThur[352D69,352D50,FootBike] 0
 x_TueThur[352D70,352D69,Car] 0
 x_TueThur[352D70,352D69,Moped] 0
 x_TueThur[352D70,352D69,EBikeCart] 0
-x_TueThur[352D70,352D69,FootBike] 1
+x_TueThur[352D70,352D69,FootBike] 0
 x_TueThur[352D70,352D65,Car] 0
 x_TueThur[352D70,352D65,Moped] 0
 x_TueThur[352D70,352D65,EBikeCart] 0
@@ -24684,7 +24684,7 @@ x_TueThur[352D70,352D57,FootBike] 0
 x_TueThur[353F11,353F17,Car] 0
 x_TueThur[353F11,353F17,Moped] 0
 x_TueThur[353F11,353F17,EBikeCart] 0
-x_TueThur[353F11,353F17,FootBike] 1
+x_TueThur[353F11,353F17,FootBike] 0
 x_TueThur[353F11,353F13,Car] 0
 x_TueThur[353F11,353F13,Moped] 0
 x_TueThur[353F11,353F13,EBikeCart] 0
@@ -24748,7 +24748,7 @@ x_TueThur[353F13,353F11,FootBike] 0
 x_TueThur[353F13,353F15,Car] 0
 x_TueThur[353F13,353F15,Moped] 0
 x_TueThur[353F13,353F15,EBikeCart] 0
-x_TueThur[353F13,353F15,FootBike] 1
+x_TueThur[353F13,353F15,FootBike] 0
 x_TueThur[353F13,353F17,Car] 0
 x_TueThur[353F13,353F17,Moped] 0
 x_TueThur[353F13,353F17,EBikeCart] 0
@@ -24812,7 +24812,7 @@ x_TueThur[353F15,353F33,FootBike] 0
 x_TueThur[353F15,353F13,Car] 0
 x_TueThur[353F15,353F13,Moped] 0
 x_TueThur[353F15,353F13,EBikeCart] 0
-x_TueThur[353F15,353F13,FootBike] 1
+x_TueThur[353F15,353F13,FootBike] 0
 x_TueThur[353F15,353F25,Car] 0
 x_TueThur[353F15,353F25,Moped] 0
 x_TueThur[353F15,353F25,EBikeCart] 0
@@ -24864,7 +24864,7 @@ x_TueThur[353F15,351F05,FootBike] 0
 x_TueThur[353F17,353F11,Car] 0
 x_TueThur[353F17,353F11,Moped] 0
 x_TueThur[353F17,353F11,EBikeCart] 0
-x_TueThur[353F17,353F11,FootBike] 1
+x_TueThur[353F17,353F11,FootBike] 0
 x_TueThur[353F17,353F19,Car] 0
 x_TueThur[353F17,353F19,Moped] 0
 x_TueThur[353F17,353F19,EBikeCart] 0
@@ -24928,7 +24928,7 @@ x_TueThur[353F19,353F17,FootBike] 0
 x_TueThur[353F19,353F21,Car] 0
 x_TueThur[353F19,353F21,Moped] 0
 x_TueThur[353F19,353F21,EBikeCart] 0
-x_TueThur[353F19,353F21,FootBike] 1
+x_TueThur[353F19,353F21,FootBike] 0
 x_TueThur[353F19,353F11,Car] 0
 x_TueThur[353F19,353F11,Moped] 0
 x_TueThur[353F19,353F11,EBikeCart] 0
@@ -24988,7 +24988,7 @@ x_TueThur[353F21,353F23,FootBike] 0
 x_TueThur[353F21,353F19,Car] 0
 x_TueThur[353F21,353F19,Moped] 0
 x_TueThur[353F21,353F19,EBikeCart] 0
-x_TueThur[353F21,353F19,FootBike] 1
+x_TueThur[353F21,353F19,FootBike] 0
 x_TueThur[353F21,353F27,Car] 0
 x_TueThur[353F21,353F27,Moped] 0
 x_TueThur[353F21,353F27,EBikeCart] 0
@@ -25048,7 +25048,7 @@ x_TueThur[353F23,353F21,FootBike] 0
 x_TueThur[353F23,353F29,Car] 0
 x_TueThur[353F23,353F29,Moped] 0
 x_TueThur[353F23,353F29,EBikeCart] 0
-x_TueThur[353F23,353F29,FootBike] 1
+x_TueThur[353F23,353F29,FootBike] 0
 x_TueThur[353F23,353F27,Car] 0
 x_TueThur[353F23,353F27,Moped] 0
 x_TueThur[353F23,353F27,EBikeCart] 0
@@ -25104,7 +25104,7 @@ x_TueThur[353F23,353F13,FootBike] 0
 x_TueThur[353F25,353F27,Car] 0
 x_TueThur[353F25,353F27,Moped] 0
 x_TueThur[353F25,353F27,EBikeCart] 0
-x_TueThur[353F25,353F27,FootBike] 1
+x_TueThur[353F25,353F27,FootBike] 0
 x_TueThur[353F25,353F31,Car] 0
 x_TueThur[353F25,353F31,Moped] 0
 x_TueThur[353F25,353F31,EBikeCart] 0
@@ -25164,7 +25164,7 @@ x_TueThur[353F25,352D69,FootBike] 0
 x_TueThur[353F27,353F25,Car] 0
 x_TueThur[353F27,353F25,Moped] 0
 x_TueThur[353F27,353F25,EBikeCart] 0
-x_TueThur[353F27,353F25,FootBike] 1
+x_TueThur[353F27,353F25,FootBike] 0
 x_TueThur[353F27,353F31,Car] 0
 x_TueThur[353F27,353F31,Moped] 0
 x_TueThur[353F27,353F31,EBikeCart] 0
@@ -25224,7 +25224,7 @@ x_TueThur[353F27,352D69,FootBike] 0
 x_TueThur[353F29,353F23,Car] 0
 x_TueThur[353F29,353F23,Moped] 0
 x_TueThur[353F29,353F23,EBikeCart] 0
-x_TueThur[353F29,353F23,FootBike] 1
+x_TueThur[353F29,353F23,FootBike] 0
 x_TueThur[353F29,353F27,Car] 0
 x_TueThur[353F29,353F27,Moped] 0
 x_TueThur[353F29,353F27,EBikeCart] 0
@@ -25284,7 +25284,7 @@ x_TueThur[353F29,352D70,FootBike] 0
 x_TueThur[353F31,353F33,Car] 0
 x_TueThur[353F31,353F33,Moped] 0
 x_TueThur[353F31,353F33,EBikeCart] 0
-x_TueThur[353F31,353F33,FootBike] 1
+x_TueThur[353F31,353F33,FootBike] 0
 x_TueThur[353F31,353F27,Car] 0
 x_TueThur[353F31,353F27,Moped] 0
 x_TueThur[353F31,353F27,EBikeCart] 0
@@ -25344,7 +25344,7 @@ x_TueThur[353F31,351F01,FootBike] 0
 x_TueThur[353F33,353F31,Car] 0
 x_TueThur[353F33,353F31,Moped] 0
 x_TueThur[353F33,353F31,EBikeCart] 0
-x_TueThur[353F33,353F31,FootBike] 1
+x_TueThur[353F33,353F31,FootBike] 0
 x_TueThur[353F33,351F15,Car] 0
 x_TueThur[353F33,351F15,Moped] 0
 x_TueThur[353F33,351F15,EBikeCart] 0
@@ -25411,7 +25411,7 @@ x_TueThur[354F05,354F23,EBikeCart] 0
 x_TueThur[354F05,354F23,FootBike] 0
 x_TueThur[354F05,354F27,Car] 0
 x_TueThur[354F05,354F27,Moped] 0
-x_TueThur[354F05,354F27,EBikeCart] 1
+x_TueThur[354F05,354F27,EBikeCart] 0
 x_TueThur[354F05,354F27,FootBike] 0
 x_TueThur[354F05,354F29,Car] 0
 x_TueThur[354F05,354F29,Moped] 0
@@ -25468,7 +25468,7 @@ x_TueThur[354F19,345D57,FootBike] 0
 x_TueThur[354F19,345D58,Car] 0
 x_TueThur[354F19,345D58,Moped] 0
 x_TueThur[354F19,345D58,EBikeCart] 0
-x_TueThur[354F19,345D58,FootBike] 1
+x_TueThur[354F19,345D58,FootBike] 0
 x_TueThur[354F19,35B201,Car] 0
 x_TueThur[354F19,35B201,Moped] 0
 x_TueThur[354F19,35B201,EBikeCart] 0
@@ -25528,7 +25528,7 @@ x_TueThur[354F21,354F23,FootBike] 0
 x_TueThur[354F21,345F24,Car] 0
 x_TueThur[354F21,345F24,Moped] 0
 x_TueThur[354F21,345F24,EBikeCart] 0
-x_TueThur[354F21,345F24,FootBike] 1
+x_TueThur[354F21,345F24,FootBike] 0
 x_TueThur[354F21,354F25,Car] 0
 x_TueThur[354F21,354F25,Moped] 0
 x_TueThur[354F21,354F25,EBikeCart] 0
@@ -25584,7 +25584,7 @@ x_TueThur[354F21,345D41,FootBike] 0
 x_TueThur[354F23,354F25,Car] 0
 x_TueThur[354F23,354F25,Moped] 0
 x_TueThur[354F23,354F25,EBikeCart] 0
-x_TueThur[354F23,354F25,FootBike] 1
+x_TueThur[354F23,354F25,FootBike] 0
 x_TueThur[354F23,354F21,Car] 0
 x_TueThur[354F23,354F21,Moped] 0
 x_TueThur[354F23,354F21,EBikeCart] 0
@@ -25648,7 +25648,7 @@ x_TueThur[354F25,354F27,FootBike] 0
 x_TueThur[354F25,354F23,Car] 0
 x_TueThur[354F25,354F23,Moped] 0
 x_TueThur[354F25,354F23,EBikeCart] 0
-x_TueThur[354F25,354F23,FootBike] 1
+x_TueThur[354F25,354F23,FootBike] 0
 x_TueThur[354F25,345D50,Car] 0
 x_TueThur[354F25,345D50,Moped] 0
 x_TueThur[354F25,345D50,EBikeCart] 0
@@ -25727,7 +25727,7 @@ x_TueThur[354F27,345D41,EBikeCart] 0
 x_TueThur[354F27,345D41,FootBike] 0
 x_TueThur[354F27,354F29,Car] 0
 x_TueThur[354F27,354F29,Moped] 0
-x_TueThur[354F27,354F29,EBikeCart] 1
+x_TueThur[354F27,354F29,EBikeCart] 0
 x_TueThur[354F27,354F29,FootBike] 0
 x_TueThur[354F27,354F05,Car] 0
 x_TueThur[354F27,354F05,Moped] 0
@@ -25803,7 +25803,7 @@ x_TueThur[354F29,345D46,EBikeCart] 0
 x_TueThur[354F29,345D46,FootBike] 0
 x_TueThur[354F29,354F05,Car] 0
 x_TueThur[354F29,354F05,Moped] 0
-x_TueThur[354F29,354F05,EBikeCart] 1
+x_TueThur[354F29,354F05,EBikeCart] 0
 x_TueThur[354F29,354F05,FootBike] 0
 x_TueThur[354F29,345D50,Car] 0
 x_TueThur[354F29,345D50,Moped] 0
@@ -25824,7 +25824,7 @@ x_TueThur[354F29,345D53,FootBike] 0
 x_TueThur[354F47,354F48,Car] 0
 x_TueThur[354F47,354F48,Moped] 0
 x_TueThur[354F47,354F48,EBikeCart] 0
-x_TueThur[354F47,354F48,FootBike] 1
+x_TueThur[354F47,354F48,FootBike] 0
 x_TueThur[354F47,354F49,Car] 0
 x_TueThur[354F47,354F49,Moped] 0
 x_TueThur[354F47,354F49,EBikeCart] 0
@@ -25892,7 +25892,7 @@ x_TueThur[354F48,354F52,FootBike] 0
 x_TueThur[354F48,354F49,Car] 0
 x_TueThur[354F48,354F49,Moped] 0
 x_TueThur[354F48,354F49,EBikeCart] 0
-x_TueThur[354F48,354F49,FootBike] 1
+x_TueThur[354F48,354F49,FootBike] 0
 x_TueThur[354F48,354F51,Car] 0
 x_TueThur[354F48,354F51,Moped] 0
 x_TueThur[354F48,354F51,EBikeCart] 0
@@ -25948,7 +25948,7 @@ x_TueThur[354F49,354F48,FootBike] 0
 x_TueThur[354F49,354F47,Car] 0
 x_TueThur[354F49,354F47,Moped] 0
 x_TueThur[354F49,354F47,EBikeCart] 0
-x_TueThur[354F49,354F47,FootBike] 1
+x_TueThur[354F49,354F47,FootBike] 0
 x_TueThur[354F49,354F51,Car] 0
 x_TueThur[354F49,354F51,Moped] 0
 x_TueThur[354F49,354F51,EBikeCart] 0
@@ -26008,7 +26008,7 @@ x_TueThur[354F50,354F52,FootBike] 0
 x_TueThur[354F50,354F51,Car] 0
 x_TueThur[354F50,354F51,Moped] 0
 x_TueThur[354F50,354F51,EBikeCart] 0
-x_TueThur[354F50,354F51,FootBike] 1
+x_TueThur[354F50,354F51,FootBike] 0
 x_TueThur[354F50,354F54,Car] 0
 x_TueThur[354F50,354F54,Moped] 0
 x_TueThur[354F50,354F54,EBikeCart] 0
@@ -26064,7 +26064,7 @@ x_TueThur[354F50,360F05,FootBike] 0
 x_TueThur[354F51,354F52,Car] 0
 x_TueThur[354F51,354F52,Moped] 0
 x_TueThur[354F51,354F52,EBikeCart] 0
-x_TueThur[354F51,354F52,FootBike] 1
+x_TueThur[354F51,354F52,FootBike] 0
 x_TueThur[354F51,354F50,Car] 0
 x_TueThur[354F51,354F50,Moped] 0
 x_TueThur[354F51,354F50,EBikeCart] 0
@@ -26132,7 +26132,7 @@ x_TueThur[354F52,354F51,FootBike] 0
 x_TueThur[354F52,354F50,Car] 0
 x_TueThur[354F52,354F50,Moped] 0
 x_TueThur[354F52,354F50,EBikeCart] 0
-x_TueThur[354F52,354F50,FootBike] 1
+x_TueThur[354F52,354F50,FootBike] 0
 x_TueThur[354F52,354F47,Car] 0
 x_TueThur[354F52,354F47,Moped] 0
 x_TueThur[354F52,354F47,EBikeCart] 0
@@ -26184,7 +26184,7 @@ x_TueThur[354F52,360F05,FootBike] 0
 x_TueThur[354F53,354F54,Car] 0
 x_TueThur[354F53,354F54,Moped] 0
 x_TueThur[354F53,354F54,EBikeCart] 0
-x_TueThur[354F53,354F54,FootBike] 1
+x_TueThur[354F53,354F54,FootBike] 0
 x_TueThur[354F53,354F62,Car] 0
 x_TueThur[354F53,354F62,Moped] 0
 x_TueThur[354F53,354F62,EBikeCart] 0
@@ -26244,7 +26244,7 @@ x_TueThur[354F53,360F07,FootBike] 0
 x_TueThur[354F54,354F53,Car] 0
 x_TueThur[354F54,354F53,Moped] 0
 x_TueThur[354F54,354F53,EBikeCart] 0
-x_TueThur[354F54,354F53,FootBike] 1
+x_TueThur[354F54,354F53,FootBike] 0
 x_TueThur[354F54,354F52,Car] 0
 x_TueThur[354F54,354F52,Moped] 0
 x_TueThur[354F54,354F52,EBikeCart] 0
@@ -26308,7 +26308,7 @@ x_TueThur[354F59,354F62,FootBike] 0
 x_TueThur[354F59,354F60,Car] 0
 x_TueThur[354F59,354F60,Moped] 0
 x_TueThur[354F59,354F60,EBikeCart] 0
-x_TueThur[354F59,354F60,FootBike] 1
+x_TueThur[354F59,354F60,FootBike] 0
 x_TueThur[354F59,354F53,Car] 0
 x_TueThur[354F59,354F53,Moped] 0
 x_TueThur[354F59,354F53,EBikeCart] 0
@@ -26364,7 +26364,7 @@ x_TueThur[354F59,360F04,FootBike] 0
 x_TueThur[354F60,354F62,Car] 0
 x_TueThur[354F60,354F62,Moped] 0
 x_TueThur[354F60,354F62,EBikeCart] 0
-x_TueThur[354F60,354F62,FootBike] 1
+x_TueThur[354F60,354F62,FootBike] 0
 x_TueThur[354F60,354F59,Car] 0
 x_TueThur[354F60,354F59,Moped] 0
 x_TueThur[354F60,354F59,EBikeCart] 0
@@ -26424,7 +26424,7 @@ x_TueThur[354F60,360F03,FootBike] 0
 x_TueThur[354F61,354F64,Car] 0
 x_TueThur[354F61,354F64,Moped] 0
 x_TueThur[354F61,354F64,EBikeCart] 0
-x_TueThur[354F61,354F64,FootBike] 1
+x_TueThur[354F61,354F64,FootBike] 0
 x_TueThur[354F61,354F60,Car] 0
 x_TueThur[354F61,354F60,Moped] 0
 x_TueThur[354F61,354F60,EBikeCart] 0
@@ -26488,7 +26488,7 @@ x_TueThur[354F62,354F60,FootBike] 0
 x_TueThur[354F62,354F59,Car] 0
 x_TueThur[354F62,354F59,Moped] 0
 x_TueThur[354F62,354F59,EBikeCart] 0
-x_TueThur[354F62,354F59,FootBike] 1
+x_TueThur[354F62,354F59,FootBike] 0
 x_TueThur[354F62,354F53,Car] 0
 x_TueThur[354F62,354F53,Moped] 0
 x_TueThur[354F62,354F53,EBikeCart] 0
@@ -26544,7 +26544,7 @@ x_TueThur[354F62,360F03,FootBike] 0
 x_TueThur[354F64,354F61,Car] 0
 x_TueThur[354F64,354F61,Moped] 0
 x_TueThur[354F64,354F61,EBikeCart] 0
-x_TueThur[354F64,354F61,FootBike] 1
+x_TueThur[354F64,354F61,FootBike] 0
 x_TueThur[354F64,354F59,Car] 0
 x_TueThur[354F64,354F59,Moped] 0
 x_TueThur[354F64,354F59,EBikeCart] 0
@@ -26646,7 +26646,7 @@ x_TueThur[356B01,356D22,Moped] 0
 x_TueThur[356B01,356D22,EBikeCart] 0
 x_TueThur[356B01,356D22,FootBike] 0
 x_TueThur[356B01,373F98,Car] 0
-x_TueThur[356B01,373F98,Moped] 1
+x_TueThur[356B01,373F98,Moped] 0
 x_TueThur[356B01,373F98,EBikeCart] 0
 x_TueThur[356B01,373F98,FootBike] 0
 x_TueThur[356B01,356D26,Car] 0
@@ -26664,7 +26664,7 @@ x_TueThur[356B01,356D25,FootBike] 0
 x_TueThur[356C07,356D62,Car] 0
 x_TueThur[356C07,356D62,Moped] 0
 x_TueThur[356C07,356D62,EBikeCart] 0
-x_TueThur[356C07,356D62,FootBike] 1
+x_TueThur[356C07,356D62,FootBike] 0
 x_TueThur[356C07,356D58,Car] 0
 x_TueThur[356C07,356D58,Moped] 0
 x_TueThur[356C07,356D58,EBikeCart] 0
@@ -26722,7 +26722,7 @@ x_TueThur[356C07,356D42,Moped] 0
 x_TueThur[356C07,356D42,EBikeCart] 0
 x_TueThur[356C07,356D42,FootBike] 0
 x_TueThur[356C13,360F15,Car] 0
-x_TueThur[356C13,360F15,Moped] 1
+x_TueThur[356C13,360F15,Moped] 0
 x_TueThur[356C13,360F15,EBikeCart] 0
 x_TueThur[356C13,360F15,FootBike] 0
 x_TueThur[356C13,360F12,Car] 0
@@ -26784,7 +26784,7 @@ x_TueThur[356C13,356D09,FootBike] 0
 x_TueThur[356D01,356D02,Car] 0
 x_TueThur[356D01,356D02,Moped] 0
 x_TueThur[356D01,356D02,EBikeCart] 0
-x_TueThur[356D01,356D02,FootBike] 1
+x_TueThur[356D01,356D02,FootBike] 0
 x_TueThur[356D01,356D05,Car] 0
 x_TueThur[356D01,356D05,Moped] 0
 x_TueThur[356D01,356D05,EBikeCart] 0
@@ -26844,7 +26844,7 @@ x_TueThur[356D01,356D17,FootBike] 0
 x_TueThur[356D02,356D01,Car] 0
 x_TueThur[356D02,356D01,Moped] 0
 x_TueThur[356D02,356D01,EBikeCart] 0
-x_TueThur[356D02,356D01,FootBike] 1
+x_TueThur[356D02,356D01,FootBike] 0
 x_TueThur[356D02,356D05,Car] 0
 x_TueThur[356D02,356D05,Moped] 0
 x_TueThur[356D02,356D05,EBikeCart] 0
@@ -26904,7 +26904,7 @@ x_TueThur[356D02,356D14,FootBike] 0
 x_TueThur[356D05,356D06,Car] 0
 x_TueThur[356D05,356D06,Moped] 0
 x_TueThur[356D05,356D06,EBikeCart] 0
-x_TueThur[356D05,356D06,FootBike] 1
+x_TueThur[356D05,356D06,FootBike] 0
 x_TueThur[356D05,356D01,Car] 0
 x_TueThur[356D05,356D01,Moped] 0
 x_TueThur[356D05,356D01,EBikeCart] 0
@@ -26964,7 +26964,7 @@ x_TueThur[356D05,356D17,FootBike] 0
 x_TueThur[356D06,356D05,Car] 0
 x_TueThur[356D06,356D05,Moped] 0
 x_TueThur[356D06,356D05,EBikeCart] 0
-x_TueThur[356D06,356D05,FootBike] 1
+x_TueThur[356D06,356D05,FootBike] 0
 x_TueThur[356D06,356D25,Car] 0
 x_TueThur[356D06,356D25,Moped] 0
 x_TueThur[356D06,356D25,EBikeCart] 0
@@ -27028,7 +27028,7 @@ x_TueThur[356D09,356D10,FootBike] 0
 x_TueThur[356D09,356D14,Car] 0
 x_TueThur[356D09,356D14,Moped] 0
 x_TueThur[356D09,356D14,EBikeCart] 0
-x_TueThur[356D09,356D14,FootBike] 1
+x_TueThur[356D09,356D14,FootBike] 0
 x_TueThur[356D09,356D45,Car] 0
 x_TueThur[356D09,356D45,Moped] 0
 x_TueThur[356D09,356D45,EBikeCart] 0
@@ -27092,7 +27092,7 @@ x_TueThur[356D10,356D14,FootBike] 0
 x_TueThur[356D10,356D13,Car] 0
 x_TueThur[356D10,356D13,Moped] 0
 x_TueThur[356D10,356D13,EBikeCart] 0
-x_TueThur[356D10,356D13,FootBike] 1
+x_TueThur[356D10,356D13,FootBike] 0
 x_TueThur[356D10,356D06,Car] 0
 x_TueThur[356D10,356D06,Moped] 0
 x_TueThur[356D10,356D06,EBikeCart] 0
@@ -27144,7 +27144,7 @@ x_TueThur[356D10,356D61,FootBike] 0
 x_TueThur[356D13,356D10,Car] 0
 x_TueThur[356D13,356D10,Moped] 0
 x_TueThur[356D13,356D10,EBikeCart] 0
-x_TueThur[356D13,356D10,FootBike] 1
+x_TueThur[356D13,356D10,FootBike] 0
 x_TueThur[356D13,356D06,Car] 0
 x_TueThur[356D13,356D06,Moped] 0
 x_TueThur[356D13,356D06,EBikeCart] 0
@@ -27208,7 +27208,7 @@ x_TueThur[356D14,356D10,FootBike] 0
 x_TueThur[356D14,356D09,Car] 0
 x_TueThur[356D14,356D09,Moped] 0
 x_TueThur[356D14,356D09,EBikeCart] 0
-x_TueThur[356D14,356D09,FootBike] 1
+x_TueThur[356D14,356D09,FootBike] 0
 x_TueThur[356D14,356D45,Car] 0
 x_TueThur[356D14,356D45,Moped] 0
 x_TueThur[356D14,356D45,EBikeCart] 0
@@ -27264,7 +27264,7 @@ x_TueThur[356D14,356D49,FootBike] 0
 x_TueThur[356D17,356D18,Car] 0
 x_TueThur[356D17,356D18,Moped] 0
 x_TueThur[356D17,356D18,EBikeCart] 0
-x_TueThur[356D17,356D18,FootBike] 1
+x_TueThur[356D17,356D18,FootBike] 0
 x_TueThur[356D17,356D21,Car] 0
 x_TueThur[356D17,356D21,Moped] 0
 x_TueThur[356D17,356D21,EBikeCart] 0
@@ -27324,7 +27324,7 @@ x_TueThur[356D17,356D69,FootBike] 0
 x_TueThur[356D18,356D17,Car] 0
 x_TueThur[356D18,356D17,Moped] 0
 x_TueThur[356D18,356D17,EBikeCart] 0
-x_TueThur[356D18,356D17,FootBike] 1
+x_TueThur[356D18,356D17,FootBike] 0
 x_TueThur[356D18,356D22,Car] 0
 x_TueThur[356D18,356D22,Moped] 0
 x_TueThur[356D18,356D22,EBikeCart] 0
@@ -27384,7 +27384,7 @@ x_TueThur[356D18,356D13,FootBike] 0
 x_TueThur[356D21,356D22,Car] 0
 x_TueThur[356D21,356D22,Moped] 0
 x_TueThur[356D21,356D22,EBikeCart] 0
-x_TueThur[356D21,356D22,FootBike] 1
+x_TueThur[356D21,356D22,FootBike] 0
 x_TueThur[356D21,356D25,Car] 0
 x_TueThur[356D21,356D25,Moped] 0
 x_TueThur[356D21,356D25,EBikeCart] 0
@@ -27444,7 +27444,7 @@ x_TueThur[356D21,356D65,FootBike] 0
 x_TueThur[356D22,356D21,Car] 0
 x_TueThur[356D22,356D21,Moped] 0
 x_TueThur[356D22,356D21,EBikeCart] 0
-x_TueThur[356D22,356D21,FootBike] 1
+x_TueThur[356D22,356D21,FootBike] 0
 x_TueThur[356D22,356D25,Car] 0
 x_TueThur[356D22,356D25,Moped] 0
 x_TueThur[356D22,356D25,EBikeCart] 0
@@ -27504,7 +27504,7 @@ x_TueThur[356D22,356D09,FootBike] 0
 x_TueThur[356D25,356D26,Car] 0
 x_TueThur[356D25,356D26,Moped] 0
 x_TueThur[356D25,356D26,EBikeCart] 0
-x_TueThur[356D25,356D26,FootBike] 1
+x_TueThur[356D25,356D26,FootBike] 0
 x_TueThur[356D25,356D06,Car] 0
 x_TueThur[356D25,356D06,Moped] 0
 x_TueThur[356D25,356D06,EBikeCart] 0
@@ -27564,7 +27564,7 @@ x_TueThur[356D25,356D09,FootBike] 0
 x_TueThur[356D26,356D25,Car] 0
 x_TueThur[356D26,356D25,Moped] 0
 x_TueThur[356D26,356D25,EBikeCart] 0
-x_TueThur[356D26,356D25,FootBike] 1
+x_TueThur[356D26,356D25,FootBike] 0
 x_TueThur[356D26,356D30,Car] 0
 x_TueThur[356D26,356D30,Moped] 0
 x_TueThur[356D26,356D30,EBikeCart] 0
@@ -27624,7 +27624,7 @@ x_TueThur[356D26,356D09,FootBike] 0
 x_TueThur[356D29,356D30,Car] 0
 x_TueThur[356D29,356D30,Moped] 0
 x_TueThur[356D29,356D30,EBikeCart] 0
-x_TueThur[356D29,356D30,FootBike] 1
+x_TueThur[356D29,356D30,FootBike] 0
 x_TueThur[356D29,356D13,Car] 0
 x_TueThur[356D29,356D13,Moped] 0
 x_TueThur[356D29,356D13,EBikeCart] 0
@@ -27684,7 +27684,7 @@ x_TueThur[356D29,356D38,FootBike] 0
 x_TueThur[356D30,356D29,Car] 0
 x_TueThur[356D30,356D29,Moped] 0
 x_TueThur[356D30,356D29,EBikeCart] 0
-x_TueThur[356D30,356D29,FootBike] 1
+x_TueThur[356D30,356D29,FootBike] 0
 x_TueThur[356D30,356D26,Car] 0
 x_TueThur[356D30,356D26,Moped] 0
 x_TueThur[356D30,356D26,EBikeCart] 0
@@ -27744,7 +27744,7 @@ x_TueThur[356D30,356D09,FootBike] 0
 x_TueThur[356D33,356D34,Car] 0
 x_TueThur[356D33,356D34,Moped] 0
 x_TueThur[356D33,356D34,EBikeCart] 0
-x_TueThur[356D33,356D34,FootBike] 1
+x_TueThur[356D33,356D34,FootBike] 0
 x_TueThur[356D33,356D46,Car] 0
 x_TueThur[356D33,356D46,Moped] 0
 x_TueThur[356D33,356D46,EBikeCart] 0
@@ -27804,7 +27804,7 @@ x_TueThur[356D33,356D62,FootBike] 0
 x_TueThur[356D34,356D33,Car] 0
 x_TueThur[356D34,356D33,Moped] 0
 x_TueThur[356D34,356D33,EBikeCart] 0
-x_TueThur[356D34,356D33,FootBike] 1
+x_TueThur[356D34,356D33,FootBike] 0
 x_TueThur[356D34,356D38,Car] 0
 x_TueThur[356D34,356D38,Moped] 0
 x_TueThur[356D34,356D38,EBikeCart] 0
@@ -27868,7 +27868,7 @@ x_TueThur[356D37,356D42,FootBike] 0
 x_TueThur[356D37,356D38,Car] 0
 x_TueThur[356D37,356D38,Moped] 0
 x_TueThur[356D37,356D38,EBikeCart] 0
-x_TueThur[356D37,356D38,FootBike] 1
+x_TueThur[356D37,356D38,FootBike] 0
 x_TueThur[356D37,356D49,Car] 0
 x_TueThur[356D37,356D49,Moped] 0
 x_TueThur[356D37,356D49,EBikeCart] 0
@@ -27924,7 +27924,7 @@ x_TueThur[356D37,356D62,FootBike] 0
 x_TueThur[356D38,356D37,Car] 0
 x_TueThur[356D38,356D37,Moped] 0
 x_TueThur[356D38,356D37,EBikeCart] 0
-x_TueThur[356D38,356D37,FootBike] 1
+x_TueThur[356D38,356D37,FootBike] 0
 x_TueThur[356D38,356D33,Car] 0
 x_TueThur[356D38,356D33,Moped] 0
 x_TueThur[356D38,356D33,EBikeCart] 0
@@ -27984,7 +27984,7 @@ x_TueThur[356D38,356D62,FootBike] 0
 x_TueThur[356D41,356D42,Car] 0
 x_TueThur[356D41,356D42,Moped] 0
 x_TueThur[356D41,356D42,EBikeCart] 0
-x_TueThur[356D41,356D42,FootBike] 1
+x_TueThur[356D41,356D42,FootBike] 0
 x_TueThur[356D41,356D37,Car] 0
 x_TueThur[356D41,356D37,Moped] 0
 x_TueThur[356D41,356D37,EBikeCart] 0
@@ -28048,7 +28048,7 @@ x_TueThur[356D42,356D37,FootBike] 0
 x_TueThur[356D42,356D41,Car] 0
 x_TueThur[356D42,356D41,Moped] 0
 x_TueThur[356D42,356D41,EBikeCart] 0
-x_TueThur[356D42,356D41,FootBike] 1
+x_TueThur[356D42,356D41,FootBike] 0
 x_TueThur[356D42,356D49,Car] 0
 x_TueThur[356D42,356D49,Moped] 0
 x_TueThur[356D42,356D49,EBikeCart] 0
@@ -28104,7 +28104,7 @@ x_TueThur[356D42,356D62,FootBike] 0
 x_TueThur[356D45,356D61,Car] 0
 x_TueThur[356D45,356D61,Moped] 0
 x_TueThur[356D45,356D61,EBikeCart] 0
-x_TueThur[356D45,356D61,FootBike] 1
+x_TueThur[356D45,356D61,FootBike] 0
 x_TueThur[356D45,356D46,Car] 0
 x_TueThur[356D45,356D46,Moped] 0
 x_TueThur[356D45,356D46,EBikeCart] 0
@@ -28164,7 +28164,7 @@ x_TueThur[356D45,356C07,FootBike] 0
 x_TueThur[356D46,356D49,Car] 0
 x_TueThur[356D46,356D49,Moped] 0
 x_TueThur[356D46,356D49,EBikeCart] 0
-x_TueThur[356D46,356D49,FootBike] 1
+x_TueThur[356D46,356D49,FootBike] 0
 x_TueThur[356D46,356D45,Car] 0
 x_TueThur[356D46,356D45,Moped] 0
 x_TueThur[356D46,356D45,EBikeCart] 0
@@ -28228,7 +28228,7 @@ x_TueThur[356D49,356D50,FootBike] 0
 x_TueThur[356D49,356D46,Car] 0
 x_TueThur[356D49,356D46,Moped] 0
 x_TueThur[356D49,356D46,EBikeCart] 0
-x_TueThur[356D49,356D46,FootBike] 1
+x_TueThur[356D49,356D46,FootBike] 0
 x_TueThur[356D49,356D37,Car] 0
 x_TueThur[356D49,356D37,Moped] 0
 x_TueThur[356D49,356D37,EBikeCart] 0
@@ -28288,7 +28288,7 @@ x_TueThur[356D50,356D49,FootBike] 0
 x_TueThur[356D50,356D54,Car] 0
 x_TueThur[356D50,356D54,Moped] 0
 x_TueThur[356D50,356D54,EBikeCart] 0
-x_TueThur[356D50,356D54,FootBike] 1
+x_TueThur[356D50,356D54,FootBike] 0
 x_TueThur[356D50,356D57,Car] 0
 x_TueThur[356D50,356D57,Moped] 0
 x_TueThur[356D50,356D57,EBikeCart] 0
@@ -28352,7 +28352,7 @@ x_TueThur[356D53,356D58,FootBike] 0
 x_TueThur[356D53,356D50,Car] 0
 x_TueThur[356D53,356D50,Moped] 0
 x_TueThur[356D53,356D50,EBikeCart] 0
-x_TueThur[356D53,356D50,FootBike] 1
+x_TueThur[356D53,356D50,FootBike] 0
 x_TueThur[356D53,356D57,Car] 0
 x_TueThur[356D53,356D57,Moped] 0
 x_TueThur[356D53,356D57,EBikeCart] 0
@@ -28408,7 +28408,7 @@ x_TueThur[356D54,356D50,FootBike] 0
 x_TueThur[356D54,356D53,Car] 0
 x_TueThur[356D54,356D53,Moped] 0
 x_TueThur[356D54,356D53,EBikeCart] 0
-x_TueThur[356D54,356D53,FootBike] 1
+x_TueThur[356D54,356D53,FootBike] 0
 x_TueThur[356D54,356D42,Car] 0
 x_TueThur[356D54,356D42,Moped] 0
 x_TueThur[356D54,356D42,EBikeCart] 0
@@ -28464,7 +28464,7 @@ x_TueThur[356D54,356D34,FootBike] 0
 x_TueThur[356D57,356D58,Car] 0
 x_TueThur[356D57,356D58,Moped] 0
 x_TueThur[356D57,356D58,EBikeCart] 0
-x_TueThur[356D57,356D58,FootBike] 1
+x_TueThur[356D57,356D58,FootBike] 0
 x_TueThur[356D57,356D50,Car] 0
 x_TueThur[356D57,356D50,Moped] 0
 x_TueThur[356D57,356D50,EBikeCart] 0
@@ -28524,7 +28524,7 @@ x_TueThur[356D57,356D34,FootBike] 0
 x_TueThur[356D58,356D57,Car] 0
 x_TueThur[356D58,356D57,Moped] 0
 x_TueThur[356D58,356D57,EBikeCart] 0
-x_TueThur[356D58,356D57,FootBike] 1
+x_TueThur[356D58,356D57,FootBike] 0
 x_TueThur[356D58,356D53,Car] 0
 x_TueThur[356D58,356D53,Moped] 0
 x_TueThur[356D58,356D53,EBikeCart] 0
@@ -28588,7 +28588,7 @@ x_TueThur[356D61,356D62,FootBike] 0
 x_TueThur[356D61,356D45,Car] 0
 x_TueThur[356D61,356D45,Moped] 0
 x_TueThur[356D61,356D45,EBikeCart] 0
-x_TueThur[356D61,356D45,FootBike] 1
+x_TueThur[356D61,356D45,FootBike] 0
 x_TueThur[356D61,356D46,Car] 0
 x_TueThur[356D61,356D46,Moped] 0
 x_TueThur[356D61,356D46,EBikeCart] 0
@@ -28648,7 +28648,7 @@ x_TueThur[356D62,356D61,FootBike] 0
 x_TueThur[356D62,356C07,Car] 0
 x_TueThur[356D62,356C07,Moped] 0
 x_TueThur[356D62,356C07,EBikeCart] 0
-x_TueThur[356D62,356C07,FootBike] 1
+x_TueThur[356D62,356C07,FootBike] 0
 x_TueThur[356D62,356D57,Car] 0
 x_TueThur[356D62,356D57,Moped] 0
 x_TueThur[356D62,356D57,EBikeCart] 0
@@ -28704,7 +28704,7 @@ x_TueThur[356D62,356D34,FootBike] 0
 x_TueThur[356D65,356D66,Car] 0
 x_TueThur[356D65,356D66,Moped] 0
 x_TueThur[356D65,356D66,EBikeCart] 0
-x_TueThur[356D65,356D66,FootBike] 1
+x_TueThur[356D65,356D66,FootBike] 0
 x_TueThur[356D65,356D69,Car] 0
 x_TueThur[356D65,356D69,Moped] 0
 x_TueThur[356D65,356D69,EBikeCart] 0
@@ -28764,7 +28764,7 @@ x_TueThur[356D65,358D29,FootBike] 0
 x_TueThur[356D66,356D65,Car] 0
 x_TueThur[356D66,356D65,Moped] 0
 x_TueThur[356D66,356D65,EBikeCart] 0
-x_TueThur[356D66,356D65,FootBike] 1
+x_TueThur[356D66,356D65,FootBike] 0
 x_TueThur[356D66,356D69,Car] 0
 x_TueThur[356D66,356D69,Moped] 0
 x_TueThur[356D66,356D69,EBikeCart] 0
@@ -28824,7 +28824,7 @@ x_TueThur[356D66,358D26,FootBike] 0
 x_TueThur[356D69,356D70,Car] 0
 x_TueThur[356D69,356D70,Moped] 0
 x_TueThur[356D69,356D70,EBikeCart] 0
-x_TueThur[356D69,356D70,FootBike] 1
+x_TueThur[356D69,356D70,FootBike] 0
 x_TueThur[356D69,356D66,Car] 0
 x_TueThur[356D69,356D66,Moped] 0
 x_TueThur[356D69,356D66,EBikeCart] 0
@@ -28884,7 +28884,7 @@ x_TueThur[356D69,358D25,FootBike] 0
 x_TueThur[356D70,356D69,Car] 0
 x_TueThur[356D70,356D69,Moped] 0
 x_TueThur[356D70,356D69,EBikeCart] 0
-x_TueThur[356D70,356D69,FootBike] 1
+x_TueThur[356D70,356D69,FootBike] 0
 x_TueThur[356D70,356D66,Car] 0
 x_TueThur[356D70,356D66,Moped] 0
 x_TueThur[356D70,356D66,EBikeCart] 0
@@ -28944,7 +28944,7 @@ x_TueThur[356D70,358D18,FootBike] 0
 x_TueThur[356D73,356D74,Car] 0
 x_TueThur[356D73,356D74,Moped] 0
 x_TueThur[356D73,356D74,EBikeCart] 0
-x_TueThur[356D73,356D74,FootBike] 1
+x_TueThur[356D73,356D74,FootBike] 0
 x_TueThur[356D73,373F98,Car] 0
 x_TueThur[356D73,373F98,Moped] 0
 x_TueThur[356D73,373F98,EBikeCart] 0
@@ -29004,7 +29004,7 @@ x_TueThur[356D73,356D13,FootBike] 0
 x_TueThur[356D74,356D73,Car] 0
 x_TueThur[356D74,356D73,Moped] 0
 x_TueThur[356D74,356D73,EBikeCart] 0
-x_TueThur[356D74,356D73,FootBike] 1
+x_TueThur[356D74,356D73,FootBike] 0
 x_TueThur[356D74,356D02,Car] 0
 x_TueThur[356D74,356D02,Moped] 0
 x_TueThur[356D74,356D02,EBikeCart] 0
@@ -29064,7 +29064,7 @@ x_TueThur[356D74,356D26,FootBike] 0
 x_TueThur[357F04,357F05,Car] 0
 x_TueThur[357F04,357F05,Moped] 0
 x_TueThur[357F04,357F05,EBikeCart] 0
-x_TueThur[357F04,357F05,FootBike] 1
+x_TueThur[357F04,357F05,FootBike] 0
 x_TueThur[357F04,358D29,Car] 0
 x_TueThur[357F04,358D29,Moped] 0
 x_TueThur[357F04,358D29,EBikeCart] 0
@@ -29124,7 +29124,7 @@ x_TueThur[357F04,356D66,FootBike] 0
 x_TueThur[357F05,357F04,Car] 0
 x_TueThur[357F05,357F04,Moped] 0
 x_TueThur[357F05,357F04,EBikeCart] 0
-x_TueThur[357F05,357F04,FootBike] 1
+x_TueThur[357F05,357F04,FootBike] 0
 x_TueThur[357F05,357F06,Car] 0
 x_TueThur[357F05,357F06,Moped] 0
 x_TueThur[357F05,357F06,EBikeCart] 0
@@ -29184,7 +29184,7 @@ x_TueThur[357F05,358D42,FootBike] 0
 x_TueThur[357F06,357F07,Car] 0
 x_TueThur[357F06,357F07,Moped] 0
 x_TueThur[357F06,357F07,EBikeCart] 0
-x_TueThur[357F06,357F07,FootBike] 1
+x_TueThur[357F06,357F07,FootBike] 0
 x_TueThur[357F06,357F05,Car] 0
 x_TueThur[357F06,357F05,Moped] 0
 x_TueThur[357F06,357F05,EBikeCart] 0
@@ -29244,7 +29244,7 @@ x_TueThur[357F06,358D34,FootBike] 0
 x_TueThur[357F07,357F06,Car] 0
 x_TueThur[357F07,357F06,Moped] 0
 x_TueThur[357F07,357F06,EBikeCart] 0
-x_TueThur[357F07,357F06,FootBike] 1
+x_TueThur[357F07,357F06,FootBike] 0
 x_TueThur[357F07,357F05,Car] 0
 x_TueThur[357F07,357F05,Moped] 0
 x_TueThur[357F07,357F05,EBikeCart] 0
@@ -29308,7 +29308,7 @@ x_TueThur[358C01,358D50,FootBike] 0
 x_TueThur[358C01,358D49,Car] 0
 x_TueThur[358C01,358D49,Moped] 0
 x_TueThur[358C01,358D49,EBikeCart] 0
-x_TueThur[358C01,358D49,FootBike] 1
+x_TueThur[358C01,358D49,FootBike] 0
 x_TueThur[358C01,358D46,Car] 0
 x_TueThur[358C01,358D46,Moped] 0
 x_TueThur[358C01,358D46,EBikeCart] 0
@@ -29364,7 +29364,7 @@ x_TueThur[358C01,357F04,FootBike] 0
 x_TueThur[358C07,358C09,Car] 0
 x_TueThur[358C07,358C09,Moped] 0
 x_TueThur[358C07,358C09,EBikeCart] 0
-x_TueThur[358C07,358C09,FootBike] 1
+x_TueThur[358C07,358C09,FootBike] 0
 x_TueThur[358C07,352D22,Car] 0
 x_TueThur[358C07,352D22,Moped] 0
 x_TueThur[358C07,352D22,EBikeCart] 0
@@ -29424,7 +29424,7 @@ x_TueThur[358C07,358D05,FootBike] 0
 x_TueThur[358C09,358C07,Car] 0
 x_TueThur[358C09,358C07,Moped] 0
 x_TueThur[358C09,358C07,EBikeCart] 0
-x_TueThur[358C09,358C07,FootBike] 1
+x_TueThur[358C09,358C07,FootBike] 0
 x_TueThur[358C09,352D22,Car] 0
 x_TueThur[358C09,352D22,Moped] 0
 x_TueThur[358C09,352D22,EBikeCart] 0
@@ -29484,7 +29484,7 @@ x_TueThur[358C09,358D06,FootBike] 0
 x_TueThur[358D01,358D02,Car] 0
 x_TueThur[358D01,358D02,Moped] 0
 x_TueThur[358D01,358D02,EBikeCart] 0
-x_TueThur[358D01,358D02,FootBike] 1
+x_TueThur[358D01,358D02,FootBike] 0
 x_TueThur[358D01,352D25,Car] 0
 x_TueThur[358D01,352D25,Moped] 0
 x_TueThur[358D01,352D25,EBikeCart] 0
@@ -29544,7 +29544,7 @@ x_TueThur[358D01,352D42,FootBike] 0
 x_TueThur[358D02,358D01,Car] 0
 x_TueThur[358D02,358D01,Moped] 0
 x_TueThur[358D02,358D01,EBikeCart] 0
-x_TueThur[358D02,358D01,FootBike] 1
+x_TueThur[358D02,358D01,FootBike] 0
 x_TueThur[358D02,352D25,Car] 0
 x_TueThur[358D02,352D25,Moped] 0
 x_TueThur[358D02,352D25,EBikeCart] 0
@@ -29604,7 +29604,7 @@ x_TueThur[358D02,352D42,FootBike] 0
 x_TueThur[358D05,358D06,Car] 0
 x_TueThur[358D05,358D06,Moped] 0
 x_TueThur[358D05,358D06,EBikeCart] 0
-x_TueThur[358D05,358D06,FootBike] 1
+x_TueThur[358D05,358D06,FootBike] 0
 x_TueThur[358D05,358D10,Car] 0
 x_TueThur[358D05,358D10,Moped] 0
 x_TueThur[358D05,358D10,EBikeCart] 0
@@ -29664,7 +29664,7 @@ x_TueThur[358D05,358D46,FootBike] 0
 x_TueThur[358D06,358D05,Car] 0
 x_TueThur[358D06,358D05,Moped] 0
 x_TueThur[358D06,358D05,EBikeCart] 0
-x_TueThur[358D06,358D05,FootBike] 1
+x_TueThur[358D06,358D05,FootBike] 0
 x_TueThur[358D06,358D10,Car] 0
 x_TueThur[358D06,358D10,Moped] 0
 x_TueThur[358D06,358D10,EBikeCart] 0
@@ -29724,7 +29724,7 @@ x_TueThur[358D06,358D46,FootBike] 0
 x_TueThur[358D09,358D13,Car] 0
 x_TueThur[358D09,358D13,Moped] 0
 x_TueThur[358D09,358D13,EBikeCart] 0
-x_TueThur[358D09,358D13,FootBike] 1
+x_TueThur[358D09,358D13,FootBike] 0
 x_TueThur[358D09,351F09,Car] 0
 x_TueThur[358D09,351F09,Moped] 0
 x_TueThur[358D09,351F09,EBikeCart] 0
@@ -29784,7 +29784,7 @@ x_TueThur[358D09,358D33,FootBike] 0
 x_TueThur[358D10,358D14,Car] 0
 x_TueThur[358D10,358D14,Moped] 0
 x_TueThur[358D10,358D14,EBikeCart] 0
-x_TueThur[358D10,358D14,FootBike] 1
+x_TueThur[358D10,358D14,FootBike] 0
 x_TueThur[358D10,358D37,Car] 0
 x_TueThur[358D10,358D37,Moped] 0
 x_TueThur[358D10,358D37,EBikeCart] 0
@@ -29848,7 +29848,7 @@ x_TueThur[358D13,358D17,FootBike] 0
 x_TueThur[358D13,358D09,Car] 0
 x_TueThur[358D13,358D09,Moped] 0
 x_TueThur[358D13,358D09,EBikeCart] 0
-x_TueThur[358D13,358D09,FootBike] 1
+x_TueThur[358D13,358D09,FootBike] 0
 x_TueThur[358D13,358D18,Car] 0
 x_TueThur[358D13,358D18,Moped] 0
 x_TueThur[358D13,358D18,EBikeCart] 0
@@ -29904,7 +29904,7 @@ x_TueThur[358D13,358D34,FootBike] 0
 x_TueThur[358D14,358D10,Car] 0
 x_TueThur[358D14,358D10,Moped] 0
 x_TueThur[358D14,358D10,EBikeCart] 0
-x_TueThur[358D14,358D10,FootBike] 1
+x_TueThur[358D14,358D10,FootBike] 0
 x_TueThur[358D14,358D13,Car] 0
 x_TueThur[358D14,358D13,Moped] 0
 x_TueThur[358D14,358D13,EBikeCart] 0
@@ -29968,7 +29968,7 @@ x_TueThur[358D17,358D13,FootBike] 0
 x_TueThur[358D17,358D18,Car] 0
 x_TueThur[358D17,358D18,Moped] 0
 x_TueThur[358D17,358D18,EBikeCart] 0
-x_TueThur[358D17,358D18,FootBike] 1
+x_TueThur[358D17,358D18,FootBike] 0
 x_TueThur[358D17,351F09,Car] 0
 x_TueThur[358D17,351F09,Moped] 0
 x_TueThur[358D17,351F09,EBikeCart] 0
@@ -30024,7 +30024,7 @@ x_TueThur[358D17,358D37,FootBike] 0
 x_TueThur[358D18,358D17,Car] 0
 x_TueThur[358D18,358D17,Moped] 0
 x_TueThur[358D18,358D17,EBikeCart] 0
-x_TueThur[358D18,358D17,FootBike] 1
+x_TueThur[358D18,358D17,FootBike] 0
 x_TueThur[358D18,358D13,Car] 0
 x_TueThur[358D18,358D13,Moped] 0
 x_TueThur[358D18,358D13,EBikeCart] 0
@@ -30084,7 +30084,7 @@ x_TueThur[358D18,358D37,FootBike] 0
 x_TueThur[358D21,358D22,Car] 0
 x_TueThur[358D21,358D22,Moped] 0
 x_TueThur[358D21,358D22,EBikeCart] 0
-x_TueThur[358D21,358D22,FootBike] 1
+x_TueThur[358D21,358D22,FootBike] 0
 x_TueThur[358D21,358D26,Car] 0
 x_TueThur[358D21,358D26,Moped] 0
 x_TueThur[358D21,358D26,EBikeCart] 0
@@ -30144,7 +30144,7 @@ x_TueThur[358D21,357F04,FootBike] 0
 x_TueThur[358D22,358D21,Car] 0
 x_TueThur[358D22,358D21,Moped] 0
 x_TueThur[358D22,358D21,EBikeCart] 0
-x_TueThur[358D22,358D21,FootBike] 1
+x_TueThur[358D22,358D21,FootBike] 0
 x_TueThur[358D22,358D26,Car] 0
 x_TueThur[358D22,358D26,Moped] 0
 x_TueThur[358D22,358D26,EBikeCart] 0
@@ -30204,7 +30204,7 @@ x_TueThur[358D22,358D18,FootBike] 0
 x_TueThur[358D25,358D26,Car] 0
 x_TueThur[358D25,358D26,Moped] 0
 x_TueThur[358D25,358D26,EBikeCart] 0
-x_TueThur[358D25,358D26,FootBike] 1
+x_TueThur[358D25,358D26,FootBike] 0
 x_TueThur[358D25,358D42,Car] 0
 x_TueThur[358D25,358D42,Moped] 0
 x_TueThur[358D25,358D42,EBikeCart] 0
@@ -30264,7 +30264,7 @@ x_TueThur[358D25,358D10,FootBike] 0
 x_TueThur[358D26,358D25,Car] 0
 x_TueThur[358D26,358D25,Moped] 0
 x_TueThur[358D26,358D25,EBikeCart] 0
-x_TueThur[358D26,358D25,FootBike] 1
+x_TueThur[358D26,358D25,FootBike] 0
 x_TueThur[358D26,358D22,Car] 0
 x_TueThur[358D26,358D22,Moped] 0
 x_TueThur[358D26,358D22,EBikeCart] 0
@@ -30324,7 +30324,7 @@ x_TueThur[358D26,358D10,FootBike] 0
 x_TueThur[358D29,358D30,Car] 0
 x_TueThur[358D29,358D30,Moped] 0
 x_TueThur[358D29,358D30,EBikeCart] 0
-x_TueThur[358D29,358D30,FootBike] 1
+x_TueThur[358D29,358D30,FootBike] 0
 x_TueThur[358D29,358D21,Car] 0
 x_TueThur[358D29,358D21,Moped] 0
 x_TueThur[358D29,358D21,EBikeCart] 0
@@ -30384,7 +30384,7 @@ x_TueThur[358D29,356D69,FootBike] 0
 x_TueThur[358D30,358D29,Car] 0
 x_TueThur[358D30,358D29,Moped] 0
 x_TueThur[358D30,358D29,EBikeCart] 0
-x_TueThur[358D30,358D29,FootBike] 1
+x_TueThur[358D30,358D29,FootBike] 0
 x_TueThur[358D30,358D25,Car] 0
 x_TueThur[358D30,358D25,Moped] 0
 x_TueThur[358D30,358D25,EBikeCart] 0
@@ -30444,7 +30444,7 @@ x_TueThur[358D30,358D14,FootBike] 0
 x_TueThur[358D33,358D34,Car] 0
 x_TueThur[358D33,358D34,Moped] 0
 x_TueThur[358D33,358D34,EBikeCart] 0
-x_TueThur[358D33,358D34,FootBike] 1
+x_TueThur[358D33,358D34,FootBike] 0
 x_TueThur[358D33,358D14,Car] 0
 x_TueThur[358D33,358D14,Moped] 0
 x_TueThur[358D33,358D14,EBikeCart] 0
@@ -30504,7 +30504,7 @@ x_TueThur[358D33,358D17,FootBike] 0
 x_TueThur[358D34,358D33,Car] 0
 x_TueThur[358D34,358D33,Moped] 0
 x_TueThur[358D34,358D33,EBikeCart] 0
-x_TueThur[358D34,358D33,FootBike] 1
+x_TueThur[358D34,358D33,FootBike] 0
 x_TueThur[358D34,358D26,Car] 0
 x_TueThur[358D34,358D26,Moped] 0
 x_TueThur[358D34,358D26,EBikeCart] 0
@@ -30564,7 +30564,7 @@ x_TueThur[358D34,358D29,FootBike] 0
 x_TueThur[358D37,358D38,Car] 0
 x_TueThur[358D37,358D38,Moped] 0
 x_TueThur[358D37,358D38,EBikeCart] 0
-x_TueThur[358D37,358D38,FootBike] 1
+x_TueThur[358D37,358D38,FootBike] 0
 x_TueThur[358D37,358D41,Car] 0
 x_TueThur[358D37,358D41,Moped] 0
 x_TueThur[358D37,358D41,EBikeCart] 0
@@ -30628,7 +30628,7 @@ x_TueThur[358D38,358D41,FootBike] 0
 x_TueThur[358D38,358D37,Car] 0
 x_TueThur[358D38,358D37,Moped] 0
 x_TueThur[358D38,358D37,EBikeCart] 0
-x_TueThur[358D38,358D37,FootBike] 1
+x_TueThur[358D38,358D37,FootBike] 0
 x_TueThur[358D38,358D42,Car] 0
 x_TueThur[358D38,358D42,Moped] 0
 x_TueThur[358D38,358D42,EBikeCart] 0
@@ -30688,7 +30688,7 @@ x_TueThur[358D41,358D38,FootBike] 0
 x_TueThur[358D41,358D42,Car] 0
 x_TueThur[358D41,358D42,Moped] 0
 x_TueThur[358D41,358D42,EBikeCart] 0
-x_TueThur[358D41,358D42,FootBike] 1
+x_TueThur[358D41,358D42,FootBike] 0
 x_TueThur[358D41,358D37,Car] 0
 x_TueThur[358D41,358D37,Moped] 0
 x_TueThur[358D41,358D37,EBikeCart] 0
@@ -30748,7 +30748,7 @@ x_TueThur[358D42,358D25,FootBike] 0
 x_TueThur[358D42,358D41,Car] 0
 x_TueThur[358D42,358D41,Moped] 0
 x_TueThur[358D42,358D41,EBikeCart] 0
-x_TueThur[358D42,358D41,FootBike] 1
+x_TueThur[358D42,358D41,FootBike] 0
 x_TueThur[358D42,358D45,Car] 0
 x_TueThur[358D42,358D45,Moped] 0
 x_TueThur[358D42,358D45,EBikeCart] 0
@@ -30804,7 +30804,7 @@ x_TueThur[358D42,358D10,FootBike] 0
 x_TueThur[358D45,358D46,Car] 0
 x_TueThur[358D45,358D46,Moped] 0
 x_TueThur[358D45,358D46,EBikeCart] 0
-x_TueThur[358D45,358D46,FootBike] 1
+x_TueThur[358D45,358D46,FootBike] 0
 x_TueThur[358D45,358D42,Car] 0
 x_TueThur[358D45,358D42,Moped] 0
 x_TueThur[358D45,358D42,EBikeCart] 0
@@ -30864,7 +30864,7 @@ x_TueThur[358D45,358D21,FootBike] 0
 x_TueThur[358D46,358D45,Car] 0
 x_TueThur[358D46,358D45,Moped] 0
 x_TueThur[358D46,358D45,EBikeCart] 0
-x_TueThur[358D46,358D45,FootBike] 1
+x_TueThur[358D46,358D45,FootBike] 0
 x_TueThur[358D46,358D42,Car] 0
 x_TueThur[358D46,358D42,Moped] 0
 x_TueThur[358D46,358D42,EBikeCart] 0
@@ -30924,7 +30924,7 @@ x_TueThur[358D46,358D05,FootBike] 0
 x_TueThur[358D49,358D50,Car] 0
 x_TueThur[358D49,358D50,Moped] 0
 x_TueThur[358D49,358D50,EBikeCart] 0
-x_TueThur[358D49,358D50,FootBike] 1
+x_TueThur[358D49,358D50,FootBike] 0
 x_TueThur[358D49,358D46,Car] 0
 x_TueThur[358D49,358D46,Moped] 0
 x_TueThur[358D49,358D46,EBikeCart] 0
@@ -30996,7 +30996,7 @@ x_TueThur[358D50,358D45,FootBike] 0
 x_TueThur[358D50,358C01,Car] 0
 x_TueThur[358D50,358C01,Moped] 0
 x_TueThur[358D50,358C01,EBikeCart] 0
-x_TueThur[358D50,358C01,FootBike] 1
+x_TueThur[358D50,358C01,FootBike] 0
 x_TueThur[358D50,358D42,Car] 0
 x_TueThur[358D50,358D42,Moped] 0
 x_TueThur[358D50,358D42,EBikeCart] 0
@@ -31044,7 +31044,7 @@ x_TueThur[358D50,358C07,FootBike] 0
 x_TueThur[358D53,358D54,Car] 0
 x_TueThur[358D53,358D54,Moped] 0
 x_TueThur[358D53,358D54,EBikeCart] 0
-x_TueThur[358D53,358D54,FootBike] 1
+x_TueThur[358D53,358D54,FootBike] 0
 x_TueThur[358D53,35A042,Car] 0
 x_TueThur[358D53,35A042,Moped] 0
 x_TueThur[358D53,35A042,EBikeCart] 0
@@ -31108,7 +31108,7 @@ x_TueThur[358D54,35A042,FootBike] 0
 x_TueThur[358D54,358D53,Car] 0
 x_TueThur[358D54,358D53,Moped] 0
 x_TueThur[358D54,358D53,EBikeCart] 0
-x_TueThur[358D54,358D53,FootBike] 1
+x_TueThur[358D54,358D53,FootBike] 0
 x_TueThur[358D54,358C01,Car] 0
 x_TueThur[358D54,358C01,Moped] 0
 x_TueThur[358D54,358C01,EBikeCart] 0
@@ -31178,7 +31178,7 @@ x_TueThur[35A042,373F03,Moped] 0
 x_TueThur[35A042,373F03,EBikeCart] 0
 x_TueThur[35A042,373F03,FootBike] 0
 x_TueThur[35A042,35B551,Car] 0
-x_TueThur[35A042,35B551,Moped] 1
+x_TueThur[35A042,35B551,Moped] 0
 x_TueThur[35A042,35B551,EBikeCart] 0
 x_TueThur[35A042,35B551,FootBike] 0
 x_TueThur[35A042,373F04,Car] 0
@@ -31362,7 +31362,7 @@ x_TueThur[35B211,354F52,Moped] 0
 x_TueThur[35B211,354F52,EBikeCart] 0
 x_TueThur[35B211,354F52,FootBike] 0
 x_TueThur[35B211,356C13,Car] 0
-x_TueThur[35B211,356C13,Moped] 1
+x_TueThur[35B211,356C13,Moped] 0
 x_TueThur[35B211,356C13,EBikeCart] 0
 x_TueThur[35B211,356C13,FootBike] 0
 x_TueThur[35B211,360F01,Car] 0
@@ -31410,7 +31410,7 @@ x_TueThur[35B551,358D54,Moped] 0
 x_TueThur[35B551,358D54,EBikeCart] 0
 x_TueThur[35B551,358D54,FootBike] 0
 x_TueThur[35B551,35A042,Car] 0
-x_TueThur[35B551,35A042,Moped] 1
+x_TueThur[35B551,35A042,Moped] 0
 x_TueThur[35B551,35A042,EBikeCart] 0
 x_TueThur[35B551,35A042,FootBike] 0
 x_TueThur[35B551,358C07,Car] 0
@@ -31468,7 +31468,7 @@ x_TueThur[360F01,360F07,FootBike] 0
 x_TueThur[360F01,360F12,Car] 0
 x_TueThur[360F01,360F12,Moped] 0
 x_TueThur[360F01,360F12,EBikeCart] 0
-x_TueThur[360F01,360F12,FootBike] 1
+x_TueThur[360F01,360F12,FootBike] 0
 x_TueThur[360F01,360F02,Car] 0
 x_TueThur[360F01,360F02,Moped] 0
 x_TueThur[360F01,360F02,EBikeCart] 0
@@ -31524,7 +31524,7 @@ x_TueThur[360F01,354F54,FootBike] 0
 x_TueThur[360F02,360F07,Car] 0
 x_TueThur[360F02,360F07,Moped] 0
 x_TueThur[360F02,360F07,EBikeCart] 0
-x_TueThur[360F02,360F07,FootBike] 1
+x_TueThur[360F02,360F07,FootBike] 0
 x_TueThur[360F02,360F03,Car] 0
 x_TueThur[360F02,360F03,Moped] 0
 x_TueThur[360F02,360F03,EBikeCart] 0
@@ -31584,7 +31584,7 @@ x_TueThur[360F02,354F54,FootBike] 0
 x_TueThur[360F03,360F04,Car] 0
 x_TueThur[360F03,360F04,Moped] 0
 x_TueThur[360F03,360F04,EBikeCart] 0
-x_TueThur[360F03,360F04,FootBike] 1
+x_TueThur[360F03,360F04,FootBike] 0
 x_TueThur[360F03,360F05,Car] 0
 x_TueThur[360F03,360F05,Moped] 0
 x_TueThur[360F03,360F05,EBikeCart] 0
@@ -31644,7 +31644,7 @@ x_TueThur[360F03,354F62,FootBike] 0
 x_TueThur[360F04,360F03,Car] 0
 x_TueThur[360F04,360F03,Moped] 0
 x_TueThur[360F04,360F03,EBikeCart] 0
-x_TueThur[360F04,360F03,FootBike] 1
+x_TueThur[360F04,360F03,FootBike] 0
 x_TueThur[360F04,360F05,Car] 0
 x_TueThur[360F04,360F05,Moped] 0
 x_TueThur[360F04,360F05,EBikeCart] 0
@@ -31764,7 +31764,7 @@ x_TueThur[360F05,354F52,FootBike] 0
 x_TueThur[360F07,360F01,Car] 0
 x_TueThur[360F07,360F01,Moped] 0
 x_TueThur[360F07,360F01,EBikeCart] 0
-x_TueThur[360F07,360F01,FootBike] 1
+x_TueThur[360F07,360F01,FootBike] 0
 x_TueThur[360F07,360F02,Car] 0
 x_TueThur[360F07,360F02,Moped] 0
 x_TueThur[360F07,360F02,EBikeCart] 0
@@ -31828,7 +31828,7 @@ x_TueThur[360F12,360F01,FootBike] 0
 x_TueThur[360F12,360J01,Car] 0
 x_TueThur[360F12,360J01,Moped] 0
 x_TueThur[360F12,360J01,EBikeCart] 0
-x_TueThur[360F12,360J01,FootBike] 1
+x_TueThur[360F12,360J01,FootBike] 0
 x_TueThur[360F12,360F07,Car] 0
 x_TueThur[360F12,360F07,Moped] 0
 x_TueThur[360F12,360F07,EBikeCart] 0
@@ -31918,7 +31918,7 @@ x_TueThur[360F15,360F04,Moped] 0
 x_TueThur[360F15,360F04,EBikeCart] 0
 x_TueThur[360F15,360F04,FootBike] 0
 x_TueThur[360F15,35B211,Car] 0
-x_TueThur[360F15,35B211,Moped] 1
+x_TueThur[360F15,35B211,Moped] 0
 x_TueThur[360F15,35B211,EBikeCart] 0
 x_TueThur[360F15,35B211,FootBike] 0
 x_TueThur[360F15,356C07,Car] 0
@@ -31944,7 +31944,7 @@ x_TueThur[360F15,356D62,FootBike] 0
 x_TueThur[360J01,360F02,Car] 0
 x_TueThur[360J01,360F02,Moped] 0
 x_TueThur[360J01,360F02,EBikeCart] 0
-x_TueThur[360J01,360F02,FootBike] 1
+x_TueThur[360J01,360F02,FootBike] 0
 x_TueThur[360J01,360F12,Car] 0
 x_TueThur[360J01,360F12,Moped] 0
 x_TueThur[360J01,360F12,EBikeCart] 0
@@ -32004,7 +32004,7 @@ x_TueThur[360J01,354F52,FootBike] 0
 x_TueThur[372F11,372J11,Car] 0
 x_TueThur[372F11,372J11,Moped] 0
 x_TueThur[372F11,372J11,EBikeCart] 0
-x_TueThur[372F11,372J11,FootBike] 1
+x_TueThur[372F11,372J11,FootBike] 0
 x_TueThur[372F11,373F11,Car] 0
 x_TueThur[372F11,373F11,Moped] 0
 x_TueThur[372F11,373F11,EBikeCart] 0
@@ -32064,7 +32064,7 @@ x_TueThur[372F11,357F05,FootBike] 0
 x_TueThur[372J11,372F11,Car] 0
 x_TueThur[372J11,372F11,Moped] 0
 x_TueThur[372J11,372F11,EBikeCart] 0
-x_TueThur[372J11,372F11,FootBike] 1
+x_TueThur[372J11,372F11,FootBike] 0
 x_TueThur[372J11,373F11,Car] 0
 x_TueThur[372J11,373F11,Moped] 0
 x_TueThur[372J11,373F11,EBikeCart] 0
@@ -32124,7 +32124,7 @@ x_TueThur[372J11,357F05,FootBike] 0
 x_TueThur[373F03,373F04,Car] 0
 x_TueThur[373F03,373F04,Moped] 0
 x_TueThur[373F03,373F04,EBikeCart] 0
-x_TueThur[373F03,373F04,FootBike] 1
+x_TueThur[373F03,373F04,FootBike] 0
 x_TueThur[373F03,373F05,Car] 0
 x_TueThur[373F03,373F05,Moped] 0
 x_TueThur[373F03,373F05,EBikeCart] 0
@@ -32192,7 +32192,7 @@ x_TueThur[373F04,373F06,FootBike] 0
 x_TueThur[373F04,373F03,Car] 0
 x_TueThur[373F04,373F03,Moped] 0
 x_TueThur[373F04,373F03,EBikeCart] 0
-x_TueThur[373F04,373F03,FootBike] 1
+x_TueThur[373F04,373F03,FootBike] 0
 x_TueThur[373F04,373F14,Car] 0
 x_TueThur[373F04,373F14,Moped] 0
 x_TueThur[373F04,373F14,EBikeCart] 0
@@ -32244,7 +32244,7 @@ x_TueThur[373F04,358D29,FootBike] 0
 x_TueThur[373F05,373F06,Car] 0
 x_TueThur[373F05,373F06,Moped] 0
 x_TueThur[373F05,373F06,EBikeCart] 0
-x_TueThur[373F05,373F06,FootBike] 1
+x_TueThur[373F05,373F06,FootBike] 0
 x_TueThur[373F05,373F04,Car] 0
 x_TueThur[373F05,373F04,Moped] 0
 x_TueThur[373F05,373F04,EBikeCart] 0
@@ -32304,7 +32304,7 @@ x_TueThur[373F05,356B01,FootBike] 0
 x_TueThur[373F06,373F05,Car] 0
 x_TueThur[373F06,373F05,Moped] 0
 x_TueThur[373F06,373F05,EBikeCart] 0
-x_TueThur[373F06,373F05,FootBike] 1
+x_TueThur[373F06,373F05,FootBike] 0
 x_TueThur[373F06,373F14,Car] 0
 x_TueThur[373F06,373F14,Moped] 0
 x_TueThur[373F06,373F14,EBikeCart] 0
@@ -32364,7 +32364,7 @@ x_TueThur[373F06,35A042,FootBike] 0
 x_TueThur[373F11,373J12,Car] 0
 x_TueThur[373F11,373J12,Moped] 0
 x_TueThur[373F11,373J12,EBikeCart] 0
-x_TueThur[373F11,373J12,FootBike] 1
+x_TueThur[373F11,373J12,FootBike] 0
 x_TueThur[373F11,373F12,Car] 0
 x_TueThur[373F11,373F12,Moped] 0
 x_TueThur[373F11,373F12,EBikeCart] 0
@@ -32436,7 +32436,7 @@ x_TueThur[373F12,373F11,FootBike] 0
 x_TueThur[373F12,373F14,Car] 0
 x_TueThur[373F12,373F14,Moped] 0
 x_TueThur[373F12,373F14,EBikeCart] 0
-x_TueThur[373F12,373F14,FootBike] 1
+x_TueThur[373F12,373F14,FootBike] 0
 x_TueThur[373F12,373F06,Car] 0
 x_TueThur[373F12,373F06,Moped] 0
 x_TueThur[373F12,373F06,EBikeCart] 0
@@ -32484,7 +32484,7 @@ x_TueThur[373F12,356B01,FootBike] 0
 x_TueThur[373F13,373F12,Car] 0
 x_TueThur[373F13,373F12,Moped] 0
 x_TueThur[373F13,373F12,EBikeCart] 0
-x_TueThur[373F13,373F12,FootBike] 1
+x_TueThur[373F13,373F12,FootBike] 0
 x_TueThur[373F13,373F14,Car] 0
 x_TueThur[373F13,373F14,Moped] 0
 x_TueThur[373F13,373F14,EBikeCart] 0
@@ -32544,7 +32544,7 @@ x_TueThur[373F13,356B01,FootBike] 0
 x_TueThur[373F14,373F13,Car] 0
 x_TueThur[373F14,373F13,Moped] 0
 x_TueThur[373F14,373F13,EBikeCart] 0
-x_TueThur[373F14,373F13,FootBike] 1
+x_TueThur[373F14,373F13,FootBike] 0
 x_TueThur[373F14,373F12,Car] 0
 x_TueThur[373F14,373F12,Moped] 0
 x_TueThur[373F14,373F12,EBikeCart] 0
@@ -32602,7 +32602,7 @@ x_TueThur[373F14,357F04,Moped] 0
 x_TueThur[373F14,357F04,EBikeCart] 0
 x_TueThur[373F14,357F04,FootBike] 0
 x_TueThur[373F98,356B01,Car] 0
-x_TueThur[373F98,356B01,Moped] 1
+x_TueThur[373F98,356B01,Moped] 0
 x_TueThur[373F98,356B01,EBikeCart] 0
 x_TueThur[373F98,356B01,FootBike] 0
 x_TueThur[373F98,357F07,Car] 0
@@ -32664,7 +32664,7 @@ x_TueThur[373F98,356D65,FootBike] 0
 x_TueThur[373J12,373F11,Car] 0
 x_TueThur[373J12,373F11,Moped] 0
 x_TueThur[373J12,373F11,EBikeCart] 0
-x_TueThur[373J12,373F11,FootBike] 1
+x_TueThur[373J12,373F11,FootBike] 0
 x_TueThur[373J12,373F12,Car] 0
 x_TueThur[373J12,373F12,Moped] 0
 x_TueThur[373J12,373F12,EBikeCart] 0
@@ -32724,7 +32724,7 @@ x_TueThur[373J12,356B01,FootBike] 0
 x_TueThur[345D01,D228,Car] 0
 x_TueThur[345D01,D228,Moped] 0
 x_TueThur[345D01,D228,EBikeCart] 0
-x_TueThur[345D01,D228,FootBike] 0
+x_TueThur[345D01,D228,FootBike] 1
 x_TueThur[345D01,D229,Car] 0
 x_TueThur[345D01,D229,Moped] 0
 x_TueThur[345D01,D229,EBikeCart] 0
@@ -32804,7 +32804,7 @@ x_TueThur[345D01,D163,FootBike] 0
 x_TueThur[345D02,D228,Car] 0
 x_TueThur[345D02,D228,Moped] 0
 x_TueThur[345D02,D228,EBikeCart] 0
-x_TueThur[345D02,D228,FootBike] 0
+x_TueThur[345D02,D228,FootBike] 1
 x_TueThur[345D02,D261,Car] 0
 x_TueThur[345D02,D261,Moped] 0
 x_TueThur[345D02,D261,EBikeCart] 0
@@ -32884,7 +32884,7 @@ x_TueThur[345D02,D165,FootBike] 0
 x_TueThur[345D05,D228,Car] 0
 x_TueThur[345D05,D228,Moped] 0
 x_TueThur[345D05,D228,EBikeCart] 0
-x_TueThur[345D05,D228,FootBike] 0
+x_TueThur[345D05,D228,FootBike] 1
 x_TueThur[345D05,D229,Car] 0
 x_TueThur[345D05,D229,Moped] 0
 x_TueThur[345D05,D229,EBikeCart] 0
@@ -32964,7 +32964,7 @@ x_TueThur[345D05,D293,FootBike] 0
 x_TueThur[345D06,D228,Car] 0
 x_TueThur[345D06,D228,Moped] 0
 x_TueThur[345D06,D228,EBikeCart] 0
-x_TueThur[345D06,D228,FootBike] 0
+x_TueThur[345D06,D228,FootBike] 1
 x_TueThur[345D06,D229,Car] 0
 x_TueThur[345D06,D229,Moped] 0
 x_TueThur[345D06,D229,EBikeCart] 0
@@ -33048,7 +33048,7 @@ x_TueThur[345D09,D261,FootBike] 0
 x_TueThur[345D09,D228,Car] 0
 x_TueThur[345D09,D228,Moped] 0
 x_TueThur[345D09,D228,EBikeCart] 0
-x_TueThur[345D09,D228,FootBike] 0
+x_TueThur[345D09,D228,FootBike] 1
 x_TueThur[345D09,D262,Car] 0
 x_TueThur[345D09,D262,Moped] 0
 x_TueThur[345D09,D262,EBikeCart] 0
@@ -33128,7 +33128,7 @@ x_TueThur[345D10,D261,FootBike] 0
 x_TueThur[345D10,D228,Car] 0
 x_TueThur[345D10,D228,Moped] 0
 x_TueThur[345D10,D228,EBikeCart] 0
-x_TueThur[345D10,D228,FootBike] 0
+x_TueThur[345D10,D228,FootBike] 1
 x_TueThur[345D10,D262,Car] 0
 x_TueThur[345D10,D262,Moped] 0
 x_TueThur[345D10,D262,EBikeCart] 0
@@ -33216,7 +33216,7 @@ x_TueThur[345D13,D229,FootBike] 0
 x_TueThur[345D13,D228,Car] 0
 x_TueThur[345D13,D228,Moped] 0
 x_TueThur[345D13,D228,EBikeCart] 0
-x_TueThur[345D13,D228,FootBike] 0
+x_TueThur[345D13,D228,FootBike] 1
 x_TueThur[345D13,D295,Car] 0
 x_TueThur[345D13,D295,Moped] 0
 x_TueThur[345D13,D295,EBikeCart] 0
@@ -33292,7 +33292,7 @@ x_TueThur[345D14,D262,FootBike] 0
 x_TueThur[345D14,D228,Car] 0
 x_TueThur[345D14,D228,Moped] 0
 x_TueThur[345D14,D228,EBikeCart] 0
-x_TueThur[345D14,D228,FootBike] 0
+x_TueThur[345D14,D228,FootBike] 1
 x_TueThur[345D14,D229,Car] 0
 x_TueThur[345D14,D229,Moped] 0
 x_TueThur[345D14,D229,EBikeCart] 0
@@ -33372,7 +33372,7 @@ x_TueThur[345D17,D262,FootBike] 0
 x_TueThur[345D17,D228,Car] 0
 x_TueThur[345D17,D228,Moped] 0
 x_TueThur[345D17,D228,EBikeCart] 0
-x_TueThur[345D17,D228,FootBike] 0
+x_TueThur[345D17,D228,FootBike] 1
 x_TueThur[345D17,D229,Car] 0
 x_TueThur[345D17,D229,Moped] 0
 x_TueThur[345D17,D229,EBikeCart] 0
@@ -33456,7 +33456,7 @@ x_TueThur[345D18,D229,FootBike] 0
 x_TueThur[345D18,D228,Car] 0
 x_TueThur[345D18,D228,Moped] 0
 x_TueThur[345D18,D228,EBikeCart] 0
-x_TueThur[345D18,D228,FootBike] 0
+x_TueThur[345D18,D228,FootBike] 1
 x_TueThur[345D18,D295,Car] 0
 x_TueThur[345D18,D295,Moped] 0
 x_TueThur[345D18,D295,EBikeCart] 0
@@ -33528,7 +33528,7 @@ x_TueThur[345D21,D261,FootBike] 0
 x_TueThur[345D21,D228,Car] 0
 x_TueThur[345D21,D228,Moped] 0
 x_TueThur[345D21,D228,EBikeCart] 0
-x_TueThur[345D21,D228,FootBike] 0
+x_TueThur[345D21,D228,FootBike] 1
 x_TueThur[345D21,D262,Car] 0
 x_TueThur[345D21,D262,Moped] 0
 x_TueThur[345D21,D262,EBikeCart] 0
@@ -33612,7 +33612,7 @@ x_TueThur[345D22,D262,FootBike] 0
 x_TueThur[345D22,D228,Car] 0
 x_TueThur[345D22,D228,Moped] 0
 x_TueThur[345D22,D228,EBikeCart] 0
-x_TueThur[345D22,D228,FootBike] 0
+x_TueThur[345D22,D228,FootBike] 1
 x_TueThur[345D22,D294,Car] 0
 x_TueThur[345D22,D294,Moped] 0
 x_TueThur[345D22,D294,EBikeCart] 0
@@ -33688,7 +33688,7 @@ x_TueThur[345D25,D261,FootBike] 0
 x_TueThur[345D25,D228,Car] 0
 x_TueThur[345D25,D228,Moped] 0
 x_TueThur[345D25,D228,EBikeCart] 0
-x_TueThur[345D25,D228,FootBike] 0
+x_TueThur[345D25,D228,FootBike] 1
 x_TueThur[345D25,D262,Car] 0
 x_TueThur[345D25,D262,Moped] 0
 x_TueThur[345D25,D262,EBikeCart] 0
@@ -33772,7 +33772,7 @@ x_TueThur[345D26,D262,FootBike] 0
 x_TueThur[345D26,D228,Car] 0
 x_TueThur[345D26,D228,Moped] 0
 x_TueThur[345D26,D228,EBikeCart] 0
-x_TueThur[345D26,D228,FootBike] 0
+x_TueThur[345D26,D228,FootBike] 1
 x_TueThur[345D26,D294,Car] 0
 x_TueThur[345D26,D294,Moped] 0
 x_TueThur[345D26,D294,EBikeCart] 0
@@ -33852,7 +33852,7 @@ x_TueThur[345D29,D262,FootBike] 0
 x_TueThur[345D29,D294,Car] 0
 x_TueThur[345D29,D294,Moped] 0
 x_TueThur[345D29,D294,EBikeCart] 0
-x_TueThur[345D29,D294,FootBike] 0
+x_TueThur[345D29,D294,FootBike] 1
 x_TueThur[345D29,D295,Car] 0
 x_TueThur[345D29,D295,Moped] 0
 x_TueThur[345D29,D295,EBikeCart] 0
@@ -33931,7 +33931,7 @@ x_TueThur[345D30,D262,EBikeCart] 0
 x_TueThur[345D30,D262,FootBike] 0
 x_TueThur[345D30,D294,Car] 0
 x_TueThur[345D30,D294,Moped] 0
-x_TueThur[345D30,D294,EBikeCart] 0
+x_TueThur[345D30,D294,EBikeCart] 1
 x_TueThur[345D30,D294,FootBike] 0
 x_TueThur[345D30,D295,Car] 0
 x_TueThur[345D30,D295,Moped] 0
@@ -34004,7 +34004,7 @@ x_TueThur[345D30,D195,FootBike] 0
 x_TueThur[345D33,D294,Car] 0
 x_TueThur[345D33,D294,Moped] 0
 x_TueThur[345D33,D294,EBikeCart] 0
-x_TueThur[345D33,D294,FootBike] 0
+x_TueThur[345D33,D294,FootBike] 1
 x_TueThur[345D33,D261,Car] 0
 x_TueThur[345D33,D261,Moped] 0
 x_TueThur[345D33,D261,EBikeCart] 0
@@ -34088,7 +34088,7 @@ x_TueThur[345D34,D261,FootBike] 0
 x_TueThur[345D34,D294,Car] 0
 x_TueThur[345D34,D294,Moped] 0
 x_TueThur[345D34,D294,EBikeCart] 0
-x_TueThur[345D34,D294,FootBike] 0
+x_TueThur[345D34,D294,FootBike] 1
 x_TueThur[345D34,D262,Car] 0
 x_TueThur[345D34,D262,Moped] 0
 x_TueThur[345D34,D262,EBikeCart] 0
@@ -34164,7 +34164,7 @@ x_TueThur[345D34,D362,FootBike] 0
 x_TueThur[345D37,D294,Car] 0
 x_TueThur[345D37,D294,Moped] 0
 x_TueThur[345D37,D294,EBikeCart] 0
-x_TueThur[345D37,D294,FootBike] 0
+x_TueThur[345D37,D294,FootBike] 1
 x_TueThur[345D37,D261,Car] 0
 x_TueThur[345D37,D261,Moped] 0
 x_TueThur[345D37,D261,EBikeCart] 0
@@ -34244,7 +34244,7 @@ x_TueThur[345D37,D361,FootBike] 0
 x_TueThur[345D38,D294,Car] 0
 x_TueThur[345D38,D294,Moped] 0
 x_TueThur[345D38,D294,EBikeCart] 0
-x_TueThur[345D38,D294,FootBike] 0
+x_TueThur[345D38,D294,FootBike] 1
 x_TueThur[345D38,D261,Car] 0
 x_TueThur[345D38,D261,Moped] 0
 x_TueThur[345D38,D261,EBikeCart] 0
@@ -34328,7 +34328,7 @@ x_TueThur[345D41,D261,FootBike] 0
 x_TueThur[345D41,D294,Car] 0
 x_TueThur[345D41,D294,Moped] 0
 x_TueThur[345D41,D294,EBikeCart] 0
-x_TueThur[345D41,D294,FootBike] 0
+x_TueThur[345D41,D294,FootBike] 1
 x_TueThur[345D41,D260,Car] 0
 x_TueThur[345D41,D260,Moped] 0
 x_TueThur[345D41,D260,EBikeCart] 0
@@ -34408,7 +34408,7 @@ x_TueThur[345D42,D261,FootBike] 0
 x_TueThur[345D42,D294,Car] 0
 x_TueThur[345D42,D294,Moped] 0
 x_TueThur[345D42,D294,EBikeCart] 0
-x_TueThur[345D42,D294,FootBike] 0
+x_TueThur[345D42,D294,FootBike] 1
 x_TueThur[345D42,D260,Car] 0
 x_TueThur[345D42,D260,Moped] 0
 x_TueThur[345D42,D260,EBikeCart] 0
@@ -34488,7 +34488,7 @@ x_TueThur[345D45,D261,FootBike] 0
 x_TueThur[345D45,D294,Car] 0
 x_TueThur[345D45,D294,Moped] 0
 x_TueThur[345D45,D294,EBikeCart] 0
-x_TueThur[345D45,D294,FootBike] 0
+x_TueThur[345D45,D294,FootBike] 1
 x_TueThur[345D45,D262,Car] 0
 x_TueThur[345D45,D262,Moped] 0
 x_TueThur[345D45,D262,EBikeCart] 0
@@ -34568,7 +34568,7 @@ x_TueThur[345D46,D261,FootBike] 0
 x_TueThur[345D46,D294,Car] 0
 x_TueThur[345D46,D294,Moped] 0
 x_TueThur[345D46,D294,EBikeCart] 0
-x_TueThur[345D46,D294,FootBike] 0
+x_TueThur[345D46,D294,FootBike] 1
 x_TueThur[345D46,D260,Car] 0
 x_TueThur[345D46,D260,Moped] 0
 x_TueThur[345D46,D260,EBikeCart] 0
@@ -34648,7 +34648,7 @@ x_TueThur[345D49,D261,FootBike] 0
 x_TueThur[345D49,D260,Car] 0
 x_TueThur[345D49,D260,Moped] 0
 x_TueThur[345D49,D260,EBikeCart] 0
-x_TueThur[345D49,D260,FootBike] 0
+x_TueThur[345D49,D260,FootBike] 1
 x_TueThur[345D49,D294,Car] 0
 x_TueThur[345D49,D294,Moped] 0
 x_TueThur[345D49,D294,EBikeCart] 0
@@ -34728,7 +34728,7 @@ x_TueThur[345D50,D261,FootBike] 0
 x_TueThur[345D50,D260,Car] 0
 x_TueThur[345D50,D260,Moped] 0
 x_TueThur[345D50,D260,EBikeCart] 0
-x_TueThur[345D50,D260,FootBike] 0
+x_TueThur[345D50,D260,FootBike] 1
 x_TueThur[345D50,D294,Car] 0
 x_TueThur[345D50,D294,Moped] 0
 x_TueThur[345D50,D294,EBikeCart] 0
@@ -34804,7 +34804,7 @@ x_TueThur[345D50,D197,FootBike] 0
 x_TueThur[345D53,D294,Car] 0
 x_TueThur[345D53,D294,Moped] 0
 x_TueThur[345D53,D294,EBikeCart] 0
-x_TueThur[345D53,D294,FootBike] 0
+x_TueThur[345D53,D294,FootBike] 1
 x_TueThur[345D53,D261,Car] 0
 x_TueThur[345D53,D261,Moped] 0
 x_TueThur[345D53,D261,EBikeCart] 0
@@ -34884,7 +34884,7 @@ x_TueThur[345D53,D326,FootBike] 0
 x_TueThur[345D54,D294,Car] 0
 x_TueThur[345D54,D294,Moped] 0
 x_TueThur[345D54,D294,EBikeCart] 0
-x_TueThur[345D54,D294,FootBike] 0
+x_TueThur[345D54,D294,FootBike] 1
 x_TueThur[345D54,D261,Car] 0
 x_TueThur[345D54,D261,Moped] 0
 x_TueThur[345D54,D261,EBikeCart] 0
@@ -34964,7 +34964,7 @@ x_TueThur[345D54,D326,FootBike] 0
 x_TueThur[345D57,D294,Car] 0
 x_TueThur[345D57,D294,Moped] 0
 x_TueThur[345D57,D294,EBikeCart] 0
-x_TueThur[345D57,D294,FootBike] 0
+x_TueThur[345D57,D294,FootBike] 1
 x_TueThur[345D57,D293,Car] 0
 x_TueThur[345D57,D293,Moped] 0
 x_TueThur[345D57,D293,EBikeCart] 0
@@ -35044,7 +35044,7 @@ x_TueThur[345D57,D263,FootBike] 0
 x_TueThur[345D58,D294,Car] 0
 x_TueThur[345D58,D294,Moped] 0
 x_TueThur[345D58,D294,EBikeCart] 0
-x_TueThur[345D58,D294,FootBike] 0
+x_TueThur[345D58,D294,FootBike] 1
 x_TueThur[345D58,D293,Car] 0
 x_TueThur[345D58,D293,Moped] 0
 x_TueThur[345D58,D293,EBikeCart] 0
@@ -35124,7 +35124,7 @@ x_TueThur[345D58,D226,FootBike] 0
 x_TueThur[345F04,D228,Car] 0
 x_TueThur[345F04,D228,Moped] 0
 x_TueThur[345F04,D228,EBikeCart] 0
-x_TueThur[345F04,D228,FootBike] 0
+x_TueThur[345F04,D228,FootBike] 1
 x_TueThur[345F04,D227,Car] 0
 x_TueThur[345F04,D227,Moped] 0
 x_TueThur[345F04,D227,EBikeCart] 0
@@ -35204,7 +35204,7 @@ x_TueThur[345F04,D263,FootBike] 0
 x_TueThur[345F05,D228,Car] 0
 x_TueThur[345F05,D228,Moped] 0
 x_TueThur[345F05,D228,EBikeCart] 0
-x_TueThur[345F05,D228,FootBike] 0
+x_TueThur[345F05,D228,FootBike] 1
 x_TueThur[345F05,D227,Car] 0
 x_TueThur[345F05,D227,Moped] 0
 x_TueThur[345F05,D227,EBikeCart] 0
@@ -35284,7 +35284,7 @@ x_TueThur[345F05,D292,FootBike] 0
 x_TueThur[345F06,D228,Car] 0
 x_TueThur[345F06,D228,Moped] 0
 x_TueThur[345F06,D228,EBikeCart] 0
-x_TueThur[345F06,D228,FootBike] 0
+x_TueThur[345F06,D228,FootBike] 1
 x_TueThur[345F06,D227,Car] 0
 x_TueThur[345F06,D227,Moped] 0
 x_TueThur[345F06,D227,EBikeCart] 0
@@ -35364,7 +35364,7 @@ x_TueThur[345F06,D165,FootBike] 0
 x_TueThur[345F10,D228,Car] 0
 x_TueThur[345F10,D228,Moped] 0
 x_TueThur[345F10,D228,EBikeCart] 0
-x_TueThur[345F10,D228,FootBike] 0
+x_TueThur[345F10,D228,FootBike] 1
 x_TueThur[345F10,D227,Car] 0
 x_TueThur[345F10,D227,Moped] 0
 x_TueThur[345F10,D227,EBikeCart] 0
@@ -35444,7 +35444,7 @@ x_TueThur[345F10,D225,FootBike] 0
 x_TueThur[345F11,D228,Car] 0
 x_TueThur[345F11,D228,Moped] 0
 x_TueThur[345F11,D228,EBikeCart] 0
-x_TueThur[345F11,D228,FootBike] 0
+x_TueThur[345F11,D228,FootBike] 1
 x_TueThur[345F11,D227,Car] 0
 x_TueThur[345F11,D227,Moped] 0
 x_TueThur[345F11,D227,EBikeCart] 0
@@ -35528,7 +35528,7 @@ x_TueThur[345F12,D227,FootBike] 0
 x_TueThur[345F12,D228,Car] 0
 x_TueThur[345F12,D228,Moped] 0
 x_TueThur[345F12,D228,EBikeCart] 0
-x_TueThur[345F12,D228,FootBike] 0
+x_TueThur[345F12,D228,FootBike] 1
 x_TueThur[345F12,D195,Car] 0
 x_TueThur[345F12,D195,Moped] 0
 x_TueThur[345F12,D195,EBikeCart] 0
@@ -35608,7 +35608,7 @@ x_TueThur[345F13,D227,FootBike] 0
 x_TueThur[345F13,D228,Car] 0
 x_TueThur[345F13,D228,Moped] 0
 x_TueThur[345F13,D228,EBikeCart] 0
-x_TueThur[345F13,D228,FootBike] 0
+x_TueThur[345F13,D228,FootBike] 1
 x_TueThur[345F13,D195,Car] 0
 x_TueThur[345F13,D195,Moped] 0
 x_TueThur[345F13,D195,EBikeCart] 0
@@ -35688,7 +35688,7 @@ x_TueThur[345F14,D227,FootBike] 0
 x_TueThur[345F14,D228,Car] 0
 x_TueThur[345F14,D228,Moped] 0
 x_TueThur[345F14,D228,EBikeCart] 0
-x_TueThur[345F14,D228,FootBike] 0
+x_TueThur[345F14,D228,FootBike] 1
 x_TueThur[345F14,D260,Car] 0
 x_TueThur[345F14,D260,Moped] 0
 x_TueThur[345F14,D260,EBikeCart] 0
@@ -35764,7 +35764,7 @@ x_TueThur[345F14,D295,FootBike] 0
 x_TueThur[345F15,D228,Car] 0
 x_TueThur[345F15,D228,Moped] 0
 x_TueThur[345F15,D228,EBikeCart] 0
-x_TueThur[345F15,D228,FootBike] 0
+x_TueThur[345F15,D228,FootBike] 1
 x_TueThur[345F15,D227,Car] 0
 x_TueThur[345F15,D227,Moped] 0
 x_TueThur[345F15,D227,EBikeCart] 0
@@ -35848,7 +35848,7 @@ x_TueThur[345F16,D227,FootBike] 0
 x_TueThur[345F16,D228,Car] 0
 x_TueThur[345F16,D228,Moped] 0
 x_TueThur[345F16,D228,EBikeCart] 0
-x_TueThur[345F16,D228,FootBike] 0
+x_TueThur[345F16,D228,FootBike] 1
 x_TueThur[345F16,D195,Car] 0
 x_TueThur[345F16,D195,Moped] 0
 x_TueThur[345F16,D195,EBikeCart] 0
@@ -35924,7 +35924,7 @@ x_TueThur[345F16,D292,FootBike] 0
 x_TueThur[345F17,D227,Car] 0
 x_TueThur[345F17,D227,Moped] 0
 x_TueThur[345F17,D227,EBikeCart] 0
-x_TueThur[345F17,D227,FootBike] 1
+x_TueThur[345F17,D227,FootBike] 0
 x_TueThur[345F17,D195,Car] 0
 x_TueThur[345F17,D195,Moped] 0
 x_TueThur[345F17,D195,EBikeCart] 0
@@ -35932,7 +35932,7 @@ x_TueThur[345F17,D195,FootBike] 0
 x_TueThur[345F17,D228,Car] 0
 x_TueThur[345F17,D228,Moped] 0
 x_TueThur[345F17,D228,EBikeCart] 0
-x_TueThur[345F17,D228,FootBike] 0
+x_TueThur[345F17,D228,FootBike] 1
 x_TueThur[345F17,D226,Car] 0
 x_TueThur[345F17,D226,Moped] 0
 x_TueThur[345F17,D226,EBikeCart] 0
@@ -36008,7 +36008,7 @@ x_TueThur[345F24,D261,FootBike] 0
 x_TueThur[345F24,D260,Car] 0
 x_TueThur[345F24,D260,Moped] 0
 x_TueThur[345F24,D260,EBikeCart] 0
-x_TueThur[345F24,D260,FootBike] 0
+x_TueThur[345F24,D260,FootBike] 1
 x_TueThur[345F24,D228,Car] 0
 x_TueThur[345F24,D228,Moped] 0
 x_TueThur[345F24,D228,EBikeCart] 0
@@ -36088,7 +36088,7 @@ x_TueThur[345F25,D227,FootBike] 0
 x_TueThur[345F25,D228,Car] 0
 x_TueThur[345F25,D228,Moped] 0
 x_TueThur[345F25,D228,EBikeCart] 0
-x_TueThur[345F25,D228,FootBike] 0
+x_TueThur[345F25,D228,FootBike] 1
 x_TueThur[345F25,D260,Car] 0
 x_TueThur[345F25,D260,Moped] 0
 x_TueThur[345F25,D260,EBikeCart] 0
@@ -36164,7 +36164,7 @@ x_TueThur[345F25,D162,FootBike] 0
 x_TueThur[351F01,D362,Car] 0
 x_TueThur[351F01,D362,Moped] 0
 x_TueThur[351F01,D362,EBikeCart] 0
-x_TueThur[351F01,D362,FootBike] 0
+x_TueThur[351F01,D362,FootBike] 1
 x_TueThur[351F01,D328,Car] 0
 x_TueThur[351F01,D328,Moped] 0
 x_TueThur[351F01,D328,EBikeCart] 0
@@ -36244,7 +36244,7 @@ x_TueThur[351F01,D261,FootBike] 0
 x_TueThur[351F05,D362,Car] 0
 x_TueThur[351F05,D362,Moped] 0
 x_TueThur[351F05,D362,EBikeCart] 0
-x_TueThur[351F05,D362,FootBike] 0
+x_TueThur[351F05,D362,FootBike] 1
 x_TueThur[351F05,D328,Car] 0
 x_TueThur[351F05,D328,Moped] 0
 x_TueThur[351F05,D328,EBikeCart] 0
@@ -36324,7 +36324,7 @@ x_TueThur[351F05,D429,FootBike] 0
 x_TueThur[351F07,D362,Car] 0
 x_TueThur[351F07,D362,Moped] 0
 x_TueThur[351F07,D362,EBikeCart] 0
-x_TueThur[351F07,D362,FootBike] 0
+x_TueThur[351F07,D362,FootBike] 1
 x_TueThur[351F07,D328,Car] 0
 x_TueThur[351F07,D328,Moped] 0
 x_TueThur[351F07,D328,EBikeCart] 0
@@ -36404,7 +36404,7 @@ x_TueThur[351F07,D429,FootBike] 0
 x_TueThur[351F09,D362,Car] 0
 x_TueThur[351F09,D362,Moped] 0
 x_TueThur[351F09,D362,EBikeCart] 0
-x_TueThur[351F09,D362,FootBike] 0
+x_TueThur[351F09,D362,FootBike] 1
 x_TueThur[351F09,D328,Car] 0
 x_TueThur[351F09,D328,Moped] 0
 x_TueThur[351F09,D328,EBikeCart] 0
@@ -36484,7 +36484,7 @@ x_TueThur[351F09,D292,FootBike] 0
 x_TueThur[351F13,D362,Car] 0
 x_TueThur[351F13,D362,Moped] 0
 x_TueThur[351F13,D362,EBikeCart] 0
-x_TueThur[351F13,D362,FootBike] 0
+x_TueThur[351F13,D362,FootBike] 1
 x_TueThur[351F13,D328,Car] 0
 x_TueThur[351F13,D328,Moped] 0
 x_TueThur[351F13,D328,EBikeCart] 0
@@ -36564,7 +36564,7 @@ x_TueThur[351F13,D429,FootBike] 0
 x_TueThur[351F15,D328,Car] 0
 x_TueThur[351F15,D328,Moped] 0
 x_TueThur[351F15,D328,EBikeCart] 0
-x_TueThur[351F15,D328,FootBike] 0
+x_TueThur[351F15,D328,FootBike] 1
 x_TueThur[351F15,D362,Car] 0
 x_TueThur[351F15,D362,Moped] 0
 x_TueThur[351F15,D362,EBikeCart] 0
@@ -36644,7 +36644,7 @@ x_TueThur[351F15,D260,FootBike] 0
 x_TueThur[351F21,D361,Car] 0
 x_TueThur[351F21,D361,Moped] 0
 x_TueThur[351F21,D361,EBikeCart] 0
-x_TueThur[351F21,D361,FootBike] 0
+x_TueThur[351F21,D361,FootBike] 1
 x_TueThur[351F21,D327,Car] 0
 x_TueThur[351F21,D327,Moped] 0
 x_TueThur[351F21,D327,EBikeCart] 0
@@ -36724,7 +36724,7 @@ x_TueThur[351F21,D260,FootBike] 0
 x_TueThur[351F22,D327,Car] 0
 x_TueThur[351F22,D327,Moped] 0
 x_TueThur[351F22,D327,EBikeCart] 0
-x_TueThur[351F22,D327,FootBike] 0
+x_TueThur[351F22,D327,FootBike] 1
 x_TueThur[351F22,D361,Car] 0
 x_TueThur[351F22,D361,Moped] 0
 x_TueThur[351F22,D361,EBikeCart] 0
@@ -36804,7 +36804,7 @@ x_TueThur[351F22,D261,FootBike] 0
 x_TueThur[351F23,D327,Car] 0
 x_TueThur[351F23,D327,Moped] 0
 x_TueThur[351F23,D327,EBikeCart] 0
-x_TueThur[351F23,D327,FootBike] 0
+x_TueThur[351F23,D327,FootBike] 1
 x_TueThur[351F23,D328,Car] 0
 x_TueThur[351F23,D328,Moped] 0
 x_TueThur[351F23,D328,EBikeCart] 0
@@ -36884,7 +36884,7 @@ x_TueThur[351F23,D359,FootBike] 0
 x_TueThur[351F24,D328,Car] 0
 x_TueThur[351F24,D328,Moped] 0
 x_TueThur[351F24,D328,EBikeCart] 0
-x_TueThur[351F24,D328,FootBike] 0
+x_TueThur[351F24,D328,FootBike] 1
 x_TueThur[351F24,D362,Car] 0
 x_TueThur[351F24,D362,Moped] 0
 x_TueThur[351F24,D362,EBikeCart] 0
@@ -36964,7 +36964,7 @@ x_TueThur[351F24,D260,FootBike] 0
 x_TueThur[351F26,D328,Car] 0
 x_TueThur[351F26,D328,Moped] 0
 x_TueThur[351F26,D328,EBikeCart] 0
-x_TueThur[351F26,D328,FootBike] 0
+x_TueThur[351F26,D328,FootBike] 1
 x_TueThur[351F26,D327,Car] 0
 x_TueThur[351F26,D327,Moped] 0
 x_TueThur[351F26,D327,EBikeCart] 0
@@ -37044,7 +37044,7 @@ x_TueThur[351F26,D364,FootBike] 0
 x_TueThur[351F27,D361,Car] 0
 x_TueThur[351F27,D361,Moped] 0
 x_TueThur[351F27,D361,EBikeCart] 0
-x_TueThur[351F27,D361,FootBike] 0
+x_TueThur[351F27,D361,FootBike] 1
 x_TueThur[351F27,D362,Car] 0
 x_TueThur[351F27,D362,Moped] 0
 x_TueThur[351F27,D362,EBikeCart] 0
@@ -37128,7 +37128,7 @@ x_TueThur[352D09,D364,FootBike] 0
 x_TueThur[352D09,D363,Car] 0
 x_TueThur[352D09,D363,Moped] 0
 x_TueThur[352D09,D363,EBikeCart] 0
-x_TueThur[352D09,D363,FootBike] 0
+x_TueThur[352D09,D363,FootBike] 1
 x_TueThur[352D09,D398,Car] 0
 x_TueThur[352D09,D398,Moped] 0
 x_TueThur[352D09,D398,EBikeCart] 0
@@ -37208,7 +37208,7 @@ x_TueThur[352D10,D364,FootBike] 0
 x_TueThur[352D10,D363,Car] 0
 x_TueThur[352D10,D363,Moped] 0
 x_TueThur[352D10,D363,EBikeCart] 0
-x_TueThur[352D10,D363,FootBike] 0
+x_TueThur[352D10,D363,FootBike] 1
 x_TueThur[352D10,D398,Car] 0
 x_TueThur[352D10,D398,Moped] 0
 x_TueThur[352D10,D398,EBikeCart] 0
@@ -37288,7 +37288,7 @@ x_TueThur[352D13,D364,FootBike] 0
 x_TueThur[352D13,D363,Car] 0
 x_TueThur[352D13,D363,Moped] 0
 x_TueThur[352D13,D363,EBikeCart] 0
-x_TueThur[352D13,D363,FootBike] 0
+x_TueThur[352D13,D363,FootBike] 1
 x_TueThur[352D13,D330,Car] 0
 x_TueThur[352D13,D330,Moped] 0
 x_TueThur[352D13,D330,EBikeCart] 0
@@ -37364,7 +37364,7 @@ x_TueThur[352D13,D332,FootBike] 0
 x_TueThur[352D17,D363,Car] 0
 x_TueThur[352D17,D363,Moped] 0
 x_TueThur[352D17,D363,EBikeCart] 0
-x_TueThur[352D17,D363,FootBike] 0
+x_TueThur[352D17,D363,FootBike] 1
 x_TueThur[352D17,D364,Car] 0
 x_TueThur[352D17,D364,Moped] 0
 x_TueThur[352D17,D364,EBikeCart] 0
@@ -37448,7 +37448,7 @@ x_TueThur[352D18,D364,FootBike] 0
 x_TueThur[352D18,D363,Car] 0
 x_TueThur[352D18,D363,Moped] 0
 x_TueThur[352D18,D363,EBikeCart] 0
-x_TueThur[352D18,D363,FootBike] 0
+x_TueThur[352D18,D363,FootBike] 1
 x_TueThur[352D18,D330,Car] 0
 x_TueThur[352D18,D330,Moped] 0
 x_TueThur[352D18,D330,EBikeCart] 0
@@ -37524,7 +37524,7 @@ x_TueThur[352D18,D361,FootBike] 0
 x_TueThur[352D21,D363,Car] 0
 x_TueThur[352D21,D363,Moped] 0
 x_TueThur[352D21,D363,EBikeCart] 0
-x_TueThur[352D21,D363,FootBike] 0
+x_TueThur[352D21,D363,FootBike] 1
 x_TueThur[352D21,D362,Car] 0
 x_TueThur[352D21,D362,Moped] 0
 x_TueThur[352D21,D362,EBikeCart] 0
@@ -37604,7 +37604,7 @@ x_TueThur[352D21,D399,FootBike] 0
 x_TueThur[352D22,D363,Car] 0
 x_TueThur[352D22,D363,Moped] 0
 x_TueThur[352D22,D363,EBikeCart] 0
-x_TueThur[352D22,D363,FootBike] 0
+x_TueThur[352D22,D363,FootBike] 1
 x_TueThur[352D22,D397,Car] 0
 x_TueThur[352D22,D397,Moped] 0
 x_TueThur[352D22,D397,EBikeCart] 0
@@ -37684,7 +37684,7 @@ x_TueThur[352D22,D331,FootBike] 0
 x_TueThur[352D25,D363,Car] 0
 x_TueThur[352D25,D363,Moped] 0
 x_TueThur[352D25,D363,EBikeCart] 0
-x_TueThur[352D25,D363,FootBike] 0
+x_TueThur[352D25,D363,FootBike] 1
 x_TueThur[352D25,D362,Car] 0
 x_TueThur[352D25,D362,Moped] 0
 x_TueThur[352D25,D362,EBikeCart] 0
@@ -37764,7 +37764,7 @@ x_TueThur[352D25,D331,FootBike] 0
 x_TueThur[352D26,D363,Car] 0
 x_TueThur[352D26,D363,Moped] 0
 x_TueThur[352D26,D363,EBikeCart] 0
-x_TueThur[352D26,D363,FootBike] 0
+x_TueThur[352D26,D363,FootBike] 1
 x_TueThur[352D26,D362,Car] 0
 x_TueThur[352D26,D362,Moped] 0
 x_TueThur[352D26,D362,EBikeCart] 0
@@ -37844,7 +37844,7 @@ x_TueThur[352D26,D432,FootBike] 0
 x_TueThur[352D29,D363,Car] 0
 x_TueThur[352D29,D363,Moped] 0
 x_TueThur[352D29,D363,EBikeCart] 0
-x_TueThur[352D29,D363,FootBike] 0
+x_TueThur[352D29,D363,FootBike] 1
 x_TueThur[352D29,D329,Car] 0
 x_TueThur[352D29,D329,Moped] 0
 x_TueThur[352D29,D329,EBikeCart] 0
@@ -37924,7 +37924,7 @@ x_TueThur[352D29,D430,FootBike] 0
 x_TueThur[352D30,D363,Car] 0
 x_TueThur[352D30,D363,Moped] 0
 x_TueThur[352D30,D363,EBikeCart] 0
-x_TueThur[352D30,D363,FootBike] 0
+x_TueThur[352D30,D363,FootBike] 1
 x_TueThur[352D30,D329,Car] 0
 x_TueThur[352D30,D329,Moped] 0
 x_TueThur[352D30,D329,EBikeCart] 0
@@ -38004,7 +38004,7 @@ x_TueThur[352D30,D430,FootBike] 0
 x_TueThur[352D33,D363,Car] 0
 x_TueThur[352D33,D363,Moped] 0
 x_TueThur[352D33,D363,EBikeCart] 0
-x_TueThur[352D33,D363,FootBike] 0
+x_TueThur[352D33,D363,FootBike] 1
 x_TueThur[352D33,D362,Car] 0
 x_TueThur[352D33,D362,Moped] 0
 x_TueThur[352D33,D362,EBikeCart] 0
@@ -38084,7 +38084,7 @@ x_TueThur[352D33,D331,FootBike] 0
 x_TueThur[352D34,D363,Car] 0
 x_TueThur[352D34,D363,Moped] 0
 x_TueThur[352D34,D363,EBikeCart] 0
-x_TueThur[352D34,D363,FootBike] 0
+x_TueThur[352D34,D363,FootBike] 1
 x_TueThur[352D34,D329,Car] 0
 x_TueThur[352D34,D329,Moped] 0
 x_TueThur[352D34,D329,EBikeCart] 0
@@ -38164,7 +38164,7 @@ x_TueThur[352D34,D293,FootBike] 0
 x_TueThur[352D37,D328,Car] 0
 x_TueThur[352D37,D328,Moped] 0
 x_TueThur[352D37,D328,EBikeCart] 0
-x_TueThur[352D37,D328,FootBike] 0
+x_TueThur[352D37,D328,FootBike] 1
 x_TueThur[352D37,D362,Car] 0
 x_TueThur[352D37,D362,Moped] 0
 x_TueThur[352D37,D362,EBikeCart] 0
@@ -38244,7 +38244,7 @@ x_TueThur[352D37,D292,FootBike] 0
 x_TueThur[352D38,D328,Car] 0
 x_TueThur[352D38,D328,Moped] 0
 x_TueThur[352D38,D328,EBikeCart] 0
-x_TueThur[352D38,D328,FootBike] 0
+x_TueThur[352D38,D328,FootBike] 1
 x_TueThur[352D38,D362,Car] 0
 x_TueThur[352D38,D362,Moped] 0
 x_TueThur[352D38,D362,EBikeCart] 0
@@ -38324,7 +38324,7 @@ x_TueThur[352D38,D262,FootBike] 0
 x_TueThur[352D41,D329,Car] 0
 x_TueThur[352D41,D329,Moped] 0
 x_TueThur[352D41,D329,EBikeCart] 0
-x_TueThur[352D41,D329,FootBike] 0
+x_TueThur[352D41,D329,FootBike] 1
 x_TueThur[352D41,D328,Car] 0
 x_TueThur[352D41,D328,Moped] 0
 x_TueThur[352D41,D328,EBikeCart] 0
@@ -38404,7 +38404,7 @@ x_TueThur[352D41,D365,FootBike] 0
 x_TueThur[352D42,D328,Car] 0
 x_TueThur[352D42,D328,Moped] 0
 x_TueThur[352D42,D328,EBikeCart] 0
-x_TueThur[352D42,D328,FootBike] 0
+x_TueThur[352D42,D328,FootBike] 1
 x_TueThur[352D42,D329,Car] 0
 x_TueThur[352D42,D329,Moped] 0
 x_TueThur[352D42,D329,EBikeCart] 0
@@ -38484,7 +38484,7 @@ x_TueThur[352D42,D360,FootBike] 0
 x_TueThur[352D45,D328,Car] 0
 x_TueThur[352D45,D328,Moped] 0
 x_TueThur[352D45,D328,EBikeCart] 0
-x_TueThur[352D45,D328,FootBike] 0
+x_TueThur[352D45,D328,FootBike] 1
 x_TueThur[352D45,D329,Car] 0
 x_TueThur[352D45,D329,Moped] 0
 x_TueThur[352D45,D329,EBikeCart] 0
@@ -38564,7 +38564,7 @@ x_TueThur[352D45,D263,FootBike] 0
 x_TueThur[352D46,D328,Car] 0
 x_TueThur[352D46,D328,Moped] 0
 x_TueThur[352D46,D328,EBikeCart] 0
-x_TueThur[352D46,D328,FootBike] 0
+x_TueThur[352D46,D328,FootBike] 1
 x_TueThur[352D46,D329,Car] 0
 x_TueThur[352D46,D329,Moped] 0
 x_TueThur[352D46,D329,EBikeCart] 0
@@ -38644,7 +38644,7 @@ x_TueThur[352D46,D395,FootBike] 0
 x_TueThur[352D49,D329,Car] 0
 x_TueThur[352D49,D329,Moped] 0
 x_TueThur[352D49,D329,EBikeCart] 0
-x_TueThur[352D49,D329,FootBike] 0
+x_TueThur[352D49,D329,FootBike] 1
 x_TueThur[352D49,D328,Car] 0
 x_TueThur[352D49,D328,Moped] 0
 x_TueThur[352D49,D328,EBikeCart] 0
@@ -38724,7 +38724,7 @@ x_TueThur[352D49,D297,FootBike] 0
 x_TueThur[352D50,D329,Car] 0
 x_TueThur[352D50,D329,Moped] 0
 x_TueThur[352D50,D329,EBikeCart] 0
-x_TueThur[352D50,D329,FootBike] 0
+x_TueThur[352D50,D329,FootBike] 1
 x_TueThur[352D50,D328,Car] 0
 x_TueThur[352D50,D328,Moped] 0
 x_TueThur[352D50,D328,EBikeCart] 0
@@ -38804,7 +38804,7 @@ x_TueThur[352D50,D260,FootBike] 0
 x_TueThur[352D53,D329,Car] 0
 x_TueThur[352D53,D329,Moped] 0
 x_TueThur[352D53,D329,EBikeCart] 0
-x_TueThur[352D53,D329,FootBike] 0
+x_TueThur[352D53,D329,FootBike] 1
 x_TueThur[352D53,D295,Car] 0
 x_TueThur[352D53,D295,Moped] 0
 x_TueThur[352D53,D295,EBikeCart] 0
@@ -38884,7 +38884,7 @@ x_TueThur[352D53,D365,FootBike] 0
 x_TueThur[352D54,D329,Car] 0
 x_TueThur[352D54,D329,Moped] 0
 x_TueThur[352D54,D329,EBikeCart] 0
-x_TueThur[352D54,D329,FootBike] 0
+x_TueThur[352D54,D329,FootBike] 1
 x_TueThur[352D54,D295,Car] 0
 x_TueThur[352D54,D295,Moped] 0
 x_TueThur[352D54,D295,EBikeCart] 0
@@ -38964,7 +38964,7 @@ x_TueThur[352D54,D365,FootBike] 0
 x_TueThur[352D57,D329,Car] 0
 x_TueThur[352D57,D329,Moped] 0
 x_TueThur[352D57,D329,EBikeCart] 0
-x_TueThur[352D57,D329,FootBike] 0
+x_TueThur[352D57,D329,FootBike] 1
 x_TueThur[352D57,D328,Car] 0
 x_TueThur[352D57,D328,Moped] 0
 x_TueThur[352D57,D328,EBikeCart] 0
@@ -39044,7 +39044,7 @@ x_TueThur[352D57,D260,FootBike] 0
 x_TueThur[352D58,D329,Car] 0
 x_TueThur[352D58,D329,Moped] 0
 x_TueThur[352D58,D329,EBikeCart] 0
-x_TueThur[352D58,D329,FootBike] 0
+x_TueThur[352D58,D329,FootBike] 1
 x_TueThur[352D58,D295,Car] 0
 x_TueThur[352D58,D295,Moped] 0
 x_TueThur[352D58,D295,EBikeCart] 0
@@ -39124,7 +39124,7 @@ x_TueThur[352D58,D260,FootBike] 0
 x_TueThur[352D61,D329,Car] 0
 x_TueThur[352D61,D329,Moped] 0
 x_TueThur[352D61,D329,EBikeCart] 0
-x_TueThur[352D61,D329,FootBike] 0
+x_TueThur[352D61,D329,FootBike] 1
 x_TueThur[352D61,D328,Car] 0
 x_TueThur[352D61,D328,Moped] 0
 x_TueThur[352D61,D328,EBikeCart] 0
@@ -39204,7 +39204,7 @@ x_TueThur[352D61,D297,FootBike] 0
 x_TueThur[352D62,D329,Car] 0
 x_TueThur[352D62,D329,Moped] 0
 x_TueThur[352D62,D329,EBikeCart] 0
-x_TueThur[352D62,D329,FootBike] 0
+x_TueThur[352D62,D329,FootBike] 1
 x_TueThur[352D62,D328,Car] 0
 x_TueThur[352D62,D328,Moped] 0
 x_TueThur[352D62,D328,EBikeCart] 0
@@ -39284,7 +39284,7 @@ x_TueThur[352D62,D297,FootBike] 0
 x_TueThur[352D65,D328,Car] 0
 x_TueThur[352D65,D328,Moped] 0
 x_TueThur[352D65,D328,EBikeCart] 0
-x_TueThur[352D65,D328,FootBike] 0
+x_TueThur[352D65,D328,FootBike] 1
 x_TueThur[352D65,D294,Car] 0
 x_TueThur[352D65,D294,Moped] 0
 x_TueThur[352D65,D294,EBikeCart] 0
@@ -39364,7 +39364,7 @@ x_TueThur[352D65,D397,FootBike] 0
 x_TueThur[352D66,D294,Car] 0
 x_TueThur[352D66,D294,Moped] 0
 x_TueThur[352D66,D294,EBikeCart] 0
-x_TueThur[352D66,D294,FootBike] 0
+x_TueThur[352D66,D294,FootBike] 1
 x_TueThur[352D66,D328,Car] 0
 x_TueThur[352D66,D328,Moped] 0
 x_TueThur[352D66,D328,EBikeCart] 0
@@ -39444,7 +39444,7 @@ x_TueThur[352D66,D396,FootBike] 0
 x_TueThur[352D69,D328,Car] 0
 x_TueThur[352D69,D328,Moped] 0
 x_TueThur[352D69,D328,EBikeCart] 0
-x_TueThur[352D69,D328,FootBike] 0
+x_TueThur[352D69,D328,FootBike] 1
 x_TueThur[352D69,D294,Car] 0
 x_TueThur[352D69,D294,Moped] 0
 x_TueThur[352D69,D294,EBikeCart] 0
@@ -39524,7 +39524,7 @@ x_TueThur[352D69,D263,FootBike] 0
 x_TueThur[352D70,D328,Car] 0
 x_TueThur[352D70,D328,Moped] 0
 x_TueThur[352D70,D328,EBikeCart] 0
-x_TueThur[352D70,D328,FootBike] 0
+x_TueThur[352D70,D328,FootBike] 1
 x_TueThur[352D70,D294,Car] 0
 x_TueThur[352D70,D294,Moped] 0
 x_TueThur[352D70,D294,EBikeCart] 0
@@ -39604,7 +39604,7 @@ x_TueThur[352D70,D397,FootBike] 0
 x_TueThur[353F11,D328,Car] 0
 x_TueThur[353F11,D328,Moped] 0
 x_TueThur[353F11,D328,EBikeCart] 0
-x_TueThur[353F11,D328,FootBike] 0
+x_TueThur[353F11,D328,FootBike] 1
 x_TueThur[353F11,D327,Car] 0
 x_TueThur[353F11,D327,Moped] 0
 x_TueThur[353F11,D327,EBikeCart] 0
@@ -39684,7 +39684,7 @@ x_TueThur[353F11,D296,FootBike] 0
 x_TueThur[353F13,D328,Car] 0
 x_TueThur[353F13,D328,Moped] 0
 x_TueThur[353F13,D328,EBikeCart] 0
-x_TueThur[353F13,D328,FootBike] 0
+x_TueThur[353F13,D328,FootBike] 1
 x_TueThur[353F13,D327,Car] 0
 x_TueThur[353F13,D327,Moped] 0
 x_TueThur[353F13,D327,EBikeCart] 0
@@ -39764,7 +39764,7 @@ x_TueThur[353F13,D364,FootBike] 0
 x_TueThur[353F15,D328,Car] 0
 x_TueThur[353F15,D328,Moped] 0
 x_TueThur[353F15,D328,EBikeCart] 0
-x_TueThur[353F15,D328,FootBike] 0
+x_TueThur[353F15,D328,FootBike] 1
 x_TueThur[353F15,D327,Car] 0
 x_TueThur[353F15,D327,Moped] 0
 x_TueThur[353F15,D327,EBikeCart] 0
@@ -39844,7 +39844,7 @@ x_TueThur[353F15,D262,FootBike] 0
 x_TueThur[353F17,D328,Car] 0
 x_TueThur[353F17,D328,Moped] 0
 x_TueThur[353F17,D328,EBikeCart] 0
-x_TueThur[353F17,D328,FootBike] 0
+x_TueThur[353F17,D328,FootBike] 1
 x_TueThur[353F17,D327,Car] 0
 x_TueThur[353F17,D327,Moped] 0
 x_TueThur[353F17,D327,EBikeCart] 0
@@ -39924,7 +39924,7 @@ x_TueThur[353F17,D296,FootBike] 0
 x_TueThur[353F19,D328,Car] 0
 x_TueThur[353F19,D328,Moped] 0
 x_TueThur[353F19,D328,EBikeCart] 0
-x_TueThur[353F19,D328,FootBike] 0
+x_TueThur[353F19,D328,FootBike] 1
 x_TueThur[353F19,D327,Car] 0
 x_TueThur[353F19,D327,Moped] 0
 x_TueThur[353F19,D327,EBikeCart] 0
@@ -40004,7 +40004,7 @@ x_TueThur[353F19,D397,FootBike] 0
 x_TueThur[353F21,D328,Car] 0
 x_TueThur[353F21,D328,Moped] 0
 x_TueThur[353F21,D328,EBikeCart] 0
-x_TueThur[353F21,D328,FootBike] 0
+x_TueThur[353F21,D328,FootBike] 1
 x_TueThur[353F21,D294,Car] 0
 x_TueThur[353F21,D294,Moped] 0
 x_TueThur[353F21,D294,EBikeCart] 0
@@ -40084,7 +40084,7 @@ x_TueThur[353F21,D395,FootBike] 0
 x_TueThur[353F23,D328,Car] 0
 x_TueThur[353F23,D328,Moped] 0
 x_TueThur[353F23,D328,EBikeCart] 0
-x_TueThur[353F23,D328,FootBike] 0
+x_TueThur[353F23,D328,FootBike] 1
 x_TueThur[353F23,D329,Car] 0
 x_TueThur[353F23,D329,Moped] 0
 x_TueThur[353F23,D329,EBikeCart] 0
@@ -40164,7 +40164,7 @@ x_TueThur[353F23,D395,FootBike] 0
 x_TueThur[353F25,D328,Car] 0
 x_TueThur[353F25,D328,Moped] 0
 x_TueThur[353F25,D328,EBikeCart] 0
-x_TueThur[353F25,D328,FootBike] 0
+x_TueThur[353F25,D328,FootBike] 1
 x_TueThur[353F25,D327,Car] 0
 x_TueThur[353F25,D327,Moped] 0
 x_TueThur[353F25,D327,EBikeCart] 0
@@ -40244,7 +40244,7 @@ x_TueThur[353F25,D262,FootBike] 0
 x_TueThur[353F27,D328,Car] 0
 x_TueThur[353F27,D328,Moped] 0
 x_TueThur[353F27,D328,EBikeCart] 0
-x_TueThur[353F27,D328,FootBike] 0
+x_TueThur[353F27,D328,FootBike] 1
 x_TueThur[353F27,D362,Car] 0
 x_TueThur[353F27,D362,Moped] 0
 x_TueThur[353F27,D362,EBikeCart] 0
@@ -40324,7 +40324,7 @@ x_TueThur[353F27,D296,FootBike] 0
 x_TueThur[353F29,D328,Car] 0
 x_TueThur[353F29,D328,Moped] 0
 x_TueThur[353F29,D328,EBikeCart] 0
-x_TueThur[353F29,D328,FootBike] 0
+x_TueThur[353F29,D328,FootBike] 1
 x_TueThur[353F29,D329,Car] 0
 x_TueThur[353F29,D329,Moped] 0
 x_TueThur[353F29,D329,EBikeCart] 0
@@ -40404,7 +40404,7 @@ x_TueThur[353F29,D260,FootBike] 0
 x_TueThur[353F31,D328,Car] 0
 x_TueThur[353F31,D328,Moped] 0
 x_TueThur[353F31,D328,EBikeCart] 0
-x_TueThur[353F31,D328,FootBike] 0
+x_TueThur[353F31,D328,FootBike] 1
 x_TueThur[353F31,D362,Car] 0
 x_TueThur[353F31,D362,Moped] 0
 x_TueThur[353F31,D362,EBikeCart] 0
@@ -40484,7 +40484,7 @@ x_TueThur[353F31,D296,FootBike] 0
 x_TueThur[353F33,D328,Car] 0
 x_TueThur[353F33,D328,Moped] 0
 x_TueThur[353F33,D328,EBikeCart] 0
-x_TueThur[353F33,D328,FootBike] 0
+x_TueThur[353F33,D328,FootBike] 1
 x_TueThur[353F33,D362,Car] 0
 x_TueThur[353F33,D362,Moped] 0
 x_TueThur[353F33,D362,EBikeCart] 0
@@ -40564,7 +40564,7 @@ x_TueThur[353F33,D296,FootBike] 0
 x_TueThur[354F05,D260,Car] 0
 x_TueThur[354F05,D260,Moped] 0
 x_TueThur[354F05,D260,EBikeCart] 0
-x_TueThur[354F05,D260,FootBike] 0
+x_TueThur[354F05,D260,FootBike] 1
 x_TueThur[354F05,D261,Car] 0
 x_TueThur[354F05,D261,Moped] 0
 x_TueThur[354F05,D261,EBikeCart] 0
@@ -40648,7 +40648,7 @@ x_TueThur[354F19,D293,FootBike] 0
 x_TueThur[354F19,D294,Car] 0
 x_TueThur[354F19,D294,Moped] 0
 x_TueThur[354F19,D294,EBikeCart] 0
-x_TueThur[354F19,D294,FootBike] 0
+x_TueThur[354F19,D294,FootBike] 1
 x_TueThur[354F19,D260,Car] 0
 x_TueThur[354F19,D260,Moped] 0
 x_TueThur[354F19,D260,EBikeCart] 0
@@ -40724,7 +40724,7 @@ x_TueThur[354F19,D296,FootBike] 0
 x_TueThur[354F21,D260,Car] 0
 x_TueThur[354F21,D260,Moped] 0
 x_TueThur[354F21,D260,EBikeCart] 0
-x_TueThur[354F21,D260,FootBike] 0
+x_TueThur[354F21,D260,FootBike] 1
 x_TueThur[354F21,D261,Car] 0
 x_TueThur[354F21,D261,Moped] 0
 x_TueThur[354F21,D261,EBikeCart] 0
@@ -40808,7 +40808,7 @@ x_TueThur[354F23,D261,FootBike] 0
 x_TueThur[354F23,D260,Car] 0
 x_TueThur[354F23,D260,Moped] 0
 x_TueThur[354F23,D260,EBikeCart] 0
-x_TueThur[354F23,D260,FootBike] 0
+x_TueThur[354F23,D260,FootBike] 1
 x_TueThur[354F23,D228,Car] 0
 x_TueThur[354F23,D228,Moped] 0
 x_TueThur[354F23,D228,EBikeCart] 0
@@ -40888,7 +40888,7 @@ x_TueThur[354F25,D261,FootBike] 0
 x_TueThur[354F25,D260,Car] 0
 x_TueThur[354F25,D260,Moped] 0
 x_TueThur[354F25,D260,EBikeCart] 0
-x_TueThur[354F25,D260,FootBike] 0
+x_TueThur[354F25,D260,FootBike] 1
 x_TueThur[354F25,D294,Car] 0
 x_TueThur[354F25,D294,Moped] 0
 x_TueThur[354F25,D294,EBikeCart] 0
@@ -40968,7 +40968,7 @@ x_TueThur[354F27,D261,FootBike] 0
 x_TueThur[354F27,D260,Car] 0
 x_TueThur[354F27,D260,Moped] 0
 x_TueThur[354F27,D260,EBikeCart] 0
-x_TueThur[354F27,D260,FootBike] 0
+x_TueThur[354F27,D260,FootBike] 1
 x_TueThur[354F27,D294,Car] 0
 x_TueThur[354F27,D294,Moped] 0
 x_TueThur[354F27,D294,EBikeCart] 0
@@ -41044,7 +41044,7 @@ x_TueThur[354F27,D296,FootBike] 0
 x_TueThur[354F29,D294,Car] 0
 x_TueThur[354F29,D294,Moped] 0
 x_TueThur[354F29,D294,EBikeCart] 0
-x_TueThur[354F29,D294,FootBike] 0
+x_TueThur[354F29,D294,FootBike] 1
 x_TueThur[354F29,D261,Car] 0
 x_TueThur[354F29,D261,Moped] 0
 x_TueThur[354F29,D261,EBikeCart] 0
@@ -41128,7 +41128,7 @@ x_TueThur[354F47,D259,FootBike] 0
 x_TueThur[354F47,D258,Car] 0
 x_TueThur[354F47,D258,Moped] 0
 x_TueThur[354F47,D258,EBikeCart] 0
-x_TueThur[354F47,D258,FootBike] 0
+x_TueThur[354F47,D258,FootBike] 1
 x_TueThur[354F47,D226,Car] 0
 x_TueThur[354F47,D226,Moped] 0
 x_TueThur[354F47,D226,EBikeCart] 0
@@ -41212,7 +41212,7 @@ x_TueThur[354F48,D226,FootBike] 0
 x_TueThur[354F48,D258,Car] 0
 x_TueThur[354F48,D258,Moped] 0
 x_TueThur[354F48,D258,EBikeCart] 0
-x_TueThur[354F48,D258,FootBike] 0
+x_TueThur[354F48,D258,FootBike] 1
 x_TueThur[354F48,D225,Car] 0
 x_TueThur[354F48,D225,Moped] 0
 x_TueThur[354F48,D225,EBikeCart] 0
@@ -41292,7 +41292,7 @@ x_TueThur[354F49,D226,FootBike] 0
 x_TueThur[354F49,D258,Car] 0
 x_TueThur[354F49,D258,Moped] 0
 x_TueThur[354F49,D258,EBikeCart] 0
-x_TueThur[354F49,D258,FootBike] 0
+x_TueThur[354F49,D258,FootBike] 1
 x_TueThur[354F49,D225,Car] 0
 x_TueThur[354F49,D225,Moped] 0
 x_TueThur[354F49,D225,EBikeCart] 0
@@ -41376,7 +41376,7 @@ x_TueThur[354F50,D225,FootBike] 0
 x_TueThur[354F50,D258,Car] 0
 x_TueThur[354F50,D258,Moped] 0
 x_TueThur[354F50,D258,EBikeCart] 0
-x_TueThur[354F50,D258,FootBike] 0
+x_TueThur[354F50,D258,FootBike] 1
 x_TueThur[354F50,D227,Car] 0
 x_TueThur[354F50,D227,Moped] 0
 x_TueThur[354F50,D227,EBikeCart] 0
@@ -41456,7 +41456,7 @@ x_TueThur[354F51,D225,FootBike] 0
 x_TueThur[354F51,D258,Car] 0
 x_TueThur[354F51,D258,Moped] 0
 x_TueThur[354F51,D258,EBikeCart] 0
-x_TueThur[354F51,D258,FootBike] 0
+x_TueThur[354F51,D258,FootBike] 1
 x_TueThur[354F51,D227,Car] 0
 x_TueThur[354F51,D227,Moped] 0
 x_TueThur[354F51,D227,EBikeCart] 0
@@ -41536,7 +41536,7 @@ x_TueThur[354F52,D225,FootBike] 0
 x_TueThur[354F52,D258,Car] 0
 x_TueThur[354F52,D258,Moped] 0
 x_TueThur[354F52,D258,EBikeCart] 0
-x_TueThur[354F52,D258,FootBike] 0
+x_TueThur[354F52,D258,FootBike] 1
 x_TueThur[354F52,D227,Car] 0
 x_TueThur[354F52,D227,Moped] 0
 x_TueThur[354F52,D227,EBikeCart] 0
@@ -41610,7 +41610,7 @@ x_TueThur[354F53,D226,Moped] 0
 x_TueThur[354F53,D226,EBikeCart] 0
 x_TueThur[354F53,D226,FootBike] 0
 x_TueThur[354F53,D258,Car] 0
-x_TueThur[354F53,D258,Moped] 0
+x_TueThur[354F53,D258,Moped] 1
 x_TueThur[354F53,D258,EBikeCart] 0
 x_TueThur[354F53,D258,FootBike] 0
 x_TueThur[354F53,D259,Car] 0
@@ -41696,7 +41696,7 @@ x_TueThur[354F54,D259,FootBike] 0
 x_TueThur[354F54,D258,Car] 0
 x_TueThur[354F54,D258,Moped] 0
 x_TueThur[354F54,D258,EBikeCart] 0
-x_TueThur[354F54,D258,FootBike] 0
+x_TueThur[354F54,D258,FootBike] 1
 x_TueThur[354F54,D194,Car] 0
 x_TueThur[354F54,D194,Moped] 0
 x_TueThur[354F54,D194,EBikeCart] 0
@@ -41768,7 +41768,7 @@ x_TueThur[354F59,D225,FootBike] 0
 x_TueThur[354F59,D258,Car] 0
 x_TueThur[354F59,D258,Moped] 0
 x_TueThur[354F59,D258,EBikeCart] 0
-x_TueThur[354F59,D258,FootBike] 0
+x_TueThur[354F59,D258,FootBike] 1
 x_TueThur[354F59,D226,Car] 0
 x_TueThur[354F59,D226,Moped] 0
 x_TueThur[354F59,D226,EBikeCart] 0
@@ -41852,7 +41852,7 @@ x_TueThur[354F60,D226,FootBike] 0
 x_TueThur[354F60,D258,Car] 0
 x_TueThur[354F60,D258,Moped] 0
 x_TueThur[354F60,D258,EBikeCart] 0
-x_TueThur[354F60,D258,FootBike] 0
+x_TueThur[354F60,D258,FootBike] 1
 x_TueThur[354F60,D193,Car] 0
 x_TueThur[354F60,D193,Moped] 0
 x_TueThur[354F60,D193,EBikeCart] 0
@@ -41936,7 +41936,7 @@ x_TueThur[354F61,D193,FootBike] 0
 x_TueThur[354F61,D258,Car] 0
 x_TueThur[354F61,D258,Moped] 0
 x_TueThur[354F61,D258,EBikeCart] 0
-x_TueThur[354F61,D258,FootBike] 0
+x_TueThur[354F61,D258,FootBike] 1
 x_TueThur[354F61,D224,Car] 0
 x_TueThur[354F61,D224,Moped] 0
 x_TueThur[354F61,D224,EBikeCart] 0
@@ -42012,7 +42012,7 @@ x_TueThur[354F62,D226,FootBike] 0
 x_TueThur[354F62,D258,Car] 0
 x_TueThur[354F62,D258,Moped] 0
 x_TueThur[354F62,D258,EBikeCart] 0
-x_TueThur[354F62,D258,FootBike] 0
+x_TueThur[354F62,D258,FootBike] 1
 x_TueThur[354F62,D259,Car] 0
 x_TueThur[354F62,D259,Moped] 0
 x_TueThur[354F62,D259,EBikeCart] 0
@@ -42088,7 +42088,7 @@ x_TueThur[354F64,D225,FootBike] 0
 x_TueThur[354F64,D258,Car] 0
 x_TueThur[354F64,D258,Moped] 0
 x_TueThur[354F64,D258,EBikeCart] 0
-x_TueThur[354F64,D258,FootBike] 0
+x_TueThur[354F64,D258,FootBike] 1
 x_TueThur[354F64,D224,Car] 0
 x_TueThur[354F64,D224,Moped] 0
 x_TueThur[354F64,D224,EBikeCart] 0
@@ -42170,7 +42170,7 @@ x_TueThur[356B01,D394,Moped] 0
 x_TueThur[356B01,D394,EBikeCart] 0
 x_TueThur[356B01,D394,FootBike] 0
 x_TueThur[356B01,D361,Car] 0
-x_TueThur[356B01,D361,Moped] 0
+x_TueThur[356B01,D361,Moped] 1
 x_TueThur[356B01,D361,EBikeCart] 0
 x_TueThur[356B01,D361,FootBike] 0
 x_TueThur[356B01,D395,Car] 0
@@ -42248,7 +42248,7 @@ x_TueThur[356C07,D292,FootBike] 0
 x_TueThur[356C07,D326,Car] 0
 x_TueThur[356C07,D326,Moped] 0
 x_TueThur[356C07,D326,EBikeCart] 0
-x_TueThur[356C07,D326,FootBike] 0
+x_TueThur[356C07,D326,FootBike] 1
 x_TueThur[356C07,D293,Car] 0
 x_TueThur[356C07,D293,Moped] 0
 x_TueThur[356C07,D293,EBikeCart] 0
@@ -42330,7 +42330,7 @@ x_TueThur[356C13,D291,Moped] 0
 x_TueThur[356C13,D291,EBikeCart] 0
 x_TueThur[356C13,D291,FootBike] 0
 x_TueThur[356C13,D326,Car] 0
-x_TueThur[356C13,D326,Moped] 0
+x_TueThur[356C13,D326,Moped] 1
 x_TueThur[356C13,D326,EBikeCart] 0
 x_TueThur[356C13,D326,FootBike] 0
 x_TueThur[356C13,D259,Car] 0
@@ -42404,7 +42404,7 @@ x_TueThur[356C13,D328,FootBike] 0
 x_TueThur[356D01,D326,Car] 0
 x_TueThur[356D01,D326,Moped] 0
 x_TueThur[356D01,D326,EBikeCart] 0
-x_TueThur[356D01,D326,FootBike] 0
+x_TueThur[356D01,D326,FootBike] 1
 x_TueThur[356D01,D360,Car] 0
 x_TueThur[356D01,D360,Moped] 0
 x_TueThur[356D01,D360,EBikeCart] 0
@@ -42488,7 +42488,7 @@ x_TueThur[356D02,D360,FootBike] 0
 x_TueThur[356D02,D326,Car] 0
 x_TueThur[356D02,D326,Moped] 0
 x_TueThur[356D02,D326,EBikeCart] 0
-x_TueThur[356D02,D326,FootBike] 0
+x_TueThur[356D02,D326,FootBike] 1
 x_TueThur[356D02,D361,Car] 0
 x_TueThur[356D02,D361,Moped] 0
 x_TueThur[356D02,D361,EBikeCart] 0
@@ -42564,7 +42564,7 @@ x_TueThur[356D02,D259,FootBike] 0
 x_TueThur[356D05,D326,Car] 0
 x_TueThur[356D05,D326,Moped] 0
 x_TueThur[356D05,D326,EBikeCart] 0
-x_TueThur[356D05,D326,FootBike] 0
+x_TueThur[356D05,D326,FootBike] 1
 x_TueThur[356D05,D360,Car] 0
 x_TueThur[356D05,D360,Moped] 0
 x_TueThur[356D05,D360,EBikeCart] 0
@@ -42644,7 +42644,7 @@ x_TueThur[356D05,D260,FootBike] 0
 x_TueThur[356D06,D326,Car] 0
 x_TueThur[356D06,D326,Moped] 0
 x_TueThur[356D06,D326,EBikeCart] 0
-x_TueThur[356D06,D326,FootBike] 0
+x_TueThur[356D06,D326,FootBike] 1
 x_TueThur[356D06,D360,Car] 0
 x_TueThur[356D06,D360,Moped] 0
 x_TueThur[356D06,D360,EBikeCart] 0
@@ -42724,7 +42724,7 @@ x_TueThur[356D06,D260,FootBike] 0
 x_TueThur[356D09,D326,Car] 0
 x_TueThur[356D09,D326,Moped] 0
 x_TueThur[356D09,D326,EBikeCart] 0
-x_TueThur[356D09,D326,FootBike] 0
+x_TueThur[356D09,D326,FootBike] 1
 x_TueThur[356D09,D327,Car] 0
 x_TueThur[356D09,D327,Moped] 0
 x_TueThur[356D09,D327,EBikeCart] 0
@@ -42804,7 +42804,7 @@ x_TueThur[356D09,D396,FootBike] 0
 x_TueThur[356D10,D326,Car] 0
 x_TueThur[356D10,D326,Moped] 0
 x_TueThur[356D10,D326,EBikeCart] 0
-x_TueThur[356D10,D326,FootBike] 0
+x_TueThur[356D10,D326,FootBike] 1
 x_TueThur[356D10,D327,Car] 0
 x_TueThur[356D10,D327,Moped] 0
 x_TueThur[356D10,D327,EBikeCart] 0
@@ -42884,7 +42884,7 @@ x_TueThur[356D10,D329,FootBike] 0
 x_TueThur[356D13,D327,Car] 0
 x_TueThur[356D13,D327,Moped] 0
 x_TueThur[356D13,D327,EBikeCart] 0
-x_TueThur[356D13,D327,FootBike] 0
+x_TueThur[356D13,D327,FootBike] 1
 x_TueThur[356D13,D326,Car] 0
 x_TueThur[356D13,D326,Moped] 0
 x_TueThur[356D13,D326,EBikeCart] 0
@@ -42964,7 +42964,7 @@ x_TueThur[356D13,D363,FootBike] 0
 x_TueThur[356D14,D327,Car] 0
 x_TueThur[356D14,D327,Moped] 0
 x_TueThur[356D14,D327,EBikeCart] 0
-x_TueThur[356D14,D327,FootBike] 0
+x_TueThur[356D14,D327,FootBike] 1
 x_TueThur[356D14,D326,Car] 0
 x_TueThur[356D14,D326,Moped] 0
 x_TueThur[356D14,D326,EBikeCart] 0
@@ -43048,7 +43048,7 @@ x_TueThur[356D17,D360,FootBike] 0
 x_TueThur[356D17,D361,Car] 0
 x_TueThur[356D17,D361,Moped] 0
 x_TueThur[356D17,D361,EBikeCart] 0
-x_TueThur[356D17,D361,FootBike] 0
+x_TueThur[356D17,D361,FootBike] 1
 x_TueThur[356D17,D326,Car] 0
 x_TueThur[356D17,D326,Moped] 0
 x_TueThur[356D17,D326,EBikeCart] 0
@@ -43124,7 +43124,7 @@ x_TueThur[356D17,D294,FootBike] 0
 x_TueThur[356D18,D361,Car] 0
 x_TueThur[356D18,D361,Moped] 0
 x_TueThur[356D18,D361,EBikeCart] 0
-x_TueThur[356D18,D361,FootBike] 0
+x_TueThur[356D18,D361,FootBike] 1
 x_TueThur[356D18,D360,Car] 0
 x_TueThur[356D18,D360,Moped] 0
 x_TueThur[356D18,D360,EBikeCart] 0
@@ -43208,7 +43208,7 @@ x_TueThur[356D21,D360,FootBike] 0
 x_TueThur[356D21,D361,Car] 0
 x_TueThur[356D21,D361,Moped] 0
 x_TueThur[356D21,D361,EBikeCart] 0
-x_TueThur[356D21,D361,FootBike] 0
+x_TueThur[356D21,D361,FootBike] 1
 x_TueThur[356D21,D326,Car] 0
 x_TueThur[356D21,D326,Moped] 0
 x_TueThur[356D21,D326,EBikeCart] 0
@@ -43288,7 +43288,7 @@ x_TueThur[356D22,D360,FootBike] 0
 x_TueThur[356D22,D361,Car] 0
 x_TueThur[356D22,D361,Moped] 0
 x_TueThur[356D22,D361,EBikeCart] 0
-x_TueThur[356D22,D361,FootBike] 0
+x_TueThur[356D22,D361,FootBike] 1
 x_TueThur[356D22,D326,Car] 0
 x_TueThur[356D22,D326,Moped] 0
 x_TueThur[356D22,D326,EBikeCart] 0
@@ -43364,7 +43364,7 @@ x_TueThur[356D22,D324,FootBike] 0
 x_TueThur[356D25,D361,Car] 0
 x_TueThur[356D25,D361,Moped] 0
 x_TueThur[356D25,D361,EBikeCart] 0
-x_TueThur[356D25,D361,FootBike] 0
+x_TueThur[356D25,D361,FootBike] 1
 x_TueThur[356D25,D360,Car] 0
 x_TueThur[356D25,D360,Moped] 0
 x_TueThur[356D25,D360,EBikeCart] 0
@@ -43444,7 +43444,7 @@ x_TueThur[356D25,D358,FootBike] 0
 x_TueThur[356D26,D361,Car] 0
 x_TueThur[356D26,D361,Moped] 0
 x_TueThur[356D26,D361,EBikeCart] 0
-x_TueThur[356D26,D361,FootBike] 0
+x_TueThur[356D26,D361,FootBike] 1
 x_TueThur[356D26,D360,Car] 0
 x_TueThur[356D26,D360,Moped] 0
 x_TueThur[356D26,D360,EBikeCart] 0
@@ -43524,7 +43524,7 @@ x_TueThur[356D26,D329,FootBike] 0
 x_TueThur[356D29,D327,Car] 0
 x_TueThur[356D29,D327,Moped] 0
 x_TueThur[356D29,D327,EBikeCart] 0
-x_TueThur[356D29,D327,FootBike] 0
+x_TueThur[356D29,D327,FootBike] 1
 x_TueThur[356D29,D361,Car] 0
 x_TueThur[356D29,D361,Moped] 0
 x_TueThur[356D29,D361,EBikeCart] 0
@@ -43604,7 +43604,7 @@ x_TueThur[356D29,D259,FootBike] 0
 x_TueThur[356D30,D327,Car] 0
 x_TueThur[356D30,D327,Moped] 0
 x_TueThur[356D30,D327,EBikeCart] 0
-x_TueThur[356D30,D327,FootBike] 0
+x_TueThur[356D30,D327,FootBike] 1
 x_TueThur[356D30,D361,Car] 0
 x_TueThur[356D30,D361,Moped] 0
 x_TueThur[356D30,D361,EBikeCart] 0
@@ -43684,7 +43684,7 @@ x_TueThur[356D30,D429,FootBike] 0
 x_TueThur[356D33,D327,Car] 0
 x_TueThur[356D33,D327,Moped] 0
 x_TueThur[356D33,D327,EBikeCart] 0
-x_TueThur[356D33,D327,FootBike] 0
+x_TueThur[356D33,D327,FootBike] 1
 x_TueThur[356D33,D326,Car] 0
 x_TueThur[356D33,D326,Moped] 0
 x_TueThur[356D33,D326,EBikeCart] 0
@@ -43764,7 +43764,7 @@ x_TueThur[356D33,D295,FootBike] 0
 x_TueThur[356D34,D327,Car] 0
 x_TueThur[356D34,D327,Moped] 0
 x_TueThur[356D34,D327,EBikeCart] 0
-x_TueThur[356D34,D327,FootBike] 0
+x_TueThur[356D34,D327,FootBike] 1
 x_TueThur[356D34,D326,Car] 0
 x_TueThur[356D34,D326,Moped] 0
 x_TueThur[356D34,D326,EBikeCart] 0
@@ -43844,7 +43844,7 @@ x_TueThur[356D34,D363,FootBike] 0
 x_TueThur[356D37,D327,Car] 0
 x_TueThur[356D37,D327,Moped] 0
 x_TueThur[356D37,D327,EBikeCart] 0
-x_TueThur[356D37,D327,FootBike] 0
+x_TueThur[356D37,D327,FootBike] 1
 x_TueThur[356D37,D293,Car] 0
 x_TueThur[356D37,D293,Moped] 0
 x_TueThur[356D37,D293,EBikeCart] 0
@@ -43924,7 +43924,7 @@ x_TueThur[356D37,D394,FootBike] 0
 x_TueThur[356D38,D327,Car] 0
 x_TueThur[356D38,D327,Moped] 0
 x_TueThur[356D38,D327,EBikeCart] 0
-x_TueThur[356D38,D327,FootBike] 0
+x_TueThur[356D38,D327,FootBike] 1
 x_TueThur[356D38,D293,Car] 0
 x_TueThur[356D38,D293,Moped] 0
 x_TueThur[356D38,D293,EBikeCart] 0
@@ -44004,7 +44004,7 @@ x_TueThur[356D38,D363,FootBike] 0
 x_TueThur[356D41,D327,Car] 0
 x_TueThur[356D41,D327,Moped] 0
 x_TueThur[356D41,D327,EBikeCart] 0
-x_TueThur[356D41,D327,FootBike] 0
+x_TueThur[356D41,D327,FootBike] 1
 x_TueThur[356D41,D293,Car] 0
 x_TueThur[356D41,D293,Moped] 0
 x_TueThur[356D41,D293,EBikeCart] 0
@@ -44084,7 +44084,7 @@ x_TueThur[356D41,D359,FootBike] 0
 x_TueThur[356D42,D327,Car] 0
 x_TueThur[356D42,D327,Moped] 0
 x_TueThur[356D42,D327,EBikeCart] 0
-x_TueThur[356D42,D327,FootBike] 0
+x_TueThur[356D42,D327,FootBike] 1
 x_TueThur[356D42,D293,Car] 0
 x_TueThur[356D42,D293,Moped] 0
 x_TueThur[356D42,D293,EBikeCart] 0
@@ -44164,7 +44164,7 @@ x_TueThur[356D42,D396,FootBike] 0
 x_TueThur[356D45,D327,Car] 0
 x_TueThur[356D45,D327,Moped] 0
 x_TueThur[356D45,D327,EBikeCart] 0
-x_TueThur[356D45,D327,FootBike] 0
+x_TueThur[356D45,D327,FootBike] 1
 x_TueThur[356D45,D326,Car] 0
 x_TueThur[356D45,D326,Moped] 0
 x_TueThur[356D45,D326,EBikeCart] 0
@@ -44244,7 +44244,7 @@ x_TueThur[356D45,D295,FootBike] 0
 x_TueThur[356D46,D327,Car] 0
 x_TueThur[356D46,D327,Moped] 0
 x_TueThur[356D46,D327,EBikeCart] 0
-x_TueThur[356D46,D327,FootBike] 0
+x_TueThur[356D46,D327,FootBike] 1
 x_TueThur[356D46,D326,Car] 0
 x_TueThur[356D46,D326,Moped] 0
 x_TueThur[356D46,D326,EBikeCart] 0
@@ -44324,7 +44324,7 @@ x_TueThur[356D46,D258,FootBike] 0
 x_TueThur[356D49,D327,Car] 0
 x_TueThur[356D49,D327,Moped] 0
 x_TueThur[356D49,D327,EBikeCart] 0
-x_TueThur[356D49,D327,FootBike] 0
+x_TueThur[356D49,D327,FootBike] 1
 x_TueThur[356D49,D293,Car] 0
 x_TueThur[356D49,D293,Moped] 0
 x_TueThur[356D49,D293,EBikeCart] 0
@@ -44404,7 +44404,7 @@ x_TueThur[356D49,D363,FootBike] 0
 x_TueThur[356D50,D327,Car] 0
 x_TueThur[356D50,D327,Moped] 0
 x_TueThur[356D50,D327,EBikeCart] 0
-x_TueThur[356D50,D327,FootBike] 0
+x_TueThur[356D50,D327,FootBike] 1
 x_TueThur[356D50,D293,Car] 0
 x_TueThur[356D50,D293,Moped] 0
 x_TueThur[356D50,D293,EBikeCart] 0
@@ -44488,7 +44488,7 @@ x_TueThur[356D53,D293,FootBike] 0
 x_TueThur[356D53,D327,Car] 0
 x_TueThur[356D53,D327,Moped] 0
 x_TueThur[356D53,D327,EBikeCart] 0
-x_TueThur[356D53,D327,FootBike] 0
+x_TueThur[356D53,D327,FootBike] 1
 x_TueThur[356D53,D292,Car] 0
 x_TueThur[356D53,D292,Moped] 0
 x_TueThur[356D53,D292,EBikeCart] 0
@@ -44564,7 +44564,7 @@ x_TueThur[356D53,D395,FootBike] 0
 x_TueThur[356D54,D327,Car] 0
 x_TueThur[356D54,D327,Moped] 0
 x_TueThur[356D54,D327,EBikeCart] 0
-x_TueThur[356D54,D327,FootBike] 0
+x_TueThur[356D54,D327,FootBike] 1
 x_TueThur[356D54,D293,Car] 0
 x_TueThur[356D54,D293,Moped] 0
 x_TueThur[356D54,D293,EBikeCart] 0
@@ -44644,7 +44644,7 @@ x_TueThur[356D54,D258,FootBike] 0
 x_TueThur[356D57,D327,Car] 0
 x_TueThur[356D57,D327,Moped] 0
 x_TueThur[356D57,D327,EBikeCart] 0
-x_TueThur[356D57,D327,FootBike] 0
+x_TueThur[356D57,D327,FootBike] 1
 x_TueThur[356D57,D293,Car] 0
 x_TueThur[356D57,D293,Moped] 0
 x_TueThur[356D57,D293,EBikeCart] 0
@@ -44728,7 +44728,7 @@ x_TueThur[356D58,D293,FootBike] 0
 x_TueThur[356D58,D327,Car] 0
 x_TueThur[356D58,D327,Moped] 0
 x_TueThur[356D58,D327,EBikeCart] 0
-x_TueThur[356D58,D327,FootBike] 0
+x_TueThur[356D58,D327,FootBike] 1
 x_TueThur[356D58,D292,Car] 0
 x_TueThur[356D58,D292,Moped] 0
 x_TueThur[356D58,D292,EBikeCart] 0
@@ -44804,7 +44804,7 @@ x_TueThur[356D58,D395,FootBike] 0
 x_TueThur[356D61,D327,Car] 0
 x_TueThur[356D61,D327,Moped] 0
 x_TueThur[356D61,D327,EBikeCart] 0
-x_TueThur[356D61,D327,FootBike] 0
+x_TueThur[356D61,D327,FootBike] 1
 x_TueThur[356D61,D326,Car] 0
 x_TueThur[356D61,D326,Moped] 0
 x_TueThur[356D61,D326,EBikeCart] 0
@@ -44884,7 +44884,7 @@ x_TueThur[356D61,D295,FootBike] 0
 x_TueThur[356D62,D327,Car] 0
 x_TueThur[356D62,D327,Moped] 0
 x_TueThur[356D62,D327,EBikeCart] 0
-x_TueThur[356D62,D327,FootBike] 0
+x_TueThur[356D62,D327,FootBike] 1
 x_TueThur[356D62,D326,Car] 0
 x_TueThur[356D62,D326,Moped] 0
 x_TueThur[356D62,D326,EBikeCart] 0
@@ -44964,7 +44964,7 @@ x_TueThur[356D62,D295,FootBike] 0
 x_TueThur[356D65,D361,Car] 0
 x_TueThur[356D65,D361,Moped] 0
 x_TueThur[356D65,D361,EBikeCart] 0
-x_TueThur[356D65,D361,FootBike] 0
+x_TueThur[356D65,D361,FootBike] 1
 x_TueThur[356D65,D395,Car] 0
 x_TueThur[356D65,D395,Moped] 0
 x_TueThur[356D65,D395,EBikeCart] 0
@@ -45044,7 +45044,7 @@ x_TueThur[356D65,D329,FootBike] 0
 x_TueThur[356D66,D361,Car] 0
 x_TueThur[356D66,D361,Moped] 0
 x_TueThur[356D66,D361,EBikeCart] 0
-x_TueThur[356D66,D361,FootBike] 0
+x_TueThur[356D66,D361,FootBike] 1
 x_TueThur[356D66,D395,Car] 0
 x_TueThur[356D66,D395,Moped] 0
 x_TueThur[356D66,D395,EBikeCart] 0
@@ -45124,7 +45124,7 @@ x_TueThur[356D66,D329,FootBike] 0
 x_TueThur[356D69,D361,Car] 0
 x_TueThur[356D69,D361,Moped] 0
 x_TueThur[356D69,D361,EBikeCart] 0
-x_TueThur[356D69,D361,FootBike] 0
+x_TueThur[356D69,D361,FootBike] 1
 x_TueThur[356D69,D395,Car] 0
 x_TueThur[356D69,D395,Moped] 0
 x_TueThur[356D69,D395,EBikeCart] 0
@@ -45204,7 +45204,7 @@ x_TueThur[356D69,D325,FootBike] 0
 x_TueThur[356D70,D361,Car] 0
 x_TueThur[356D70,D361,Moped] 0
 x_TueThur[356D70,D361,EBikeCart] 0
-x_TueThur[356D70,D361,FootBike] 0
+x_TueThur[356D70,D361,FootBike] 1
 x_TueThur[356D70,D362,Car] 0
 x_TueThur[356D70,D362,Moped] 0
 x_TueThur[356D70,D362,EBikeCart] 0
@@ -45314,7 +45314,7 @@ x_TueThur[356D73,D324,Moped] 0
 x_TueThur[356D73,D324,EBikeCart] 0
 x_TueThur[356D73,D324,FootBike] 0
 x_TueThur[356D73,D326,Car] 0
-x_TueThur[356D73,D326,Moped] 0
+x_TueThur[356D73,D326,Moped] 1
 x_TueThur[356D73,D326,EBikeCart] 0
 x_TueThur[356D73,D326,FootBike] 0
 x_TueThur[356D73,D427,Car] 0
@@ -45399,7 +45399,7 @@ x_TueThur[356D74,D360,EBikeCart] 0
 x_TueThur[356D74,D360,FootBike] 0
 x_TueThur[356D74,D326,Car] 0
 x_TueThur[356D74,D326,Moped] 0
-x_TueThur[356D74,D326,EBikeCart] 0
+x_TueThur[356D74,D326,EBikeCart] 1
 x_TueThur[356D74,D326,FootBike] 0
 x_TueThur[356D74,D290,Car] 0
 x_TueThur[356D74,D290,Moped] 0
@@ -45448,7 +45448,7 @@ x_TueThur[357F04,D395,FootBike] 0
 x_TueThur[357F04,D361,Car] 0
 x_TueThur[357F04,D361,Moped] 0
 x_TueThur[357F04,D361,EBikeCart] 0
-x_TueThur[357F04,D361,FootBike] 0
+x_TueThur[357F04,D361,FootBike] 1
 x_TueThur[357F04,D396,Car] 0
 x_TueThur[357F04,D396,Moped] 0
 x_TueThur[357F04,D396,EBikeCart] 0
@@ -45528,7 +45528,7 @@ x_TueThur[357F05,D395,FootBike] 0
 x_TueThur[357F05,D361,Car] 0
 x_TueThur[357F05,D361,Moped] 0
 x_TueThur[357F05,D361,EBikeCart] 0
-x_TueThur[357F05,D361,FootBike] 0
+x_TueThur[357F05,D361,FootBike] 1
 x_TueThur[357F05,D396,Car] 0
 x_TueThur[357F05,D396,Moped] 0
 x_TueThur[357F05,D396,EBikeCart] 0
@@ -45608,7 +45608,7 @@ x_TueThur[357F06,D395,FootBike] 0
 x_TueThur[357F06,D361,Car] 0
 x_TueThur[357F06,D361,Moped] 0
 x_TueThur[357F06,D361,EBikeCart] 0
-x_TueThur[357F06,D361,FootBike] 0
+x_TueThur[357F06,D361,FootBike] 1
 x_TueThur[357F06,D394,Car] 0
 x_TueThur[357F06,D394,Moped] 0
 x_TueThur[357F06,D394,EBikeCart] 0
@@ -45688,7 +45688,7 @@ x_TueThur[357F07,D395,FootBike] 0
 x_TueThur[357F07,D361,Car] 0
 x_TueThur[357F07,D361,Moped] 0
 x_TueThur[357F07,D361,EBikeCart] 0
-x_TueThur[357F07,D361,FootBike] 0
+x_TueThur[357F07,D361,FootBike] 1
 x_TueThur[357F07,D394,Car] 0
 x_TueThur[357F07,D394,Moped] 0
 x_TueThur[357F07,D394,EBikeCart] 0
@@ -45772,7 +45772,7 @@ x_TueThur[358C01,D397,FootBike] 0
 x_TueThur[358C01,D362,Car] 0
 x_TueThur[358C01,D362,Moped] 0
 x_TueThur[358C01,D362,EBikeCart] 0
-x_TueThur[358C01,D362,FootBike] 0
+x_TueThur[358C01,D362,FootBike] 1
 x_TueThur[358C01,D430,Car] 0
 x_TueThur[358C01,D430,Moped] 0
 x_TueThur[358C01,D430,EBikeCart] 0
@@ -45844,7 +45844,7 @@ x_TueThur[358C01,D463,FootBike] 0
 x_TueThur[358C07,D363,Car] 0
 x_TueThur[358C07,D363,Moped] 0
 x_TueThur[358C07,D363,EBikeCart] 0
-x_TueThur[358C07,D363,FootBike] 0
+x_TueThur[358C07,D363,FootBike] 1
 x_TueThur[358C07,D397,Car] 0
 x_TueThur[358C07,D397,Moped] 0
 x_TueThur[358C07,D397,EBikeCart] 0
@@ -45924,7 +45924,7 @@ x_TueThur[358C07,D294,FootBike] 0
 x_TueThur[358C09,D363,Car] 0
 x_TueThur[358C09,D363,Moped] 0
 x_TueThur[358C09,D363,EBikeCart] 0
-x_TueThur[358C09,D363,FootBike] 0
+x_TueThur[358C09,D363,FootBike] 1
 x_TueThur[358C09,D397,Car] 0
 x_TueThur[358C09,D397,Moped] 0
 x_TueThur[358C09,D397,EBikeCart] 0
@@ -46004,7 +46004,7 @@ x_TueThur[358C09,D429,FootBike] 0
 x_TueThur[358D01,D363,Car] 0
 x_TueThur[358D01,D363,Moped] 0
 x_TueThur[358D01,D363,EBikeCart] 0
-x_TueThur[358D01,D363,FootBike] 0
+x_TueThur[358D01,D363,FootBike] 1
 x_TueThur[358D01,D362,Car] 0
 x_TueThur[358D01,D362,Moped] 0
 x_TueThur[358D01,D362,EBikeCart] 0
@@ -46084,7 +46084,7 @@ x_TueThur[358D01,D429,FootBike] 0
 x_TueThur[358D02,D363,Car] 0
 x_TueThur[358D02,D363,Moped] 0
 x_TueThur[358D02,D363,EBikeCart] 0
-x_TueThur[358D02,D363,FootBike] 0
+x_TueThur[358D02,D363,FootBike] 1
 x_TueThur[358D02,D362,Car] 0
 x_TueThur[358D02,D362,Moped] 0
 x_TueThur[358D02,D362,EBikeCart] 0
@@ -46164,7 +46164,7 @@ x_TueThur[358D02,D293,FootBike] 0
 x_TueThur[358D05,D362,Car] 0
 x_TueThur[358D05,D362,Moped] 0
 x_TueThur[358D05,D362,EBikeCart] 0
-x_TueThur[358D05,D362,FootBike] 0
+x_TueThur[358D05,D362,FootBike] 1
 x_TueThur[358D05,D363,Car] 0
 x_TueThur[358D05,D363,Moped] 0
 x_TueThur[358D05,D363,EBikeCart] 0
@@ -46244,7 +46244,7 @@ x_TueThur[358D05,D429,FootBike] 0
 x_TueThur[358D06,D362,Car] 0
 x_TueThur[358D06,D362,Moped] 0
 x_TueThur[358D06,D362,EBikeCart] 0
-x_TueThur[358D06,D362,FootBike] 0
+x_TueThur[358D06,D362,FootBike] 1
 x_TueThur[358D06,D363,Car] 0
 x_TueThur[358D06,D363,Moped] 0
 x_TueThur[358D06,D363,EBikeCart] 0
@@ -46324,7 +46324,7 @@ x_TueThur[358D06,D429,FootBike] 0
 x_TueThur[358D09,D362,Car] 0
 x_TueThur[358D09,D362,Moped] 0
 x_TueThur[358D09,D362,EBikeCart] 0
-x_TueThur[358D09,D362,FootBike] 0
+x_TueThur[358D09,D362,FootBike] 1
 x_TueThur[358D09,D328,Car] 0
 x_TueThur[358D09,D328,Moped] 0
 x_TueThur[358D09,D328,EBikeCart] 0
@@ -46404,7 +46404,7 @@ x_TueThur[358D09,D398,FootBike] 0
 x_TueThur[358D10,D362,Car] 0
 x_TueThur[358D10,D362,Moped] 0
 x_TueThur[358D10,D362,EBikeCart] 0
-x_TueThur[358D10,D362,FootBike] 0
+x_TueThur[358D10,D362,FootBike] 1
 x_TueThur[358D10,D361,Car] 0
 x_TueThur[358D10,D361,Moped] 0
 x_TueThur[358D10,D361,EBikeCart] 0
@@ -46484,7 +46484,7 @@ x_TueThur[358D10,D431,FootBike] 0
 x_TueThur[358D13,D362,Car] 0
 x_TueThur[358D13,D362,Moped] 0
 x_TueThur[358D13,D362,EBikeCart] 0
-x_TueThur[358D13,D362,FootBike] 0
+x_TueThur[358D13,D362,FootBike] 1
 x_TueThur[358D13,D361,Car] 0
 x_TueThur[358D13,D361,Moped] 0
 x_TueThur[358D13,D361,EBikeCart] 0
@@ -46564,7 +46564,7 @@ x_TueThur[358D13,D431,FootBike] 0
 x_TueThur[358D14,D362,Car] 0
 x_TueThur[358D14,D362,Moped] 0
 x_TueThur[358D14,D362,EBikeCart] 0
-x_TueThur[358D14,D362,FootBike] 0
+x_TueThur[358D14,D362,FootBike] 1
 x_TueThur[358D14,D361,Car] 0
 x_TueThur[358D14,D361,Moped] 0
 x_TueThur[358D14,D361,EBikeCart] 0
@@ -46644,7 +46644,7 @@ x_TueThur[358D14,D330,FootBike] 0
 x_TueThur[358D17,D362,Car] 0
 x_TueThur[358D17,D362,Moped] 0
 x_TueThur[358D17,D362,EBikeCart] 0
-x_TueThur[358D17,D362,FootBike] 0
+x_TueThur[358D17,D362,FootBike] 1
 x_TueThur[358D17,D361,Car] 0
 x_TueThur[358D17,D361,Moped] 0
 x_TueThur[358D17,D361,EBikeCart] 0
@@ -46724,7 +46724,7 @@ x_TueThur[358D17,D292,FootBike] 0
 x_TueThur[358D18,D362,Car] 0
 x_TueThur[358D18,D362,Moped] 0
 x_TueThur[358D18,D362,EBikeCart] 0
-x_TueThur[358D18,D362,FootBike] 0
+x_TueThur[358D18,D362,FootBike] 1
 x_TueThur[358D18,D361,Car] 0
 x_TueThur[358D18,D361,Moped] 0
 x_TueThur[358D18,D361,EBikeCart] 0
@@ -46804,7 +46804,7 @@ x_TueThur[358D18,D330,FootBike] 0
 x_TueThur[358D21,D361,Car] 0
 x_TueThur[358D21,D361,Moped] 0
 x_TueThur[358D21,D361,EBikeCart] 0
-x_TueThur[358D21,D361,FootBike] 0
+x_TueThur[358D21,D361,FootBike] 1
 x_TueThur[358D21,D362,Car] 0
 x_TueThur[358D21,D362,Moped] 0
 x_TueThur[358D21,D362,EBikeCart] 0
@@ -46884,7 +46884,7 @@ x_TueThur[358D21,D364,FootBike] 0
 x_TueThur[358D22,D362,Car] 0
 x_TueThur[358D22,D362,Moped] 0
 x_TueThur[358D22,D362,EBikeCart] 0
-x_TueThur[358D22,D362,FootBike] 0
+x_TueThur[358D22,D362,FootBike] 1
 x_TueThur[358D22,D361,Car] 0
 x_TueThur[358D22,D361,Moped] 0
 x_TueThur[358D22,D361,EBikeCart] 0
@@ -46964,7 +46964,7 @@ x_TueThur[358D22,D359,FootBike] 0
 x_TueThur[358D25,D362,Car] 0
 x_TueThur[358D25,D362,Moped] 0
 x_TueThur[358D25,D362,EBikeCart] 0
-x_TueThur[358D25,D362,FootBike] 0
+x_TueThur[358D25,D362,FootBike] 1
 x_TueThur[358D25,D361,Car] 0
 x_TueThur[358D25,D361,Moped] 0
 x_TueThur[358D25,D361,EBikeCart] 0
@@ -47044,7 +47044,7 @@ x_TueThur[358D25,D398,FootBike] 0
 x_TueThur[358D26,D362,Car] 0
 x_TueThur[358D26,D362,Moped] 0
 x_TueThur[358D26,D362,EBikeCart] 0
-x_TueThur[358D26,D362,FootBike] 0
+x_TueThur[358D26,D362,FootBike] 1
 x_TueThur[358D26,D361,Car] 0
 x_TueThur[358D26,D361,Moped] 0
 x_TueThur[358D26,D361,EBikeCart] 0
@@ -47124,7 +47124,7 @@ x_TueThur[358D26,D398,FootBike] 0
 x_TueThur[358D29,D362,Car] 0
 x_TueThur[358D29,D362,Moped] 0
 x_TueThur[358D29,D362,EBikeCart] 0
-x_TueThur[358D29,D362,FootBike] 0
+x_TueThur[358D29,D362,FootBike] 1
 x_TueThur[358D29,D361,Car] 0
 x_TueThur[358D29,D361,Moped] 0
 x_TueThur[358D29,D361,EBikeCart] 0
@@ -47204,7 +47204,7 @@ x_TueThur[358D29,D359,FootBike] 0
 x_TueThur[358D30,D362,Car] 0
 x_TueThur[358D30,D362,Moped] 0
 x_TueThur[358D30,D362,EBikeCart] 0
-x_TueThur[358D30,D362,FootBike] 0
+x_TueThur[358D30,D362,FootBike] 1
 x_TueThur[358D30,D361,Car] 0
 x_TueThur[358D30,D361,Moped] 0
 x_TueThur[358D30,D361,EBikeCart] 0
@@ -47284,7 +47284,7 @@ x_TueThur[358D30,D398,FootBike] 0
 x_TueThur[358D33,D362,Car] 0
 x_TueThur[358D33,D362,Moped] 0
 x_TueThur[358D33,D362,EBikeCart] 0
-x_TueThur[358D33,D362,FootBike] 0
+x_TueThur[358D33,D362,FootBike] 1
 x_TueThur[358D33,D361,Car] 0
 x_TueThur[358D33,D361,Moped] 0
 x_TueThur[358D33,D361,EBikeCart] 0
@@ -47364,7 +47364,7 @@ x_TueThur[358D33,D398,FootBike] 0
 x_TueThur[358D34,D362,Car] 0
 x_TueThur[358D34,D362,Moped] 0
 x_TueThur[358D34,D362,EBikeCart] 0
-x_TueThur[358D34,D362,FootBike] 0
+x_TueThur[358D34,D362,FootBike] 1
 x_TueThur[358D34,D361,Car] 0
 x_TueThur[358D34,D361,Moped] 0
 x_TueThur[358D34,D361,EBikeCart] 0
@@ -47444,7 +47444,7 @@ x_TueThur[358D34,D295,FootBike] 0
 x_TueThur[358D37,D362,Car] 0
 x_TueThur[358D37,D362,Moped] 0
 x_TueThur[358D37,D362,EBikeCart] 0
-x_TueThur[358D37,D362,FootBike] 0
+x_TueThur[358D37,D362,FootBike] 1
 x_TueThur[358D37,D361,Car] 0
 x_TueThur[358D37,D361,Moped] 0
 x_TueThur[358D37,D361,EBikeCart] 0
@@ -47524,7 +47524,7 @@ x_TueThur[358D37,D295,FootBike] 0
 x_TueThur[358D38,D362,Car] 0
 x_TueThur[358D38,D362,Moped] 0
 x_TueThur[358D38,D362,EBikeCart] 0
-x_TueThur[358D38,D362,FootBike] 0
+x_TueThur[358D38,D362,FootBike] 1
 x_TueThur[358D38,D361,Car] 0
 x_TueThur[358D38,D361,Moped] 0
 x_TueThur[358D38,D361,EBikeCart] 0
@@ -47604,7 +47604,7 @@ x_TueThur[358D38,D295,FootBike] 0
 x_TueThur[358D41,D362,Car] 0
 x_TueThur[358D41,D362,Moped] 0
 x_TueThur[358D41,D362,EBikeCart] 0
-x_TueThur[358D41,D362,FootBike] 0
+x_TueThur[358D41,D362,FootBike] 1
 x_TueThur[358D41,D396,Car] 0
 x_TueThur[358D41,D396,Moped] 0
 x_TueThur[358D41,D396,EBikeCart] 0
@@ -47684,7 +47684,7 @@ x_TueThur[358D41,D330,FootBike] 0
 x_TueThur[358D42,D362,Car] 0
 x_TueThur[358D42,D362,Moped] 0
 x_TueThur[358D42,D362,EBikeCart] 0
-x_TueThur[358D42,D362,FootBike] 0
+x_TueThur[358D42,D362,FootBike] 1
 x_TueThur[358D42,D396,Car] 0
 x_TueThur[358D42,D396,Moped] 0
 x_TueThur[358D42,D396,EBikeCart] 0
@@ -47764,7 +47764,7 @@ x_TueThur[358D42,D428,FootBike] 0
 x_TueThur[358D45,D362,Car] 0
 x_TueThur[358D45,D362,Moped] 0
 x_TueThur[358D45,D362,EBikeCart] 0
-x_TueThur[358D45,D362,FootBike] 0
+x_TueThur[358D45,D362,FootBike] 1
 x_TueThur[358D45,D396,Car] 0
 x_TueThur[358D45,D396,Moped] 0
 x_TueThur[358D45,D396,EBikeCart] 0
@@ -47844,7 +47844,7 @@ x_TueThur[358D45,D293,FootBike] 0
 x_TueThur[358D46,D362,Car] 0
 x_TueThur[358D46,D362,Moped] 0
 x_TueThur[358D46,D362,EBikeCart] 0
-x_TueThur[358D46,D362,FootBike] 0
+x_TueThur[358D46,D362,FootBike] 1
 x_TueThur[358D46,D396,Car] 0
 x_TueThur[358D46,D396,Moped] 0
 x_TueThur[358D46,D396,EBikeCart] 0
@@ -47928,7 +47928,7 @@ x_TueThur[358D49,D396,FootBike] 0
 x_TueThur[358D49,D362,Car] 0
 x_TueThur[358D49,D362,Moped] 0
 x_TueThur[358D49,D362,EBikeCart] 0
-x_TueThur[358D49,D362,FootBike] 0
+x_TueThur[358D49,D362,FootBike] 1
 x_TueThur[358D49,D395,Car] 0
 x_TueThur[358D49,D395,Moped] 0
 x_TueThur[358D49,D395,EBikeCart] 0
@@ -48008,7 +48008,7 @@ x_TueThur[358D50,D396,FootBike] 0
 x_TueThur[358D50,D362,Car] 0
 x_TueThur[358D50,D362,Moped] 0
 x_TueThur[358D50,D362,EBikeCart] 0
-x_TueThur[358D50,D362,FootBike] 0
+x_TueThur[358D50,D362,FootBike] 1
 x_TueThur[358D50,D397,Car] 0
 x_TueThur[358D50,D397,Moped] 0
 x_TueThur[358D50,D397,EBikeCart] 0
@@ -48104,7 +48104,7 @@ x_TueThur[358D53,D464,FootBike] 0
 x_TueThur[358D53,D429,Car] 0
 x_TueThur[358D53,D429,Moped] 0
 x_TueThur[358D53,D429,EBikeCart] 0
-x_TueThur[358D53,D429,FootBike] 0
+x_TueThur[358D53,D429,FootBike] 1
 x_TueThur[358D53,D465,Car] 0
 x_TueThur[358D53,D465,Moped] 0
 x_TueThur[358D53,D465,EBikeCart] 0
@@ -48183,7 +48183,7 @@ x_TueThur[358D54,D464,EBikeCart] 0
 x_TueThur[358D54,D464,FootBike] 0
 x_TueThur[358D54,D429,Car] 0
 x_TueThur[358D54,D429,Moped] 0
-x_TueThur[358D54,D429,EBikeCart] 0
+x_TueThur[358D54,D429,EBikeCart] 1
 x_TueThur[358D54,D429,FootBike] 0
 x_TueThur[358D54,D465,Car] 0
 x_TueThur[358D54,D465,Moped] 0
@@ -48258,7 +48258,7 @@ x_TueThur[35A042,D397,Moped] 0
 x_TueThur[35A042,D397,EBikeCart] 0
 x_TueThur[35A042,D397,FootBike] 0
 x_TueThur[35A042,D429,Car] 0
-x_TueThur[35A042,D429,Moped] 0
+x_TueThur[35A042,D429,Moped] 1
 x_TueThur[35A042,D429,EBikeCart] 0
 x_TueThur[35A042,D429,FootBike] 0
 x_TueThur[35A042,D464,Car] 0
@@ -48322,7 +48322,7 @@ x_TueThur[35A042,D364,Moped] 0
 x_TueThur[35A042,D364,EBikeCart] 0
 x_TueThur[35A042,D364,FootBike] 0
 x_TueThur[35B141,D227,Car] 0
-x_TueThur[35B141,D227,Moped] 1
+x_TueThur[35B141,D227,Moped] 0
 x_TueThur[35B141,D227,EBikeCart] 0
 x_TueThur[35B141,D227,FootBike] 0
 x_TueThur[35B141,D226,Car] 0
@@ -48330,7 +48330,7 @@ x_TueThur[35B141,D226,Moped] 0
 x_TueThur[35B141,D226,EBikeCart] 0
 x_TueThur[35B141,D226,FootBike] 0
 x_TueThur[35B141,D260,Car] 0
-x_TueThur[35B141,D260,Moped] 0
+x_TueThur[35B141,D260,Moped] 1
 x_TueThur[35B141,D260,EBikeCart] 0
 x_TueThur[35B141,D260,FootBike] 0
 x_TueThur[35B141,D259,Car] 0
@@ -48406,11 +48406,11 @@ x_TueThur[35B201,D293,Moped] 0
 x_TueThur[35B201,D293,EBikeCart] 0
 x_TueThur[35B201,D293,FootBike] 0
 x_TueThur[35B201,D294,Car] 0
-x_TueThur[35B201,D294,Moped] 0
+x_TueThur[35B201,D294,Moped] 1
 x_TueThur[35B201,D294,EBikeCart] 0
 x_TueThur[35B201,D294,FootBike] 0
 x_TueThur[35B201,D327,Car] 0
-x_TueThur[35B201,D327,Moped] 1
+x_TueThur[35B201,D327,Moped] 0
 x_TueThur[35B201,D327,EBikeCart] 0
 x_TueThur[35B201,D327,FootBike] 0
 x_TueThur[35B201,D260,Car] 0
@@ -48491,7 +48491,7 @@ x_TueThur[35B211,D292,EBikeCart] 0
 x_TueThur[35B211,D292,FootBike] 0
 x_TueThur[35B211,D260,Car] 0
 x_TueThur[35B211,D260,Moped] 0
-x_TueThur[35B211,D260,EBikeCart] 0
+x_TueThur[35B211,D260,EBikeCart] 1
 x_TueThur[35B211,D260,FootBike] 0
 x_TueThur[35B211,D258,Car] 0
 x_TueThur[35B211,D258,Moped] 0
@@ -48590,7 +48590,7 @@ x_TueThur[35B551,D465,Moped] 0
 x_TueThur[35B551,D465,EBikeCart] 0
 x_TueThur[35B551,D465,FootBike] 0
 x_TueThur[35B551,D363,Car] 0
-x_TueThur[35B551,D363,Moped] 0
+x_TueThur[35B551,D363,Moped] 1
 x_TueThur[35B551,D363,EBikeCart] 0
 x_TueThur[35B551,D363,FootBike] 0
 x_TueThur[35B551,D466,Car] 0
@@ -48644,7 +48644,7 @@ x_TueThur[35B551,D329,FootBike] 0
 x_TueThur[360F01,D258,Car] 0
 x_TueThur[360F01,D258,Moped] 0
 x_TueThur[360F01,D258,EBikeCart] 0
-x_TueThur[360F01,D258,FootBike] 0
+x_TueThur[360F01,D258,FootBike] 1
 x_TueThur[360F01,D291,Car] 0
 x_TueThur[360F01,D291,Moped] 0
 x_TueThur[360F01,D291,EBikeCart] 0
@@ -48724,7 +48724,7 @@ x_TueThur[360F01,D194,FootBike] 0
 x_TueThur[360F02,D258,Car] 0
 x_TueThur[360F02,D258,Moped] 0
 x_TueThur[360F02,D258,EBikeCart] 0
-x_TueThur[360F02,D258,FootBike] 0
+x_TueThur[360F02,D258,FootBike] 1
 x_TueThur[360F02,D291,Car] 0
 x_TueThur[360F02,D291,Moped] 0
 x_TueThur[360F02,D291,EBikeCart] 0
@@ -48804,7 +48804,7 @@ x_TueThur[360F02,D192,FootBike] 0
 x_TueThur[360F03,D258,Car] 0
 x_TueThur[360F03,D258,Moped] 0
 x_TueThur[360F03,D258,EBikeCart] 0
-x_TueThur[360F03,D258,FootBike] 0
+x_TueThur[360F03,D258,FootBike] 1
 x_TueThur[360F03,D257,Car] 0
 x_TueThur[360F03,D257,Moped] 0
 x_TueThur[360F03,D257,EBikeCart] 0
@@ -48884,7 +48884,7 @@ x_TueThur[360F03,D194,FootBike] 0
 x_TueThur[360F04,D258,Car] 0
 x_TueThur[360F04,D258,Moped] 0
 x_TueThur[360F04,D258,EBikeCart] 0
-x_TueThur[360F04,D258,FootBike] 0
+x_TueThur[360F04,D258,FootBike] 1
 x_TueThur[360F04,D257,Car] 0
 x_TueThur[360F04,D257,Moped] 0
 x_TueThur[360F04,D257,EBikeCart] 0
@@ -49044,7 +49044,7 @@ x_TueThur[360F05,D227,FootBike] 0
 x_TueThur[360F07,D258,Car] 0
 x_TueThur[360F07,D258,Moped] 0
 x_TueThur[360F07,D258,EBikeCart] 0
-x_TueThur[360F07,D258,FootBike] 0
+x_TueThur[360F07,D258,FootBike] 1
 x_TueThur[360F07,D291,Car] 0
 x_TueThur[360F07,D291,Moped] 0
 x_TueThur[360F07,D291,EBikeCart] 0
@@ -49128,7 +49128,7 @@ x_TueThur[360F12,D291,FootBike] 0
 x_TueThur[360F12,D258,Car] 0
 x_TueThur[360F12,D258,Moped] 0
 x_TueThur[360F12,D258,EBikeCart] 0
-x_TueThur[360F12,D258,FootBike] 0
+x_TueThur[360F12,D258,FootBike] 1
 x_TueThur[360F12,D292,Car] 0
 x_TueThur[360F12,D292,Moped] 0
 x_TueThur[360F12,D292,EBikeCart] 0
@@ -49210,7 +49210,7 @@ x_TueThur[360F15,D292,Moped] 0
 x_TueThur[360F15,D292,EBikeCart] 0
 x_TueThur[360F15,D292,FootBike] 0
 x_TueThur[360F15,D258,Car] 0
-x_TueThur[360F15,D258,Moped] 0
+x_TueThur[360F15,D258,Moped] 1
 x_TueThur[360F15,D258,EBikeCart] 0
 x_TueThur[360F15,D258,FootBike] 0
 x_TueThur[360F15,D325,Car] 0
@@ -49288,7 +49288,7 @@ x_TueThur[360J01,D291,FootBike] 0
 x_TueThur[360J01,D258,Car] 0
 x_TueThur[360J01,D258,Moped] 0
 x_TueThur[360J01,D258,EBikeCart] 0
-x_TueThur[360J01,D258,FootBike] 0
+x_TueThur[360J01,D258,FootBike] 1
 x_TueThur[360J01,D290,Car] 0
 x_TueThur[360J01,D290,Moped] 0
 x_TueThur[360J01,D290,EBikeCart] 0
@@ -49368,7 +49368,7 @@ x_TueThur[372F11,D428,FootBike] 0
 x_TueThur[372F11,D429,Car] 0
 x_TueThur[372F11,D429,Moped] 0
 x_TueThur[372F11,D429,EBikeCart] 0
-x_TueThur[372F11,D429,FootBike] 0
+x_TueThur[372F11,D429,FootBike] 1
 x_TueThur[372F11,D394,Car] 0
 x_TueThur[372F11,D394,Moped] 0
 x_TueThur[372F11,D394,EBikeCart] 0
@@ -49456,7 +49456,7 @@ x_TueThur[372J11,D427,FootBike] 0
 x_TueThur[372J11,D429,Car] 0
 x_TueThur[372J11,D429,Moped] 0
 x_TueThur[372J11,D429,EBikeCart] 0
-x_TueThur[372J11,D429,FootBike] 0
+x_TueThur[372J11,D429,FootBike] 1
 x_TueThur[372J11,D394,Car] 0
 x_TueThur[372J11,D394,Moped] 0
 x_TueThur[372J11,D394,EBikeCart] 0
@@ -49526,7 +49526,7 @@ x_TueThur[373F03,D395,Moped] 0
 x_TueThur[373F03,D395,EBikeCart] 0
 x_TueThur[373F03,D395,FootBike] 0
 x_TueThur[373F03,D429,Car] 0
-x_TueThur[373F03,D429,Moped] 0
+x_TueThur[373F03,D429,Moped] 1
 x_TueThur[373F03,D429,EBikeCart] 0
 x_TueThur[373F03,D429,FootBike] 0
 x_TueThur[373F03,D396,Car] 0
@@ -49604,7 +49604,7 @@ x_TueThur[373F03,D328,FootBike] 0
 x_TueThur[373F04,D429,Car] 0
 x_TueThur[373F04,D429,Moped] 0
 x_TueThur[373F04,D429,EBikeCart] 0
-x_TueThur[373F04,D429,FootBike] 0
+x_TueThur[373F04,D429,FootBike] 1
 x_TueThur[373F04,D395,Car] 0
 x_TueThur[373F04,D395,Moped] 0
 x_TueThur[373F04,D395,EBikeCart] 0
@@ -49684,7 +49684,7 @@ x_TueThur[373F04,D327,FootBike] 0
 x_TueThur[373F05,D429,Car] 0
 x_TueThur[373F05,D429,Moped] 0
 x_TueThur[373F05,D429,EBikeCart] 0
-x_TueThur[373F05,D429,FootBike] 0
+x_TueThur[373F05,D429,FootBike] 1
 x_TueThur[373F05,D395,Car] 0
 x_TueThur[373F05,D395,Moped] 0
 x_TueThur[373F05,D395,EBikeCart] 0
@@ -49764,7 +49764,7 @@ x_TueThur[373F05,D359,FootBike] 0
 x_TueThur[373F06,D429,Car] 0
 x_TueThur[373F06,D429,Moped] 0
 x_TueThur[373F06,D429,EBikeCart] 0
-x_TueThur[373F06,D429,FootBike] 0
+x_TueThur[373F06,D429,FootBike] 1
 x_TueThur[373F06,D395,Car] 0
 x_TueThur[373F06,D395,Moped] 0
 x_TueThur[373F06,D395,EBikeCart] 0
@@ -49848,7 +49848,7 @@ x_TueThur[373F11,D428,FootBike] 0
 x_TueThur[373F11,D429,Car] 0
 x_TueThur[373F11,D429,Moped] 0
 x_TueThur[373F11,D429,EBikeCart] 0
-x_TueThur[373F11,D429,FootBike] 0
+x_TueThur[373F11,D429,FootBike] 1
 x_TueThur[373F11,D394,Car] 0
 x_TueThur[373F11,D394,Moped] 0
 x_TueThur[373F11,D394,EBikeCart] 0
@@ -49924,7 +49924,7 @@ x_TueThur[373F11,D392,FootBike] 0
 x_TueThur[373F12,D429,Car] 0
 x_TueThur[373F12,D429,Moped] 0
 x_TueThur[373F12,D429,EBikeCart] 0
-x_TueThur[373F12,D429,FootBike] 0
+x_TueThur[373F12,D429,FootBike] 1
 x_TueThur[373F12,D428,Car] 0
 x_TueThur[373F12,D428,Moped] 0
 x_TueThur[373F12,D428,EBikeCart] 0
@@ -50004,7 +50004,7 @@ x_TueThur[373F12,D426,FootBike] 0
 x_TueThur[373F13,D429,Car] 0
 x_TueThur[373F13,D429,Moped] 0
 x_TueThur[373F13,D429,EBikeCart] 0
-x_TueThur[373F13,D429,FootBike] 0
+x_TueThur[373F13,D429,FootBike] 1
 x_TueThur[373F13,D428,Car] 0
 x_TueThur[373F13,D428,Moped] 0
 x_TueThur[373F13,D428,EBikeCart] 0
@@ -50084,7 +50084,7 @@ x_TueThur[373F13,D397,FootBike] 0
 x_TueThur[373F14,D429,Car] 0
 x_TueThur[373F14,D429,Moped] 0
 x_TueThur[373F14,D429,EBikeCart] 0
-x_TueThur[373F14,D429,FootBike] 0
+x_TueThur[373F14,D429,FootBike] 1
 x_TueThur[373F14,D428,Car] 0
 x_TueThur[373F14,D428,Moped] 0
 x_TueThur[373F14,D428,EBikeCart] 0
@@ -50191,7 +50191,7 @@ x_TueThur[373F98,D427,EBikeCart] 0
 x_TueThur[373F98,D427,FootBike] 0
 x_TueThur[373F98,D361,Car] 0
 x_TueThur[373F98,D361,Moped] 0
-x_TueThur[373F98,D361,EBikeCart] 0
+x_TueThur[373F98,D361,EBikeCart] 1
 x_TueThur[373F98,D361,FootBike] 0
 x_TueThur[373F98,D429,Car] 0
 x_TueThur[373F98,D429,Moped] 0
@@ -50248,7 +50248,7 @@ x_TueThur[373J12,D428,FootBike] 0
 x_TueThur[373J12,D429,Car] 0
 x_TueThur[373J12,D429,Moped] 0
 x_TueThur[373J12,D429,EBikeCart] 0
-x_TueThur[373J12,D429,FootBike] 0
+x_TueThur[373J12,D429,FootBike] 1
 x_TueThur[373J12,D394,Car] 0
 x_TueThur[373J12,D394,Moped] 0
 x_TueThur[373J12,D394,EBikeCart] 0
@@ -50334,7 +50334,7 @@ x_WedFri[D261,345C01,Moped] 0
 x_WedFri[D261,345C01,EBikeCart] 0
 x_WedFri[D261,345C01,FootBike] 0
 x_WedFri[D294,345C01,Car] 0
-x_WedFri[D294,345C01,Moped] 0
+x_WedFri[D294,345C01,Moped] 1
 x_WedFri[D294,345C01,EBikeCart] 0
 x_WedFri[D294,345C01,FootBike] 0
 x_WedFri[D263,345C01,Car] 0
@@ -50404,7 +50404,7 @@ x_WedFri[D363,345C01,FootBike] 0
 x_WedFri[D294,345C03,Car] 0
 x_WedFri[D294,345C03,Moped] 0
 x_WedFri[D294,345C03,EBikeCart] 0
-x_WedFri[D294,345C03,FootBike] 0
+x_WedFri[D294,345C03,FootBike] 1
 x_WedFri[D261,345C03,Car] 0
 x_WedFri[D261,345C03,Moped] 0
 x_WedFri[D261,345C03,EBikeCart] 0
@@ -50496,7 +50496,7 @@ x_WedFri[D261,345C05,FootBike] 0
 x_WedFri[D228,345C05,Car] 0
 x_WedFri[D228,345C05,Moped] 0
 x_WedFri[D228,345C05,EBikeCart] 0
-x_WedFri[D228,345C05,FootBike] 0
+x_WedFri[D228,345C05,FootBike] 1
 x_WedFri[D263,345C05,Car] 0
 x_WedFri[D263,345C05,Moped] 0
 x_WedFri[D263,345C05,EBikeCart] 0
@@ -50564,7 +50564,7 @@ x_WedFri[D328,345C05,FootBike] 0
 x_WedFri[D228,345D03,Car] 0
 x_WedFri[D228,345D03,Moped] 0
 x_WedFri[D228,345D03,EBikeCart] 0
-x_WedFri[D228,345D03,FootBike] 0
+x_WedFri[D228,345D03,FootBike] 1
 x_WedFri[D229,345D03,Car] 0
 x_WedFri[D229,345D03,Moped] 0
 x_WedFri[D229,345D03,EBikeCart] 0
@@ -50644,7 +50644,7 @@ x_WedFri[D293,345D03,FootBike] 0
 x_WedFri[D228,345D04,Car] 0
 x_WedFri[D228,345D04,Moped] 0
 x_WedFri[D228,345D04,EBikeCart] 0
-x_WedFri[D228,345D04,FootBike] 0
+x_WedFri[D228,345D04,FootBike] 1
 x_WedFri[D229,345D04,Car] 0
 x_WedFri[D229,345D04,Moped] 0
 x_WedFri[D229,345D04,EBikeCart] 0
@@ -50728,7 +50728,7 @@ x_WedFri[D229,345D07,FootBike] 0
 x_WedFri[D228,345D07,Car] 0
 x_WedFri[D228,345D07,Moped] 0
 x_WedFri[D228,345D07,EBikeCart] 0
-x_WedFri[D228,345D07,FootBike] 0
+x_WedFri[D228,345D07,FootBike] 1
 x_WedFri[D262,345D07,Car] 0
 x_WedFri[D262,345D07,Moped] 0
 x_WedFri[D262,345D07,EBikeCart] 0
@@ -50808,7 +50808,7 @@ x_WedFri[D229,345D08,FootBike] 0
 x_WedFri[D228,345D08,Car] 0
 x_WedFri[D228,345D08,Moped] 0
 x_WedFri[D228,345D08,EBikeCart] 0
-x_WedFri[D228,345D08,FootBike] 0
+x_WedFri[D228,345D08,FootBike] 1
 x_WedFri[D262,345D08,Car] 0
 x_WedFri[D262,345D08,Moped] 0
 x_WedFri[D262,345D08,EBikeCart] 0
@@ -50884,7 +50884,7 @@ x_WedFri[D166,345D08,FootBike] 0
 x_WedFri[D228,345D11,Car] 0
 x_WedFri[D228,345D11,Moped] 0
 x_WedFri[D228,345D11,EBikeCart] 0
-x_WedFri[D228,345D11,FootBike] 0
+x_WedFri[D228,345D11,FootBike] 1
 x_WedFri[D261,345D11,Car] 0
 x_WedFri[D261,345D11,Moped] 0
 x_WedFri[D261,345D11,EBikeCart] 0
@@ -50972,7 +50972,7 @@ x_WedFri[D262,345D12,FootBike] 0
 x_WedFri[D228,345D12,Car] 0
 x_WedFri[D228,345D12,Moped] 0
 x_WedFri[D228,345D12,EBikeCart] 0
-x_WedFri[D228,345D12,FootBike] 0
+x_WedFri[D228,345D12,FootBike] 1
 x_WedFri[D261,345D12,Car] 0
 x_WedFri[D261,345D12,Moped] 0
 x_WedFri[D261,345D12,EBikeCart] 0
@@ -51044,7 +51044,7 @@ x_WedFri[D164,345D12,FootBike] 0
 x_WedFri[D228,345D15,Car] 0
 x_WedFri[D228,345D15,Moped] 0
 x_WedFri[D228,345D15,EBikeCart] 0
-x_WedFri[D228,345D15,FootBike] 0
+x_WedFri[D228,345D15,FootBike] 1
 x_WedFri[D229,345D15,Car] 0
 x_WedFri[D229,345D15,Moped] 0
 x_WedFri[D229,345D15,EBikeCart] 0
@@ -51124,7 +51124,7 @@ x_WedFri[D259,345D15,FootBike] 0
 x_WedFri[D228,345D16,Car] 0
 x_WedFri[D228,345D16,Moped] 0
 x_WedFri[D228,345D16,EBikeCart] 0
-x_WedFri[D228,345D16,FootBike] 0
+x_WedFri[D228,345D16,FootBike] 1
 x_WedFri[D229,345D16,Car] 0
 x_WedFri[D229,345D16,Moped] 0
 x_WedFri[D229,345D16,EBikeCart] 0
@@ -51216,7 +51216,7 @@ x_WedFri[D295,345D19,FootBike] 0
 x_WedFri[D294,345D19,Car] 0
 x_WedFri[D294,345D19,Moped] 0
 x_WedFri[D294,345D19,EBikeCart] 0
-x_WedFri[D294,345D19,FootBike] 0
+x_WedFri[D294,345D19,FootBike] 1
 x_WedFri[D229,345D19,Car] 0
 x_WedFri[D229,345D19,Moped] 0
 x_WedFri[D229,345D19,EBikeCart] 0
@@ -51296,7 +51296,7 @@ x_WedFri[D295,345D20,FootBike] 0
 x_WedFri[D294,345D20,Car] 0
 x_WedFri[D294,345D20,Moped] 0
 x_WedFri[D294,345D20,EBikeCart] 0
-x_WedFri[D294,345D20,FootBike] 0
+x_WedFri[D294,345D20,FootBike] 1
 x_WedFri[D229,345D20,Car] 0
 x_WedFri[D229,345D20,Moped] 0
 x_WedFri[D229,345D20,EBikeCart] 0
@@ -51384,7 +51384,7 @@ x_WedFri[D263,345D23,FootBike] 0
 x_WedFri[D228,345D23,Car] 0
 x_WedFri[D228,345D23,Moped] 0
 x_WedFri[D228,345D23,EBikeCart] 0
-x_WedFri[D228,345D23,FootBike] 0
+x_WedFri[D228,345D23,FootBike] 1
 x_WedFri[D294,345D23,Car] 0
 x_WedFri[D294,345D23,Moped] 0
 x_WedFri[D294,345D23,EBikeCart] 0
@@ -51460,7 +51460,7 @@ x_WedFri[D295,345D24,FootBike] 0
 x_WedFri[D228,345D24,Car] 0
 x_WedFri[D228,345D24,Moped] 0
 x_WedFri[D228,345D24,EBikeCart] 0
-x_WedFri[D228,345D24,FootBike] 0
+x_WedFri[D228,345D24,FootBike] 1
 x_WedFri[D263,345D24,Car] 0
 x_WedFri[D263,345D24,Moped] 0
 x_WedFri[D263,345D24,EBikeCart] 0
@@ -51527,7 +51527,7 @@ x_WedFri[D295,345D27,EBikeCart] 0
 x_WedFri[D295,345D27,FootBike] 0
 x_WedFri[D294,345D27,Car] 0
 x_WedFri[D294,345D27,Moped] 0
-x_WedFri[D294,345D27,EBikeCart] 0
+x_WedFri[D294,345D27,EBikeCart] 1
 x_WedFri[D294,345D27,FootBike] 0
 x_WedFri[D262,345D27,Car] 0
 x_WedFri[D262,345D27,Moped] 0
@@ -51608,7 +51608,7 @@ x_WedFri[D295,345D28,FootBike] 0
 x_WedFri[D294,345D28,Car] 0
 x_WedFri[D294,345D28,Moped] 0
 x_WedFri[D294,345D28,EBikeCart] 0
-x_WedFri[D294,345D28,FootBike] 0
+x_WedFri[D294,345D28,FootBike] 1
 x_WedFri[D262,345D28,Car] 0
 x_WedFri[D262,345D28,Moped] 0
 x_WedFri[D262,345D28,EBikeCart] 0
@@ -51684,7 +51684,7 @@ x_WedFri[D264,345D28,FootBike] 0
 x_WedFri[D294,345D31,Car] 0
 x_WedFri[D294,345D31,Moped] 0
 x_WedFri[D294,345D31,EBikeCart] 0
-x_WedFri[D294,345D31,FootBike] 0
+x_WedFri[D294,345D31,FootBike] 1
 x_WedFri[D328,345D31,Car] 0
 x_WedFri[D328,345D31,Moped] 0
 x_WedFri[D328,345D31,EBikeCart] 0
@@ -51764,7 +51764,7 @@ x_WedFri[D259,345D31,FootBike] 0
 x_WedFri[D294,345D32,Car] 0
 x_WedFri[D294,345D32,Moped] 0
 x_WedFri[D294,345D32,EBikeCart] 0
-x_WedFri[D294,345D32,FootBike] 0
+x_WedFri[D294,345D32,FootBike] 1
 x_WedFri[D328,345D32,Car] 0
 x_WedFri[D328,345D32,Moped] 0
 x_WedFri[D328,345D32,EBikeCart] 0
@@ -51844,7 +51844,7 @@ x_WedFri[D229,345D32,FootBike] 0
 x_WedFri[D294,345D35,Car] 0
 x_WedFri[D294,345D35,Moped] 0
 x_WedFri[D294,345D35,EBikeCart] 0
-x_WedFri[D294,345D35,FootBike] 0
+x_WedFri[D294,345D35,FootBike] 1
 x_WedFri[D295,345D35,Car] 0
 x_WedFri[D295,345D35,Moped] 0
 x_WedFri[D295,345D35,EBikeCart] 0
@@ -51924,7 +51924,7 @@ x_WedFri[D259,345D35,FootBike] 0
 x_WedFri[D294,345D36,Car] 0
 x_WedFri[D294,345D36,Moped] 0
 x_WedFri[D294,345D36,EBikeCart] 0
-x_WedFri[D294,345D36,FootBike] 0
+x_WedFri[D294,345D36,FootBike] 1
 x_WedFri[D295,345D36,Car] 0
 x_WedFri[D295,345D36,Moped] 0
 x_WedFri[D295,345D36,EBikeCart] 0
@@ -52004,7 +52004,7 @@ x_WedFri[D361,345D36,FootBike] 0
 x_WedFri[D294,345D39,Car] 0
 x_WedFri[D294,345D39,Moped] 0
 x_WedFri[D294,345D39,EBikeCart] 0
-x_WedFri[D294,345D39,FootBike] 0
+x_WedFri[D294,345D39,FootBike] 1
 x_WedFri[D293,345D39,Car] 0
 x_WedFri[D293,345D39,Moped] 0
 x_WedFri[D293,345D39,EBikeCart] 0
@@ -52084,7 +52084,7 @@ x_WedFri[D330,345D39,FootBike] 0
 x_WedFri[D294,345D40,Car] 0
 x_WedFri[D294,345D40,Moped] 0
 x_WedFri[D294,345D40,EBikeCart] 0
-x_WedFri[D294,345D40,FootBike] 0
+x_WedFri[D294,345D40,FootBike] 1
 x_WedFri[D293,345D40,Car] 0
 x_WedFri[D293,345D40,Moped] 0
 x_WedFri[D293,345D40,EBikeCart] 0
@@ -52164,7 +52164,7 @@ x_WedFri[D263,345D40,FootBike] 0
 x_WedFri[D294,345D43,Car] 0
 x_WedFri[D294,345D43,Moped] 0
 x_WedFri[D294,345D43,EBikeCart] 0
-x_WedFri[D294,345D43,FootBike] 0
+x_WedFri[D294,345D43,FootBike] 1
 x_WedFri[D261,345D43,Car] 0
 x_WedFri[D261,345D43,Moped] 0
 x_WedFri[D261,345D43,EBikeCart] 0
@@ -52244,7 +52244,7 @@ x_WedFri[D363,345D43,FootBike] 0
 x_WedFri[D294,345D44,Car] 0
 x_WedFri[D294,345D44,Moped] 0
 x_WedFri[D294,345D44,EBikeCart] 0
-x_WedFri[D294,345D44,FootBike] 0
+x_WedFri[D294,345D44,FootBike] 1
 x_WedFri[D261,345D44,Car] 0
 x_WedFri[D261,345D44,Moped] 0
 x_WedFri[D261,345D44,EBikeCart] 0
@@ -52324,7 +52324,7 @@ x_WedFri[D363,345D44,FootBike] 0
 x_WedFri[D294,345D47,Car] 0
 x_WedFri[D294,345D47,Moped] 0
 x_WedFri[D294,345D47,EBikeCart] 0
-x_WedFri[D294,345D47,FootBike] 0
+x_WedFri[D294,345D47,FootBike] 1
 x_WedFri[D293,345D47,Car] 0
 x_WedFri[D293,345D47,Moped] 0
 x_WedFri[D293,345D47,EBikeCart] 0
@@ -52404,7 +52404,7 @@ x_WedFri[D360,345D47,FootBike] 0
 x_WedFri[D294,345D48,Car] 0
 x_WedFri[D294,345D48,Moped] 0
 x_WedFri[D294,345D48,EBikeCart] 0
-x_WedFri[D294,345D48,FootBike] 0
+x_WedFri[D294,345D48,FootBike] 1
 x_WedFri[D293,345D48,Car] 0
 x_WedFri[D293,345D48,Moped] 0
 x_WedFri[D293,345D48,EBikeCart] 0
@@ -52484,7 +52484,7 @@ x_WedFri[D330,345D48,FootBike] 0
 x_WedFri[D294,345D51,Car] 0
 x_WedFri[D294,345D51,Moped] 0
 x_WedFri[D294,345D51,EBikeCart] 0
-x_WedFri[D294,345D51,FootBike] 0
+x_WedFri[D294,345D51,FootBike] 1
 x_WedFri[D293,345D51,Car] 0
 x_WedFri[D293,345D51,Moped] 0
 x_WedFri[D293,345D51,EBikeCart] 0
@@ -52564,7 +52564,7 @@ x_WedFri[D291,345D51,FootBike] 0
 x_WedFri[D294,345D52,Car] 0
 x_WedFri[D294,345D52,Moped] 0
 x_WedFri[D294,345D52,EBikeCart] 0
-x_WedFri[D294,345D52,FootBike] 0
+x_WedFri[D294,345D52,FootBike] 1
 x_WedFri[D293,345D52,Car] 0
 x_WedFri[D293,345D52,Moped] 0
 x_WedFri[D293,345D52,EBikeCart] 0
@@ -52644,7 +52644,7 @@ x_WedFri[D363,345D52,FootBike] 0
 x_WedFri[D294,345D55,Car] 0
 x_WedFri[D294,345D55,Moped] 0
 x_WedFri[D294,345D55,EBikeCart] 0
-x_WedFri[D294,345D55,FootBike] 0
+x_WedFri[D294,345D55,FootBike] 1
 x_WedFri[D293,345D55,Car] 0
 x_WedFri[D293,345D55,Moped] 0
 x_WedFri[D293,345D55,EBikeCart] 0
@@ -52724,7 +52724,7 @@ x_WedFri[D263,345D55,FootBike] 0
 x_WedFri[D294,345D56,Car] 0
 x_WedFri[D294,345D56,Moped] 0
 x_WedFri[D294,345D56,EBikeCart] 0
-x_WedFri[D294,345D56,FootBike] 0
+x_WedFri[D294,345D56,FootBike] 1
 x_WedFri[D293,345D56,Car] 0
 x_WedFri[D293,345D56,Moped] 0
 x_WedFri[D293,345D56,EBikeCart] 0
@@ -52804,7 +52804,7 @@ x_WedFri[D330,345D56,FootBike] 0
 x_WedFri[D294,345D59,Car] 0
 x_WedFri[D294,345D59,Moped] 0
 x_WedFri[D294,345D59,EBikeCart] 0
-x_WedFri[D294,345D59,FootBike] 0
+x_WedFri[D294,345D59,FootBike] 1
 x_WedFri[D328,345D59,Car] 0
 x_WedFri[D328,345D59,Moped] 0
 x_WedFri[D328,345D59,EBikeCart] 0
@@ -52884,7 +52884,7 @@ x_WedFri[D263,345D59,FootBike] 0
 x_WedFri[D294,345D60,Car] 0
 x_WedFri[D294,345D60,Moped] 0
 x_WedFri[D294,345D60,EBikeCart] 0
-x_WedFri[D294,345D60,FootBike] 0
+x_WedFri[D294,345D60,FootBike] 1
 x_WedFri[D328,345D60,Car] 0
 x_WedFri[D328,345D60,Moped] 0
 x_WedFri[D328,345D60,EBikeCart] 0
@@ -52964,7 +52964,7 @@ x_WedFri[D229,345D60,FootBike] 0
 x_WedFri[D228,345F01,Car] 0
 x_WedFri[D228,345F01,Moped] 0
 x_WedFri[D228,345F01,EBikeCart] 0
-x_WedFri[D228,345F01,FootBike] 0
+x_WedFri[D228,345F01,FootBike] 1
 x_WedFri[D261,345F01,Car] 0
 x_WedFri[D261,345F01,Moped] 0
 x_WedFri[D261,345F01,EBikeCart] 0
@@ -53044,7 +53044,7 @@ x_WedFri[D198,345F01,FootBike] 0
 x_WedFri[D228,345F02,Car] 0
 x_WedFri[D228,345F02,Moped] 0
 x_WedFri[D228,345F02,EBikeCart] 0
-x_WedFri[D228,345F02,FootBike] 0
+x_WedFri[D228,345F02,FootBike] 1
 x_WedFri[D261,345F02,Car] 0
 x_WedFri[D261,345F02,Moped] 0
 x_WedFri[D261,345F02,EBikeCart] 0
@@ -53124,7 +53124,7 @@ x_WedFri[D165,345F02,FootBike] 0
 x_WedFri[D228,345F03,Car] 0
 x_WedFri[D228,345F03,Moped] 0
 x_WedFri[D228,345F03,EBikeCart] 0
-x_WedFri[D228,345F03,FootBike] 0
+x_WedFri[D228,345F03,FootBike] 1
 x_WedFri[D227,345F03,Car] 0
 x_WedFri[D227,345F03,Moped] 0
 x_WedFri[D227,345F03,EBikeCart] 0
@@ -53204,7 +53204,7 @@ x_WedFri[D263,345F03,FootBike] 0
 x_WedFri[D228,345F07,Car] 0
 x_WedFri[D228,345F07,Moped] 0
 x_WedFri[D228,345F07,EBikeCart] 0
-x_WedFri[D228,345F07,FootBike] 0
+x_WedFri[D228,345F07,FootBike] 1
 x_WedFri[D196,345F07,Car] 0
 x_WedFri[D196,345F07,Moped] 0
 x_WedFri[D196,345F07,EBikeCart] 0
@@ -53284,7 +53284,7 @@ x_WedFri[D293,345F07,FootBike] 0
 x_WedFri[D228,345F08,Car] 0
 x_WedFri[D228,345F08,Moped] 0
 x_WedFri[D228,345F08,EBikeCart] 0
-x_WedFri[D228,345F08,FootBike] 0
+x_WedFri[D228,345F08,FootBike] 1
 x_WedFri[D196,345F08,Car] 0
 x_WedFri[D196,345F08,Moped] 0
 x_WedFri[D196,345F08,EBikeCart] 0
@@ -53364,7 +53364,7 @@ x_WedFri[D263,345F08,FootBike] 0
 x_WedFri[D228,345F09,Car] 0
 x_WedFri[D228,345F09,Moped] 0
 x_WedFri[D228,345F09,EBikeCart] 0
-x_WedFri[D228,345F09,FootBike] 0
+x_WedFri[D228,345F09,FootBike] 1
 x_WedFri[D227,345F09,Car] 0
 x_WedFri[D227,345F09,Moped] 0
 x_WedFri[D227,345F09,EBikeCart] 0
@@ -53452,7 +53452,7 @@ x_WedFri[D226,345F18,FootBike] 0
 x_WedFri[D260,345F18,Car] 0
 x_WedFri[D260,345F18,Moped] 0
 x_WedFri[D260,345F18,EBikeCart] 0
-x_WedFri[D260,345F18,FootBike] 0
+x_WedFri[D260,345F18,FootBike] 1
 x_WedFri[D195,345F18,Car] 0
 x_WedFri[D195,345F18,Moped] 0
 x_WedFri[D195,345F18,EBikeCart] 0
@@ -53536,7 +53536,7 @@ x_WedFri[D195,345F19,FootBike] 0
 x_WedFri[D260,345F19,Car] 0
 x_WedFri[D260,345F19,Moped] 0
 x_WedFri[D260,345F19,EBikeCart] 0
-x_WedFri[D260,345F19,FootBike] 0
+x_WedFri[D260,345F19,FootBike] 1
 x_WedFri[D194,345F19,Car] 0
 x_WedFri[D194,345F19,Moped] 0
 x_WedFri[D194,345F19,EBikeCart] 0
@@ -53608,7 +53608,7 @@ x_WedFri[D227,345F20,FootBike] 0
 x_WedFri[D260,345F20,Car] 0
 x_WedFri[D260,345F20,Moped] 0
 x_WedFri[D260,345F20,EBikeCart] 0
-x_WedFri[D260,345F20,FootBike] 0
+x_WedFri[D260,345F20,FootBike] 1
 x_WedFri[D228,345F20,Car] 0
 x_WedFri[D228,345F20,Moped] 0
 x_WedFri[D228,345F20,EBikeCart] 0
@@ -53688,7 +53688,7 @@ x_WedFri[D227,345F21,FootBike] 0
 x_WedFri[D260,345F21,Car] 0
 x_WedFri[D260,345F21,Moped] 0
 x_WedFri[D260,345F21,EBikeCart] 0
-x_WedFri[D260,345F21,FootBike] 0
+x_WedFri[D260,345F21,FootBike] 1
 x_WedFri[D228,345F21,Car] 0
 x_WedFri[D228,345F21,Moped] 0
 x_WedFri[D228,345F21,EBikeCart] 0
@@ -53768,7 +53768,7 @@ x_WedFri[D227,345F22,FootBike] 0
 x_WedFri[D260,345F22,Car] 0
 x_WedFri[D260,345F22,Moped] 0
 x_WedFri[D260,345F22,EBikeCart] 0
-x_WedFri[D260,345F22,FootBike] 0
+x_WedFri[D260,345F22,FootBike] 1
 x_WedFri[D226,345F22,Car] 0
 x_WedFri[D226,345F22,Moped] 0
 x_WedFri[D226,345F22,EBikeCart] 0
@@ -53848,7 +53848,7 @@ x_WedFri[D227,345F23,FootBike] 0
 x_WedFri[D260,345F23,Car] 0
 x_WedFri[D260,345F23,Moped] 0
 x_WedFri[D260,345F23,EBikeCart] 0
-x_WedFri[D260,345F23,FootBike] 0
+x_WedFri[D260,345F23,FootBike] 1
 x_WedFri[D226,345F23,Car] 0
 x_WedFri[D226,345F23,Moped] 0
 x_WedFri[D226,345F23,EBikeCart] 0
@@ -53924,7 +53924,7 @@ x_WedFri[D291,345F23,FootBike] 0
 x_WedFri[D362,351F03,Car] 0
 x_WedFri[D362,351F03,Moped] 0
 x_WedFri[D362,351F03,EBikeCart] 0
-x_WedFri[D362,351F03,FootBike] 0
+x_WedFri[D362,351F03,FootBike] 1
 x_WedFri[D328,351F03,Car] 0
 x_WedFri[D328,351F03,Moped] 0
 x_WedFri[D328,351F03,EBikeCart] 0
@@ -54004,7 +54004,7 @@ x_WedFri[D296,351F03,FootBike] 0
 x_WedFri[D362,351F11,Car] 0
 x_WedFri[D362,351F11,Moped] 0
 x_WedFri[D362,351F11,EBikeCart] 0
-x_WedFri[D362,351F11,FootBike] 0
+x_WedFri[D362,351F11,FootBike] 1
 x_WedFri[D328,351F11,Car] 0
 x_WedFri[D328,351F11,Moped] 0
 x_WedFri[D328,351F11,EBikeCart] 0
@@ -54084,7 +54084,7 @@ x_WedFri[D431,351F11,FootBike] 0
 x_WedFri[D327,351F25,Car] 0
 x_WedFri[D327,351F25,Moped] 0
 x_WedFri[D327,351F25,EBikeCart] 0
-x_WedFri[D327,351F25,FootBike] 0
+x_WedFri[D327,351F25,FootBike] 1
 x_WedFri[D328,351F25,Car] 0
 x_WedFri[D328,351F25,Moped] 0
 x_WedFri[D328,351F25,EBikeCart] 0
@@ -54164,7 +54164,7 @@ x_WedFri[D330,351F25,FootBike] 0
 x_WedFri[D361,351F28,Car] 0
 x_WedFri[D361,351F28,Moped] 0
 x_WedFri[D361,351F28,EBikeCart] 0
-x_WedFri[D361,351F28,FootBike] 0
+x_WedFri[D361,351F28,FootBike] 1
 x_WedFri[D362,351F28,Car] 0
 x_WedFri[D362,351F28,Moped] 0
 x_WedFri[D362,351F28,EBikeCart] 0
@@ -54244,7 +54244,7 @@ x_WedFri[D364,351F28,FootBike] 0
 x_WedFri[D362,351F29,Car] 0
 x_WedFri[D362,351F29,Moped] 0
 x_WedFri[D362,351F29,EBikeCart] 0
-x_WedFri[D362,351F29,FootBike] 0
+x_WedFri[D362,351F29,FootBike] 1
 x_WedFri[D361,351F29,Car] 0
 x_WedFri[D361,351F29,Moped] 0
 x_WedFri[D361,351F29,EBikeCart] 0
@@ -54324,7 +54324,7 @@ x_WedFri[D359,351F29,FootBike] 0
 x_WedFri[D361,351F30,Car] 0
 x_WedFri[D361,351F30,Moped] 0
 x_WedFri[D361,351F30,EBikeCart] 0
-x_WedFri[D361,351F30,FootBike] 0
+x_WedFri[D361,351F30,FootBike] 1
 x_WedFri[D327,351F30,Car] 0
 x_WedFri[D327,351F30,Moped] 0
 x_WedFri[D327,351F30,EBikeCart] 0
@@ -54404,7 +54404,7 @@ x_WedFri[D430,351F30,FootBike] 0
 x_WedFri[D361,351F31,Car] 0
 x_WedFri[D361,351F31,Moped] 0
 x_WedFri[D361,351F31,EBikeCart] 0
-x_WedFri[D361,351F31,FootBike] 0
+x_WedFri[D361,351F31,FootBike] 1
 x_WedFri[D362,351F31,Car] 0
 x_WedFri[D362,351F31,Moped] 0
 x_WedFri[D362,351F31,EBikeCart] 0
@@ -54484,7 +54484,7 @@ x_WedFri[D295,351F31,FootBike] 0
 x_WedFri[D361,351F32,Car] 0
 x_WedFri[D361,351F32,Moped] 0
 x_WedFri[D361,351F32,EBikeCart] 0
-x_WedFri[D361,351F32,FootBike] 0
+x_WedFri[D361,351F32,FootBike] 1
 x_WedFri[D362,351F32,Car] 0
 x_WedFri[D362,351F32,Moped] 0
 x_WedFri[D362,351F32,EBikeCart] 0
@@ -54564,7 +54564,7 @@ x_WedFri[D325,351F32,FootBike] 0
 x_WedFri[D361,351F33,Car] 0
 x_WedFri[D361,351F33,Moped] 0
 x_WedFri[D361,351F33,EBikeCart] 0
-x_WedFri[D361,351F33,FootBike] 0
+x_WedFri[D361,351F33,FootBike] 1
 x_WedFri[D362,351F33,Car] 0
 x_WedFri[D362,351F33,Moped] 0
 x_WedFri[D362,351F33,EBikeCart] 0
@@ -54644,7 +54644,7 @@ x_WedFri[D325,351F33,FootBike] 0
 x_WedFri[D361,351F34,Car] 0
 x_WedFri[D361,351F34,Moped] 0
 x_WedFri[D361,351F34,EBikeCart] 0
-x_WedFri[D361,351F34,FootBike] 0
+x_WedFri[D361,351F34,FootBike] 1
 x_WedFri[D362,351F34,Car] 0
 x_WedFri[D362,351F34,Moped] 0
 x_WedFri[D362,351F34,EBikeCart] 0
@@ -54724,7 +54724,7 @@ x_WedFri[D325,351F34,FootBike] 0
 x_WedFri[D362,351J28,Car] 0
 x_WedFri[D362,351J28,Moped] 0
 x_WedFri[D362,351J28,EBikeCart] 0
-x_WedFri[D362,351J28,FootBike] 0
+x_WedFri[D362,351J28,FootBike] 1
 x_WedFri[D361,351J28,Car] 0
 x_WedFri[D361,351J28,Moped] 0
 x_WedFri[D361,351J28,EBikeCart] 0
@@ -54804,7 +54804,7 @@ x_WedFri[D330,351J28,FootBike] 0
 x_WedFri[D361,351J31,Car] 0
 x_WedFri[D361,351J31,Moped] 0
 x_WedFri[D361,351J31,EBikeCart] 0
-x_WedFri[D361,351J31,FootBike] 0
+x_WedFri[D361,351J31,FootBike] 1
 x_WedFri[D362,351J31,Car] 0
 x_WedFri[D362,351J31,Moped] 0
 x_WedFri[D362,351J31,EBikeCart] 0
@@ -54884,7 +54884,7 @@ x_WedFri[D428,351J31,FootBike] 0
 x_WedFri[D361,351J33,Car] 0
 x_WedFri[D361,351J33,Moped] 0
 x_WedFri[D361,351J33,EBikeCart] 0
-x_WedFri[D361,351J33,FootBike] 0
+x_WedFri[D361,351J33,FootBike] 1
 x_WedFri[D362,351J33,Car] 0
 x_WedFri[D362,351J33,Moped] 0
 x_WedFri[D362,351J33,EBikeCart] 0
@@ -54964,7 +54964,7 @@ x_WedFri[D295,351J33,FootBike] 0
 x_WedFri[D361,351J34,Car] 0
 x_WedFri[D361,351J34,Moped] 0
 x_WedFri[D361,351J34,EBikeCart] 0
-x_WedFri[D361,351J34,FootBike] 0
+x_WedFri[D361,351J34,FootBike] 1
 x_WedFri[D362,351J34,Car] 0
 x_WedFri[D362,351J34,Moped] 0
 x_WedFri[D362,351J34,EBikeCart] 0
@@ -55048,7 +55048,7 @@ x_WedFri[D330,352C01,FootBike] 0
 x_WedFri[D329,352C01,Car] 0
 x_WedFri[D329,352C01,Moped] 0
 x_WedFri[D329,352C01,EBikeCart] 0
-x_WedFri[D329,352C01,FootBike] 0
+x_WedFri[D329,352C01,FootBike] 1
 x_WedFri[D364,352C01,Car] 0
 x_WedFri[D364,352C01,Moped] 0
 x_WedFri[D364,352C01,EBikeCart] 0
@@ -55124,7 +55124,7 @@ x_WedFri[D366,352C01,FootBike] 0
 x_WedFri[D329,352C03,Car] 0
 x_WedFri[D329,352C03,Moped] 0
 x_WedFri[D329,352C03,EBikeCart] 0
-x_WedFri[D329,352C03,FootBike] 0
+x_WedFri[D329,352C03,FootBike] 1
 x_WedFri[D330,352C03,Car] 0
 x_WedFri[D330,352C03,Moped] 0
 x_WedFri[D330,352C03,EBikeCart] 0
@@ -55204,7 +55204,7 @@ x_WedFri[D293,352C03,FootBike] 0
 x_WedFri[D329,352C05,Car] 0
 x_WedFri[D329,352C05,Moped] 0
 x_WedFri[D329,352C05,EBikeCart] 0
-x_WedFri[D329,352C05,FootBike] 0
+x_WedFri[D329,352C05,FootBike] 1
 x_WedFri[D330,352C05,Car] 0
 x_WedFri[D330,352C05,Moped] 0
 x_WedFri[D330,352C05,EBikeCart] 0
@@ -55284,7 +55284,7 @@ x_WedFri[D361,352C05,FootBike] 0
 x_WedFri[D363,352C07,Car] 0
 x_WedFri[D363,352C07,Moped] 0
 x_WedFri[D363,352C07,EBikeCart] 0
-x_WedFri[D363,352C07,FootBike] 0
+x_WedFri[D363,352C07,FootBike] 1
 x_WedFri[D329,352C07,Car] 0
 x_WedFri[D329,352C07,Moped] 0
 x_WedFri[D329,352C07,EBikeCart] 0
@@ -55364,7 +55364,7 @@ x_WedFri[D432,352C07,FootBike] 0
 x_WedFri[D363,352C09,Car] 0
 x_WedFri[D363,352C09,Moped] 0
 x_WedFri[D363,352C09,EBikeCart] 0
-x_WedFri[D363,352C09,FootBike] 0
+x_WedFri[D363,352C09,FootBike] 1
 x_WedFri[D329,352C09,Car] 0
 x_WedFri[D329,352C09,Moped] 0
 x_WedFri[D329,352C09,EBikeCart] 0
@@ -55444,7 +55444,7 @@ x_WedFri[D432,352C09,FootBike] 0
 x_WedFri[D363,352D03,Car] 0
 x_WedFri[D363,352D03,Moped] 0
 x_WedFri[D363,352D03,EBikeCart] 0
-x_WedFri[D363,352D03,FootBike] 0
+x_WedFri[D363,352D03,FootBike] 1
 x_WedFri[D397,352D03,Car] 0
 x_WedFri[D397,352D03,Moped] 0
 x_WedFri[D397,352D03,EBikeCart] 0
@@ -55528,7 +55528,7 @@ x_WedFri[D364,352D04,FootBike] 0
 x_WedFri[D363,352D04,Car] 0
 x_WedFri[D363,352D04,Moped] 0
 x_WedFri[D363,352D04,EBikeCart] 0
-x_WedFri[D363,352D04,FootBike] 0
+x_WedFri[D363,352D04,FootBike] 1
 x_WedFri[D398,352D04,Car] 0
 x_WedFri[D398,352D04,Moped] 0
 x_WedFri[D398,352D04,EBikeCart] 0
@@ -55604,7 +55604,7 @@ x_WedFri[D361,352D04,FootBike] 0
 x_WedFri[D363,352D07,Car] 0
 x_WedFri[D363,352D07,Moped] 0
 x_WedFri[D363,352D07,EBikeCart] 0
-x_WedFri[D363,352D07,FootBike] 0
+x_WedFri[D363,352D07,FootBike] 1
 x_WedFri[D364,352D07,Car] 0
 x_WedFri[D364,352D07,Moped] 0
 x_WedFri[D364,352D07,EBikeCart] 0
@@ -55684,7 +55684,7 @@ x_WedFri[D395,352D07,FootBike] 0
 x_WedFri[D363,352D08,Car] 0
 x_WedFri[D363,352D08,Moped] 0
 x_WedFri[D363,352D08,EBikeCart] 0
-x_WedFri[D363,352D08,FootBike] 0
+x_WedFri[D363,352D08,FootBike] 1
 x_WedFri[D397,352D08,Car] 0
 x_WedFri[D397,352D08,Moped] 0
 x_WedFri[D397,352D08,EBikeCart] 0
@@ -55764,7 +55764,7 @@ x_WedFri[D296,352D08,FootBike] 0
 x_WedFri[D363,352D11,Car] 0
 x_WedFri[D363,352D11,Moped] 0
 x_WedFri[D363,352D11,EBikeCart] 0
-x_WedFri[D363,352D11,FootBike] 0
+x_WedFri[D363,352D11,FootBike] 1
 x_WedFri[D364,352D11,Car] 0
 x_WedFri[D364,352D11,Moped] 0
 x_WedFri[D364,352D11,EBikeCart] 0
@@ -55844,7 +55844,7 @@ x_WedFri[D294,352D11,FootBike] 0
 x_WedFri[D363,352D12,Car] 0
 x_WedFri[D363,352D12,Moped] 0
 x_WedFri[D363,352D12,EBikeCart] 0
-x_WedFri[D363,352D12,FootBike] 0
+x_WedFri[D363,352D12,FootBike] 1
 x_WedFri[D397,352D12,Car] 0
 x_WedFri[D397,352D12,Moped] 0
 x_WedFri[D397,352D12,EBikeCart] 0
@@ -55924,7 +55924,7 @@ x_WedFri[D296,352D12,FootBike] 0
 x_WedFri[D363,352D15,Car] 0
 x_WedFri[D363,352D15,Moped] 0
 x_WedFri[D363,352D15,EBikeCart] 0
-x_WedFri[D363,352D15,FootBike] 0
+x_WedFri[D363,352D15,FootBike] 1
 x_WedFri[D364,352D15,Car] 0
 x_WedFri[D364,352D15,Moped] 0
 x_WedFri[D364,352D15,EBikeCart] 0
@@ -56004,7 +56004,7 @@ x_WedFri[D366,352D15,FootBike] 0
 x_WedFri[D363,352D16,Car] 0
 x_WedFri[D363,352D16,Moped] 0
 x_WedFri[D363,352D16,EBikeCart] 0
-x_WedFri[D363,352D16,FootBike] 0
+x_WedFri[D363,352D16,FootBike] 1
 x_WedFri[D364,352D16,Car] 0
 x_WedFri[D364,352D16,Moped] 0
 x_WedFri[D364,352D16,EBikeCart] 0
@@ -56084,7 +56084,7 @@ x_WedFri[D366,352D16,FootBike] 0
 x_WedFri[D363,352D19,Car] 0
 x_WedFri[D363,352D19,Moped] 0
 x_WedFri[D363,352D19,EBikeCart] 0
-x_WedFri[D363,352D19,FootBike] 0
+x_WedFri[D363,352D19,FootBike] 1
 x_WedFri[D364,352D19,Car] 0
 x_WedFri[D364,352D19,Moped] 0
 x_WedFri[D364,352D19,EBikeCart] 0
@@ -56164,7 +56164,7 @@ x_WedFri[D430,352D19,FootBike] 0
 x_WedFri[D363,352D20,Car] 0
 x_WedFri[D363,352D20,Moped] 0
 x_WedFri[D363,352D20,EBikeCart] 0
-x_WedFri[D363,352D20,FootBike] 0
+x_WedFri[D363,352D20,FootBike] 1
 x_WedFri[D364,352D20,Car] 0
 x_WedFri[D364,352D20,Moped] 0
 x_WedFri[D364,352D20,EBikeCart] 0
@@ -56244,7 +56244,7 @@ x_WedFri[D327,352D20,FootBike] 0
 x_WedFri[D363,352D23,Car] 0
 x_WedFri[D363,352D23,Moped] 0
 x_WedFri[D363,352D23,EBikeCart] 0
-x_WedFri[D363,352D23,FootBike] 0
+x_WedFri[D363,352D23,FootBike] 1
 x_WedFri[D364,352D23,Car] 0
 x_WedFri[D364,352D23,Moped] 0
 x_WedFri[D364,352D23,EBikeCart] 0
@@ -56324,7 +56324,7 @@ x_WedFri[D430,352D23,FootBike] 0
 x_WedFri[D363,352D24,Car] 0
 x_WedFri[D363,352D24,Moped] 0
 x_WedFri[D363,352D24,EBikeCart] 0
-x_WedFri[D363,352D24,FootBike] 0
+x_WedFri[D363,352D24,FootBike] 1
 x_WedFri[D329,352D24,Car] 0
 x_WedFri[D329,352D24,Moped] 0
 x_WedFri[D329,352D24,EBikeCart] 0
@@ -56404,7 +56404,7 @@ x_WedFri[D432,352D24,FootBike] 0
 x_WedFri[D363,352D27,Car] 0
 x_WedFri[D363,352D27,Moped] 0
 x_WedFri[D363,352D27,EBikeCart] 0
-x_WedFri[D363,352D27,FootBike] 0
+x_WedFri[D363,352D27,FootBike] 1
 x_WedFri[D329,352D27,Car] 0
 x_WedFri[D329,352D27,Moped] 0
 x_WedFri[D329,352D27,EBikeCart] 0
@@ -56484,7 +56484,7 @@ x_WedFri[D395,352D27,FootBike] 0
 x_WedFri[D363,352D28,Car] 0
 x_WedFri[D363,352D28,Moped] 0
 x_WedFri[D363,352D28,EBikeCart] 0
-x_WedFri[D363,352D28,FootBike] 0
+x_WedFri[D363,352D28,FootBike] 1
 x_WedFri[D329,352D28,Car] 0
 x_WedFri[D329,352D28,Moped] 0
 x_WedFri[D329,352D28,EBikeCart] 0
@@ -56564,7 +56564,7 @@ x_WedFri[D395,352D28,FootBike] 0
 x_WedFri[D363,352D31,Car] 0
 x_WedFri[D363,352D31,Moped] 0
 x_WedFri[D363,352D31,EBikeCart] 0
-x_WedFri[D363,352D31,FootBike] 0
+x_WedFri[D363,352D31,FootBike] 1
 x_WedFri[D329,352D31,Car] 0
 x_WedFri[D329,352D31,Moped] 0
 x_WedFri[D329,352D31,EBikeCart] 0
@@ -56644,7 +56644,7 @@ x_WedFri[D395,352D31,FootBike] 0
 x_WedFri[D363,352D32,Car] 0
 x_WedFri[D363,352D32,Moped] 0
 x_WedFri[D363,352D32,EBikeCart] 0
-x_WedFri[D363,352D32,FootBike] 0
+x_WedFri[D363,352D32,FootBike] 1
 x_WedFri[D329,352D32,Car] 0
 x_WedFri[D329,352D32,Moped] 0
 x_WedFri[D329,352D32,EBikeCart] 0
@@ -56724,7 +56724,7 @@ x_WedFri[D297,352D32,FootBike] 0
 x_WedFri[D363,352D35,Car] 0
 x_WedFri[D363,352D35,Moped] 0
 x_WedFri[D363,352D35,EBikeCart] 0
-x_WedFri[D363,352D35,FootBike] 0
+x_WedFri[D363,352D35,FootBike] 1
 x_WedFri[D329,352D35,Car] 0
 x_WedFri[D329,352D35,Moped] 0
 x_WedFri[D329,352D35,EBikeCart] 0
@@ -56804,7 +56804,7 @@ x_WedFri[D262,352D35,FootBike] 0
 x_WedFri[D363,352D36,Car] 0
 x_WedFri[D363,352D36,Moped] 0
 x_WedFri[D363,352D36,EBikeCart] 0
-x_WedFri[D363,352D36,FootBike] 0
+x_WedFri[D363,352D36,FootBike] 1
 x_WedFri[D329,352D36,Car] 0
 x_WedFri[D329,352D36,Moped] 0
 x_WedFri[D329,352D36,EBikeCart] 0
@@ -56883,7 +56883,7 @@ x_WedFri[D262,352D36,EBikeCart] 0
 x_WedFri[D262,352D36,FootBike] 0
 x_WedFri[D363,352D39,Car] 0
 x_WedFri[D363,352D39,Moped] 0
-x_WedFri[D363,352D39,EBikeCart] 0
+x_WedFri[D363,352D39,EBikeCart] 1
 x_WedFri[D363,352D39,FootBike] 0
 x_WedFri[D362,352D39,Car] 0
 x_WedFri[D362,352D39,Moped] 0
@@ -56964,7 +56964,7 @@ x_WedFri[D331,352D39,FootBike] 0
 x_WedFri[D362,352D40,Car] 0
 x_WedFri[D362,352D40,Moped] 0
 x_WedFri[D362,352D40,EBikeCart] 0
-x_WedFri[D362,352D40,FootBike] 0
+x_WedFri[D362,352D40,FootBike] 1
 x_WedFri[D363,352D40,Car] 0
 x_WedFri[D363,352D40,Moped] 0
 x_WedFri[D363,352D40,EBikeCart] 0
@@ -57044,7 +57044,7 @@ x_WedFri[D326,352D40,FootBike] 0
 x_WedFri[D329,352D43,Car] 0
 x_WedFri[D329,352D43,Moped] 0
 x_WedFri[D329,352D43,EBikeCart] 0
-x_WedFri[D329,352D43,FootBike] 0
+x_WedFri[D329,352D43,FootBike] 1
 x_WedFri[D363,352D43,Car] 0
 x_WedFri[D363,352D43,Moped] 0
 x_WedFri[D363,352D43,EBikeCart] 0
@@ -57124,7 +57124,7 @@ x_WedFri[D261,352D43,FootBike] 0
 x_WedFri[D329,352D44,Car] 0
 x_WedFri[D329,352D44,Moped] 0
 x_WedFri[D329,352D44,EBikeCart] 0
-x_WedFri[D329,352D44,FootBike] 0
+x_WedFri[D329,352D44,FootBike] 1
 x_WedFri[D363,352D44,Car] 0
 x_WedFri[D363,352D44,Moped] 0
 x_WedFri[D363,352D44,EBikeCart] 0
@@ -57204,7 +57204,7 @@ x_WedFri[D431,352D44,FootBike] 0
 x_WedFri[D329,352D47,Car] 0
 x_WedFri[D329,352D47,Moped] 0
 x_WedFri[D329,352D47,EBikeCart] 0
-x_WedFri[D329,352D47,FootBike] 0
+x_WedFri[D329,352D47,FootBike] 1
 x_WedFri[D363,352D47,Car] 0
 x_WedFri[D363,352D47,Moped] 0
 x_WedFri[D363,352D47,EBikeCart] 0
@@ -57282,11 +57282,11 @@ x_WedFri[D263,352D47,Moped] 0
 x_WedFri[D263,352D47,EBikeCart] 0
 x_WedFri[D263,352D47,FootBike] 0
 x_WedFri[D329,352D48,Car] 0
-x_WedFri[D329,352D48,Moped] 0
+x_WedFri[D329,352D48,Moped] 1
 x_WedFri[D329,352D48,EBikeCart] 0
 x_WedFri[D329,352D48,FootBike] 0
 x_WedFri[D363,352D48,Car] 0
-x_WedFri[D363,352D48,Moped] 1
+x_WedFri[D363,352D48,Moped] 0
 x_WedFri[D363,352D48,EBikeCart] 0
 x_WedFri[D363,352D48,FootBike] 0
 x_WedFri[D330,352D48,Car] 0
@@ -57364,7 +57364,7 @@ x_WedFri[D399,352D48,FootBike] 0
 x_WedFri[D329,352D51,Car] 0
 x_WedFri[D329,352D51,Moped] 0
 x_WedFri[D329,352D51,EBikeCart] 0
-x_WedFri[D329,352D51,FootBike] 0
+x_WedFri[D329,352D51,FootBike] 1
 x_WedFri[D363,352D51,Car] 0
 x_WedFri[D363,352D51,Moped] 0
 x_WedFri[D363,352D51,EBikeCart] 0
@@ -57444,7 +57444,7 @@ x_WedFri[D293,352D51,FootBike] 0
 x_WedFri[D329,352D52,Car] 0
 x_WedFri[D329,352D52,Moped] 0
 x_WedFri[D329,352D52,EBikeCart] 0
-x_WedFri[D329,352D52,FootBike] 0
+x_WedFri[D329,352D52,FootBike] 1
 x_WedFri[D363,352D52,Car] 0
 x_WedFri[D363,352D52,Moped] 0
 x_WedFri[D363,352D52,EBikeCart] 0
@@ -57524,7 +57524,7 @@ x_WedFri[D297,352D52,FootBike] 0
 x_WedFri[D329,352D55,Car] 0
 x_WedFri[D329,352D55,Moped] 0
 x_WedFri[D329,352D55,EBikeCart] 0
-x_WedFri[D329,352D55,FootBike] 0
+x_WedFri[D329,352D55,FootBike] 1
 x_WedFri[D330,352D55,Car] 0
 x_WedFri[D330,352D55,Moped] 0
 x_WedFri[D330,352D55,EBikeCart] 0
@@ -57604,7 +57604,7 @@ x_WedFri[D361,352D55,FootBike] 0
 x_WedFri[D329,352D56,Car] 0
 x_WedFri[D329,352D56,Moped] 0
 x_WedFri[D329,352D56,EBikeCart] 0
-x_WedFri[D329,352D56,FootBike] 0
+x_WedFri[D329,352D56,FootBike] 1
 x_WedFri[D330,352D56,Car] 0
 x_WedFri[D330,352D56,Moped] 0
 x_WedFri[D330,352D56,EBikeCart] 0
@@ -57684,7 +57684,7 @@ x_WedFri[D261,352D56,FootBike] 0
 x_WedFri[D329,352D59,Car] 0
 x_WedFri[D329,352D59,Moped] 0
 x_WedFri[D329,352D59,EBikeCart] 0
-x_WedFri[D329,352D59,FootBike] 0
+x_WedFri[D329,352D59,FootBike] 1
 x_WedFri[D295,352D59,Car] 0
 x_WedFri[D295,352D59,Moped] 0
 x_WedFri[D295,352D59,EBikeCart] 0
@@ -57764,7 +57764,7 @@ x_WedFri[D361,352D59,FootBike] 0
 x_WedFri[D329,352D60,Car] 0
 x_WedFri[D329,352D60,Moped] 0
 x_WedFri[D329,352D60,EBikeCart] 0
-x_WedFri[D329,352D60,FootBike] 0
+x_WedFri[D329,352D60,FootBike] 1
 x_WedFri[D295,352D60,Car] 0
 x_WedFri[D295,352D60,Moped] 0
 x_WedFri[D295,352D60,EBikeCart] 0
@@ -57844,7 +57844,7 @@ x_WedFri[D398,352D60,FootBike] 0
 x_WedFri[D329,352D63,Car] 0
 x_WedFri[D329,352D63,Moped] 0
 x_WedFri[D329,352D63,EBikeCart] 0
-x_WedFri[D329,352D63,FootBike] 0
+x_WedFri[D329,352D63,FootBike] 1
 x_WedFri[D295,352D63,Car] 0
 x_WedFri[D295,352D63,Moped] 0
 x_WedFri[D295,352D63,EBikeCart] 0
@@ -57928,7 +57928,7 @@ x_WedFri[D295,352D64,FootBike] 0
 x_WedFri[D329,352D64,Car] 0
 x_WedFri[D329,352D64,Moped] 0
 x_WedFri[D329,352D64,EBikeCart] 0
-x_WedFri[D329,352D64,FootBike] 0
+x_WedFri[D329,352D64,FootBike] 1
 x_WedFri[D296,352D64,Car] 0
 x_WedFri[D296,352D64,Moped] 0
 x_WedFri[D296,352D64,EBikeCart] 0
@@ -58004,7 +58004,7 @@ x_WedFri[D365,352D64,FootBike] 0
 x_WedFri[D294,352D67,Car] 0
 x_WedFri[D294,352D67,Moped] 0
 x_WedFri[D294,352D67,EBikeCart] 0
-x_WedFri[D294,352D67,FootBike] 0
+x_WedFri[D294,352D67,FootBike] 1
 x_WedFri[D328,352D67,Car] 0
 x_WedFri[D328,352D67,Moped] 0
 x_WedFri[D328,352D67,EBikeCart] 0
@@ -58084,7 +58084,7 @@ x_WedFri[D364,352D67,FootBike] 0
 x_WedFri[D294,352D68,Car] 0
 x_WedFri[D294,352D68,Moped] 0
 x_WedFri[D294,352D68,EBikeCart] 0
-x_WedFri[D294,352D68,FootBike] 0
+x_WedFri[D294,352D68,FootBike] 1
 x_WedFri[D328,352D68,Car] 0
 x_WedFri[D328,352D68,Moped] 0
 x_WedFri[D328,352D68,EBikeCart] 0
@@ -58164,7 +58164,7 @@ x_WedFri[D396,352D68,FootBike] 0
 x_WedFri[D328,352D71,Car] 0
 x_WedFri[D328,352D71,Moped] 0
 x_WedFri[D328,352D71,EBikeCart] 0
-x_WedFri[D328,352D71,FootBike] 0
+x_WedFri[D328,352D71,FootBike] 1
 x_WedFri[D294,352D71,Car] 0
 x_WedFri[D294,352D71,Moped] 0
 x_WedFri[D294,352D71,EBikeCart] 0
@@ -58244,7 +58244,7 @@ x_WedFri[D360,352D71,FootBike] 0
 x_WedFri[D328,352D72,Car] 0
 x_WedFri[D328,352D72,Moped] 0
 x_WedFri[D328,352D72,EBikeCart] 0
-x_WedFri[D328,352D72,FootBike] 0
+x_WedFri[D328,352D72,FootBike] 1
 x_WedFri[D294,352D72,Car] 0
 x_WedFri[D294,352D72,Moped] 0
 x_WedFri[D294,352D72,EBikeCart] 0
@@ -58324,7 +58324,7 @@ x_WedFri[D397,352D72,FootBike] 0
 x_WedFri[D328,353F01,Car] 0
 x_WedFri[D328,353F01,Moped] 0
 x_WedFri[D328,353F01,EBikeCart] 0
-x_WedFri[D328,353F01,FootBike] 0
+x_WedFri[D328,353F01,FootBike] 1
 x_WedFri[D294,353F01,Car] 0
 x_WedFri[D294,353F01,Moped] 0
 x_WedFri[D294,353F01,EBikeCart] 0
@@ -58404,7 +58404,7 @@ x_WedFri[D228,353F01,FootBike] 0
 x_WedFri[D294,353F03,Car] 0
 x_WedFri[D294,353F03,Moped] 0
 x_WedFri[D294,353F03,EBikeCart] 0
-x_WedFri[D294,353F03,FootBike] 0
+x_WedFri[D294,353F03,FootBike] 1
 x_WedFri[D293,353F03,Car] 0
 x_WedFri[D293,353F03,Moped] 0
 x_WedFri[D293,353F03,EBikeCart] 0
@@ -58488,7 +58488,7 @@ x_WedFri[D293,353F05,FootBike] 0
 x_WedFri[D327,353F05,Car] 0
 x_WedFri[D327,353F05,Moped] 0
 x_WedFri[D327,353F05,EBikeCart] 0
-x_WedFri[D327,353F05,FootBike] 0
+x_WedFri[D327,353F05,FootBike] 1
 x_WedFri[D294,353F05,Car] 0
 x_WedFri[D294,353F05,Moped] 0
 x_WedFri[D294,353F05,EBikeCart] 0
@@ -58564,7 +58564,7 @@ x_WedFri[D395,353F05,FootBike] 0
 x_WedFri[D327,353F06,Car] 0
 x_WedFri[D327,353F06,Moped] 0
 x_WedFri[D327,353F06,EBikeCart] 0
-x_WedFri[D327,353F06,FootBike] 0
+x_WedFri[D327,353F06,FootBike] 1
 x_WedFri[D328,353F06,Car] 0
 x_WedFri[D328,353F06,Moped] 0
 x_WedFri[D328,353F06,EBikeCart] 0
@@ -58644,7 +58644,7 @@ x_WedFri[D291,353F06,FootBike] 0
 x_WedFri[D328,353F07,Car] 0
 x_WedFri[D328,353F07,Moped] 0
 x_WedFri[D328,353F07,EBikeCart] 0
-x_WedFri[D328,353F07,FootBike] 0
+x_WedFri[D328,353F07,FootBike] 1
 x_WedFri[D327,353F07,Car] 0
 x_WedFri[D327,353F07,Moped] 0
 x_WedFri[D327,353F07,EBikeCart] 0
@@ -58724,7 +58724,7 @@ x_WedFri[D296,353F07,FootBike] 0
 x_WedFri[D328,353F09,Car] 0
 x_WedFri[D328,353F09,Moped] 0
 x_WedFri[D328,353F09,EBikeCart] 0
-x_WedFri[D328,353F09,FootBike] 0
+x_WedFri[D328,353F09,FootBike] 1
 x_WedFri[D327,353F09,Car] 0
 x_WedFri[D327,353F09,Moped] 0
 x_WedFri[D327,353F09,EBikeCart] 0
@@ -58804,7 +58804,7 @@ x_WedFri[D397,353F09,FootBike] 0
 x_WedFri[D328,353F35,Car] 0
 x_WedFri[D328,353F35,Moped] 0
 x_WedFri[D328,353F35,EBikeCart] 0
-x_WedFri[D328,353F35,FootBike] 0
+x_WedFri[D328,353F35,FootBike] 1
 x_WedFri[D294,353F35,Car] 0
 x_WedFri[D294,353F35,Moped] 0
 x_WedFri[D294,353F35,EBikeCart] 0
@@ -58884,7 +58884,7 @@ x_WedFri[D364,353F35,FootBike] 0
 x_WedFri[D328,353F37,Car] 0
 x_WedFri[D328,353F37,Moped] 0
 x_WedFri[D328,353F37,EBikeCart] 0
-x_WedFri[D328,353F37,FootBike] 0
+x_WedFri[D328,353F37,FootBike] 1
 x_WedFri[D294,353F37,Car] 0
 x_WedFri[D294,353F37,Moped] 0
 x_WedFri[D294,353F37,EBikeCart] 0
@@ -58964,7 +58964,7 @@ x_WedFri[D364,353F37,FootBike] 0
 x_WedFri[D328,353F39,Car] 0
 x_WedFri[D328,353F39,Moped] 0
 x_WedFri[D328,353F39,EBikeCart] 0
-x_WedFri[D328,353F39,FootBike] 0
+x_WedFri[D328,353F39,FootBike] 1
 x_WedFri[D294,353F39,Car] 0
 x_WedFri[D294,353F39,Moped] 0
 x_WedFri[D294,353F39,EBikeCart] 0
@@ -59044,7 +59044,7 @@ x_WedFri[D395,353F39,FootBike] 0
 x_WedFri[D260,354F01,Car] 0
 x_WedFri[D260,354F01,Moped] 0
 x_WedFri[D260,354F01,EBikeCart] 0
-x_WedFri[D260,354F01,FootBike] 0
+x_WedFri[D260,354F01,FootBike] 1
 x_WedFri[D261,354F01,Car] 0
 x_WedFri[D261,354F01,Moped] 0
 x_WedFri[D261,354F01,EBikeCart] 0
@@ -59124,7 +59124,7 @@ x_WedFri[D225,354F01,FootBike] 0
 x_WedFri[D260,354F03,Car] 0
 x_WedFri[D260,354F03,Moped] 0
 x_WedFri[D260,354F03,EBikeCart] 0
-x_WedFri[D260,354F03,FootBike] 0
+x_WedFri[D260,354F03,FootBike] 1
 x_WedFri[D261,354F03,Car] 0
 x_WedFri[D261,354F03,Moped] 0
 x_WedFri[D261,354F03,EBikeCart] 0
@@ -59208,7 +59208,7 @@ x_WedFri[D293,354F07,FootBike] 0
 x_WedFri[D260,354F07,Car] 0
 x_WedFri[D260,354F07,Moped] 0
 x_WedFri[D260,354F07,EBikeCart] 0
-x_WedFri[D260,354F07,FootBike] 0
+x_WedFri[D260,354F07,FootBike] 1
 x_WedFri[D294,354F07,Car] 0
 x_WedFri[D294,354F07,Moped] 0
 x_WedFri[D294,354F07,EBikeCart] 0
@@ -59284,7 +59284,7 @@ x_WedFri[D362,354F07,FootBike] 0
 x_WedFri[D260,354F09,Car] 0
 x_WedFri[D260,354F09,Moped] 0
 x_WedFri[D260,354F09,EBikeCart] 0
-x_WedFri[D260,354F09,FootBike] 0
+x_WedFri[D260,354F09,FootBike] 1
 x_WedFri[D293,354F09,Car] 0
 x_WedFri[D293,354F09,Moped] 0
 x_WedFri[D293,354F09,EBikeCart] 0
@@ -59364,7 +59364,7 @@ x_WedFri[D196,354F09,FootBike] 0
 x_WedFri[D260,354F11,Car] 0
 x_WedFri[D260,354F11,Moped] 0
 x_WedFri[D260,354F11,EBikeCart] 0
-x_WedFri[D260,354F11,FootBike] 0
+x_WedFri[D260,354F11,FootBike] 1
 x_WedFri[D293,354F11,Car] 0
 x_WedFri[D293,354F11,Moped] 0
 x_WedFri[D293,354F11,EBikeCart] 0
@@ -59444,7 +59444,7 @@ x_WedFri[D225,354F11,FootBike] 0
 x_WedFri[D260,354F13,Car] 0
 x_WedFri[D260,354F13,Moped] 0
 x_WedFri[D260,354F13,EBikeCart] 0
-x_WedFri[D260,354F13,FootBike] 0
+x_WedFri[D260,354F13,FootBike] 1
 x_WedFri[D261,354F13,Car] 0
 x_WedFri[D261,354F13,Moped] 0
 x_WedFri[D261,354F13,EBikeCart] 0
@@ -59524,7 +59524,7 @@ x_WedFri[D194,354F13,FootBike] 0
 x_WedFri[D260,354F15,Car] 0
 x_WedFri[D260,354F15,Moped] 0
 x_WedFri[D260,354F15,EBikeCart] 0
-x_WedFri[D260,354F15,FootBike] 0
+x_WedFri[D260,354F15,FootBike] 1
 x_WedFri[D293,354F15,Car] 0
 x_WedFri[D293,354F15,Moped] 0
 x_WedFri[D293,354F15,EBikeCart] 0
@@ -59604,7 +59604,7 @@ x_WedFri[D194,354F15,FootBike] 0
 x_WedFri[D260,354F17,Car] 0
 x_WedFri[D260,354F17,Moped] 0
 x_WedFri[D260,354F17,EBikeCart] 0
-x_WedFri[D260,354F17,FootBike] 0
+x_WedFri[D260,354F17,FootBike] 1
 x_WedFri[D259,354F17,Car] 0
 x_WedFri[D259,354F17,Moped] 0
 x_WedFri[D259,354F17,EBikeCart] 0
@@ -59692,7 +59692,7 @@ x_WedFri[D226,354F41,FootBike] 0
 x_WedFri[D260,354F41,Car] 0
 x_WedFri[D260,354F41,Moped] 0
 x_WedFri[D260,354F41,EBikeCart] 0
-x_WedFri[D260,354F41,FootBike] 0
+x_WedFri[D260,354F41,FootBike] 1
 x_WedFri[D227,354F41,Car] 0
 x_WedFri[D227,354F41,Moped] 0
 x_WedFri[D227,354F41,EBikeCart] 0
@@ -59772,7 +59772,7 @@ x_WedFri[D226,354F42,FootBike] 0
 x_WedFri[D260,354F42,Car] 0
 x_WedFri[D260,354F42,Moped] 0
 x_WedFri[D260,354F42,EBikeCart] 0
-x_WedFri[D260,354F42,FootBike] 0
+x_WedFri[D260,354F42,FootBike] 1
 x_WedFri[D227,354F42,Car] 0
 x_WedFri[D227,354F42,Moped] 0
 x_WedFri[D227,354F42,EBikeCart] 0
@@ -59852,7 +59852,7 @@ x_WedFri[D226,354F43,FootBike] 0
 x_WedFri[D258,354F43,Car] 0
 x_WedFri[D258,354F43,Moped] 0
 x_WedFri[D258,354F43,EBikeCart] 0
-x_WedFri[D258,354F43,FootBike] 0
+x_WedFri[D258,354F43,FootBike] 1
 x_WedFri[D260,354F43,Car] 0
 x_WedFri[D260,354F43,Moped] 0
 x_WedFri[D260,354F43,EBikeCart] 0
@@ -59928,7 +59928,7 @@ x_WedFri[D259,354F44,FootBike] 0
 x_WedFri[D258,354F44,Car] 0
 x_WedFri[D258,354F44,Moped] 0
 x_WedFri[D258,354F44,EBikeCart] 0
-x_WedFri[D258,354F44,FootBike] 0
+x_WedFri[D258,354F44,FootBike] 1
 x_WedFri[D226,354F44,Car] 0
 x_WedFri[D226,354F44,Moped] 0
 x_WedFri[D226,354F44,EBikeCart] 0
@@ -60008,7 +60008,7 @@ x_WedFri[D259,354F45,FootBike] 0
 x_WedFri[D258,354F45,Car] 0
 x_WedFri[D258,354F45,Moped] 0
 x_WedFri[D258,354F45,EBikeCart] 0
-x_WedFri[D258,354F45,FootBike] 0
+x_WedFri[D258,354F45,FootBike] 1
 x_WedFri[D226,354F45,Car] 0
 x_WedFri[D226,354F45,Moped] 0
 x_WedFri[D226,354F45,EBikeCart] 0
@@ -60084,7 +60084,7 @@ x_WedFri[D228,354F45,FootBike] 0
 x_WedFri[D258,354F46,Car] 0
 x_WedFri[D258,354F46,Moped] 0
 x_WedFri[D258,354F46,EBikeCart] 0
-x_WedFri[D258,354F46,FootBike] 0
+x_WedFri[D258,354F46,FootBike] 1
 x_WedFri[D259,354F46,Car] 0
 x_WedFri[D259,354F46,Moped] 0
 x_WedFri[D259,354F46,EBikeCart] 0
@@ -60168,7 +60168,7 @@ x_WedFri[D225,354F55,FootBike] 0
 x_WedFri[D258,354F55,Car] 0
 x_WedFri[D258,354F55,Moped] 0
 x_WedFri[D258,354F55,EBikeCart] 0
-x_WedFri[D258,354F55,FootBike] 0
+x_WedFri[D258,354F55,FootBike] 1
 x_WedFri[D226,354F55,Car] 0
 x_WedFri[D226,354F55,Moped] 0
 x_WedFri[D226,354F55,EBikeCart] 0
@@ -60244,7 +60244,7 @@ x_WedFri[D162,354F55,FootBike] 0
 x_WedFri[D258,354F56,Car] 0
 x_WedFri[D258,354F56,Moped] 0
 x_WedFri[D258,354F56,EBikeCart] 0
-x_WedFri[D258,354F56,FootBike] 0
+x_WedFri[D258,354F56,FootBike] 1
 x_WedFri[D225,354F56,Car] 0
 x_WedFri[D225,354F56,Moped] 0
 x_WedFri[D225,354F56,EBikeCart] 0
@@ -60328,7 +60328,7 @@ x_WedFri[D225,354F57,FootBike] 0
 x_WedFri[D258,354F57,Car] 0
 x_WedFri[D258,354F57,Moped] 0
 x_WedFri[D258,354F57,EBikeCart] 0
-x_WedFri[D258,354F57,FootBike] 0
+x_WedFri[D258,354F57,FootBike] 1
 x_WedFri[D226,354F57,Car] 0
 x_WedFri[D226,354F57,Moped] 0
 x_WedFri[D226,354F57,EBikeCart] 0
@@ -60408,7 +60408,7 @@ x_WedFri[D225,354F58,FootBike] 0
 x_WedFri[D258,354F58,Car] 0
 x_WedFri[D258,354F58,Moped] 0
 x_WedFri[D258,354F58,EBikeCart] 0
-x_WedFri[D258,354F58,FootBike] 0
+x_WedFri[D258,354F58,FootBike] 1
 x_WedFri[D226,354F58,Car] 0
 x_WedFri[D226,354F58,Moped] 0
 x_WedFri[D226,354F58,EBikeCart] 0
@@ -60488,7 +60488,7 @@ x_WedFri[D225,354F63,FootBike] 0
 x_WedFri[D258,354F63,Car] 0
 x_WedFri[D258,354F63,Moped] 0
 x_WedFri[D258,354F63,EBikeCart] 0
-x_WedFri[D258,354F63,FootBike] 0
+x_WedFri[D258,354F63,FootBike] 1
 x_WedFri[D226,354F63,Car] 0
 x_WedFri[D226,354F63,Moped] 0
 x_WedFri[D226,354F63,EBikeCart] 0
@@ -60568,7 +60568,7 @@ x_WedFri[D259,354J44,FootBike] 0
 x_WedFri[D258,354J44,Car] 0
 x_WedFri[D258,354J44,Moped] 0
 x_WedFri[D258,354J44,EBikeCart] 0
-x_WedFri[D258,354J44,FootBike] 0
+x_WedFri[D258,354J44,FootBike] 1
 x_WedFri[D226,354J44,Car] 0
 x_WedFri[D226,354J44,Moped] 0
 x_WedFri[D226,354J44,EBikeCart] 0
@@ -60648,7 +60648,7 @@ x_WedFri[D259,354J45,FootBike] 0
 x_WedFri[D258,354J45,Car] 0
 x_WedFri[D258,354J45,Moped] 0
 x_WedFri[D258,354J45,EBikeCart] 0
-x_WedFri[D258,354J45,FootBike] 0
+x_WedFri[D258,354J45,FootBike] 1
 x_WedFri[D226,354J45,Car] 0
 x_WedFri[D226,354J45,Moped] 0
 x_WedFri[D226,354J45,EBikeCart] 0
@@ -60728,7 +60728,7 @@ x_WedFri[D259,354J46,FootBike] 0
 x_WedFri[D258,354J46,Car] 0
 x_WedFri[D258,354J46,Moped] 0
 x_WedFri[D258,354J46,EBikeCart] 0
-x_WedFri[D258,354J46,FootBike] 0
+x_WedFri[D258,354J46,FootBike] 1
 x_WedFri[D226,354J46,Car] 0
 x_WedFri[D226,354J46,Moped] 0
 x_WedFri[D226,354J46,EBikeCart] 0
@@ -60812,7 +60812,7 @@ x_WedFri[D226,354J55,FootBike] 0
 x_WedFri[D258,354J55,Car] 0
 x_WedFri[D258,354J55,Moped] 0
 x_WedFri[D258,354J55,EBikeCart] 0
-x_WedFri[D258,354J55,FootBike] 0
+x_WedFri[D258,354J55,FootBike] 1
 x_WedFri[D259,354J55,Car] 0
 x_WedFri[D259,354J55,Moped] 0
 x_WedFri[D259,354J55,EBikeCart] 0
@@ -60899,7 +60899,7 @@ x_WedFri[D290,356B02,EBikeCart] 0
 x_WedFri[D290,356B02,FootBike] 0
 x_WedFri[D326,356B02,Car] 0
 x_WedFri[D326,356B02,Moped] 0
-x_WedFri[D326,356B02,EBikeCart] 0
+x_WedFri[D326,356B02,EBikeCart] 1
 x_WedFri[D326,356B02,FootBike] 0
 x_WedFri[D359,356B02,Car] 0
 x_WedFri[D359,356B02,Moped] 0
@@ -60962,7 +60962,7 @@ x_WedFri[D392,356B02,Moped] 0
 x_WedFri[D392,356B02,EBikeCart] 0
 x_WedFri[D392,356B02,FootBike] 0
 x_WedFri[D326,356C01,Car] 0
-x_WedFri[D326,356C01,Moped] 0
+x_WedFri[D326,356C01,Moped] 1
 x_WedFri[D326,356C01,EBikeCart] 0
 x_WedFri[D326,356C01,FootBike] 0
 x_WedFri[D292,356C01,Car] 0
@@ -60975,7 +60975,7 @@ x_WedFri[D325,356C01,EBikeCart] 0
 x_WedFri[D325,356C01,FootBike] 0
 x_WedFri[D327,356C01,Car] 0
 x_WedFri[D327,356C01,Moped] 0
-x_WedFri[D327,356C01,EBikeCart] 1
+x_WedFri[D327,356C01,EBikeCart] 0
 x_WedFri[D327,356C01,FootBike] 0
 x_WedFri[D291,356C01,Car] 0
 x_WedFri[D291,356C01,Moped] 0
@@ -61044,7 +61044,7 @@ x_WedFri[D393,356C01,FootBike] 0
 x_WedFri[D326,356C03,Car] 0
 x_WedFri[D326,356C03,Moped] 0
 x_WedFri[D326,356C03,EBikeCart] 0
-x_WedFri[D326,356C03,FootBike] 0
+x_WedFri[D326,356C03,FootBike] 1
 x_WedFri[D327,356C03,Car] 0
 x_WedFri[D327,356C03,Moped] 0
 x_WedFri[D327,356C03,EBikeCart] 0
@@ -61124,7 +61124,7 @@ x_WedFri[D393,356C03,FootBike] 0
 x_WedFri[D326,356C05,Car] 0
 x_WedFri[D326,356C05,Moped] 0
 x_WedFri[D326,356C05,EBikeCart] 0
-x_WedFri[D326,356C05,FootBike] 0
+x_WedFri[D326,356C05,FootBike] 1
 x_WedFri[D327,356C05,Car] 0
 x_WedFri[D327,356C05,Moped] 0
 x_WedFri[D327,356C05,EBikeCart] 0
@@ -61212,7 +61212,7 @@ x_WedFri[D293,356C09,FootBike] 0
 x_WedFri[D326,356C09,Car] 0
 x_WedFri[D326,356C09,Moped] 0
 x_WedFri[D326,356C09,EBikeCart] 0
-x_WedFri[D326,356C09,FootBike] 0
+x_WedFri[D326,356C09,FootBike] 1
 x_WedFri[D327,356C09,Car] 0
 x_WedFri[D327,356C09,Moped] 0
 x_WedFri[D327,356C09,EBikeCart] 0
@@ -61292,7 +61292,7 @@ x_WedFri[D293,356C11,FootBike] 0
 x_WedFri[D326,356C11,Car] 0
 x_WedFri[D326,356C11,Moped] 0
 x_WedFri[D326,356C11,EBikeCart] 0
-x_WedFri[D326,356C11,FootBike] 0
+x_WedFri[D326,356C11,FootBike] 1
 x_WedFri[D327,356C11,Car] 0
 x_WedFri[D327,356C11,Moped] 0
 x_WedFri[D327,356C11,EBikeCart] 0
@@ -61411,7 +61411,7 @@ x_WedFri[D357,356C15,EBikeCart] 0
 x_WedFri[D357,356C15,FootBike] 0
 x_WedFri[D258,356C15,Car] 0
 x_WedFri[D258,356C15,Moped] 0
-x_WedFri[D258,356C15,EBikeCart] 0
+x_WedFri[D258,356C15,EBikeCart] 1
 x_WedFri[D258,356C15,FootBike] 0
 x_WedFri[D255,356C15,Car] 0
 x_WedFri[D255,356C15,Moped] 0
@@ -61444,7 +61444,7 @@ x_WedFri[D287,356C15,FootBike] 0
 x_WedFri[D326,356D03,Car] 0
 x_WedFri[D326,356D03,Moped] 0
 x_WedFri[D326,356D03,EBikeCart] 0
-x_WedFri[D326,356D03,FootBike] 0
+x_WedFri[D326,356D03,FootBike] 1
 x_WedFri[D360,356D03,Car] 0
 x_WedFri[D360,356D03,Moped] 0
 x_WedFri[D360,356D03,EBikeCart] 0
@@ -61524,7 +61524,7 @@ x_WedFri[D258,356D03,FootBike] 0
 x_WedFri[D326,356D04,Car] 0
 x_WedFri[D326,356D04,Moped] 0
 x_WedFri[D326,356D04,EBikeCart] 0
-x_WedFri[D326,356D04,FootBike] 0
+x_WedFri[D326,356D04,FootBike] 1
 x_WedFri[D360,356D04,Car] 0
 x_WedFri[D360,356D04,Moped] 0
 x_WedFri[D360,356D04,EBikeCart] 0
@@ -61604,7 +61604,7 @@ x_WedFri[D260,356D04,FootBike] 0
 x_WedFri[D326,356D07,Car] 0
 x_WedFri[D326,356D07,Moped] 0
 x_WedFri[D326,356D07,EBikeCart] 0
-x_WedFri[D326,356D07,FootBike] 0
+x_WedFri[D326,356D07,FootBike] 1
 x_WedFri[D360,356D07,Car] 0
 x_WedFri[D360,356D07,Moped] 0
 x_WedFri[D360,356D07,EBikeCart] 0
@@ -61684,7 +61684,7 @@ x_WedFri[D290,356D07,FootBike] 0
 x_WedFri[D326,356D08,Car] 0
 x_WedFri[D326,356D08,Moped] 0
 x_WedFri[D326,356D08,EBikeCart] 0
-x_WedFri[D326,356D08,FootBike] 0
+x_WedFri[D326,356D08,FootBike] 1
 x_WedFri[D360,356D08,Car] 0
 x_WedFri[D360,356D08,Moped] 0
 x_WedFri[D360,356D08,EBikeCart] 0
@@ -61764,7 +61764,7 @@ x_WedFri[D290,356D08,FootBike] 0
 x_WedFri[D326,356D11,Car] 0
 x_WedFri[D326,356D11,Moped] 0
 x_WedFri[D326,356D11,EBikeCart] 0
-x_WedFri[D326,356D11,FootBike] 0
+x_WedFri[D326,356D11,FootBike] 1
 x_WedFri[D327,356D11,Car] 0
 x_WedFri[D327,356D11,Moped] 0
 x_WedFri[D327,356D11,EBikeCart] 0
@@ -61844,7 +61844,7 @@ x_WedFri[D358,356D11,FootBike] 0
 x_WedFri[D326,356D12,Car] 0
 x_WedFri[D326,356D12,Moped] 0
 x_WedFri[D326,356D12,EBikeCart] 0
-x_WedFri[D326,356D12,FootBike] 0
+x_WedFri[D326,356D12,FootBike] 1
 x_WedFri[D327,356D12,Car] 0
 x_WedFri[D327,356D12,Moped] 0
 x_WedFri[D327,356D12,EBikeCart] 0
@@ -61924,7 +61924,7 @@ x_WedFri[D290,356D12,FootBike] 0
 x_WedFri[D361,356D15,Car] 0
 x_WedFri[D361,356D15,Moped] 0
 x_WedFri[D361,356D15,EBikeCart] 0
-x_WedFri[D361,356D15,FootBike] 0
+x_WedFri[D361,356D15,FootBike] 1
 x_WedFri[D360,356D15,Car] 0
 x_WedFri[D360,356D15,Moped] 0
 x_WedFri[D360,356D15,EBikeCart] 0
@@ -62004,7 +62004,7 @@ x_WedFri[D397,356D15,FootBike] 0
 x_WedFri[D361,356D16,Car] 0
 x_WedFri[D361,356D16,Moped] 0
 x_WedFri[D361,356D16,EBikeCart] 0
-x_WedFri[D361,356D16,FootBike] 0
+x_WedFri[D361,356D16,FootBike] 1
 x_WedFri[D360,356D16,Car] 0
 x_WedFri[D360,356D16,Moped] 0
 x_WedFri[D360,356D16,EBikeCart] 0
@@ -62084,7 +62084,7 @@ x_WedFri[D397,356D16,FootBike] 0
 x_WedFri[D361,356D19,Car] 0
 x_WedFri[D361,356D19,Moped] 0
 x_WedFri[D361,356D19,EBikeCart] 0
-x_WedFri[D361,356D19,FootBike] 0
+x_WedFri[D361,356D19,FootBike] 1
 x_WedFri[D360,356D19,Car] 0
 x_WedFri[D360,356D19,Moped] 0
 x_WedFri[D360,356D19,EBikeCart] 0
@@ -62164,7 +62164,7 @@ x_WedFri[D329,356D19,FootBike] 0
 x_WedFri[D361,356D20,Car] 0
 x_WedFri[D361,356D20,Moped] 0
 x_WedFri[D361,356D20,EBikeCart] 0
-x_WedFri[D361,356D20,FootBike] 0
+x_WedFri[D361,356D20,FootBike] 1
 x_WedFri[D360,356D20,Car] 0
 x_WedFri[D360,356D20,Moped] 0
 x_WedFri[D360,356D20,EBikeCart] 0
@@ -62244,7 +62244,7 @@ x_WedFri[D397,356D20,FootBike] 0
 x_WedFri[D361,356D23,Car] 0
 x_WedFri[D361,356D23,Moped] 0
 x_WedFri[D361,356D23,EBikeCart] 0
-x_WedFri[D361,356D23,FootBike] 0
+x_WedFri[D361,356D23,FootBike] 1
 x_WedFri[D360,356D23,Car] 0
 x_WedFri[D360,356D23,Moped] 0
 x_WedFri[D360,356D23,EBikeCart] 0
@@ -62324,7 +62324,7 @@ x_WedFri[D430,356D23,FootBike] 0
 x_WedFri[D361,356D24,Car] 0
 x_WedFri[D361,356D24,Moped] 0
 x_WedFri[D361,356D24,EBikeCart] 0
-x_WedFri[D361,356D24,FootBike] 0
+x_WedFri[D361,356D24,FootBike] 1
 x_WedFri[D360,356D24,Car] 0
 x_WedFri[D360,356D24,Moped] 0
 x_WedFri[D360,356D24,EBikeCart] 0
@@ -62404,7 +62404,7 @@ x_WedFri[D291,356D24,FootBike] 0
 x_WedFri[D361,356D27,Car] 0
 x_WedFri[D361,356D27,Moped] 0
 x_WedFri[D361,356D27,EBikeCart] 0
-x_WedFri[D361,356D27,FootBike] 0
+x_WedFri[D361,356D27,FootBike] 1
 x_WedFri[D327,356D27,Car] 0
 x_WedFri[D327,356D27,Moped] 0
 x_WedFri[D327,356D27,EBikeCart] 0
@@ -62484,7 +62484,7 @@ x_WedFri[D291,356D27,FootBike] 0
 x_WedFri[D361,356D28,Car] 0
 x_WedFri[D361,356D28,Moped] 0
 x_WedFri[D361,356D28,EBikeCart] 0
-x_WedFri[D361,356D28,FootBike] 0
+x_WedFri[D361,356D28,FootBike] 1
 x_WedFri[D327,356D28,Car] 0
 x_WedFri[D327,356D28,Moped] 0
 x_WedFri[D327,356D28,EBikeCart] 0
@@ -62564,7 +62564,7 @@ x_WedFri[D397,356D28,FootBike] 0
 x_WedFri[D327,356D31,Car] 0
 x_WedFri[D327,356D31,Moped] 0
 x_WedFri[D327,356D31,EBikeCart] 0
-x_WedFri[D327,356D31,FootBike] 0
+x_WedFri[D327,356D31,FootBike] 1
 x_WedFri[D361,356D31,Car] 0
 x_WedFri[D361,356D31,Moped] 0
 x_WedFri[D361,356D31,EBikeCart] 0
@@ -62644,7 +62644,7 @@ x_WedFri[D291,356D31,FootBike] 0
 x_WedFri[D327,356D32,Car] 0
 x_WedFri[D327,356D32,Moped] 0
 x_WedFri[D327,356D32,EBikeCart] 0
-x_WedFri[D327,356D32,FootBike] 0
+x_WedFri[D327,356D32,FootBike] 1
 x_WedFri[D361,356D32,Car] 0
 x_WedFri[D361,356D32,Moped] 0
 x_WedFri[D361,356D32,EBikeCart] 0
@@ -62724,7 +62724,7 @@ x_WedFri[D261,356D32,FootBike] 0
 x_WedFri[D327,356D35,Car] 0
 x_WedFri[D327,356D35,Moped] 0
 x_WedFri[D327,356D35,EBikeCart] 0
-x_WedFri[D327,356D35,FootBike] 0
+x_WedFri[D327,356D35,FootBike] 1
 x_WedFri[D361,356D35,Car] 0
 x_WedFri[D361,356D35,Moped] 0
 x_WedFri[D361,356D35,EBikeCart] 0
@@ -62804,7 +62804,7 @@ x_WedFri[D259,356D35,FootBike] 0
 x_WedFri[D327,356D36,Car] 0
 x_WedFri[D327,356D36,Moped] 0
 x_WedFri[D327,356D36,EBikeCart] 0
-x_WedFri[D327,356D36,FootBike] 0
+x_WedFri[D327,356D36,FootBike] 1
 x_WedFri[D361,356D36,Car] 0
 x_WedFri[D361,356D36,Moped] 0
 x_WedFri[D361,356D36,EBikeCart] 0
@@ -62884,7 +62884,7 @@ x_WedFri[D259,356D36,FootBike] 0
 x_WedFri[D327,356D39,Car] 0
 x_WedFri[D327,356D39,Moped] 0
 x_WedFri[D327,356D39,EBikeCart] 0
-x_WedFri[D327,356D39,FootBike] 0
+x_WedFri[D327,356D39,FootBike] 1
 x_WedFri[D361,356D39,Car] 0
 x_WedFri[D361,356D39,Moped] 0
 x_WedFri[D361,356D39,EBikeCart] 0
@@ -62964,7 +62964,7 @@ x_WedFri[D291,356D39,FootBike] 0
 x_WedFri[D327,356D40,Car] 0
 x_WedFri[D327,356D40,Moped] 0
 x_WedFri[D327,356D40,EBikeCart] 0
-x_WedFri[D327,356D40,FootBike] 0
+x_WedFri[D327,356D40,FootBike] 1
 x_WedFri[D328,356D40,Car] 0
 x_WedFri[D328,356D40,Moped] 0
 x_WedFri[D328,356D40,EBikeCart] 0
@@ -63044,7 +63044,7 @@ x_WedFri[D259,356D40,FootBike] 0
 x_WedFri[D327,356D43,Car] 0
 x_WedFri[D327,356D43,Moped] 0
 x_WedFri[D327,356D43,EBikeCart] 0
-x_WedFri[D327,356D43,FootBike] 0
+x_WedFri[D327,356D43,FootBike] 1
 x_WedFri[D328,356D43,Car] 0
 x_WedFri[D328,356D43,Moped] 0
 x_WedFri[D328,356D43,EBikeCart] 0
@@ -63124,7 +63124,7 @@ x_WedFri[D359,356D43,FootBike] 0
 x_WedFri[D327,356D44,Car] 0
 x_WedFri[D327,356D44,Moped] 0
 x_WedFri[D327,356D44,EBikeCart] 0
-x_WedFri[D327,356D44,FootBike] 0
+x_WedFri[D327,356D44,FootBike] 1
 x_WedFri[D328,356D44,Car] 0
 x_WedFri[D328,356D44,Moped] 0
 x_WedFri[D328,356D44,EBikeCart] 0
@@ -63204,7 +63204,7 @@ x_WedFri[D359,356D44,FootBike] 0
 x_WedFri[D327,356D47,Car] 0
 x_WedFri[D327,356D47,Moped] 0
 x_WedFri[D327,356D47,EBikeCart] 0
-x_WedFri[D327,356D47,FootBike] 0
+x_WedFri[D327,356D47,FootBike] 1
 x_WedFri[D328,356D47,Car] 0
 x_WedFri[D328,356D47,Moped] 0
 x_WedFri[D328,356D47,EBikeCart] 0
@@ -63284,7 +63284,7 @@ x_WedFri[D330,356D47,FootBike] 0
 x_WedFri[D327,356D48,Car] 0
 x_WedFri[D327,356D48,Moped] 0
 x_WedFri[D327,356D48,EBikeCart] 0
-x_WedFri[D327,356D48,FootBike] 0
+x_WedFri[D327,356D48,FootBike] 1
 x_WedFri[D328,356D48,Car] 0
 x_WedFri[D328,356D48,Moped] 0
 x_WedFri[D328,356D48,EBikeCart] 0
@@ -63364,7 +63364,7 @@ x_WedFri[D259,356D48,FootBike] 0
 x_WedFri[D327,356D51,Car] 0
 x_WedFri[D327,356D51,Moped] 0
 x_WedFri[D327,356D51,EBikeCart] 0
-x_WedFri[D327,356D51,FootBike] 0
+x_WedFri[D327,356D51,FootBike] 1
 x_WedFri[D328,356D51,Car] 0
 x_WedFri[D328,356D51,Moped] 0
 x_WedFri[D328,356D51,EBikeCart] 0
@@ -63444,7 +63444,7 @@ x_WedFri[D359,356D51,FootBike] 0
 x_WedFri[D327,356D52,Car] 0
 x_WedFri[D327,356D52,Moped] 0
 x_WedFri[D327,356D52,EBikeCart] 0
-x_WedFri[D327,356D52,FootBike] 0
+x_WedFri[D327,356D52,FootBike] 1
 x_WedFri[D328,356D52,Car] 0
 x_WedFri[D328,356D52,Moped] 0
 x_WedFri[D328,356D52,EBikeCart] 0
@@ -63524,7 +63524,7 @@ x_WedFri[D291,356D52,FootBike] 0
 x_WedFri[D327,356D55,Car] 0
 x_WedFri[D327,356D55,Moped] 0
 x_WedFri[D327,356D55,EBikeCart] 0
-x_WedFri[D327,356D55,FootBike] 0
+x_WedFri[D327,356D55,FootBike] 1
 x_WedFri[D328,356D55,Car] 0
 x_WedFri[D328,356D55,Moped] 0
 x_WedFri[D328,356D55,EBikeCart] 0
@@ -63604,7 +63604,7 @@ x_WedFri[D291,356D55,FootBike] 0
 x_WedFri[D327,356D56,Car] 0
 x_WedFri[D327,356D56,Moped] 0
 x_WedFri[D327,356D56,EBikeCart] 0
-x_WedFri[D327,356D56,FootBike] 0
+x_WedFri[D327,356D56,FootBike] 1
 x_WedFri[D328,356D56,Car] 0
 x_WedFri[D328,356D56,Moped] 0
 x_WedFri[D328,356D56,EBikeCart] 0
@@ -63692,7 +63692,7 @@ x_WedFri[D292,356D59,FootBike] 0
 x_WedFri[D327,356D59,Car] 0
 x_WedFri[D327,356D59,Moped] 0
 x_WedFri[D327,356D59,EBikeCart] 0
-x_WedFri[D327,356D59,FootBike] 0
+x_WedFri[D327,356D59,FootBike] 1
 x_WedFri[D326,356D59,Car] 0
 x_WedFri[D326,356D59,Moped] 0
 x_WedFri[D326,356D59,EBikeCart] 0
@@ -63772,7 +63772,7 @@ x_WedFri[D292,356D60,FootBike] 0
 x_WedFri[D327,356D60,Car] 0
 x_WedFri[D327,356D60,Moped] 0
 x_WedFri[D327,356D60,EBikeCart] 0
-x_WedFri[D327,356D60,FootBike] 0
+x_WedFri[D327,356D60,FootBike] 1
 x_WedFri[D326,356D60,Car] 0
 x_WedFri[D326,356D60,Moped] 0
 x_WedFri[D326,356D60,EBikeCart] 0
@@ -63852,7 +63852,7 @@ x_WedFri[D293,356D63,FootBike] 0
 x_WedFri[D326,356D63,Car] 0
 x_WedFri[D326,356D63,Moped] 0
 x_WedFri[D326,356D63,EBikeCart] 0
-x_WedFri[D326,356D63,FootBike] 0
+x_WedFri[D326,356D63,FootBike] 1
 x_WedFri[D327,356D63,Car] 0
 x_WedFri[D327,356D63,Moped] 0
 x_WedFri[D327,356D63,EBikeCart] 0
@@ -63932,7 +63932,7 @@ x_WedFri[D293,356D64,FootBike] 0
 x_WedFri[D326,356D64,Car] 0
 x_WedFri[D326,356D64,Moped] 0
 x_WedFri[D326,356D64,EBikeCart] 0
-x_WedFri[D326,356D64,FootBike] 0
+x_WedFri[D326,356D64,FootBike] 1
 x_WedFri[D327,356D64,Car] 0
 x_WedFri[D327,356D64,Moped] 0
 x_WedFri[D327,356D64,EBikeCart] 0
@@ -64004,7 +64004,7 @@ x_WedFri[D324,356D64,FootBike] 0
 x_WedFri[D361,356D67,Car] 0
 x_WedFri[D361,356D67,Moped] 0
 x_WedFri[D361,356D67,EBikeCart] 0
-x_WedFri[D361,356D67,FootBike] 0
+x_WedFri[D361,356D67,FootBike] 1
 x_WedFri[D360,356D67,Car] 0
 x_WedFri[D360,356D67,Moped] 0
 x_WedFri[D360,356D67,EBikeCart] 0
@@ -64084,7 +64084,7 @@ x_WedFri[D397,356D67,FootBike] 0
 x_WedFri[D361,356D68,Car] 0
 x_WedFri[D361,356D68,Moped] 0
 x_WedFri[D361,356D68,EBikeCart] 0
-x_WedFri[D361,356D68,FootBike] 0
+x_WedFri[D361,356D68,FootBike] 1
 x_WedFri[D327,356D68,Car] 0
 x_WedFri[D327,356D68,Moped] 0
 x_WedFri[D327,356D68,EBikeCart] 0
@@ -64164,7 +64164,7 @@ x_WedFri[D428,356D68,FootBike] 0
 x_WedFri[D361,356D71,Car] 0
 x_WedFri[D361,356D71,Moped] 0
 x_WedFri[D361,356D71,EBikeCart] 0
-x_WedFri[D361,356D71,FootBike] 0
+x_WedFri[D361,356D71,FootBike] 1
 x_WedFri[D327,356D71,Car] 0
 x_WedFri[D327,356D71,Moped] 0
 x_WedFri[D327,356D71,EBikeCart] 0
@@ -64244,7 +64244,7 @@ x_WedFri[D393,356D71,FootBike] 0
 x_WedFri[D361,356D72,Car] 0
 x_WedFri[D361,356D72,Moped] 0
 x_WedFri[D361,356D72,EBikeCart] 0
-x_WedFri[D361,356D72,FootBike] 0
+x_WedFri[D361,356D72,FootBike] 1
 x_WedFri[D327,356D72,Car] 0
 x_WedFri[D327,356D72,Moped] 0
 x_WedFri[D327,356D72,EBikeCart] 0
@@ -64324,7 +64324,7 @@ x_WedFri[D430,356D72,FootBike] 0
 x_WedFri[D361,357F01,Car] 0
 x_WedFri[D361,357F01,Moped] 0
 x_WedFri[D361,357F01,EBikeCart] 0
-x_WedFri[D361,357F01,FootBike] 0
+x_WedFri[D361,357F01,FootBike] 1
 x_WedFri[D395,357F01,Car] 0
 x_WedFri[D395,357F01,Moped] 0
 x_WedFri[D395,357F01,EBikeCart] 0
@@ -64404,7 +64404,7 @@ x_WedFri[D294,357F01,FootBike] 0
 x_WedFri[D361,357F02,Car] 0
 x_WedFri[D361,357F02,Moped] 0
 x_WedFri[D361,357F02,EBikeCart] 0
-x_WedFri[D361,357F02,FootBike] 0
+x_WedFri[D361,357F02,FootBike] 1
 x_WedFri[D395,357F02,Car] 0
 x_WedFri[D395,357F02,Moped] 0
 x_WedFri[D395,357F02,EBikeCart] 0
@@ -64484,7 +64484,7 @@ x_WedFri[D292,357F02,FootBike] 0
 x_WedFri[D361,357F03,Car] 0
 x_WedFri[D361,357F03,Moped] 0
 x_WedFri[D361,357F03,EBikeCart] 0
-x_WedFri[D361,357F03,FootBike] 0
+x_WedFri[D361,357F03,FootBike] 1
 x_WedFri[D395,357F03,Car] 0
 x_WedFri[D395,357F03,Moped] 0
 x_WedFri[D395,357F03,EBikeCart] 0
@@ -64564,7 +64564,7 @@ x_WedFri[D294,357F03,FootBike] 0
 x_WedFri[D361,357J03,Car] 0
 x_WedFri[D361,357J03,Moped] 0
 x_WedFri[D361,357J03,EBikeCart] 0
-x_WedFri[D361,357J03,FootBike] 0
+x_WedFri[D361,357J03,FootBike] 1
 x_WedFri[D395,357J03,Car] 0
 x_WedFri[D395,357J03,Moped] 0
 x_WedFri[D395,357J03,EBikeCart] 0
@@ -64656,7 +64656,7 @@ x_WedFri[D430,358C03,FootBike] 0
 x_WedFri[D362,358C03,Car] 0
 x_WedFri[D362,358C03,Moped] 0
 x_WedFri[D362,358C03,EBikeCart] 0
-x_WedFri[D362,358C03,FootBike] 0
+x_WedFri[D362,358C03,FootBike] 1
 x_WedFri[D431,358C03,Car] 0
 x_WedFri[D431,358C03,Moped] 0
 x_WedFri[D431,358C03,EBikeCart] 0
@@ -64731,7 +64731,7 @@ x_WedFri[D397,358C05,EBikeCart] 0
 x_WedFri[D397,358C05,FootBike] 0
 x_WedFri[D362,358C05,Car] 0
 x_WedFri[D362,358C05,Moped] 0
-x_WedFri[D362,358C05,EBikeCart] 0
+x_WedFri[D362,358C05,EBikeCart] 1
 x_WedFri[D362,358C05,FootBike] 0
 x_WedFri[D363,358C05,Car] 0
 x_WedFri[D363,358C05,Moped] 0
@@ -64804,7 +64804,7 @@ x_WedFri[D399,358C05,FootBike] 0
 x_WedFri[D363,358C11,Car] 0
 x_WedFri[D363,358C11,Moped] 0
 x_WedFri[D363,358C11,EBikeCart] 0
-x_WedFri[D363,358C11,FootBike] 0
+x_WedFri[D363,358C11,FootBike] 1
 x_WedFri[D362,358C11,Car] 0
 x_WedFri[D362,358C11,Moped] 0
 x_WedFri[D362,358C11,EBikeCart] 0
@@ -64884,7 +64884,7 @@ x_WedFri[D360,358C11,FootBike] 0
 x_WedFri[D362,358D03,Car] 0
 x_WedFri[D362,358D03,Moped] 0
 x_WedFri[D362,358D03,EBikeCart] 0
-x_WedFri[D362,358D03,FootBike] 0
+x_WedFri[D362,358D03,FootBike] 1
 x_WedFri[D363,358D03,Car] 0
 x_WedFri[D363,358D03,Moped] 0
 x_WedFri[D363,358D03,EBikeCart] 0
@@ -64964,7 +64964,7 @@ x_WedFri[D365,358D03,FootBike] 0
 x_WedFri[D362,358D04,Car] 0
 x_WedFri[D362,358D04,Moped] 0
 x_WedFri[D362,358D04,EBikeCart] 0
-x_WedFri[D362,358D04,FootBike] 0
+x_WedFri[D362,358D04,FootBike] 1
 x_WedFri[D363,358D04,Car] 0
 x_WedFri[D363,358D04,Moped] 0
 x_WedFri[D363,358D04,EBikeCart] 0
@@ -65044,7 +65044,7 @@ x_WedFri[D293,358D04,FootBike] 0
 x_WedFri[D362,358D07,Car] 0
 x_WedFri[D362,358D07,Moped] 0
 x_WedFri[D362,358D07,EBikeCart] 0
-x_WedFri[D362,358D07,FootBike] 0
+x_WedFri[D362,358D07,FootBike] 1
 x_WedFri[D363,358D07,Car] 0
 x_WedFri[D363,358D07,Moped] 0
 x_WedFri[D363,358D07,EBikeCart] 0
@@ -65124,7 +65124,7 @@ x_WedFri[D326,358D07,FootBike] 0
 x_WedFri[D362,358D08,Car] 0
 x_WedFri[D362,358D08,Moped] 0
 x_WedFri[D362,358D08,EBikeCart] 0
-x_WedFri[D362,358D08,FootBike] 0
+x_WedFri[D362,358D08,FootBike] 1
 x_WedFri[D363,358D08,Car] 0
 x_WedFri[D363,358D08,Moped] 0
 x_WedFri[D363,358D08,EBikeCart] 0
@@ -65204,7 +65204,7 @@ x_WedFri[D326,358D08,FootBike] 0
 x_WedFri[D362,358D11,Car] 0
 x_WedFri[D362,358D11,Moped] 0
 x_WedFri[D362,358D11,EBikeCart] 0
-x_WedFri[D362,358D11,FootBike] 0
+x_WedFri[D362,358D11,FootBike] 1
 x_WedFri[D328,358D11,Car] 0
 x_WedFri[D328,358D11,Moped] 0
 x_WedFri[D328,358D11,EBikeCart] 0
@@ -65284,7 +65284,7 @@ x_WedFri[D394,358D11,FootBike] 0
 x_WedFri[D362,358D12,Car] 0
 x_WedFri[D362,358D12,Moped] 0
 x_WedFri[D362,358D12,EBikeCart] 0
-x_WedFri[D362,358D12,FootBike] 0
+x_WedFri[D362,358D12,FootBike] 1
 x_WedFri[D328,358D12,Car] 0
 x_WedFri[D328,358D12,Moped] 0
 x_WedFri[D328,358D12,EBikeCart] 0
@@ -65364,7 +65364,7 @@ x_WedFri[D431,358D12,FootBike] 0
 x_WedFri[D362,358D15,Car] 0
 x_WedFri[D362,358D15,Moped] 0
 x_WedFri[D362,358D15,EBikeCart] 0
-x_WedFri[D362,358D15,FootBike] 0
+x_WedFri[D362,358D15,FootBike] 1
 x_WedFri[D363,358D15,Car] 0
 x_WedFri[D363,358D15,Moped] 0
 x_WedFri[D363,358D15,EBikeCart] 0
@@ -65444,7 +65444,7 @@ x_WedFri[D296,358D15,FootBike] 0
 x_WedFri[D362,358D16,Car] 0
 x_WedFri[D362,358D16,Moped] 0
 x_WedFri[D362,358D16,EBikeCart] 0
-x_WedFri[D362,358D16,FootBike] 0
+x_WedFri[D362,358D16,FootBike] 1
 x_WedFri[D363,358D16,Car] 0
 x_WedFri[D363,358D16,Moped] 0
 x_WedFri[D363,358D16,EBikeCart] 0
@@ -65524,7 +65524,7 @@ x_WedFri[D326,358D16,FootBike] 0
 x_WedFri[D362,358D19,Car] 0
 x_WedFri[D362,358D19,Moped] 0
 x_WedFri[D362,358D19,EBikeCart] 0
-x_WedFri[D362,358D19,FootBike] 0
+x_WedFri[D362,358D19,FootBike] 1
 x_WedFri[D363,358D19,Car] 0
 x_WedFri[D363,358D19,Moped] 0
 x_WedFri[D363,358D19,EBikeCart] 0
@@ -65604,7 +65604,7 @@ x_WedFri[D326,358D19,FootBike] 0
 x_WedFri[D362,358D20,Car] 0
 x_WedFri[D362,358D20,Moped] 0
 x_WedFri[D362,358D20,EBikeCart] 0
-x_WedFri[D362,358D20,FootBike] 0
+x_WedFri[D362,358D20,FootBike] 1
 x_WedFri[D363,358D20,Car] 0
 x_WedFri[D363,358D20,Moped] 0
 x_WedFri[D363,358D20,EBikeCart] 0
@@ -65684,7 +65684,7 @@ x_WedFri[D429,358D20,FootBike] 0
 x_WedFri[D361,358D23,Car] 0
 x_WedFri[D361,358D23,Moped] 0
 x_WedFri[D361,358D23,EBikeCart] 0
-x_WedFri[D361,358D23,FootBike] 0
+x_WedFri[D361,358D23,FootBike] 1
 x_WedFri[D362,358D23,Car] 0
 x_WedFri[D362,358D23,Moped] 0
 x_WedFri[D362,358D23,EBikeCart] 0
@@ -65764,7 +65764,7 @@ x_WedFri[D393,358D23,FootBike] 0
 x_WedFri[D361,358D24,Car] 0
 x_WedFri[D361,358D24,Moped] 0
 x_WedFri[D361,358D24,EBikeCart] 0
-x_WedFri[D361,358D24,FootBike] 0
+x_WedFri[D361,358D24,FootBike] 1
 x_WedFri[D362,358D24,Car] 0
 x_WedFri[D362,358D24,Moped] 0
 x_WedFri[D362,358D24,EBikeCart] 0
@@ -65844,7 +65844,7 @@ x_WedFri[D393,358D24,FootBike] 0
 x_WedFri[D361,358D27,Car] 0
 x_WedFri[D361,358D27,Moped] 0
 x_WedFri[D361,358D27,EBikeCart] 0
-x_WedFri[D361,358D27,FootBike] 0
+x_WedFri[D361,358D27,FootBike] 1
 x_WedFri[D362,358D27,Car] 0
 x_WedFri[D362,358D27,Moped] 0
 x_WedFri[D362,358D27,EBikeCart] 0
@@ -65928,7 +65928,7 @@ x_WedFri[D395,358D28,FootBike] 0
 x_WedFri[D361,358D28,Car] 0
 x_WedFri[D361,358D28,Moped] 0
 x_WedFri[D361,358D28,EBikeCart] 0
-x_WedFri[D361,358D28,FootBike] 0
+x_WedFri[D361,358D28,FootBike] 1
 x_WedFri[D396,358D28,Car] 0
 x_WedFri[D396,358D28,Moped] 0
 x_WedFri[D396,358D28,EBikeCart] 0
@@ -66004,7 +66004,7 @@ x_WedFri[D464,358D28,FootBike] 0
 x_WedFri[D362,358D31,Car] 0
 x_WedFri[D362,358D31,Moped] 0
 x_WedFri[D362,358D31,EBikeCart] 0
-x_WedFri[D362,358D31,FootBike] 0
+x_WedFri[D362,358D31,FootBike] 1
 x_WedFri[D396,358D31,Car] 0
 x_WedFri[D396,358D31,Moped] 0
 x_WedFri[D396,358D31,EBikeCart] 0
@@ -66084,7 +66084,7 @@ x_WedFri[D326,358D31,FootBike] 0
 x_WedFri[D362,358D32,Car] 0
 x_WedFri[D362,358D32,Moped] 0
 x_WedFri[D362,358D32,EBikeCart] 0
-x_WedFri[D362,358D32,FootBike] 0
+x_WedFri[D362,358D32,FootBike] 1
 x_WedFri[D396,358D32,Car] 0
 x_WedFri[D396,358D32,Moped] 0
 x_WedFri[D396,358D32,EBikeCart] 0
@@ -66164,7 +66164,7 @@ x_WedFri[D432,358D32,FootBike] 0
 x_WedFri[D362,358D35,Car] 0
 x_WedFri[D362,358D35,Moped] 0
 x_WedFri[D362,358D35,EBikeCart] 0
-x_WedFri[D362,358D35,FootBike] 0
+x_WedFri[D362,358D35,FootBike] 1
 x_WedFri[D396,358D35,Car] 0
 x_WedFri[D396,358D35,Moped] 0
 x_WedFri[D396,358D35,EBikeCart] 0
@@ -66244,7 +66244,7 @@ x_WedFri[D295,358D35,FootBike] 0
 x_WedFri[D362,358D36,Car] 0
 x_WedFri[D362,358D36,Moped] 0
 x_WedFri[D362,358D36,EBikeCart] 0
-x_WedFri[D362,358D36,FootBike] 0
+x_WedFri[D362,358D36,FootBike] 1
 x_WedFri[D396,358D36,Car] 0
 x_WedFri[D396,358D36,Moped] 0
 x_WedFri[D396,358D36,EBikeCart] 0
@@ -66324,7 +66324,7 @@ x_WedFri[D295,358D36,FootBike] 0
 x_WedFri[D362,358D39,Car] 0
 x_WedFri[D362,358D39,Moped] 0
 x_WedFri[D362,358D39,EBikeCart] 0
-x_WedFri[D362,358D39,FootBike] 0
+x_WedFri[D362,358D39,FootBike] 1
 x_WedFri[D396,358D39,Car] 0
 x_WedFri[D396,358D39,Moped] 0
 x_WedFri[D396,358D39,EBikeCart] 0
@@ -66404,7 +66404,7 @@ x_WedFri[D432,358D39,FootBike] 0
 x_WedFri[D362,358D40,Car] 0
 x_WedFri[D362,358D40,Moped] 0
 x_WedFri[D362,358D40,EBikeCart] 0
-x_WedFri[D362,358D40,FootBike] 0
+x_WedFri[D362,358D40,FootBike] 1
 x_WedFri[D396,358D40,Car] 0
 x_WedFri[D396,358D40,Moped] 0
 x_WedFri[D396,358D40,EBikeCart] 0
@@ -66484,7 +66484,7 @@ x_WedFri[D326,358D40,FootBike] 0
 x_WedFri[D363,358D43,Car] 0
 x_WedFri[D363,358D43,Moped] 0
 x_WedFri[D363,358D43,EBikeCart] 0
-x_WedFri[D363,358D43,FootBike] 0
+x_WedFri[D363,358D43,FootBike] 1
 x_WedFri[D362,358D43,Car] 0
 x_WedFri[D362,358D43,Moped] 0
 x_WedFri[D362,358D43,EBikeCart] 0
@@ -66564,7 +66564,7 @@ x_WedFri[D360,358D43,FootBike] 0
 x_WedFri[D362,358D44,Car] 0
 x_WedFri[D362,358D44,Moped] 0
 x_WedFri[D362,358D44,EBikeCart] 0
-x_WedFri[D362,358D44,FootBike] 0
+x_WedFri[D362,358D44,FootBike] 1
 x_WedFri[D363,358D44,Car] 0
 x_WedFri[D363,358D44,Moped] 0
 x_WedFri[D363,358D44,EBikeCart] 0
@@ -66644,7 +66644,7 @@ x_WedFri[D365,358D44,FootBike] 0
 x_WedFri[D362,358D47,Car] 0
 x_WedFri[D362,358D47,Moped] 0
 x_WedFri[D362,358D47,EBikeCart] 0
-x_WedFri[D362,358D47,FootBike] 0
+x_WedFri[D362,358D47,FootBike] 1
 x_WedFri[D363,358D47,Car] 0
 x_WedFri[D363,358D47,Moped] 0
 x_WedFri[D363,358D47,EBikeCart] 0
@@ -66728,7 +66728,7 @@ x_WedFri[D396,358D48,FootBike] 0
 x_WedFri[D362,358D48,Car] 0
 x_WedFri[D362,358D48,Moped] 0
 x_WedFri[D362,358D48,EBikeCart] 0
-x_WedFri[D362,358D48,FootBike] 0
+x_WedFri[D362,358D48,FootBike] 1
 x_WedFri[D397,358D48,Car] 0
 x_WedFri[D397,358D48,Moped] 0
 x_WedFri[D397,358D48,EBikeCart] 0
@@ -66808,7 +66808,7 @@ x_WedFri[D396,358D51,FootBike] 0
 x_WedFri[D362,358D51,Car] 0
 x_WedFri[D362,358D51,Moped] 0
 x_WedFri[D362,358D51,EBikeCart] 0
-x_WedFri[D362,358D51,FootBike] 0
+x_WedFri[D362,358D51,FootBike] 1
 x_WedFri[D397,358D51,Car] 0
 x_WedFri[D397,358D51,Moped] 0
 x_WedFri[D397,358D51,EBikeCart] 0
@@ -66888,7 +66888,7 @@ x_WedFri[D396,358D52,FootBike] 0
 x_WedFri[D362,358D52,Car] 0
 x_WedFri[D362,358D52,Moped] 0
 x_WedFri[D362,358D52,EBikeCart] 0
-x_WedFri[D362,358D52,FootBike] 0
+x_WedFri[D362,358D52,FootBike] 1
 x_WedFri[D397,358D52,Car] 0
 x_WedFri[D397,358D52,Moped] 0
 x_WedFri[D397,358D52,EBikeCart] 0
@@ -66968,7 +66968,7 @@ x_WedFri[D396,358D55,FootBike] 0
 x_WedFri[D362,358D55,Car] 0
 x_WedFri[D362,358D55,Moped] 0
 x_WedFri[D362,358D55,EBikeCart] 0
-x_WedFri[D362,358D55,FootBike] 0
+x_WedFri[D362,358D55,FootBike] 1
 x_WedFri[D397,358D55,Car] 0
 x_WedFri[D397,358D55,Moped] 0
 x_WedFri[D397,358D55,EBikeCart] 0
@@ -67048,7 +67048,7 @@ x_WedFri[D396,358D56,FootBike] 0
 x_WedFri[D362,358D56,Car] 0
 x_WedFri[D362,358D56,Moped] 0
 x_WedFri[D362,358D56,EBikeCart] 0
-x_WedFri[D362,358D56,FootBike] 0
+x_WedFri[D362,358D56,FootBike] 1
 x_WedFri[D397,358D56,Car] 0
 x_WedFri[D397,358D56,Moped] 0
 x_WedFri[D397,358D56,EBikeCart] 0
@@ -67142,7 +67142,7 @@ x_WedFri[D330,35A032,Moped] 0
 x_WedFri[D330,35A032,EBikeCart] 0
 x_WedFri[D330,35A032,FootBike] 0
 x_WedFri[D329,35A032,Car] 0
-x_WedFri[D329,35A032,Moped] 0
+x_WedFri[D329,35A032,Moped] 1
 x_WedFri[D329,35A032,EBikeCart] 0
 x_WedFri[D329,35A032,FootBike] 0
 x_WedFri[D297,35A032,Car] 0
@@ -67210,7 +67210,7 @@ x_WedFri[D395,35A043,Moped] 0
 x_WedFri[D395,35A043,EBikeCart] 0
 x_WedFri[D395,35A043,FootBike] 0
 x_WedFri[D362,35A043,Car] 0
-x_WedFri[D362,35A043,Moped] 0
+x_WedFri[D362,35A043,Moped] 1
 x_WedFri[D362,35A043,EBikeCart] 0
 x_WedFri[D362,35A043,FootBike] 0
 x_WedFri[D430,35A043,Car] 0
@@ -67322,7 +67322,7 @@ x_WedFri[D161,35B142,Moped] 0
 x_WedFri[D161,35B142,EBikeCart] 0
 x_WedFri[D161,35B142,FootBike] 0
 x_WedFri[D260,35B142,Car] 0
-x_WedFri[D260,35B142,Moped] 0
+x_WedFri[D260,35B142,Moped] 1
 x_WedFri[D260,35B142,EBikeCart] 0
 x_WedFri[D260,35B142,FootBike] 0
 x_WedFri[D258,35B142,Car] 0
@@ -67374,7 +67374,7 @@ x_WedFri[D227,35B192,Moped] 0
 x_WedFri[D227,35B192,EBikeCart] 0
 x_WedFri[D227,35B192,FootBike] 0
 x_WedFri[D228,35B192,Car] 0
-x_WedFri[D228,35B192,Moped] 0
+x_WedFri[D228,35B192,Moped] 1
 x_WedFri[D228,35B192,EBikeCart] 0
 x_WedFri[D228,35B192,FootBike] 0
 x_WedFri[D163,35B192,Car] 0
@@ -67444,7 +67444,7 @@ x_WedFri[D262,35B192,FootBike] 0
 x_WedFri[D260,35B202,Car] 0
 x_WedFri[D260,35B202,Moped] 0
 x_WedFri[D260,35B202,EBikeCart] 0
-x_WedFri[D260,35B202,FootBike] 0
+x_WedFri[D260,35B202,FootBike] 1
 x_WedFri[D259,35B202,Car] 0
 x_WedFri[D259,35B202,Moped] 0
 x_WedFri[D259,35B202,EBikeCart] 0
@@ -67534,7 +67534,7 @@ x_WedFri[D259,35B212,Moped] 0
 x_WedFri[D259,35B212,EBikeCart] 0
 x_WedFri[D259,35B212,FootBike] 0
 x_WedFri[D260,35B212,Car] 0
-x_WedFri[D260,35B212,Moped] 0
+x_WedFri[D260,35B212,Moped] 1
 x_WedFri[D260,35B212,EBikeCart] 0
 x_WedFri[D260,35B212,FootBike] 0
 x_WedFri[D326,35B212,Car] 0
@@ -67604,7 +67604,7 @@ x_WedFri[D257,35B212,FootBike] 0
 x_WedFri[D260,35C021,Car] 0
 x_WedFri[D260,35C021,Moped] 0
 x_WedFri[D260,35C021,EBikeCart] 0
-x_WedFri[D260,35C021,FootBike] 0
+x_WedFri[D260,35C021,FootBike] 1
 x_WedFri[D293,35C021,Car] 0
 x_WedFri[D293,35C021,Moped] 0
 x_WedFri[D293,35C021,EBikeCart] 0
@@ -67684,7 +67684,7 @@ x_WedFri[D229,35C021,FootBike] 0
 x_WedFri[D258,360F06,Car] 0
 x_WedFri[D258,360F06,Moped] 0
 x_WedFri[D258,360F06,EBikeCart] 0
-x_WedFri[D258,360F06,FootBike] 0
+x_WedFri[D258,360F06,FootBike] 1
 x_WedFri[D259,360F06,Car] 0
 x_WedFri[D259,360F06,Moped] 0
 x_WedFri[D259,360F06,EBikeCart] 0
@@ -67764,7 +67764,7 @@ x_WedFri[D192,360F06,FootBike] 0
 x_WedFri[D258,360F08,Car] 0
 x_WedFri[D258,360F08,Moped] 0
 x_WedFri[D258,360F08,EBikeCart] 0
-x_WedFri[D258,360F08,FootBike] 0
+x_WedFri[D258,360F08,FootBike] 1
 x_WedFri[D225,360F08,Car] 0
 x_WedFri[D225,360F08,Moped] 0
 x_WedFri[D225,360F08,EBikeCart] 0
@@ -67848,7 +67848,7 @@ x_WedFri[D259,360F09,FootBike] 0
 x_WedFri[D258,360F09,Car] 0
 x_WedFri[D258,360F09,Moped] 0
 x_WedFri[D258,360F09,EBikeCart] 0
-x_WedFri[D258,360F09,FootBike] 0
+x_WedFri[D258,360F09,FootBike] 1
 x_WedFri[D292,360F09,Car] 0
 x_WedFri[D292,360F09,Moped] 0
 x_WedFri[D292,360F09,EBikeCart] 0
@@ -67924,7 +67924,7 @@ x_WedFri[D256,360F09,FootBike] 0
 x_WedFri[D258,360F10,Car] 0
 x_WedFri[D258,360F10,Moped] 0
 x_WedFri[D258,360F10,EBikeCart] 0
-x_WedFri[D258,360F10,FootBike] 0
+x_WedFri[D258,360F10,FootBike] 1
 x_WedFri[D259,360F10,Car] 0
 x_WedFri[D259,360F10,Moped] 0
 x_WedFri[D259,360F10,EBikeCart] 0
@@ -68004,7 +68004,7 @@ x_WedFri[D289,360F10,FootBike] 0
 x_WedFri[D258,360F11,Car] 0
 x_WedFri[D258,360F11,Moped] 0
 x_WedFri[D258,360F11,EBikeCart] 0
-x_WedFri[D258,360F11,FootBike] 0
+x_WedFri[D258,360F11,FootBike] 1
 x_WedFri[D259,360F11,Car] 0
 x_WedFri[D259,360F11,Moped] 0
 x_WedFri[D259,360F11,EBikeCart] 0
@@ -68084,7 +68084,7 @@ x_WedFri[D289,360F11,FootBike] 0
 x_WedFri[D258,360F13,Car] 0
 x_WedFri[D258,360F13,Moped] 0
 x_WedFri[D258,360F13,EBikeCart] 0
-x_WedFri[D258,360F13,FootBike] 0
+x_WedFri[D258,360F13,FootBike] 1
 x_WedFri[D259,360F13,Car] 0
 x_WedFri[D259,360F13,Moped] 0
 x_WedFri[D259,360F13,EBikeCart] 0
@@ -68176,7 +68176,7 @@ x_WedFri[D291,360F14,FootBike] 0
 x_WedFri[D258,360F14,Car] 0
 x_WedFri[D258,360F14,Moped] 0
 x_WedFri[D258,360F14,EBikeCart] 0
-x_WedFri[D258,360F14,FootBike] 0
+x_WedFri[D258,360F14,FootBike] 1
 x_WedFri[D293,360F14,Car] 0
 x_WedFri[D293,360F14,Moped] 0
 x_WedFri[D293,360F14,EBikeCart] 0
@@ -68248,7 +68248,7 @@ x_WedFri[D259,360F16,FootBike] 0
 x_WedFri[D258,360F16,Car] 0
 x_WedFri[D258,360F16,Moped] 0
 x_WedFri[D258,360F16,EBikeCart] 0
-x_WedFri[D258,360F16,FootBike] 0
+x_WedFri[D258,360F16,FootBike] 1
 x_WedFri[D292,360F16,Car] 0
 x_WedFri[D292,360F16,Moped] 0
 x_WedFri[D292,360F16,EBikeCart] 0
@@ -68334,7 +68334,7 @@ x_WedFri[D291,36A022,Moped] 0
 x_WedFri[D291,36A022,EBikeCart] 0
 x_WedFri[D291,36A022,FootBike] 0
 x_WedFri[D258,36A022,Car] 0
-x_WedFri[D258,36A022,Moped] 0
+x_WedFri[D258,36A022,Moped] 1
 x_WedFri[D258,36A022,EBikeCart] 0
 x_WedFri[D258,36A022,FootBike] 0
 x_WedFri[D289,36A022,Car] 0
@@ -68414,7 +68414,7 @@ x_WedFri[D225,36A052,Moped] 0
 x_WedFri[D225,36A052,EBikeCart] 0
 x_WedFri[D225,36A052,FootBike] 0
 x_WedFri[D258,36A052,Car] 0
-x_WedFri[D258,36A052,Moped] 0
+x_WedFri[D258,36A052,Moped] 1
 x_WedFri[D258,36A052,EBikeCart] 0
 x_WedFri[D258,36A052,FootBike] 0
 x_WedFri[D223,36A052,Car] 0
@@ -68492,7 +68492,7 @@ x_WedFri[D462,372F18,FootBike] 0
 x_WedFri[D429,372F18,Car] 0
 x_WedFri[D429,372F18,Moped] 0
 x_WedFri[D429,372F18,EBikeCart] 0
-x_WedFri[D429,372F18,FootBike] 0
+x_WedFri[D429,372F18,FootBike] 1
 x_WedFri[D463,372F18,Car] 0
 x_WedFri[D463,372F18,Moped] 0
 x_WedFri[D463,372F18,EBikeCart] 0
@@ -68568,7 +68568,7 @@ x_WedFri[D428,373F01,FootBike] 0
 x_WedFri[D429,373F01,Car] 0
 x_WedFri[D429,373F01,Moped] 0
 x_WedFri[D429,373F01,EBikeCart] 0
-x_WedFri[D429,373F01,FootBike] 0
+x_WedFri[D429,373F01,FootBike] 1
 x_WedFri[D462,373F01,Car] 0
 x_WedFri[D462,373F01,Moped] 0
 x_WedFri[D462,373F01,EBikeCart] 0
@@ -68644,7 +68644,7 @@ x_WedFri[D460,373F01,FootBike] 0
 x_WedFri[D429,373F02,Car] 0
 x_WedFri[D429,373F02,Moped] 0
 x_WedFri[D429,373F02,EBikeCart] 0
-x_WedFri[D429,373F02,FootBike] 0
+x_WedFri[D429,373F02,FootBike] 1
 x_WedFri[D428,373F02,Car] 0
 x_WedFri[D428,373F02,Moped] 0
 x_WedFri[D428,373F02,EBikeCart] 0
@@ -68724,7 +68724,7 @@ x_WedFri[D426,373F02,FootBike] 0
 x_WedFri[D429,373F07,Car] 0
 x_WedFri[D429,373F07,Moped] 0
 x_WedFri[D429,373F07,EBikeCart] 0
-x_WedFri[D429,373F07,FootBike] 0
+x_WedFri[D429,373F07,FootBike] 1
 x_WedFri[D395,373F07,Car] 0
 x_WedFri[D395,373F07,Moped] 0
 x_WedFri[D395,373F07,EBikeCart] 0
@@ -68804,7 +68804,7 @@ x_WedFri[D461,373F07,FootBike] 0
 x_WedFri[D429,373F08,Car] 0
 x_WedFri[D429,373F08,Moped] 0
 x_WedFri[D429,373F08,EBikeCart] 0
-x_WedFri[D429,373F08,FootBike] 0
+x_WedFri[D429,373F08,FootBike] 1
 x_WedFri[D395,373F08,Car] 0
 x_WedFri[D395,373F08,Moped] 0
 x_WedFri[D395,373F08,EBikeCart] 0
@@ -68884,7 +68884,7 @@ x_WedFri[D461,373F08,FootBike] 0
 x_WedFri[D429,373F09,Car] 0
 x_WedFri[D429,373F09,Moped] 0
 x_WedFri[D429,373F09,EBikeCart] 0
-x_WedFri[D429,373F09,FootBike] 0
+x_WedFri[D429,373F09,FootBike] 1
 x_WedFri[D428,373F09,Car] 0
 x_WedFri[D428,373F09,Moped] 0
 x_WedFri[D428,373F09,EBikeCart] 0
@@ -69064,7 +69064,7 @@ x_WedFri[D393,373F99,FootBike] 0
 x_WedFri[D361,373F99,Car] 0
 x_WedFri[D361,373F99,Moped] 0
 x_WedFri[D361,373F99,EBikeCart] 0
-x_WedFri[D361,373F99,FootBike] 0
+x_WedFri[D361,373F99,FootBike] 1
 x_WedFri[D429,373F99,Car] 0
 x_WedFri[D429,373F99,Moped] 0
 x_WedFri[D429,373F99,EBikeCart] 0
@@ -69124,7 +69124,7 @@ x_WedFri[D358,373F99,FootBike] 0
 x_WedFri[D429,373J09,Car] 0
 x_WedFri[D429,373J09,Moped] 0
 x_WedFri[D429,373J09,EBikeCart] 0
-x_WedFri[D429,373J09,FootBike] 0
+x_WedFri[D429,373J09,FootBike] 1
 x_WedFri[D428,373J09,Car] 0
 x_WedFri[D428,373J09,Moped] 0
 x_WedFri[D428,373J09,EBikeCart] 0
@@ -69250,7 +69250,7 @@ x_WedFri[345C01,345C05,Moped] 0
 x_WedFri[345C01,345C05,EBikeCart] 0
 x_WedFri[345C01,345C05,FootBike] 0
 x_WedFri[345C01,35A032,Car] 0
-x_WedFri[345C01,35A032,Moped] 1
+x_WedFri[345C01,35A032,Moped] 0
 x_WedFri[345C01,35A032,EBikeCart] 0
 x_WedFri[345C01,35A032,FootBike] 0
 x_WedFri[345C01,345D32,Car] 0
@@ -69275,7 +69275,7 @@ x_WedFri[345C03,345D35,EBikeCart] 0
 x_WedFri[345C03,345D35,FootBike] 0
 x_WedFri[345C03,345D27,Car] 0
 x_WedFri[345C03,345D27,Moped] 0
-x_WedFri[345C03,345D27,EBikeCart] 1
+x_WedFri[345C03,345D27,EBikeCart] 0
 x_WedFri[345C03,345D27,FootBike] 0
 x_WedFri[345C03,345D43,Car] 0
 x_WedFri[345C03,345D43,Moped] 0
@@ -69324,7 +69324,7 @@ x_WedFri[345C03,345D24,FootBike] 0
 x_WedFri[345C05,345D12,Car] 0
 x_WedFri[345C05,345D12,Moped] 0
 x_WedFri[345C05,345D12,EBikeCart] 0
-x_WedFri[345C05,345D12,FootBike] 1
+x_WedFri[345C05,345D12,FootBike] 0
 x_WedFri[345C05,345D24,Car] 0
 x_WedFri[345C05,345D24,Moped] 0
 x_WedFri[345C05,345D24,EBikeCart] 0
@@ -69384,7 +69384,7 @@ x_WedFri[345C05,345F01,FootBike] 0
 x_WedFri[345D03,345D04,Car] 0
 x_WedFri[345D03,345D04,Moped] 0
 x_WedFri[345D03,345D04,EBikeCart] 0
-x_WedFri[345D03,345D04,FootBike] 1
+x_WedFri[345D03,345D04,FootBike] 0
 x_WedFri[345D03,345D08,Car] 0
 x_WedFri[345D03,345D08,Moped] 0
 x_WedFri[345D03,345D08,EBikeCart] 0
@@ -69444,7 +69444,7 @@ x_WedFri[345D03,345D24,FootBike] 0
 x_WedFri[345D04,345D03,Car] 0
 x_WedFri[345D04,345D03,Moped] 0
 x_WedFri[345D04,345D03,EBikeCart] 0
-x_WedFri[345D04,345D03,FootBike] 1
+x_WedFri[345D04,345D03,FootBike] 0
 x_WedFri[345D04,345D15,Car] 0
 x_WedFri[345D04,345D15,Moped] 0
 x_WedFri[345D04,345D15,EBikeCart] 0
@@ -69504,7 +69504,7 @@ x_WedFri[345D04,345D24,FootBike] 0
 x_WedFri[345D07,345D08,Car] 0
 x_WedFri[345D07,345D08,Moped] 0
 x_WedFri[345D07,345D08,EBikeCart] 0
-x_WedFri[345D07,345D08,FootBike] 1
+x_WedFri[345D07,345D08,FootBike] 0
 x_WedFri[345D07,345D16,Car] 0
 x_WedFri[345D07,345D16,Moped] 0
 x_WedFri[345D07,345D16,EBikeCart] 0
@@ -69564,7 +69564,7 @@ x_WedFri[345D07,345D20,FootBike] 0
 x_WedFri[345D08,345D07,Car] 0
 x_WedFri[345D08,345D07,Moped] 0
 x_WedFri[345D08,345D07,EBikeCart] 0
-x_WedFri[345D08,345D07,FootBike] 1
+x_WedFri[345D08,345D07,FootBike] 0
 x_WedFri[345D08,345D16,Car] 0
 x_WedFri[345D08,345D16,Moped] 0
 x_WedFri[345D08,345D16,EBikeCart] 0
@@ -69640,7 +69640,7 @@ x_WedFri[345D11,345D07,FootBike] 0
 x_WedFri[345D11,345C05,Car] 0
 x_WedFri[345D11,345C05,Moped] 0
 x_WedFri[345D11,345C05,EBikeCart] 0
-x_WedFri[345D11,345C05,FootBike] 1
+x_WedFri[345D11,345C05,FootBike] 0
 x_WedFri[345D11,345D08,Car] 0
 x_WedFri[345D11,345D08,Moped] 0
 x_WedFri[345D11,345D08,EBikeCart] 0
@@ -69684,7 +69684,7 @@ x_WedFri[345D11,345D19,FootBike] 0
 x_WedFri[345D12,345D11,Car] 0
 x_WedFri[345D12,345D11,Moped] 0
 x_WedFri[345D12,345D11,EBikeCart] 0
-x_WedFri[345D12,345D11,FootBike] 1
+x_WedFri[345D12,345D11,FootBike] 0
 x_WedFri[345D12,345C05,Car] 0
 x_WedFri[345D12,345C05,Moped] 0
 x_WedFri[345D12,345C05,EBikeCart] 0
@@ -69744,7 +69744,7 @@ x_WedFri[345D12,345F03,FootBike] 0
 x_WedFri[345D15,345D16,Car] 0
 x_WedFri[345D15,345D16,Moped] 0
 x_WedFri[345D15,345D16,EBikeCart] 0
-x_WedFri[345D15,345D16,FootBike] 1
+x_WedFri[345D15,345D16,FootBike] 0
 x_WedFri[345D15,345D07,Car] 0
 x_WedFri[345D15,345D07,Moped] 0
 x_WedFri[345D15,345D07,EBikeCart] 0
@@ -69804,7 +69804,7 @@ x_WedFri[345D15,345D24,FootBike] 0
 x_WedFri[345D16,345D15,Car] 0
 x_WedFri[345D16,345D15,Moped] 0
 x_WedFri[345D16,345D15,EBikeCart] 0
-x_WedFri[345D16,345D15,FootBike] 1
+x_WedFri[345D16,345D15,FootBike] 0
 x_WedFri[345D16,345D07,Car] 0
 x_WedFri[345D16,345D07,Moped] 0
 x_WedFri[345D16,345D07,EBikeCart] 0
@@ -69864,7 +69864,7 @@ x_WedFri[345D16,345D23,FootBike] 0
 x_WedFri[345D19,345D20,Car] 0
 x_WedFri[345D19,345D20,Moped] 0
 x_WedFri[345D19,345D20,EBikeCart] 0
-x_WedFri[345D19,345D20,FootBike] 1
+x_WedFri[345D19,345D20,FootBike] 0
 x_WedFri[345D19,345D23,Car] 0
 x_WedFri[345D19,345D23,Moped] 0
 x_WedFri[345D19,345D23,EBikeCart] 0
@@ -69924,7 +69924,7 @@ x_WedFri[345D19,345D43,FootBike] 0
 x_WedFri[345D20,345D19,Car] 0
 x_WedFri[345D20,345D19,Moped] 0
 x_WedFri[345D20,345D19,EBikeCart] 0
-x_WedFri[345D20,345D19,FootBike] 1
+x_WedFri[345D20,345D19,FootBike] 0
 x_WedFri[345D20,345D23,Car] 0
 x_WedFri[345D20,345D23,Moped] 0
 x_WedFri[345D20,345D23,EBikeCart] 0
@@ -69984,7 +69984,7 @@ x_WedFri[345D20,345D07,FootBike] 0
 x_WedFri[345D23,345D24,Car] 0
 x_WedFri[345D23,345D24,Moped] 0
 x_WedFri[345D23,345D24,EBikeCart] 0
-x_WedFri[345D23,345D24,FootBike] 1
+x_WedFri[345D23,345D24,FootBike] 0
 x_WedFri[345D23,345D19,Car] 0
 x_WedFri[345D23,345D19,Moped] 0
 x_WedFri[345D23,345D19,EBikeCart] 0
@@ -70044,7 +70044,7 @@ x_WedFri[345D23,345D36,FootBike] 0
 x_WedFri[345D24,345D23,Car] 0
 x_WedFri[345D24,345D23,Moped] 0
 x_WedFri[345D24,345D23,EBikeCart] 0
-x_WedFri[345D24,345D23,FootBike] 1
+x_WedFri[345D24,345D23,FootBike] 0
 x_WedFri[345D24,345D19,Car] 0
 x_WedFri[345D24,345D19,Moped] 0
 x_WedFri[345D24,345D19,EBikeCart] 0
@@ -70115,7 +70115,7 @@ x_WedFri[345D27,345D36,EBikeCart] 0
 x_WedFri[345D27,345D36,FootBike] 0
 x_WedFri[345D27,345C03,Car] 0
 x_WedFri[345D27,345C03,Moped] 0
-x_WedFri[345D27,345C03,EBikeCart] 1
+x_WedFri[345D27,345C03,EBikeCart] 0
 x_WedFri[345D27,345C03,FootBike] 0
 x_WedFri[345D27,345D31,Car] 0
 x_WedFri[345D27,345D31,Moped] 0
@@ -70168,7 +70168,7 @@ x_WedFri[345D28,345D27,FootBike] 0
 x_WedFri[345D28,345D35,Car] 0
 x_WedFri[345D28,345D35,Moped] 0
 x_WedFri[345D28,345D35,EBikeCart] 0
-x_WedFri[345D28,345D35,FootBike] 1
+x_WedFri[345D28,345D35,FootBike] 0
 x_WedFri[345D28,345C01,Car] 0
 x_WedFri[345D28,345C01,Moped] 0
 x_WedFri[345D28,345C01,EBikeCart] 0
@@ -70224,7 +70224,7 @@ x_WedFri[345D28,345D19,FootBike] 0
 x_WedFri[345D31,345D32,Car] 0
 x_WedFri[345D31,345D32,Moped] 0
 x_WedFri[345D31,345D32,EBikeCart] 0
-x_WedFri[345D31,345D32,FootBike] 1
+x_WedFri[345D31,345D32,FootBike] 0
 x_WedFri[345D31,345D60,Car] 0
 x_WedFri[345D31,345D60,Moped] 0
 x_WedFri[345D31,345D60,EBikeCart] 0
@@ -70288,7 +70288,7 @@ x_WedFri[345D32,345D40,FootBike] 0
 x_WedFri[345D32,345D31,Car] 0
 x_WedFri[345D32,345D31,Moped] 0
 x_WedFri[345D32,345D31,EBikeCart] 0
-x_WedFri[345D32,345D31,FootBike] 1
+x_WedFri[345D32,345D31,FootBike] 0
 x_WedFri[345D32,345D39,Car] 0
 x_WedFri[345D32,345D39,Moped] 0
 x_WedFri[345D32,345D39,EBikeCart] 0
@@ -70376,7 +70376,7 @@ x_WedFri[345D35,345D40,FootBike] 0
 x_WedFri[345D35,345D28,Car] 0
 x_WedFri[345D35,345D28,Moped] 0
 x_WedFri[345D35,345D28,EBikeCart] 0
-x_WedFri[345D35,345D28,FootBike] 1
+x_WedFri[345D35,345D28,FootBike] 0
 x_WedFri[345D35,345D60,Car] 0
 x_WedFri[345D35,345D60,Moped] 0
 x_WedFri[345D35,345D60,EBikeCart] 0
@@ -70404,7 +70404,7 @@ x_WedFri[345D35,345D56,FootBike] 0
 x_WedFri[345D36,345D44,Car] 0
 x_WedFri[345D36,345D44,Moped] 0
 x_WedFri[345D36,345D44,EBikeCart] 0
-x_WedFri[345D36,345D44,FootBike] 1
+x_WedFri[345D36,345D44,FootBike] 0
 x_WedFri[345D36,345D35,Car] 0
 x_WedFri[345D36,345D35,Moped] 0
 x_WedFri[345D36,345D35,EBikeCart] 0
@@ -70464,7 +70464,7 @@ x_WedFri[345D36,345D28,FootBike] 0
 x_WedFri[345D39,345D40,Car] 0
 x_WedFri[345D39,345D40,Moped] 0
 x_WedFri[345D39,345D40,EBikeCart] 0
-x_WedFri[345D39,345D40,FootBike] 1
+x_WedFri[345D39,345D40,FootBike] 0
 x_WedFri[345D39,345D32,Car] 0
 x_WedFri[345D39,345D32,Moped] 0
 x_WedFri[345D39,345D32,EBikeCart] 0
@@ -70524,7 +70524,7 @@ x_WedFri[345D39,352D68,FootBike] 0
 x_WedFri[345D40,345D39,Car] 0
 x_WedFri[345D40,345D39,Moped] 0
 x_WedFri[345D40,345D39,EBikeCart] 0
-x_WedFri[345D40,345D39,FootBike] 1
+x_WedFri[345D40,345D39,FootBike] 0
 x_WedFri[345D40,345D32,Car] 0
 x_WedFri[345D40,345D32,Moped] 0
 x_WedFri[345D40,345D32,EBikeCart] 0
@@ -70588,7 +70588,7 @@ x_WedFri[345D43,345D44,FootBike] 0
 x_WedFri[345D43,345D36,Car] 0
 x_WedFri[345D43,345D36,Moped] 0
 x_WedFri[345D43,345D36,EBikeCart] 0
-x_WedFri[345D43,345D36,FootBike] 1
+x_WedFri[345D43,345D36,FootBike] 0
 x_WedFri[345D43,345D40,Car] 0
 x_WedFri[345D43,345D40,Moped] 0
 x_WedFri[345D43,345D40,EBikeCart] 0
@@ -70644,7 +70644,7 @@ x_WedFri[345D43,345D60,FootBike] 0
 x_WedFri[345D44,345D43,Car] 0
 x_WedFri[345D44,345D43,Moped] 0
 x_WedFri[345D44,345D43,EBikeCart] 0
-x_WedFri[345D44,345D43,FootBike] 1
+x_WedFri[345D44,345D43,FootBike] 0
 x_WedFri[345D44,345D36,Car] 0
 x_WedFri[345D44,345D36,Moped] 0
 x_WedFri[345D44,345D36,EBikeCart] 0
@@ -70708,7 +70708,7 @@ x_WedFri[345D47,345D56,FootBike] 0
 x_WedFri[345D47,345D48,Car] 0
 x_WedFri[345D47,345D48,Moped] 0
 x_WedFri[345D47,345D48,EBikeCart] 0
-x_WedFri[345D47,345D48,FootBike] 1
+x_WedFri[345D47,345D48,FootBike] 0
 x_WedFri[345D47,345D52,Car] 0
 x_WedFri[345D47,345D52,Moped] 0
 x_WedFri[345D47,345D52,EBikeCart] 0
@@ -70764,7 +70764,7 @@ x_WedFri[345D47,345D31,FootBike] 0
 x_WedFri[345D48,345D47,Car] 0
 x_WedFri[345D48,345D47,Moped] 0
 x_WedFri[345D48,345D47,EBikeCart] 0
-x_WedFri[345D48,345D47,FootBike] 1
+x_WedFri[345D48,345D47,FootBike] 0
 x_WedFri[345D48,345D56,Car] 0
 x_WedFri[345D48,345D56,Moped] 0
 x_WedFri[345D48,345D56,EBikeCart] 0
@@ -70824,7 +70824,7 @@ x_WedFri[345D48,352D67,FootBike] 0
 x_WedFri[345D51,345D52,Car] 0
 x_WedFri[345D51,345D52,Moped] 0
 x_WedFri[345D51,345D52,EBikeCart] 0
-x_WedFri[345D51,345D52,FootBike] 1
+x_WedFri[345D51,345D52,FootBike] 0
 x_WedFri[345D51,345D55,Car] 0
 x_WedFri[345D51,345D55,Moped] 0
 x_WedFri[345D51,345D55,EBikeCart] 0
@@ -70884,7 +70884,7 @@ x_WedFri[345D51,345D31,FootBike] 0
 x_WedFri[345D52,345D51,Car] 0
 x_WedFri[345D52,345D51,Moped] 0
 x_WedFri[345D52,345D51,EBikeCart] 0
-x_WedFri[345D52,345D51,FootBike] 1
+x_WedFri[345D52,345D51,FootBike] 0
 x_WedFri[345D52,345D55,Car] 0
 x_WedFri[345D52,345D55,Moped] 0
 x_WedFri[345D52,345D55,EBikeCart] 0
@@ -70944,7 +70944,7 @@ x_WedFri[345D52,345D36,FootBike] 0
 x_WedFri[345D55,345D56,Car] 0
 x_WedFri[345D55,345D56,Moped] 0
 x_WedFri[345D55,345D56,EBikeCart] 0
-x_WedFri[345D55,345D56,FootBike] 1
+x_WedFri[345D55,345D56,FootBike] 0
 x_WedFri[345D55,345D52,Car] 0
 x_WedFri[345D55,345D52,Moped] 0
 x_WedFri[345D55,345D52,EBikeCart] 0
@@ -71004,7 +71004,7 @@ x_WedFri[345D55,354F07,FootBike] 0
 x_WedFri[345D56,345D55,Car] 0
 x_WedFri[345D56,345D55,Moped] 0
 x_WedFri[345D56,345D55,EBikeCart] 0
-x_WedFri[345D56,345D55,FootBike] 1
+x_WedFri[345D56,345D55,FootBike] 0
 x_WedFri[345D56,345D47,Car] 0
 x_WedFri[345D56,345D47,Moped] 0
 x_WedFri[345D56,345D47,EBikeCart] 0
@@ -71064,7 +71064,7 @@ x_WedFri[345D56,353F01,FootBike] 0
 x_WedFri[345D59,345D60,Car] 0
 x_WedFri[345D59,345D60,Moped] 0
 x_WedFri[345D59,345D60,EBikeCart] 0
-x_WedFri[345D59,345D60,FootBike] 1
+x_WedFri[345D59,345D60,FootBike] 0
 x_WedFri[345D59,345D39,Car] 0
 x_WedFri[345D59,345D39,Moped] 0
 x_WedFri[345D59,345D39,EBikeCart] 0
@@ -71124,7 +71124,7 @@ x_WedFri[345D59,345D52,FootBike] 0
 x_WedFri[345D60,345D59,Car] 0
 x_WedFri[345D60,345D59,Moped] 0
 x_WedFri[345D60,345D59,EBikeCart] 0
-x_WedFri[345D60,345D59,FootBike] 1
+x_WedFri[345D60,345D59,FootBike] 0
 x_WedFri[345D60,345D31,Car] 0
 x_WedFri[345D60,345D31,Moped] 0
 x_WedFri[345D60,345D31,EBikeCart] 0
@@ -71184,7 +71184,7 @@ x_WedFri[345D60,345D47,FootBike] 0
 x_WedFri[345F01,345F02,Car] 0
 x_WedFri[345F01,345F02,Moped] 0
 x_WedFri[345F01,345F02,EBikeCart] 0
-x_WedFri[345F01,345F02,FootBike] 1
+x_WedFri[345F01,345F02,FootBike] 0
 x_WedFri[345F01,345F03,Car] 0
 x_WedFri[345F01,345F03,Moped] 0
 x_WedFri[345F01,345F03,EBikeCart] 0
@@ -71244,7 +71244,7 @@ x_WedFri[345F01,345F20,FootBike] 0
 x_WedFri[345F02,345F01,Car] 0
 x_WedFri[345F02,345F01,Moped] 0
 x_WedFri[345F02,345F01,EBikeCart] 0
-x_WedFri[345F02,345F01,FootBike] 1
+x_WedFri[345F02,345F01,FootBike] 0
 x_WedFri[345F02,345F03,Car] 0
 x_WedFri[345F02,345F03,Moped] 0
 x_WedFri[345F02,345F03,EBikeCart] 0
@@ -71316,7 +71316,7 @@ x_WedFri[345F03,345F01,FootBike] 0
 x_WedFri[345F03,345F09,Car] 0
 x_WedFri[345F03,345F09,Moped] 0
 x_WedFri[345F03,345F09,EBikeCart] 0
-x_WedFri[345F03,345F09,FootBike] 1
+x_WedFri[345F03,345F09,FootBike] 0
 x_WedFri[345F03,345D04,Car] 0
 x_WedFri[345F03,345D04,Moped] 0
 x_WedFri[345F03,345D04,EBikeCart] 0
@@ -71364,7 +71364,7 @@ x_WedFri[345F03,345F21,FootBike] 0
 x_WedFri[345F07,345F08,Car] 0
 x_WedFri[345F07,345F08,Moped] 0
 x_WedFri[345F07,345F08,EBikeCart] 0
-x_WedFri[345F07,345F08,FootBike] 1
+x_WedFri[345F07,345F08,FootBike] 0
 x_WedFri[345F07,345F09,Car] 0
 x_WedFri[345F07,345F09,Moped] 0
 x_WedFri[345F07,345F09,EBikeCart] 0
@@ -71428,7 +71428,7 @@ x_WedFri[345F08,345F09,FootBike] 0
 x_WedFri[345F08,345F07,Car] 0
 x_WedFri[345F08,345F07,Moped] 0
 x_WedFri[345F08,345F07,EBikeCart] 0
-x_WedFri[345F08,345F07,FootBike] 1
+x_WedFri[345F08,345F07,FootBike] 0
 x_WedFri[345F08,345F03,Car] 0
 x_WedFri[345F08,345F03,Moped] 0
 x_WedFri[345F08,345F03,EBikeCart] 0
@@ -71492,7 +71492,7 @@ x_WedFri[345F09,345F07,FootBike] 0
 x_WedFri[345F09,345F03,Car] 0
 x_WedFri[345F09,345F03,Moped] 0
 x_WedFri[345F09,345F03,EBikeCart] 0
-x_WedFri[345F09,345F03,FootBike] 1
+x_WedFri[345F09,345F03,FootBike] 0
 x_WedFri[345F09,345F01,Car] 0
 x_WedFri[345F09,345F01,Moped] 0
 x_WedFri[345F09,345F01,EBikeCart] 0
@@ -71552,7 +71552,7 @@ x_WedFri[345F18,345F23,FootBike] 0
 x_WedFri[345F18,345F19,Car] 0
 x_WedFri[345F18,345F19,Moped] 0
 x_WedFri[345F18,345F19,EBikeCart] 0
-x_WedFri[345F18,345F19,FootBike] 1
+x_WedFri[345F18,345F19,FootBike] 0
 x_WedFri[345F18,345F21,Car] 0
 x_WedFri[345F18,345F21,Moped] 0
 x_WedFri[345F18,345F21,EBikeCart] 0
@@ -71604,7 +71604,7 @@ x_WedFri[345F18,354F41,FootBike] 0
 x_WedFri[345F19,345F18,Car] 0
 x_WedFri[345F19,345F18,Moped] 0
 x_WedFri[345F19,345F18,EBikeCart] 0
-x_WedFri[345F19,345F18,FootBike] 1
+x_WedFri[345F19,345F18,FootBike] 0
 x_WedFri[345F19,345F23,Car] 0
 x_WedFri[345F19,345F23,Moped] 0
 x_WedFri[345F19,345F23,EBikeCart] 0
@@ -71672,7 +71672,7 @@ x_WedFri[345F20,345F18,FootBike] 0
 x_WedFri[345F20,345F23,Car] 0
 x_WedFri[345F20,345F23,Moped] 0
 x_WedFri[345F20,345F23,EBikeCart] 0
-x_WedFri[345F20,345F23,FootBike] 1
+x_WedFri[345F20,345F23,FootBike] 0
 x_WedFri[345F20,345F22,Car] 0
 x_WedFri[345F20,345F22,Moped] 0
 x_WedFri[345F20,345F22,EBikeCart] 0
@@ -71724,7 +71724,7 @@ x_WedFri[345F20,35C021,FootBike] 0
 x_WedFri[345F21,345F22,Car] 0
 x_WedFri[345F21,345F22,Moped] 0
 x_WedFri[345F21,345F22,EBikeCart] 0
-x_WedFri[345F21,345F22,FootBike] 1
+x_WedFri[345F21,345F22,FootBike] 0
 x_WedFri[345F21,345F20,Car] 0
 x_WedFri[345F21,345F20,Moped] 0
 x_WedFri[345F21,345F20,EBikeCart] 0
@@ -71784,7 +71784,7 @@ x_WedFri[345F21,354F41,FootBike] 0
 x_WedFri[345F22,345F21,Car] 0
 x_WedFri[345F22,345F21,Moped] 0
 x_WedFri[345F22,345F21,EBikeCart] 0
-x_WedFri[345F22,345F21,FootBike] 1
+x_WedFri[345F22,345F21,FootBike] 0
 x_WedFri[345F22,345F23,Car] 0
 x_WedFri[345F22,345F23,Moped] 0
 x_WedFri[345F22,345F23,EBikeCart] 0
@@ -71844,7 +71844,7 @@ x_WedFri[345F22,354F42,FootBike] 0
 x_WedFri[345F23,345F20,Car] 0
 x_WedFri[345F23,345F20,Moped] 0
 x_WedFri[345F23,345F20,EBikeCart] 0
-x_WedFri[345F23,345F20,FootBike] 1
+x_WedFri[345F23,345F20,FootBike] 0
 x_WedFri[345F23,345F22,Car] 0
 x_WedFri[345F23,345F22,Moped] 0
 x_WedFri[345F23,345F22,EBikeCart] 0
@@ -71904,7 +71904,7 @@ x_WedFri[345F23,345F09,FootBike] 0
 x_WedFri[351F03,358D12,Car] 0
 x_WedFri[351F03,358D12,Moped] 0
 x_WedFri[351F03,358D12,EBikeCart] 0
-x_WedFri[351F03,358D12,FootBike] 1
+x_WedFri[351F03,358D12,FootBike] 0
 x_WedFri[351F03,351F11,Car] 0
 x_WedFri[351F03,351F11,Moped] 0
 x_WedFri[351F03,351F11,EBikeCart] 0
@@ -71972,7 +71972,7 @@ x_WedFri[351F11,358D20,FootBike] 0
 x_WedFri[351F11,358D11,Car] 0
 x_WedFri[351F11,358D11,Moped] 0
 x_WedFri[351F11,358D11,EBikeCart] 0
-x_WedFri[351F11,358D11,FootBike] 1
+x_WedFri[351F11,358D11,FootBike] 0
 x_WedFri[351F11,358D19,Car] 0
 x_WedFri[351F11,358D19,Moped] 0
 x_WedFri[351F11,358D19,EBikeCart] 0
@@ -72024,7 +72024,7 @@ x_WedFri[351F11,358C11,FootBike] 0
 x_WedFri[351F25,356D43,Car] 0
 x_WedFri[351F25,356D43,Moped] 0
 x_WedFri[351F25,356D43,EBikeCart] 0
-x_WedFri[351F25,356D43,FootBike] 1
+x_WedFri[351F25,356D43,FootBike] 0
 x_WedFri[351F25,356D44,Car] 0
 x_WedFri[351F25,356D44,Moped] 0
 x_WedFri[351F25,356D44,EBikeCart] 0
@@ -72084,7 +72084,7 @@ x_WedFri[351F25,351J28,FootBike] 0
 x_WedFri[351F28,351J28,Car] 0
 x_WedFri[351F28,351J28,Moped] 0
 x_WedFri[351F28,351J28,EBikeCart] 0
-x_WedFri[351F28,351J28,FootBike] 1
+x_WedFri[351F28,351J28,FootBike] 0
 x_WedFri[351F28,351F34,Car] 0
 x_WedFri[351F28,351F34,Moped] 0
 x_WedFri[351F28,351F34,EBikeCart] 0
@@ -72144,7 +72144,7 @@ x_WedFri[351F28,356D31,FootBike] 0
 x_WedFri[351F29,351J34,Car] 0
 x_WedFri[351F29,351J34,Moped] 0
 x_WedFri[351F29,351J34,EBikeCart] 0
-x_WedFri[351F29,351J34,FootBike] 1
+x_WedFri[351F29,351J34,FootBike] 0
 x_WedFri[351F29,351J28,Car] 0
 x_WedFri[351F29,351J28,Moped] 0
 x_WedFri[351F29,351J28,EBikeCart] 0
@@ -72204,7 +72204,7 @@ x_WedFri[351F29,356D72,FootBike] 0
 x_WedFri[351F30,351F31,Car] 0
 x_WedFri[351F30,351F31,Moped] 0
 x_WedFri[351F30,351F31,EBikeCart] 0
-x_WedFri[351F30,351F31,FootBike] 1
+x_WedFri[351F30,351F31,FootBike] 0
 x_WedFri[351F30,351F32,Car] 0
 x_WedFri[351F30,351F32,Moped] 0
 x_WedFri[351F30,351F32,EBikeCart] 0
@@ -72264,7 +72264,7 @@ x_WedFri[351F30,356D68,FootBike] 0
 x_WedFri[351F31,351J31,Car] 0
 x_WedFri[351F31,351J31,Moped] 0
 x_WedFri[351F31,351J31,EBikeCart] 0
-x_WedFri[351F31,351J31,FootBike] 1
+x_WedFri[351F31,351J31,FootBike] 0
 x_WedFri[351F31,351F30,Car] 0
 x_WedFri[351F31,351F30,Moped] 0
 x_WedFri[351F31,351F30,EBikeCart] 0
@@ -72324,7 +72324,7 @@ x_WedFri[351F31,356D28,FootBike] 0
 x_WedFri[351F32,351F34,Car] 0
 x_WedFri[351F32,351F34,Moped] 0
 x_WedFri[351F32,351F34,EBikeCart] 0
-x_WedFri[351F32,351F34,FootBike] 1
+x_WedFri[351F32,351F34,FootBike] 0
 x_WedFri[351F32,351F28,Car] 0
 x_WedFri[351F32,351F28,Moped] 0
 x_WedFri[351F32,351F28,EBikeCart] 0
@@ -72384,7 +72384,7 @@ x_WedFri[351F32,356D32,FootBike] 0
 x_WedFri[351F33,351J33,Car] 0
 x_WedFri[351F33,351J33,Moped] 0
 x_WedFri[351F33,351J33,EBikeCart] 0
-x_WedFri[351F33,351J33,FootBike] 1
+x_WedFri[351F33,351J33,FootBike] 0
 x_WedFri[351F33,351J31,Car] 0
 x_WedFri[351F33,351J31,Moped] 0
 x_WedFri[351F33,351J31,EBikeCart] 0
@@ -72444,7 +72444,7 @@ x_WedFri[351F33,357J03,FootBike] 0
 x_WedFri[351F34,351F32,Car] 0
 x_WedFri[351F34,351F32,Moped] 0
 x_WedFri[351F34,351F32,EBikeCart] 0
-x_WedFri[351F34,351F32,FootBike] 1
+x_WedFri[351F34,351F32,FootBike] 0
 x_WedFri[351F34,351J34,Car] 0
 x_WedFri[351F34,351J34,Moped] 0
 x_WedFri[351F34,351J34,EBikeCart] 0
@@ -72504,7 +72504,7 @@ x_WedFri[351F34,356D32,FootBike] 0
 x_WedFri[351J28,351F28,Car] 0
 x_WedFri[351J28,351F28,Moped] 0
 x_WedFri[351J28,351F28,EBikeCart] 0
-x_WedFri[351J28,351F28,FootBike] 1
+x_WedFri[351J28,351F28,FootBike] 0
 x_WedFri[351J28,351F29,Car] 0
 x_WedFri[351J28,351F29,Moped] 0
 x_WedFri[351J28,351F29,EBikeCart] 0
@@ -72568,7 +72568,7 @@ x_WedFri[351J31,351F31,FootBike] 0
 x_WedFri[351J31,356D71,Car] 0
 x_WedFri[351J31,356D71,Moped] 0
 x_WedFri[351J31,356D71,EBikeCart] 0
-x_WedFri[351J31,356D71,FootBike] 1
+x_WedFri[351J31,356D71,FootBike] 0
 x_WedFri[351J31,351F33,Car] 0
 x_WedFri[351J31,351F33,Moped] 0
 x_WedFri[351J31,351F33,EBikeCart] 0
@@ -72624,7 +72624,7 @@ x_WedFri[351J31,356D28,FootBike] 0
 x_WedFri[351J33,351F33,Car] 0
 x_WedFri[351J33,351F33,Moped] 0
 x_WedFri[351J33,351F33,EBikeCart] 0
-x_WedFri[351J33,351F33,FootBike] 1
+x_WedFri[351J33,351F33,FootBike] 0
 x_WedFri[351J33,351J34,Car] 0
 x_WedFri[351J33,351J34,Moped] 0
 x_WedFri[351J33,351J34,EBikeCart] 0
@@ -72688,7 +72688,7 @@ x_WedFri[351J34,351F34,FootBike] 0
 x_WedFri[351J34,351F29,Car] 0
 x_WedFri[351J34,351F29,Moped] 0
 x_WedFri[351J34,351F29,EBikeCart] 0
-x_WedFri[351J34,351F29,FootBike] 1
+x_WedFri[351J34,351F29,FootBike] 0
 x_WedFri[351J34,351J33,Car] 0
 x_WedFri[351J34,351J33,Moped] 0
 x_WedFri[351J34,351J33,EBikeCart] 0
@@ -72744,7 +72744,7 @@ x_WedFri[351J34,358D23,FootBike] 0
 x_WedFri[352C01,352D47,Car] 0
 x_WedFri[352C01,352D47,Moped] 0
 x_WedFri[352C01,352D47,EBikeCart] 0
-x_WedFri[352C01,352D47,FootBike] 1
+x_WedFri[352C01,352D47,FootBike] 0
 x_WedFri[352C01,352C05,Car] 0
 x_WedFri[352C01,352C05,Moped] 0
 x_WedFri[352C01,352C05,EBikeCart] 0
@@ -72804,7 +72804,7 @@ x_WedFri[352C01,352D27,FootBike] 0
 x_WedFri[352C03,352C05,Car] 0
 x_WedFri[352C03,352C05,Moped] 0
 x_WedFri[352C03,352C05,EBikeCart] 0
-x_WedFri[352C03,352C05,FootBike] 1
+x_WedFri[352C03,352C05,FootBike] 0
 x_WedFri[352C03,352D55,Car] 0
 x_WedFri[352C03,352D55,Moped] 0
 x_WedFri[352C03,352D55,EBikeCart] 0
@@ -72864,7 +72864,7 @@ x_WedFri[352C03,352D64,FootBike] 0
 x_WedFri[352C05,352C03,Car] 0
 x_WedFri[352C05,352C03,Moped] 0
 x_WedFri[352C05,352C03,EBikeCart] 0
-x_WedFri[352C05,352C03,FootBike] 1
+x_WedFri[352C05,352C03,FootBike] 0
 x_WedFri[352C05,352D55,Car] 0
 x_WedFri[352C05,352D55,Moped] 0
 x_WedFri[352C05,352D55,EBikeCart] 0
@@ -72928,7 +72928,7 @@ x_WedFri[352C07,352D32,FootBike] 0
 x_WedFri[352C07,352C09,Car] 0
 x_WedFri[352C07,352C09,Moped] 0
 x_WedFri[352C07,352C09,EBikeCart] 0
-x_WedFri[352C07,352C09,FootBike] 1
+x_WedFri[352C07,352C09,FootBike] 0
 x_WedFri[352C07,352D31,Car] 0
 x_WedFri[352C07,352D31,Moped] 0
 x_WedFri[352C07,352D31,EBikeCart] 0
@@ -72984,7 +72984,7 @@ x_WedFri[352C07,352D20,FootBike] 0
 x_WedFri[352C09,352C07,Car] 0
 x_WedFri[352C09,352C07,Moped] 0
 x_WedFri[352C09,352C07,EBikeCart] 0
-x_WedFri[352C09,352C07,FootBike] 1
+x_WedFri[352C09,352C07,FootBike] 0
 x_WedFri[352C09,352D47,Car] 0
 x_WedFri[352C09,352D47,Moped] 0
 x_WedFri[352C09,352D47,EBikeCart] 0
@@ -73048,7 +73048,7 @@ x_WedFri[352D03,352D08,FootBike] 0
 x_WedFri[352D03,352D04,Car] 0
 x_WedFri[352D03,352D04,Moped] 0
 x_WedFri[352D03,352D04,EBikeCart] 0
-x_WedFri[352D03,352D04,FootBike] 1
+x_WedFri[352D03,352D04,FootBike] 0
 x_WedFri[352D03,352D07,Car] 0
 x_WedFri[352D03,352D07,Moped] 0
 x_WedFri[352D03,352D07,EBikeCart] 0
@@ -73104,7 +73104,7 @@ x_WedFri[352D03,358D43,FootBike] 0
 x_WedFri[352D04,352D03,Car] 0
 x_WedFri[352D04,352D03,Moped] 0
 x_WedFri[352D04,352D03,EBikeCart] 0
-x_WedFri[352D04,352D03,FootBike] 1
+x_WedFri[352D04,352D03,FootBike] 0
 x_WedFri[352D04,352D08,Car] 0
 x_WedFri[352D04,352D08,Moped] 0
 x_WedFri[352D04,352D08,EBikeCart] 0
@@ -73168,7 +73168,7 @@ x_WedFri[352D07,352D08,FootBike] 0
 x_WedFri[352D07,352D11,Car] 0
 x_WedFri[352D07,352D11,Moped] 0
 x_WedFri[352D07,352D11,EBikeCart] 0
-x_WedFri[352D07,352D11,FootBike] 1
+x_WedFri[352D07,352D11,FootBike] 0
 x_WedFri[352D07,352D04,Car] 0
 x_WedFri[352D07,352D04,Moped] 0
 x_WedFri[352D07,352D04,EBikeCart] 0
@@ -73232,7 +73232,7 @@ x_WedFri[352D08,352D07,FootBike] 0
 x_WedFri[352D08,352D12,Car] 0
 x_WedFri[352D08,352D12,Moped] 0
 x_WedFri[352D08,352D12,EBikeCart] 0
-x_WedFri[352D08,352D12,FootBike] 1
+x_WedFri[352D08,352D12,FootBike] 0
 x_WedFri[352D08,352D04,Car] 0
 x_WedFri[352D08,352D04,Moped] 0
 x_WedFri[352D08,352D04,EBikeCart] 0
@@ -73284,7 +73284,7 @@ x_WedFri[352D08,358D43,FootBike] 0
 x_WedFri[352D11,352D07,Car] 0
 x_WedFri[352D11,352D07,Moped] 0
 x_WedFri[352D11,352D07,EBikeCart] 0
-x_WedFri[352D11,352D07,FootBike] 1
+x_WedFri[352D11,352D07,FootBike] 0
 x_WedFri[352D11,352D20,Car] 0
 x_WedFri[352D11,352D20,Moped] 0
 x_WedFri[352D11,352D20,EBikeCart] 0
@@ -73344,7 +73344,7 @@ x_WedFri[352D11,352C09,FootBike] 0
 x_WedFri[352D12,352D08,Car] 0
 x_WedFri[352D12,352D08,Moped] 0
 x_WedFri[352D12,352D08,EBikeCart] 0
-x_WedFri[352D12,352D08,FootBike] 1
+x_WedFri[352D12,352D08,FootBike] 0
 x_WedFri[352D12,352D07,Car] 0
 x_WedFri[352D12,352D07,Moped] 0
 x_WedFri[352D12,352D07,EBikeCart] 0
@@ -73404,7 +73404,7 @@ x_WedFri[352D12,358D48,FootBike] 0
 x_WedFri[352D15,352D16,Car] 0
 x_WedFri[352D15,352D16,Moped] 0
 x_WedFri[352D15,352D16,EBikeCart] 0
-x_WedFri[352D15,352D16,FootBike] 1
+x_WedFri[352D15,352D16,FootBike] 0
 x_WedFri[352D15,352C09,Car] 0
 x_WedFri[352D15,352C09,Moped] 0
 x_WedFri[352D15,352C09,EBikeCart] 0
@@ -73464,7 +73464,7 @@ x_WedFri[352D15,352D07,FootBike] 0
 x_WedFri[352D16,352D15,Car] 0
 x_WedFri[352D16,352D15,Moped] 0
 x_WedFri[352D16,352D15,EBikeCart] 0
-x_WedFri[352D16,352D15,FootBike] 1
+x_WedFri[352D16,352D15,FootBike] 0
 x_WedFri[352D16,352D19,Car] 0
 x_WedFri[352D16,352D19,Moped] 0
 x_WedFri[352D16,352D19,EBikeCart] 0
@@ -73524,7 +73524,7 @@ x_WedFri[352D16,352D31,FootBike] 0
 x_WedFri[352D19,352D20,Car] 0
 x_WedFri[352D19,352D20,Moped] 0
 x_WedFri[352D19,352D20,EBikeCart] 0
-x_WedFri[352D19,352D20,FootBike] 1
+x_WedFri[352D19,352D20,FootBike] 0
 x_WedFri[352D19,352D28,Car] 0
 x_WedFri[352D19,352D28,Moped] 0
 x_WedFri[352D19,352D28,EBikeCart] 0
@@ -73588,7 +73588,7 @@ x_WedFri[352D20,352D23,FootBike] 0
 x_WedFri[352D20,352D19,Car] 0
 x_WedFri[352D20,352D19,Moped] 0
 x_WedFri[352D20,352D19,EBikeCart] 0
-x_WedFri[352D20,352D19,FootBike] 1
+x_WedFri[352D20,352D19,FootBike] 0
 x_WedFri[352D20,352D24,Car] 0
 x_WedFri[352D20,352D24,Moped] 0
 x_WedFri[352D20,352D24,EBikeCart] 0
@@ -73644,7 +73644,7 @@ x_WedFri[352D20,352D31,FootBike] 0
 x_WedFri[352D23,352D24,Car] 0
 x_WedFri[352D23,352D24,Moped] 0
 x_WedFri[352D23,352D24,EBikeCart] 0
-x_WedFri[352D23,352D24,FootBike] 1
+x_WedFri[352D23,352D24,FootBike] 0
 x_WedFri[352D23,352D20,Car] 0
 x_WedFri[352D23,352D20,Moped] 0
 x_WedFri[352D23,352D20,EBikeCart] 0
@@ -73704,7 +73704,7 @@ x_WedFri[352D23,352D36,FootBike] 0
 x_WedFri[352D24,352D23,Car] 0
 x_WedFri[352D24,352D23,Moped] 0
 x_WedFri[352D24,352D23,EBikeCart] 0
-x_WedFri[352D24,352D23,FootBike] 1
+x_WedFri[352D24,352D23,FootBike] 0
 x_WedFri[352D24,352D20,Car] 0
 x_WedFri[352D24,352D20,Moped] 0
 x_WedFri[352D24,352D20,EBikeCart] 0
@@ -73764,7 +73764,7 @@ x_WedFri[352D24,352D07,FootBike] 0
 x_WedFri[352D27,352D28,Car] 0
 x_WedFri[352D27,352D28,Moped] 0
 x_WedFri[352D27,352D28,EBikeCart] 0
-x_WedFri[352D27,352D28,FootBike] 1
+x_WedFri[352D27,352D28,FootBike] 0
 x_WedFri[352D27,352D32,Car] 0
 x_WedFri[352D27,352D32,Moped] 0
 x_WedFri[352D27,352D32,EBikeCart] 0
@@ -73824,7 +73824,7 @@ x_WedFri[352D27,352D16,FootBike] 0
 x_WedFri[352D28,352D27,Car] 0
 x_WedFri[352D28,352D27,Moped] 0
 x_WedFri[352D28,352D27,EBikeCart] 0
-x_WedFri[352D28,352D27,FootBike] 1
+x_WedFri[352D28,352D27,FootBike] 0
 x_WedFri[352D28,352D23,Car] 0
 x_WedFri[352D28,352D23,Moped] 0
 x_WedFri[352D28,352D23,EBikeCart] 0
@@ -73884,7 +73884,7 @@ x_WedFri[352D28,352D48,FootBike] 0
 x_WedFri[352D31,352D32,Car] 0
 x_WedFri[352D31,352D32,Moped] 0
 x_WedFri[352D31,352D32,EBikeCart] 0
-x_WedFri[352D31,352D32,FootBike] 1
+x_WedFri[352D31,352D32,FootBike] 0
 x_WedFri[352D31,352D48,Car] 0
 x_WedFri[352D31,352D48,Moped] 0
 x_WedFri[352D31,352D48,EBikeCart] 0
@@ -73944,7 +73944,7 @@ x_WedFri[352D31,352D43,FootBike] 0
 x_WedFri[352D32,352D31,Car] 0
 x_WedFri[352D32,352D31,Moped] 0
 x_WedFri[352D32,352D31,EBikeCart] 0
-x_WedFri[352D32,352D31,FootBike] 1
+x_WedFri[352D32,352D31,FootBike] 0
 x_WedFri[352D32,352C07,Car] 0
 x_WedFri[352D32,352C07,Moped] 0
 x_WedFri[352D32,352C07,EBikeCart] 0
@@ -74004,7 +74004,7 @@ x_WedFri[352D32,352D15,FootBike] 0
 x_WedFri[352D35,352D36,Car] 0
 x_WedFri[352D35,352D36,Moped] 0
 x_WedFri[352D35,352D36,EBikeCart] 0
-x_WedFri[352D35,352D36,FootBike] 1
+x_WedFri[352D35,352D36,FootBike] 0
 x_WedFri[352D35,352D31,Car] 0
 x_WedFri[352D35,352D31,Moped] 0
 x_WedFri[352D35,352D31,EBikeCart] 0
@@ -74064,7 +74064,7 @@ x_WedFri[352D35,352D24,FootBike] 0
 x_WedFri[352D36,352D35,Car] 0
 x_WedFri[352D36,352D35,Moped] 0
 x_WedFri[352D36,352D35,EBikeCart] 0
-x_WedFri[352D36,352D35,FootBike] 1
+x_WedFri[352D36,352D35,FootBike] 0
 x_WedFri[352D36,352D31,Car] 0
 x_WedFri[352D36,352D31,Moped] 0
 x_WedFri[352D36,352D31,EBikeCart] 0
@@ -74128,7 +74128,7 @@ x_WedFri[352D39,352D44,FootBike] 0
 x_WedFri[352D39,352D40,Car] 0
 x_WedFri[352D39,352D40,Moped] 0
 x_WedFri[352D39,352D40,EBikeCart] 0
-x_WedFri[352D39,352D40,FootBike] 1
+x_WedFri[352D39,352D40,FootBike] 0
 x_WedFri[352D39,358D07,Car] 0
 x_WedFri[352D39,358D07,Moped] 0
 x_WedFri[352D39,358D07,EBikeCart] 0
@@ -74188,7 +74188,7 @@ x_WedFri[352D40,352D44,FootBike] 0
 x_WedFri[352D40,352D39,Car] 0
 x_WedFri[352D40,352D39,Moped] 0
 x_WedFri[352D40,352D39,EBikeCart] 0
-x_WedFri[352D40,352D39,FootBike] 1
+x_WedFri[352D40,352D39,FootBike] 0
 x_WedFri[352D40,352D43,Car] 0
 x_WedFri[352D40,352D43,Moped] 0
 x_WedFri[352D40,352D43,EBikeCart] 0
@@ -74244,7 +74244,7 @@ x_WedFri[352D40,351F11,FootBike] 0
 x_WedFri[352D43,352D44,Car] 0
 x_WedFri[352D43,352D44,Moped] 0
 x_WedFri[352D43,352D44,EBikeCart] 0
-x_WedFri[352D43,352D44,FootBike] 1
+x_WedFri[352D43,352D44,FootBike] 0
 x_WedFri[352D43,352D40,Car] 0
 x_WedFri[352D43,352D40,Moped] 0
 x_WedFri[352D43,352D40,EBikeCart] 0
@@ -74304,7 +74304,7 @@ x_WedFri[352D43,358D15,FootBike] 0
 x_WedFri[352D44,352D43,Car] 0
 x_WedFri[352D44,352D43,Moped] 0
 x_WedFri[352D44,352D43,EBikeCart] 0
-x_WedFri[352D44,352D43,FootBike] 1
+x_WedFri[352D44,352D43,FootBike] 0
 x_WedFri[352D44,352D40,Car] 0
 x_WedFri[352D44,352D40,Moped] 0
 x_WedFri[352D44,352D40,EBikeCart] 0
@@ -74392,7 +74392,7 @@ x_WedFri[352D47,352C05,FootBike] 0
 x_WedFri[352D47,352C01,Car] 0
 x_WedFri[352D47,352C01,Moped] 0
 x_WedFri[352D47,352C01,EBikeCart] 0
-x_WedFri[352D47,352C01,FootBike] 1
+x_WedFri[352D47,352C01,FootBike] 0
 x_WedFri[352D47,352D27,Car] 0
 x_WedFri[352D47,352D27,Moped] 0
 x_WedFri[352D47,352D27,EBikeCart] 0
@@ -74492,7 +74492,7 @@ x_WedFri[352D51,352D48,FootBike] 0
 x_WedFri[352D51,352D52,Car] 0
 x_WedFri[352D51,352D52,Moped] 0
 x_WedFri[352D51,352D52,EBikeCart] 0
-x_WedFri[352D51,352D52,FootBike] 1
+x_WedFri[352D51,352D52,FootBike] 0
 x_WedFri[352D51,352D55,Car] 0
 x_WedFri[352D51,352D55,Moped] 0
 x_WedFri[352D51,352D55,EBikeCart] 0
@@ -74544,7 +74544,7 @@ x_WedFri[352D51,352C09,FootBike] 0
 x_WedFri[352D52,352D51,Car] 0
 x_WedFri[352D52,352D51,Moped] 0
 x_WedFri[352D52,352D51,EBikeCart] 0
-x_WedFri[352D52,352D51,FootBike] 1
+x_WedFri[352D52,352D51,FootBike] 0
 x_WedFri[352D52,352D48,Car] 0
 x_WedFri[352D52,352D48,Moped] 0
 x_WedFri[352D52,352D48,EBikeCart] 0
@@ -74604,7 +74604,7 @@ x_WedFri[352D52,352C07,FootBike] 0
 x_WedFri[352D55,352D56,Car] 0
 x_WedFri[352D55,352D56,Moped] 0
 x_WedFri[352D55,352D56,EBikeCart] 0
-x_WedFri[352D55,352D56,FootBike] 1
+x_WedFri[352D55,352D56,FootBike] 0
 x_WedFri[352D55,352D59,Car] 0
 x_WedFri[352D55,352D59,Moped] 0
 x_WedFri[352D55,352D59,EBikeCart] 0
@@ -74664,7 +74664,7 @@ x_WedFri[352D55,352D35,FootBike] 0
 x_WedFri[352D56,352D55,Car] 0
 x_WedFri[352D56,352D55,Moped] 0
 x_WedFri[352D56,352D55,EBikeCart] 0
-x_WedFri[352D56,352D55,FootBike] 1
+x_WedFri[352D56,352D55,FootBike] 0
 x_WedFri[352D56,352D51,Car] 0
 x_WedFri[352D56,352D51,Moped] 0
 x_WedFri[352D56,352D51,EBikeCart] 0
@@ -74724,7 +74724,7 @@ x_WedFri[352D56,352C09,FootBike] 0
 x_WedFri[352D59,352D60,Car] 0
 x_WedFri[352D59,352D60,Moped] 0
 x_WedFri[352D59,352D60,EBikeCart] 0
-x_WedFri[352D59,352D60,FootBike] 1
+x_WedFri[352D59,352D60,FootBike] 0
 x_WedFri[352D59,352D55,Car] 0
 x_WedFri[352D59,352D55,Moped] 0
 x_WedFri[352D59,352D55,EBikeCart] 0
@@ -74784,7 +74784,7 @@ x_WedFri[352D59,352C07,FootBike] 0
 x_WedFri[352D60,352D59,Car] 0
 x_WedFri[352D60,352D59,Moped] 0
 x_WedFri[352D60,352D59,EBikeCart] 0
-x_WedFri[352D60,352D59,FootBike] 1
+x_WedFri[352D60,352D59,FootBike] 0
 x_WedFri[352D60,352D55,Car] 0
 x_WedFri[352D60,352D55,Moped] 0
 x_WedFri[352D60,352D55,EBikeCart] 0
@@ -74844,7 +74844,7 @@ x_WedFri[352D60,352D43,FootBike] 0
 x_WedFri[352D63,352D64,Car] 0
 x_WedFri[352D63,352D64,Moped] 0
 x_WedFri[352D63,352D64,EBikeCart] 0
-x_WedFri[352D63,352D64,FootBike] 1
+x_WedFri[352D63,352D64,FootBike] 0
 x_WedFri[352D63,352D59,Car] 0
 x_WedFri[352D63,352D59,Moped] 0
 x_WedFri[352D63,352D59,EBikeCart] 0
@@ -74904,7 +74904,7 @@ x_WedFri[352D63,345D27,FootBike] 0
 x_WedFri[352D64,352D63,Car] 0
 x_WedFri[352D64,352D63,Moped] 0
 x_WedFri[352D64,352D63,EBikeCart] 0
-x_WedFri[352D64,352D63,FootBike] 1
+x_WedFri[352D64,352D63,FootBike] 0
 x_WedFri[352D64,352D59,Car] 0
 x_WedFri[352D64,352D59,Moped] 0
 x_WedFri[352D64,352D59,EBikeCart] 0
@@ -74968,7 +74968,7 @@ x_WedFri[352D67,352D71,FootBike] 0
 x_WedFri[352D67,352D68,Car] 0
 x_WedFri[352D67,352D68,Moped] 0
 x_WedFri[352D67,352D68,EBikeCart] 0
-x_WedFri[352D67,352D68,FootBike] 1
+x_WedFri[352D67,352D68,FootBike] 0
 x_WedFri[352D67,345D60,Car] 0
 x_WedFri[352D67,345D60,Moped] 0
 x_WedFri[352D67,345D60,EBikeCart] 0
@@ -75024,7 +75024,7 @@ x_WedFri[352D67,345D40,FootBike] 0
 x_WedFri[352D68,352D67,Car] 0
 x_WedFri[352D68,352D67,Moped] 0
 x_WedFri[352D68,352D67,EBikeCart] 0
-x_WedFri[352D68,352D67,FootBike] 1
+x_WedFri[352D68,352D67,FootBike] 0
 x_WedFri[352D68,353F01,Car] 0
 x_WedFri[352D68,353F01,Moped] 0
 x_WedFri[352D68,353F01,EBikeCart] 0
@@ -75084,7 +75084,7 @@ x_WedFri[352D68,353F09,FootBike] 0
 x_WedFri[352D71,352D72,Car] 0
 x_WedFri[352D71,352D72,Moped] 0
 x_WedFri[352D71,352D72,EBikeCart] 0
-x_WedFri[352D71,352D72,FootBike] 1
+x_WedFri[352D71,352D72,FootBike] 0
 x_WedFri[352D71,352D67,Car] 0
 x_WedFri[352D71,352D67,Moped] 0
 x_WedFri[352D71,352D67,EBikeCart] 0
@@ -75144,7 +75144,7 @@ x_WedFri[352D71,345D39,FootBike] 0
 x_WedFri[352D72,352D71,Car] 0
 x_WedFri[352D72,352D71,Moped] 0
 x_WedFri[352D72,352D71,EBikeCart] 0
-x_WedFri[352D72,352D71,FootBike] 1
+x_WedFri[352D72,352D71,FootBike] 0
 x_WedFri[352D72,352D67,Car] 0
 x_WedFri[352D72,352D67,Moped] 0
 x_WedFri[352D72,352D67,EBikeCart] 0
@@ -75204,7 +75204,7 @@ x_WedFri[352D72,345D32,FootBike] 0
 x_WedFri[353F01,353F39,Car] 0
 x_WedFri[353F01,353F39,Moped] 0
 x_WedFri[353F01,353F39,EBikeCart] 0
-x_WedFri[353F01,353F39,FootBike] 1
+x_WedFri[353F01,353F39,FootBike] 0
 x_WedFri[353F01,352D68,Car] 0
 x_WedFri[353F01,352D68,Moped] 0
 x_WedFri[353F01,352D68,EBikeCart] 0
@@ -75268,7 +75268,7 @@ x_WedFri[353F03,353F01,FootBike] 0
 x_WedFri[353F03,353F05,Car] 0
 x_WedFri[353F03,353F05,Moped] 0
 x_WedFri[353F03,353F05,EBikeCart] 0
-x_WedFri[353F03,353F05,FootBike] 1
+x_WedFri[353F03,353F05,FootBike] 0
 x_WedFri[353F03,353F07,Car] 0
 x_WedFri[353F03,353F07,Moped] 0
 x_WedFri[353F03,353F07,EBikeCart] 0
@@ -75324,7 +75324,7 @@ x_WedFri[353F03,352D67,FootBike] 0
 x_WedFri[353F05,353F03,Car] 0
 x_WedFri[353F05,353F03,Moped] 0
 x_WedFri[353F05,353F03,EBikeCart] 0
-x_WedFri[353F05,353F03,FootBike] 1
+x_WedFri[353F05,353F03,FootBike] 0
 x_WedFri[353F05,353F06,Car] 0
 x_WedFri[353F05,353F06,Moped] 0
 x_WedFri[353F05,353F06,EBikeCart] 0
@@ -75388,7 +75388,7 @@ x_WedFri[353F06,356D56,FootBike] 0
 x_WedFri[353F06,356D55,Car] 0
 x_WedFri[353F06,356D55,Moped] 0
 x_WedFri[353F06,356D55,EBikeCart] 0
-x_WedFri[353F06,356D55,FootBike] 1
+x_WedFri[353F06,356D55,FootBike] 0
 x_WedFri[353F06,356D52,Car] 0
 x_WedFri[353F06,356D52,Moped] 0
 x_WedFri[353F06,356D52,EBikeCart] 0
@@ -75444,7 +75444,7 @@ x_WedFri[353F06,353F37,FootBike] 0
 x_WedFri[353F07,353F09,Car] 0
 x_WedFri[353F07,353F09,Moped] 0
 x_WedFri[353F07,353F09,EBikeCart] 0
-x_WedFri[353F07,353F09,FootBike] 1
+x_WedFri[353F07,353F09,FootBike] 0
 x_WedFri[353F07,353F39,Car] 0
 x_WedFri[353F07,353F39,Moped] 0
 x_WedFri[353F07,353F39,EBikeCart] 0
@@ -75504,7 +75504,7 @@ x_WedFri[353F07,352D67,FootBike] 0
 x_WedFri[353F09,353F07,Car] 0
 x_WedFri[353F09,353F07,Moped] 0
 x_WedFri[353F09,353F07,EBikeCart] 0
-x_WedFri[353F09,353F07,FootBike] 1
+x_WedFri[353F09,353F07,FootBike] 0
 x_WedFri[353F09,353F37,Car] 0
 x_WedFri[353F09,353F37,Moped] 0
 x_WedFri[353F09,353F37,EBikeCart] 0
@@ -75564,7 +75564,7 @@ x_WedFri[353F09,356D56,FootBike] 0
 x_WedFri[353F35,353F37,Car] 0
 x_WedFri[353F35,353F37,Moped] 0
 x_WedFri[353F35,353F37,EBikeCart] 0
-x_WedFri[353F35,353F37,FootBike] 1
+x_WedFri[353F35,353F37,FootBike] 0
 x_WedFri[353F35,353F39,Car] 0
 x_WedFri[353F35,353F39,Moped] 0
 x_WedFri[353F35,353F39,EBikeCart] 0
@@ -75624,7 +75624,7 @@ x_WedFri[353F35,345D59,FootBike] 0
 x_WedFri[353F37,353F35,Car] 0
 x_WedFri[353F37,353F35,Moped] 0
 x_WedFri[353F37,353F35,EBikeCart] 0
-x_WedFri[353F37,353F35,FootBike] 1
+x_WedFri[353F37,353F35,FootBike] 0
 x_WedFri[353F37,353F39,Car] 0
 x_WedFri[353F37,353F39,Moped] 0
 x_WedFri[353F37,353F39,EBikeCart] 0
@@ -75688,7 +75688,7 @@ x_WedFri[353F39,353F37,FootBike] 0
 x_WedFri[353F39,353F01,Car] 0
 x_WedFri[353F39,353F01,Moped] 0
 x_WedFri[353F39,353F01,EBikeCart] 0
-x_WedFri[353F39,353F01,FootBike] 1
+x_WedFri[353F39,353F01,FootBike] 0
 x_WedFri[353F39,353F07,Car] 0
 x_WedFri[353F39,353F07,Moped] 0
 x_WedFri[353F39,353F07,EBikeCart] 0
@@ -75744,7 +75744,7 @@ x_WedFri[353F39,356D48,FootBike] 0
 x_WedFri[354F01,354F03,Car] 0
 x_WedFri[354F01,354F03,Moped] 0
 x_WedFri[354F01,354F03,EBikeCart] 0
-x_WedFri[354F01,354F03,FootBike] 1
+x_WedFri[354F01,354F03,FootBike] 0
 x_WedFri[354F01,354F13,Car] 0
 x_WedFri[354F01,354F13,Moped] 0
 x_WedFri[354F01,354F13,EBikeCart] 0
@@ -75804,7 +75804,7 @@ x_WedFri[354F01,345D51,FootBike] 0
 x_WedFri[354F03,354F01,Car] 0
 x_WedFri[354F03,354F01,Moped] 0
 x_WedFri[354F03,354F01,EBikeCart] 0
-x_WedFri[354F03,354F01,FootBike] 1
+x_WedFri[354F03,354F01,FootBike] 0
 x_WedFri[354F03,354F13,Car] 0
 x_WedFri[354F03,354F13,Moped] 0
 x_WedFri[354F03,354F13,EBikeCart] 0
@@ -75864,7 +75864,7 @@ x_WedFri[354F03,345F01,FootBike] 0
 x_WedFri[354F07,354F09,Car] 0
 x_WedFri[354F07,354F09,Moped] 0
 x_WedFri[354F07,354F09,EBikeCart] 0
-x_WedFri[354F07,354F09,FootBike] 1
+x_WedFri[354F07,354F09,FootBike] 0
 x_WedFri[354F07,345D51,Car] 0
 x_WedFri[354F07,345D51,Moped] 0
 x_WedFri[354F07,345D51,EBikeCart] 0
@@ -75924,7 +75924,7 @@ x_WedFri[354F07,345D43,FootBike] 0
 x_WedFri[354F09,354F07,Car] 0
 x_WedFri[354F09,354F07,Moped] 0
 x_WedFri[354F09,354F07,EBikeCart] 0
-x_WedFri[354F09,354F07,FootBike] 1
+x_WedFri[354F09,354F07,FootBike] 0
 x_WedFri[354F09,354F11,Car] 0
 x_WedFri[354F09,354F11,Moped] 0
 x_WedFri[354F09,354F11,EBikeCart] 0
@@ -75988,7 +75988,7 @@ x_WedFri[354F11,354F09,FootBike] 0
 x_WedFri[354F11,354F15,Car] 0
 x_WedFri[354F11,354F15,Moped] 0
 x_WedFri[354F11,354F15,EBikeCart] 0
-x_WedFri[354F11,354F15,FootBike] 1
+x_WedFri[354F11,354F15,FootBike] 0
 x_WedFri[354F11,354F13,Car] 0
 x_WedFri[354F11,354F13,Moped] 0
 x_WedFri[354F11,354F13,EBikeCart] 0
@@ -76052,7 +76052,7 @@ x_WedFri[354F13,354F03,FootBike] 0
 x_WedFri[354F13,354F11,Car] 0
 x_WedFri[354F13,354F11,Moped] 0
 x_WedFri[354F13,354F11,EBikeCart] 0
-x_WedFri[354F13,354F11,FootBike] 1
+x_WedFri[354F13,354F11,FootBike] 0
 x_WedFri[354F13,354F01,Car] 0
 x_WedFri[354F13,354F01,Moped] 0
 x_WedFri[354F13,354F01,EBikeCart] 0
@@ -76104,7 +76104,7 @@ x_WedFri[354F13,354F41,FootBike] 0
 x_WedFri[354F15,354F13,Car] 0
 x_WedFri[354F15,354F13,Moped] 0
 x_WedFri[354F15,354F13,EBikeCart] 0
-x_WedFri[354F15,354F13,FootBike] 1
+x_WedFri[354F15,354F13,FootBike] 0
 x_WedFri[354F15,35C021,Car] 0
 x_WedFri[354F15,35C021,Moped] 0
 x_WedFri[354F15,35C021,EBikeCart] 0
@@ -76184,7 +76184,7 @@ x_WedFri[354F17,345F22,FootBike] 0
 x_WedFri[354F17,35B202,Car] 0
 x_WedFri[354F17,35B202,Moped] 0
 x_WedFri[354F17,35B202,EBikeCart] 0
-x_WedFri[354F17,35B202,FootBike] 1
+x_WedFri[354F17,35B202,FootBike] 0
 x_WedFri[354F17,354F11,Car] 0
 x_WedFri[354F17,354F11,Moped] 0
 x_WedFri[354F17,354F11,EBikeCart] 0
@@ -76224,7 +76224,7 @@ x_WedFri[354F17,354F42,FootBike] 0
 x_WedFri[354F41,354F42,Car] 0
 x_WedFri[354F41,354F42,Moped] 0
 x_WedFri[354F41,354F42,EBikeCart] 0
-x_WedFri[354F41,354F42,FootBike] 1
+x_WedFri[354F41,354F42,FootBike] 0
 x_WedFri[354F41,354F43,Car] 0
 x_WedFri[354F41,354F43,Moped] 0
 x_WedFri[354F41,354F43,EBikeCart] 0
@@ -76284,7 +76284,7 @@ x_WedFri[354F41,345F22,FootBike] 0
 x_WedFri[354F42,354F41,Car] 0
 x_WedFri[354F42,354F41,Moped] 0
 x_WedFri[354F42,354F41,EBikeCart] 0
-x_WedFri[354F42,354F41,FootBike] 1
+x_WedFri[354F42,354F41,FootBike] 0
 x_WedFri[354F42,354F43,Car] 0
 x_WedFri[354F42,354F43,Moped] 0
 x_WedFri[354F42,354F43,EBikeCart] 0
@@ -76344,7 +76344,7 @@ x_WedFri[354F42,354F17,FootBike] 0
 x_WedFri[354F43,354J44,Car] 0
 x_WedFri[354F43,354J44,Moped] 0
 x_WedFri[354F43,354J44,EBikeCart] 0
-x_WedFri[354F43,354J44,FootBike] 1
+x_WedFri[354F43,354J44,FootBike] 0
 x_WedFri[354F43,354F44,Car] 0
 x_WedFri[354F43,354F44,Moped] 0
 x_WedFri[354F43,354F44,EBikeCart] 0
@@ -76408,7 +76408,7 @@ x_WedFri[354F44,354J44,FootBike] 0
 x_WedFri[354F44,354F43,Car] 0
 x_WedFri[354F44,354F43,Moped] 0
 x_WedFri[354F44,354F43,EBikeCart] 0
-x_WedFri[354F44,354F43,FootBike] 1
+x_WedFri[354F44,354F43,FootBike] 0
 x_WedFri[354F44,354F41,Car] 0
 x_WedFri[354F44,354F41,Moped] 0
 x_WedFri[354F44,354F41,EBikeCart] 0
@@ -76464,7 +76464,7 @@ x_WedFri[354F44,354J55,FootBike] 0
 x_WedFri[354F45,354J45,Car] 0
 x_WedFri[354F45,354J45,Moped] 0
 x_WedFri[354F45,354J45,EBikeCart] 0
-x_WedFri[354F45,354J45,FootBike] 1
+x_WedFri[354F45,354J45,FootBike] 0
 x_WedFri[354F45,354J46,Car] 0
 x_WedFri[354F45,354J46,Moped] 0
 x_WedFri[354F45,354J46,EBikeCart] 0
@@ -76528,7 +76528,7 @@ x_WedFri[354F46,354J45,FootBike] 0
 x_WedFri[354F46,354F56,Car] 0
 x_WedFri[354F46,354F56,Moped] 0
 x_WedFri[354F46,354F56,EBikeCart] 0
-x_WedFri[354F46,354F56,FootBike] 1
+x_WedFri[354F46,354F56,FootBike] 0
 x_WedFri[354F46,354J55,Car] 0
 x_WedFri[354F46,354J55,Moped] 0
 x_WedFri[354F46,354J55,EBikeCart] 0
@@ -76584,7 +76584,7 @@ x_WedFri[354F46,360F06,FootBike] 0
 x_WedFri[354F55,354J55,Car] 0
 x_WedFri[354F55,354J55,Moped] 0
 x_WedFri[354F55,354J55,EBikeCart] 0
-x_WedFri[354F55,354J55,FootBike] 1
+x_WedFri[354F55,354J55,FootBike] 0
 x_WedFri[354F55,354F57,Car] 0
 x_WedFri[354F55,354F57,Moped] 0
 x_WedFri[354F55,354F57,EBikeCart] 0
@@ -76652,7 +76652,7 @@ x_WedFri[354F56,354F55,FootBike] 0
 x_WedFri[354F56,354F46,Car] 0
 x_WedFri[354F56,354F46,Moped] 0
 x_WedFri[354F56,354F46,EBikeCart] 0
-x_WedFri[354F56,354F46,FootBike] 1
+x_WedFri[354F56,354F46,FootBike] 0
 x_WedFri[354F56,354F57,Car] 0
 x_WedFri[354F56,354F57,Moped] 0
 x_WedFri[354F56,354F57,EBikeCart] 0
@@ -76724,7 +76724,7 @@ x_WedFri[354F57,354J55,FootBike] 0
 x_WedFri[354F57,360F08,Car] 0
 x_WedFri[354F57,360F08,Moped] 0
 x_WedFri[354F57,360F08,EBikeCart] 0
-x_WedFri[354F57,360F08,FootBike] 1
+x_WedFri[354F57,360F08,FootBike] 0
 x_WedFri[354F57,354F46,Car] 0
 x_WedFri[354F57,354F46,Moped] 0
 x_WedFri[354F57,354F46,EBikeCart] 0
@@ -76768,7 +76768,7 @@ x_WedFri[354F58,354F57,FootBike] 0
 x_WedFri[354F58,354F63,Car] 0
 x_WedFri[354F58,354F63,Moped] 0
 x_WedFri[354F58,354F63,EBikeCart] 0
-x_WedFri[354F58,354F63,FootBike] 1
+x_WedFri[354F58,354F63,FootBike] 0
 x_WedFri[354F58,354F55,Car] 0
 x_WedFri[354F58,354F55,Moped] 0
 x_WedFri[354F58,354F55,EBikeCart] 0
@@ -76824,7 +76824,7 @@ x_WedFri[354F58,360F10,FootBike] 0
 x_WedFri[354F63,354F58,Car] 0
 x_WedFri[354F63,354F58,Moped] 0
 x_WedFri[354F63,354F58,EBikeCart] 0
-x_WedFri[354F63,354F58,FootBike] 1
+x_WedFri[354F63,354F58,FootBike] 0
 x_WedFri[354F63,354F57,Car] 0
 x_WedFri[354F63,354F57,Moped] 0
 x_WedFri[354F63,354F57,EBikeCart] 0
@@ -76884,7 +76884,7 @@ x_WedFri[354F63,360F10,FootBike] 0
 x_WedFri[354J44,354F44,Car] 0
 x_WedFri[354J44,354F44,Moped] 0
 x_WedFri[354J44,354F44,EBikeCart] 0
-x_WedFri[354J44,354F44,FootBike] 1
+x_WedFri[354J44,354F44,FootBike] 0
 x_WedFri[354J44,354F43,Car] 0
 x_WedFri[354J44,354F43,Moped] 0
 x_WedFri[354J44,354F43,EBikeCart] 0
@@ -76948,7 +76948,7 @@ x_WedFri[354J45,354F45,FootBike] 0
 x_WedFri[354J45,354J46,Car] 0
 x_WedFri[354J45,354J46,Moped] 0
 x_WedFri[354J45,354J46,EBikeCart] 0
-x_WedFri[354J45,354J46,FootBike] 1
+x_WedFri[354J45,354J46,FootBike] 0
 x_WedFri[354J45,354F46,Car] 0
 x_WedFri[354J45,354F46,Moped] 0
 x_WedFri[354J45,354F46,EBikeCart] 0
@@ -77004,7 +77004,7 @@ x_WedFri[354J45,360F06,FootBike] 0
 x_WedFri[354J46,354F45,Car] 0
 x_WedFri[354J46,354F45,Moped] 0
 x_WedFri[354J46,354F45,EBikeCart] 0
-x_WedFri[354J46,354F45,FootBike] 1
+x_WedFri[354J46,354F45,FootBike] 0
 x_WedFri[354J46,354J45,Car] 0
 x_WedFri[354J46,354J45,Moped] 0
 x_WedFri[354J46,354J45,EBikeCart] 0
@@ -77064,7 +77064,7 @@ x_WedFri[354J46,360F16,FootBike] 0
 x_WedFri[354J55,354F55,Car] 0
 x_WedFri[354J55,354F55,Moped] 0
 x_WedFri[354J55,354F55,EBikeCart] 0
-x_WedFri[354J55,354F55,FootBike] 1
+x_WedFri[354J55,354F55,FootBike] 0
 x_WedFri[354J55,354F56,Car] 0
 x_WedFri[354J55,354F56,Moped] 0
 x_WedFri[354J55,354F56,EBikeCart] 0
@@ -77127,7 +77127,7 @@ x_WedFri[356B02,36A022,EBikeCart] 0
 x_WedFri[356B02,36A022,FootBike] 0
 x_WedFri[356B02,356C15,Car] 0
 x_WedFri[356B02,356C15,Moped] 0
-x_WedFri[356B02,356C15,EBikeCart] 1
+x_WedFri[356B02,356C15,EBikeCart] 0
 x_WedFri[356B02,356C15,FootBike] 0
 x_WedFri[356B02,356C01,Car] 0
 x_WedFri[356B02,356C01,Moped] 0
@@ -77248,7 +77248,7 @@ x_WedFri[356C03,356D12,FootBike] 0
 x_WedFri[356C03,356C05,Car] 0
 x_WedFri[356C03,356C05,Moped] 0
 x_WedFri[356C03,356C05,EBikeCart] 0
-x_WedFri[356C03,356C05,FootBike] 1
+x_WedFri[356C03,356C05,FootBike] 0
 x_WedFri[356C03,356D11,Car] 0
 x_WedFri[356C03,356D11,Moped] 0
 x_WedFri[356C03,356D11,EBikeCart] 0
@@ -77316,7 +77316,7 @@ x_WedFri[356C05,356D07,FootBike] 0
 x_WedFri[356C05,356C03,Car] 0
 x_WedFri[356C05,356C03,Moped] 0
 x_WedFri[356C05,356C03,EBikeCart] 0
-x_WedFri[356C05,356C03,FootBike] 1
+x_WedFri[356C05,356C03,FootBike] 0
 x_WedFri[356C05,356D11,Car] 0
 x_WedFri[356C05,356D11,Moped] 0
 x_WedFri[356C05,356D11,EBikeCart] 0
@@ -77364,7 +77364,7 @@ x_WedFri[356C05,356D63,FootBike] 0
 x_WedFri[356C09,356D64,Car] 0
 x_WedFri[356C09,356D64,Moped] 0
 x_WedFri[356C09,356D64,EBikeCart] 0
-x_WedFri[356C09,356D64,FootBike] 1
+x_WedFri[356C09,356D64,FootBike] 0
 x_WedFri[356C09,356C11,Car] 0
 x_WedFri[356C09,356C11,Moped] 0
 x_WedFri[356C09,356C11,EBikeCart] 0
@@ -77424,7 +77424,7 @@ x_WedFri[356C09,353F05,FootBike] 0
 x_WedFri[356C11,356D63,Car] 0
 x_WedFri[356C11,356D63,Moped] 0
 x_WedFri[356C11,356D63,EBikeCart] 0
-x_WedFri[356C11,356D63,FootBike] 1
+x_WedFri[356C11,356D63,FootBike] 0
 x_WedFri[356C11,356D64,Car] 0
 x_WedFri[356C11,356D64,Moped] 0
 x_WedFri[356C11,356D64,EBikeCart] 0
@@ -77487,7 +77487,7 @@ x_WedFri[356C15,36A022,EBikeCart] 0
 x_WedFri[356C15,36A022,FootBike] 0
 x_WedFri[356C15,356B02,Car] 0
 x_WedFri[356C15,356B02,Moped] 0
-x_WedFri[356C15,356B02,EBikeCart] 1
+x_WedFri[356C15,356B02,EBikeCart] 0
 x_WedFri[356C15,356B02,FootBike] 0
 x_WedFri[356C15,360F06,Car] 0
 x_WedFri[356C15,360F06,Moped] 0
@@ -77540,7 +77540,7 @@ x_WedFri[356D03,356D08,FootBike] 0
 x_WedFri[356D03,356D04,Car] 0
 x_WedFri[356D03,356D04,Moped] 0
 x_WedFri[356D03,356D04,EBikeCart] 0
-x_WedFri[356D03,356D04,FootBike] 1
+x_WedFri[356D03,356D04,FootBike] 0
 x_WedFri[356D03,356D07,Car] 0
 x_WedFri[356D03,356D07,Moped] 0
 x_WedFri[356D03,356D07,EBikeCart] 0
@@ -77596,7 +77596,7 @@ x_WedFri[356D03,356D23,FootBike] 0
 x_WedFri[356D04,356D03,Car] 0
 x_WedFri[356D04,356D03,Moped] 0
 x_WedFri[356D04,356D03,EBikeCart] 0
-x_WedFri[356D04,356D03,FootBike] 1
+x_WedFri[356D04,356D03,FootBike] 0
 x_WedFri[356D04,356D08,Car] 0
 x_WedFri[356D04,356D08,Moped] 0
 x_WedFri[356D04,356D08,EBikeCart] 0
@@ -77656,7 +77656,7 @@ x_WedFri[356D04,356D36,FootBike] 0
 x_WedFri[356D07,356D08,Car] 0
 x_WedFri[356D07,356D08,Moped] 0
 x_WedFri[356D07,356D08,EBikeCart] 0
-x_WedFri[356D07,356D08,FootBike] 1
+x_WedFri[356D07,356D08,FootBike] 0
 x_WedFri[356D07,356D11,Car] 0
 x_WedFri[356D07,356D11,Moped] 0
 x_WedFri[356D07,356D11,EBikeCart] 0
@@ -77716,7 +77716,7 @@ x_WedFri[356D07,356D60,FootBike] 0
 x_WedFri[356D08,356D07,Car] 0
 x_WedFri[356D08,356D07,Moped] 0
 x_WedFri[356D08,356D07,EBikeCart] 0
-x_WedFri[356D08,356D07,FootBike] 1
+x_WedFri[356D08,356D07,FootBike] 0
 x_WedFri[356D08,356D03,Car] 0
 x_WedFri[356D08,356D03,Moped] 0
 x_WedFri[356D08,356D03,EBikeCart] 0
@@ -77776,7 +77776,7 @@ x_WedFri[356D08,356D23,FootBike] 0
 x_WedFri[356D11,356D12,Car] 0
 x_WedFri[356D11,356D12,Moped] 0
 x_WedFri[356D11,356D12,EBikeCart] 0
-x_WedFri[356D11,356D12,FootBike] 1
+x_WedFri[356D11,356D12,FootBike] 0
 x_WedFri[356D11,356D07,Car] 0
 x_WedFri[356D11,356D07,Moped] 0
 x_WedFri[356D11,356D07,EBikeCart] 0
@@ -77836,7 +77836,7 @@ x_WedFri[356D11,356C11,FootBike] 0
 x_WedFri[356D12,356D11,Car] 0
 x_WedFri[356D12,356D11,Moped] 0
 x_WedFri[356D12,356D11,EBikeCart] 0
-x_WedFri[356D12,356D11,FootBike] 1
+x_WedFri[356D12,356D11,FootBike] 0
 x_WedFri[356D12,356C03,Car] 0
 x_WedFri[356D12,356C03,Moped] 0
 x_WedFri[356D12,356C03,EBikeCart] 0
@@ -77896,7 +77896,7 @@ x_WedFri[356D12,356C09,FootBike] 0
 x_WedFri[356D15,356D16,Car] 0
 x_WedFri[356D15,356D16,Moped] 0
 x_WedFri[356D15,356D16,EBikeCart] 0
-x_WedFri[356D15,356D16,FootBike] 1
+x_WedFri[356D15,356D16,FootBike] 0
 x_WedFri[356D15,356D19,Car] 0
 x_WedFri[356D15,356D19,Moped] 0
 x_WedFri[356D15,356D19,EBikeCart] 0
@@ -77956,7 +77956,7 @@ x_WedFri[356D15,357J03,FootBike] 0
 x_WedFri[356D16,356D15,Car] 0
 x_WedFri[356D16,356D15,Moped] 0
 x_WedFri[356D16,356D15,EBikeCart] 0
-x_WedFri[356D16,356D15,FootBike] 1
+x_WedFri[356D16,356D15,FootBike] 0
 x_WedFri[356D16,356D20,Car] 0
 x_WedFri[356D16,356D20,Moped] 0
 x_WedFri[356D16,356D20,EBikeCart] 0
@@ -78016,7 +78016,7 @@ x_WedFri[356D16,356D28,FootBike] 0
 x_WedFri[356D19,356D20,Car] 0
 x_WedFri[356D19,356D20,Moped] 0
 x_WedFri[356D19,356D20,EBikeCart] 0
-x_WedFri[356D19,356D20,FootBike] 1
+x_WedFri[356D19,356D20,FootBike] 0
 x_WedFri[356D19,356D23,Car] 0
 x_WedFri[356D19,356D23,Moped] 0
 x_WedFri[356D19,356D23,EBikeCart] 0
@@ -78076,7 +78076,7 @@ x_WedFri[356D19,351F31,FootBike] 0
 x_WedFri[356D20,356D19,Car] 0
 x_WedFri[356D20,356D19,Moped] 0
 x_WedFri[356D20,356D19,EBikeCart] 0
-x_WedFri[356D20,356D19,FootBike] 1
+x_WedFri[356D20,356D19,FootBike] 0
 x_WedFri[356D20,356D16,Car] 0
 x_WedFri[356D20,356D16,Moped] 0
 x_WedFri[356D20,356D16,EBikeCart] 0
@@ -78136,7 +78136,7 @@ x_WedFri[356D20,357F03,FootBike] 0
 x_WedFri[356D23,356D24,Car] 0
 x_WedFri[356D23,356D24,Moped] 0
 x_WedFri[356D23,356D24,EBikeCart] 0
-x_WedFri[356D23,356D24,FootBike] 1
+x_WedFri[356D23,356D24,FootBike] 0
 x_WedFri[356D23,356D19,Car] 0
 x_WedFri[356D23,356D19,Moped] 0
 x_WedFri[356D23,356D19,EBikeCart] 0
@@ -78196,7 +78196,7 @@ x_WedFri[356D23,357F02,FootBike] 0
 x_WedFri[356D24,356D23,Car] 0
 x_WedFri[356D24,356D23,Moped] 0
 x_WedFri[356D24,356D23,EBikeCart] 0
-x_WedFri[356D24,356D23,FootBike] 1
+x_WedFri[356D24,356D23,FootBike] 0
 x_WedFri[356D24,356D27,Car] 0
 x_WedFri[356D24,356D27,Moped] 0
 x_WedFri[356D24,356D27,EBikeCart] 0
@@ -78256,7 +78256,7 @@ x_WedFri[356D24,356D31,FootBike] 0
 x_WedFri[356D27,356D28,Car] 0
 x_WedFri[356D27,356D28,Moped] 0
 x_WedFri[356D27,356D28,EBikeCart] 0
-x_WedFri[356D27,356D28,FootBike] 1
+x_WedFri[356D27,356D28,FootBike] 0
 x_WedFri[356D27,356D24,Car] 0
 x_WedFri[356D27,356D24,Moped] 0
 x_WedFri[356D27,356D24,EBikeCart] 0
@@ -78316,7 +78316,7 @@ x_WedFri[356D27,356D32,FootBike] 0
 x_WedFri[356D28,356D27,Car] 0
 x_WedFri[356D28,356D27,Moped] 0
 x_WedFri[356D28,356D27,EBikeCart] 0
-x_WedFri[356D28,356D27,FootBike] 1
+x_WedFri[356D28,356D27,FootBike] 0
 x_WedFri[356D28,356D72,Car] 0
 x_WedFri[356D28,356D72,Moped] 0
 x_WedFri[356D28,356D72,EBikeCart] 0
@@ -78376,7 +78376,7 @@ x_WedFri[356D28,356D20,FootBike] 0
 x_WedFri[356D31,356D32,Car] 0
 x_WedFri[356D31,356D32,Moped] 0
 x_WedFri[356D31,356D32,EBikeCart] 0
-x_WedFri[356D31,356D32,FootBike] 1
+x_WedFri[356D31,356D32,FootBike] 0
 x_WedFri[356D31,356D36,Car] 0
 x_WedFri[356D31,356D36,Moped] 0
 x_WedFri[356D31,356D36,EBikeCart] 0
@@ -78440,7 +78440,7 @@ x_WedFri[356D32,356D40,FootBike] 0
 x_WedFri[356D32,356D31,Car] 0
 x_WedFri[356D32,356D31,Moped] 0
 x_WedFri[356D32,356D31,EBikeCart] 0
-x_WedFri[356D32,356D31,FootBike] 1
+x_WedFri[356D32,356D31,FootBike] 0
 x_WedFri[356D32,356D43,Car] 0
 x_WedFri[356D32,356D43,Moped] 0
 x_WedFri[356D32,356D43,EBikeCart] 0
@@ -78496,7 +78496,7 @@ x_WedFri[356D32,351F32,FootBike] 0
 x_WedFri[356D35,356D36,Car] 0
 x_WedFri[356D35,356D36,Moped] 0
 x_WedFri[356D35,356D36,EBikeCart] 0
-x_WedFri[356D35,356D36,FootBike] 1
+x_WedFri[356D35,356D36,FootBike] 0
 x_WedFri[356D35,356D39,Car] 0
 x_WedFri[356D35,356D39,Moped] 0
 x_WedFri[356D35,356D39,EBikeCart] 0
@@ -78556,7 +78556,7 @@ x_WedFri[356D35,351F25,FootBike] 0
 x_WedFri[356D36,356D35,Car] 0
 x_WedFri[356D36,356D35,Moped] 0
 x_WedFri[356D36,356D35,EBikeCart] 0
-x_WedFri[356D36,356D35,FootBike] 1
+x_WedFri[356D36,356D35,FootBike] 0
 x_WedFri[356D36,356D39,Car] 0
 x_WedFri[356D36,356D39,Moped] 0
 x_WedFri[356D36,356D39,EBikeCart] 0
@@ -78624,7 +78624,7 @@ x_WedFri[356D39,356D51,FootBike] 0
 x_WedFri[356D39,356D40,Car] 0
 x_WedFri[356D39,356D40,Moped] 0
 x_WedFri[356D39,356D40,EBikeCart] 0
-x_WedFri[356D39,356D40,FootBike] 1
+x_WedFri[356D39,356D40,FootBike] 0
 x_WedFri[356D39,356D36,Car] 0
 x_WedFri[356D39,356D36,Moped] 0
 x_WedFri[356D39,356D36,EBikeCart] 0
@@ -78684,7 +78684,7 @@ x_WedFri[356D40,356D43,FootBike] 0
 x_WedFri[356D40,356D39,Car] 0
 x_WedFri[356D40,356D39,Moped] 0
 x_WedFri[356D40,356D39,EBikeCart] 0
-x_WedFri[356D40,356D39,FootBike] 1
+x_WedFri[356D40,356D39,FootBike] 0
 x_WedFri[356D40,356D51,Car] 0
 x_WedFri[356D40,356D51,Moped] 0
 x_WedFri[356D40,356D51,EBikeCart] 0
@@ -78736,7 +78736,7 @@ x_WedFri[356D40,351F30,FootBike] 0
 x_WedFri[356D43,356D44,Car] 0
 x_WedFri[356D43,356D44,Moped] 0
 x_WedFri[356D43,356D44,EBikeCart] 0
-x_WedFri[356D43,356D44,FootBike] 1
+x_WedFri[356D43,356D44,FootBike] 0
 x_WedFri[356D43,356D40,Car] 0
 x_WedFri[356D43,356D40,Moped] 0
 x_WedFri[356D43,356D40,EBikeCart] 0
@@ -78812,7 +78812,7 @@ x_WedFri[356D44,356D40,FootBike] 0
 x_WedFri[356D44,351F25,Car] 0
 x_WedFri[356D44,351F25,Moped] 0
 x_WedFri[356D44,351F25,EBikeCart] 0
-x_WedFri[356D44,351F25,FootBike] 1
+x_WedFri[356D44,351F25,FootBike] 0
 x_WedFri[356D44,356D51,Car] 0
 x_WedFri[356D44,356D51,Moped] 0
 x_WedFri[356D44,356D51,EBikeCart] 0
@@ -78856,7 +78856,7 @@ x_WedFri[356D44,356D31,FootBike] 0
 x_WedFri[356D47,356D48,Car] 0
 x_WedFri[356D47,356D48,Moped] 0
 x_WedFri[356D47,356D48,EBikeCart] 0
-x_WedFri[356D47,356D48,FootBike] 1
+x_WedFri[356D47,356D48,FootBike] 0
 x_WedFri[356D47,356D44,Car] 0
 x_WedFri[356D47,356D44,Moped] 0
 x_WedFri[356D47,356D44,EBikeCart] 0
@@ -78916,7 +78916,7 @@ x_WedFri[356D47,356D36,FootBike] 0
 x_WedFri[356D48,356D47,Car] 0
 x_WedFri[356D48,356D47,Moped] 0
 x_WedFri[356D48,356D47,EBikeCart] 0
-x_WedFri[356D48,356D47,FootBike] 1
+x_WedFri[356D48,356D47,FootBike] 0
 x_WedFri[356D48,356D44,Car] 0
 x_WedFri[356D48,356D44,Moped] 0
 x_WedFri[356D48,356D44,EBikeCart] 0
@@ -78976,7 +78976,7 @@ x_WedFri[356D48,356D35,FootBike] 0
 x_WedFri[356D51,356D52,Car] 0
 x_WedFri[356D51,356D52,Moped] 0
 x_WedFri[356D51,356D52,EBikeCart] 0
-x_WedFri[356D51,356D52,FootBike] 1
+x_WedFri[356D51,356D52,FootBike] 0
 x_WedFri[356D51,356D39,Car] 0
 x_WedFri[356D51,356D39,Moped] 0
 x_WedFri[356D51,356D39,EBikeCart] 0
@@ -79040,7 +79040,7 @@ x_WedFri[356D52,356D56,FootBike] 0
 x_WedFri[356D52,356D51,Car] 0
 x_WedFri[356D52,356D51,Moped] 0
 x_WedFri[356D52,356D51,EBikeCart] 0
-x_WedFri[356D52,356D51,FootBike] 1
+x_WedFri[356D52,356D51,FootBike] 0
 x_WedFri[356D52,356D55,Car] 0
 x_WedFri[356D52,356D55,Moped] 0
 x_WedFri[356D52,356D55,EBikeCart] 0
@@ -79096,7 +79096,7 @@ x_WedFri[356D52,351F25,FootBike] 0
 x_WedFri[356D55,356D56,Car] 0
 x_WedFri[356D55,356D56,Moped] 0
 x_WedFri[356D55,356D56,EBikeCart] 0
-x_WedFri[356D55,356D56,FootBike] 1
+x_WedFri[356D55,356D56,FootBike] 0
 x_WedFri[356D55,356D52,Car] 0
 x_WedFri[356D55,356D52,Moped] 0
 x_WedFri[356D55,356D52,EBikeCart] 0
@@ -79164,7 +79164,7 @@ x_WedFri[356D56,356D52,FootBike] 0
 x_WedFri[356D56,353F06,Car] 0
 x_WedFri[356D56,353F06,Moped] 0
 x_WedFri[356D56,353F06,EBikeCart] 0
-x_WedFri[356D56,353F06,FootBike] 1
+x_WedFri[356D56,353F06,FootBike] 0
 x_WedFri[356D56,356D51,Car] 0
 x_WedFri[356D56,356D51,Moped] 0
 x_WedFri[356D56,356D51,EBikeCart] 0
@@ -79216,7 +79216,7 @@ x_WedFri[356D56,353F09,FootBike] 0
 x_WedFri[356D59,356D60,Car] 0
 x_WedFri[356D59,356D60,Moped] 0
 x_WedFri[356D59,356D60,EBikeCart] 0
-x_WedFri[356D59,356D60,FootBike] 1
+x_WedFri[356D59,356D60,FootBike] 0
 x_WedFri[356D59,356C11,Car] 0
 x_WedFri[356D59,356C11,Moped] 0
 x_WedFri[356D59,356C11,EBikeCart] 0
@@ -79276,7 +79276,7 @@ x_WedFri[356D59,356D35,FootBike] 0
 x_WedFri[356D60,356D59,Car] 0
 x_WedFri[356D60,356D59,Moped] 0
 x_WedFri[356D60,356D59,EBikeCart] 0
-x_WedFri[356D60,356D59,FootBike] 1
+x_WedFri[356D60,356D59,FootBike] 0
 x_WedFri[356D60,356C11,Car] 0
 x_WedFri[356D60,356C11,Moped] 0
 x_WedFri[356D60,356C11,EBikeCart] 0
@@ -79340,7 +79340,7 @@ x_WedFri[356D63,356D64,FootBike] 0
 x_WedFri[356D63,356C11,Car] 0
 x_WedFri[356D63,356C11,Moped] 0
 x_WedFri[356D63,356C11,EBikeCart] 0
-x_WedFri[356D63,356C11,FootBike] 1
+x_WedFri[356D63,356C11,FootBike] 0
 x_WedFri[356D63,356C09,Car] 0
 x_WedFri[356D63,356C09,Moped] 0
 x_WedFri[356D63,356C09,EBikeCart] 0
@@ -79400,7 +79400,7 @@ x_WedFri[356D64,356D63,FootBike] 0
 x_WedFri[356D64,356C09,Car] 0
 x_WedFri[356D64,356C09,Moped] 0
 x_WedFri[356D64,356C09,EBikeCart] 0
-x_WedFri[356D64,356C09,FootBike] 1
+x_WedFri[356D64,356C09,FootBike] 0
 x_WedFri[356D64,356C11,Car] 0
 x_WedFri[356D64,356C11,Moped] 0
 x_WedFri[356D64,356C11,EBikeCart] 0
@@ -79456,7 +79456,7 @@ x_WedFri[356D64,35C021,FootBike] 0
 x_WedFri[356D67,356D68,Car] 0
 x_WedFri[356D67,356D68,Moped] 0
 x_WedFri[356D67,356D68,EBikeCart] 0
-x_WedFri[356D67,356D68,FootBike] 1
+x_WedFri[356D67,356D68,FootBike] 0
 x_WedFri[356D67,356D71,Car] 0
 x_WedFri[356D67,356D71,Moped] 0
 x_WedFri[356D67,356D71,EBikeCart] 0
@@ -79516,7 +79516,7 @@ x_WedFri[356D67,356D28,FootBike] 0
 x_WedFri[356D68,356D67,Car] 0
 x_WedFri[356D68,356D67,Moped] 0
 x_WedFri[356D68,356D67,EBikeCart] 0
-x_WedFri[356D68,356D67,FootBike] 1
+x_WedFri[356D68,356D67,FootBike] 0
 x_WedFri[356D68,356D71,Car] 0
 x_WedFri[356D68,356D71,Moped] 0
 x_WedFri[356D68,356D71,EBikeCart] 0
@@ -79588,7 +79588,7 @@ x_WedFri[356D71,356D67,FootBike] 0
 x_WedFri[356D71,356D72,Car] 0
 x_WedFri[356D71,356D72,Moped] 0
 x_WedFri[356D71,356D72,EBikeCart] 0
-x_WedFri[356D71,356D72,FootBike] 1
+x_WedFri[356D71,356D72,FootBike] 0
 x_WedFri[356D71,351F31,Car] 0
 x_WedFri[356D71,351F31,Moped] 0
 x_WedFri[356D71,351F31,EBikeCart] 0
@@ -79644,7 +79644,7 @@ x_WedFri[356D72,356D28,FootBike] 0
 x_WedFri[356D72,351F30,Car] 0
 x_WedFri[356D72,351F30,Moped] 0
 x_WedFri[356D72,351F30,EBikeCart] 0
-x_WedFri[356D72,351F30,FootBike] 1
+x_WedFri[356D72,351F30,FootBike] 0
 x_WedFri[356D72,351F31,Car] 0
 x_WedFri[356D72,351F31,Moped] 0
 x_WedFri[356D72,351F31,EBikeCart] 0
@@ -79696,7 +79696,7 @@ x_WedFri[356D72,351J33,FootBike] 0
 x_WedFri[357F01,357F02,Car] 0
 x_WedFri[357F01,357F02,Moped] 0
 x_WedFri[357F01,357F02,EBikeCart] 0
-x_WedFri[357F01,357F02,FootBike] 1
+x_WedFri[357F01,357F02,FootBike] 0
 x_WedFri[357F01,357F03,Car] 0
 x_WedFri[357F01,357F03,Moped] 0
 x_WedFri[357F01,357F03,EBikeCart] 0
@@ -79756,7 +79756,7 @@ x_WedFri[357F01,356D19,FootBike] 0
 x_WedFri[357F02,357F01,Car] 0
 x_WedFri[357F02,357F01,Moped] 0
 x_WedFri[357F02,357F01,EBikeCart] 0
-x_WedFri[357F02,357F01,FootBike] 1
+x_WedFri[357F02,357F01,FootBike] 0
 x_WedFri[357F02,357F03,Car] 0
 x_WedFri[357F02,357F03,Moped] 0
 x_WedFri[357F02,357F03,EBikeCart] 0
@@ -79816,7 +79816,7 @@ x_WedFri[357F02,351J31,FootBike] 0
 x_WedFri[357F03,357J03,Car] 0
 x_WedFri[357F03,357J03,Moped] 0
 x_WedFri[357F03,357J03,EBikeCart] 0
-x_WedFri[357F03,357J03,FootBike] 1
+x_WedFri[357F03,357J03,FootBike] 0
 x_WedFri[357F03,357F01,Car] 0
 x_WedFri[357F03,357F01,Moped] 0
 x_WedFri[357F03,357F01,EBikeCart] 0
@@ -79876,7 +79876,7 @@ x_WedFri[357F03,356D16,FootBike] 0
 x_WedFri[357J03,357F03,Car] 0
 x_WedFri[357J03,357F03,Moped] 0
 x_WedFri[357J03,357F03,EBikeCart] 0
-x_WedFri[357J03,357F03,FootBike] 1
+x_WedFri[357J03,357F03,FootBike] 0
 x_WedFri[357J03,358D24,Car] 0
 x_WedFri[357J03,358D24,Moped] 0
 x_WedFri[357J03,358D24,EBikeCart] 0
@@ -79955,7 +79955,7 @@ x_WedFri[358C03,358D51,EBikeCart] 0
 x_WedFri[358C03,358D51,FootBike] 0
 x_WedFri[358C03,35A043,Car] 0
 x_WedFri[358C03,35A043,Moped] 0
-x_WedFri[358C03,35A043,EBikeCart] 1
+x_WedFri[358C03,35A043,EBikeCart] 0
 x_WedFri[358C03,35A043,FootBike] 0
 x_WedFri[358C03,358D48,Car] 0
 x_WedFri[358C03,358D48,Moped] 0
@@ -80019,7 +80019,7 @@ x_WedFri[358C05,358D43,EBikeCart] 0
 x_WedFri[358C05,358D43,FootBike] 0
 x_WedFri[358C05,358C03,Car] 0
 x_WedFri[358C05,358C03,Moped] 0
-x_WedFri[358C05,358C03,EBikeCart] 1
+x_WedFri[358C05,358C03,EBikeCart] 0
 x_WedFri[358C05,358C03,FootBike] 0
 x_WedFri[358C05,358D47,Car] 0
 x_WedFri[358C05,358D47,Moped] 0
@@ -80064,7 +80064,7 @@ x_WedFri[358C11,358D16,FootBike] 0
 x_WedFri[358C11,358D15,Car] 0
 x_WedFri[358C11,358D15,Moped] 0
 x_WedFri[358C11,358D15,EBikeCart] 0
-x_WedFri[358C11,358D15,FootBike] 1
+x_WedFri[358C11,358D15,FootBike] 0
 x_WedFri[358C11,352D39,Car] 0
 x_WedFri[358C11,352D39,Moped] 0
 x_WedFri[358C11,352D39,EBikeCart] 0
@@ -80116,7 +80116,7 @@ x_WedFri[358C11,352D36,FootBike] 0
 x_WedFri[358D03,358D04,Car] 0
 x_WedFri[358D03,358D04,Moped] 0
 x_WedFri[358D03,358D04,EBikeCart] 0
-x_WedFri[358D03,358D04,FootBike] 1
+x_WedFri[358D03,358D04,FootBike] 0
 x_WedFri[358D03,358D44,Car] 0
 x_WedFri[358D03,358D44,Moped] 0
 x_WedFri[358D03,358D44,EBikeCart] 0
@@ -80176,7 +80176,7 @@ x_WedFri[358D03,358D31,FootBike] 0
 x_WedFri[358D04,358D03,Car] 0
 x_WedFri[358D04,358D03,Moped] 0
 x_WedFri[358D04,358D03,EBikeCart] 0
-x_WedFri[358D04,358D03,FootBike] 1
+x_WedFri[358D04,358D03,FootBike] 0
 x_WedFri[358D04,358D44,Car] 0
 x_WedFri[358D04,358D44,Moped] 0
 x_WedFri[358D04,358D44,EBikeCart] 0
@@ -80236,7 +80236,7 @@ x_WedFri[358D04,358D48,FootBike] 0
 x_WedFri[358D07,358D08,Car] 0
 x_WedFri[358D07,358D08,Moped] 0
 x_WedFri[358D07,358D08,EBikeCart] 0
-x_WedFri[358D07,358D08,FootBike] 1
+x_WedFri[358D07,358D08,FootBike] 0
 x_WedFri[358D07,358D16,Car] 0
 x_WedFri[358D07,358D16,Moped] 0
 x_WedFri[358D07,358D16,EBikeCart] 0
@@ -80296,7 +80296,7 @@ x_WedFri[358D07,358D04,FootBike] 0
 x_WedFri[358D08,358D07,Car] 0
 x_WedFri[358D08,358D07,Moped] 0
 x_WedFri[358D08,358D07,EBikeCart] 0
-x_WedFri[358D08,358D07,FootBike] 1
+x_WedFri[358D08,358D07,FootBike] 0
 x_WedFri[358D08,358D16,Car] 0
 x_WedFri[358D08,358D16,Moped] 0
 x_WedFri[358D08,358D16,EBikeCart] 0
@@ -80360,7 +80360,7 @@ x_WedFri[358D11,358D12,FootBike] 0
 x_WedFri[358D11,351F11,Car] 0
 x_WedFri[358D11,351F11,Moped] 0
 x_WedFri[358D11,351F11,EBikeCart] 0
-x_WedFri[358D11,351F11,FootBike] 1
+x_WedFri[358D11,351F11,FootBike] 0
 x_WedFri[358D11,358D20,Car] 0
 x_WedFri[358D11,358D20,Moped] 0
 x_WedFri[358D11,358D20,EBikeCart] 0
@@ -80428,7 +80428,7 @@ x_WedFri[358D12,358D20,FootBike] 0
 x_WedFri[358D12,351F03,Car] 0
 x_WedFri[358D12,351F03,Moped] 0
 x_WedFri[358D12,351F03,EBikeCart] 0
-x_WedFri[358D12,351F03,FootBike] 1
+x_WedFri[358D12,351F03,FootBike] 0
 x_WedFri[358D12,358D08,Car] 0
 x_WedFri[358D12,358D08,Moped] 0
 x_WedFri[358D12,358D08,EBikeCart] 0
@@ -80476,7 +80476,7 @@ x_WedFri[358D12,351J28,FootBike] 0
 x_WedFri[358D15,358D16,Car] 0
 x_WedFri[358D15,358D16,Moped] 0
 x_WedFri[358D15,358D16,EBikeCart] 0
-x_WedFri[358D15,358D16,FootBike] 1
+x_WedFri[358D15,358D16,FootBike] 0
 x_WedFri[358D15,358D19,Car] 0
 x_WedFri[358D15,358D19,Moped] 0
 x_WedFri[358D15,358D19,EBikeCart] 0
@@ -80552,7 +80552,7 @@ x_WedFri[358D16,358D19,FootBike] 0
 x_WedFri[358D16,358C11,Car] 0
 x_WedFri[358D16,358C11,Moped] 0
 x_WedFri[358D16,358C11,EBikeCart] 0
-x_WedFri[358D16,358C11,FootBike] 1
+x_WedFri[358D16,358C11,FootBike] 0
 x_WedFri[358D16,358D11,Car] 0
 x_WedFri[358D16,358D11,Moped] 0
 x_WedFri[358D16,358D11,EBikeCart] 0
@@ -80600,7 +80600,7 @@ x_WedFri[358D19,358D15,FootBike] 0
 x_WedFri[358D19,358D20,Car] 0
 x_WedFri[358D19,358D20,Moped] 0
 x_WedFri[358D19,358D20,EBikeCart] 0
-x_WedFri[358D19,358D20,FootBike] 1
+x_WedFri[358D19,358D20,FootBike] 0
 x_WedFri[358D19,358D16,Car] 0
 x_WedFri[358D19,358D16,Moped] 0
 x_WedFri[358D19,358D16,EBikeCart] 0
@@ -80660,7 +80660,7 @@ x_WedFri[358D20,351F11,FootBike] 0
 x_WedFri[358D20,358D19,Car] 0
 x_WedFri[358D20,358D19,Moped] 0
 x_WedFri[358D20,358D19,EBikeCart] 0
-x_WedFri[358D20,358D19,FootBike] 1
+x_WedFri[358D20,358D19,FootBike] 0
 x_WedFri[358D20,358D11,Car] 0
 x_WedFri[358D20,358D11,Moped] 0
 x_WedFri[358D20,358D11,EBikeCart] 0
@@ -80716,7 +80716,7 @@ x_WedFri[358D20,358D36,FootBike] 0
 x_WedFri[358D23,358D24,Car] 0
 x_WedFri[358D23,358D24,Moped] 0
 x_WedFri[358D23,358D24,EBikeCart] 0
-x_WedFri[358D23,358D24,FootBike] 1
+x_WedFri[358D23,358D24,FootBike] 0
 x_WedFri[358D23,357J03,Car] 0
 x_WedFri[358D23,357J03,Moped] 0
 x_WedFri[358D23,357J03,EBikeCart] 0
@@ -80776,7 +80776,7 @@ x_WedFri[358D23,356D68,FootBike] 0
 x_WedFri[358D24,358D23,Car] 0
 x_WedFri[358D24,358D23,Moped] 0
 x_WedFri[358D24,358D23,EBikeCart] 0
-x_WedFri[358D24,358D23,FootBike] 1
+x_WedFri[358D24,358D23,FootBike] 0
 x_WedFri[358D24,357J03,Car] 0
 x_WedFri[358D24,357J03,Moped] 0
 x_WedFri[358D24,357J03,EBikeCart] 0
@@ -80836,7 +80836,7 @@ x_WedFri[358D24,356D68,FootBike] 0
 x_WedFri[358D27,358D28,Car] 0
 x_WedFri[358D27,358D28,Moped] 0
 x_WedFri[358D27,358D28,EBikeCart] 0
-x_WedFri[358D27,358D28,FootBike] 1
+x_WedFri[358D27,358D28,FootBike] 0
 x_WedFri[358D27,358D23,Car] 0
 x_WedFri[358D27,358D23,Moped] 0
 x_WedFri[358D27,358D23,EBikeCart] 0
@@ -80896,7 +80896,7 @@ x_WedFri[358D27,358D31,FootBike] 0
 x_WedFri[358D28,358D27,Car] 0
 x_WedFri[358D28,358D27,Moped] 0
 x_WedFri[358D28,358D27,EBikeCart] 0
-x_WedFri[358D28,358D27,FootBike] 1
+x_WedFri[358D28,358D27,FootBike] 0
 x_WedFri[358D28,358D23,Car] 0
 x_WedFri[358D28,358D23,Moped] 0
 x_WedFri[358D28,358D23,EBikeCart] 0
@@ -80956,7 +80956,7 @@ x_WedFri[358D28,356D67,FootBike] 0
 x_WedFri[358D31,358D40,Car] 0
 x_WedFri[358D31,358D40,Moped] 0
 x_WedFri[358D31,358D40,EBikeCart] 0
-x_WedFri[358D31,358D40,FootBike] 1
+x_WedFri[358D31,358D40,FootBike] 0
 x_WedFri[358D31,358D36,Car] 0
 x_WedFri[358D31,358D36,Moped] 0
 x_WedFri[358D31,358D36,EBikeCart] 0
@@ -81016,7 +81016,7 @@ x_WedFri[358D31,358D03,FootBike] 0
 x_WedFri[358D32,358D36,Car] 0
 x_WedFri[358D32,358D36,Moped] 0
 x_WedFri[358D32,358D36,EBikeCart] 0
-x_WedFri[358D32,358D36,FootBike] 1
+x_WedFri[358D32,358D36,FootBike] 0
 x_WedFri[358D32,358D40,Car] 0
 x_WedFri[358D32,358D40,Moped] 0
 x_WedFri[358D32,358D40,EBikeCart] 0
@@ -81084,7 +81084,7 @@ x_WedFri[358D35,358D36,FootBike] 0
 x_WedFri[358D35,358D39,Car] 0
 x_WedFri[358D35,358D39,Moped] 0
 x_WedFri[358D35,358D39,EBikeCart] 0
-x_WedFri[358D35,358D39,FootBike] 1
+x_WedFri[358D35,358D39,FootBike] 0
 x_WedFri[358D35,358D47,Car] 0
 x_WedFri[358D35,358D47,Moped] 0
 x_WedFri[358D35,358D47,EBikeCart] 0
@@ -81140,7 +81140,7 @@ x_WedFri[358D36,358D40,FootBike] 0
 x_WedFri[358D36,358D32,Car] 0
 x_WedFri[358D36,358D32,Moped] 0
 x_WedFri[358D36,358D32,EBikeCart] 0
-x_WedFri[358D36,358D32,FootBike] 1
+x_WedFri[358D36,358D32,FootBike] 0
 x_WedFri[358D36,358D35,Car] 0
 x_WedFri[358D36,358D35,Moped] 0
 x_WedFri[358D36,358D35,EBikeCart] 0
@@ -81200,7 +81200,7 @@ x_WedFri[358D39,358D40,FootBike] 0
 x_WedFri[358D39,358D35,Car] 0
 x_WedFri[358D39,358D35,Moped] 0
 x_WedFri[358D39,358D35,EBikeCart] 0
-x_WedFri[358D39,358D35,FootBike] 1
+x_WedFri[358D39,358D35,FootBike] 0
 x_WedFri[358D39,358D47,Car] 0
 x_WedFri[358D39,358D47,Moped] 0
 x_WedFri[358D39,358D47,EBikeCart] 0
@@ -81268,7 +81268,7 @@ x_WedFri[358D40,358D39,FootBike] 0
 x_WedFri[358D40,358D31,Car] 0
 x_WedFri[358D40,358D31,Moped] 0
 x_WedFri[358D40,358D31,EBikeCart] 0
-x_WedFri[358D40,358D31,FootBike] 1
+x_WedFri[358D40,358D31,FootBike] 0
 x_WedFri[358D40,358D32,Car] 0
 x_WedFri[358D40,358D32,Moped] 0
 x_WedFri[358D40,358D32,EBikeCart] 0
@@ -81320,7 +81320,7 @@ x_WedFri[358D43,358D44,FootBike] 0
 x_WedFri[358D43,358D47,Car] 0
 x_WedFri[358D43,358D47,Moped] 0
 x_WedFri[358D43,358D47,EBikeCart] 0
-x_WedFri[358D43,358D47,FootBike] 1
+x_WedFri[358D43,358D47,FootBike] 0
 x_WedFri[358D43,358D48,Car] 0
 x_WedFri[358D43,358D48,Moped] 0
 x_WedFri[358D43,358D48,EBikeCart] 0
@@ -81376,7 +81376,7 @@ x_WedFri[358D43,358D15,FootBike] 0
 x_WedFri[358D44,358D43,Car] 0
 x_WedFri[358D44,358D43,Moped] 0
 x_WedFri[358D44,358D43,EBikeCart] 0
-x_WedFri[358D44,358D43,FootBike] 1
+x_WedFri[358D44,358D43,FootBike] 0
 x_WedFri[358D44,358D04,Car] 0
 x_WedFri[358D44,358D04,Moped] 0
 x_WedFri[358D44,358D04,EBikeCart] 0
@@ -81436,7 +81436,7 @@ x_WedFri[358D44,358C11,FootBike] 0
 x_WedFri[358D47,358D44,Car] 0
 x_WedFri[358D47,358D44,Moped] 0
 x_WedFri[358D47,358D44,EBikeCart] 0
-x_WedFri[358D47,358D44,FootBike] 1
+x_WedFri[358D47,358D44,FootBike] 0
 x_WedFri[358D47,358D39,Car] 0
 x_WedFri[358D47,358D39,Moped] 0
 x_WedFri[358D47,358D39,EBikeCart] 0
@@ -81496,7 +81496,7 @@ x_WedFri[358D47,358D32,FootBike] 0
 x_WedFri[358D48,358D52,Car] 0
 x_WedFri[358D48,358D52,Moped] 0
 x_WedFri[358D48,358D52,EBikeCart] 0
-x_WedFri[358D48,358D52,FootBike] 1
+x_WedFri[358D48,358D52,FootBike] 0
 x_WedFri[358D48,358D51,Car] 0
 x_WedFri[358D48,358D51,Moped] 0
 x_WedFri[358D48,358D51,EBikeCart] 0
@@ -81568,7 +81568,7 @@ x_WedFri[358D51,358D56,FootBike] 0
 x_WedFri[358D51,358D48,Car] 0
 x_WedFri[358D51,358D48,Moped] 0
 x_WedFri[358D51,358D48,EBikeCart] 0
-x_WedFri[358D51,358D48,FootBike] 1
+x_WedFri[358D51,358D48,FootBike] 0
 x_WedFri[358D51,358D47,Car] 0
 x_WedFri[358D51,358D47,Moped] 0
 x_WedFri[358D51,358D47,EBikeCart] 0
@@ -81616,7 +81616,7 @@ x_WedFri[358D51,358D31,FootBike] 0
 x_WedFri[358D52,358D51,Car] 0
 x_WedFri[358D52,358D51,Moped] 0
 x_WedFri[358D52,358D51,EBikeCart] 0
-x_WedFri[358D52,358D51,FootBike] 1
+x_WedFri[358D52,358D51,FootBike] 0
 x_WedFri[358D52,358D48,Car] 0
 x_WedFri[358D52,358D48,Moped] 0
 x_WedFri[358D52,358D48,EBikeCart] 0
@@ -81676,7 +81676,7 @@ x_WedFri[358D52,358C03,FootBike] 0
 x_WedFri[358D55,358D56,Car] 0
 x_WedFri[358D55,358D56,Moped] 0
 x_WedFri[358D55,358D56,EBikeCart] 0
-x_WedFri[358D55,358D56,FootBike] 1
+x_WedFri[358D55,358D56,FootBike] 0
 x_WedFri[358D55,358D51,Car] 0
 x_WedFri[358D55,358D51,Moped] 0
 x_WedFri[358D55,358D51,EBikeCart] 0
@@ -81736,7 +81736,7 @@ x_WedFri[358D55,358C03,FootBike] 0
 x_WedFri[358D56,358D55,Car] 0
 x_WedFri[358D56,358D55,Moped] 0
 x_WedFri[358D56,358D55,EBikeCart] 0
-x_WedFri[358D56,358D55,FootBike] 1
+x_WedFri[358D56,358D55,FootBike] 0
 x_WedFri[358D56,358D51,Car] 0
 x_WedFri[358D56,358D51,Moped] 0
 x_WedFri[358D56,358D51,EBikeCart] 0
@@ -81806,7 +81806,7 @@ x_WedFri[35A032,352D63,Moped] 0
 x_WedFri[35A032,352D63,EBikeCart] 0
 x_WedFri[35A032,352D63,FootBike] 0
 x_WedFri[35A032,345C01,Car] 0
-x_WedFri[35A032,345C01,Moped] 1
+x_WedFri[35A032,345C01,Moped] 0
 x_WedFri[35A032,345C01,EBikeCart] 0
 x_WedFri[35A032,345C01,FootBike] 0
 x_WedFri[35A032,345D27,Car] 0
@@ -81903,7 +81903,7 @@ x_WedFri[35A043,358D23,EBikeCart] 0
 x_WedFri[35A043,358D23,FootBike] 0
 x_WedFri[35A043,358C05,Car] 0
 x_WedFri[35A043,358C05,Moped] 0
-x_WedFri[35A043,358C05,EBikeCart] 1
+x_WedFri[35A043,358C05,EBikeCart] 0
 x_WedFri[35A043,358C05,FootBike] 0
 x_WedFri[35A043,358D31,Car] 0
 x_WedFri[35A043,358D31,Moped] 0
@@ -81946,7 +81946,7 @@ x_WedFri[35B142,354F63,Moped] 0
 x_WedFri[35B142,354F63,EBikeCart] 0
 x_WedFri[35B142,354F63,FootBike] 0
 x_WedFri[35B142,35B192,Car] 0
-x_WedFri[35B142,35B192,Moped] 1
+x_WedFri[35B142,35B192,Moped] 0
 x_WedFri[35B142,35B192,EBikeCart] 0
 x_WedFri[35B142,35B192,FootBike] 0
 x_WedFri[35B142,354F58,Car] 0
@@ -82014,7 +82014,7 @@ x_WedFri[35B192,345F23,Moped] 0
 x_WedFri[35B192,345F23,EBikeCart] 0
 x_WedFri[35B192,345F23,FootBike] 0
 x_WedFri[35B192,35B142,Car] 0
-x_WedFri[35B192,35B142,Moped] 1
+x_WedFri[35B192,35B142,Moped] 0
 x_WedFri[35B192,35B142,EBikeCart] 0
 x_WedFri[35B192,35B142,FootBike] 0
 x_WedFri[35B192,345F02,Car] 0
@@ -82040,7 +82040,7 @@ x_WedFri[35B202,35C021,FootBike] 0
 x_WedFri[35B202,354F17,Car] 0
 x_WedFri[35B202,354F17,Moped] 0
 x_WedFri[35B202,354F17,EBikeCart] 0
-x_WedFri[35B202,354F17,FootBike] 1
+x_WedFri[35B202,354F17,FootBike] 0
 x_WedFri[35B202,354F15,Car] 0
 x_WedFri[35B202,354F15,Moped] 0
 x_WedFri[35B202,354F15,EBikeCart] 0
@@ -82126,7 +82126,7 @@ x_WedFri[35B212,356D59,Moped] 0
 x_WedFri[35B212,356D59,EBikeCart] 0
 x_WedFri[35B212,356D59,FootBike] 0
 x_WedFri[35B212,35C021,Car] 0
-x_WedFri[35B212,35C021,Moped] 1
+x_WedFri[35B212,35C021,Moped] 0
 x_WedFri[35B212,35C021,EBikeCart] 0
 x_WedFri[35B212,35C021,FootBike] 0
 x_WedFri[35B212,354F15,Car] 0
@@ -82190,7 +82190,7 @@ x_WedFri[35C021,354F07,Moped] 0
 x_WedFri[35C021,354F07,EBikeCart] 0
 x_WedFri[35C021,354F07,FootBike] 0
 x_WedFri[35C021,35B212,Car] 0
-x_WedFri[35C021,35B212,Moped] 1
+x_WedFri[35C021,35B212,Moped] 0
 x_WedFri[35C021,35B212,EBikeCart] 0
 x_WedFri[35C021,35B212,FootBike] 0
 x_WedFri[35C021,345F22,Car] 0
@@ -82216,7 +82216,7 @@ x_WedFri[35C021,354F44,FootBike] 0
 x_WedFri[360F06,360F11,Car] 0
 x_WedFri[360F06,360F11,Moped] 0
 x_WedFri[360F06,360F11,EBikeCart] 0
-x_WedFri[360F06,360F11,FootBike] 1
+x_WedFri[360F06,360F11,FootBike] 0
 x_WedFri[360F06,360F10,Car] 0
 x_WedFri[360F06,360F10,Moped] 0
 x_WedFri[360F06,360F10,EBikeCart] 0
@@ -82284,7 +82284,7 @@ x_WedFri[360F08,354F56,FootBike] 0
 x_WedFri[360F08,354F57,Car] 0
 x_WedFri[360F08,354F57,Moped] 0
 x_WedFri[360F08,354F57,EBikeCart] 0
-x_WedFri[360F08,354F57,FootBike] 1
+x_WedFri[360F08,354F57,FootBike] 0
 x_WedFri[360F08,360F11,Car] 0
 x_WedFri[360F08,360F11,Moped] 0
 x_WedFri[360F08,360F11,EBikeCart] 0
@@ -82336,7 +82336,7 @@ x_WedFri[360F08,36A052,FootBike] 0
 x_WedFri[360F09,360F10,Car] 0
 x_WedFri[360F09,360F10,Moped] 0
 x_WedFri[360F09,360F10,EBikeCart] 0
-x_WedFri[360F09,360F10,FootBike] 1
+x_WedFri[360F09,360F10,FootBike] 0
 x_WedFri[360F09,354J46,Car] 0
 x_WedFri[360F09,354J46,Moped] 0
 x_WedFri[360F09,354J46,EBikeCart] 0
@@ -82396,7 +82396,7 @@ x_WedFri[360F09,360F08,FootBike] 0
 x_WedFri[360F10,360F09,Car] 0
 x_WedFri[360F10,360F09,Moped] 0
 x_WedFri[360F10,360F09,EBikeCart] 0
-x_WedFri[360F10,360F09,FootBike] 1
+x_WedFri[360F10,360F09,FootBike] 0
 x_WedFri[360F10,360F11,Car] 0
 x_WedFri[360F10,360F11,Moped] 0
 x_WedFri[360F10,360F11,EBikeCart] 0
@@ -82456,7 +82456,7 @@ x_WedFri[360F10,354J55,FootBike] 0
 x_WedFri[360F11,360F06,Car] 0
 x_WedFri[360F11,360F06,Moped] 0
 x_WedFri[360F11,360F06,EBikeCart] 0
-x_WedFri[360F11,360F06,FootBike] 1
+x_WedFri[360F11,360F06,FootBike] 0
 x_WedFri[360F11,360F10,Car] 0
 x_WedFri[360F11,360F10,Moped] 0
 x_WedFri[360F11,360F10,EBikeCart] 0
@@ -82516,7 +82516,7 @@ x_WedFri[360F11,354F55,FootBike] 0
 x_WedFri[360F13,360F16,Car] 0
 x_WedFri[360F13,360F16,Moped] 0
 x_WedFri[360F13,360F16,EBikeCart] 0
-x_WedFri[360F13,360F16,FootBike] 1
+x_WedFri[360F13,360F16,FootBike] 0
 x_WedFri[360F13,360F10,Car] 0
 x_WedFri[360F13,360F10,Moped] 0
 x_WedFri[360F13,360F10,EBikeCart] 0
@@ -82584,7 +82584,7 @@ x_WedFri[360F14,35B212,FootBike] 0
 x_WedFri[360F14,360F13,Car] 0
 x_WedFri[360F14,360F13,Moped] 0
 x_WedFri[360F14,360F13,EBikeCart] 0
-x_WedFri[360F14,360F13,FootBike] 1
+x_WedFri[360F14,360F13,FootBike] 0
 x_WedFri[360F14,356D64,Car] 0
 x_WedFri[360F14,356D64,Moped] 0
 x_WedFri[360F14,356D64,EBikeCart] 0
@@ -82648,7 +82648,7 @@ x_WedFri[360F16,360F09,FootBike] 0
 x_WedFri[360F16,360F14,Car] 0
 x_WedFri[360F16,360F14,Moped] 0
 x_WedFri[360F16,360F14,EBikeCart] 0
-x_WedFri[360F16,360F14,FootBike] 1
+x_WedFri[360F16,360F14,FootBike] 0
 x_WedFri[360F16,360F11,Car] 0
 x_WedFri[360F16,360F11,Moped] 0
 x_WedFri[360F16,360F11,EBikeCart] 0
@@ -82710,7 +82710,7 @@ x_WedFri[36A022,360F08,Moped] 0
 x_WedFri[36A022,360F08,EBikeCart] 0
 x_WedFri[36A022,360F08,FootBike] 0
 x_WedFri[36A022,36A052,Car] 0
-x_WedFri[36A022,36A052,Moped] 1
+x_WedFri[36A022,36A052,Moped] 0
 x_WedFri[36A022,36A052,EBikeCart] 0
 x_WedFri[36A022,36A052,FootBike] 0
 x_WedFri[36A022,356B02,Car] 0
@@ -82786,7 +82786,7 @@ x_WedFri[36A052,360F11,Moped] 0
 x_WedFri[36A052,360F11,EBikeCart] 0
 x_WedFri[36A052,360F11,FootBike] 0
 x_WedFri[36A052,36A022,Car] 0
-x_WedFri[36A052,36A022,Moped] 1
+x_WedFri[36A052,36A022,Moped] 0
 x_WedFri[36A052,36A022,EBikeCart] 0
 x_WedFri[36A052,36A022,FootBike] 0
 x_WedFri[36A052,354J55,Car] 0
@@ -82820,7 +82820,7 @@ x_WedFri[372F18,373F01,FootBike] 0
 x_WedFri[372F18,373F02,Car] 0
 x_WedFri[372F18,373F02,Moped] 0
 x_WedFri[372F18,373F02,EBikeCart] 0
-x_WedFri[372F18,373F02,FootBike] 1
+x_WedFri[372F18,373F02,FootBike] 0
 x_WedFri[372F18,373J09,Car] 0
 x_WedFri[372F18,373J09,Moped] 0
 x_WedFri[372F18,373J09,EBikeCart] 0
@@ -82904,7 +82904,7 @@ x_WedFri[373F01,373F07,FootBike] 0
 x_WedFri[373F01,373F99,Car] 0
 x_WedFri[373F01,373F99,Moped] 0
 x_WedFri[373F01,373F99,EBikeCart] 0
-x_WedFri[373F01,373F99,FootBike] 1
+x_WedFri[373F01,373F99,FootBike] 0
 x_WedFri[373F01,357F02,Car] 0
 x_WedFri[373F01,357F02,Moped] 0
 x_WedFri[373F01,357F02,EBikeCart] 0
@@ -82940,7 +82940,7 @@ x_WedFri[373F02,373J09,FootBike] 0
 x_WedFri[373F02,372F18,Car] 0
 x_WedFri[373F02,372F18,Moped] 0
 x_WedFri[373F02,372F18,EBikeCart] 0
-x_WedFri[373F02,372F18,FootBike] 1
+x_WedFri[373F02,372F18,FootBike] 0
 x_WedFri[373F02,373F09,Car] 0
 x_WedFri[373F02,373F09,Moped] 0
 x_WedFri[373F02,373F09,EBikeCart] 0
@@ -82996,7 +82996,7 @@ x_WedFri[373F02,357J03,FootBike] 0
 x_WedFri[373F07,373F08,Car] 0
 x_WedFri[373F07,373F08,Moped] 0
 x_WedFri[373F07,373F08,EBikeCart] 0
-x_WedFri[373F07,373F08,FootBike] 1
+x_WedFri[373F07,373F08,FootBike] 0
 x_WedFri[373F07,373F10,Car] 0
 x_WedFri[373F07,373F10,Moped] 0
 x_WedFri[373F07,373F10,EBikeCart] 0
@@ -83056,7 +83056,7 @@ x_WedFri[373F07,357J03,FootBike] 0
 x_WedFri[373F08,373F07,Car] 0
 x_WedFri[373F08,373F07,Moped] 0
 x_WedFri[373F08,373F07,EBikeCart] 0
-x_WedFri[373F08,373F07,FootBike] 1
+x_WedFri[373F08,373F07,FootBike] 0
 x_WedFri[373F08,373F10,Car] 0
 x_WedFri[373F08,373F10,Moped] 0
 x_WedFri[373F08,373F10,EBikeCart] 0
@@ -83116,7 +83116,7 @@ x_WedFri[373F08,357J03,FootBike] 0
 x_WedFri[373F09,373J09,Car] 0
 x_WedFri[373F09,373J09,Moped] 0
 x_WedFri[373F09,373J09,EBikeCart] 0
-x_WedFri[373F09,373J09,FootBike] 1
+x_WedFri[373F09,373J09,FootBike] 0
 x_WedFri[373F09,373F10,Car] 0
 x_WedFri[373F09,373F10,Moped] 0
 x_WedFri[373F09,373F10,EBikeCart] 0
@@ -83252,7 +83252,7 @@ x_WedFri[373F99,357F01,FootBike] 0
 x_WedFri[373F99,373F01,Car] 0
 x_WedFri[373F99,373F01,Moped] 0
 x_WedFri[373F99,373F01,EBikeCart] 0
-x_WedFri[373F99,373F01,FootBike] 1
+x_WedFri[373F99,373F01,FootBike] 0
 x_WedFri[373F99,356D19,Car] 0
 x_WedFri[373F99,356D19,Moped] 0
 x_WedFri[373F99,356D19,EBikeCart] 0
@@ -83296,7 +83296,7 @@ x_WedFri[373F99,356D23,FootBike] 0
 x_WedFri[373J09,373F09,Car] 0
 x_WedFri[373J09,373F09,Moped] 0
 x_WedFri[373J09,373F09,EBikeCart] 0
-x_WedFri[373J09,373F09,FootBike] 1
+x_WedFri[373J09,373F09,FootBike] 0
 x_WedFri[373J09,373F10,Car] 0
 x_WedFri[373J09,373F10,Moped] 0
 x_WedFri[373J09,373F10,EBikeCart] 0
@@ -83366,7 +83366,7 @@ x_WedFri[345C01,D261,Moped] 0
 x_WedFri[345C01,D261,EBikeCart] 0
 x_WedFri[345C01,D261,FootBike] 0
 x_WedFri[345C01,D294,Car] 0
-x_WedFri[345C01,D294,Moped] 0
+x_WedFri[345C01,D294,Moped] 1
 x_WedFri[345C01,D294,EBikeCart] 0
 x_WedFri[345C01,D294,FootBike] 0
 x_WedFri[345C01,D263,Car] 0
@@ -83436,7 +83436,7 @@ x_WedFri[345C01,D363,FootBike] 0
 x_WedFri[345C03,D294,Car] 0
 x_WedFri[345C03,D294,Moped] 0
 x_WedFri[345C03,D294,EBikeCart] 0
-x_WedFri[345C03,D294,FootBike] 0
+x_WedFri[345C03,D294,FootBike] 1
 x_WedFri[345C03,D261,Car] 0
 x_WedFri[345C03,D261,Moped] 0
 x_WedFri[345C03,D261,EBikeCart] 0
@@ -83528,7 +83528,7 @@ x_WedFri[345C05,D261,FootBike] 0
 x_WedFri[345C05,D228,Car] 0
 x_WedFri[345C05,D228,Moped] 0
 x_WedFri[345C05,D228,EBikeCart] 0
-x_WedFri[345C05,D228,FootBike] 0
+x_WedFri[345C05,D228,FootBike] 1
 x_WedFri[345C05,D263,Car] 0
 x_WedFri[345C05,D263,Moped] 0
 x_WedFri[345C05,D263,EBikeCart] 0
@@ -83596,7 +83596,7 @@ x_WedFri[345C05,D328,FootBike] 0
 x_WedFri[345D03,D228,Car] 0
 x_WedFri[345D03,D228,Moped] 0
 x_WedFri[345D03,D228,EBikeCart] 0
-x_WedFri[345D03,D228,FootBike] 0
+x_WedFri[345D03,D228,FootBike] 1
 x_WedFri[345D03,D229,Car] 0
 x_WedFri[345D03,D229,Moped] 0
 x_WedFri[345D03,D229,EBikeCart] 0
@@ -83676,7 +83676,7 @@ x_WedFri[345D03,D293,FootBike] 0
 x_WedFri[345D04,D228,Car] 0
 x_WedFri[345D04,D228,Moped] 0
 x_WedFri[345D04,D228,EBikeCart] 0
-x_WedFri[345D04,D228,FootBike] 0
+x_WedFri[345D04,D228,FootBike] 1
 x_WedFri[345D04,D229,Car] 0
 x_WedFri[345D04,D229,Moped] 0
 x_WedFri[345D04,D229,EBikeCart] 0
@@ -83760,7 +83760,7 @@ x_WedFri[345D07,D229,FootBike] 0
 x_WedFri[345D07,D228,Car] 0
 x_WedFri[345D07,D228,Moped] 0
 x_WedFri[345D07,D228,EBikeCart] 0
-x_WedFri[345D07,D228,FootBike] 0
+x_WedFri[345D07,D228,FootBike] 1
 x_WedFri[345D07,D262,Car] 0
 x_WedFri[345D07,D262,Moped] 0
 x_WedFri[345D07,D262,EBikeCart] 0
@@ -83840,7 +83840,7 @@ x_WedFri[345D08,D229,FootBike] 0
 x_WedFri[345D08,D228,Car] 0
 x_WedFri[345D08,D228,Moped] 0
 x_WedFri[345D08,D228,EBikeCart] 0
-x_WedFri[345D08,D228,FootBike] 0
+x_WedFri[345D08,D228,FootBike] 1
 x_WedFri[345D08,D262,Car] 0
 x_WedFri[345D08,D262,Moped] 0
 x_WedFri[345D08,D262,EBikeCart] 0
@@ -83916,7 +83916,7 @@ x_WedFri[345D08,D166,FootBike] 0
 x_WedFri[345D11,D228,Car] 0
 x_WedFri[345D11,D228,Moped] 0
 x_WedFri[345D11,D228,EBikeCart] 0
-x_WedFri[345D11,D228,FootBike] 0
+x_WedFri[345D11,D228,FootBike] 1
 x_WedFri[345D11,D261,Car] 0
 x_WedFri[345D11,D261,Moped] 0
 x_WedFri[345D11,D261,EBikeCart] 0
@@ -84004,7 +84004,7 @@ x_WedFri[345D12,D262,FootBike] 0
 x_WedFri[345D12,D228,Car] 0
 x_WedFri[345D12,D228,Moped] 0
 x_WedFri[345D12,D228,EBikeCart] 0
-x_WedFri[345D12,D228,FootBike] 0
+x_WedFri[345D12,D228,FootBike] 1
 x_WedFri[345D12,D261,Car] 0
 x_WedFri[345D12,D261,Moped] 0
 x_WedFri[345D12,D261,EBikeCart] 0
@@ -84076,7 +84076,7 @@ x_WedFri[345D12,D164,FootBike] 0
 x_WedFri[345D15,D228,Car] 0
 x_WedFri[345D15,D228,Moped] 0
 x_WedFri[345D15,D228,EBikeCart] 0
-x_WedFri[345D15,D228,FootBike] 0
+x_WedFri[345D15,D228,FootBike] 1
 x_WedFri[345D15,D229,Car] 0
 x_WedFri[345D15,D229,Moped] 0
 x_WedFri[345D15,D229,EBikeCart] 0
@@ -84156,7 +84156,7 @@ x_WedFri[345D15,D259,FootBike] 0
 x_WedFri[345D16,D228,Car] 0
 x_WedFri[345D16,D228,Moped] 0
 x_WedFri[345D16,D228,EBikeCart] 0
-x_WedFri[345D16,D228,FootBike] 0
+x_WedFri[345D16,D228,FootBike] 1
 x_WedFri[345D16,D229,Car] 0
 x_WedFri[345D16,D229,Moped] 0
 x_WedFri[345D16,D229,EBikeCart] 0
@@ -84248,7 +84248,7 @@ x_WedFri[345D19,D295,FootBike] 0
 x_WedFri[345D19,D294,Car] 0
 x_WedFri[345D19,D294,Moped] 0
 x_WedFri[345D19,D294,EBikeCart] 0
-x_WedFri[345D19,D294,FootBike] 0
+x_WedFri[345D19,D294,FootBike] 1
 x_WedFri[345D19,D229,Car] 0
 x_WedFri[345D19,D229,Moped] 0
 x_WedFri[345D19,D229,EBikeCart] 0
@@ -84328,7 +84328,7 @@ x_WedFri[345D20,D295,FootBike] 0
 x_WedFri[345D20,D294,Car] 0
 x_WedFri[345D20,D294,Moped] 0
 x_WedFri[345D20,D294,EBikeCart] 0
-x_WedFri[345D20,D294,FootBike] 0
+x_WedFri[345D20,D294,FootBike] 1
 x_WedFri[345D20,D229,Car] 0
 x_WedFri[345D20,D229,Moped] 0
 x_WedFri[345D20,D229,EBikeCart] 0
@@ -84416,7 +84416,7 @@ x_WedFri[345D23,D263,FootBike] 0
 x_WedFri[345D23,D228,Car] 0
 x_WedFri[345D23,D228,Moped] 0
 x_WedFri[345D23,D228,EBikeCart] 0
-x_WedFri[345D23,D228,FootBike] 0
+x_WedFri[345D23,D228,FootBike] 1
 x_WedFri[345D23,D294,Car] 0
 x_WedFri[345D23,D294,Moped] 0
 x_WedFri[345D23,D294,EBikeCart] 0
@@ -84492,7 +84492,7 @@ x_WedFri[345D24,D295,FootBike] 0
 x_WedFri[345D24,D228,Car] 0
 x_WedFri[345D24,D228,Moped] 0
 x_WedFri[345D24,D228,EBikeCart] 0
-x_WedFri[345D24,D228,FootBike] 0
+x_WedFri[345D24,D228,FootBike] 1
 x_WedFri[345D24,D263,Car] 0
 x_WedFri[345D24,D263,Moped] 0
 x_WedFri[345D24,D263,EBikeCart] 0
@@ -84559,7 +84559,7 @@ x_WedFri[345D27,D295,EBikeCart] 0
 x_WedFri[345D27,D295,FootBike] 0
 x_WedFri[345D27,D294,Car] 0
 x_WedFri[345D27,D294,Moped] 0
-x_WedFri[345D27,D294,EBikeCart] 0
+x_WedFri[345D27,D294,EBikeCart] 1
 x_WedFri[345D27,D294,FootBike] 0
 x_WedFri[345D27,D262,Car] 0
 x_WedFri[345D27,D262,Moped] 0
@@ -84640,7 +84640,7 @@ x_WedFri[345D28,D295,FootBike] 0
 x_WedFri[345D28,D294,Car] 0
 x_WedFri[345D28,D294,Moped] 0
 x_WedFri[345D28,D294,EBikeCart] 0
-x_WedFri[345D28,D294,FootBike] 0
+x_WedFri[345D28,D294,FootBike] 1
 x_WedFri[345D28,D262,Car] 0
 x_WedFri[345D28,D262,Moped] 0
 x_WedFri[345D28,D262,EBikeCart] 0
@@ -84716,7 +84716,7 @@ x_WedFri[345D28,D264,FootBike] 0
 x_WedFri[345D31,D294,Car] 0
 x_WedFri[345D31,D294,Moped] 0
 x_WedFri[345D31,D294,EBikeCart] 0
-x_WedFri[345D31,D294,FootBike] 0
+x_WedFri[345D31,D294,FootBike] 1
 x_WedFri[345D31,D328,Car] 0
 x_WedFri[345D31,D328,Moped] 0
 x_WedFri[345D31,D328,EBikeCart] 0
@@ -84796,7 +84796,7 @@ x_WedFri[345D31,D259,FootBike] 0
 x_WedFri[345D32,D294,Car] 0
 x_WedFri[345D32,D294,Moped] 0
 x_WedFri[345D32,D294,EBikeCart] 0
-x_WedFri[345D32,D294,FootBike] 0
+x_WedFri[345D32,D294,FootBike] 1
 x_WedFri[345D32,D328,Car] 0
 x_WedFri[345D32,D328,Moped] 0
 x_WedFri[345D32,D328,EBikeCart] 0
@@ -84876,7 +84876,7 @@ x_WedFri[345D32,D229,FootBike] 0
 x_WedFri[345D35,D294,Car] 0
 x_WedFri[345D35,D294,Moped] 0
 x_WedFri[345D35,D294,EBikeCart] 0
-x_WedFri[345D35,D294,FootBike] 0
+x_WedFri[345D35,D294,FootBike] 1
 x_WedFri[345D35,D295,Car] 0
 x_WedFri[345D35,D295,Moped] 0
 x_WedFri[345D35,D295,EBikeCart] 0
@@ -84956,7 +84956,7 @@ x_WedFri[345D35,D259,FootBike] 0
 x_WedFri[345D36,D294,Car] 0
 x_WedFri[345D36,D294,Moped] 0
 x_WedFri[345D36,D294,EBikeCart] 0
-x_WedFri[345D36,D294,FootBike] 0
+x_WedFri[345D36,D294,FootBike] 1
 x_WedFri[345D36,D295,Car] 0
 x_WedFri[345D36,D295,Moped] 0
 x_WedFri[345D36,D295,EBikeCart] 0
@@ -85036,7 +85036,7 @@ x_WedFri[345D36,D361,FootBike] 0
 x_WedFri[345D39,D294,Car] 0
 x_WedFri[345D39,D294,Moped] 0
 x_WedFri[345D39,D294,EBikeCart] 0
-x_WedFri[345D39,D294,FootBike] 0
+x_WedFri[345D39,D294,FootBike] 1
 x_WedFri[345D39,D293,Car] 0
 x_WedFri[345D39,D293,Moped] 0
 x_WedFri[345D39,D293,EBikeCart] 0
@@ -85116,7 +85116,7 @@ x_WedFri[345D39,D330,FootBike] 0
 x_WedFri[345D40,D294,Car] 0
 x_WedFri[345D40,D294,Moped] 0
 x_WedFri[345D40,D294,EBikeCart] 0
-x_WedFri[345D40,D294,FootBike] 0
+x_WedFri[345D40,D294,FootBike] 1
 x_WedFri[345D40,D293,Car] 0
 x_WedFri[345D40,D293,Moped] 0
 x_WedFri[345D40,D293,EBikeCart] 0
@@ -85196,7 +85196,7 @@ x_WedFri[345D40,D263,FootBike] 0
 x_WedFri[345D43,D294,Car] 0
 x_WedFri[345D43,D294,Moped] 0
 x_WedFri[345D43,D294,EBikeCart] 0
-x_WedFri[345D43,D294,FootBike] 0
+x_WedFri[345D43,D294,FootBike] 1
 x_WedFri[345D43,D261,Car] 0
 x_WedFri[345D43,D261,Moped] 0
 x_WedFri[345D43,D261,EBikeCart] 0
@@ -85276,7 +85276,7 @@ x_WedFri[345D43,D363,FootBike] 0
 x_WedFri[345D44,D294,Car] 0
 x_WedFri[345D44,D294,Moped] 0
 x_WedFri[345D44,D294,EBikeCart] 0
-x_WedFri[345D44,D294,FootBike] 0
+x_WedFri[345D44,D294,FootBike] 1
 x_WedFri[345D44,D261,Car] 0
 x_WedFri[345D44,D261,Moped] 0
 x_WedFri[345D44,D261,EBikeCart] 0
@@ -85356,7 +85356,7 @@ x_WedFri[345D44,D363,FootBike] 0
 x_WedFri[345D47,D294,Car] 0
 x_WedFri[345D47,D294,Moped] 0
 x_WedFri[345D47,D294,EBikeCart] 0
-x_WedFri[345D47,D294,FootBike] 0
+x_WedFri[345D47,D294,FootBike] 1
 x_WedFri[345D47,D293,Car] 0
 x_WedFri[345D47,D293,Moped] 0
 x_WedFri[345D47,D293,EBikeCart] 0
@@ -85436,7 +85436,7 @@ x_WedFri[345D47,D360,FootBike] 0
 x_WedFri[345D48,D294,Car] 0
 x_WedFri[345D48,D294,Moped] 0
 x_WedFri[345D48,D294,EBikeCart] 0
-x_WedFri[345D48,D294,FootBike] 0
+x_WedFri[345D48,D294,FootBike] 1
 x_WedFri[345D48,D293,Car] 0
 x_WedFri[345D48,D293,Moped] 0
 x_WedFri[345D48,D293,EBikeCart] 0
@@ -85516,7 +85516,7 @@ x_WedFri[345D48,D330,FootBike] 0
 x_WedFri[345D51,D294,Car] 0
 x_WedFri[345D51,D294,Moped] 0
 x_WedFri[345D51,D294,EBikeCart] 0
-x_WedFri[345D51,D294,FootBike] 0
+x_WedFri[345D51,D294,FootBike] 1
 x_WedFri[345D51,D293,Car] 0
 x_WedFri[345D51,D293,Moped] 0
 x_WedFri[345D51,D293,EBikeCart] 0
@@ -85596,7 +85596,7 @@ x_WedFri[345D51,D291,FootBike] 0
 x_WedFri[345D52,D294,Car] 0
 x_WedFri[345D52,D294,Moped] 0
 x_WedFri[345D52,D294,EBikeCart] 0
-x_WedFri[345D52,D294,FootBike] 0
+x_WedFri[345D52,D294,FootBike] 1
 x_WedFri[345D52,D293,Car] 0
 x_WedFri[345D52,D293,Moped] 0
 x_WedFri[345D52,D293,EBikeCart] 0
@@ -85676,7 +85676,7 @@ x_WedFri[345D52,D363,FootBike] 0
 x_WedFri[345D55,D294,Car] 0
 x_WedFri[345D55,D294,Moped] 0
 x_WedFri[345D55,D294,EBikeCart] 0
-x_WedFri[345D55,D294,FootBike] 0
+x_WedFri[345D55,D294,FootBike] 1
 x_WedFri[345D55,D293,Car] 0
 x_WedFri[345D55,D293,Moped] 0
 x_WedFri[345D55,D293,EBikeCart] 0
@@ -85756,7 +85756,7 @@ x_WedFri[345D55,D263,FootBike] 0
 x_WedFri[345D56,D294,Car] 0
 x_WedFri[345D56,D294,Moped] 0
 x_WedFri[345D56,D294,EBikeCart] 0
-x_WedFri[345D56,D294,FootBike] 0
+x_WedFri[345D56,D294,FootBike] 1
 x_WedFri[345D56,D293,Car] 0
 x_WedFri[345D56,D293,Moped] 0
 x_WedFri[345D56,D293,EBikeCart] 0
@@ -85836,7 +85836,7 @@ x_WedFri[345D56,D330,FootBike] 0
 x_WedFri[345D59,D294,Car] 0
 x_WedFri[345D59,D294,Moped] 0
 x_WedFri[345D59,D294,EBikeCart] 0
-x_WedFri[345D59,D294,FootBike] 0
+x_WedFri[345D59,D294,FootBike] 1
 x_WedFri[345D59,D328,Car] 0
 x_WedFri[345D59,D328,Moped] 0
 x_WedFri[345D59,D328,EBikeCart] 0
@@ -85916,7 +85916,7 @@ x_WedFri[345D59,D263,FootBike] 0
 x_WedFri[345D60,D294,Car] 0
 x_WedFri[345D60,D294,Moped] 0
 x_WedFri[345D60,D294,EBikeCart] 0
-x_WedFri[345D60,D294,FootBike] 0
+x_WedFri[345D60,D294,FootBike] 1
 x_WedFri[345D60,D328,Car] 0
 x_WedFri[345D60,D328,Moped] 0
 x_WedFri[345D60,D328,EBikeCart] 0
@@ -85996,7 +85996,7 @@ x_WedFri[345D60,D229,FootBike] 0
 x_WedFri[345F01,D228,Car] 0
 x_WedFri[345F01,D228,Moped] 0
 x_WedFri[345F01,D228,EBikeCart] 0
-x_WedFri[345F01,D228,FootBike] 0
+x_WedFri[345F01,D228,FootBike] 1
 x_WedFri[345F01,D261,Car] 0
 x_WedFri[345F01,D261,Moped] 0
 x_WedFri[345F01,D261,EBikeCart] 0
@@ -86076,7 +86076,7 @@ x_WedFri[345F01,D198,FootBike] 0
 x_WedFri[345F02,D228,Car] 0
 x_WedFri[345F02,D228,Moped] 0
 x_WedFri[345F02,D228,EBikeCart] 0
-x_WedFri[345F02,D228,FootBike] 0
+x_WedFri[345F02,D228,FootBike] 1
 x_WedFri[345F02,D261,Car] 0
 x_WedFri[345F02,D261,Moped] 0
 x_WedFri[345F02,D261,EBikeCart] 0
@@ -86156,7 +86156,7 @@ x_WedFri[345F02,D165,FootBike] 0
 x_WedFri[345F03,D228,Car] 0
 x_WedFri[345F03,D228,Moped] 0
 x_WedFri[345F03,D228,EBikeCart] 0
-x_WedFri[345F03,D228,FootBike] 0
+x_WedFri[345F03,D228,FootBike] 1
 x_WedFri[345F03,D227,Car] 0
 x_WedFri[345F03,D227,Moped] 0
 x_WedFri[345F03,D227,EBikeCart] 0
@@ -86236,7 +86236,7 @@ x_WedFri[345F03,D263,FootBike] 0
 x_WedFri[345F07,D228,Car] 0
 x_WedFri[345F07,D228,Moped] 0
 x_WedFri[345F07,D228,EBikeCart] 0
-x_WedFri[345F07,D228,FootBike] 0
+x_WedFri[345F07,D228,FootBike] 1
 x_WedFri[345F07,D196,Car] 0
 x_WedFri[345F07,D196,Moped] 0
 x_WedFri[345F07,D196,EBikeCart] 0
@@ -86316,7 +86316,7 @@ x_WedFri[345F07,D293,FootBike] 0
 x_WedFri[345F08,D228,Car] 0
 x_WedFri[345F08,D228,Moped] 0
 x_WedFri[345F08,D228,EBikeCart] 0
-x_WedFri[345F08,D228,FootBike] 0
+x_WedFri[345F08,D228,FootBike] 1
 x_WedFri[345F08,D196,Car] 0
 x_WedFri[345F08,D196,Moped] 0
 x_WedFri[345F08,D196,EBikeCart] 0
@@ -86396,7 +86396,7 @@ x_WedFri[345F08,D263,FootBike] 0
 x_WedFri[345F09,D228,Car] 0
 x_WedFri[345F09,D228,Moped] 0
 x_WedFri[345F09,D228,EBikeCart] 0
-x_WedFri[345F09,D228,FootBike] 0
+x_WedFri[345F09,D228,FootBike] 1
 x_WedFri[345F09,D227,Car] 0
 x_WedFri[345F09,D227,Moped] 0
 x_WedFri[345F09,D227,EBikeCart] 0
@@ -86484,7 +86484,7 @@ x_WedFri[345F18,D226,FootBike] 0
 x_WedFri[345F18,D260,Car] 0
 x_WedFri[345F18,D260,Moped] 0
 x_WedFri[345F18,D260,EBikeCart] 0
-x_WedFri[345F18,D260,FootBike] 0
+x_WedFri[345F18,D260,FootBike] 1
 x_WedFri[345F18,D195,Car] 0
 x_WedFri[345F18,D195,Moped] 0
 x_WedFri[345F18,D195,EBikeCart] 0
@@ -86568,7 +86568,7 @@ x_WedFri[345F19,D195,FootBike] 0
 x_WedFri[345F19,D260,Car] 0
 x_WedFri[345F19,D260,Moped] 0
 x_WedFri[345F19,D260,EBikeCart] 0
-x_WedFri[345F19,D260,FootBike] 0
+x_WedFri[345F19,D260,FootBike] 1
 x_WedFri[345F19,D194,Car] 0
 x_WedFri[345F19,D194,Moped] 0
 x_WedFri[345F19,D194,EBikeCart] 0
@@ -86640,7 +86640,7 @@ x_WedFri[345F20,D227,FootBike] 0
 x_WedFri[345F20,D260,Car] 0
 x_WedFri[345F20,D260,Moped] 0
 x_WedFri[345F20,D260,EBikeCart] 0
-x_WedFri[345F20,D260,FootBike] 0
+x_WedFri[345F20,D260,FootBike] 1
 x_WedFri[345F20,D228,Car] 0
 x_WedFri[345F20,D228,Moped] 0
 x_WedFri[345F20,D228,EBikeCart] 0
@@ -86720,7 +86720,7 @@ x_WedFri[345F21,D227,FootBike] 0
 x_WedFri[345F21,D260,Car] 0
 x_WedFri[345F21,D260,Moped] 0
 x_WedFri[345F21,D260,EBikeCart] 0
-x_WedFri[345F21,D260,FootBike] 0
+x_WedFri[345F21,D260,FootBike] 1
 x_WedFri[345F21,D228,Car] 0
 x_WedFri[345F21,D228,Moped] 0
 x_WedFri[345F21,D228,EBikeCart] 0
@@ -86800,7 +86800,7 @@ x_WedFri[345F22,D227,FootBike] 0
 x_WedFri[345F22,D260,Car] 0
 x_WedFri[345F22,D260,Moped] 0
 x_WedFri[345F22,D260,EBikeCart] 0
-x_WedFri[345F22,D260,FootBike] 0
+x_WedFri[345F22,D260,FootBike] 1
 x_WedFri[345F22,D226,Car] 0
 x_WedFri[345F22,D226,Moped] 0
 x_WedFri[345F22,D226,EBikeCart] 0
@@ -86880,7 +86880,7 @@ x_WedFri[345F23,D227,FootBike] 0
 x_WedFri[345F23,D260,Car] 0
 x_WedFri[345F23,D260,Moped] 0
 x_WedFri[345F23,D260,EBikeCart] 0
-x_WedFri[345F23,D260,FootBike] 0
+x_WedFri[345F23,D260,FootBike] 1
 x_WedFri[345F23,D226,Car] 0
 x_WedFri[345F23,D226,Moped] 0
 x_WedFri[345F23,D226,EBikeCart] 0
@@ -86956,7 +86956,7 @@ x_WedFri[345F23,D291,FootBike] 0
 x_WedFri[351F03,D362,Car] 0
 x_WedFri[351F03,D362,Moped] 0
 x_WedFri[351F03,D362,EBikeCart] 0
-x_WedFri[351F03,D362,FootBike] 0
+x_WedFri[351F03,D362,FootBike] 1
 x_WedFri[351F03,D328,Car] 0
 x_WedFri[351F03,D328,Moped] 0
 x_WedFri[351F03,D328,EBikeCart] 0
@@ -87036,7 +87036,7 @@ x_WedFri[351F03,D296,FootBike] 0
 x_WedFri[351F11,D362,Car] 0
 x_WedFri[351F11,D362,Moped] 0
 x_WedFri[351F11,D362,EBikeCart] 0
-x_WedFri[351F11,D362,FootBike] 0
+x_WedFri[351F11,D362,FootBike] 1
 x_WedFri[351F11,D328,Car] 0
 x_WedFri[351F11,D328,Moped] 0
 x_WedFri[351F11,D328,EBikeCart] 0
@@ -87116,7 +87116,7 @@ x_WedFri[351F11,D431,FootBike] 0
 x_WedFri[351F25,D327,Car] 0
 x_WedFri[351F25,D327,Moped] 0
 x_WedFri[351F25,D327,EBikeCart] 0
-x_WedFri[351F25,D327,FootBike] 0
+x_WedFri[351F25,D327,FootBike] 1
 x_WedFri[351F25,D328,Car] 0
 x_WedFri[351F25,D328,Moped] 0
 x_WedFri[351F25,D328,EBikeCart] 0
@@ -87196,7 +87196,7 @@ x_WedFri[351F25,D330,FootBike] 0
 x_WedFri[351F28,D361,Car] 0
 x_WedFri[351F28,D361,Moped] 0
 x_WedFri[351F28,D361,EBikeCart] 0
-x_WedFri[351F28,D361,FootBike] 0
+x_WedFri[351F28,D361,FootBike] 1
 x_WedFri[351F28,D362,Car] 0
 x_WedFri[351F28,D362,Moped] 0
 x_WedFri[351F28,D362,EBikeCart] 0
@@ -87276,7 +87276,7 @@ x_WedFri[351F28,D364,FootBike] 0
 x_WedFri[351F29,D362,Car] 0
 x_WedFri[351F29,D362,Moped] 0
 x_WedFri[351F29,D362,EBikeCart] 0
-x_WedFri[351F29,D362,FootBike] 0
+x_WedFri[351F29,D362,FootBike] 1
 x_WedFri[351F29,D361,Car] 0
 x_WedFri[351F29,D361,Moped] 0
 x_WedFri[351F29,D361,EBikeCart] 0
@@ -87356,7 +87356,7 @@ x_WedFri[351F29,D359,FootBike] 0
 x_WedFri[351F30,D361,Car] 0
 x_WedFri[351F30,D361,Moped] 0
 x_WedFri[351F30,D361,EBikeCart] 0
-x_WedFri[351F30,D361,FootBike] 0
+x_WedFri[351F30,D361,FootBike] 1
 x_WedFri[351F30,D327,Car] 0
 x_WedFri[351F30,D327,Moped] 0
 x_WedFri[351F30,D327,EBikeCart] 0
@@ -87436,7 +87436,7 @@ x_WedFri[351F30,D430,FootBike] 0
 x_WedFri[351F31,D361,Car] 0
 x_WedFri[351F31,D361,Moped] 0
 x_WedFri[351F31,D361,EBikeCart] 0
-x_WedFri[351F31,D361,FootBike] 0
+x_WedFri[351F31,D361,FootBike] 1
 x_WedFri[351F31,D362,Car] 0
 x_WedFri[351F31,D362,Moped] 0
 x_WedFri[351F31,D362,EBikeCart] 0
@@ -87516,7 +87516,7 @@ x_WedFri[351F31,D295,FootBike] 0
 x_WedFri[351F32,D361,Car] 0
 x_WedFri[351F32,D361,Moped] 0
 x_WedFri[351F32,D361,EBikeCart] 0
-x_WedFri[351F32,D361,FootBike] 0
+x_WedFri[351F32,D361,FootBike] 1
 x_WedFri[351F32,D362,Car] 0
 x_WedFri[351F32,D362,Moped] 0
 x_WedFri[351F32,D362,EBikeCart] 0
@@ -87596,7 +87596,7 @@ x_WedFri[351F32,D325,FootBike] 0
 x_WedFri[351F33,D361,Car] 0
 x_WedFri[351F33,D361,Moped] 0
 x_WedFri[351F33,D361,EBikeCart] 0
-x_WedFri[351F33,D361,FootBike] 0
+x_WedFri[351F33,D361,FootBike] 1
 x_WedFri[351F33,D362,Car] 0
 x_WedFri[351F33,D362,Moped] 0
 x_WedFri[351F33,D362,EBikeCart] 0
@@ -87676,7 +87676,7 @@ x_WedFri[351F33,D325,FootBike] 0
 x_WedFri[351F34,D361,Car] 0
 x_WedFri[351F34,D361,Moped] 0
 x_WedFri[351F34,D361,EBikeCart] 0
-x_WedFri[351F34,D361,FootBike] 0
+x_WedFri[351F34,D361,FootBike] 1
 x_WedFri[351F34,D362,Car] 0
 x_WedFri[351F34,D362,Moped] 0
 x_WedFri[351F34,D362,EBikeCart] 0
@@ -87756,7 +87756,7 @@ x_WedFri[351F34,D325,FootBike] 0
 x_WedFri[351J28,D362,Car] 0
 x_WedFri[351J28,D362,Moped] 0
 x_WedFri[351J28,D362,EBikeCart] 0
-x_WedFri[351J28,D362,FootBike] 0
+x_WedFri[351J28,D362,FootBike] 1
 x_WedFri[351J28,D361,Car] 0
 x_WedFri[351J28,D361,Moped] 0
 x_WedFri[351J28,D361,EBikeCart] 0
@@ -87836,7 +87836,7 @@ x_WedFri[351J28,D330,FootBike] 0
 x_WedFri[351J31,D361,Car] 0
 x_WedFri[351J31,D361,Moped] 0
 x_WedFri[351J31,D361,EBikeCart] 0
-x_WedFri[351J31,D361,FootBike] 0
+x_WedFri[351J31,D361,FootBike] 1
 x_WedFri[351J31,D362,Car] 0
 x_WedFri[351J31,D362,Moped] 0
 x_WedFri[351J31,D362,EBikeCart] 0
@@ -87916,7 +87916,7 @@ x_WedFri[351J31,D428,FootBike] 0
 x_WedFri[351J33,D361,Car] 0
 x_WedFri[351J33,D361,Moped] 0
 x_WedFri[351J33,D361,EBikeCart] 0
-x_WedFri[351J33,D361,FootBike] 0
+x_WedFri[351J33,D361,FootBike] 1
 x_WedFri[351J33,D362,Car] 0
 x_WedFri[351J33,D362,Moped] 0
 x_WedFri[351J33,D362,EBikeCart] 0
@@ -87996,7 +87996,7 @@ x_WedFri[351J33,D295,FootBike] 0
 x_WedFri[351J34,D361,Car] 0
 x_WedFri[351J34,D361,Moped] 0
 x_WedFri[351J34,D361,EBikeCart] 0
-x_WedFri[351J34,D361,FootBike] 0
+x_WedFri[351J34,D361,FootBike] 1
 x_WedFri[351J34,D362,Car] 0
 x_WedFri[351J34,D362,Moped] 0
 x_WedFri[351J34,D362,EBikeCart] 0
@@ -88080,7 +88080,7 @@ x_WedFri[352C01,D330,FootBike] 0
 x_WedFri[352C01,D329,Car] 0
 x_WedFri[352C01,D329,Moped] 0
 x_WedFri[352C01,D329,EBikeCart] 0
-x_WedFri[352C01,D329,FootBike] 0
+x_WedFri[352C01,D329,FootBike] 1
 x_WedFri[352C01,D364,Car] 0
 x_WedFri[352C01,D364,Moped] 0
 x_WedFri[352C01,D364,EBikeCart] 0
@@ -88156,7 +88156,7 @@ x_WedFri[352C01,D366,FootBike] 0
 x_WedFri[352C03,D329,Car] 0
 x_WedFri[352C03,D329,Moped] 0
 x_WedFri[352C03,D329,EBikeCart] 0
-x_WedFri[352C03,D329,FootBike] 0
+x_WedFri[352C03,D329,FootBike] 1
 x_WedFri[352C03,D330,Car] 0
 x_WedFri[352C03,D330,Moped] 0
 x_WedFri[352C03,D330,EBikeCart] 0
@@ -88236,7 +88236,7 @@ x_WedFri[352C03,D293,FootBike] 0
 x_WedFri[352C05,D329,Car] 0
 x_WedFri[352C05,D329,Moped] 0
 x_WedFri[352C05,D329,EBikeCart] 0
-x_WedFri[352C05,D329,FootBike] 0
+x_WedFri[352C05,D329,FootBike] 1
 x_WedFri[352C05,D330,Car] 0
 x_WedFri[352C05,D330,Moped] 0
 x_WedFri[352C05,D330,EBikeCart] 0
@@ -88316,7 +88316,7 @@ x_WedFri[352C05,D361,FootBike] 0
 x_WedFri[352C07,D363,Car] 0
 x_WedFri[352C07,D363,Moped] 0
 x_WedFri[352C07,D363,EBikeCart] 0
-x_WedFri[352C07,D363,FootBike] 0
+x_WedFri[352C07,D363,FootBike] 1
 x_WedFri[352C07,D329,Car] 0
 x_WedFri[352C07,D329,Moped] 0
 x_WedFri[352C07,D329,EBikeCart] 0
@@ -88396,7 +88396,7 @@ x_WedFri[352C07,D432,FootBike] 0
 x_WedFri[352C09,D363,Car] 0
 x_WedFri[352C09,D363,Moped] 0
 x_WedFri[352C09,D363,EBikeCart] 0
-x_WedFri[352C09,D363,FootBike] 0
+x_WedFri[352C09,D363,FootBike] 1
 x_WedFri[352C09,D329,Car] 0
 x_WedFri[352C09,D329,Moped] 0
 x_WedFri[352C09,D329,EBikeCart] 0
@@ -88476,7 +88476,7 @@ x_WedFri[352C09,D432,FootBike] 0
 x_WedFri[352D03,D363,Car] 0
 x_WedFri[352D03,D363,Moped] 0
 x_WedFri[352D03,D363,EBikeCart] 0
-x_WedFri[352D03,D363,FootBike] 0
+x_WedFri[352D03,D363,FootBike] 1
 x_WedFri[352D03,D397,Car] 0
 x_WedFri[352D03,D397,Moped] 0
 x_WedFri[352D03,D397,EBikeCart] 0
@@ -88560,7 +88560,7 @@ x_WedFri[352D04,D364,FootBike] 0
 x_WedFri[352D04,D363,Car] 0
 x_WedFri[352D04,D363,Moped] 0
 x_WedFri[352D04,D363,EBikeCart] 0
-x_WedFri[352D04,D363,FootBike] 0
+x_WedFri[352D04,D363,FootBike] 1
 x_WedFri[352D04,D398,Car] 0
 x_WedFri[352D04,D398,Moped] 0
 x_WedFri[352D04,D398,EBikeCart] 0
@@ -88636,7 +88636,7 @@ x_WedFri[352D04,D361,FootBike] 0
 x_WedFri[352D07,D363,Car] 0
 x_WedFri[352D07,D363,Moped] 0
 x_WedFri[352D07,D363,EBikeCart] 0
-x_WedFri[352D07,D363,FootBike] 0
+x_WedFri[352D07,D363,FootBike] 1
 x_WedFri[352D07,D364,Car] 0
 x_WedFri[352D07,D364,Moped] 0
 x_WedFri[352D07,D364,EBikeCart] 0
@@ -88716,7 +88716,7 @@ x_WedFri[352D07,D395,FootBike] 0
 x_WedFri[352D08,D363,Car] 0
 x_WedFri[352D08,D363,Moped] 0
 x_WedFri[352D08,D363,EBikeCart] 0
-x_WedFri[352D08,D363,FootBike] 0
+x_WedFri[352D08,D363,FootBike] 1
 x_WedFri[352D08,D397,Car] 0
 x_WedFri[352D08,D397,Moped] 0
 x_WedFri[352D08,D397,EBikeCart] 0
@@ -88796,7 +88796,7 @@ x_WedFri[352D08,D296,FootBike] 0
 x_WedFri[352D11,D363,Car] 0
 x_WedFri[352D11,D363,Moped] 0
 x_WedFri[352D11,D363,EBikeCart] 0
-x_WedFri[352D11,D363,FootBike] 0
+x_WedFri[352D11,D363,FootBike] 1
 x_WedFri[352D11,D364,Car] 0
 x_WedFri[352D11,D364,Moped] 0
 x_WedFri[352D11,D364,EBikeCart] 0
@@ -88876,7 +88876,7 @@ x_WedFri[352D11,D294,FootBike] 0
 x_WedFri[352D12,D363,Car] 0
 x_WedFri[352D12,D363,Moped] 0
 x_WedFri[352D12,D363,EBikeCart] 0
-x_WedFri[352D12,D363,FootBike] 0
+x_WedFri[352D12,D363,FootBike] 1
 x_WedFri[352D12,D397,Car] 0
 x_WedFri[352D12,D397,Moped] 0
 x_WedFri[352D12,D397,EBikeCart] 0
@@ -88956,7 +88956,7 @@ x_WedFri[352D12,D296,FootBike] 0
 x_WedFri[352D15,D363,Car] 0
 x_WedFri[352D15,D363,Moped] 0
 x_WedFri[352D15,D363,EBikeCart] 0
-x_WedFri[352D15,D363,FootBike] 0
+x_WedFri[352D15,D363,FootBike] 1
 x_WedFri[352D15,D364,Car] 0
 x_WedFri[352D15,D364,Moped] 0
 x_WedFri[352D15,D364,EBikeCart] 0
@@ -89036,7 +89036,7 @@ x_WedFri[352D15,D366,FootBike] 0
 x_WedFri[352D16,D363,Car] 0
 x_WedFri[352D16,D363,Moped] 0
 x_WedFri[352D16,D363,EBikeCart] 0
-x_WedFri[352D16,D363,FootBike] 0
+x_WedFri[352D16,D363,FootBike] 1
 x_WedFri[352D16,D364,Car] 0
 x_WedFri[352D16,D364,Moped] 0
 x_WedFri[352D16,D364,EBikeCart] 0
@@ -89116,7 +89116,7 @@ x_WedFri[352D16,D366,FootBike] 0
 x_WedFri[352D19,D363,Car] 0
 x_WedFri[352D19,D363,Moped] 0
 x_WedFri[352D19,D363,EBikeCart] 0
-x_WedFri[352D19,D363,FootBike] 0
+x_WedFri[352D19,D363,FootBike] 1
 x_WedFri[352D19,D364,Car] 0
 x_WedFri[352D19,D364,Moped] 0
 x_WedFri[352D19,D364,EBikeCart] 0
@@ -89196,7 +89196,7 @@ x_WedFri[352D19,D430,FootBike] 0
 x_WedFri[352D20,D363,Car] 0
 x_WedFri[352D20,D363,Moped] 0
 x_WedFri[352D20,D363,EBikeCart] 0
-x_WedFri[352D20,D363,FootBike] 0
+x_WedFri[352D20,D363,FootBike] 1
 x_WedFri[352D20,D364,Car] 0
 x_WedFri[352D20,D364,Moped] 0
 x_WedFri[352D20,D364,EBikeCart] 0
@@ -89276,7 +89276,7 @@ x_WedFri[352D20,D327,FootBike] 0
 x_WedFri[352D23,D363,Car] 0
 x_WedFri[352D23,D363,Moped] 0
 x_WedFri[352D23,D363,EBikeCart] 0
-x_WedFri[352D23,D363,FootBike] 0
+x_WedFri[352D23,D363,FootBike] 1
 x_WedFri[352D23,D364,Car] 0
 x_WedFri[352D23,D364,Moped] 0
 x_WedFri[352D23,D364,EBikeCart] 0
@@ -89356,7 +89356,7 @@ x_WedFri[352D23,D430,FootBike] 0
 x_WedFri[352D24,D363,Car] 0
 x_WedFri[352D24,D363,Moped] 0
 x_WedFri[352D24,D363,EBikeCart] 0
-x_WedFri[352D24,D363,FootBike] 0
+x_WedFri[352D24,D363,FootBike] 1
 x_WedFri[352D24,D329,Car] 0
 x_WedFri[352D24,D329,Moped] 0
 x_WedFri[352D24,D329,EBikeCart] 0
@@ -89436,7 +89436,7 @@ x_WedFri[352D24,D432,FootBike] 0
 x_WedFri[352D27,D363,Car] 0
 x_WedFri[352D27,D363,Moped] 0
 x_WedFri[352D27,D363,EBikeCart] 0
-x_WedFri[352D27,D363,FootBike] 0
+x_WedFri[352D27,D363,FootBike] 1
 x_WedFri[352D27,D329,Car] 0
 x_WedFri[352D27,D329,Moped] 0
 x_WedFri[352D27,D329,EBikeCart] 0
@@ -89516,7 +89516,7 @@ x_WedFri[352D27,D395,FootBike] 0
 x_WedFri[352D28,D363,Car] 0
 x_WedFri[352D28,D363,Moped] 0
 x_WedFri[352D28,D363,EBikeCart] 0
-x_WedFri[352D28,D363,FootBike] 0
+x_WedFri[352D28,D363,FootBike] 1
 x_WedFri[352D28,D329,Car] 0
 x_WedFri[352D28,D329,Moped] 0
 x_WedFri[352D28,D329,EBikeCart] 0
@@ -89596,7 +89596,7 @@ x_WedFri[352D28,D395,FootBike] 0
 x_WedFri[352D31,D363,Car] 0
 x_WedFri[352D31,D363,Moped] 0
 x_WedFri[352D31,D363,EBikeCart] 0
-x_WedFri[352D31,D363,FootBike] 0
+x_WedFri[352D31,D363,FootBike] 1
 x_WedFri[352D31,D329,Car] 0
 x_WedFri[352D31,D329,Moped] 0
 x_WedFri[352D31,D329,EBikeCart] 0
@@ -89676,7 +89676,7 @@ x_WedFri[352D31,D395,FootBike] 0
 x_WedFri[352D32,D363,Car] 0
 x_WedFri[352D32,D363,Moped] 0
 x_WedFri[352D32,D363,EBikeCart] 0
-x_WedFri[352D32,D363,FootBike] 0
+x_WedFri[352D32,D363,FootBike] 1
 x_WedFri[352D32,D329,Car] 0
 x_WedFri[352D32,D329,Moped] 0
 x_WedFri[352D32,D329,EBikeCart] 0
@@ -89756,7 +89756,7 @@ x_WedFri[352D32,D297,FootBike] 0
 x_WedFri[352D35,D363,Car] 0
 x_WedFri[352D35,D363,Moped] 0
 x_WedFri[352D35,D363,EBikeCart] 0
-x_WedFri[352D35,D363,FootBike] 0
+x_WedFri[352D35,D363,FootBike] 1
 x_WedFri[352D35,D329,Car] 0
 x_WedFri[352D35,D329,Moped] 0
 x_WedFri[352D35,D329,EBikeCart] 0
@@ -89836,7 +89836,7 @@ x_WedFri[352D35,D262,FootBike] 0
 x_WedFri[352D36,D363,Car] 0
 x_WedFri[352D36,D363,Moped] 0
 x_WedFri[352D36,D363,EBikeCart] 0
-x_WedFri[352D36,D363,FootBike] 0
+x_WedFri[352D36,D363,FootBike] 1
 x_WedFri[352D36,D329,Car] 0
 x_WedFri[352D36,D329,Moped] 0
 x_WedFri[352D36,D329,EBikeCart] 0
@@ -89915,7 +89915,7 @@ x_WedFri[352D36,D262,EBikeCart] 0
 x_WedFri[352D36,D262,FootBike] 0
 x_WedFri[352D39,D363,Car] 0
 x_WedFri[352D39,D363,Moped] 0
-x_WedFri[352D39,D363,EBikeCart] 0
+x_WedFri[352D39,D363,EBikeCart] 1
 x_WedFri[352D39,D363,FootBike] 0
 x_WedFri[352D39,D362,Car] 0
 x_WedFri[352D39,D362,Moped] 0
@@ -89996,7 +89996,7 @@ x_WedFri[352D39,D331,FootBike] 0
 x_WedFri[352D40,D362,Car] 0
 x_WedFri[352D40,D362,Moped] 0
 x_WedFri[352D40,D362,EBikeCart] 0
-x_WedFri[352D40,D362,FootBike] 0
+x_WedFri[352D40,D362,FootBike] 1
 x_WedFri[352D40,D363,Car] 0
 x_WedFri[352D40,D363,Moped] 0
 x_WedFri[352D40,D363,EBikeCart] 0
@@ -90076,7 +90076,7 @@ x_WedFri[352D40,D326,FootBike] 0
 x_WedFri[352D43,D329,Car] 0
 x_WedFri[352D43,D329,Moped] 0
 x_WedFri[352D43,D329,EBikeCart] 0
-x_WedFri[352D43,D329,FootBike] 0
+x_WedFri[352D43,D329,FootBike] 1
 x_WedFri[352D43,D363,Car] 0
 x_WedFri[352D43,D363,Moped] 0
 x_WedFri[352D43,D363,EBikeCart] 0
@@ -90156,7 +90156,7 @@ x_WedFri[352D43,D261,FootBike] 0
 x_WedFri[352D44,D329,Car] 0
 x_WedFri[352D44,D329,Moped] 0
 x_WedFri[352D44,D329,EBikeCart] 0
-x_WedFri[352D44,D329,FootBike] 0
+x_WedFri[352D44,D329,FootBike] 1
 x_WedFri[352D44,D363,Car] 0
 x_WedFri[352D44,D363,Moped] 0
 x_WedFri[352D44,D363,EBikeCart] 0
@@ -90236,7 +90236,7 @@ x_WedFri[352D44,D431,FootBike] 0
 x_WedFri[352D47,D329,Car] 0
 x_WedFri[352D47,D329,Moped] 0
 x_WedFri[352D47,D329,EBikeCart] 0
-x_WedFri[352D47,D329,FootBike] 0
+x_WedFri[352D47,D329,FootBike] 1
 x_WedFri[352D47,D363,Car] 0
 x_WedFri[352D47,D363,Moped] 0
 x_WedFri[352D47,D363,EBikeCart] 0
@@ -90314,11 +90314,11 @@ x_WedFri[352D47,D263,Moped] 0
 x_WedFri[352D47,D263,EBikeCart] 0
 x_WedFri[352D47,D263,FootBike] 0
 x_WedFri[352D48,D329,Car] 0
-x_WedFri[352D48,D329,Moped] 0
+x_WedFri[352D48,D329,Moped] 1
 x_WedFri[352D48,D329,EBikeCart] 0
 x_WedFri[352D48,D329,FootBike] 0
 x_WedFri[352D48,D363,Car] 0
-x_WedFri[352D48,D363,Moped] 1
+x_WedFri[352D48,D363,Moped] 0
 x_WedFri[352D48,D363,EBikeCart] 0
 x_WedFri[352D48,D363,FootBike] 0
 x_WedFri[352D48,D330,Car] 0
@@ -90396,7 +90396,7 @@ x_WedFri[352D48,D399,FootBike] 0
 x_WedFri[352D51,D329,Car] 0
 x_WedFri[352D51,D329,Moped] 0
 x_WedFri[352D51,D329,EBikeCart] 0
-x_WedFri[352D51,D329,FootBike] 0
+x_WedFri[352D51,D329,FootBike] 1
 x_WedFri[352D51,D363,Car] 0
 x_WedFri[352D51,D363,Moped] 0
 x_WedFri[352D51,D363,EBikeCart] 0
@@ -90476,7 +90476,7 @@ x_WedFri[352D51,D293,FootBike] 0
 x_WedFri[352D52,D329,Car] 0
 x_WedFri[352D52,D329,Moped] 0
 x_WedFri[352D52,D329,EBikeCart] 0
-x_WedFri[352D52,D329,FootBike] 0
+x_WedFri[352D52,D329,FootBike] 1
 x_WedFri[352D52,D363,Car] 0
 x_WedFri[352D52,D363,Moped] 0
 x_WedFri[352D52,D363,EBikeCart] 0
@@ -90556,7 +90556,7 @@ x_WedFri[352D52,D297,FootBike] 0
 x_WedFri[352D55,D329,Car] 0
 x_WedFri[352D55,D329,Moped] 0
 x_WedFri[352D55,D329,EBikeCart] 0
-x_WedFri[352D55,D329,FootBike] 0
+x_WedFri[352D55,D329,FootBike] 1
 x_WedFri[352D55,D330,Car] 0
 x_WedFri[352D55,D330,Moped] 0
 x_WedFri[352D55,D330,EBikeCart] 0
@@ -90636,7 +90636,7 @@ x_WedFri[352D55,D361,FootBike] 0
 x_WedFri[352D56,D329,Car] 0
 x_WedFri[352D56,D329,Moped] 0
 x_WedFri[352D56,D329,EBikeCart] 0
-x_WedFri[352D56,D329,FootBike] 0
+x_WedFri[352D56,D329,FootBike] 1
 x_WedFri[352D56,D330,Car] 0
 x_WedFri[352D56,D330,Moped] 0
 x_WedFri[352D56,D330,EBikeCart] 0
@@ -90716,7 +90716,7 @@ x_WedFri[352D56,D261,FootBike] 0
 x_WedFri[352D59,D329,Car] 0
 x_WedFri[352D59,D329,Moped] 0
 x_WedFri[352D59,D329,EBikeCart] 0
-x_WedFri[352D59,D329,FootBike] 0
+x_WedFri[352D59,D329,FootBike] 1
 x_WedFri[352D59,D295,Car] 0
 x_WedFri[352D59,D295,Moped] 0
 x_WedFri[352D59,D295,EBikeCart] 0
@@ -90796,7 +90796,7 @@ x_WedFri[352D59,D361,FootBike] 0
 x_WedFri[352D60,D329,Car] 0
 x_WedFri[352D60,D329,Moped] 0
 x_WedFri[352D60,D329,EBikeCart] 0
-x_WedFri[352D60,D329,FootBike] 0
+x_WedFri[352D60,D329,FootBike] 1
 x_WedFri[352D60,D295,Car] 0
 x_WedFri[352D60,D295,Moped] 0
 x_WedFri[352D60,D295,EBikeCart] 0
@@ -90876,7 +90876,7 @@ x_WedFri[352D60,D398,FootBike] 0
 x_WedFri[352D63,D329,Car] 0
 x_WedFri[352D63,D329,Moped] 0
 x_WedFri[352D63,D329,EBikeCart] 0
-x_WedFri[352D63,D329,FootBike] 0
+x_WedFri[352D63,D329,FootBike] 1
 x_WedFri[352D63,D295,Car] 0
 x_WedFri[352D63,D295,Moped] 0
 x_WedFri[352D63,D295,EBikeCart] 0
@@ -90960,7 +90960,7 @@ x_WedFri[352D64,D295,FootBike] 0
 x_WedFri[352D64,D329,Car] 0
 x_WedFri[352D64,D329,Moped] 0
 x_WedFri[352D64,D329,EBikeCart] 0
-x_WedFri[352D64,D329,FootBike] 0
+x_WedFri[352D64,D329,FootBike] 1
 x_WedFri[352D64,D296,Car] 0
 x_WedFri[352D64,D296,Moped] 0
 x_WedFri[352D64,D296,EBikeCart] 0
@@ -91036,7 +91036,7 @@ x_WedFri[352D64,D365,FootBike] 0
 x_WedFri[352D67,D294,Car] 0
 x_WedFri[352D67,D294,Moped] 0
 x_WedFri[352D67,D294,EBikeCart] 0
-x_WedFri[352D67,D294,FootBike] 0
+x_WedFri[352D67,D294,FootBike] 1
 x_WedFri[352D67,D328,Car] 0
 x_WedFri[352D67,D328,Moped] 0
 x_WedFri[352D67,D328,EBikeCart] 0
@@ -91116,7 +91116,7 @@ x_WedFri[352D67,D364,FootBike] 0
 x_WedFri[352D68,D294,Car] 0
 x_WedFri[352D68,D294,Moped] 0
 x_WedFri[352D68,D294,EBikeCart] 0
-x_WedFri[352D68,D294,FootBike] 0
+x_WedFri[352D68,D294,FootBike] 1
 x_WedFri[352D68,D328,Car] 0
 x_WedFri[352D68,D328,Moped] 0
 x_WedFri[352D68,D328,EBikeCart] 0
@@ -91196,7 +91196,7 @@ x_WedFri[352D68,D396,FootBike] 0
 x_WedFri[352D71,D328,Car] 0
 x_WedFri[352D71,D328,Moped] 0
 x_WedFri[352D71,D328,EBikeCart] 0
-x_WedFri[352D71,D328,FootBike] 0
+x_WedFri[352D71,D328,FootBike] 1
 x_WedFri[352D71,D294,Car] 0
 x_WedFri[352D71,D294,Moped] 0
 x_WedFri[352D71,D294,EBikeCart] 0
@@ -91276,7 +91276,7 @@ x_WedFri[352D71,D360,FootBike] 0
 x_WedFri[352D72,D328,Car] 0
 x_WedFri[352D72,D328,Moped] 0
 x_WedFri[352D72,D328,EBikeCart] 0
-x_WedFri[352D72,D328,FootBike] 0
+x_WedFri[352D72,D328,FootBike] 1
 x_WedFri[352D72,D294,Car] 0
 x_WedFri[352D72,D294,Moped] 0
 x_WedFri[352D72,D294,EBikeCart] 0
@@ -91356,7 +91356,7 @@ x_WedFri[352D72,D397,FootBike] 0
 x_WedFri[353F01,D328,Car] 0
 x_WedFri[353F01,D328,Moped] 0
 x_WedFri[353F01,D328,EBikeCart] 0
-x_WedFri[353F01,D328,FootBike] 0
+x_WedFri[353F01,D328,FootBike] 1
 x_WedFri[353F01,D294,Car] 0
 x_WedFri[353F01,D294,Moped] 0
 x_WedFri[353F01,D294,EBikeCart] 0
@@ -91436,7 +91436,7 @@ x_WedFri[353F01,D228,FootBike] 0
 x_WedFri[353F03,D294,Car] 0
 x_WedFri[353F03,D294,Moped] 0
 x_WedFri[353F03,D294,EBikeCart] 0
-x_WedFri[353F03,D294,FootBike] 0
+x_WedFri[353F03,D294,FootBike] 1
 x_WedFri[353F03,D293,Car] 0
 x_WedFri[353F03,D293,Moped] 0
 x_WedFri[353F03,D293,EBikeCart] 0
@@ -91520,7 +91520,7 @@ x_WedFri[353F05,D293,FootBike] 0
 x_WedFri[353F05,D327,Car] 0
 x_WedFri[353F05,D327,Moped] 0
 x_WedFri[353F05,D327,EBikeCart] 0
-x_WedFri[353F05,D327,FootBike] 0
+x_WedFri[353F05,D327,FootBike] 1
 x_WedFri[353F05,D294,Car] 0
 x_WedFri[353F05,D294,Moped] 0
 x_WedFri[353F05,D294,EBikeCart] 0
@@ -91596,7 +91596,7 @@ x_WedFri[353F05,D395,FootBike] 0
 x_WedFri[353F06,D327,Car] 0
 x_WedFri[353F06,D327,Moped] 0
 x_WedFri[353F06,D327,EBikeCart] 0
-x_WedFri[353F06,D327,FootBike] 0
+x_WedFri[353F06,D327,FootBike] 1
 x_WedFri[353F06,D328,Car] 0
 x_WedFri[353F06,D328,Moped] 0
 x_WedFri[353F06,D328,EBikeCart] 0
@@ -91676,7 +91676,7 @@ x_WedFri[353F06,D291,FootBike] 0
 x_WedFri[353F07,D328,Car] 0
 x_WedFri[353F07,D328,Moped] 0
 x_WedFri[353F07,D328,EBikeCart] 0
-x_WedFri[353F07,D328,FootBike] 0
+x_WedFri[353F07,D328,FootBike] 1
 x_WedFri[353F07,D327,Car] 0
 x_WedFri[353F07,D327,Moped] 0
 x_WedFri[353F07,D327,EBikeCart] 0
@@ -91756,7 +91756,7 @@ x_WedFri[353F07,D296,FootBike] 0
 x_WedFri[353F09,D328,Car] 0
 x_WedFri[353F09,D328,Moped] 0
 x_WedFri[353F09,D328,EBikeCart] 0
-x_WedFri[353F09,D328,FootBike] 0
+x_WedFri[353F09,D328,FootBike] 1
 x_WedFri[353F09,D327,Car] 0
 x_WedFri[353F09,D327,Moped] 0
 x_WedFri[353F09,D327,EBikeCart] 0
@@ -91836,7 +91836,7 @@ x_WedFri[353F09,D397,FootBike] 0
 x_WedFri[353F35,D328,Car] 0
 x_WedFri[353F35,D328,Moped] 0
 x_WedFri[353F35,D328,EBikeCart] 0
-x_WedFri[353F35,D328,FootBike] 0
+x_WedFri[353F35,D328,FootBike] 1
 x_WedFri[353F35,D294,Car] 0
 x_WedFri[353F35,D294,Moped] 0
 x_WedFri[353F35,D294,EBikeCart] 0
@@ -91916,7 +91916,7 @@ x_WedFri[353F35,D364,FootBike] 0
 x_WedFri[353F37,D328,Car] 0
 x_WedFri[353F37,D328,Moped] 0
 x_WedFri[353F37,D328,EBikeCart] 0
-x_WedFri[353F37,D328,FootBike] 0
+x_WedFri[353F37,D328,FootBike] 1
 x_WedFri[353F37,D294,Car] 0
 x_WedFri[353F37,D294,Moped] 0
 x_WedFri[353F37,D294,EBikeCart] 0
@@ -91996,7 +91996,7 @@ x_WedFri[353F37,D364,FootBike] 0
 x_WedFri[353F39,D328,Car] 0
 x_WedFri[353F39,D328,Moped] 0
 x_WedFri[353F39,D328,EBikeCart] 0
-x_WedFri[353F39,D328,FootBike] 0
+x_WedFri[353F39,D328,FootBike] 1
 x_WedFri[353F39,D294,Car] 0
 x_WedFri[353F39,D294,Moped] 0
 x_WedFri[353F39,D294,EBikeCart] 0
@@ -92076,7 +92076,7 @@ x_WedFri[353F39,D395,FootBike] 0
 x_WedFri[354F01,D260,Car] 0
 x_WedFri[354F01,D260,Moped] 0
 x_WedFri[354F01,D260,EBikeCart] 0
-x_WedFri[354F01,D260,FootBike] 0
+x_WedFri[354F01,D260,FootBike] 1
 x_WedFri[354F01,D261,Car] 0
 x_WedFri[354F01,D261,Moped] 0
 x_WedFri[354F01,D261,EBikeCart] 0
@@ -92156,7 +92156,7 @@ x_WedFri[354F01,D225,FootBike] 0
 x_WedFri[354F03,D260,Car] 0
 x_WedFri[354F03,D260,Moped] 0
 x_WedFri[354F03,D260,EBikeCart] 0
-x_WedFri[354F03,D260,FootBike] 0
+x_WedFri[354F03,D260,FootBike] 1
 x_WedFri[354F03,D261,Car] 0
 x_WedFri[354F03,D261,Moped] 0
 x_WedFri[354F03,D261,EBikeCart] 0
@@ -92240,7 +92240,7 @@ x_WedFri[354F07,D293,FootBike] 0
 x_WedFri[354F07,D260,Car] 0
 x_WedFri[354F07,D260,Moped] 0
 x_WedFri[354F07,D260,EBikeCart] 0
-x_WedFri[354F07,D260,FootBike] 0
+x_WedFri[354F07,D260,FootBike] 1
 x_WedFri[354F07,D294,Car] 0
 x_WedFri[354F07,D294,Moped] 0
 x_WedFri[354F07,D294,EBikeCart] 0
@@ -92316,7 +92316,7 @@ x_WedFri[354F07,D362,FootBike] 0
 x_WedFri[354F09,D260,Car] 0
 x_WedFri[354F09,D260,Moped] 0
 x_WedFri[354F09,D260,EBikeCart] 0
-x_WedFri[354F09,D260,FootBike] 0
+x_WedFri[354F09,D260,FootBike] 1
 x_WedFri[354F09,D293,Car] 0
 x_WedFri[354F09,D293,Moped] 0
 x_WedFri[354F09,D293,EBikeCart] 0
@@ -92396,7 +92396,7 @@ x_WedFri[354F09,D196,FootBike] 0
 x_WedFri[354F11,D260,Car] 0
 x_WedFri[354F11,D260,Moped] 0
 x_WedFri[354F11,D260,EBikeCart] 0
-x_WedFri[354F11,D260,FootBike] 0
+x_WedFri[354F11,D260,FootBike] 1
 x_WedFri[354F11,D293,Car] 0
 x_WedFri[354F11,D293,Moped] 0
 x_WedFri[354F11,D293,EBikeCart] 0
@@ -92476,7 +92476,7 @@ x_WedFri[354F11,D225,FootBike] 0
 x_WedFri[354F13,D260,Car] 0
 x_WedFri[354F13,D260,Moped] 0
 x_WedFri[354F13,D260,EBikeCart] 0
-x_WedFri[354F13,D260,FootBike] 0
+x_WedFri[354F13,D260,FootBike] 1
 x_WedFri[354F13,D261,Car] 0
 x_WedFri[354F13,D261,Moped] 0
 x_WedFri[354F13,D261,EBikeCart] 0
@@ -92556,7 +92556,7 @@ x_WedFri[354F13,D194,FootBike] 0
 x_WedFri[354F15,D260,Car] 0
 x_WedFri[354F15,D260,Moped] 0
 x_WedFri[354F15,D260,EBikeCart] 0
-x_WedFri[354F15,D260,FootBike] 0
+x_WedFri[354F15,D260,FootBike] 1
 x_WedFri[354F15,D293,Car] 0
 x_WedFri[354F15,D293,Moped] 0
 x_WedFri[354F15,D293,EBikeCart] 0
@@ -92636,7 +92636,7 @@ x_WedFri[354F15,D194,FootBike] 0
 x_WedFri[354F17,D260,Car] 0
 x_WedFri[354F17,D260,Moped] 0
 x_WedFri[354F17,D260,EBikeCart] 0
-x_WedFri[354F17,D260,FootBike] 0
+x_WedFri[354F17,D260,FootBike] 1
 x_WedFri[354F17,D259,Car] 0
 x_WedFri[354F17,D259,Moped] 0
 x_WedFri[354F17,D259,EBikeCart] 0
@@ -92724,7 +92724,7 @@ x_WedFri[354F41,D226,FootBike] 0
 x_WedFri[354F41,D260,Car] 0
 x_WedFri[354F41,D260,Moped] 0
 x_WedFri[354F41,D260,EBikeCart] 0
-x_WedFri[354F41,D260,FootBike] 0
+x_WedFri[354F41,D260,FootBike] 1
 x_WedFri[354F41,D227,Car] 0
 x_WedFri[354F41,D227,Moped] 0
 x_WedFri[354F41,D227,EBikeCart] 0
@@ -92804,7 +92804,7 @@ x_WedFri[354F42,D226,FootBike] 0
 x_WedFri[354F42,D260,Car] 0
 x_WedFri[354F42,D260,Moped] 0
 x_WedFri[354F42,D260,EBikeCart] 0
-x_WedFri[354F42,D260,FootBike] 0
+x_WedFri[354F42,D260,FootBike] 1
 x_WedFri[354F42,D227,Car] 0
 x_WedFri[354F42,D227,Moped] 0
 x_WedFri[354F42,D227,EBikeCart] 0
@@ -92884,7 +92884,7 @@ x_WedFri[354F43,D226,FootBike] 0
 x_WedFri[354F43,D258,Car] 0
 x_WedFri[354F43,D258,Moped] 0
 x_WedFri[354F43,D258,EBikeCart] 0
-x_WedFri[354F43,D258,FootBike] 0
+x_WedFri[354F43,D258,FootBike] 1
 x_WedFri[354F43,D260,Car] 0
 x_WedFri[354F43,D260,Moped] 0
 x_WedFri[354F43,D260,EBikeCart] 0
@@ -92960,7 +92960,7 @@ x_WedFri[354F44,D259,FootBike] 0
 x_WedFri[354F44,D258,Car] 0
 x_WedFri[354F44,D258,Moped] 0
 x_WedFri[354F44,D258,EBikeCart] 0
-x_WedFri[354F44,D258,FootBike] 0
+x_WedFri[354F44,D258,FootBike] 1
 x_WedFri[354F44,D226,Car] 0
 x_WedFri[354F44,D226,Moped] 0
 x_WedFri[354F44,D226,EBikeCart] 0
@@ -93040,7 +93040,7 @@ x_WedFri[354F45,D259,FootBike] 0
 x_WedFri[354F45,D258,Car] 0
 x_WedFri[354F45,D258,Moped] 0
 x_WedFri[354F45,D258,EBikeCart] 0
-x_WedFri[354F45,D258,FootBike] 0
+x_WedFri[354F45,D258,FootBike] 1
 x_WedFri[354F45,D226,Car] 0
 x_WedFri[354F45,D226,Moped] 0
 x_WedFri[354F45,D226,EBikeCart] 0
@@ -93116,7 +93116,7 @@ x_WedFri[354F45,D228,FootBike] 0
 x_WedFri[354F46,D258,Car] 0
 x_WedFri[354F46,D258,Moped] 0
 x_WedFri[354F46,D258,EBikeCart] 0
-x_WedFri[354F46,D258,FootBike] 0
+x_WedFri[354F46,D258,FootBike] 1
 x_WedFri[354F46,D259,Car] 0
 x_WedFri[354F46,D259,Moped] 0
 x_WedFri[354F46,D259,EBikeCart] 0
@@ -93200,7 +93200,7 @@ x_WedFri[354F55,D225,FootBike] 0
 x_WedFri[354F55,D258,Car] 0
 x_WedFri[354F55,D258,Moped] 0
 x_WedFri[354F55,D258,EBikeCart] 0
-x_WedFri[354F55,D258,FootBike] 0
+x_WedFri[354F55,D258,FootBike] 1
 x_WedFri[354F55,D226,Car] 0
 x_WedFri[354F55,D226,Moped] 0
 x_WedFri[354F55,D226,EBikeCart] 0
@@ -93276,7 +93276,7 @@ x_WedFri[354F55,D162,FootBike] 0
 x_WedFri[354F56,D258,Car] 0
 x_WedFri[354F56,D258,Moped] 0
 x_WedFri[354F56,D258,EBikeCart] 0
-x_WedFri[354F56,D258,FootBike] 0
+x_WedFri[354F56,D258,FootBike] 1
 x_WedFri[354F56,D225,Car] 0
 x_WedFri[354F56,D225,Moped] 0
 x_WedFri[354F56,D225,EBikeCart] 0
@@ -93360,7 +93360,7 @@ x_WedFri[354F57,D225,FootBike] 0
 x_WedFri[354F57,D258,Car] 0
 x_WedFri[354F57,D258,Moped] 0
 x_WedFri[354F57,D258,EBikeCart] 0
-x_WedFri[354F57,D258,FootBike] 0
+x_WedFri[354F57,D258,FootBike] 1
 x_WedFri[354F57,D226,Car] 0
 x_WedFri[354F57,D226,Moped] 0
 x_WedFri[354F57,D226,EBikeCart] 0
@@ -93440,7 +93440,7 @@ x_WedFri[354F58,D225,FootBike] 0
 x_WedFri[354F58,D258,Car] 0
 x_WedFri[354F58,D258,Moped] 0
 x_WedFri[354F58,D258,EBikeCart] 0
-x_WedFri[354F58,D258,FootBike] 0
+x_WedFri[354F58,D258,FootBike] 1
 x_WedFri[354F58,D226,Car] 0
 x_WedFri[354F58,D226,Moped] 0
 x_WedFri[354F58,D226,EBikeCart] 0
@@ -93520,7 +93520,7 @@ x_WedFri[354F63,D225,FootBike] 0
 x_WedFri[354F63,D258,Car] 0
 x_WedFri[354F63,D258,Moped] 0
 x_WedFri[354F63,D258,EBikeCart] 0
-x_WedFri[354F63,D258,FootBike] 0
+x_WedFri[354F63,D258,FootBike] 1
 x_WedFri[354F63,D226,Car] 0
 x_WedFri[354F63,D226,Moped] 0
 x_WedFri[354F63,D226,EBikeCart] 0
@@ -93600,7 +93600,7 @@ x_WedFri[354J44,D259,FootBike] 0
 x_WedFri[354J44,D258,Car] 0
 x_WedFri[354J44,D258,Moped] 0
 x_WedFri[354J44,D258,EBikeCart] 0
-x_WedFri[354J44,D258,FootBike] 0
+x_WedFri[354J44,D258,FootBike] 1
 x_WedFri[354J44,D226,Car] 0
 x_WedFri[354J44,D226,Moped] 0
 x_WedFri[354J44,D226,EBikeCart] 0
@@ -93680,7 +93680,7 @@ x_WedFri[354J45,D259,FootBike] 0
 x_WedFri[354J45,D258,Car] 0
 x_WedFri[354J45,D258,Moped] 0
 x_WedFri[354J45,D258,EBikeCart] 0
-x_WedFri[354J45,D258,FootBike] 0
+x_WedFri[354J45,D258,FootBike] 1
 x_WedFri[354J45,D226,Car] 0
 x_WedFri[354J45,D226,Moped] 0
 x_WedFri[354J45,D226,EBikeCart] 0
@@ -93760,7 +93760,7 @@ x_WedFri[354J46,D259,FootBike] 0
 x_WedFri[354J46,D258,Car] 0
 x_WedFri[354J46,D258,Moped] 0
 x_WedFri[354J46,D258,EBikeCart] 0
-x_WedFri[354J46,D258,FootBike] 0
+x_WedFri[354J46,D258,FootBike] 1
 x_WedFri[354J46,D226,Car] 0
 x_WedFri[354J46,D226,Moped] 0
 x_WedFri[354J46,D226,EBikeCart] 0
@@ -93844,7 +93844,7 @@ x_WedFri[354J55,D226,FootBike] 0
 x_WedFri[354J55,D258,Car] 0
 x_WedFri[354J55,D258,Moped] 0
 x_WedFri[354J55,D258,EBikeCart] 0
-x_WedFri[354J55,D258,FootBike] 0
+x_WedFri[354J55,D258,FootBike] 1
 x_WedFri[354J55,D259,Car] 0
 x_WedFri[354J55,D259,Moped] 0
 x_WedFri[354J55,D259,EBikeCart] 0
@@ -93931,7 +93931,7 @@ x_WedFri[356B02,D290,EBikeCart] 0
 x_WedFri[356B02,D290,FootBike] 0
 x_WedFri[356B02,D326,Car] 0
 x_WedFri[356B02,D326,Moped] 0
-x_WedFri[356B02,D326,EBikeCart] 0
+x_WedFri[356B02,D326,EBikeCart] 1
 x_WedFri[356B02,D326,FootBike] 0
 x_WedFri[356B02,D359,Car] 0
 x_WedFri[356B02,D359,Moped] 0
@@ -93994,7 +93994,7 @@ x_WedFri[356B02,D392,Moped] 0
 x_WedFri[356B02,D392,EBikeCart] 0
 x_WedFri[356B02,D392,FootBike] 0
 x_WedFri[356C01,D326,Car] 0
-x_WedFri[356C01,D326,Moped] 0
+x_WedFri[356C01,D326,Moped] 1
 x_WedFri[356C01,D326,EBikeCart] 0
 x_WedFri[356C01,D326,FootBike] 0
 x_WedFri[356C01,D292,Car] 0
@@ -94007,7 +94007,7 @@ x_WedFri[356C01,D325,EBikeCart] 0
 x_WedFri[356C01,D325,FootBike] 0
 x_WedFri[356C01,D327,Car] 0
 x_WedFri[356C01,D327,Moped] 0
-x_WedFri[356C01,D327,EBikeCart] 1
+x_WedFri[356C01,D327,EBikeCart] 0
 x_WedFri[356C01,D327,FootBike] 0
 x_WedFri[356C01,D291,Car] 0
 x_WedFri[356C01,D291,Moped] 0
@@ -94076,7 +94076,7 @@ x_WedFri[356C01,D393,FootBike] 0
 x_WedFri[356C03,D326,Car] 0
 x_WedFri[356C03,D326,Moped] 0
 x_WedFri[356C03,D326,EBikeCart] 0
-x_WedFri[356C03,D326,FootBike] 0
+x_WedFri[356C03,D326,FootBike] 1
 x_WedFri[356C03,D327,Car] 0
 x_WedFri[356C03,D327,Moped] 0
 x_WedFri[356C03,D327,EBikeCart] 0
@@ -94156,7 +94156,7 @@ x_WedFri[356C03,D393,FootBike] 0
 x_WedFri[356C05,D326,Car] 0
 x_WedFri[356C05,D326,Moped] 0
 x_WedFri[356C05,D326,EBikeCart] 0
-x_WedFri[356C05,D326,FootBike] 0
+x_WedFri[356C05,D326,FootBike] 1
 x_WedFri[356C05,D327,Car] 0
 x_WedFri[356C05,D327,Moped] 0
 x_WedFri[356C05,D327,EBikeCart] 0
@@ -94244,7 +94244,7 @@ x_WedFri[356C09,D293,FootBike] 0
 x_WedFri[356C09,D326,Car] 0
 x_WedFri[356C09,D326,Moped] 0
 x_WedFri[356C09,D326,EBikeCart] 0
-x_WedFri[356C09,D326,FootBike] 0
+x_WedFri[356C09,D326,FootBike] 1
 x_WedFri[356C09,D327,Car] 0
 x_WedFri[356C09,D327,Moped] 0
 x_WedFri[356C09,D327,EBikeCart] 0
@@ -94324,7 +94324,7 @@ x_WedFri[356C11,D293,FootBike] 0
 x_WedFri[356C11,D326,Car] 0
 x_WedFri[356C11,D326,Moped] 0
 x_WedFri[356C11,D326,EBikeCart] 0
-x_WedFri[356C11,D326,FootBike] 0
+x_WedFri[356C11,D326,FootBike] 1
 x_WedFri[356C11,D327,Car] 0
 x_WedFri[356C11,D327,Moped] 0
 x_WedFri[356C11,D327,EBikeCart] 0
@@ -94443,7 +94443,7 @@ x_WedFri[356C15,D357,EBikeCart] 0
 x_WedFri[356C15,D357,FootBike] 0
 x_WedFri[356C15,D258,Car] 0
 x_WedFri[356C15,D258,Moped] 0
-x_WedFri[356C15,D258,EBikeCart] 0
+x_WedFri[356C15,D258,EBikeCart] 1
 x_WedFri[356C15,D258,FootBike] 0
 x_WedFri[356C15,D255,Car] 0
 x_WedFri[356C15,D255,Moped] 0
@@ -94476,7 +94476,7 @@ x_WedFri[356C15,D287,FootBike] 0
 x_WedFri[356D03,D326,Car] 0
 x_WedFri[356D03,D326,Moped] 0
 x_WedFri[356D03,D326,EBikeCart] 0
-x_WedFri[356D03,D326,FootBike] 0
+x_WedFri[356D03,D326,FootBike] 1
 x_WedFri[356D03,D360,Car] 0
 x_WedFri[356D03,D360,Moped] 0
 x_WedFri[356D03,D360,EBikeCart] 0
@@ -94556,7 +94556,7 @@ x_WedFri[356D03,D258,FootBike] 0
 x_WedFri[356D04,D326,Car] 0
 x_WedFri[356D04,D326,Moped] 0
 x_WedFri[356D04,D326,EBikeCart] 0
-x_WedFri[356D04,D326,FootBike] 0
+x_WedFri[356D04,D326,FootBike] 1
 x_WedFri[356D04,D360,Car] 0
 x_WedFri[356D04,D360,Moped] 0
 x_WedFri[356D04,D360,EBikeCart] 0
@@ -94636,7 +94636,7 @@ x_WedFri[356D04,D260,FootBike] 0
 x_WedFri[356D07,D326,Car] 0
 x_WedFri[356D07,D326,Moped] 0
 x_WedFri[356D07,D326,EBikeCart] 0
-x_WedFri[356D07,D326,FootBike] 0
+x_WedFri[356D07,D326,FootBike] 1
 x_WedFri[356D07,D360,Car] 0
 x_WedFri[356D07,D360,Moped] 0
 x_WedFri[356D07,D360,EBikeCart] 0
@@ -94716,7 +94716,7 @@ x_WedFri[356D07,D290,FootBike] 0
 x_WedFri[356D08,D326,Car] 0
 x_WedFri[356D08,D326,Moped] 0
 x_WedFri[356D08,D326,EBikeCart] 0
-x_WedFri[356D08,D326,FootBike] 0
+x_WedFri[356D08,D326,FootBike] 1
 x_WedFri[356D08,D360,Car] 0
 x_WedFri[356D08,D360,Moped] 0
 x_WedFri[356D08,D360,EBikeCart] 0
@@ -94796,7 +94796,7 @@ x_WedFri[356D08,D290,FootBike] 0
 x_WedFri[356D11,D326,Car] 0
 x_WedFri[356D11,D326,Moped] 0
 x_WedFri[356D11,D326,EBikeCart] 0
-x_WedFri[356D11,D326,FootBike] 0
+x_WedFri[356D11,D326,FootBike] 1
 x_WedFri[356D11,D327,Car] 0
 x_WedFri[356D11,D327,Moped] 0
 x_WedFri[356D11,D327,EBikeCart] 0
@@ -94876,7 +94876,7 @@ x_WedFri[356D11,D358,FootBike] 0
 x_WedFri[356D12,D326,Car] 0
 x_WedFri[356D12,D326,Moped] 0
 x_WedFri[356D12,D326,EBikeCart] 0
-x_WedFri[356D12,D326,FootBike] 0
+x_WedFri[356D12,D326,FootBike] 1
 x_WedFri[356D12,D327,Car] 0
 x_WedFri[356D12,D327,Moped] 0
 x_WedFri[356D12,D327,EBikeCart] 0
@@ -94956,7 +94956,7 @@ x_WedFri[356D12,D290,FootBike] 0
 x_WedFri[356D15,D361,Car] 0
 x_WedFri[356D15,D361,Moped] 0
 x_WedFri[356D15,D361,EBikeCart] 0
-x_WedFri[356D15,D361,FootBike] 0
+x_WedFri[356D15,D361,FootBike] 1
 x_WedFri[356D15,D360,Car] 0
 x_WedFri[356D15,D360,Moped] 0
 x_WedFri[356D15,D360,EBikeCart] 0
@@ -95036,7 +95036,7 @@ x_WedFri[356D15,D397,FootBike] 0
 x_WedFri[356D16,D361,Car] 0
 x_WedFri[356D16,D361,Moped] 0
 x_WedFri[356D16,D361,EBikeCart] 0
-x_WedFri[356D16,D361,FootBike] 0
+x_WedFri[356D16,D361,FootBike] 1
 x_WedFri[356D16,D360,Car] 0
 x_WedFri[356D16,D360,Moped] 0
 x_WedFri[356D16,D360,EBikeCart] 0
@@ -95116,7 +95116,7 @@ x_WedFri[356D16,D397,FootBike] 0
 x_WedFri[356D19,D361,Car] 0
 x_WedFri[356D19,D361,Moped] 0
 x_WedFri[356D19,D361,EBikeCart] 0
-x_WedFri[356D19,D361,FootBike] 0
+x_WedFri[356D19,D361,FootBike] 1
 x_WedFri[356D19,D360,Car] 0
 x_WedFri[356D19,D360,Moped] 0
 x_WedFri[356D19,D360,EBikeCart] 0
@@ -95196,7 +95196,7 @@ x_WedFri[356D19,D329,FootBike] 0
 x_WedFri[356D20,D361,Car] 0
 x_WedFri[356D20,D361,Moped] 0
 x_WedFri[356D20,D361,EBikeCart] 0
-x_WedFri[356D20,D361,FootBike] 0
+x_WedFri[356D20,D361,FootBike] 1
 x_WedFri[356D20,D360,Car] 0
 x_WedFri[356D20,D360,Moped] 0
 x_WedFri[356D20,D360,EBikeCart] 0
@@ -95276,7 +95276,7 @@ x_WedFri[356D20,D397,FootBike] 0
 x_WedFri[356D23,D361,Car] 0
 x_WedFri[356D23,D361,Moped] 0
 x_WedFri[356D23,D361,EBikeCart] 0
-x_WedFri[356D23,D361,FootBike] 0
+x_WedFri[356D23,D361,FootBike] 1
 x_WedFri[356D23,D360,Car] 0
 x_WedFri[356D23,D360,Moped] 0
 x_WedFri[356D23,D360,EBikeCart] 0
@@ -95356,7 +95356,7 @@ x_WedFri[356D23,D430,FootBike] 0
 x_WedFri[356D24,D361,Car] 0
 x_WedFri[356D24,D361,Moped] 0
 x_WedFri[356D24,D361,EBikeCart] 0
-x_WedFri[356D24,D361,FootBike] 0
+x_WedFri[356D24,D361,FootBike] 1
 x_WedFri[356D24,D360,Car] 0
 x_WedFri[356D24,D360,Moped] 0
 x_WedFri[356D24,D360,EBikeCart] 0
@@ -95436,7 +95436,7 @@ x_WedFri[356D24,D291,FootBike] 0
 x_WedFri[356D27,D361,Car] 0
 x_WedFri[356D27,D361,Moped] 0
 x_WedFri[356D27,D361,EBikeCart] 0
-x_WedFri[356D27,D361,FootBike] 0
+x_WedFri[356D27,D361,FootBike] 1
 x_WedFri[356D27,D327,Car] 0
 x_WedFri[356D27,D327,Moped] 0
 x_WedFri[356D27,D327,EBikeCart] 0
@@ -95516,7 +95516,7 @@ x_WedFri[356D27,D291,FootBike] 0
 x_WedFri[356D28,D361,Car] 0
 x_WedFri[356D28,D361,Moped] 0
 x_WedFri[356D28,D361,EBikeCart] 0
-x_WedFri[356D28,D361,FootBike] 0
+x_WedFri[356D28,D361,FootBike] 1
 x_WedFri[356D28,D327,Car] 0
 x_WedFri[356D28,D327,Moped] 0
 x_WedFri[356D28,D327,EBikeCart] 0
@@ -95596,7 +95596,7 @@ x_WedFri[356D28,D397,FootBike] 0
 x_WedFri[356D31,D327,Car] 0
 x_WedFri[356D31,D327,Moped] 0
 x_WedFri[356D31,D327,EBikeCart] 0
-x_WedFri[356D31,D327,FootBike] 0
+x_WedFri[356D31,D327,FootBike] 1
 x_WedFri[356D31,D361,Car] 0
 x_WedFri[356D31,D361,Moped] 0
 x_WedFri[356D31,D361,EBikeCart] 0
@@ -95676,7 +95676,7 @@ x_WedFri[356D31,D291,FootBike] 0
 x_WedFri[356D32,D327,Car] 0
 x_WedFri[356D32,D327,Moped] 0
 x_WedFri[356D32,D327,EBikeCart] 0
-x_WedFri[356D32,D327,FootBike] 0
+x_WedFri[356D32,D327,FootBike] 1
 x_WedFri[356D32,D361,Car] 0
 x_WedFri[356D32,D361,Moped] 0
 x_WedFri[356D32,D361,EBikeCart] 0
@@ -95756,7 +95756,7 @@ x_WedFri[356D32,D261,FootBike] 0
 x_WedFri[356D35,D327,Car] 0
 x_WedFri[356D35,D327,Moped] 0
 x_WedFri[356D35,D327,EBikeCart] 0
-x_WedFri[356D35,D327,FootBike] 0
+x_WedFri[356D35,D327,FootBike] 1
 x_WedFri[356D35,D361,Car] 0
 x_WedFri[356D35,D361,Moped] 0
 x_WedFri[356D35,D361,EBikeCart] 0
@@ -95836,7 +95836,7 @@ x_WedFri[356D35,D259,FootBike] 0
 x_WedFri[356D36,D327,Car] 0
 x_WedFri[356D36,D327,Moped] 0
 x_WedFri[356D36,D327,EBikeCart] 0
-x_WedFri[356D36,D327,FootBike] 0
+x_WedFri[356D36,D327,FootBike] 1
 x_WedFri[356D36,D361,Car] 0
 x_WedFri[356D36,D361,Moped] 0
 x_WedFri[356D36,D361,EBikeCart] 0
@@ -95916,7 +95916,7 @@ x_WedFri[356D36,D259,FootBike] 0
 x_WedFri[356D39,D327,Car] 0
 x_WedFri[356D39,D327,Moped] 0
 x_WedFri[356D39,D327,EBikeCart] 0
-x_WedFri[356D39,D327,FootBike] 0
+x_WedFri[356D39,D327,FootBike] 1
 x_WedFri[356D39,D361,Car] 0
 x_WedFri[356D39,D361,Moped] 0
 x_WedFri[356D39,D361,EBikeCart] 0
@@ -95996,7 +95996,7 @@ x_WedFri[356D39,D291,FootBike] 0
 x_WedFri[356D40,D327,Car] 0
 x_WedFri[356D40,D327,Moped] 0
 x_WedFri[356D40,D327,EBikeCart] 0
-x_WedFri[356D40,D327,FootBike] 0
+x_WedFri[356D40,D327,FootBike] 1
 x_WedFri[356D40,D328,Car] 0
 x_WedFri[356D40,D328,Moped] 0
 x_WedFri[356D40,D328,EBikeCart] 0
@@ -96076,7 +96076,7 @@ x_WedFri[356D40,D259,FootBike] 0
 x_WedFri[356D43,D327,Car] 0
 x_WedFri[356D43,D327,Moped] 0
 x_WedFri[356D43,D327,EBikeCart] 0
-x_WedFri[356D43,D327,FootBike] 0
+x_WedFri[356D43,D327,FootBike] 1
 x_WedFri[356D43,D328,Car] 0
 x_WedFri[356D43,D328,Moped] 0
 x_WedFri[356D43,D328,EBikeCart] 0
@@ -96156,7 +96156,7 @@ x_WedFri[356D43,D359,FootBike] 0
 x_WedFri[356D44,D327,Car] 0
 x_WedFri[356D44,D327,Moped] 0
 x_WedFri[356D44,D327,EBikeCart] 0
-x_WedFri[356D44,D327,FootBike] 0
+x_WedFri[356D44,D327,FootBike] 1
 x_WedFri[356D44,D328,Car] 0
 x_WedFri[356D44,D328,Moped] 0
 x_WedFri[356D44,D328,EBikeCart] 0
@@ -96236,7 +96236,7 @@ x_WedFri[356D44,D359,FootBike] 0
 x_WedFri[356D47,D327,Car] 0
 x_WedFri[356D47,D327,Moped] 0
 x_WedFri[356D47,D327,EBikeCart] 0
-x_WedFri[356D47,D327,FootBike] 0
+x_WedFri[356D47,D327,FootBike] 1
 x_WedFri[356D47,D328,Car] 0
 x_WedFri[356D47,D328,Moped] 0
 x_WedFri[356D47,D328,EBikeCart] 0
@@ -96316,7 +96316,7 @@ x_WedFri[356D47,D330,FootBike] 0
 x_WedFri[356D48,D327,Car] 0
 x_WedFri[356D48,D327,Moped] 0
 x_WedFri[356D48,D327,EBikeCart] 0
-x_WedFri[356D48,D327,FootBike] 0
+x_WedFri[356D48,D327,FootBike] 1
 x_WedFri[356D48,D328,Car] 0
 x_WedFri[356D48,D328,Moped] 0
 x_WedFri[356D48,D328,EBikeCart] 0
@@ -96396,7 +96396,7 @@ x_WedFri[356D48,D259,FootBike] 0
 x_WedFri[356D51,D327,Car] 0
 x_WedFri[356D51,D327,Moped] 0
 x_WedFri[356D51,D327,EBikeCart] 0
-x_WedFri[356D51,D327,FootBike] 0
+x_WedFri[356D51,D327,FootBike] 1
 x_WedFri[356D51,D328,Car] 0
 x_WedFri[356D51,D328,Moped] 0
 x_WedFri[356D51,D328,EBikeCart] 0
@@ -96476,7 +96476,7 @@ x_WedFri[356D51,D359,FootBike] 0
 x_WedFri[356D52,D327,Car] 0
 x_WedFri[356D52,D327,Moped] 0
 x_WedFri[356D52,D327,EBikeCart] 0
-x_WedFri[356D52,D327,FootBike] 0
+x_WedFri[356D52,D327,FootBike] 1
 x_WedFri[356D52,D328,Car] 0
 x_WedFri[356D52,D328,Moped] 0
 x_WedFri[356D52,D328,EBikeCart] 0
@@ -96556,7 +96556,7 @@ x_WedFri[356D52,D291,FootBike] 0
 x_WedFri[356D55,D327,Car] 0
 x_WedFri[356D55,D327,Moped] 0
 x_WedFri[356D55,D327,EBikeCart] 0
-x_WedFri[356D55,D327,FootBike] 0
+x_WedFri[356D55,D327,FootBike] 1
 x_WedFri[356D55,D328,Car] 0
 x_WedFri[356D55,D328,Moped] 0
 x_WedFri[356D55,D328,EBikeCart] 0
@@ -96636,7 +96636,7 @@ x_WedFri[356D55,D291,FootBike] 0
 x_WedFri[356D56,D327,Car] 0
 x_WedFri[356D56,D327,Moped] 0
 x_WedFri[356D56,D327,EBikeCart] 0
-x_WedFri[356D56,D327,FootBike] 0
+x_WedFri[356D56,D327,FootBike] 1
 x_WedFri[356D56,D328,Car] 0
 x_WedFri[356D56,D328,Moped] 0
 x_WedFri[356D56,D328,EBikeCart] 0
@@ -96724,7 +96724,7 @@ x_WedFri[356D59,D292,FootBike] 0
 x_WedFri[356D59,D327,Car] 0
 x_WedFri[356D59,D327,Moped] 0
 x_WedFri[356D59,D327,EBikeCart] 0
-x_WedFri[356D59,D327,FootBike] 0
+x_WedFri[356D59,D327,FootBike] 1
 x_WedFri[356D59,D326,Car] 0
 x_WedFri[356D59,D326,Moped] 0
 x_WedFri[356D59,D326,EBikeCart] 0
@@ -96804,7 +96804,7 @@ x_WedFri[356D60,D292,FootBike] 0
 x_WedFri[356D60,D327,Car] 0
 x_WedFri[356D60,D327,Moped] 0
 x_WedFri[356D60,D327,EBikeCart] 0
-x_WedFri[356D60,D327,FootBike] 0
+x_WedFri[356D60,D327,FootBike] 1
 x_WedFri[356D60,D326,Car] 0
 x_WedFri[356D60,D326,Moped] 0
 x_WedFri[356D60,D326,EBikeCart] 0
@@ -96884,7 +96884,7 @@ x_WedFri[356D63,D293,FootBike] 0
 x_WedFri[356D63,D326,Car] 0
 x_WedFri[356D63,D326,Moped] 0
 x_WedFri[356D63,D326,EBikeCart] 0
-x_WedFri[356D63,D326,FootBike] 0
+x_WedFri[356D63,D326,FootBike] 1
 x_WedFri[356D63,D327,Car] 0
 x_WedFri[356D63,D327,Moped] 0
 x_WedFri[356D63,D327,EBikeCart] 0
@@ -96964,7 +96964,7 @@ x_WedFri[356D64,D293,FootBike] 0
 x_WedFri[356D64,D326,Car] 0
 x_WedFri[356D64,D326,Moped] 0
 x_WedFri[356D64,D326,EBikeCart] 0
-x_WedFri[356D64,D326,FootBike] 0
+x_WedFri[356D64,D326,FootBike] 1
 x_WedFri[356D64,D327,Car] 0
 x_WedFri[356D64,D327,Moped] 0
 x_WedFri[356D64,D327,EBikeCart] 0
@@ -97036,7 +97036,7 @@ x_WedFri[356D64,D324,FootBike] 0
 x_WedFri[356D67,D361,Car] 0
 x_WedFri[356D67,D361,Moped] 0
 x_WedFri[356D67,D361,EBikeCart] 0
-x_WedFri[356D67,D361,FootBike] 0
+x_WedFri[356D67,D361,FootBike] 1
 x_WedFri[356D67,D360,Car] 0
 x_WedFri[356D67,D360,Moped] 0
 x_WedFri[356D67,D360,EBikeCart] 0
@@ -97116,7 +97116,7 @@ x_WedFri[356D67,D397,FootBike] 0
 x_WedFri[356D68,D361,Car] 0
 x_WedFri[356D68,D361,Moped] 0
 x_WedFri[356D68,D361,EBikeCart] 0
-x_WedFri[356D68,D361,FootBike] 0
+x_WedFri[356D68,D361,FootBike] 1
 x_WedFri[356D68,D327,Car] 0
 x_WedFri[356D68,D327,Moped] 0
 x_WedFri[356D68,D327,EBikeCart] 0
@@ -97196,7 +97196,7 @@ x_WedFri[356D68,D428,FootBike] 0
 x_WedFri[356D71,D361,Car] 0
 x_WedFri[356D71,D361,Moped] 0
 x_WedFri[356D71,D361,EBikeCart] 0
-x_WedFri[356D71,D361,FootBike] 0
+x_WedFri[356D71,D361,FootBike] 1
 x_WedFri[356D71,D327,Car] 0
 x_WedFri[356D71,D327,Moped] 0
 x_WedFri[356D71,D327,EBikeCart] 0
@@ -97276,7 +97276,7 @@ x_WedFri[356D71,D393,FootBike] 0
 x_WedFri[356D72,D361,Car] 0
 x_WedFri[356D72,D361,Moped] 0
 x_WedFri[356D72,D361,EBikeCart] 0
-x_WedFri[356D72,D361,FootBike] 0
+x_WedFri[356D72,D361,FootBike] 1
 x_WedFri[356D72,D327,Car] 0
 x_WedFri[356D72,D327,Moped] 0
 x_WedFri[356D72,D327,EBikeCart] 0
@@ -97356,7 +97356,7 @@ x_WedFri[356D72,D430,FootBike] 0
 x_WedFri[357F01,D361,Car] 0
 x_WedFri[357F01,D361,Moped] 0
 x_WedFri[357F01,D361,EBikeCart] 0
-x_WedFri[357F01,D361,FootBike] 0
+x_WedFri[357F01,D361,FootBike] 1
 x_WedFri[357F01,D395,Car] 0
 x_WedFri[357F01,D395,Moped] 0
 x_WedFri[357F01,D395,EBikeCart] 0
@@ -97436,7 +97436,7 @@ x_WedFri[357F01,D294,FootBike] 0
 x_WedFri[357F02,D361,Car] 0
 x_WedFri[357F02,D361,Moped] 0
 x_WedFri[357F02,D361,EBikeCart] 0
-x_WedFri[357F02,D361,FootBike] 0
+x_WedFri[357F02,D361,FootBike] 1
 x_WedFri[357F02,D395,Car] 0
 x_WedFri[357F02,D395,Moped] 0
 x_WedFri[357F02,D395,EBikeCart] 0
@@ -97516,7 +97516,7 @@ x_WedFri[357F02,D292,FootBike] 0
 x_WedFri[357F03,D361,Car] 0
 x_WedFri[357F03,D361,Moped] 0
 x_WedFri[357F03,D361,EBikeCart] 0
-x_WedFri[357F03,D361,FootBike] 0
+x_WedFri[357F03,D361,FootBike] 1
 x_WedFri[357F03,D395,Car] 0
 x_WedFri[357F03,D395,Moped] 0
 x_WedFri[357F03,D395,EBikeCart] 0
@@ -97596,7 +97596,7 @@ x_WedFri[357F03,D294,FootBike] 0
 x_WedFri[357J03,D361,Car] 0
 x_WedFri[357J03,D361,Moped] 0
 x_WedFri[357J03,D361,EBikeCart] 0
-x_WedFri[357J03,D361,FootBike] 0
+x_WedFri[357J03,D361,FootBike] 1
 x_WedFri[357J03,D395,Car] 0
 x_WedFri[357J03,D395,Moped] 0
 x_WedFri[357J03,D395,EBikeCart] 0
@@ -97688,7 +97688,7 @@ x_WedFri[358C03,D430,FootBike] 0
 x_WedFri[358C03,D362,Car] 0
 x_WedFri[358C03,D362,Moped] 0
 x_WedFri[358C03,D362,EBikeCart] 0
-x_WedFri[358C03,D362,FootBike] 0
+x_WedFri[358C03,D362,FootBike] 1
 x_WedFri[358C03,D431,Car] 0
 x_WedFri[358C03,D431,Moped] 0
 x_WedFri[358C03,D431,EBikeCart] 0
@@ -97763,7 +97763,7 @@ x_WedFri[358C05,D397,EBikeCart] 0
 x_WedFri[358C05,D397,FootBike] 0
 x_WedFri[358C05,D362,Car] 0
 x_WedFri[358C05,D362,Moped] 0
-x_WedFri[358C05,D362,EBikeCart] 0
+x_WedFri[358C05,D362,EBikeCart] 1
 x_WedFri[358C05,D362,FootBike] 0
 x_WedFri[358C05,D363,Car] 0
 x_WedFri[358C05,D363,Moped] 0
@@ -97836,7 +97836,7 @@ x_WedFri[358C05,D399,FootBike] 0
 x_WedFri[358C11,D363,Car] 0
 x_WedFri[358C11,D363,Moped] 0
 x_WedFri[358C11,D363,EBikeCart] 0
-x_WedFri[358C11,D363,FootBike] 0
+x_WedFri[358C11,D363,FootBike] 1
 x_WedFri[358C11,D362,Car] 0
 x_WedFri[358C11,D362,Moped] 0
 x_WedFri[358C11,D362,EBikeCart] 0
@@ -97916,7 +97916,7 @@ x_WedFri[358C11,D360,FootBike] 0
 x_WedFri[358D03,D362,Car] 0
 x_WedFri[358D03,D362,Moped] 0
 x_WedFri[358D03,D362,EBikeCart] 0
-x_WedFri[358D03,D362,FootBike] 0
+x_WedFri[358D03,D362,FootBike] 1
 x_WedFri[358D03,D363,Car] 0
 x_WedFri[358D03,D363,Moped] 0
 x_WedFri[358D03,D363,EBikeCart] 0
@@ -97996,7 +97996,7 @@ x_WedFri[358D03,D365,FootBike] 0
 x_WedFri[358D04,D362,Car] 0
 x_WedFri[358D04,D362,Moped] 0
 x_WedFri[358D04,D362,EBikeCart] 0
-x_WedFri[358D04,D362,FootBike] 0
+x_WedFri[358D04,D362,FootBike] 1
 x_WedFri[358D04,D363,Car] 0
 x_WedFri[358D04,D363,Moped] 0
 x_WedFri[358D04,D363,EBikeCart] 0
@@ -98076,7 +98076,7 @@ x_WedFri[358D04,D293,FootBike] 0
 x_WedFri[358D07,D362,Car] 0
 x_WedFri[358D07,D362,Moped] 0
 x_WedFri[358D07,D362,EBikeCart] 0
-x_WedFri[358D07,D362,FootBike] 0
+x_WedFri[358D07,D362,FootBike] 1
 x_WedFri[358D07,D363,Car] 0
 x_WedFri[358D07,D363,Moped] 0
 x_WedFri[358D07,D363,EBikeCart] 0
@@ -98156,7 +98156,7 @@ x_WedFri[358D07,D326,FootBike] 0
 x_WedFri[358D08,D362,Car] 0
 x_WedFri[358D08,D362,Moped] 0
 x_WedFri[358D08,D362,EBikeCart] 0
-x_WedFri[358D08,D362,FootBike] 0
+x_WedFri[358D08,D362,FootBike] 1
 x_WedFri[358D08,D363,Car] 0
 x_WedFri[358D08,D363,Moped] 0
 x_WedFri[358D08,D363,EBikeCart] 0
@@ -98236,7 +98236,7 @@ x_WedFri[358D08,D326,FootBike] 0
 x_WedFri[358D11,D362,Car] 0
 x_WedFri[358D11,D362,Moped] 0
 x_WedFri[358D11,D362,EBikeCart] 0
-x_WedFri[358D11,D362,FootBike] 0
+x_WedFri[358D11,D362,FootBike] 1
 x_WedFri[358D11,D328,Car] 0
 x_WedFri[358D11,D328,Moped] 0
 x_WedFri[358D11,D328,EBikeCart] 0
@@ -98316,7 +98316,7 @@ x_WedFri[358D11,D394,FootBike] 0
 x_WedFri[358D12,D362,Car] 0
 x_WedFri[358D12,D362,Moped] 0
 x_WedFri[358D12,D362,EBikeCart] 0
-x_WedFri[358D12,D362,FootBike] 0
+x_WedFri[358D12,D362,FootBike] 1
 x_WedFri[358D12,D328,Car] 0
 x_WedFri[358D12,D328,Moped] 0
 x_WedFri[358D12,D328,EBikeCart] 0
@@ -98396,7 +98396,7 @@ x_WedFri[358D12,D431,FootBike] 0
 x_WedFri[358D15,D362,Car] 0
 x_WedFri[358D15,D362,Moped] 0
 x_WedFri[358D15,D362,EBikeCart] 0
-x_WedFri[358D15,D362,FootBike] 0
+x_WedFri[358D15,D362,FootBike] 1
 x_WedFri[358D15,D363,Car] 0
 x_WedFri[358D15,D363,Moped] 0
 x_WedFri[358D15,D363,EBikeCart] 0
@@ -98476,7 +98476,7 @@ x_WedFri[358D15,D296,FootBike] 0
 x_WedFri[358D16,D362,Car] 0
 x_WedFri[358D16,D362,Moped] 0
 x_WedFri[358D16,D362,EBikeCart] 0
-x_WedFri[358D16,D362,FootBike] 0
+x_WedFri[358D16,D362,FootBike] 1
 x_WedFri[358D16,D363,Car] 0
 x_WedFri[358D16,D363,Moped] 0
 x_WedFri[358D16,D363,EBikeCart] 0
@@ -98556,7 +98556,7 @@ x_WedFri[358D16,D326,FootBike] 0
 x_WedFri[358D19,D362,Car] 0
 x_WedFri[358D19,D362,Moped] 0
 x_WedFri[358D19,D362,EBikeCart] 0
-x_WedFri[358D19,D362,FootBike] 0
+x_WedFri[358D19,D362,FootBike] 1
 x_WedFri[358D19,D363,Car] 0
 x_WedFri[358D19,D363,Moped] 0
 x_WedFri[358D19,D363,EBikeCart] 0
@@ -98636,7 +98636,7 @@ x_WedFri[358D19,D326,FootBike] 0
 x_WedFri[358D20,D362,Car] 0
 x_WedFri[358D20,D362,Moped] 0
 x_WedFri[358D20,D362,EBikeCart] 0
-x_WedFri[358D20,D362,FootBike] 0
+x_WedFri[358D20,D362,FootBike] 1
 x_WedFri[358D20,D363,Car] 0
 x_WedFri[358D20,D363,Moped] 0
 x_WedFri[358D20,D363,EBikeCart] 0
@@ -98716,7 +98716,7 @@ x_WedFri[358D20,D429,FootBike] 0
 x_WedFri[358D23,D361,Car] 0
 x_WedFri[358D23,D361,Moped] 0
 x_WedFri[358D23,D361,EBikeCart] 0
-x_WedFri[358D23,D361,FootBike] 0
+x_WedFri[358D23,D361,FootBike] 1
 x_WedFri[358D23,D362,Car] 0
 x_WedFri[358D23,D362,Moped] 0
 x_WedFri[358D23,D362,EBikeCart] 0
@@ -98796,7 +98796,7 @@ x_WedFri[358D23,D393,FootBike] 0
 x_WedFri[358D24,D361,Car] 0
 x_WedFri[358D24,D361,Moped] 0
 x_WedFri[358D24,D361,EBikeCart] 0
-x_WedFri[358D24,D361,FootBike] 0
+x_WedFri[358D24,D361,FootBike] 1
 x_WedFri[358D24,D362,Car] 0
 x_WedFri[358D24,D362,Moped] 0
 x_WedFri[358D24,D362,EBikeCart] 0
@@ -98876,7 +98876,7 @@ x_WedFri[358D24,D393,FootBike] 0
 x_WedFri[358D27,D361,Car] 0
 x_WedFri[358D27,D361,Moped] 0
 x_WedFri[358D27,D361,EBikeCart] 0
-x_WedFri[358D27,D361,FootBike] 0
+x_WedFri[358D27,D361,FootBike] 1
 x_WedFri[358D27,D362,Car] 0
 x_WedFri[358D27,D362,Moped] 0
 x_WedFri[358D27,D362,EBikeCart] 0
@@ -98960,7 +98960,7 @@ x_WedFri[358D28,D395,FootBike] 0
 x_WedFri[358D28,D361,Car] 0
 x_WedFri[358D28,D361,Moped] 0
 x_WedFri[358D28,D361,EBikeCart] 0
-x_WedFri[358D28,D361,FootBike] 0
+x_WedFri[358D28,D361,FootBike] 1
 x_WedFri[358D28,D396,Car] 0
 x_WedFri[358D28,D396,Moped] 0
 x_WedFri[358D28,D396,EBikeCart] 0
@@ -99036,7 +99036,7 @@ x_WedFri[358D28,D464,FootBike] 0
 x_WedFri[358D31,D362,Car] 0
 x_WedFri[358D31,D362,Moped] 0
 x_WedFri[358D31,D362,EBikeCart] 0
-x_WedFri[358D31,D362,FootBike] 0
+x_WedFri[358D31,D362,FootBike] 1
 x_WedFri[358D31,D396,Car] 0
 x_WedFri[358D31,D396,Moped] 0
 x_WedFri[358D31,D396,EBikeCart] 0
@@ -99116,7 +99116,7 @@ x_WedFri[358D31,D326,FootBike] 0
 x_WedFri[358D32,D362,Car] 0
 x_WedFri[358D32,D362,Moped] 0
 x_WedFri[358D32,D362,EBikeCart] 0
-x_WedFri[358D32,D362,FootBike] 0
+x_WedFri[358D32,D362,FootBike] 1
 x_WedFri[358D32,D396,Car] 0
 x_WedFri[358D32,D396,Moped] 0
 x_WedFri[358D32,D396,EBikeCart] 0
@@ -99196,7 +99196,7 @@ x_WedFri[358D32,D432,FootBike] 0
 x_WedFri[358D35,D362,Car] 0
 x_WedFri[358D35,D362,Moped] 0
 x_WedFri[358D35,D362,EBikeCart] 0
-x_WedFri[358D35,D362,FootBike] 0
+x_WedFri[358D35,D362,FootBike] 1
 x_WedFri[358D35,D396,Car] 0
 x_WedFri[358D35,D396,Moped] 0
 x_WedFri[358D35,D396,EBikeCart] 0
@@ -99276,7 +99276,7 @@ x_WedFri[358D35,D295,FootBike] 0
 x_WedFri[358D36,D362,Car] 0
 x_WedFri[358D36,D362,Moped] 0
 x_WedFri[358D36,D362,EBikeCart] 0
-x_WedFri[358D36,D362,FootBike] 0
+x_WedFri[358D36,D362,FootBike] 1
 x_WedFri[358D36,D396,Car] 0
 x_WedFri[358D36,D396,Moped] 0
 x_WedFri[358D36,D396,EBikeCart] 0
@@ -99356,7 +99356,7 @@ x_WedFri[358D36,D295,FootBike] 0
 x_WedFri[358D39,D362,Car] 0
 x_WedFri[358D39,D362,Moped] 0
 x_WedFri[358D39,D362,EBikeCart] 0
-x_WedFri[358D39,D362,FootBike] 0
+x_WedFri[358D39,D362,FootBike] 1
 x_WedFri[358D39,D396,Car] 0
 x_WedFri[358D39,D396,Moped] 0
 x_WedFri[358D39,D396,EBikeCart] 0
@@ -99436,7 +99436,7 @@ x_WedFri[358D39,D432,FootBike] 0
 x_WedFri[358D40,D362,Car] 0
 x_WedFri[358D40,D362,Moped] 0
 x_WedFri[358D40,D362,EBikeCart] 0
-x_WedFri[358D40,D362,FootBike] 0
+x_WedFri[358D40,D362,FootBike] 1
 x_WedFri[358D40,D396,Car] 0
 x_WedFri[358D40,D396,Moped] 0
 x_WedFri[358D40,D396,EBikeCart] 0
@@ -99516,7 +99516,7 @@ x_WedFri[358D40,D326,FootBike] 0
 x_WedFri[358D43,D363,Car] 0
 x_WedFri[358D43,D363,Moped] 0
 x_WedFri[358D43,D363,EBikeCart] 0
-x_WedFri[358D43,D363,FootBike] 0
+x_WedFri[358D43,D363,FootBike] 1
 x_WedFri[358D43,D362,Car] 0
 x_WedFri[358D43,D362,Moped] 0
 x_WedFri[358D43,D362,EBikeCart] 0
@@ -99596,7 +99596,7 @@ x_WedFri[358D43,D360,FootBike] 0
 x_WedFri[358D44,D362,Car] 0
 x_WedFri[358D44,D362,Moped] 0
 x_WedFri[358D44,D362,EBikeCart] 0
-x_WedFri[358D44,D362,FootBike] 0
+x_WedFri[358D44,D362,FootBike] 1
 x_WedFri[358D44,D363,Car] 0
 x_WedFri[358D44,D363,Moped] 0
 x_WedFri[358D44,D363,EBikeCart] 0
@@ -99676,7 +99676,7 @@ x_WedFri[358D44,D365,FootBike] 0
 x_WedFri[358D47,D362,Car] 0
 x_WedFri[358D47,D362,Moped] 0
 x_WedFri[358D47,D362,EBikeCart] 0
-x_WedFri[358D47,D362,FootBike] 0
+x_WedFri[358D47,D362,FootBike] 1
 x_WedFri[358D47,D363,Car] 0
 x_WedFri[358D47,D363,Moped] 0
 x_WedFri[358D47,D363,EBikeCart] 0
@@ -99760,7 +99760,7 @@ x_WedFri[358D48,D396,FootBike] 0
 x_WedFri[358D48,D362,Car] 0
 x_WedFri[358D48,D362,Moped] 0
 x_WedFri[358D48,D362,EBikeCart] 0
-x_WedFri[358D48,D362,FootBike] 0
+x_WedFri[358D48,D362,FootBike] 1
 x_WedFri[358D48,D397,Car] 0
 x_WedFri[358D48,D397,Moped] 0
 x_WedFri[358D48,D397,EBikeCart] 0
@@ -99840,7 +99840,7 @@ x_WedFri[358D51,D396,FootBike] 0
 x_WedFri[358D51,D362,Car] 0
 x_WedFri[358D51,D362,Moped] 0
 x_WedFri[358D51,D362,EBikeCart] 0
-x_WedFri[358D51,D362,FootBike] 0
+x_WedFri[358D51,D362,FootBike] 1
 x_WedFri[358D51,D397,Car] 0
 x_WedFri[358D51,D397,Moped] 0
 x_WedFri[358D51,D397,EBikeCart] 0
@@ -99920,7 +99920,7 @@ x_WedFri[358D52,D396,FootBike] 0
 x_WedFri[358D52,D362,Car] 0
 x_WedFri[358D52,D362,Moped] 0
 x_WedFri[358D52,D362,EBikeCart] 0
-x_WedFri[358D52,D362,FootBike] 0
+x_WedFri[358D52,D362,FootBike] 1
 x_WedFri[358D52,D397,Car] 0
 x_WedFri[358D52,D397,Moped] 0
 x_WedFri[358D52,D397,EBikeCart] 0
@@ -100000,7 +100000,7 @@ x_WedFri[358D55,D396,FootBike] 0
 x_WedFri[358D55,D362,Car] 0
 x_WedFri[358D55,D362,Moped] 0
 x_WedFri[358D55,D362,EBikeCart] 0
-x_WedFri[358D55,D362,FootBike] 0
+x_WedFri[358D55,D362,FootBike] 1
 x_WedFri[358D55,D397,Car] 0
 x_WedFri[358D55,D397,Moped] 0
 x_WedFri[358D55,D397,EBikeCart] 0
@@ -100080,7 +100080,7 @@ x_WedFri[358D56,D396,FootBike] 0
 x_WedFri[358D56,D362,Car] 0
 x_WedFri[358D56,D362,Moped] 0
 x_WedFri[358D56,D362,EBikeCart] 0
-x_WedFri[358D56,D362,FootBike] 0
+x_WedFri[358D56,D362,FootBike] 1
 x_WedFri[358D56,D397,Car] 0
 x_WedFri[358D56,D397,Moped] 0
 x_WedFri[358D56,D397,EBikeCart] 0
@@ -100174,7 +100174,7 @@ x_WedFri[35A032,D330,Moped] 0
 x_WedFri[35A032,D330,EBikeCart] 0
 x_WedFri[35A032,D330,FootBike] 0
 x_WedFri[35A032,D329,Car] 0
-x_WedFri[35A032,D329,Moped] 0
+x_WedFri[35A032,D329,Moped] 1
 x_WedFri[35A032,D329,EBikeCart] 0
 x_WedFri[35A032,D329,FootBike] 0
 x_WedFri[35A032,D297,Car] 0
@@ -100242,7 +100242,7 @@ x_WedFri[35A043,D395,Moped] 0
 x_WedFri[35A043,D395,EBikeCart] 0
 x_WedFri[35A043,D395,FootBike] 0
 x_WedFri[35A043,D362,Car] 0
-x_WedFri[35A043,D362,Moped] 0
+x_WedFri[35A043,D362,Moped] 1
 x_WedFri[35A043,D362,EBikeCart] 0
 x_WedFri[35A043,D362,FootBike] 0
 x_WedFri[35A043,D430,Car] 0
@@ -100354,7 +100354,7 @@ x_WedFri[35B142,D161,Moped] 0
 x_WedFri[35B142,D161,EBikeCart] 0
 x_WedFri[35B142,D161,FootBike] 0
 x_WedFri[35B142,D260,Car] 0
-x_WedFri[35B142,D260,Moped] 0
+x_WedFri[35B142,D260,Moped] 1
 x_WedFri[35B142,D260,EBikeCart] 0
 x_WedFri[35B142,D260,FootBike] 0
 x_WedFri[35B142,D258,Car] 0
@@ -100406,7 +100406,7 @@ x_WedFri[35B192,D227,Moped] 0
 x_WedFri[35B192,D227,EBikeCart] 0
 x_WedFri[35B192,D227,FootBike] 0
 x_WedFri[35B192,D228,Car] 0
-x_WedFri[35B192,D228,Moped] 0
+x_WedFri[35B192,D228,Moped] 1
 x_WedFri[35B192,D228,EBikeCart] 0
 x_WedFri[35B192,D228,FootBike] 0
 x_WedFri[35B192,D163,Car] 0
@@ -100476,7 +100476,7 @@ x_WedFri[35B192,D262,FootBike] 0
 x_WedFri[35B202,D260,Car] 0
 x_WedFri[35B202,D260,Moped] 0
 x_WedFri[35B202,D260,EBikeCart] 0
-x_WedFri[35B202,D260,FootBike] 0
+x_WedFri[35B202,D260,FootBike] 1
 x_WedFri[35B202,D259,Car] 0
 x_WedFri[35B202,D259,Moped] 0
 x_WedFri[35B202,D259,EBikeCart] 0
@@ -100566,7 +100566,7 @@ x_WedFri[35B212,D259,Moped] 0
 x_WedFri[35B212,D259,EBikeCart] 0
 x_WedFri[35B212,D259,FootBike] 0
 x_WedFri[35B212,D260,Car] 0
-x_WedFri[35B212,D260,Moped] 0
+x_WedFri[35B212,D260,Moped] 1
 x_WedFri[35B212,D260,EBikeCart] 0
 x_WedFri[35B212,D260,FootBike] 0
 x_WedFri[35B212,D326,Car] 0
@@ -100636,7 +100636,7 @@ x_WedFri[35B212,D257,FootBike] 0
 x_WedFri[35C021,D260,Car] 0
 x_WedFri[35C021,D260,Moped] 0
 x_WedFri[35C021,D260,EBikeCart] 0
-x_WedFri[35C021,D260,FootBike] 0
+x_WedFri[35C021,D260,FootBike] 1
 x_WedFri[35C021,D293,Car] 0
 x_WedFri[35C021,D293,Moped] 0
 x_WedFri[35C021,D293,EBikeCart] 0
@@ -100716,7 +100716,7 @@ x_WedFri[35C021,D229,FootBike] 0
 x_WedFri[360F06,D258,Car] 0
 x_WedFri[360F06,D258,Moped] 0
 x_WedFri[360F06,D258,EBikeCart] 0
-x_WedFri[360F06,D258,FootBike] 0
+x_WedFri[360F06,D258,FootBike] 1
 x_WedFri[360F06,D259,Car] 0
 x_WedFri[360F06,D259,Moped] 0
 x_WedFri[360F06,D259,EBikeCart] 0
@@ -100796,7 +100796,7 @@ x_WedFri[360F06,D192,FootBike] 0
 x_WedFri[360F08,D258,Car] 0
 x_WedFri[360F08,D258,Moped] 0
 x_WedFri[360F08,D258,EBikeCart] 0
-x_WedFri[360F08,D258,FootBike] 0
+x_WedFri[360F08,D258,FootBike] 1
 x_WedFri[360F08,D225,Car] 0
 x_WedFri[360F08,D225,Moped] 0
 x_WedFri[360F08,D225,EBikeCart] 0
@@ -100880,7 +100880,7 @@ x_WedFri[360F09,D259,FootBike] 0
 x_WedFri[360F09,D258,Car] 0
 x_WedFri[360F09,D258,Moped] 0
 x_WedFri[360F09,D258,EBikeCart] 0
-x_WedFri[360F09,D258,FootBike] 0
+x_WedFri[360F09,D258,FootBike] 1
 x_WedFri[360F09,D292,Car] 0
 x_WedFri[360F09,D292,Moped] 0
 x_WedFri[360F09,D292,EBikeCart] 0
@@ -100956,7 +100956,7 @@ x_WedFri[360F09,D256,FootBike] 0
 x_WedFri[360F10,D258,Car] 0
 x_WedFri[360F10,D258,Moped] 0
 x_WedFri[360F10,D258,EBikeCart] 0
-x_WedFri[360F10,D258,FootBike] 0
+x_WedFri[360F10,D258,FootBike] 1
 x_WedFri[360F10,D259,Car] 0
 x_WedFri[360F10,D259,Moped] 0
 x_WedFri[360F10,D259,EBikeCart] 0
@@ -101036,7 +101036,7 @@ x_WedFri[360F10,D289,FootBike] 0
 x_WedFri[360F11,D258,Car] 0
 x_WedFri[360F11,D258,Moped] 0
 x_WedFri[360F11,D258,EBikeCart] 0
-x_WedFri[360F11,D258,FootBike] 0
+x_WedFri[360F11,D258,FootBike] 1
 x_WedFri[360F11,D259,Car] 0
 x_WedFri[360F11,D259,Moped] 0
 x_WedFri[360F11,D259,EBikeCart] 0
@@ -101116,7 +101116,7 @@ x_WedFri[360F11,D289,FootBike] 0
 x_WedFri[360F13,D258,Car] 0
 x_WedFri[360F13,D258,Moped] 0
 x_WedFri[360F13,D258,EBikeCart] 0
-x_WedFri[360F13,D258,FootBike] 0
+x_WedFri[360F13,D258,FootBike] 1
 x_WedFri[360F13,D259,Car] 0
 x_WedFri[360F13,D259,Moped] 0
 x_WedFri[360F13,D259,EBikeCart] 0
@@ -101208,7 +101208,7 @@ x_WedFri[360F14,D291,FootBike] 0
 x_WedFri[360F14,D258,Car] 0
 x_WedFri[360F14,D258,Moped] 0
 x_WedFri[360F14,D258,EBikeCart] 0
-x_WedFri[360F14,D258,FootBike] 0
+x_WedFri[360F14,D258,FootBike] 1
 x_WedFri[360F14,D293,Car] 0
 x_WedFri[360F14,D293,Moped] 0
 x_WedFri[360F14,D293,EBikeCart] 0
@@ -101280,7 +101280,7 @@ x_WedFri[360F16,D259,FootBike] 0
 x_WedFri[360F16,D258,Car] 0
 x_WedFri[360F16,D258,Moped] 0
 x_WedFri[360F16,D258,EBikeCart] 0
-x_WedFri[360F16,D258,FootBike] 0
+x_WedFri[360F16,D258,FootBike] 1
 x_WedFri[360F16,D292,Car] 0
 x_WedFri[360F16,D292,Moped] 0
 x_WedFri[360F16,D292,EBikeCart] 0
@@ -101366,7 +101366,7 @@ x_WedFri[36A022,D291,Moped] 0
 x_WedFri[36A022,D291,EBikeCart] 0
 x_WedFri[36A022,D291,FootBike] 0
 x_WedFri[36A022,D258,Car] 0
-x_WedFri[36A022,D258,Moped] 0
+x_WedFri[36A022,D258,Moped] 1
 x_WedFri[36A022,D258,EBikeCart] 0
 x_WedFri[36A022,D258,FootBike] 0
 x_WedFri[36A022,D289,Car] 0
@@ -101446,7 +101446,7 @@ x_WedFri[36A052,D225,Moped] 0
 x_WedFri[36A052,D225,EBikeCart] 0
 x_WedFri[36A052,D225,FootBike] 0
 x_WedFri[36A052,D258,Car] 0
-x_WedFri[36A052,D258,Moped] 0
+x_WedFri[36A052,D258,Moped] 1
 x_WedFri[36A052,D258,EBikeCart] 0
 x_WedFri[36A052,D258,FootBike] 0
 x_WedFri[36A052,D223,Car] 0
@@ -101524,7 +101524,7 @@ x_WedFri[372F18,D462,FootBike] 0
 x_WedFri[372F18,D429,Car] 0
 x_WedFri[372F18,D429,Moped] 0
 x_WedFri[372F18,D429,EBikeCart] 0
-x_WedFri[372F18,D429,FootBike] 0
+x_WedFri[372F18,D429,FootBike] 1
 x_WedFri[372F18,D463,Car] 0
 x_WedFri[372F18,D463,Moped] 0
 x_WedFri[372F18,D463,EBikeCart] 0
@@ -101600,7 +101600,7 @@ x_WedFri[373F01,D428,FootBike] 0
 x_WedFri[373F01,D429,Car] 0
 x_WedFri[373F01,D429,Moped] 0
 x_WedFri[373F01,D429,EBikeCart] 0
-x_WedFri[373F01,D429,FootBike] 0
+x_WedFri[373F01,D429,FootBike] 1
 x_WedFri[373F01,D462,Car] 0
 x_WedFri[373F01,D462,Moped] 0
 x_WedFri[373F01,D462,EBikeCart] 0
@@ -101676,7 +101676,7 @@ x_WedFri[373F01,D460,FootBike] 0
 x_WedFri[373F02,D429,Car] 0
 x_WedFri[373F02,D429,Moped] 0
 x_WedFri[373F02,D429,EBikeCart] 0
-x_WedFri[373F02,D429,FootBike] 0
+x_WedFri[373F02,D429,FootBike] 1
 x_WedFri[373F02,D428,Car] 0
 x_WedFri[373F02,D428,Moped] 0
 x_WedFri[373F02,D428,EBikeCart] 0
@@ -101756,7 +101756,7 @@ x_WedFri[373F02,D426,FootBike] 0
 x_WedFri[373F07,D429,Car] 0
 x_WedFri[373F07,D429,Moped] 0
 x_WedFri[373F07,D429,EBikeCart] 0
-x_WedFri[373F07,D429,FootBike] 0
+x_WedFri[373F07,D429,FootBike] 1
 x_WedFri[373F07,D395,Car] 0
 x_WedFri[373F07,D395,Moped] 0
 x_WedFri[373F07,D395,EBikeCart] 0
@@ -101836,7 +101836,7 @@ x_WedFri[373F07,D461,FootBike] 0
 x_WedFri[373F08,D429,Car] 0
 x_WedFri[373F08,D429,Moped] 0
 x_WedFri[373F08,D429,EBikeCart] 0
-x_WedFri[373F08,D429,FootBike] 0
+x_WedFri[373F08,D429,FootBike] 1
 x_WedFri[373F08,D395,Car] 0
 x_WedFri[373F08,D395,Moped] 0
 x_WedFri[373F08,D395,EBikeCart] 0
@@ -101916,7 +101916,7 @@ x_WedFri[373F08,D461,FootBike] 0
 x_WedFri[373F09,D429,Car] 0
 x_WedFri[373F09,D429,Moped] 0
 x_WedFri[373F09,D429,EBikeCart] 0
-x_WedFri[373F09,D429,FootBike] 0
+x_WedFri[373F09,D429,FootBike] 1
 x_WedFri[373F09,D428,Car] 0
 x_WedFri[373F09,D428,Moped] 0
 x_WedFri[373F09,D428,EBikeCart] 0
@@ -102096,7 +102096,7 @@ x_WedFri[373F99,D393,FootBike] 0
 x_WedFri[373F99,D361,Car] 0
 x_WedFri[373F99,D361,Moped] 0
 x_WedFri[373F99,D361,EBikeCart] 0
-x_WedFri[373F99,D361,FootBike] 0
+x_WedFri[373F99,D361,FootBike] 1
 x_WedFri[373F99,D429,Car] 0
 x_WedFri[373F99,D429,Moped] 0
 x_WedFri[373F99,D429,EBikeCart] 0
@@ -102156,7 +102156,7 @@ x_WedFri[373F99,D358,FootBike] 0
 x_WedFri[373J09,D429,Car] 0
 x_WedFri[373J09,D429,Moped] 0
 x_WedFri[373J09,D429,EBikeCart] 0
-x_WedFri[373J09,D429,FootBike] 0
+x_WedFri[373J09,D429,FootBike] 1
 x_WedFri[373J09,D428,Car] 0
 x_WedFri[373J09,D428,Moped] 0
 x_WedFri[373J09,D428,EBikeCart] 0
@@ -102319,12 +102319,12 @@ r_TueThur[345D41,EBikeCart] 0
 r_TueThur[345D41,FootBike] 1
 r_TueThur[345D42,Car] 0
 r_TueThur[345D42,Moped] 0
-r_TueThur[345D42,EBikeCart] 1
-r_TueThur[345D42,FootBike] 0
+r_TueThur[345D42,EBikeCart] 0
+r_TueThur[345D42,FootBike] 1
 r_TueThur[345D45,Car] 0
 r_TueThur[345D45,Moped] 0
-r_TueThur[345D45,EBikeCart] 1
-r_TueThur[345D45,FootBike] 0
+r_TueThur[345D45,EBikeCart] 0
+r_TueThur[345D45,FootBike] 1
 r_TueThur[345D46,Car] 0
 r_TueThur[345D46,Moped] 0
 r_TueThur[345D46,EBikeCart] 0
@@ -102339,8 +102339,8 @@ r_TueThur[345D50,EBikeCart] 0
 r_TueThur[345D50,FootBike] 1
 r_TueThur[345D53,Car] 0
 r_TueThur[345D53,Moped] 0
-r_TueThur[345D53,EBikeCart] 1
-r_TueThur[345D53,FootBike] 0
+r_TueThur[345D53,EBikeCart] 0
+r_TueThur[345D53,FootBike] 1
 r_TueThur[345D54,Car] 0
 r_TueThur[345D54,Moped] 0
 r_TueThur[345D54,EBikeCart] 0
@@ -102627,8 +102627,8 @@ r_TueThur[353F33,EBikeCart] 0
 r_TueThur[353F33,FootBike] 1
 r_TueThur[354F05,Car] 0
 r_TueThur[354F05,Moped] 0
-r_TueThur[354F05,EBikeCart] 1
-r_TueThur[354F05,FootBike] 0
+r_TueThur[354F05,EBikeCart] 0
+r_TueThur[354F05,FootBike] 1
 r_TueThur[354F19,Car] 0
 r_TueThur[354F19,Moped] 0
 r_TueThur[354F19,EBikeCart] 0
@@ -102647,12 +102647,12 @@ r_TueThur[354F25,EBikeCart] 0
 r_TueThur[354F25,FootBike] 1
 r_TueThur[354F27,Car] 0
 r_TueThur[354F27,Moped] 0
-r_TueThur[354F27,EBikeCart] 1
-r_TueThur[354F27,FootBike] 0
+r_TueThur[354F27,EBikeCart] 0
+r_TueThur[354F27,FootBike] 1
 r_TueThur[354F29,Car] 0
 r_TueThur[354F29,Moped] 0
-r_TueThur[354F29,EBikeCart] 1
-r_TueThur[354F29,FootBike] 0
+r_TueThur[354F29,EBikeCart] 0
+r_TueThur[354F29,FootBike] 1
 r_TueThur[354F47,Car] 0
 r_TueThur[354F47,Moped] 0
 r_TueThur[354F47,EBikeCart] 0
@@ -102678,9 +102678,9 @@ r_TueThur[354F52,Moped] 0
 r_TueThur[354F52,EBikeCart] 0
 r_TueThur[354F52,FootBike] 1
 r_TueThur[354F53,Car] 0
-r_TueThur[354F53,Moped] 0
+r_TueThur[354F53,Moped] 1
 r_TueThur[354F53,EBikeCart] 0
-r_TueThur[354F53,FootBike] 1
+r_TueThur[354F53,FootBike] 0
 r_TueThur[354F54,Car] 0
 r_TueThur[354F54,Moped] 0
 r_TueThur[354F54,EBikeCart] 0
@@ -102862,13 +102862,13 @@ r_TueThur[356D70,Moped] 0
 r_TueThur[356D70,EBikeCart] 0
 r_TueThur[356D70,FootBike] 1
 r_TueThur[356D73,Car] 0
-r_TueThur[356D73,Moped] 0
+r_TueThur[356D73,Moped] 1
 r_TueThur[356D73,EBikeCart] 0
-r_TueThur[356D73,FootBike] 1
+r_TueThur[356D73,FootBike] 0
 r_TueThur[356D74,Car] 0
 r_TueThur[356D74,Moped] 0
-r_TueThur[356D74,EBikeCart] 0
-r_TueThur[356D74,FootBike] 1
+r_TueThur[356D74,EBikeCart] 1
+r_TueThur[356D74,FootBike] 0
 r_TueThur[357F04,Car] 0
 r_TueThur[357F04,Moped] 0
 r_TueThur[357F04,EBikeCart] 0
@@ -103007,8 +103007,8 @@ r_TueThur[358D53,EBikeCart] 0
 r_TueThur[358D53,FootBike] 1
 r_TueThur[358D54,Car] 0
 r_TueThur[358D54,Moped] 0
-r_TueThur[358D54,EBikeCart] 0
-r_TueThur[358D54,FootBike] 1
+r_TueThur[358D54,EBikeCart] 1
+r_TueThur[358D54,FootBike] 0
 r_TueThur[35A042,Car] 0
 r_TueThur[35A042,Moped] 1
 r_TueThur[35A042,EBikeCart] 0
@@ -103022,8 +103022,8 @@ r_TueThur[35B201,Moped] 1
 r_TueThur[35B201,EBikeCart] 0
 r_TueThur[35B201,FootBike] 0
 r_TueThur[35B211,Car] 0
-r_TueThur[35B211,Moped] 1
-r_TueThur[35B211,EBikeCart] 0
+r_TueThur[35B211,Moped] 0
+r_TueThur[35B211,EBikeCart] 1
 r_TueThur[35B211,FootBike] 0
 r_TueThur[35B551,Car] 0
 r_TueThur[35B551,Moped] 1
@@ -103074,9 +103074,9 @@ r_TueThur[372J11,Moped] 0
 r_TueThur[372J11,EBikeCart] 0
 r_TueThur[372J11,FootBike] 1
 r_TueThur[373F03,Car] 0
-r_TueThur[373F03,Moped] 0
+r_TueThur[373F03,Moped] 1
 r_TueThur[373F03,EBikeCart] 0
-r_TueThur[373F03,FootBike] 1
+r_TueThur[373F03,FootBike] 0
 r_TueThur[373F04,Car] 0
 r_TueThur[373F04,Moped] 0
 r_TueThur[373F04,EBikeCart] 0
@@ -103106,8 +103106,8 @@ r_TueThur[373F14,Moped] 0
 r_TueThur[373F14,EBikeCart] 0
 r_TueThur[373F14,FootBike] 1
 r_TueThur[373F98,Car] 0
-r_TueThur[373F98,Moped] 1
-r_TueThur[373F98,EBikeCart] 0
+r_TueThur[373F98,Moped] 0
+r_TueThur[373F98,EBikeCart] 1
 r_TueThur[373F98,FootBike] 0
 r_TueThur[373J12,Car] 0
 r_TueThur[373J12,Moped] 0
@@ -103119,8 +103119,8 @@ r_WedFri[345C01,EBikeCart] 0
 r_WedFri[345C01,FootBike] 0
 r_WedFri[345C03,Car] 0
 r_WedFri[345C03,Moped] 0
-r_WedFri[345C03,EBikeCart] 1
-r_WedFri[345C03,FootBike] 0
+r_WedFri[345C03,EBikeCart] 0
+r_WedFri[345C03,FootBike] 1
 r_WedFri[345C05,Car] 0
 r_WedFri[345C05,Moped] 0
 r_WedFri[345C05,EBikeCart] 0
@@ -103443,8 +103443,8 @@ r_WedFri[352D36,EBikeCart] 0
 r_WedFri[352D36,FootBike] 1
 r_WedFri[352D39,Car] 0
 r_WedFri[352D39,Moped] 0
-r_WedFri[352D39,EBikeCart] 0
-r_WedFri[352D39,FootBike] 1
+r_WedFri[352D39,EBikeCart] 1
+r_WedFri[352D39,FootBike] 0
 r_WedFri[352D40,Car] 0
 r_WedFri[352D40,Moped] 0
 r_WedFri[352D40,EBikeCart] 0
@@ -103646,8 +103646,8 @@ r_WedFri[356B02,Moped] 0
 r_WedFri[356B02,EBikeCart] 1
 r_WedFri[356B02,FootBike] 0
 r_WedFri[356C01,Car] 0
-r_WedFri[356C01,Moped] 0
-r_WedFri[356C01,EBikeCart] 1
+r_WedFri[356C01,Moped] 1
+r_WedFri[356C01,EBikeCart] 0
 r_WedFri[356C01,FootBike] 0
 r_WedFri[356C03,Car] 0
 r_WedFri[356C03,Moped] 0
@@ -103831,8 +103831,8 @@ r_WedFri[357J03,EBikeCart] 0
 r_WedFri[357J03,FootBike] 1
 r_WedFri[358C03,Car] 0
 r_WedFri[358C03,Moped] 0
-r_WedFri[358C03,EBikeCart] 1
-r_WedFri[358C03,FootBike] 0
+r_WedFri[358C03,EBikeCart] 0
+r_WedFri[358C03,FootBike] 1
 r_WedFri[358C05,Car] 0
 r_WedFri[358C05,Moped] 0
 r_WedFri[358C05,EBikeCart] 1
@@ -103958,8 +103958,8 @@ r_WedFri[35A032,Moped] 1
 r_WedFri[35A032,EBikeCart] 0
 r_WedFri[35A032,FootBike] 0
 r_WedFri[35A043,Car] 0
-r_WedFri[35A043,Moped] 0
-r_WedFri[35A043,EBikeCart] 1
+r_WedFri[35A043,Moped] 1
+r_WedFri[35A043,EBikeCart] 0
 r_WedFri[35A043,FootBike] 0
 r_WedFri[35B142,Car] 0
 r_WedFri[35B142,Moped] 1
@@ -103978,9 +103978,9 @@ r_WedFri[35B212,Moped] 1
 r_WedFri[35B212,EBikeCart] 0
 r_WedFri[35B212,FootBike] 0
 r_WedFri[35C021,Car] 0
-r_WedFri[35C021,Moped] 1
+r_WedFri[35C021,Moped] 0
 r_WedFri[35C021,EBikeCart] 0
-r_WedFri[35C021,FootBike] 0
+r_WedFri[35C021,FootBike] 1
 r_WedFri[360F06,Car] 0
 r_WedFri[360F06,Moped] 0
 r_WedFri[360F06,EBikeCart] 0
@@ -104057,12 +104057,12 @@ r_WedFri[373J09,Car] 0
 r_WedFri[373J09,Moped] 0
 r_WedFri[373J09,EBikeCart] 0
 r_WedFri[373J09,FootBike] 1
-z_TueThur[345D01,D228] 0
+z_TueThur[345D01,D228] 1
 z_TueThur[345D01,D229] 0
 z_TueThur[345D01,D261] 0
 z_TueThur[345D01,D262] 0
 z_TueThur[345D01,D196] 0
-z_TueThur[345D01,D227] 1
+z_TueThur[345D01,D227] 0
 z_TueThur[345D01,D197] 0
 z_TueThur[345D01,D260] 0
 z_TueThur[345D01,D195] 0
@@ -104077,11 +104077,11 @@ z_TueThur[345D01,D226] 0
 z_TueThur[345D01,D165] 0
 z_TueThur[345D01,D259] 0
 z_TueThur[345D01,D163] 0
-z_TueThur[345D02,D228] 0
+z_TueThur[345D02,D228] 1
 z_TueThur[345D02,D261] 0
 z_TueThur[345D02,D229] 0
 z_TueThur[345D02,D262] 0
-z_TueThur[345D02,D227] 1
+z_TueThur[345D02,D227] 0
 z_TueThur[345D02,D196] 0
 z_TueThur[345D02,D260] 0
 z_TueThur[345D02,D197] 0
@@ -104097,11 +104097,11 @@ z_TueThur[345D02,D226] 0
 z_TueThur[345D02,D259] 0
 z_TueThur[345D02,D164] 0
 z_TueThur[345D02,D165] 0
-z_TueThur[345D05,D228] 0
+z_TueThur[345D05,D228] 1
 z_TueThur[345D05,D229] 0
 z_TueThur[345D05,D196] 0
 z_TueThur[345D05,D261] 0
-z_TueThur[345D05,D227] 1
+z_TueThur[345D05,D227] 0
 z_TueThur[345D05,D197] 0
 z_TueThur[345D05,D262] 0
 z_TueThur[345D05,D195] 0
@@ -104117,11 +104117,11 @@ z_TueThur[345D05,D295] 0
 z_TueThur[345D05,D163] 0
 z_TueThur[345D05,D194] 0
 z_TueThur[345D05,D293] 0
-z_TueThur[345D06,D228] 0
+z_TueThur[345D06,D228] 1
 z_TueThur[345D06,D229] 0
 z_TueThur[345D06,D261] 0
 z_TueThur[345D06,D196] 0
-z_TueThur[345D06,D227] 1
+z_TueThur[345D06,D227] 0
 z_TueThur[345D06,D262] 0
 z_TueThur[345D06,D197] 0
 z_TueThur[345D06,D260] 0
@@ -104138,7 +104138,7 @@ z_TueThur[345D06,D293] 0
 z_TueThur[345D06,D163] 0
 z_TueThur[345D06,D259] 0
 z_TueThur[345D09,D261] 0
-z_TueThur[345D09,D228] 0
+z_TueThur[345D09,D228] 1
 z_TueThur[345D09,D262] 0
 z_TueThur[345D09,D260] 0
 z_TueThur[345D09,D294] 0
@@ -104153,16 +104153,16 @@ z_TueThur[345D09,D259] 0
 z_TueThur[345D09,D195] 0
 z_TueThur[345D09,D230] 0
 z_TueThur[345D09,D226] 0
-z_TueThur[345D09,D328] 1
+z_TueThur[345D09,D328] 0
 z_TueThur[345D09,D296] 0
 z_TueThur[345D09,D292] 0
 z_TueThur[345D09,D329] 0
 z_TueThur[345D10,D261] 0
-z_TueThur[345D10,D228] 0
+z_TueThur[345D10,D228] 1
 z_TueThur[345D10,D262] 0
 z_TueThur[345D10,D229] 0
 z_TueThur[345D10,D260] 0
-z_TueThur[345D10,D227] 1
+z_TueThur[345D10,D227] 0
 z_TueThur[345D10,D294] 0
 z_TueThur[345D10,D196] 0
 z_TueThur[345D10,D295] 0
@@ -104180,14 +104180,14 @@ z_TueThur[345D10,D164] 0
 z_TueThur[345D13,D262] 0
 z_TueThur[345D13,D261] 0
 z_TueThur[345D13,D229] 0
-z_TueThur[345D13,D228] 0
+z_TueThur[345D13,D228] 1
 z_TueThur[345D13,D295] 0
 z_TueThur[345D13,D263] 0
 z_TueThur[345D13,D294] 0
 z_TueThur[345D13,D230] 0
 z_TueThur[345D13,D260] 0
 z_TueThur[345D13,D197] 0
-z_TueThur[345D13,D227] 1
+z_TueThur[345D13,D227] 0
 z_TueThur[345D13,D196] 0
 z_TueThur[345D13,D296] 0
 z_TueThur[345D13,D293] 0
@@ -104199,7 +104199,7 @@ z_TueThur[345D13,D264] 0
 z_TueThur[345D13,D231] 0
 z_TueThur[345D14,D261] 0
 z_TueThur[345D14,D262] 0
-z_TueThur[345D14,D228] 0
+z_TueThur[345D14,D228] 1
 z_TueThur[345D14,D229] 0
 z_TueThur[345D14,D294] 0
 z_TueThur[345D14,D295] 0
@@ -104213,19 +104213,19 @@ z_TueThur[345D14,D293] 0
 z_TueThur[345D14,D296] 0
 z_TueThur[345D14,D195] 0
 z_TueThur[345D14,D198] 0
-z_TueThur[345D14,D328] 1
+z_TueThur[345D14,D328] 0
 z_TueThur[345D14,D329] 0
 z_TueThur[345D14,D259] 0
 z_TueThur[345D14,D226] 0
 z_TueThur[345D17,D261] 0
 z_TueThur[345D17,D262] 0
-z_TueThur[345D17,D228] 0
+z_TueThur[345D17,D228] 1
 z_TueThur[345D17,D229] 0
 z_TueThur[345D17,D294] 0
 z_TueThur[345D17,D295] 0
 z_TueThur[345D17,D260] 0
 z_TueThur[345D17,D263] 0
-z_TueThur[345D17,D227] 1
+z_TueThur[345D17,D227] 0
 z_TueThur[345D17,D230] 0
 z_TueThur[345D17,D293] 0
 z_TueThur[345D17,D196] 0
@@ -104240,7 +104240,7 @@ z_TueThur[345D17,D264] 0
 z_TueThur[345D18,D262] 0
 z_TueThur[345D18,D261] 0
 z_TueThur[345D18,D229] 0
-z_TueThur[345D18,D228] 0
+z_TueThur[345D18,D228] 1
 z_TueThur[345D18,D295] 0
 z_TueThur[345D18,D294] 0
 z_TueThur[345D18,D263] 0
@@ -104253,12 +104253,12 @@ z_TueThur[345D18,D196] 0
 z_TueThur[345D18,D293] 0
 z_TueThur[345D18,D329] 0
 z_TueThur[345D18,D198] 0
-z_TueThur[345D18,D328] 1
+z_TueThur[345D18,D328] 0
 z_TueThur[345D18,D195] 0
 z_TueThur[345D18,D264] 0
 z_TueThur[345D18,D231] 0
 z_TueThur[345D21,D261] 0
-z_TueThur[345D21,D228] 0
+z_TueThur[345D21,D228] 1
 z_TueThur[345D21,D262] 0
 z_TueThur[345D21,D229] 0
 z_TueThur[345D21,D260] 0
@@ -104274,12 +104274,12 @@ z_TueThur[345D21,D195] 0
 z_TueThur[345D21,D259] 0
 z_TueThur[345D21,D226] 0
 z_TueThur[345D21,D296] 0
-z_TueThur[345D21,D328] 1
+z_TueThur[345D21,D328] 0
 z_TueThur[345D21,D329] 0
 z_TueThur[345D21,D292] 0
 z_TueThur[345D22,D261] 0
 z_TueThur[345D22,D262] 0
-z_TueThur[345D22,D228] 0
+z_TueThur[345D22,D228] 1
 z_TueThur[345D22,D294] 0
 z_TueThur[345D22,D260] 0
 z_TueThur[345D22,D229] 0
@@ -104290,7 +104290,7 @@ z_TueThur[345D22,D263] 0
 z_TueThur[345D22,D196] 0
 z_TueThur[345D22,D230] 0
 z_TueThur[345D22,D197] 0
-z_TueThur[345D22,D328] 1
+z_TueThur[345D22,D328] 0
 z_TueThur[345D22,D296] 0
 z_TueThur[345D22,D259] 0
 z_TueThur[345D22,D195] 0
@@ -104298,7 +104298,7 @@ z_TueThur[345D22,D329] 0
 z_TueThur[345D22,D226] 0
 z_TueThur[345D22,D327] 0
 z_TueThur[345D25,D261] 0
-z_TueThur[345D25,D228] 0
+z_TueThur[345D25,D228] 1
 z_TueThur[345D25,D262] 0
 z_TueThur[345D25,D229] 0
 z_TueThur[345D25,D260] 0
@@ -104313,18 +104313,18 @@ z_TueThur[345D25,D230] 0
 z_TueThur[345D25,D195] 0
 z_TueThur[345D25,D296] 0
 z_TueThur[345D25,D259] 0
-z_TueThur[345D25,D328] 1
+z_TueThur[345D25,D328] 0
 z_TueThur[345D25,D226] 0
 z_TueThur[345D25,D198] 0
 z_TueThur[345D25,D329] 0
 z_TueThur[345D26,D261] 0
 z_TueThur[345D26,D262] 0
-z_TueThur[345D26,D228] 0
+z_TueThur[345D26,D228] 1
 z_TueThur[345D26,D294] 0
 z_TueThur[345D26,D229] 0
 z_TueThur[345D26,D260] 0
 z_TueThur[345D26,D295] 0
-z_TueThur[345D26,D227] 1
+z_TueThur[345D26,D227] 0
 z_TueThur[345D26,D293] 0
 z_TueThur[345D26,D263] 0
 z_TueThur[345D26,D196] 0
@@ -104339,14 +104339,14 @@ z_TueThur[345D26,D327] 0
 z_TueThur[345D26,D226] 0
 z_TueThur[345D29,D261] 0
 z_TueThur[345D29,D262] 0
-z_TueThur[345D29,D294] 0
+z_TueThur[345D29,D294] 1
 z_TueThur[345D29,D295] 0
 z_TueThur[345D29,D228] 0
 z_TueThur[345D29,D260] 0
 z_TueThur[345D29,D229] 0
 z_TueThur[345D29,D293] 0
 z_TueThur[345D29,D263] 0
-z_TueThur[345D29,D328] 1
+z_TueThur[345D29,D328] 0
 z_TueThur[345D29,D296] 0
 z_TueThur[345D29,D329] 0
 z_TueThur[345D29,D227] 0
@@ -104359,14 +104359,14 @@ z_TueThur[345D29,D330] 0
 z_TueThur[345D29,D292] 0
 z_TueThur[345D30,D261] 0
 z_TueThur[345D30,D262] 0
-z_TueThur[345D30,D294] 0
+z_TueThur[345D30,D294] 1
 z_TueThur[345D30,D295] 0
 z_TueThur[345D30,D228] 0
 z_TueThur[345D30,D260] 0
 z_TueThur[345D30,D229] 0
 z_TueThur[345D30,D293] 0
 z_TueThur[345D30,D263] 0
-z_TueThur[345D30,D227] 1
+z_TueThur[345D30,D227] 0
 z_TueThur[345D30,D328] 0
 z_TueThur[345D30,D296] 0
 z_TueThur[345D30,D329] 0
@@ -104377,7 +104377,7 @@ z_TueThur[345D30,D327] 0
 z_TueThur[345D30,D259] 0
 z_TueThur[345D30,D292] 0
 z_TueThur[345D30,D195] 0
-z_TueThur[345D33,D294] 0
+z_TueThur[345D33,D294] 1
 z_TueThur[345D33,D261] 0
 z_TueThur[345D33,D295] 0
 z_TueThur[345D33,D262] 0
@@ -104389,7 +104389,7 @@ z_TueThur[345D33,D228] 0
 z_TueThur[345D33,D296] 0
 z_TueThur[345D33,D229] 0
 z_TueThur[345D33,D263] 0
-z_TueThur[345D33,D327] 1
+z_TueThur[345D33,D327] 0
 z_TueThur[345D33,D227] 0
 z_TueThur[345D33,D330] 0
 z_TueThur[345D33,D292] 0
@@ -104398,7 +104398,7 @@ z_TueThur[345D33,D362] 0
 z_TueThur[345D33,D259] 0
 z_TueThur[345D33,D363] 0
 z_TueThur[345D34,D261] 0
-z_TueThur[345D34,D294] 0
+z_TueThur[345D34,D294] 1
 z_TueThur[345D34,D262] 0
 z_TueThur[345D34,D295] 0
 z_TueThur[345D34,D260] 0
@@ -104410,14 +104410,14 @@ z_TueThur[345D34,D329] 0
 z_TueThur[345D34,D263] 0
 z_TueThur[345D34,D296] 0
 z_TueThur[345D34,D227] 0
-z_TueThur[345D34,D327] 1
+z_TueThur[345D34,D327] 0
 z_TueThur[345D34,D230] 0
 z_TueThur[345D34,D330] 0
 z_TueThur[345D34,D259] 0
 z_TueThur[345D34,D292] 0
 z_TueThur[345D34,D196] 0
 z_TueThur[345D34,D362] 0
-z_TueThur[345D37,D294] 0
+z_TueThur[345D37,D294] 1
 z_TueThur[345D37,D261] 0
 z_TueThur[345D37,D293] 0
 z_TueThur[345D37,D260] 0
@@ -104435,15 +104435,15 @@ z_TueThur[345D37,D326] 0
 z_TueThur[345D37,D296] 0
 z_TueThur[345D37,D263] 0
 z_TueThur[345D37,D226] 0
-z_TueThur[345D37,D362] 1
+z_TueThur[345D37,D362] 0
 z_TueThur[345D37,D361] 0
-z_TueThur[345D38,D294] 0
+z_TueThur[345D38,D294] 1
 z_TueThur[345D38,D261] 0
 z_TueThur[345D38,D293] 0
 z_TueThur[345D38,D260] 0
 z_TueThur[345D38,D295] 0
 z_TueThur[345D38,D262] 0
-z_TueThur[345D38,D328] 1
+z_TueThur[345D38,D328] 0
 z_TueThur[345D38,D327] 0
 z_TueThur[345D38,D228] 0
 z_TueThur[345D38,D329] 0
@@ -104458,14 +104458,14 @@ z_TueThur[345D38,D362] 0
 z_TueThur[345D38,D226] 0
 z_TueThur[345D38,D361] 0
 z_TueThur[345D41,D261] 0
-z_TueThur[345D41,D294] 0
+z_TueThur[345D41,D294] 1
 z_TueThur[345D41,D260] 0
 z_TueThur[345D41,D293] 0
 z_TueThur[345D41,D262] 0
 z_TueThur[345D41,D295] 0
 z_TueThur[345D41,D228] 0
 z_TueThur[345D41,D328] 0
-z_TueThur[345D41,D227] 1
+z_TueThur[345D41,D227] 0
 z_TueThur[345D41,D327] 0
 z_TueThur[345D41,D229] 0
 z_TueThur[345D41,D259] 0
@@ -104478,7 +104478,7 @@ z_TueThur[345D41,D196] 0
 z_TueThur[345D41,D326] 0
 z_TueThur[345D41,D230] 0
 z_TueThur[345D42,D261] 0
-z_TueThur[345D42,D294] 0
+z_TueThur[345D42,D294] 1
 z_TueThur[345D42,D260] 0
 z_TueThur[345D42,D293] 0
 z_TueThur[345D42,D262] 0
@@ -104496,16 +104496,16 @@ z_TueThur[345D42,D296] 0
 z_TueThur[345D42,D226] 0
 z_TueThur[345D42,D326] 0
 z_TueThur[345D42,D196] 0
-z_TueThur[345D42,D362] 1
+z_TueThur[345D42,D362] 0
 z_TueThur[345D45,D261] 0
-z_TueThur[345D45,D294] 0
+z_TueThur[345D45,D294] 1
 z_TueThur[345D45,D262] 0
 z_TueThur[345D45,D260] 0
 z_TueThur[345D45,D295] 0
 z_TueThur[345D45,D293] 0
 z_TueThur[345D45,D228] 0
 z_TueThur[345D45,D229] 0
-z_TueThur[345D45,D328] 1
+z_TueThur[345D45,D328] 0
 z_TueThur[345D45,D227] 0
 z_TueThur[345D45,D329] 0
 z_TueThur[345D45,D263] 0
@@ -104518,7 +104518,7 @@ z_TueThur[345D45,D230] 0
 z_TueThur[345D45,D226] 0
 z_TueThur[345D45,D197] 0
 z_TueThur[345D46,D261] 0
-z_TueThur[345D46,D294] 0
+z_TueThur[345D46,D294] 1
 z_TueThur[345D46,D260] 0
 z_TueThur[345D46,D293] 0
 z_TueThur[345D46,D262] 0
@@ -104528,7 +104528,7 @@ z_TueThur[345D46,D227] 0
 z_TueThur[345D46,D328] 0
 z_TueThur[345D46,D229] 0
 z_TueThur[345D46,D259] 0
-z_TueThur[345D46,D327] 1
+z_TueThur[345D46,D327] 0
 z_TueThur[345D46,D292] 0
 z_TueThur[345D46,D329] 0
 z_TueThur[345D46,D263] 0
@@ -104538,7 +104538,7 @@ z_TueThur[345D46,D196] 0
 z_TueThur[345D46,D195] 0
 z_TueThur[345D46,D230] 0
 z_TueThur[345D49,D261] 0
-z_TueThur[345D49,D260] 0
+z_TueThur[345D49,D260] 1
 z_TueThur[345D49,D294] 0
 z_TueThur[345D49,D228] 0
 z_TueThur[345D49,D262] 0
@@ -104551,14 +104551,14 @@ z_TueThur[345D49,D328] 0
 z_TueThur[345D49,D196] 0
 z_TueThur[345D49,D263] 0
 z_TueThur[345D49,D292] 0
-z_TueThur[345D49,D327] 1
+z_TueThur[345D49,D327] 0
 z_TueThur[345D49,D226] 0
 z_TueThur[345D49,D329] 0
 z_TueThur[345D49,D195] 0
 z_TueThur[345D49,D296] 0
 z_TueThur[345D49,D197] 0
 z_TueThur[345D50,D261] 0
-z_TueThur[345D50,D260] 0
+z_TueThur[345D50,D260] 1
 z_TueThur[345D50,D294] 0
 z_TueThur[345D50,D228] 0
 z_TueThur[345D50,D262] 0
@@ -104567,7 +104567,7 @@ z_TueThur[345D50,D227] 0
 z_TueThur[345D50,D295] 0
 z_TueThur[345D50,D229] 0
 z_TueThur[345D50,D259] 0
-z_TueThur[345D50,D328] 1
+z_TueThur[345D50,D328] 0
 z_TueThur[345D50,D292] 0
 z_TueThur[345D50,D327] 0
 z_TueThur[345D50,D196] 0
@@ -104577,7 +104577,7 @@ z_TueThur[345D50,D329] 0
 z_TueThur[345D50,D195] 0
 z_TueThur[345D50,D296] 0
 z_TueThur[345D50,D197] 0
-z_TueThur[345D53,D294] 0
+z_TueThur[345D53,D294] 1
 z_TueThur[345D53,D261] 0
 z_TueThur[345D53,D295] 0
 z_TueThur[345D53,D262] 0
@@ -104587,7 +104587,7 @@ z_TueThur[345D53,D328] 0
 z_TueThur[345D53,D228] 0
 z_TueThur[345D53,D329] 0
 z_TueThur[345D53,D229] 0
-z_TueThur[345D53,D327] 1
+z_TueThur[345D53,D327] 0
 z_TueThur[345D53,D227] 0
 z_TueThur[345D53,D296] 0
 z_TueThur[345D53,D263] 0
@@ -104597,7 +104597,7 @@ z_TueThur[345D53,D330] 0
 z_TueThur[345D53,D362] 0
 z_TueThur[345D53,D230] 0
 z_TueThur[345D53,D326] 0
-z_TueThur[345D54,D294] 0
+z_TueThur[345D54,D294] 1
 z_TueThur[345D54,D261] 0
 z_TueThur[345D54,D295] 0
 z_TueThur[345D54,D262] 0
@@ -104606,7 +104606,7 @@ z_TueThur[345D54,D260] 0
 z_TueThur[345D54,D328] 0
 z_TueThur[345D54,D228] 0
 z_TueThur[345D54,D329] 0
-z_TueThur[345D54,D327] 1
+z_TueThur[345D54,D327] 0
 z_TueThur[345D54,D229] 0
 z_TueThur[345D54,D296] 0
 z_TueThur[345D54,D227] 0
@@ -104617,13 +104617,13 @@ z_TueThur[345D54,D330] 0
 z_TueThur[345D54,D362] 0
 z_TueThur[345D54,D230] 0
 z_TueThur[345D54,D326] 0
-z_TueThur[345D57,D294] 0
+z_TueThur[345D57,D294] 1
 z_TueThur[345D57,D293] 0
 z_TueThur[345D57,D261] 0
 z_TueThur[345D57,D260] 0
 z_TueThur[345D57,D328] 0
 z_TueThur[345D57,D295] 0
-z_TueThur[345D57,D327] 1
+z_TueThur[345D57,D327] 0
 z_TueThur[345D57,D262] 0
 z_TueThur[345D57,D292] 0
 z_TueThur[345D57,D228] 0
@@ -104637,13 +104637,13 @@ z_TueThur[345D57,D226] 0
 z_TueThur[345D57,D296] 0
 z_TueThur[345D57,D361] 0
 z_TueThur[345D57,D263] 0
-z_TueThur[345D58,D294] 0
+z_TueThur[345D58,D294] 1
 z_TueThur[345D58,D293] 0
 z_TueThur[345D58,D261] 0
 z_TueThur[345D58,D260] 0
 z_TueThur[345D58,D328] 0
 z_TueThur[345D58,D295] 0
-z_TueThur[345D58,D327] 1
+z_TueThur[345D58,D327] 0
 z_TueThur[345D58,D262] 0
 z_TueThur[345D58,D292] 0
 z_TueThur[345D58,D329] 0
@@ -104657,8 +104657,8 @@ z_TueThur[345D58,D296] 0
 z_TueThur[345D58,D361] 0
 z_TueThur[345D58,D263] 0
 z_TueThur[345D58,D226] 0
-z_TueThur[345F04,D228] 0
-z_TueThur[345F04,D227] 1
+z_TueThur[345F04,D228] 1
+z_TueThur[345F04,D227] 0
 z_TueThur[345F04,D261] 0
 z_TueThur[345F04,D196] 0
 z_TueThur[345F04,D229] 0
@@ -104677,8 +104677,8 @@ z_TueThur[345F04,D230] 0
 z_TueThur[345F04,D295] 0
 z_TueThur[345F04,D165] 0
 z_TueThur[345F04,D263] 0
-z_TueThur[345F05,D228] 0
-z_TueThur[345F05,D227] 1
+z_TueThur[345F05,D228] 1
+z_TueThur[345F05,D227] 0
 z_TueThur[345F05,D261] 0
 z_TueThur[345F05,D260] 0
 z_TueThur[345F05,D196] 0
@@ -104697,8 +104697,8 @@ z_TueThur[345F05,D163] 0
 z_TueThur[345F05,D230] 0
 z_TueThur[345F05,D263] 0
 z_TueThur[345F05,D292] 0
-z_TueThur[345F06,D228] 0
-z_TueThur[345F06,D227] 1
+z_TueThur[345F06,D228] 1
+z_TueThur[345F06,D227] 0
 z_TueThur[345F06,D261] 0
 z_TueThur[345F06,D260] 0
 z_TueThur[345F06,D196] 0
@@ -104717,8 +104717,8 @@ z_TueThur[345F06,D295] 0
 z_TueThur[345F06,D230] 0
 z_TueThur[345F06,D292] 0
 z_TueThur[345F06,D165] 0
-z_TueThur[345F10,D228] 0
-z_TueThur[345F10,D227] 1
+z_TueThur[345F10,D228] 1
+z_TueThur[345F10,D227] 0
 z_TueThur[345F10,D196] 0
 z_TueThur[345F10,D195] 0
 z_TueThur[345F10,D261] 0
@@ -104737,8 +104737,8 @@ z_TueThur[345F10,D165] 0
 z_TueThur[345F10,D162] 0
 z_TueThur[345F10,D230] 0
 z_TueThur[345F10,D225] 0
-z_TueThur[345F11,D228] 0
-z_TueThur[345F11,D227] 1
+z_TueThur[345F11,D228] 1
+z_TueThur[345F11,D227] 0
 z_TueThur[345F11,D196] 0
 z_TueThur[345F11,D195] 0
 z_TueThur[345F11,D261] 0
@@ -104757,8 +104757,8 @@ z_TueThur[345F11,D294] 0
 z_TueThur[345F11,D230] 0
 z_TueThur[345F11,D293] 0
 z_TueThur[345F11,D198] 0
-z_TueThur[345F12,D227] 1
-z_TueThur[345F12,D228] 0
+z_TueThur[345F12,D227] 0
+z_TueThur[345F12,D228] 1
 z_TueThur[345F12,D195] 0
 z_TueThur[345F12,D196] 0
 z_TueThur[345F12,D260] 0
@@ -104777,8 +104777,8 @@ z_TueThur[345F12,D293] 0
 z_TueThur[345F12,D225] 0
 z_TueThur[345F12,D294] 0
 z_TueThur[345F12,D193] 0
-z_TueThur[345F13,D227] 1
-z_TueThur[345F13,D228] 0
+z_TueThur[345F13,D227] 0
+z_TueThur[345F13,D228] 1
 z_TueThur[345F13,D195] 0
 z_TueThur[345F13,D196] 0
 z_TueThur[345F13,D260] 0
@@ -104797,8 +104797,8 @@ z_TueThur[345F13,D294] 0
 z_TueThur[345F13,D225] 0
 z_TueThur[345F13,D193] 0
 z_TueThur[345F13,D165] 0
-z_TueThur[345F14,D227] 1
-z_TueThur[345F14,D228] 0
+z_TueThur[345F14,D227] 0
+z_TueThur[345F14,D228] 1
 z_TueThur[345F14,D260] 0
 z_TueThur[345F14,D261] 0
 z_TueThur[345F14,D195] 0
@@ -104817,8 +104817,8 @@ z_TueThur[345F14,D292] 0
 z_TueThur[345F14,D225] 0
 z_TueThur[345F14,D162] 0
 z_TueThur[345F14,D295] 0
-z_TueThur[345F15,D228] 0
-z_TueThur[345F15,D227] 1
+z_TueThur[345F15,D228] 1
+z_TueThur[345F15,D227] 0
 z_TueThur[345F15,D261] 0
 z_TueThur[345F15,D260] 0
 z_TueThur[345F15,D196] 0
@@ -104837,8 +104837,8 @@ z_TueThur[345F15,D164] 0
 z_TueThur[345F15,D163] 0
 z_TueThur[345F15,D230] 0
 z_TueThur[345F15,D225] 0
-z_TueThur[345F16,D227] 1
-z_TueThur[345F16,D228] 0
+z_TueThur[345F16,D227] 0
+z_TueThur[345F16,D228] 1
 z_TueThur[345F16,D195] 0
 z_TueThur[345F16,D260] 0
 z_TueThur[345F16,D226] 0
@@ -104857,9 +104857,9 @@ z_TueThur[345F16,D162] 0
 z_TueThur[345F16,D294] 0
 z_TueThur[345F16,D193] 0
 z_TueThur[345F16,D292] 0
-z_TueThur[345F17,D227] 1
+z_TueThur[345F17,D227] 0
 z_TueThur[345F17,D195] 0
-z_TueThur[345F17,D228] 0
+z_TueThur[345F17,D228] 1
 z_TueThur[345F17,D226] 0
 z_TueThur[345F17,D260] 0
 z_TueThur[345F17,D196] 0
@@ -104878,9 +104878,9 @@ z_TueThur[345F17,D262] 0
 z_TueThur[345F17,D258] 0
 z_TueThur[345F17,D294] 0
 z_TueThur[345F24,D261] 0
-z_TueThur[345F24,D260] 0
+z_TueThur[345F24,D260] 1
 z_TueThur[345F24,D228] 0
-z_TueThur[345F24,D227] 1
+z_TueThur[345F24,D227] 0
 z_TueThur[345F24,D294] 0
 z_TueThur[345F24,D262] 0
 z_TueThur[345F24,D293] 0
@@ -104897,8 +104897,8 @@ z_TueThur[345F24,D263] 0
 z_TueThur[345F24,D194] 0
 z_TueThur[345F24,D327] 0
 z_TueThur[345F24,D230] 0
-z_TueThur[345F25,D227] 1
-z_TueThur[345F25,D228] 0
+z_TueThur[345F25,D227] 0
+z_TueThur[345F25,D228] 1
 z_TueThur[345F25,D260] 0
 z_TueThur[345F25,D195] 0
 z_TueThur[345F25,D226] 0
@@ -104917,8 +104917,8 @@ z_TueThur[345F25,D292] 0
 z_TueThur[345F25,D164] 0
 z_TueThur[345F25,D258] 0
 z_TueThur[345F25,D162] 0
-z_TueThur[351F01,D362] 0
-z_TueThur[351F01,D328] 1
+z_TueThur[351F01,D362] 1
+z_TueThur[351F01,D328] 0
 z_TueThur[351F01,D361] 0
 z_TueThur[351F01,D327] 0
 z_TueThur[351F01,D363] 0
@@ -104937,11 +104937,11 @@ z_TueThur[351F01,D394] 0
 z_TueThur[351F01,D292] 0
 z_TueThur[351F01,D430] 0
 z_TueThur[351F01,D261] 0
-z_TueThur[351F05,D362] 0
+z_TueThur[351F05,D362] 1
 z_TueThur[351F05,D328] 0
 z_TueThur[351F05,D361] 0
 z_TueThur[351F05,D327] 0
-z_TueThur[351F05,D363] 1
+z_TueThur[351F05,D363] 0
 z_TueThur[351F05,D329] 0
 z_TueThur[351F05,D396] 0
 z_TueThur[351F05,D294] 0
@@ -104977,8 +104977,8 @@ z_TueThur[351F07,D330] 0
 z_TueThur[351F07,D292] 0
 z_TueThur[351F07,D430] 0
 z_TueThur[351F07,D429] 0
-z_TueThur[351F09,D362] 0
-z_TueThur[351F09,D328] 1
+z_TueThur[351F09,D362] 1
+z_TueThur[351F09,D328] 0
 z_TueThur[351F09,D361] 0
 z_TueThur[351F09,D327] 0
 z_TueThur[351F09,D363] 0
@@ -105037,8 +105037,8 @@ z_TueThur[351F15,D261] 0
 z_TueThur[351F15,D292] 0
 z_TueThur[351F15,D296] 0
 z_TueThur[351F15,D260] 0
-z_TueThur[351F21,D361] 0
-z_TueThur[351F21,D327] 1
+z_TueThur[351F21,D361] 1
+z_TueThur[351F21,D327] 0
 z_TueThur[351F21,D362] 0
 z_TueThur[351F21,D328] 0
 z_TueThur[351F21,D360] 0
@@ -105137,8 +105137,8 @@ z_TueThur[351F26,D261] 0
 z_TueThur[351F26,D330] 0
 z_TueThur[351F26,D260] 0
 z_TueThur[351F26,D364] 0
-z_TueThur[351F27,D361] 0
-z_TueThur[351F27,D362] 1
+z_TueThur[351F27,D361] 1
+z_TueThur[351F27,D362] 0
 z_TueThur[351F27,D327] 0
 z_TueThur[351F27,D328] 0
 z_TueThur[351F27,D395] 0
@@ -105437,8 +105437,8 @@ z_TueThur[352D37,D261] 0
 z_TueThur[352D37,D360] 0
 z_TueThur[352D37,D262] 0
 z_TueThur[352D37,D292] 0
-z_TueThur[352D38,D328] 0
-z_TueThur[352D38,D362] 1
+z_TueThur[352D38,D328] 1
+z_TueThur[352D38,D362] 0
 z_TueThur[352D38,D329] 0
 z_TueThur[352D38,D363] 0
 z_TueThur[352D38,D327] 0
@@ -105457,10 +105457,10 @@ z_TueThur[352D38,D326] 0
 z_TueThur[352D38,D360] 0
 z_TueThur[352D38,D261] 0
 z_TueThur[352D38,D262] 0
-z_TueThur[352D41,D329] 0
+z_TueThur[352D41,D329] 1
 z_TueThur[352D41,D328] 0
 z_TueThur[352D41,D363] 0
-z_TueThur[352D41,D362] 1
+z_TueThur[352D41,D362] 0
 z_TueThur[352D41,D295] 0
 z_TueThur[352D41,D294] 0
 z_TueThur[352D41,D330] 0
@@ -105537,8 +105537,8 @@ z_TueThur[352D46,D260] 0
 z_TueThur[352D46,D326] 0
 z_TueThur[352D46,D263] 0
 z_TueThur[352D46,D395] 0
-z_TueThur[352D49,D329] 0
-z_TueThur[352D49,D328] 1
+z_TueThur[352D49,D329] 1
+z_TueThur[352D49,D328] 0
 z_TueThur[352D49,D295] 0
 z_TueThur[352D49,D363] 0
 z_TueThur[352D49,D294] 0
@@ -105557,8 +105557,8 @@ z_TueThur[352D49,D331] 0
 z_TueThur[352D49,D263] 0
 z_TueThur[352D49,D398] 0
 z_TueThur[352D49,D297] 0
-z_TueThur[352D50,D329] 0
-z_TueThur[352D50,D328] 1
+z_TueThur[352D50,D329] 1
+z_TueThur[352D50,D328] 0
 z_TueThur[352D50,D295] 0
 z_TueThur[352D50,D363] 0
 z_TueThur[352D50,D294] 0
@@ -105577,9 +105577,9 @@ z_TueThur[352D50,D331] 0
 z_TueThur[352D50,D263] 0
 z_TueThur[352D50,D398] 0
 z_TueThur[352D50,D260] 0
-z_TueThur[352D53,D329] 0
+z_TueThur[352D53,D329] 1
 z_TueThur[352D53,D295] 0
-z_TueThur[352D53,D328] 1
+z_TueThur[352D53,D328] 0
 z_TueThur[352D53,D330] 0
 z_TueThur[352D53,D363] 0
 z_TueThur[352D53,D294] 0
@@ -105597,9 +105597,9 @@ z_TueThur[352D53,D361] 0
 z_TueThur[352D53,D297] 0
 z_TueThur[352D53,D396] 0
 z_TueThur[352D53,D365] 0
-z_TueThur[352D54,D329] 0
+z_TueThur[352D54,D329] 1
 z_TueThur[352D54,D295] 0
-z_TueThur[352D54,D328] 1
+z_TueThur[352D54,D328] 0
 z_TueThur[352D54,D294] 0
 z_TueThur[352D54,D330] 0
 z_TueThur[352D54,D363] 0
@@ -105617,8 +105617,8 @@ z_TueThur[352D54,D397] 0
 z_TueThur[352D54,D297] 0
 z_TueThur[352D54,D396] 0
 z_TueThur[352D54,D365] 0
-z_TueThur[352D57,D329] 0
-z_TueThur[352D57,D328] 1
+z_TueThur[352D57,D329] 1
+z_TueThur[352D57,D328] 0
 z_TueThur[352D57,D295] 0
 z_TueThur[352D57,D294] 0
 z_TueThur[352D57,D363] 0
@@ -105637,9 +105637,9 @@ z_TueThur[352D57,D331] 0
 z_TueThur[352D57,D396] 0
 z_TueThur[352D57,D297] 0
 z_TueThur[352D57,D260] 0
-z_TueThur[352D58,D329] 0
+z_TueThur[352D58,D329] 1
 z_TueThur[352D58,D295] 0
-z_TueThur[352D58,D328] 1
+z_TueThur[352D58,D328] 0
 z_TueThur[352D58,D294] 0
 z_TueThur[352D58,D330] 0
 z_TueThur[352D58,D363] 0
@@ -105657,11 +105657,11 @@ z_TueThur[352D58,D397] 0
 z_TueThur[352D58,D297] 0
 z_TueThur[352D58,D396] 0
 z_TueThur[352D58,D260] 0
-z_TueThur[352D61,D329] 0
+z_TueThur[352D61,D329] 1
 z_TueThur[352D61,D328] 0
 z_TueThur[352D61,D295] 0
 z_TueThur[352D61,D294] 0
-z_TueThur[352D61,D363] 1
+z_TueThur[352D61,D363] 0
 z_TueThur[352D61,D330] 0
 z_TueThur[352D61,D362] 0
 z_TueThur[352D61,D296] 0
@@ -105677,8 +105677,8 @@ z_TueThur[352D61,D260] 0
 z_TueThur[352D61,D396] 0
 z_TueThur[352D61,D331] 0
 z_TueThur[352D61,D297] 0
-z_TueThur[352D62,D329] 0
-z_TueThur[352D62,D328] 1
+z_TueThur[352D62,D329] 1
+z_TueThur[352D62,D328] 0
 z_TueThur[352D62,D295] 0
 z_TueThur[352D62,D294] 0
 z_TueThur[352D62,D363] 0
@@ -105717,8 +105717,8 @@ z_TueThur[352D65,D263] 0
 z_TueThur[352D65,D292] 0
 z_TueThur[352D65,D396] 0
 z_TueThur[352D65,D397] 0
-z_TueThur[352D66,D294] 0
-z_TueThur[352D66,D328] 1
+z_TueThur[352D66,D294] 1
+z_TueThur[352D66,D328] 0
 z_TueThur[352D66,D295] 0
 z_TueThur[352D66,D329] 0
 z_TueThur[352D66,D293] 0
@@ -105997,8 +105997,8 @@ z_TueThur[353F31,D292] 0
 z_TueThur[353F31,D364] 0
 z_TueThur[353F31,D260] 0
 z_TueThur[353F31,D296] 0
-z_TueThur[353F33,D328] 0
-z_TueThur[353F33,D362] 1
+z_TueThur[353F33,D328] 1
+z_TueThur[353F33,D362] 0
 z_TueThur[353F33,D327] 0
 z_TueThur[353F33,D329] 0
 z_TueThur[353F33,D361] 0
@@ -106017,7 +106017,7 @@ z_TueThur[353F33,D261] 0
 z_TueThur[353F33,D292] 0
 z_TueThur[353F33,D260] 0
 z_TueThur[353F33,D296] 0
-z_TueThur[354F05,D260] 0
+z_TueThur[354F05,D260] 1
 z_TueThur[354F05,D261] 0
 z_TueThur[354F05,D293] 0
 z_TueThur[354F05,D294] 0
@@ -106029,7 +106029,7 @@ z_TueThur[354F05,D262] 0
 z_TueThur[354F05,D226] 0
 z_TueThur[354F05,D327] 0
 z_TueThur[354F05,D295] 0
-z_TueThur[354F05,D328] 1
+z_TueThur[354F05,D328] 0
 z_TueThur[354F05,D229] 0
 z_TueThur[354F05,D326] 0
 z_TueThur[354F05,D195] 0
@@ -106038,7 +106038,7 @@ z_TueThur[354F05,D196] 0
 z_TueThur[354F05,D291] 0
 z_TueThur[354F05,D329] 0
 z_TueThur[354F19,D293] 0
-z_TueThur[354F19,D294] 0
+z_TueThur[354F19,D294] 1
 z_TueThur[354F19,D260] 0
 z_TueThur[354F19,D261] 0
 z_TueThur[354F19,D327] 0
@@ -106052,14 +106052,14 @@ z_TueThur[354F19,D227] 0
 z_TueThur[354F19,D329] 0
 z_TueThur[354F19,D228] 0
 z_TueThur[354F19,D361] 0
-z_TueThur[354F19,D362] 1
+z_TueThur[354F19,D362] 0
 z_TueThur[354F19,D226] 0
 z_TueThur[354F19,D229] 0
 z_TueThur[354F19,D291] 0
 z_TueThur[354F19,D296] 0
-z_TueThur[354F21,D260] 0
+z_TueThur[354F21,D260] 1
 z_TueThur[354F21,D261] 0
-z_TueThur[354F21,D227] 1
+z_TueThur[354F21,D227] 0
 z_TueThur[354F21,D228] 0
 z_TueThur[354F21,D293] 0
 z_TueThur[354F21,D294] 0
@@ -106078,10 +106078,10 @@ z_TueThur[354F21,D197] 0
 z_TueThur[354F21,D258] 0
 z_TueThur[354F21,D263] 0
 z_TueThur[354F23,D261] 0
-z_TueThur[354F23,D260] 0
+z_TueThur[354F23,D260] 1
 z_TueThur[354F23,D228] 0
 z_TueThur[354F23,D294] 0
-z_TueThur[354F23,D227] 1
+z_TueThur[354F23,D227] 0
 z_TueThur[354F23,D293] 0
 z_TueThur[354F23,D262] 0
 z_TueThur[354F23,D259] 0
@@ -106098,11 +106098,11 @@ z_TueThur[354F23,D197] 0
 z_TueThur[354F23,D329] 0
 z_TueThur[354F23,D194] 0
 z_TueThur[354F25,D261] 0
-z_TueThur[354F25,D260] 0
+z_TueThur[354F25,D260] 1
 z_TueThur[354F25,D294] 0
 z_TueThur[354F25,D293] 0
 z_TueThur[354F25,D228] 0
-z_TueThur[354F25,D227] 1
+z_TueThur[354F25,D227] 0
 z_TueThur[354F25,D262] 0
 z_TueThur[354F25,D259] 0
 z_TueThur[354F25,D295] 0
@@ -106118,7 +106118,7 @@ z_TueThur[354F25,D326] 0
 z_TueThur[354F25,D263] 0
 z_TueThur[354F25,D296] 0
 z_TueThur[354F27,D261] 0
-z_TueThur[354F27,D260] 0
+z_TueThur[354F27,D260] 1
 z_TueThur[354F27,D294] 0
 z_TueThur[354F27,D293] 0
 z_TueThur[354F27,D228] 0
@@ -106129,7 +106129,7 @@ z_TueThur[354F27,D259] 0
 z_TueThur[354F27,D229] 0
 z_TueThur[354F27,D328] 0
 z_TueThur[354F27,D292] 0
-z_TueThur[354F27,D327] 1
+z_TueThur[354F27,D327] 0
 z_TueThur[354F27,D226] 0
 z_TueThur[354F27,D196] 0
 z_TueThur[354F27,D329] 0
@@ -106137,7 +106137,7 @@ z_TueThur[354F27,D195] 0
 z_TueThur[354F27,D263] 0
 z_TueThur[354F27,D326] 0
 z_TueThur[354F27,D296] 0
-z_TueThur[354F29,D294] 0
+z_TueThur[354F29,D294] 1
 z_TueThur[354F29,D261] 0
 z_TueThur[354F29,D293] 0
 z_TueThur[354F29,D260] 0
@@ -106155,7 +106155,7 @@ z_TueThur[354F29,D326] 0
 z_TueThur[354F29,D226] 0
 z_TueThur[354F29,D296] 0
 z_TueThur[354F29,D263] 0
-z_TueThur[354F29,D362] 1
+z_TueThur[354F29,D362] 0
 z_TueThur[354F29,D361] 0
 z_TueThur[354F47,D259] 0
 z_TueThur[354F47,D258] 1
@@ -106360,13 +106360,13 @@ z_TueThur[354F60,D256] 0
 z_TueThur[354F61,D225] 0
 z_TueThur[354F61,D226] 0
 z_TueThur[354F61,D193] 0
-z_TueThur[354F61,D258] 0
+z_TueThur[354F61,D258] 1
 z_TueThur[354F61,D224] 0
 z_TueThur[354F61,D194] 0
 z_TueThur[354F61,D259] 0
 z_TueThur[354F61,D192] 0
 z_TueThur[354F61,D257] 0
-z_TueThur[354F61,D227] 1
+z_TueThur[354F61,D227] 0
 z_TueThur[354F61,D161] 0
 z_TueThur[354F61,D291] 0
 z_TueThur[354F61,D223] 0
@@ -106417,9 +106417,9 @@ z_TueThur[354F64,D260] 0
 z_TueThur[354F64,D191] 0
 z_TueThur[354F64,D160] 0
 z_TueThur[354F64,D195] 0
-z_TueThur[356B01,D360] 1
+z_TueThur[356B01,D360] 0
 z_TueThur[356B01,D394] 0
-z_TueThur[356B01,D361] 0
+z_TueThur[356B01,D361] 1
 z_TueThur[356B01,D395] 0
 z_TueThur[356B01,D359] 0
 z_TueThur[356B01,D326] 0
@@ -106438,9 +106438,9 @@ z_TueThur[356B01,D292] 0
 z_TueThur[356B01,D392] 0
 z_TueThur[356B01,D293] 0
 z_TueThur[356C07,D292] 0
-z_TueThur[356C07,D326] 0
+z_TueThur[356C07,D326] 1
 z_TueThur[356C07,D293] 0
-z_TueThur[356C07,D327] 1
+z_TueThur[356C07,D327] 0
 z_TueThur[356C07,D291] 0
 z_TueThur[356C07,D325] 0
 z_TueThur[356C07,D259] 0
@@ -106459,11 +106459,11 @@ z_TueThur[356C07,D226] 0
 z_TueThur[356C07,D227] 0
 z_TueThur[356C13,D292] 0
 z_TueThur[356C13,D291] 0
-z_TueThur[356C13,D326] 0
+z_TueThur[356C13,D326] 1
 z_TueThur[356C13,D259] 0
 z_TueThur[356C13,D293] 0
 z_TueThur[356C13,D325] 0
-z_TueThur[356C13,D258] 1
+z_TueThur[356C13,D258] 0
 z_TueThur[356C13,D327] 0
 z_TueThur[356C13,D260] 0
 z_TueThur[356C13,D290] 0
@@ -106477,8 +106477,8 @@ z_TueThur[356C13,D294] 0
 z_TueThur[356C13,D361] 0
 z_TueThur[356C13,D227] 0
 z_TueThur[356C13,D328] 0
-z_TueThur[356D01,D326] 0
-z_TueThur[356D01,D360] 1
+z_TueThur[356D01,D326] 1
+z_TueThur[356D01,D360] 0
 z_TueThur[356D01,D327] 0
 z_TueThur[356D01,D361] 0
 z_TueThur[356D01,D325] 0
@@ -106497,8 +106497,8 @@ z_TueThur[356D01,D358] 0
 z_TueThur[356D01,D396] 0
 z_TueThur[356D01,D259] 0
 z_TueThur[356D01,D428] 0
-z_TueThur[356D02,D360] 1
-z_TueThur[356D02,D326] 0
+z_TueThur[356D02,D360] 0
+z_TueThur[356D02,D326] 1
 z_TueThur[356D02,D361] 0
 z_TueThur[356D02,D327] 0
 z_TueThur[356D02,D359] 0
@@ -106517,7 +106517,7 @@ z_TueThur[356D02,D396] 0
 z_TueThur[356D02,D294] 0
 z_TueThur[356D02,D428] 0
 z_TueThur[356D02,D259] 0
-z_TueThur[356D05,D326] 0
+z_TueThur[356D05,D326] 1
 z_TueThur[356D05,D360] 0
 z_TueThur[356D05,D327] 0
 z_TueThur[356D05,D361] 0
@@ -106528,7 +106528,7 @@ z_TueThur[356D05,D293] 0
 z_TueThur[356D05,D394] 0
 z_TueThur[356D05,D328] 0
 z_TueThur[356D05,D395] 0
-z_TueThur[356D05,D362] 1
+z_TueThur[356D05,D362] 0
 z_TueThur[356D05,D291] 0
 z_TueThur[356D05,D393] 0
 z_TueThur[356D05,D294] 0
@@ -106537,9 +106537,9 @@ z_TueThur[356D05,D324] 0
 z_TueThur[356D05,D358] 0
 z_TueThur[356D05,D259] 0
 z_TueThur[356D05,D260] 0
-z_TueThur[356D06,D326] 0
+z_TueThur[356D06,D326] 1
 z_TueThur[356D06,D360] 0
-z_TueThur[356D06,D327] 1
+z_TueThur[356D06,D327] 0
 z_TueThur[356D06,D361] 0
 z_TueThur[356D06,D325] 0
 z_TueThur[356D06,D292] 0
@@ -106557,9 +106557,9 @@ z_TueThur[356D06,D324] 0
 z_TueThur[356D06,D259] 0
 z_TueThur[356D06,D358] 0
 z_TueThur[356D06,D260] 0
-z_TueThur[356D09,D326] 0
+z_TueThur[356D09,D326] 1
 z_TueThur[356D09,D327] 0
-z_TueThur[356D09,D360] 1
+z_TueThur[356D09,D360] 0
 z_TueThur[356D09,D361] 0
 z_TueThur[356D09,D292] 0
 z_TueThur[356D09,D293] 0
@@ -106577,8 +106577,8 @@ z_TueThur[356D09,D393] 0
 z_TueThur[356D09,D324] 0
 z_TueThur[356D09,D258] 0
 z_TueThur[356D09,D396] 0
-z_TueThur[356D10,D326] 0
-z_TueThur[356D10,D327] 1
+z_TueThur[356D10,D326] 1
+z_TueThur[356D10,D327] 0
 z_TueThur[356D10,D360] 0
 z_TueThur[356D10,D361] 0
 z_TueThur[356D10,D292] 0
@@ -106637,8 +106637,8 @@ z_TueThur[356D14,D396] 0
 z_TueThur[356D14,D329] 0
 z_TueThur[356D14,D393] 0
 z_TueThur[356D14,D261] 0
-z_TueThur[356D17,D360] 1
-z_TueThur[356D17,D361] 0
+z_TueThur[356D17,D360] 0
+z_TueThur[356D17,D361] 1
 z_TueThur[356D17,D326] 0
 z_TueThur[356D17,D327] 0
 z_TueThur[356D17,D394] 0
@@ -106657,8 +106657,8 @@ z_TueThur[356D17,D291] 0
 z_TueThur[356D17,D358] 0
 z_TueThur[356D17,D427] 0
 z_TueThur[356D17,D294] 0
-z_TueThur[356D18,D361] 0
-z_TueThur[356D18,D360] 1
+z_TueThur[356D18,D361] 1
+z_TueThur[356D18,D360] 0
 z_TueThur[356D18,D327] 0
 z_TueThur[356D18,D326] 0
 z_TueThur[356D18,D395] 0
@@ -106678,7 +106678,7 @@ z_TueThur[356D18,D291] 0
 z_TueThur[356D18,D363] 0
 z_TueThur[356D18,D358] 0
 z_TueThur[356D21,D360] 0
-z_TueThur[356D21,D361] 0
+z_TueThur[356D21,D361] 1
 z_TueThur[356D21,D326] 0
 z_TueThur[356D21,D327] 0
 z_TueThur[356D21,D394] 0
@@ -106687,7 +106687,7 @@ z_TueThur[356D21,D395] 0
 z_TueThur[356D21,D325] 0
 z_TueThur[356D21,D362] 0
 z_TueThur[356D21,D292] 0
-z_TueThur[356D21,D328] 1
+z_TueThur[356D21,D328] 0
 z_TueThur[356D21,D293] 0
 z_TueThur[356D21,D393] 0
 z_TueThur[356D21,D396] 0
@@ -106698,7 +106698,7 @@ z_TueThur[356D21,D429] 0
 z_TueThur[356D21,D294] 0
 z_TueThur[356D21,D324] 0
 z_TueThur[356D22,D360] 0
-z_TueThur[356D22,D361] 0
+z_TueThur[356D22,D361] 1
 z_TueThur[356D22,D326] 0
 z_TueThur[356D22,D327] 0
 z_TueThur[356D22,D394] 0
@@ -106707,7 +106707,7 @@ z_TueThur[356D22,D395] 0
 z_TueThur[356D22,D325] 0
 z_TueThur[356D22,D362] 0
 z_TueThur[356D22,D292] 0
-z_TueThur[356D22,D328] 1
+z_TueThur[356D22,D328] 0
 z_TueThur[356D22,D293] 0
 z_TueThur[356D22,D393] 0
 z_TueThur[356D22,D396] 0
@@ -106717,8 +106717,8 @@ z_TueThur[356D22,D428] 0
 z_TueThur[356D22,D429] 0
 z_TueThur[356D22,D358] 0
 z_TueThur[356D22,D324] 0
-z_TueThur[356D25,D361] 0
-z_TueThur[356D25,D360] 1
+z_TueThur[356D25,D361] 1
+z_TueThur[356D25,D360] 0
 z_TueThur[356D25,D327] 0
 z_TueThur[356D25,D326] 0
 z_TueThur[356D25,D395] 0
@@ -106737,8 +106737,8 @@ z_TueThur[356D25,D429] 0
 z_TueThur[356D25,D428] 0
 z_TueThur[356D25,D363] 0
 z_TueThur[356D25,D358] 0
-z_TueThur[356D26,D361] 0
-z_TueThur[356D26,D360] 1
+z_TueThur[356D26,D361] 1
+z_TueThur[356D26,D360] 0
 z_TueThur[356D26,D327] 0
 z_TueThur[356D26,D326] 0
 z_TueThur[356D26,D395] 0
@@ -106757,10 +106757,10 @@ z_TueThur[356D26,D429] 0
 z_TueThur[356D26,D363] 0
 z_TueThur[356D26,D428] 0
 z_TueThur[356D26,D329] 0
-z_TueThur[356D29,D327] 0
+z_TueThur[356D29,D327] 1
 z_TueThur[356D29,D361] 0
 z_TueThur[356D29,D326] 0
-z_TueThur[356D29,D360] 1
+z_TueThur[356D29,D360] 0
 z_TueThur[356D29,D328] 0
 z_TueThur[356D29,D362] 0
 z_TueThur[356D29,D293] 0
@@ -106777,12 +106777,12 @@ z_TueThur[356D29,D363] 0
 z_TueThur[356D29,D393] 0
 z_TueThur[356D29,D260] 0
 z_TueThur[356D29,D259] 0
-z_TueThur[356D30,D327] 0
+z_TueThur[356D30,D327] 1
 z_TueThur[356D30,D361] 0
 z_TueThur[356D30,D326] 0
 z_TueThur[356D30,D360] 0
 z_TueThur[356D30,D328] 0
-z_TueThur[356D30,D362] 1
+z_TueThur[356D30,D362] 0
 z_TueThur[356D30,D293] 0
 z_TueThur[356D30,D395] 0
 z_TueThur[356D30,D292] 0
@@ -106837,7 +106837,7 @@ z_TueThur[356D34,D329] 0
 z_TueThur[356D34,D396] 0
 z_TueThur[356D34,D261] 0
 z_TueThur[356D34,D363] 0
-z_TueThur[356D37,D327] 0
+z_TueThur[356D37,D327] 1
 z_TueThur[356D37,D293] 0
 z_TueThur[356D37,D326] 0
 z_TueThur[356D37,D328] 0
@@ -106855,7 +106855,7 @@ z_TueThur[356D37,D291] 0
 z_TueThur[356D37,D395] 0
 z_TueThur[356D37,D295] 0
 z_TueThur[356D37,D359] 0
-z_TueThur[356D37,D363] 1
+z_TueThur[356D37,D363] 0
 z_TueThur[356D37,D394] 0
 z_TueThur[356D38,D327] 1
 z_TueThur[356D38,D293] 0
@@ -107017,10 +107017,10 @@ z_TueThur[356D53,D258] 0
 z_TueThur[356D53,D359] 0
 z_TueThur[356D53,D227] 0
 z_TueThur[356D53,D395] 0
-z_TueThur[356D54,D327] 0
+z_TueThur[356D54,D327] 1
 z_TueThur[356D54,D293] 0
 z_TueThur[356D54,D326] 0
-z_TueThur[356D54,D328] 1
+z_TueThur[356D54,D328] 0
 z_TueThur[356D54,D292] 0
 z_TueThur[356D54,D294] 0
 z_TueThur[356D54,D361] 0
@@ -107077,12 +107077,12 @@ z_TueThur[356D58,D295] 0
 z_TueThur[356D58,D329] 0
 z_TueThur[356D58,D227] 0
 z_TueThur[356D58,D395] 0
-z_TueThur[356D61,D327] 0
+z_TueThur[356D61,D327] 1
 z_TueThur[356D61,D326] 0
 z_TueThur[356D61,D293] 0
 z_TueThur[356D61,D292] 0
 z_TueThur[356D61,D361] 0
-z_TueThur[356D61,D360] 1
+z_TueThur[356D61,D360] 0
 z_TueThur[356D61,D328] 0
 z_TueThur[356D61,D294] 0
 z_TueThur[356D61,D325] 0
@@ -107117,10 +107117,10 @@ z_TueThur[356D62,D395] 0
 z_TueThur[356D62,D394] 0
 z_TueThur[356D62,D329] 0
 z_TueThur[356D62,D295] 0
-z_TueThur[356D65,D361] 0
+z_TueThur[356D65,D361] 1
 z_TueThur[356D65,D395] 0
 z_TueThur[356D65,D360] 0
-z_TueThur[356D65,D362] 1
+z_TueThur[356D65,D362] 0
 z_TueThur[356D65,D327] 0
 z_TueThur[356D65,D394] 0
 z_TueThur[356D65,D396] 0
@@ -107137,7 +107137,7 @@ z_TueThur[356D65,D325] 0
 z_TueThur[356D65,D397] 0
 z_TueThur[356D65,D292] 0
 z_TueThur[356D65,D329] 0
-z_TueThur[356D66,D361] 0
+z_TueThur[356D66,D361] 1
 z_TueThur[356D66,D395] 0
 z_TueThur[356D66,D360] 0
 z_TueThur[356D66,D362] 0
@@ -107150,21 +107150,21 @@ z_TueThur[356D66,D429] 0
 z_TueThur[356D66,D359] 0
 z_TueThur[356D66,D428] 0
 z_TueThur[356D66,D393] 0
-z_TueThur[356D66,D363] 1
+z_TueThur[356D66,D363] 0
 z_TueThur[356D66,D430] 0
 z_TueThur[356D66,D293] 0
 z_TueThur[356D66,D397] 0
 z_TueThur[356D66,D325] 0
 z_TueThur[356D66,D292] 0
 z_TueThur[356D66,D329] 0
-z_TueThur[356D69,D361] 0
+z_TueThur[356D69,D361] 1
 z_TueThur[356D69,D395] 0
 z_TueThur[356D69,D362] 0
 z_TueThur[356D69,D360] 0
 z_TueThur[356D69,D327] 0
 z_TueThur[356D69,D396] 0
 z_TueThur[356D69,D394] 0
-z_TueThur[356D69,D328] 1
+z_TueThur[356D69,D328] 0
 z_TueThur[356D69,D326] 0
 z_TueThur[356D69,D429] 0
 z_TueThur[356D69,D363] 0
@@ -107177,8 +107177,8 @@ z_TueThur[356D69,D393] 0
 z_TueThur[356D69,D329] 0
 z_TueThur[356D69,D294] 0
 z_TueThur[356D69,D325] 0
-z_TueThur[356D70,D361] 0
-z_TueThur[356D70,D362] 1
+z_TueThur[356D70,D361] 1
+z_TueThur[356D70,D362] 0
 z_TueThur[356D70,D395] 0
 z_TueThur[356D70,D327] 0
 z_TueThur[356D70,D360] 0
@@ -107205,7 +107205,7 @@ z_TueThur[356D73,D325] 0
 z_TueThur[356D73,D392] 0
 z_TueThur[356D73,D394] 0
 z_TueThur[356D73,D324] 0
-z_TueThur[356D73,D326] 0
+z_TueThur[356D73,D326] 1
 z_TueThur[356D73,D427] 0
 z_TueThur[356D73,D357] 0
 z_TueThur[356D73,D361] 0
@@ -107215,7 +107215,7 @@ z_TueThur[356D73,D428] 0
 z_TueThur[356D73,D391] 0
 z_TueThur[356D73,D395] 0
 z_TueThur[356D73,D323] 0
-z_TueThur[356D73,D327] 1
+z_TueThur[356D73,D327] 0
 z_TueThur[356D73,D290] 0
 z_TueThur[356D74,D358] 0
 z_TueThur[356D74,D359] 0
@@ -107225,8 +107225,8 @@ z_TueThur[356D74,D392] 0
 z_TueThur[356D74,D393] 0
 z_TueThur[356D74,D357] 0
 z_TueThur[356D74,D323] 0
-z_TueThur[356D74,D360] 1
-z_TueThur[356D74,D326] 0
+z_TueThur[356D74,D360] 0
+z_TueThur[356D74,D326] 1
 z_TueThur[356D74,D290] 0
 z_TueThur[356D74,D291] 0
 z_TueThur[356D74,D391] 0
@@ -107238,7 +107238,7 @@ z_TueThur[356D74,D427] 0
 z_TueThur[356D74,D356] 0
 z_TueThur[356D74,D322] 0
 z_TueThur[357F04,D395] 0
-z_TueThur[357F04,D361] 0
+z_TueThur[357F04,D361] 1
 z_TueThur[357F04,D396] 0
 z_TueThur[357F04,D362] 0
 z_TueThur[357F04,D394] 0
@@ -107247,7 +107247,7 @@ z_TueThur[357F04,D360] 0
 z_TueThur[357F04,D430] 0
 z_TueThur[357F04,D327] 0
 z_TueThur[357F04,D397] 0
-z_TueThur[357F04,D328] 1
+z_TueThur[357F04,D328] 0
 z_TueThur[357F04,D363] 0
 z_TueThur[357F04,D428] 0
 z_TueThur[357F04,D326] 0
@@ -107258,9 +107258,9 @@ z_TueThur[357F04,D329] 0
 z_TueThur[357F04,D359] 0
 z_TueThur[357F04,D464] 0
 z_TueThur[357F05,D395] 0
-z_TueThur[357F05,D361] 0
+z_TueThur[357F05,D361] 1
 z_TueThur[357F05,D396] 0
-z_TueThur[357F05,D362] 1
+z_TueThur[357F05,D362] 0
 z_TueThur[357F05,D394] 0
 z_TueThur[357F05,D429] 0
 z_TueThur[357F05,D360] 0
@@ -107278,10 +107278,10 @@ z_TueThur[357F05,D359] 0
 z_TueThur[357F05,D464] 0
 z_TueThur[357F05,D329] 0
 z_TueThur[357F06,D395] 0
-z_TueThur[357F06,D361] 0
+z_TueThur[357F06,D361] 1
 z_TueThur[357F06,D394] 0
 z_TueThur[357F06,D396] 0
-z_TueThur[357F06,D360] 1
+z_TueThur[357F06,D360] 0
 z_TueThur[357F06,D362] 0
 z_TueThur[357F06,D429] 0
 z_TueThur[357F06,D428] 0
@@ -107298,9 +107298,9 @@ z_TueThur[357F06,D427] 0
 z_TueThur[357F06,D431] 0
 z_TueThur[357F06,D462] 0
 z_TueThur[357F07,D395] 0
-z_TueThur[357F07,D361] 0
+z_TueThur[357F07,D361] 1
 z_TueThur[357F07,D394] 0
-z_TueThur[357F07,D360] 1
+z_TueThur[357F07,D360] 0
 z_TueThur[357F07,D396] 0
 z_TueThur[357F07,D362] 0
 z_TueThur[357F07,D429] 0
@@ -107357,9 +107357,9 @@ z_TueThur[358C07,D365] 0
 z_TueThur[358C07,D399] 0
 z_TueThur[358C07,D295] 0
 z_TueThur[358C07,D294] 0
-z_TueThur[358C09,D363] 0
+z_TueThur[358C09,D363] 1
 z_TueThur[358C09,D397] 0
-z_TueThur[358C09,D362] 1
+z_TueThur[358C09,D362] 0
 z_TueThur[358C09,D396] 0
 z_TueThur[358C09,D364] 0
 z_TueThur[358C09,D329] 0
@@ -107477,12 +107477,12 @@ z_TueThur[358D09,D394] 0
 z_TueThur[358D09,D330] 0
 z_TueThur[358D09,D429] 0
 z_TueThur[358D09,D398] 0
-z_TueThur[358D10,D362] 0
+z_TueThur[358D10,D362] 1
 z_TueThur[358D10,D361] 0
 z_TueThur[358D10,D328] 0
 z_TueThur[358D10,D396] 0
 z_TueThur[358D10,D363] 0
-z_TueThur[358D10,D327] 1
+z_TueThur[358D10,D327] 0
 z_TueThur[358D10,D395] 0
 z_TueThur[358D10,D329] 0
 z_TueThur[358D10,D397] 0
@@ -107577,8 +107577,8 @@ z_TueThur[358D18,D429] 0
 z_TueThur[358D18,D364] 0
 z_TueThur[358D18,D292] 0
 z_TueThur[358D18,D330] 0
-z_TueThur[358D21,D361] 0
-z_TueThur[358D21,D362] 1
+z_TueThur[358D21,D361] 1
+z_TueThur[358D21,D362] 0
 z_TueThur[358D21,D395] 0
 z_TueThur[358D21,D396] 0
 z_TueThur[358D21,D327] 0
@@ -107837,7 +107837,7 @@ z_TueThur[358D45,D326] 0
 z_TueThur[358D45,D428] 0
 z_TueThur[358D45,D294] 0
 z_TueThur[358D45,D293] 0
-z_TueThur[358D46,D362] 0
+z_TueThur[358D46,D362] 1
 z_TueThur[358D46,D396] 0
 z_TueThur[358D46,D361] 0
 z_TueThur[358D46,D395] 0
@@ -107845,7 +107845,7 @@ z_TueThur[358D46,D363] 0
 z_TueThur[358D46,D397] 0
 z_TueThur[358D46,D328] 0
 z_TueThur[358D46,D430] 0
-z_TueThur[358D46,D327] 1
+z_TueThur[358D46,D327] 0
 z_TueThur[358D46,D329] 0
 z_TueThur[358D46,D429] 0
 z_TueThur[358D46,D431] 0
@@ -107957,9 +107957,9 @@ z_TueThur[35A042,D498] 0
 z_TueThur[35A042,D394] 0
 z_TueThur[35A042,D499] 0
 z_TueThur[35A042,D364] 0
-z_TueThur[35B141,D227] 1
+z_TueThur[35B141,D227] 0
 z_TueThur[35B141,D226] 0
-z_TueThur[35B141,D260] 0
+z_TueThur[35B141,D260] 1
 z_TueThur[35B141,D259] 0
 z_TueThur[35B141,D195] 0
 z_TueThur[35B141,D194] 0
@@ -107978,8 +107978,8 @@ z_TueThur[35B141,D291] 0
 z_TueThur[35B141,D229] 0
 z_TueThur[35B141,D224] 0
 z_TueThur[35B201,D293] 0
-z_TueThur[35B201,D294] 0
-z_TueThur[35B201,D327] 1
+z_TueThur[35B201,D294] 1
+z_TueThur[35B201,D327] 0
 z_TueThur[35B201,D260] 0
 z_TueThur[35B201,D292] 0
 z_TueThur[35B201,D328] 0
@@ -107999,8 +107999,8 @@ z_TueThur[35B201,D325] 0
 z_TueThur[35B201,D226] 0
 z_TueThur[35B211,D259] 0
 z_TueThur[35B211,D292] 0
-z_TueThur[35B211,D260] 0
-z_TueThur[35B211,D258] 1
+z_TueThur[35B211,D260] 1
+z_TueThur[35B211,D258] 0
 z_TueThur[35B211,D226] 0
 z_TueThur[35B211,D293] 0
 z_TueThur[35B211,D291] 0
@@ -108037,7 +108037,7 @@ z_TueThur[35B551,D467] 0
 z_TueThur[35B551,D365] 0
 z_TueThur[35B551,D499] 0
 z_TueThur[35B551,D329] 0
-z_TueThur[360F01,D258] 0
+z_TueThur[360F01,D258] 1
 z_TueThur[360F01,D291] 0
 z_TueThur[360F01,D259] 0
 z_TueThur[360F01,D292] 0
@@ -108055,7 +108055,7 @@ z_TueThur[360F01,D227] 0
 z_TueThur[360F01,D256] 0
 z_TueThur[360F01,D289] 0
 z_TueThur[360F01,D193] 0
-z_TueThur[360F01,D327] 1
+z_TueThur[360F01,D327] 0
 z_TueThur[360F01,D194] 0
 z_TueThur[360F02,D258] 1
 z_TueThur[360F02,D291] 0
@@ -108198,7 +108198,7 @@ z_TueThur[360F15,D224] 0
 z_TueThur[360F15,D358] 0
 z_TueThur[360F15,D256] 0
 z_TueThur[360J01,D291] 0
-z_TueThur[360J01,D258] 0
+z_TueThur[360J01,D258] 1
 z_TueThur[360J01,D290] 0
 z_TueThur[360J01,D292] 0
 z_TueThur[360J01,D257] 0
@@ -108215,10 +108215,10 @@ z_TueThur[360J01,D293] 0
 z_TueThur[360J01,D260] 0
 z_TueThur[360J01,D359] 0
 z_TueThur[360J01,D323] 0
-z_TueThur[360J01,D327] 1
+z_TueThur[360J01,D327] 0
 z_TueThur[360J01,D223] 0
 z_TueThur[372F11,D428] 0
-z_TueThur[372F11,D429] 0
+z_TueThur[372F11,D429] 1
 z_TueThur[372F11,D394] 0
 z_TueThur[372F11,D462] 0
 z_TueThur[372F11,D427] 0
@@ -108227,7 +108227,7 @@ z_TueThur[372F11,D463] 0
 z_TueThur[372F11,D393] 0
 z_TueThur[372F11,D461] 0
 z_TueThur[372F11,D430] 0
-z_TueThur[372F11,D360] 1
+z_TueThur[372F11,D360] 0
 z_TueThur[372F11,D496] 0
 z_TueThur[372F11,D426] 0
 z_TueThur[372F11,D396] 0
@@ -108258,13 +108258,13 @@ z_TueThur[372J11,D464] 0
 z_TueThur[372J11,D359] 0
 z_TueThur[372J11,D396] 0
 z_TueThur[373F03,D395] 0
-z_TueThur[373F03,D429] 0
+z_TueThur[373F03,D429] 1
 z_TueThur[373F03,D396] 0
 z_TueThur[373F03,D430] 0
 z_TueThur[373F03,D394] 0
 z_TueThur[373F03,D361] 0
 z_TueThur[373F03,D428] 0
-z_TueThur[373F03,D362] 1
+z_TueThur[373F03,D362] 0
 z_TueThur[373F03,D463] 0
 z_TueThur[373F03,D397] 0
 z_TueThur[373F03,D464] 0
@@ -108357,7 +108357,7 @@ z_TueThur[373F11,D359] 0
 z_TueThur[373F11,D426] 0
 z_TueThur[373F11,D495] 0
 z_TueThur[373F11,D392] 0
-z_TueThur[373F12,D429] 0
+z_TueThur[373F12,D429] 1
 z_TueThur[373F12,D428] 0
 z_TueThur[373F12,D395] 0
 z_TueThur[373F12,D394] 0
@@ -108373,7 +108373,7 @@ z_TueThur[373F12,D361] 0
 z_TueThur[373F12,D360] 0
 z_TueThur[373F12,D497] 0
 z_TueThur[373F12,D496] 0
-z_TueThur[373F12,D362] 1
+z_TueThur[373F12,D362] 0
 z_TueThur[373F12,D359] 0
 z_TueThur[373F12,D431] 0
 z_TueThur[373F12,D426] 0
@@ -108419,12 +108419,12 @@ z_TueThur[373F14,D397] 0
 z_TueThur[373F14,D498] 0
 z_TueThur[373F98,D394] 0
 z_TueThur[373F98,D393] 0
-z_TueThur[373F98,D360] 1
+z_TueThur[373F98,D360] 0
 z_TueThur[373F98,D428] 0
 z_TueThur[373F98,D395] 0
 z_TueThur[373F98,D359] 0
 z_TueThur[373F98,D427] 0
-z_TueThur[373F98,D361] 0
+z_TueThur[373F98,D361] 1
 z_TueThur[373F98,D429] 0
 z_TueThur[373F98,D392] 0
 z_TueThur[373F98,D326] 0
@@ -108438,7 +108438,7 @@ z_TueThur[373F98,D327] 0
 z_TueThur[373F98,D463] 0
 z_TueThur[373F98,D362] 0
 z_TueThur[373J12,D428] 0
-z_TueThur[373J12,D429] 0
+z_TueThur[373J12,D429] 1
 z_TueThur[373J12,D394] 0
 z_TueThur[373J12,D462] 0
 z_TueThur[373J12,D395] 0
@@ -108449,7 +108449,7 @@ z_TueThur[373J12,D393] 0
 z_TueThur[373J12,D461] 0
 z_TueThur[373J12,D396] 0
 z_TueThur[373J12,D464] 0
-z_TueThur[373J12,D360] 1
+z_TueThur[373J12,D360] 0
 z_TueThur[373J12,D496] 0
 z_TueThur[373J12,D361] 0
 z_TueThur[373J12,D497] 0
@@ -108460,13 +108460,13 @@ z_TueThur[373J12,D362] 0
 z_WedFri[345C01,D262] 0
 z_WedFri[345C01,D295] 0
 z_WedFri[345C01,D261] 0
-z_WedFri[345C01,D294] 0
+z_WedFri[345C01,D294] 1
 z_WedFri[345C01,D263] 0
 z_WedFri[345C01,D296] 0
 z_WedFri[345C01,D229] 0
 z_WedFri[345C01,D329] 0
 z_WedFri[345C01,D228] 0
-z_WedFri[345C01,D328] 1
+z_WedFri[345C01,D328] 0
 z_WedFri[345C01,D260] 0
 z_WedFri[345C01,D293] 0
 z_WedFri[345C01,D230] 0
@@ -108477,7 +108477,7 @@ z_WedFri[345C01,D327] 0
 z_WedFri[345C01,D297] 0
 z_WedFri[345C01,D197] 0
 z_WedFri[345C01,D363] 0
-z_WedFri[345C03,D294] 0
+z_WedFri[345C03,D294] 1
 z_WedFri[345C03,D261] 0
 z_WedFri[345C03,D295] 0
 z_WedFri[345C03,D262] 0
@@ -108494,13 +108494,13 @@ z_WedFri[345C03,D227] 0
 z_WedFri[345C03,D330] 0
 z_WedFri[345C03,D230] 0
 z_WedFri[345C03,D292] 0
-z_WedFri[345C03,D362] 1
+z_WedFri[345C03,D362] 0
 z_WedFri[345C03,D259] 0
 z_WedFri[345C03,D363] 0
 z_WedFri[345C05,D262] 0
 z_WedFri[345C05,D229] 0
 z_WedFri[345C05,D261] 0
-z_WedFri[345C05,D228] 0
+z_WedFri[345C05,D228] 1
 z_WedFri[345C05,D263] 0
 z_WedFri[345C05,D295] 0
 z_WedFri[345C05,D230] 0
@@ -108509,7 +108509,7 @@ z_WedFri[345C05,D197] 0
 z_WedFri[345C05,D260] 0
 z_WedFri[345C05,D196] 0
 z_WedFri[345C05,D296] 0
-z_WedFri[345C05,D227] 1
+z_WedFri[345C05,D227] 0
 z_WedFri[345C05,D198] 0
 z_WedFri[345C05,D293] 0
 z_WedFri[345C05,D264] 0
@@ -108517,13 +108517,13 @@ z_WedFri[345C05,D231] 0
 z_WedFri[345C05,D329] 0
 z_WedFri[345C05,D195] 0
 z_WedFri[345C05,D328] 0
-z_WedFri[345D03,D228] 0
+z_WedFri[345D03,D228] 1
 z_WedFri[345D03,D229] 0
 z_WedFri[345D03,D196] 0
 z_WedFri[345D03,D197] 0
 z_WedFri[345D03,D261] 0
 z_WedFri[345D03,D262] 0
-z_WedFri[345D03,D227] 1
+z_WedFri[345D03,D227] 0
 z_WedFri[345D03,D230] 0
 z_WedFri[345D03,D195] 0
 z_WedFri[345D03,D198] 0
@@ -108537,13 +108537,13 @@ z_WedFri[345D03,D163] 0
 z_WedFri[345D03,D226] 0
 z_WedFri[345D03,D166] 0
 z_WedFri[345D03,D293] 0
-z_WedFri[345D04,D228] 0
+z_WedFri[345D04,D228] 1
 z_WedFri[345D04,D229] 0
 z_WedFri[345D04,D196] 0
 z_WedFri[345D04,D197] 0
 z_WedFri[345D04,D261] 0
 z_WedFri[345D04,D262] 0
-z_WedFri[345D04,D227] 1
+z_WedFri[345D04,D227] 0
 z_WedFri[345D04,D230] 0
 z_WedFri[345D04,D195] 0
 z_WedFri[345D04,D260] 0
@@ -108558,13 +108558,13 @@ z_WedFri[345D04,D226] 0
 z_WedFri[345D04,D293] 0
 z_WedFri[345D04,D166] 0
 z_WedFri[345D07,D229] 0
-z_WedFri[345D07,D228] 0
+z_WedFri[345D07,D228] 1
 z_WedFri[345D07,D262] 0
 z_WedFri[345D07,D261] 0
 z_WedFri[345D07,D197] 0
 z_WedFri[345D07,D196] 0
 z_WedFri[345D07,D230] 0
-z_WedFri[345D07,D227] 1
+z_WedFri[345D07,D227] 0
 z_WedFri[345D07,D263] 0
 z_WedFri[345D07,D260] 0
 z_WedFri[345D07,D198] 0
@@ -108578,13 +108578,13 @@ z_WedFri[345D07,D293] 0
 z_WedFri[345D07,D231] 0
 z_WedFri[345D07,D264] 0
 z_WedFri[345D08,D229] 0
-z_WedFri[345D08,D228] 0
+z_WedFri[345D08,D228] 1
 z_WedFri[345D08,D262] 0
 z_WedFri[345D08,D261] 0
 z_WedFri[345D08,D197] 0
 z_WedFri[345D08,D196] 0
 z_WedFri[345D08,D230] 0
-z_WedFri[345D08,D227] 1
+z_WedFri[345D08,D227] 0
 z_WedFri[345D08,D263] 0
 z_WedFri[345D08,D198] 0
 z_WedFri[345D08,D260] 0
@@ -108597,11 +108597,11 @@ z_WedFri[345D08,D296] 0
 z_WedFri[345D08,D231] 0
 z_WedFri[345D08,D293] 0
 z_WedFri[345D08,D166] 0
-z_WedFri[345D11,D228] 0
+z_WedFri[345D11,D228] 1
 z_WedFri[345D11,D261] 0
 z_WedFri[345D11,D229] 0
 z_WedFri[345D11,D262] 0
-z_WedFri[345D11,D227] 1
+z_WedFri[345D11,D227] 0
 z_WedFri[345D11,D196] 0
 z_WedFri[345D11,D260] 0
 z_WedFri[345D11,D197] 0
@@ -108619,7 +108619,7 @@ z_WedFri[345D11,D259] 0
 z_WedFri[345D11,D165] 0
 z_WedFri[345D12,D229] 0
 z_WedFri[345D12,D262] 0
-z_WedFri[345D12,D228] 0
+z_WedFri[345D12,D228] 1
 z_WedFri[345D12,D261] 0
 z_WedFri[345D12,D230] 0
 z_WedFri[345D12,D263] 0
@@ -108627,7 +108627,7 @@ z_WedFri[345D12,D197] 0
 z_WedFri[345D12,D196] 0
 z_WedFri[345D12,D295] 0
 z_WedFri[345D12,D294] 0
-z_WedFri[345D12,D227] 1
+z_WedFri[345D12,D227] 0
 z_WedFri[345D12,D260] 0
 z_WedFri[345D12,D198] 0
 z_WedFri[345D12,D296] 0
@@ -108637,13 +108637,13 @@ z_WedFri[345D12,D231] 0
 z_WedFri[345D12,D264] 0
 z_WedFri[345D12,D165] 0
 z_WedFri[345D12,D164] 0
-z_WedFri[345D15,D228] 0
+z_WedFri[345D15,D228] 1
 z_WedFri[345D15,D229] 0
 z_WedFri[345D15,D261] 0
 z_WedFri[345D15,D262] 0
 z_WedFri[345D15,D196] 0
 z_WedFri[345D15,D197] 0
-z_WedFri[345D15,D227] 1
+z_WedFri[345D15,D227] 0
 z_WedFri[345D15,D230] 0
 z_WedFri[345D15,D260] 0
 z_WedFri[345D15,D263] 0
@@ -108657,13 +108657,13 @@ z_WedFri[345D15,D293] 0
 z_WedFri[345D15,D226] 0
 z_WedFri[345D15,D296] 0
 z_WedFri[345D15,D259] 0
-z_WedFri[345D16,D228] 0
+z_WedFri[345D16,D228] 1
 z_WedFri[345D16,D229] 0
 z_WedFri[345D16,D261] 0
 z_WedFri[345D16,D262] 0
 z_WedFri[345D16,D196] 0
 z_WedFri[345D16,D197] 0
-z_WedFri[345D16,D227] 1
+z_WedFri[345D16,D227] 0
 z_WedFri[345D16,D230] 0
 z_WedFri[345D16,D260] 0
 z_WedFri[345D16,D263] 0
@@ -108680,7 +108680,7 @@ z_WedFri[345D16,D231] 0
 z_WedFri[345D19,D262] 0
 z_WedFri[345D19,D261] 0
 z_WedFri[345D19,D295] 0
-z_WedFri[345D19,D294] 0
+z_WedFri[345D19,D294] 1
 z_WedFri[345D19,D229] 0
 z_WedFri[345D19,D228] 0
 z_WedFri[345D19,D263] 0
@@ -108688,7 +108688,7 @@ z_WedFri[345D19,D260] 0
 z_WedFri[345D19,D296] 0
 z_WedFri[345D19,D230] 0
 z_WedFri[345D19,D293] 0
-z_WedFri[345D19,D227] 1
+z_WedFri[345D19,D227] 0
 z_WedFri[345D19,D329] 0
 z_WedFri[345D19,D328] 0
 z_WedFri[345D19,D197] 0
@@ -108700,7 +108700,7 @@ z_WedFri[345D19,D327] 0
 z_WedFri[345D20,D262] 0
 z_WedFri[345D20,D261] 0
 z_WedFri[345D20,D295] 0
-z_WedFri[345D20,D294] 0
+z_WedFri[345D20,D294] 1
 z_WedFri[345D20,D229] 0
 z_WedFri[345D20,D228] 0
 z_WedFri[345D20,D263] 0
@@ -108714,7 +108714,7 @@ z_WedFri[345D20,D328] 0
 z_WedFri[345D20,D197] 0
 z_WedFri[345D20,D196] 0
 z_WedFri[345D20,D330] 0
-z_WedFri[345D20,D327] 1
+z_WedFri[345D20,D327] 0
 z_WedFri[345D20,D264] 0
 z_WedFri[345D20,D259] 0
 z_WedFri[345D23,D262] 0
@@ -108722,7 +108722,7 @@ z_WedFri[345D23,D261] 0
 z_WedFri[345D23,D229] 0
 z_WedFri[345D23,D295] 0
 z_WedFri[345D23,D263] 0
-z_WedFri[345D23,D228] 0
+z_WedFri[345D23,D228] 1
 z_WedFri[345D23,D294] 0
 z_WedFri[345D23,D230] 0
 z_WedFri[345D23,D296] 0
@@ -108732,7 +108732,7 @@ z_WedFri[345D23,D227] 0
 z_WedFri[345D23,D329] 0
 z_WedFri[345D23,D293] 0
 z_WedFri[345D23,D196] 0
-z_WedFri[345D23,D328] 1
+z_WedFri[345D23,D328] 0
 z_WedFri[345D23,D264] 0
 z_WedFri[345D23,D198] 0
 z_WedFri[345D23,D330] 0
@@ -108741,7 +108741,7 @@ z_WedFri[345D24,D262] 0
 z_WedFri[345D24,D261] 0
 z_WedFri[345D24,D229] 0
 z_WedFri[345D24,D295] 0
-z_WedFri[345D24,D228] 0
+z_WedFri[345D24,D228] 1
 z_WedFri[345D24,D263] 0
 z_WedFri[345D24,D294] 0
 z_WedFri[345D24,D230] 0
@@ -108753,12 +108753,12 @@ z_WedFri[345D24,D196] 0
 z_WedFri[345D24,D293] 0
 z_WedFri[345D24,D329] 0
 z_WedFri[345D24,D264] 0
-z_WedFri[345D24,D328] 1
+z_WedFri[345D24,D328] 0
 z_WedFri[345D24,D198] 0
 z_WedFri[345D24,D231] 0
 z_WedFri[345D24,D330] 0
 z_WedFri[345D27,D295] 0
-z_WedFri[345D27,D294] 0
+z_WedFri[345D27,D294] 1
 z_WedFri[345D27,D262] 0
 z_WedFri[345D27,D329] 0
 z_WedFri[345D27,D261] 0
@@ -108776,9 +108776,9 @@ z_WedFri[345D27,D362] 0
 z_WedFri[345D27,D297] 0
 z_WedFri[345D27,D230] 0
 z_WedFri[345D27,D364] 0
-z_WedFri[345D27,D227] 1
+z_WedFri[345D27,D227] 0
 z_WedFri[345D28,D295] 0
-z_WedFri[345D28,D294] 0
+z_WedFri[345D28,D294] 1
 z_WedFri[345D28,D262] 0
 z_WedFri[345D28,D329] 0
 z_WedFri[345D28,D261] 0
@@ -108791,14 +108791,14 @@ z_WedFri[345D28,D229] 0
 z_WedFri[345D28,D260] 0
 z_WedFri[345D28,D327] 0
 z_WedFri[345D28,D228] 0
-z_WedFri[345D28,D363] 1
+z_WedFri[345D28,D363] 0
 z_WedFri[345D28,D362] 0
 z_WedFri[345D28,D297] 0
 z_WedFri[345D28,D230] 0
 z_WedFri[345D28,D364] 0
 z_WedFri[345D28,D264] 0
-z_WedFri[345D31,D294] 0
-z_WedFri[345D31,D328] 1
+z_WedFri[345D31,D294] 1
+z_WedFri[345D31,D328] 0
 z_WedFri[345D31,D295] 0
 z_WedFri[345D31,D293] 0
 z_WedFri[345D31,D261] 0
@@ -108817,8 +108817,8 @@ z_WedFri[345D31,D263] 0
 z_WedFri[345D31,D326] 0
 z_WedFri[345D31,D229] 0
 z_WedFri[345D31,D259] 0
-z_WedFri[345D32,D294] 0
-z_WedFri[345D32,D328] 1
+z_WedFri[345D32,D294] 1
+z_WedFri[345D32,D328] 0
 z_WedFri[345D32,D295] 0
 z_WedFri[345D32,D293] 0
 z_WedFri[345D32,D261] 0
@@ -108837,7 +108837,7 @@ z_WedFri[345D32,D326] 0
 z_WedFri[345D32,D263] 0
 z_WedFri[345D32,D259] 0
 z_WedFri[345D32,D229] 0
-z_WedFri[345D35,D294] 0
+z_WedFri[345D35,D294] 1
 z_WedFri[345D35,D295] 0
 z_WedFri[345D35,D261] 0
 z_WedFri[345D35,D328] 0
@@ -108851,17 +108851,17 @@ z_WedFri[345D35,D263] 0
 z_WedFri[345D35,D228] 0
 z_WedFri[345D35,D330] 0
 z_WedFri[345D35,D229] 0
-z_WedFri[345D35,D362] 1
+z_WedFri[345D35,D362] 0
 z_WedFri[345D35,D363] 0
 z_WedFri[345D35,D292] 0
 z_WedFri[345D35,D227] 0
 z_WedFri[345D35,D361] 0
 z_WedFri[345D35,D259] 0
-z_WedFri[345D36,D294] 0
+z_WedFri[345D36,D294] 1
 z_WedFri[345D36,D295] 0
 z_WedFri[345D36,D261] 0
 z_WedFri[345D36,D262] 0
-z_WedFri[345D36,D328] 1
+z_WedFri[345D36,D328] 0
 z_WedFri[345D36,D293] 0
 z_WedFri[345D36,D329] 0
 z_WedFri[345D36,D260] 0
@@ -108877,12 +108877,12 @@ z_WedFri[345D36,D292] 0
 z_WedFri[345D36,D363] 0
 z_WedFri[345D36,D259] 0
 z_WedFri[345D36,D361] 0
-z_WedFri[345D39,D294] 0
+z_WedFri[345D39,D294] 1
 z_WedFri[345D39,D293] 0
 z_WedFri[345D39,D328] 0
 z_WedFri[345D39,D261] 0
 z_WedFri[345D39,D295] 0
-z_WedFri[345D39,D327] 1
+z_WedFri[345D39,D327] 0
 z_WedFri[345D39,D260] 0
 z_WedFri[345D39,D329] 0
 z_WedFri[345D39,D262] 0
@@ -108897,7 +108897,7 @@ z_WedFri[345D39,D227] 0
 z_WedFri[345D39,D363] 0
 z_WedFri[345D39,D229] 0
 z_WedFri[345D39,D330] 0
-z_WedFri[345D40,D294] 0
+z_WedFri[345D40,D294] 1
 z_WedFri[345D40,D293] 0
 z_WedFri[345D40,D261] 0
 z_WedFri[345D40,D328] 0
@@ -108915,13 +108915,13 @@ z_WedFri[345D40,D326] 0
 z_WedFri[345D40,D227] 0
 z_WedFri[345D40,D361] 0
 z_WedFri[345D40,D229] 0
-z_WedFri[345D40,D363] 1
+z_WedFri[345D40,D363] 0
 z_WedFri[345D40,D263] 0
-z_WedFri[345D43,D294] 0
+z_WedFri[345D43,D294] 1
 z_WedFri[345D43,D261] 0
 z_WedFri[345D43,D295] 0
 z_WedFri[345D43,D293] 0
-z_WedFri[345D43,D328] 1
+z_WedFri[345D43,D328] 0
 z_WedFri[345D43,D262] 0
 z_WedFri[345D43,D260] 0
 z_WedFri[345D43,D329] 0
@@ -108937,11 +108937,11 @@ z_WedFri[345D43,D362] 0
 z_WedFri[345D43,D330] 0
 z_WedFri[345D43,D326] 0
 z_WedFri[345D43,D363] 0
-z_WedFri[345D44,D294] 0
+z_WedFri[345D44,D294] 1
 z_WedFri[345D44,D261] 0
 z_WedFri[345D44,D295] 0
 z_WedFri[345D44,D293] 0
-z_WedFri[345D44,D328] 1
+z_WedFri[345D44,D328] 0
 z_WedFri[345D44,D262] 0
 z_WedFri[345D44,D260] 0
 z_WedFri[345D44,D329] 0
@@ -108957,9 +108957,9 @@ z_WedFri[345D44,D259] 0
 z_WedFri[345D44,D330] 0
 z_WedFri[345D44,D326] 0
 z_WedFri[345D44,D363] 0
-z_WedFri[345D47,D294] 0
+z_WedFri[345D47,D294] 1
 z_WedFri[345D47,D293] 0
-z_WedFri[345D47,D328] 1
+z_WedFri[345D47,D328] 0
 z_WedFri[345D47,D327] 0
 z_WedFri[345D47,D261] 0
 z_WedFri[345D47,D260] 0
@@ -108977,7 +108977,7 @@ z_WedFri[345D47,D363] 0
 z_WedFri[345D47,D296] 0
 z_WedFri[345D47,D229] 0
 z_WedFri[345D47,D360] 0
-z_WedFri[345D48,D294] 0
+z_WedFri[345D48,D294] 1
 z_WedFri[345D48,D293] 0
 z_WedFri[345D48,D328] 0
 z_WedFri[345D48,D327] 0
@@ -108995,9 +108995,9 @@ z_WedFri[345D48,D228] 0
 z_WedFri[345D48,D363] 0
 z_WedFri[345D48,D227] 0
 z_WedFri[345D48,D296] 0
-z_WedFri[345D48,D360] 1
+z_WedFri[345D48,D360] 0
 z_WedFri[345D48,D330] 0
-z_WedFri[345D51,D294] 0
+z_WedFri[345D51,D294] 1
 z_WedFri[345D51,D293] 0
 z_WedFri[345D51,D261] 0
 z_WedFri[345D51,D260] 0
@@ -109009,7 +109009,7 @@ z_WedFri[345D51,D262] 0
 z_WedFri[345D51,D259] 0
 z_WedFri[345D51,D329] 0
 z_WedFri[345D51,D228] 0
-z_WedFri[345D51,D227] 1
+z_WedFri[345D51,D227] 0
 z_WedFri[345D51,D326] 0
 z_WedFri[345D51,D362] 0
 z_WedFri[345D51,D361] 0
@@ -109017,11 +109017,11 @@ z_WedFri[345D51,D229] 0
 z_WedFri[345D51,D226] 0
 z_WedFri[345D51,D296] 0
 z_WedFri[345D51,D291] 0
-z_WedFri[345D52,D294] 0
+z_WedFri[345D52,D294] 1
 z_WedFri[345D52,D293] 0
 z_WedFri[345D52,D261] 0
 z_WedFri[345D52,D260] 0
-z_WedFri[345D52,D328] 1
+z_WedFri[345D52,D328] 0
 z_WedFri[345D52,D327] 0
 z_WedFri[345D52,D295] 0
 z_WedFri[345D52,D292] 0
@@ -109037,13 +109037,13 @@ z_WedFri[345D52,D229] 0
 z_WedFri[345D52,D296] 0
 z_WedFri[345D52,D226] 0
 z_WedFri[345D52,D363] 0
-z_WedFri[345D55,D294] 0
+z_WedFri[345D55,D294] 1
 z_WedFri[345D55,D293] 0
 z_WedFri[345D55,D261] 0
 z_WedFri[345D55,D328] 0
 z_WedFri[345D55,D260] 0
 z_WedFri[345D55,D295] 0
-z_WedFri[345D55,D327] 1
+z_WedFri[345D55,D327] 0
 z_WedFri[345D55,D262] 0
 z_WedFri[345D55,D329] 0
 z_WedFri[345D55,D292] 0
@@ -109057,9 +109057,9 @@ z_WedFri[345D55,D296] 0
 z_WedFri[345D55,D229] 0
 z_WedFri[345D55,D363] 0
 z_WedFri[345D55,D263] 0
-z_WedFri[345D56,D294] 0
+z_WedFri[345D56,D294] 1
 z_WedFri[345D56,D293] 0
-z_WedFri[345D56,D328] 1
+z_WedFri[345D56,D328] 0
 z_WedFri[345D56,D261] 0
 z_WedFri[345D56,D327] 0
 z_WedFri[345D56,D260] 0
@@ -109077,8 +109077,8 @@ z_WedFri[345D56,D296] 0
 z_WedFri[345D56,D363] 0
 z_WedFri[345D56,D229] 0
 z_WedFri[345D56,D330] 0
-z_WedFri[345D59,D294] 0
-z_WedFri[345D59,D328] 1
+z_WedFri[345D59,D294] 1
+z_WedFri[345D59,D328] 0
 z_WedFri[345D59,D293] 0
 z_WedFri[345D59,D327] 0
 z_WedFri[345D59,D295] 0
@@ -109097,8 +109097,8 @@ z_WedFri[345D59,D228] 0
 z_WedFri[345D59,D330] 0
 z_WedFri[345D59,D227] 0
 z_WedFri[345D59,D263] 0
-z_WedFri[345D60,D294] 0
-z_WedFri[345D60,D328] 1
+z_WedFri[345D60,D294] 1
+z_WedFri[345D60,D328] 0
 z_WedFri[345D60,D295] 0
 z_WedFri[345D60,D293] 0
 z_WedFri[345D60,D329] 0
@@ -109117,9 +109117,9 @@ z_WedFri[345D60,D228] 0
 z_WedFri[345D60,D263] 0
 z_WedFri[345D60,D259] 0
 z_WedFri[345D60,D229] 0
-z_WedFri[345F01,D228] 0
+z_WedFri[345F01,D228] 1
 z_WedFri[345F01,D261] 0
-z_WedFri[345F01,D227] 1
+z_WedFri[345F01,D227] 0
 z_WedFri[345F01,D260] 0
 z_WedFri[345F01,D229] 0
 z_WedFri[345F01,D196] 0
@@ -109137,10 +109137,10 @@ z_WedFri[345F01,D263] 0
 z_WedFri[345F01,D164] 0
 z_WedFri[345F01,D163] 0
 z_WedFri[345F01,D198] 0
-z_WedFri[345F02,D228] 0
+z_WedFri[345F02,D228] 1
 z_WedFri[345F02,D261] 0
 z_WedFri[345F02,D229] 0
-z_WedFri[345F02,D227] 1
+z_WedFri[345F02,D227] 0
 z_WedFri[345F02,D262] 0
 z_WedFri[345F02,D260] 0
 z_WedFri[345F02,D196] 0
@@ -109157,8 +109157,8 @@ z_WedFri[345F02,D164] 0
 z_WedFri[345F02,D198] 0
 z_WedFri[345F02,D194] 0
 z_WedFri[345F02,D165] 0
-z_WedFri[345F03,D228] 0
-z_WedFri[345F03,D227] 1
+z_WedFri[345F03,D228] 1
+z_WedFri[345F03,D227] 0
 z_WedFri[345F03,D261] 0
 z_WedFri[345F03,D196] 0
 z_WedFri[345F03,D229] 0
@@ -109177,9 +109177,9 @@ z_WedFri[345F03,D163] 0
 z_WedFri[345F03,D295] 0
 z_WedFri[345F03,D165] 0
 z_WedFri[345F03,D263] 0
-z_WedFri[345F07,D228] 0
+z_WedFri[345F07,D228] 1
 z_WedFri[345F07,D196] 0
-z_WedFri[345F07,D227] 1
+z_WedFri[345F07,D227] 0
 z_WedFri[345F07,D195] 0
 z_WedFri[345F07,D229] 0
 z_WedFri[345F07,D197] 0
@@ -109197,9 +109197,9 @@ z_WedFri[345F07,D259] 0
 z_WedFri[345F07,D162] 0
 z_WedFri[345F07,D294] 0
 z_WedFri[345F07,D293] 0
-z_WedFri[345F08,D228] 0
+z_WedFri[345F08,D228] 1
 z_WedFri[345F08,D196] 0
-z_WedFri[345F08,D227] 1
+z_WedFri[345F08,D227] 0
 z_WedFri[345F08,D195] 0
 z_WedFri[345F08,D229] 0
 z_WedFri[345F08,D261] 0
@@ -109217,8 +109217,8 @@ z_WedFri[345F08,D294] 0
 z_WedFri[345F08,D198] 0
 z_WedFri[345F08,D293] 0
 z_WedFri[345F08,D263] 0
-z_WedFri[345F09,D228] 0
-z_WedFri[345F09,D227] 1
+z_WedFri[345F09,D228] 1
+z_WedFri[345F09,D227] 0
 z_WedFri[345F09,D196] 0
 z_WedFri[345F09,D195] 0
 z_WedFri[345F09,D261] 0
@@ -109237,9 +109237,9 @@ z_WedFri[345F09,D293] 0
 z_WedFri[345F09,D230] 0
 z_WedFri[345F09,D198] 0
 z_WedFri[345F09,D162] 0
-z_WedFri[345F18,D227] 1
+z_WedFri[345F18,D227] 0
 z_WedFri[345F18,D226] 0
-z_WedFri[345F18,D260] 0
+z_WedFri[345F18,D260] 1
 z_WedFri[345F18,D195] 0
 z_WedFri[345F18,D228] 0
 z_WedFri[345F18,D259] 0
@@ -109257,10 +109257,10 @@ z_WedFri[345F18,D294] 0
 z_WedFri[345F18,D162] 0
 z_WedFri[345F18,D262] 0
 z_WedFri[345F18,D164] 0
-z_WedFri[345F19,D227] 1
+z_WedFri[345F19,D227] 0
 z_WedFri[345F19,D226] 0
 z_WedFri[345F19,D195] 0
-z_WedFri[345F19,D260] 0
+z_WedFri[345F19,D260] 1
 z_WedFri[345F19,D194] 0
 z_WedFri[345F19,D259] 0
 z_WedFri[345F19,D228] 0
@@ -109278,7 +109278,7 @@ z_WedFri[345F19,D164] 0
 z_WedFri[345F19,D294] 0
 z_WedFri[345F19,D197] 0
 z_WedFri[345F20,D227] 0
-z_WedFri[345F20,D260] 0
+z_WedFri[345F20,D260] 1
 z_WedFri[345F20,D228] 0
 z_WedFri[345F20,D226] 0
 z_WedFri[345F20,D195] 0
@@ -109292,13 +109292,13 @@ z_WedFri[345F20,D225] 0
 z_WedFri[345F20,D294] 0
 z_WedFri[345F20,D292] 0
 z_WedFri[345F20,D262] 0
-z_WedFri[345F20,D258] 1
+z_WedFri[345F20,D258] 0
 z_WedFri[345F20,D163] 0
 z_WedFri[345F20,D197] 0
 z_WedFri[345F20,D193] 0
 z_WedFri[345F20,D164] 0
-z_WedFri[345F21,D227] 1
-z_WedFri[345F21,D260] 0
+z_WedFri[345F21,D227] 0
+z_WedFri[345F21,D260] 1
 z_WedFri[345F21,D228] 0
 z_WedFri[345F21,D226] 0
 z_WedFri[345F21,D261] 0
@@ -109317,8 +109317,8 @@ z_WedFri[345F21,D163] 0
 z_WedFri[345F21,D197] 0
 z_WedFri[345F21,D193] 0
 z_WedFri[345F21,D295] 0
-z_WedFri[345F22,D227] 1
-z_WedFri[345F22,D260] 0
+z_WedFri[345F22,D227] 0
+z_WedFri[345F22,D260] 1
 z_WedFri[345F22,D226] 0
 z_WedFri[345F22,D259] 0
 z_WedFri[345F22,D228] 0
@@ -109337,8 +109337,8 @@ z_WedFri[345F22,D193] 0
 z_WedFri[345F22,D291] 0
 z_WedFri[345F22,D163] 0
 z_WedFri[345F22,D327] 0
-z_WedFri[345F23,D227] 1
-z_WedFri[345F23,D260] 0
+z_WedFri[345F23,D227] 0
+z_WedFri[345F23,D260] 1
 z_WedFri[345F23,D226] 0
 z_WedFri[345F23,D259] 0
 z_WedFri[345F23,D228] 0
@@ -109417,7 +109417,7 @@ z_WedFri[351F25,D260] 0
 z_WedFri[351F25,D261] 0
 z_WedFri[351F25,D325] 0
 z_WedFri[351F25,D330] 0
-z_WedFri[351F28,D361] 0
+z_WedFri[351F28,D361] 1
 z_WedFri[351F28,D362] 0
 z_WedFri[351F28,D327] 0
 z_WedFri[351F28,D328] 0
@@ -109433,7 +109433,7 @@ z_WedFri[351F28,D394] 0
 z_WedFri[351F28,D397] 0
 z_WedFri[351F28,D292] 0
 z_WedFri[351F28,D295] 0
-z_WedFri[351F28,D429] 1
+z_WedFri[351F28,D429] 0
 z_WedFri[351F28,D430] 0
 z_WedFri[351F28,D359] 0
 z_WedFri[351F28,D364] 0
@@ -109457,8 +109457,8 @@ z_WedFri[351F29,D295] 0
 z_WedFri[351F29,D292] 0
 z_WedFri[351F29,D364] 0
 z_WedFri[351F29,D359] 0
-z_WedFri[351F30,D361] 0
-z_WedFri[351F30,D327] 1
+z_WedFri[351F30,D361] 1
+z_WedFri[351F30,D327] 0
 z_WedFri[351F30,D362] 0
 z_WedFri[351F30,D328] 0
 z_WedFri[351F30,D360] 0
@@ -109477,8 +109477,8 @@ z_WedFri[351F30,D325] 0
 z_WedFri[351F30,D429] 0
 z_WedFri[351F30,D295] 0
 z_WedFri[351F30,D430] 0
-z_WedFri[351F31,D361] 0
-z_WedFri[351F31,D362] 1
+z_WedFri[351F31,D361] 1
+z_WedFri[351F31,D362] 0
 z_WedFri[351F31,D327] 0
 z_WedFri[351F31,D328] 0
 z_WedFri[351F31,D395] 0
@@ -109497,8 +109497,8 @@ z_WedFri[351F31,D359] 0
 z_WedFri[351F31,D430] 0
 z_WedFri[351F31,D325] 0
 z_WedFri[351F31,D295] 0
-z_WedFri[351F32,D361] 0
-z_WedFri[351F32,D362] 1
+z_WedFri[351F32,D361] 1
+z_WedFri[351F32,D362] 0
 z_WedFri[351F32,D327] 0
 z_WedFri[351F32,D328] 0
 z_WedFri[351F32,D395] 0
@@ -109517,7 +109517,7 @@ z_WedFri[351F32,D359] 0
 z_WedFri[351F32,D430] 0
 z_WedFri[351F32,D295] 0
 z_WedFri[351F32,D325] 0
-z_WedFri[351F33,D361] 0
+z_WedFri[351F33,D361] 1
 z_WedFri[351F33,D362] 0
 z_WedFri[351F33,D327] 0
 z_WedFri[351F33,D395] 0
@@ -109526,7 +109526,7 @@ z_WedFri[351F33,D396] 0
 z_WedFri[351F33,D360] 0
 z_WedFri[351F33,D326] 0
 z_WedFri[351F33,D394] 0
-z_WedFri[351F33,D363] 1
+z_WedFri[351F33,D363] 0
 z_WedFri[351F33,D329] 0
 z_WedFri[351F33,D397] 0
 z_WedFri[351F33,D293] 0
@@ -109537,8 +109537,8 @@ z_WedFri[351F33,D359] 0
 z_WedFri[351F33,D292] 0
 z_WedFri[351F33,D428] 0
 z_WedFri[351F33,D325] 0
-z_WedFri[351F34,D361] 0
-z_WedFri[351F34,D362] 1
+z_WedFri[351F34,D361] 1
+z_WedFri[351F34,D362] 0
 z_WedFri[351F34,D327] 0
 z_WedFri[351F34,D328] 0
 z_WedFri[351F34,D395] 0
@@ -109577,7 +109577,7 @@ z_WedFri[351J28,D429] 0
 z_WedFri[351J28,D292] 0
 z_WedFri[351J28,D364] 0
 z_WedFri[351J28,D330] 0
-z_WedFri[351J31,D361] 0
+z_WedFri[351J31,D361] 1
 z_WedFri[351J31,D362] 0
 z_WedFri[351J31,D327] 0
 z_WedFri[351J31,D395] 0
@@ -109586,7 +109586,7 @@ z_WedFri[351J31,D360] 0
 z_WedFri[351J31,D396] 0
 z_WedFri[351J31,D326] 0
 z_WedFri[351J31,D394] 0
-z_WedFri[351J31,D363] 1
+z_WedFri[351J31,D363] 0
 z_WedFri[351J31,D293] 0
 z_WedFri[351J31,D329] 0
 z_WedFri[351J31,D294] 0
@@ -109597,14 +109597,14 @@ z_WedFri[351J31,D292] 0
 z_WedFri[351J31,D430] 0
 z_WedFri[351J31,D325] 0
 z_WedFri[351J31,D428] 0
-z_WedFri[351J33,D361] 0
+z_WedFri[351J33,D361] 1
 z_WedFri[351J33,D362] 0
 z_WedFri[351J33,D327] 0
 z_WedFri[351J33,D395] 0
 z_WedFri[351J33,D328] 0
 z_WedFri[351J33,D396] 0
 z_WedFri[351J33,D360] 0
-z_WedFri[351J33,D363] 1
+z_WedFri[351J33,D363] 0
 z_WedFri[351J33,D326] 0
 z_WedFri[351J33,D394] 0
 z_WedFri[351J33,D329] 0
@@ -109617,8 +109617,8 @@ z_WedFri[351J33,D359] 0
 z_WedFri[351J33,D292] 0
 z_WedFri[351J33,D428] 0
 z_WedFri[351J33,D295] 0
-z_WedFri[351J34,D361] 0
-z_WedFri[351J34,D362] 1
+z_WedFri[351J34,D361] 1
+z_WedFri[351J34,D362] 0
 z_WedFri[351J34,D327] 0
 z_WedFri[351J34,D328] 0
 z_WedFri[351J34,D395] 0
@@ -109638,9 +109638,9 @@ z_WedFri[351J34,D295] 0
 z_WedFri[351J34,D359] 0
 z_WedFri[351J34,D325] 0
 z_WedFri[352C01,D330] 0
-z_WedFri[352C01,D329] 0
+z_WedFri[352C01,D329] 1
 z_WedFri[352C01,D364] 0
-z_WedFri[352C01,D363] 1
+z_WedFri[352C01,D363] 0
 z_WedFri[352C01,D296] 0
 z_WedFri[352C01,D331] 0
 z_WedFri[352C01,D295] 0
@@ -109657,10 +109657,10 @@ z_WedFri[352C01,D263] 0
 z_WedFri[352C01,D262] 0
 z_WedFri[352C01,D332] 0
 z_WedFri[352C01,D366] 0
-z_WedFri[352C03,D329] 0
+z_WedFri[352C03,D329] 1
 z_WedFri[352C03,D330] 0
 z_WedFri[352C03,D295] 0
-z_WedFri[352C03,D363] 1
+z_WedFri[352C03,D363] 0
 z_WedFri[352C03,D296] 0
 z_WedFri[352C03,D364] 0
 z_WedFri[352C03,D328] 0
@@ -109677,9 +109677,9 @@ z_WedFri[352C03,D327] 0
 z_WedFri[352C03,D261] 0
 z_WedFri[352C03,D396] 0
 z_WedFri[352C03,D293] 0
-z_WedFri[352C05,D329] 0
+z_WedFri[352C05,D329] 1
 z_WedFri[352C05,D330] 0
-z_WedFri[352C05,D363] 1
+z_WedFri[352C05,D363] 0
 z_WedFri[352C05,D295] 0
 z_WedFri[352C05,D364] 0
 z_WedFri[352C05,D296] 0
@@ -109697,7 +109697,7 @@ z_WedFri[352C05,D327] 0
 z_WedFri[352C05,D396] 0
 z_WedFri[352C05,D261] 0
 z_WedFri[352C05,D361] 0
-z_WedFri[352C07,D363] 0
+z_WedFri[352C07,D363] 1
 z_WedFri[352C07,D329] 0
 z_WedFri[352C07,D364] 0
 z_WedFri[352C07,D330] 0
@@ -109712,17 +109712,17 @@ z_WedFri[352C07,D365] 0
 z_WedFri[352C07,D331] 0
 z_WedFri[352C07,D294] 0
 z_WedFri[352C07,D361] 0
-z_WedFri[352C07,D327] 1
+z_WedFri[352C07,D327] 0
 z_WedFri[352C07,D399] 0
 z_WedFri[352C07,D431] 0
 z_WedFri[352C07,D297] 0
 z_WedFri[352C07,D432] 0
-z_WedFri[352C09,D363] 0
+z_WedFri[352C09,D363] 1
 z_WedFri[352C09,D329] 0
 z_WedFri[352C09,D364] 0
 z_WedFri[352C09,D330] 0
 z_WedFri[352C09,D362] 0
-z_WedFri[352C09,D328] 1
+z_WedFri[352C09,D328] 0
 z_WedFri[352C09,D397] 0
 z_WedFri[352C09,D398] 0
 z_WedFri[352C09,D295] 0
@@ -109817,12 +109817,12 @@ z_WedFri[352D08,D361] 0
 z_WedFri[352D08,D395] 0
 z_WedFri[352D08,D295] 0
 z_WedFri[352D08,D296] 0
-z_WedFri[352D11,D363] 0
+z_WedFri[352D11,D363] 1
 z_WedFri[352D11,D364] 0
 z_WedFri[352D11,D397] 0
 z_WedFri[352D11,D398] 0
 z_WedFri[352D11,D329] 0
-z_WedFri[352D11,D362] 1
+z_WedFri[352D11,D362] 0
 z_WedFri[352D11,D330] 0
 z_WedFri[352D11,D396] 0
 z_WedFri[352D11,D328] 0
@@ -109877,7 +109877,7 @@ z_WedFri[352D15,D297] 0
 z_WedFri[352D15,D432] 0
 z_WedFri[352D15,D361] 0
 z_WedFri[352D15,D366] 0
-z_WedFri[352D16,D363] 0
+z_WedFri[352D16,D363] 1
 z_WedFri[352D16,D364] 0
 z_WedFri[352D16,D329] 0
 z_WedFri[352D16,D330] 0
@@ -109885,7 +109885,7 @@ z_WedFri[352D16,D397] 0
 z_WedFri[352D16,D398] 0
 z_WedFri[352D16,D362] 0
 z_WedFri[352D16,D365] 0
-z_WedFri[352D16,D328] 1
+z_WedFri[352D16,D328] 0
 z_WedFri[352D16,D331] 0
 z_WedFri[352D16,D396] 0
 z_WedFri[352D16,D399] 0
@@ -110137,8 +110137,8 @@ z_WedFri[352D40,D430] 0
 z_WedFri[352D40,D431] 0
 z_WedFri[352D40,D360] 0
 z_WedFri[352D40,D326] 0
-z_WedFri[352D43,D329] 0
-z_WedFri[352D43,D363] 1
+z_WedFri[352D43,D329] 1
+z_WedFri[352D43,D363] 0
 z_WedFri[352D43,D328] 0
 z_WedFri[352D43,D362] 0
 z_WedFri[352D43,D330] 0
@@ -110157,8 +110157,8 @@ z_WedFri[352D43,D331] 0
 z_WedFri[352D43,D365] 0
 z_WedFri[352D43,D262] 0
 z_WedFri[352D43,D261] 0
-z_WedFri[352D44,D329] 0
-z_WedFri[352D44,D363] 1
+z_WedFri[352D44,D329] 1
+z_WedFri[352D44,D363] 0
 z_WedFri[352D44,D328] 0
 z_WedFri[352D44,D362] 0
 z_WedFri[352D44,D330] 0
@@ -110177,8 +110177,8 @@ z_WedFri[352D44,D331] 0
 z_WedFri[352D44,D365] 0
 z_WedFri[352D44,D262] 0
 z_WedFri[352D44,D431] 0
-z_WedFri[352D47,D329] 0
-z_WedFri[352D47,D363] 1
+z_WedFri[352D47,D329] 1
+z_WedFri[352D47,D363] 0
 z_WedFri[352D47,D330] 0
 z_WedFri[352D47,D364] 0
 z_WedFri[352D47,D328] 0
@@ -110197,8 +110197,8 @@ z_WedFri[352D47,D361] 0
 z_WedFri[352D47,D399] 0
 z_WedFri[352D47,D262] 0
 z_WedFri[352D47,D263] 0
-z_WedFri[352D48,D329] 0
-z_WedFri[352D48,D363] 1
+z_WedFri[352D48,D329] 1
+z_WedFri[352D48,D363] 0
 z_WedFri[352D48,D330] 0
 z_WedFri[352D48,D328] 0
 z_WedFri[352D48,D364] 0
@@ -110217,8 +110217,8 @@ z_WedFri[352D48,D262] 0
 z_WedFri[352D48,D297] 0
 z_WedFri[352D48,D293] 0
 z_WedFri[352D48,D399] 0
-z_WedFri[352D51,D329] 0
-z_WedFri[352D51,D363] 1
+z_WedFri[352D51,D329] 1
+z_WedFri[352D51,D363] 0
 z_WedFri[352D51,D330] 0
 z_WedFri[352D51,D328] 0
 z_WedFri[352D51,D364] 0
@@ -110237,9 +110237,9 @@ z_WedFri[352D51,D262] 0
 z_WedFri[352D51,D297] 0
 z_WedFri[352D51,D263] 0
 z_WedFri[352D51,D293] 0
-z_WedFri[352D52,D329] 0
+z_WedFri[352D52,D329] 1
 z_WedFri[352D52,D363] 0
-z_WedFri[352D52,D328] 1
+z_WedFri[352D52,D328] 0
 z_WedFri[352D52,D330] 0
 z_WedFri[352D52,D362] 0
 z_WedFri[352D52,D295] 0
@@ -110257,9 +110257,9 @@ z_WedFri[352D52,D293] 0
 z_WedFri[352D52,D365] 0
 z_WedFri[352D52,D261] 0
 z_WedFri[352D52,D297] 0
-z_WedFri[352D55,D329] 0
+z_WedFri[352D55,D329] 1
 z_WedFri[352D55,D330] 0
-z_WedFri[352D55,D363] 1
+z_WedFri[352D55,D363] 0
 z_WedFri[352D55,D295] 0
 z_WedFri[352D55,D328] 0
 z_WedFri[352D55,D364] 0
@@ -110277,9 +110277,9 @@ z_WedFri[352D55,D263] 0
 z_WedFri[352D55,D396] 0
 z_WedFri[352D55,D261] 0
 z_WedFri[352D55,D361] 0
-z_WedFri[352D56,D329] 0
+z_WedFri[352D56,D329] 1
 z_WedFri[352D56,D330] 0
-z_WedFri[352D56,D363] 1
+z_WedFri[352D56,D363] 0
 z_WedFri[352D56,D295] 0
 z_WedFri[352D56,D328] 0
 z_WedFri[352D56,D364] 0
@@ -110297,10 +110297,10 @@ z_WedFri[352D56,D396] 0
 z_WedFri[352D56,D263] 0
 z_WedFri[352D56,D361] 0
 z_WedFri[352D56,D261] 0
-z_WedFri[352D59,D329] 0
+z_WedFri[352D59,D329] 1
 z_WedFri[352D59,D295] 0
 z_WedFri[352D59,D330] 0
-z_WedFri[352D59,D328] 1
+z_WedFri[352D59,D328] 0
 z_WedFri[352D59,D363] 0
 z_WedFri[352D59,D296] 0
 z_WedFri[352D59,D294] 0
@@ -110317,10 +110317,10 @@ z_WedFri[352D59,D365] 0
 z_WedFri[352D59,D293] 0
 z_WedFri[352D59,D398] 0
 z_WedFri[352D59,D361] 0
-z_WedFri[352D60,D329] 0
+z_WedFri[352D60,D329] 1
 z_WedFri[352D60,D295] 0
 z_WedFri[352D60,D330] 0
-z_WedFri[352D60,D328] 1
+z_WedFri[352D60,D328] 0
 z_WedFri[352D60,D363] 0
 z_WedFri[352D60,D296] 0
 z_WedFri[352D60,D294] 0
@@ -110337,11 +110337,11 @@ z_WedFri[352D60,D293] 0
 z_WedFri[352D60,D365] 0
 z_WedFri[352D60,D361] 0
 z_WedFri[352D60,D398] 0
-z_WedFri[352D63,D329] 0
+z_WedFri[352D63,D329] 1
 z_WedFri[352D63,D295] 0
 z_WedFri[352D63,D330] 0
 z_WedFri[352D63,D296] 0
-z_WedFri[352D63,D328] 1
+z_WedFri[352D63,D328] 0
 z_WedFri[352D63,D294] 0
 z_WedFri[352D63,D363] 0
 z_WedFri[352D63,D364] 0
@@ -110358,7 +110358,7 @@ z_WedFri[352D63,D293] 0
 z_WedFri[352D63,D397] 0
 z_WedFri[352D63,D398] 0
 z_WedFri[352D64,D295] 0
-z_WedFri[352D64,D329] 0
+z_WedFri[352D64,D329] 1
 z_WedFri[352D64,D296] 0
 z_WedFri[352D64,D294] 0
 z_WedFri[352D64,D330] 0
@@ -110368,7 +110368,7 @@ z_WedFri[352D64,D363] 0
 z_WedFri[352D64,D263] 0
 z_WedFri[352D64,D261] 0
 z_WedFri[352D64,D364] 0
-z_WedFri[352D64,D362] 1
+z_WedFri[352D64,D362] 0
 z_WedFri[352D64,D297] 0
 z_WedFri[352D64,D331] 0
 z_WedFri[352D64,D293] 0
@@ -110377,8 +110377,8 @@ z_WedFri[352D64,D229] 0
 z_WedFri[352D64,D264] 0
 z_WedFri[352D64,D260] 0
 z_WedFri[352D64,D365] 0
-z_WedFri[352D67,D294] 0
-z_WedFri[352D67,D328] 1
+z_WedFri[352D67,D294] 1
+z_WedFri[352D67,D328] 0
 z_WedFri[352D67,D295] 0
 z_WedFri[352D67,D293] 0
 z_WedFri[352D67,D329] 0
@@ -110397,10 +110397,10 @@ z_WedFri[352D67,D228] 0
 z_WedFri[352D67,D263] 0
 z_WedFri[352D67,D259] 0
 z_WedFri[352D67,D364] 0
-z_WedFri[352D68,D294] 0
+z_WedFri[352D68,D294] 1
 z_WedFri[352D68,D328] 0
 z_WedFri[352D68,D293] 0
-z_WedFri[352D68,D327] 1
+z_WedFri[352D68,D327] 0
 z_WedFri[352D68,D295] 0
 z_WedFri[352D68,D329] 0
 z_WedFri[352D68,D261] 0
@@ -110417,11 +110417,11 @@ z_WedFri[352D68,D259] 0
 z_WedFri[352D68,D360] 0
 z_WedFri[352D68,D228] 0
 z_WedFri[352D68,D396] 0
-z_WedFri[352D71,D328] 0
+z_WedFri[352D71,D328] 1
 z_WedFri[352D71,D294] 0
 z_WedFri[352D71,D329] 0
 z_WedFri[352D71,D295] 0
-z_WedFri[352D71,D327] 1
+z_WedFri[352D71,D327] 0
 z_WedFri[352D71,D293] 0
 z_WedFri[352D71,D362] 0
 z_WedFri[352D71,D261] 0
@@ -110437,7 +110437,7 @@ z_WedFri[352D71,D364] 0
 z_WedFri[352D71,D396] 0
 z_WedFri[352D71,D263] 0
 z_WedFri[352D71,D360] 0
-z_WedFri[352D72,D328] 0
+z_WedFri[352D72,D328] 1
 z_WedFri[352D72,D294] 0
 z_WedFri[352D72,D329] 0
 z_WedFri[352D72,D327] 0
@@ -110455,7 +110455,7 @@ z_WedFri[352D72,D296] 0
 z_WedFri[352D72,D292] 0
 z_WedFri[352D72,D396] 0
 z_WedFri[352D72,D364] 0
-z_WedFri[352D72,D360] 1
+z_WedFri[352D72,D360] 0
 z_WedFri[352D72,D397] 0
 z_WedFri[353F01,D328] 1
 z_WedFri[353F01,D294] 0
@@ -110477,9 +110477,9 @@ z_WedFri[353F01,D330] 0
 z_WedFri[353F01,D296] 0
 z_WedFri[353F01,D396] 0
 z_WedFri[353F01,D228] 0
-z_WedFri[353F03,D294] 0
+z_WedFri[353F03,D294] 1
 z_WedFri[353F03,D293] 0
-z_WedFri[353F03,D328] 1
+z_WedFri[353F03,D328] 0
 z_WedFri[353F03,D327] 0
 z_WedFri[353F03,D261] 0
 z_WedFri[353F03,D260] 0
@@ -110498,7 +110498,7 @@ z_WedFri[353F03,D227] 0
 z_WedFri[353F03,D296] 0
 z_WedFri[353F03,D330] 0
 z_WedFri[353F05,D293] 0
-z_WedFri[353F05,D327] 0
+z_WedFri[353F05,D327] 1
 z_WedFri[353F05,D294] 0
 z_WedFri[353F05,D328] 0
 z_WedFri[353F05,D292] 0
@@ -110510,19 +110510,19 @@ z_WedFri[353F05,D362] 0
 z_WedFri[353F05,D295] 0
 z_WedFri[353F05,D329] 0
 z_WedFri[353F05,D259] 0
-z_WedFri[353F05,D360] 1
+z_WedFri[353F05,D360] 0
 z_WedFri[353F05,D291] 0
 z_WedFri[353F05,D325] 0
 z_WedFri[353F05,D262] 0
 z_WedFri[353F05,D363] 0
 z_WedFri[353F05,D227] 0
 z_WedFri[353F05,D395] 0
-z_WedFri[353F06,D327] 0
+z_WedFri[353F06,D327] 1
 z_WedFri[353F06,D328] 0
 z_WedFri[353F06,D293] 0
 z_WedFri[353F06,D294] 0
 z_WedFri[353F06,D361] 0
-z_WedFri[353F06,D362] 1
+z_WedFri[353F06,D362] 0
 z_WedFri[353F06,D326] 0
 z_WedFri[353F06,D292] 0
 z_WedFri[353F06,D329] 0
@@ -110637,9 +110637,9 @@ z_WedFri[353F39,D296] 0
 z_WedFri[353F39,D396] 0
 z_WedFri[353F39,D259] 0
 z_WedFri[353F39,D395] 0
-z_WedFri[354F01,D260] 0
+z_WedFri[354F01,D260] 1
 z_WedFri[354F01,D261] 0
-z_WedFri[354F01,D227] 1
+z_WedFri[354F01,D227] 0
 z_WedFri[354F01,D293] 0
 z_WedFri[354F01,D228] 0
 z_WedFri[354F01,D294] 0
@@ -110657,9 +110657,9 @@ z_WedFri[354F01,D258] 0
 z_WedFri[354F01,D194] 0
 z_WedFri[354F01,D326] 0
 z_WedFri[354F01,D225] 0
-z_WedFri[354F03,D260] 0
+z_WedFri[354F03,D260] 1
 z_WedFri[354F03,D261] 0
-z_WedFri[354F03,D227] 1
+z_WedFri[354F03,D227] 0
 z_WedFri[354F03,D293] 0
 z_WedFri[354F03,D259] 0
 z_WedFri[354F03,D228] 0
@@ -110678,12 +110678,12 @@ z_WedFri[354F03,D328] 0
 z_WedFri[354F03,D225] 0
 z_WedFri[354F03,D326] 0
 z_WedFri[354F07,D293] 0
-z_WedFri[354F07,D260] 0
+z_WedFri[354F07,D260] 1
 z_WedFri[354F07,D294] 0
 z_WedFri[354F07,D261] 0
 z_WedFri[354F07,D292] 0
 z_WedFri[354F07,D259] 0
-z_WedFri[354F07,D327] 1
+z_WedFri[354F07,D327] 0
 z_WedFri[354F07,D328] 0
 z_WedFri[354F07,D227] 0
 z_WedFri[354F07,D228] 0
@@ -110697,13 +110697,13 @@ z_WedFri[354F07,D291] 0
 z_WedFri[354F07,D258] 0
 z_WedFri[354F07,D361] 0
 z_WedFri[354F07,D362] 0
-z_WedFri[354F09,D260] 0
+z_WedFri[354F09,D260] 1
 z_WedFri[354F09,D293] 0
 z_WedFri[354F09,D261] 0
 z_WedFri[354F09,D294] 0
 z_WedFri[354F09,D259] 0
 z_WedFri[354F09,D292] 0
-z_WedFri[354F09,D227] 1
+z_WedFri[354F09,D227] 0
 z_WedFri[354F09,D228] 0
 z_WedFri[354F09,D327] 0
 z_WedFri[354F09,D328] 0
@@ -110717,12 +110717,12 @@ z_WedFri[354F09,D329] 0
 z_WedFri[354F09,D291] 0
 z_WedFri[354F09,D195] 0
 z_WedFri[354F09,D196] 0
-z_WedFri[354F11,D260] 0
+z_WedFri[354F11,D260] 1
 z_WedFri[354F11,D293] 0
 z_WedFri[354F11,D261] 0
 z_WedFri[354F11,D294] 0
 z_WedFri[354F11,D259] 0
-z_WedFri[354F11,D227] 1
+z_WedFri[354F11,D227] 0
 z_WedFri[354F11,D292] 0
 z_WedFri[354F11,D228] 0
 z_WedFri[354F11,D226] 0
@@ -110737,7 +110737,7 @@ z_WedFri[354F11,D229] 0
 z_WedFri[354F11,D195] 0
 z_WedFri[354F11,D196] 0
 z_WedFri[354F11,D225] 0
-z_WedFri[354F13,D260] 0
+z_WedFri[354F13,D260] 1
 z_WedFri[354F13,D261] 0
 z_WedFri[354F13,D293] 0
 z_WedFri[354F13,D227] 0
@@ -110749,7 +110749,7 @@ z_WedFri[354F13,D226] 0
 z_WedFri[354F13,D262] 0
 z_WedFri[354F13,D327] 0
 z_WedFri[354F13,D195] 0
-z_WedFri[354F13,D258] 1
+z_WedFri[354F13,D258] 0
 z_WedFri[354F13,D295] 0
 z_WedFri[354F13,D328] 0
 z_WedFri[354F13,D229] 0
@@ -110757,11 +110757,11 @@ z_WedFri[354F13,D196] 0
 z_WedFri[354F13,D326] 0
 z_WedFri[354F13,D291] 0
 z_WedFri[354F13,D194] 0
-z_WedFri[354F15,D260] 0
+z_WedFri[354F15,D260] 1
 z_WedFri[354F15,D293] 0
 z_WedFri[354F15,D259] 0
 z_WedFri[354F15,D261] 0
-z_WedFri[354F15,D227] 1
+z_WedFri[354F15,D227] 0
 z_WedFri[354F15,D292] 0
 z_WedFri[354F15,D294] 0
 z_WedFri[354F15,D226] 0
@@ -110777,7 +110777,7 @@ z_WedFri[354F15,D295] 0
 z_WedFri[354F15,D225] 0
 z_WedFri[354F15,D229] 0
 z_WedFri[354F15,D194] 0
-z_WedFri[354F17,D260] 0
+z_WedFri[354F17,D260] 1
 z_WedFri[354F17,D259] 0
 z_WedFri[354F17,D227] 0
 z_WedFri[354F17,D293] 0
@@ -110796,10 +110796,10 @@ z_WedFri[354F17,D291] 0
 z_WedFri[354F17,D196] 0
 z_WedFri[354F17,D326] 0
 z_WedFri[354F17,D229] 0
-z_WedFri[354F17,D328] 1
+z_WedFri[354F17,D328] 0
 z_WedFri[354F41,D259] 0
 z_WedFri[354F41,D226] 0
-z_WedFri[354F41,D260] 0
+z_WedFri[354F41,D260] 1
 z_WedFri[354F41,D227] 0
 z_WedFri[354F41,D258] 0
 z_WedFri[354F41,D292] 0
@@ -110815,12 +110815,12 @@ z_WedFri[354F41,D257] 0
 z_WedFri[354F41,D294] 0
 z_WedFri[354F41,D326] 0
 z_WedFri[354F41,D224] 0
-z_WedFri[354F41,D327] 1
+z_WedFri[354F41,D327] 0
 z_WedFri[354F41,D290] 0
 z_WedFri[354F42,D259] 0
 z_WedFri[354F42,D226] 0
-z_WedFri[354F42,D260] 0
-z_WedFri[354F42,D227] 1
+z_WedFri[354F42,D260] 1
+z_WedFri[354F42,D227] 0
 z_WedFri[354F42,D258] 0
 z_WedFri[354F42,D225] 0
 z_WedFri[354F42,D292] 0
@@ -110858,7 +110858,7 @@ z_WedFri[354F43,D228] 0
 z_WedFri[354F43,D325] 0
 z_WedFri[354F43,D294] 0
 z_WedFri[354F44,D259] 0
-z_WedFri[354F44,D258] 0
+z_WedFri[354F44,D258] 1
 z_WedFri[354F44,D226] 0
 z_WedFri[354F44,D292] 0
 z_WedFri[354F44,D260] 0
@@ -110875,16 +110875,16 @@ z_WedFri[354F44,D290] 0
 z_WedFri[354F44,D193] 0
 z_WedFri[354F44,D325] 0
 z_WedFri[354F44,D195] 0
-z_WedFri[354F44,D327] 1
+z_WedFri[354F44,D327] 0
 z_WedFri[354F44,D228] 0
 z_WedFri[354F45,D259] 0
-z_WedFri[354F45,D258] 0
+z_WedFri[354F45,D258] 1
 z_WedFri[354F45,D226] 0
 z_WedFri[354F45,D225] 0
 z_WedFri[354F45,D292] 0
 z_WedFri[354F45,D291] 0
 z_WedFri[354F45,D260] 0
-z_WedFri[354F45,D227] 1
+z_WedFri[354F45,D227] 0
 z_WedFri[354F45,D257] 0
 z_WedFri[354F45,D293] 0
 z_WedFri[354F45,D224] 0
@@ -111101,7 +111101,7 @@ z_WedFri[356B02,D325] 0
 z_WedFri[356B02,D291] 0
 z_WedFri[356B02,D324] 0
 z_WedFri[356B02,D290] 0
-z_WedFri[356B02,D326] 0
+z_WedFri[356B02,D326] 1
 z_WedFri[356B02,D359] 0
 z_WedFri[356B02,D292] 0
 z_WedFri[356B02,D358] 0
@@ -111112,15 +111112,15 @@ z_WedFri[356B02,D289] 0
 z_WedFri[356B02,D360] 0
 z_WedFri[356B02,D259] 0
 z_WedFri[356B02,D357] 0
-z_WedFri[356B02,D327] 1
+z_WedFri[356B02,D327] 0
 z_WedFri[356B02,D393] 0
 z_WedFri[356B02,D256] 0
 z_WedFri[356B02,D293] 0
 z_WedFri[356B02,D392] 0
-z_WedFri[356C01,D326] 0
+z_WedFri[356C01,D326] 1
 z_WedFri[356C01,D292] 0
 z_WedFri[356C01,D325] 0
-z_WedFri[356C01,D327] 1
+z_WedFri[356C01,D327] 0
 z_WedFri[356C01,D291] 0
 z_WedFri[356C01,D293] 0
 z_WedFri[356C01,D360] 0
@@ -111137,8 +111137,8 @@ z_WedFri[356C01,D394] 0
 z_WedFri[356C01,D358] 0
 z_WedFri[356C01,D362] 0
 z_WedFri[356C01,D393] 0
-z_WedFri[356C03,D326] 0
-z_WedFri[356C03,D327] 1
+z_WedFri[356C03,D326] 1
+z_WedFri[356C03,D327] 0
 z_WedFri[356C03,D292] 0
 z_WedFri[356C03,D293] 0
 z_WedFri[356C03,D360] 0
@@ -111157,7 +111157,7 @@ z_WedFri[356C03,D324] 0
 z_WedFri[356C03,D395] 0
 z_WedFri[356C03,D290] 0
 z_WedFri[356C03,D393] 0
-z_WedFri[356C05,D326] 0
+z_WedFri[356C05,D326] 1
 z_WedFri[356C05,D327] 0
 z_WedFri[356C05,D292] 0
 z_WedFri[356C05,D360] 0
@@ -111173,14 +111173,14 @@ z_WedFri[356C05,D324] 0
 z_WedFri[356C05,D294] 0
 z_WedFri[356C05,D260] 0
 z_WedFri[356C05,D362] 0
-z_WedFri[356C05,D258] 1
+z_WedFri[356C05,D258] 0
 z_WedFri[356C05,D395] 0
 z_WedFri[356C05,D290] 0
 z_WedFri[356C05,D393] 0
 z_WedFri[356C09,D292] 0
 z_WedFri[356C09,D293] 0
-z_WedFri[356C09,D326] 0
-z_WedFri[356C09,D327] 1
+z_WedFri[356C09,D326] 1
+z_WedFri[356C09,D327] 0
 z_WedFri[356C09,D259] 0
 z_WedFri[356C09,D291] 0
 z_WedFri[356C09,D260] 0
@@ -111199,7 +111199,7 @@ z_WedFri[356C09,D324] 0
 z_WedFri[356C09,D362] 0
 z_WedFri[356C11,D292] 0
 z_WedFri[356C11,D293] 0
-z_WedFri[356C11,D326] 0
+z_WedFri[356C11,D326] 1
 z_WedFri[356C11,D327] 0
 z_WedFri[356C11,D259] 0
 z_WedFri[356C11,D260] 0
@@ -111214,7 +111214,7 @@ z_WedFri[356C11,D261] 0
 z_WedFri[356C11,D359] 0
 z_WedFri[356C11,D226] 0
 z_WedFri[356C11,D227] 0
-z_WedFri[356C11,D362] 1
+z_WedFri[356C11,D362] 0
 z_WedFri[356C11,D290] 0
 z_WedFri[356C11,D324] 0
 z_WedFri[356C15,D290] 0
@@ -111237,7 +111237,7 @@ z_WedFri[356C15,D224] 0
 z_WedFri[356C15,D223] 0
 z_WedFri[356C15,D292] 0
 z_WedFri[356C15,D287] 0
-z_WedFri[356D03,D326] 0
+z_WedFri[356D03,D326] 1
 z_WedFri[356D03,D360] 0
 z_WedFri[356D03,D325] 0
 z_WedFri[356D03,D327] 0
@@ -111252,13 +111252,13 @@ z_WedFri[356D03,D328] 0
 z_WedFri[356D03,D393] 0
 z_WedFri[356D03,D395] 0
 z_WedFri[356D03,D358] 0
-z_WedFri[356D03,D362] 1
+z_WedFri[356D03,D362] 0
 z_WedFri[356D03,D259] 0
 z_WedFri[356D03,D290] 0
 z_WedFri[356D03,D294] 0
 z_WedFri[356D03,D258] 0
-z_WedFri[356D04,D326] 0
-z_WedFri[356D04,D360] 1
+z_WedFri[356D04,D326] 1
+z_WedFri[356D04,D360] 0
 z_WedFri[356D04,D327] 0
 z_WedFri[356D04,D325] 0
 z_WedFri[356D04,D361] 0
@@ -111277,8 +111277,8 @@ z_WedFri[356D04,D259] 0
 z_WedFri[356D04,D294] 0
 z_WedFri[356D04,D290] 0
 z_WedFri[356D04,D260] 0
-z_WedFri[356D07,D326] 0
-z_WedFri[356D07,D360] 1
+z_WedFri[356D07,D326] 1
+z_WedFri[356D07,D360] 0
 z_WedFri[356D07,D327] 0
 z_WedFri[356D07,D325] 0
 z_WedFri[356D07,D292] 0
@@ -111297,7 +111297,7 @@ z_WedFri[356D07,D294] 0
 z_WedFri[356D07,D358] 0
 z_WedFri[356D07,D260] 0
 z_WedFri[356D07,D290] 0
-z_WedFri[356D08,D326] 0
+z_WedFri[356D08,D326] 1
 z_WedFri[356D08,D360] 0
 z_WedFri[356D08,D327] 0
 z_WedFri[356D08,D325] 0
@@ -111307,7 +111307,7 @@ z_WedFri[356D08,D359] 0
 z_WedFri[356D08,D293] 0
 z_WedFri[356D08,D291] 0
 z_WedFri[356D08,D394] 0
-z_WedFri[356D08,D328] 1
+z_WedFri[356D08,D328] 0
 z_WedFri[356D08,D395] 0
 z_WedFri[356D08,D362] 0
 z_WedFri[356D08,D324] 0
@@ -111317,7 +111317,7 @@ z_WedFri[356D08,D358] 0
 z_WedFri[356D08,D294] 0
 z_WedFri[356D08,D260] 0
 z_WedFri[356D08,D290] 0
-z_WedFri[356D11,D326] 0
+z_WedFri[356D11,D326] 1
 z_WedFri[356D11,D327] 0
 z_WedFri[356D11,D360] 0
 z_WedFri[356D11,D292] 0
@@ -111335,10 +111335,10 @@ z_WedFri[356D11,D395] 0
 z_WedFri[356D11,D260] 0
 z_WedFri[356D11,D324] 0
 z_WedFri[356D11,D393] 0
-z_WedFri[356D11,D258] 1
+z_WedFri[356D11,D258] 0
 z_WedFri[356D11,D358] 0
-z_WedFri[356D12,D326] 0
-z_WedFri[356D12,D327] 1
+z_WedFri[356D12,D326] 1
+z_WedFri[356D12,D327] 0
 z_WedFri[356D12,D292] 0
 z_WedFri[356D12,D360] 0
 z_WedFri[356D12,D293] 0
@@ -111357,8 +111357,8 @@ z_WedFri[356D12,D324] 0
 z_WedFri[356D12,D258] 0
 z_WedFri[356D12,D393] 0
 z_WedFri[356D12,D290] 0
-z_WedFri[356D15,D361] 0
-z_WedFri[356D15,D360] 1
+z_WedFri[356D15,D361] 1
+z_WedFri[356D15,D360] 0
 z_WedFri[356D15,D395] 0
 z_WedFri[356D15,D394] 0
 z_WedFri[356D15,D327] 0
@@ -111377,8 +111377,8 @@ z_WedFri[356D15,D430] 0
 z_WedFri[356D15,D427] 0
 z_WedFri[356D15,D363] 0
 z_WedFri[356D15,D397] 0
-z_WedFri[356D16,D361] 0
-z_WedFri[356D16,D360] 1
+z_WedFri[356D16,D361] 1
+z_WedFri[356D16,D360] 0
 z_WedFri[356D16,D395] 0
 z_WedFri[356D16,D394] 0
 z_WedFri[356D16,D327] 0
@@ -111397,7 +111397,7 @@ z_WedFri[356D16,D292] 0
 z_WedFri[356D16,D363] 0
 z_WedFri[356D16,D427] 0
 z_WedFri[356D16,D397] 0
-z_WedFri[356D19,D361] 0
+z_WedFri[356D19,D361] 1
 z_WedFri[356D19,D360] 0
 z_WedFri[356D19,D327] 0
 z_WedFri[356D19,D395] 0
@@ -111413,12 +111413,12 @@ z_WedFri[356D19,D293] 0
 z_WedFri[356D19,D429] 0
 z_WedFri[356D19,D292] 0
 z_WedFri[356D19,D428] 0
-z_WedFri[356D19,D363] 1
+z_WedFri[356D19,D363] 0
 z_WedFri[356D19,D294] 0
 z_WedFri[356D19,D430] 0
 z_WedFri[356D19,D329] 0
-z_WedFri[356D20,D361] 0
-z_WedFri[356D20,D360] 1
+z_WedFri[356D20,D361] 1
+z_WedFri[356D20,D360] 0
 z_WedFri[356D20,D395] 0
 z_WedFri[356D20,D327] 0
 z_WedFri[356D20,D394] 0
@@ -111437,7 +111437,7 @@ z_WedFri[356D20,D363] 0
 z_WedFri[356D20,D430] 0
 z_WedFri[356D20,D294] 0
 z_WedFri[356D20,D397] 0
-z_WedFri[356D23,D361] 0
+z_WedFri[356D23,D361] 1
 z_WedFri[356D23,D360] 0
 z_WedFri[356D23,D327] 0
 z_WedFri[356D23,D395] 0
@@ -111451,14 +111451,14 @@ z_WedFri[356D23,D293] 0
 z_WedFri[356D23,D325] 0
 z_WedFri[356D23,D292] 0
 z_WedFri[356D23,D393] 0
-z_WedFri[356D23,D429] 1
+z_WedFri[356D23,D429] 0
 z_WedFri[356D23,D363] 0
 z_WedFri[356D23,D294] 0
 z_WedFri[356D23,D428] 0
 z_WedFri[356D23,D329] 0
 z_WedFri[356D23,D430] 0
-z_WedFri[356D24,D361] 0
-z_WedFri[356D24,D360] 1
+z_WedFri[356D24,D361] 1
+z_WedFri[356D24,D360] 0
 z_WedFri[356D24,D327] 0
 z_WedFri[356D24,D326] 0
 z_WedFri[356D24,D395] 0
@@ -111477,8 +111477,8 @@ z_WedFri[356D24,D363] 0
 z_WedFri[356D24,D428] 0
 z_WedFri[356D24,D329] 0
 z_WedFri[356D24,D291] 0
-z_WedFri[356D27,D361] 0
-z_WedFri[356D27,D327] 1
+z_WedFri[356D27,D361] 1
+z_WedFri[356D27,D327] 0
 z_WedFri[356D27,D360] 0
 z_WedFri[356D27,D326] 0
 z_WedFri[356D27,D362] 0
@@ -111497,8 +111497,8 @@ z_WedFri[356D27,D329] 0
 z_WedFri[356D27,D429] 0
 z_WedFri[356D27,D428] 0
 z_WedFri[356D27,D291] 0
-z_WedFri[356D28,D361] 0
-z_WedFri[356D28,D327] 1
+z_WedFri[356D28,D361] 1
+z_WedFri[356D28,D327] 0
 z_WedFri[356D28,D360] 0
 z_WedFri[356D28,D326] 0
 z_WedFri[356D28,D362] 0
@@ -111537,9 +111537,9 @@ z_WedFri[356D31,D295] 0
 z_WedFri[356D31,D260] 0
 z_WedFri[356D31,D397] 0
 z_WedFri[356D31,D291] 0
-z_WedFri[356D32,D327] 0
+z_WedFri[356D32,D327] 1
 z_WedFri[356D32,D361] 0
-z_WedFri[356D32,D328] 1
+z_WedFri[356D32,D328] 0
 z_WedFri[356D32,D362] 0
 z_WedFri[356D32,D326] 0
 z_WedFri[356D32,D293] 0
@@ -111677,8 +111677,8 @@ z_WedFri[356D44,D394] 0
 z_WedFri[356D44,D325] 0
 z_WedFri[356D44,D397] 0
 z_WedFri[356D44,D359] 0
-z_WedFri[356D47,D327] 0
-z_WedFri[356D47,D328] 1
+z_WedFri[356D47,D327] 1
+z_WedFri[356D47,D328] 0
 z_WedFri[356D47,D361] 0
 z_WedFri[356D47,D362] 0
 z_WedFri[356D47,D293] 0
@@ -111819,7 +111819,7 @@ z_WedFri[356D59,D295] 0
 z_WedFri[356D59,D329] 0
 z_WedFri[356D60,D293] 0
 z_WedFri[356D60,D292] 0
-z_WedFri[356D60,D327] 0
+z_WedFri[356D60,D327] 1
 z_WedFri[356D60,D326] 0
 z_WedFri[356D60,D260] 0
 z_WedFri[356D60,D294] 0
@@ -111828,7 +111828,7 @@ z_WedFri[356D60,D328] 0
 z_WedFri[356D60,D291] 0
 z_WedFri[356D60,D361] 0
 z_WedFri[356D60,D325] 0
-z_WedFri[356D60,D360] 1
+z_WedFri[356D60,D360] 0
 z_WedFri[356D60,D261] 0
 z_WedFri[356D60,D258] 0
 z_WedFri[356D60,D362] 0
@@ -111839,7 +111839,7 @@ z_WedFri[356D60,D226] 0
 z_WedFri[356D60,D329] 0
 z_WedFri[356D63,D292] 0
 z_WedFri[356D63,D293] 0
-z_WedFri[356D63,D326] 0
+z_WedFri[356D63,D326] 1
 z_WedFri[356D63,D327] 0
 z_WedFri[356D63,D259] 0
 z_WedFri[356D63,D260] 0
@@ -111855,12 +111855,12 @@ z_WedFri[356D63,D226] 0
 z_WedFri[356D63,D227] 0
 z_WedFri[356D63,D359] 0
 z_WedFri[356D63,D290] 0
-z_WedFri[356D63,D362] 1
+z_WedFri[356D63,D362] 0
 z_WedFri[356D63,D225] 0
 z_WedFri[356D64,D292] 0
 z_WedFri[356D64,D293] 0
-z_WedFri[356D64,D326] 0
-z_WedFri[356D64,D327] 1
+z_WedFri[356D64,D326] 1
+z_WedFri[356D64,D327] 0
 z_WedFri[356D64,D259] 0
 z_WedFri[356D64,D260] 0
 z_WedFri[356D64,D291] 0
@@ -111877,10 +111877,10 @@ z_WedFri[356D64,D359] 0
 z_WedFri[356D64,D290] 0
 z_WedFri[356D64,D225] 0
 z_WedFri[356D64,D324] 0
-z_WedFri[356D67,D361] 0
+z_WedFri[356D67,D361] 1
 z_WedFri[356D67,D360] 0
 z_WedFri[356D67,D395] 0
-z_WedFri[356D67,D327] 1
+z_WedFri[356D67,D327] 0
 z_WedFri[356D67,D362] 0
 z_WedFri[356D67,D394] 0
 z_WedFri[356D67,D326] 0
@@ -111897,10 +111897,10 @@ z_WedFri[356D67,D292] 0
 z_WedFri[356D67,D430] 0
 z_WedFri[356D67,D294] 0
 z_WedFri[356D67,D397] 0
-z_WedFri[356D68,D361] 0
+z_WedFri[356D68,D361] 1
 z_WedFri[356D68,D327] 0
 z_WedFri[356D68,D360] 0
-z_WedFri[356D68,D362] 1
+z_WedFri[356D68,D362] 0
 z_WedFri[356D68,D395] 0
 z_WedFri[356D68,D326] 0
 z_WedFri[356D68,D328] 0
@@ -111917,8 +111917,8 @@ z_WedFri[356D68,D329] 0
 z_WedFri[356D68,D393] 0
 z_WedFri[356D68,D397] 0
 z_WedFri[356D68,D428] 0
-z_WedFri[356D71,D361] 0
-z_WedFri[356D71,D327] 1
+z_WedFri[356D71,D361] 1
+z_WedFri[356D71,D327] 0
 z_WedFri[356D71,D362] 0
 z_WedFri[356D71,D360] 0
 z_WedFri[356D71,D395] 0
@@ -111937,8 +111937,8 @@ z_WedFri[356D71,D397] 0
 z_WedFri[356D71,D325] 0
 z_WedFri[356D71,D430] 0
 z_WedFri[356D71,D393] 0
-z_WedFri[356D72,D361] 0
-z_WedFri[356D72,D327] 1
+z_WedFri[356D72,D361] 1
+z_WedFri[356D72,D327] 0
 z_WedFri[356D72,D362] 0
 z_WedFri[356D72,D360] 0
 z_WedFri[356D72,D328] 0
@@ -111957,9 +111957,9 @@ z_WedFri[356D72,D429] 0
 z_WedFri[356D72,D397] 0
 z_WedFri[356D72,D393] 0
 z_WedFri[356D72,D430] 0
-z_WedFri[357F01,D361] 0
+z_WedFri[357F01,D361] 1
 z_WedFri[357F01,D395] 0
-z_WedFri[357F01,D362] 1
+z_WedFri[357F01,D362] 0
 z_WedFri[357F01,D360] 0
 z_WedFri[357F01,D396] 0
 z_WedFri[357F01,D394] 0
@@ -111977,7 +111977,7 @@ z_WedFri[357F01,D293] 0
 z_WedFri[357F01,D329] 0
 z_WedFri[357F01,D325] 0
 z_WedFri[357F01,D294] 0
-z_WedFri[357F02,D361] 0
+z_WedFri[357F02,D361] 1
 z_WedFri[357F02,D395] 0
 z_WedFri[357F02,D360] 0
 z_WedFri[357F02,D362] 0
@@ -111986,7 +111986,7 @@ z_WedFri[357F02,D396] 0
 z_WedFri[357F02,D327] 0
 z_WedFri[357F02,D326] 0
 z_WedFri[357F02,D429] 0
-z_WedFri[357F02,D328] 1
+z_WedFri[357F02,D328] 0
 z_WedFri[357F02,D428] 0
 z_WedFri[357F02,D359] 0
 z_WedFri[357F02,D430] 0
@@ -111997,9 +111997,9 @@ z_WedFri[357F02,D293] 0
 z_WedFri[357F02,D325] 0
 z_WedFri[357F02,D329] 0
 z_WedFri[357F02,D292] 0
-z_WedFri[357F03,D361] 0
+z_WedFri[357F03,D361] 1
 z_WedFri[357F03,D395] 0
-z_WedFri[357F03,D362] 1
+z_WedFri[357F03,D362] 0
 z_WedFri[357F03,D396] 0
 z_WedFri[357F03,D360] 0
 z_WedFri[357F03,D394] 0
@@ -112017,9 +112017,9 @@ z_WedFri[357F03,D329] 0
 z_WedFri[357F03,D293] 0
 z_WedFri[357F03,D431] 0
 z_WedFri[357F03,D294] 0
-z_WedFri[357J03,D361] 0
+z_WedFri[357J03,D361] 1
 z_WedFri[357J03,D395] 0
-z_WedFri[357J03,D362] 1
+z_WedFri[357J03,D362] 0
 z_WedFri[357J03,D396] 0
 z_WedFri[357J03,D360] 0
 z_WedFri[357J03,D327] 0
@@ -112040,9 +112040,9 @@ z_WedFri[357J03,D294] 0
 z_WedFri[358C03,D396] 0
 z_WedFri[358C03,D397] 0
 z_WedFri[358C03,D430] 0
-z_WedFri[358C03,D362] 0
+z_WedFri[358C03,D362] 1
 z_WedFri[358C03,D431] 0
-z_WedFri[358C03,D363] 1
+z_WedFri[358C03,D363] 0
 z_WedFri[358C03,D395] 0
 z_WedFri[358C03,D429] 0
 z_WedFri[358C03,D361] 0
@@ -112077,10 +112077,10 @@ z_WedFri[358C05,D464] 0
 z_WedFri[358C05,D465] 0
 z_WedFri[358C05,D394] 0
 z_WedFri[358C05,D399] 0
-z_WedFri[358C11,D363] 0
+z_WedFri[358C11,D363] 1
 z_WedFri[358C11,D362] 0
 z_WedFri[358C11,D329] 0
-z_WedFri[358C11,D328] 1
+z_WedFri[358C11,D328] 0
 z_WedFri[358C11,D397] 0
 z_WedFri[358C11,D396] 0
 z_WedFri[358C11,D364] 0
@@ -112297,11 +112297,11 @@ z_WedFri[358D20,D293] 0
 z_WedFri[358D20,D431] 0
 z_WedFri[358D20,D326] 0
 z_WedFri[358D20,D429] 0
-z_WedFri[358D23,D361] 0
+z_WedFri[358D23,D361] 1
 z_WedFri[358D23,D362] 0
 z_WedFri[358D23,D395] 0
 z_WedFri[358D23,D396] 0
-z_WedFri[358D23,D327] 1
+z_WedFri[358D23,D327] 0
 z_WedFri[358D23,D360] 0
 z_WedFri[358D23,D328] 0
 z_WedFri[358D23,D394] 0
@@ -112317,8 +112317,8 @@ z_WedFri[358D23,D431] 0
 z_WedFri[358D23,D294] 0
 z_WedFri[358D23,D359] 0
 z_WedFri[358D23,D393] 0
-z_WedFri[358D24,D361] 0
-z_WedFri[358D24,D362] 1
+z_WedFri[358D24,D361] 1
+z_WedFri[358D24,D362] 0
 z_WedFri[358D24,D395] 0
 z_WedFri[358D24,D396] 0
 z_WedFri[358D24,D327] 0
@@ -112337,8 +112337,8 @@ z_WedFri[358D24,D294] 0
 z_WedFri[358D24,D359] 0
 z_WedFri[358D24,D431] 0
 z_WedFri[358D24,D393] 0
-z_WedFri[358D27,D361] 0
-z_WedFri[358D27,D362] 1
+z_WedFri[358D27,D361] 1
+z_WedFri[358D27,D362] 0
 z_WedFri[358D27,D395] 0
 z_WedFri[358D27,D396] 0
 z_WedFri[358D27,D327] 0
@@ -112358,9 +112358,9 @@ z_WedFri[358D27,D294] 0
 z_WedFri[358D27,D359] 0
 z_WedFri[358D27,D393] 0
 z_WedFri[358D28,D395] 0
-z_WedFri[358D28,D361] 0
+z_WedFri[358D28,D361] 1
 z_WedFri[358D28,D396] 0
-z_WedFri[358D28,D362] 1
+z_WedFri[358D28,D362] 0
 z_WedFri[358D28,D394] 0
 z_WedFri[358D28,D360] 0
 z_WedFri[358D28,D429] 0
@@ -112417,7 +112417,7 @@ z_WedFri[358D32,D294] 0
 z_WedFri[358D32,D330] 0
 z_WedFri[358D32,D326] 0
 z_WedFri[358D32,D432] 0
-z_WedFri[358D35,D362] 0
+z_WedFri[358D35,D362] 1
 z_WedFri[358D35,D396] 0
 z_WedFri[358D35,D363] 0
 z_WedFri[358D35,D397] 0
@@ -112431,13 +112431,13 @@ z_WedFri[358D35,D431] 0
 z_WedFri[358D35,D364] 0
 z_WedFri[358D35,D398] 0
 z_WedFri[358D35,D429] 0
-z_WedFri[358D35,D360] 1
+z_WedFri[358D35,D360] 0
 z_WedFri[358D35,D330] 0
 z_WedFri[358D35,D394] 0
 z_WedFri[358D35,D294] 0
 z_WedFri[358D35,D432] 0
 z_WedFri[358D35,D295] 0
-z_WedFri[358D36,D362] 0
+z_WedFri[358D36,D362] 1
 z_WedFri[358D36,D396] 0
 z_WedFri[358D36,D363] 0
 z_WedFri[358D36,D361] 0
@@ -112451,7 +112451,7 @@ z_WedFri[358D36,D431] 0
 z_WedFri[358D36,D364] 0
 z_WedFri[358D36,D429] 0
 z_WedFri[358D36,D398] 0
-z_WedFri[358D36,D360] 1
+z_WedFri[358D36,D360] 0
 z_WedFri[358D36,D394] 0
 z_WedFri[358D36,D294] 0
 z_WedFri[358D36,D330] 0
@@ -112477,7 +112477,7 @@ z_WedFri[358D39,D294] 0
 z_WedFri[358D39,D394] 0
 z_WedFri[358D39,D295] 0
 z_WedFri[358D39,D432] 0
-z_WedFri[358D40,D362] 0
+z_WedFri[358D40,D362] 1
 z_WedFri[358D40,D396] 0
 z_WedFri[358D40,D363] 0
 z_WedFri[358D40,D397] 0
@@ -112490,7 +112490,7 @@ z_WedFri[358D40,D430] 0
 z_WedFri[358D40,D364] 0
 z_WedFri[358D40,D431] 0
 z_WedFri[358D40,D398] 0
-z_WedFri[358D40,D429] 1
+z_WedFri[358D40,D429] 0
 z_WedFri[358D40,D360] 0
 z_WedFri[358D40,D394] 0
 z_WedFri[358D40,D330] 0
@@ -112662,7 +112662,7 @@ z_WedFri[35A032,D295] 0
 z_WedFri[35A032,D263] 0
 z_WedFri[35A032,D262] 0
 z_WedFri[35A032,D330] 0
-z_WedFri[35A032,D329] 0
+z_WedFri[35A032,D329] 1
 z_WedFri[35A032,D297] 0
 z_WedFri[35A032,D294] 0
 z_WedFri[35A032,D264] 0
@@ -112670,7 +112670,7 @@ z_WedFri[35A032,D261] 0
 z_WedFri[35A032,D230] 0
 z_WedFri[35A032,D229] 0
 z_WedFri[35A032,D331] 0
-z_WedFri[35A032,D328] 1
+z_WedFri[35A032,D328] 0
 z_WedFri[35A032,D364] 0
 z_WedFri[35A032,D231] 0
 z_WedFri[35A032,D363] 0
@@ -112707,8 +112707,8 @@ z_WedFri[35B142,D162] 0
 z_WedFri[35B142,D259] 0
 z_WedFri[35B142,D163] 0
 z_WedFri[35B142,D161] 0
-z_WedFri[35B142,D260] 0
-z_WedFri[35B142,D258] 1
+z_WedFri[35B142,D260] 1
+z_WedFri[35B142,D258] 0
 z_WedFri[35B142,D196] 0
 z_WedFri[35B142,D228] 0
 z_WedFri[35B142,D192] 0
@@ -112719,8 +112719,8 @@ z_WedFri[35B142,D160] 0
 z_WedFri[35B142,D261] 0
 z_WedFri[35B192,D195] 0
 z_WedFri[35B192,D196] 0
-z_WedFri[35B192,D227] 1
-z_WedFri[35B192,D228] 0
+z_WedFri[35B192,D227] 0
+z_WedFri[35B192,D228] 1
 z_WedFri[35B192,D163] 0
 z_WedFri[35B192,D194] 0
 z_WedFri[35B192,D164] 0
@@ -112737,11 +112737,11 @@ z_WedFri[35B192,D133] 0
 z_WedFri[35B192,D193] 0
 z_WedFri[35B192,D225] 0
 z_WedFri[35B192,D262] 0
-z_WedFri[35B202,D260] 0
+z_WedFri[35B202,D260] 1
 z_WedFri[35B202,D259] 0
 z_WedFri[35B202,D293] 0
 z_WedFri[35B202,D292] 0
-z_WedFri[35B202,D227] 1
+z_WedFri[35B202,D227] 0
 z_WedFri[35B202,D226] 0
 z_WedFri[35B202,D261] 0
 z_WedFri[35B202,D258] 0
@@ -112760,10 +112760,10 @@ z_WedFri[35B202,D257] 0
 z_WedFri[35B212,D292] 0
 z_WedFri[35B212,D293] 0
 z_WedFri[35B212,D259] 0
-z_WedFri[35B212,D260] 0
+z_WedFri[35B212,D260] 1
 z_WedFri[35B212,D326] 0
 z_WedFri[35B212,D291] 0
-z_WedFri[35B212,D327] 1
+z_WedFri[35B212,D327] 0
 z_WedFri[35B212,D258] 0
 z_WedFri[35B212,D294] 0
 z_WedFri[35B212,D226] 0
@@ -112777,12 +112777,12 @@ z_WedFri[35B212,D361] 0
 z_WedFri[35B212,D228] 0
 z_WedFri[35B212,D290] 0
 z_WedFri[35B212,D257] 0
-z_WedFri[35C021,D260] 0
+z_WedFri[35C021,D260] 1
 z_WedFri[35C021,D293] 0
 z_WedFri[35C021,D259] 0
 z_WedFri[35C021,D292] 0
 z_WedFri[35C021,D261] 0
-z_WedFri[35C021,D227] 1
+z_WedFri[35C021,D227] 0
 z_WedFri[35C021,D294] 0
 z_WedFri[35C021,D226] 0
 z_WedFri[35C021,D228] 0
@@ -113142,7 +113142,7 @@ z_WedFri[373F99,D395] 0
 z_WedFri[373F99,D360] 0
 z_WedFri[373F99,D428] 0
 z_WedFri[373F99,D393] 0
-z_WedFri[373F99,D361] 0
+z_WedFri[373F99,D361] 1
 z_WedFri[373F99,D429] 0
 z_WedFri[373F99,D359] 0
 z_WedFri[373F99,D427] 0
@@ -113151,7 +113151,7 @@ z_WedFri[373F99,D326] 0
 z_WedFri[373F99,D462] 0
 z_WedFri[373F99,D362] 0
 z_WedFri[373F99,D430] 0
-z_WedFri[373F99,D327] 1
+z_WedFri[373F99,D327] 0
 z_WedFri[373F99,D463] 0
 z_WedFri[373F99,D392] 0
 z_WedFri[373F99,D325] 0
@@ -113178,10 +113178,10 @@ z_WedFri[373J09,D498] 0
 z_WedFri[373J09,D362] 0
 z_WedFri[373J09,D465] 0
 g_TueThur[Car] 0
-g_TueThur[Moped] 1.7645066193246265e+01
-g_TueThur[EBikeCart] 1.1969864166471769e+01
-g_TueThur[FootBike] 3.4744011092265112e+02
+g_TueThur[Moped] 1.9370077983095779e+01
+g_TueThur[EBikeCart] 1.0317081239755392e+01
+g_TueThur[FootBike] 3.7334620204035673e+02
 g_WedFri[Car] 0
-g_WedFri[Moped] 2.7492983925776411e+01
-g_WedFri[EBikeCart] 1.8785200620988274e+01
-g_WedFri[FootBike] 3.6954327937974642e+02
+g_WedFri[Moped] 3.1674804899188651e+01
+g_WedFri[EBikeCart] 1.1538731069160949e+01
+g_WedFri[FootBike] 3.9191643228502687e+02

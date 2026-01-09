@@ -372,16 +372,32 @@ for day in T_days:
         )
     report(f"{day}: 8.7 depot capacity", len(J))
     
+    # ============================================================
+    # 8.8 ROUTING CONSISTENCY & TOUR RESTRICTIONS
+    # ============================================================
+
+    # ------------------------------------------------------------
+    # 8.8a depot arc consistency
+    # depot → route and route → depot arcs only allowed
+    # if the route is assigned to that depot
+    # ------------------------------------------------------------
     for (j, i) in A_dr:
         for t in T:
             m.addConstr(x[j, i, t, day] <= z[i, j, day])
-    
+
     for (i, j) in A_rd:
         for t in T:
             m.addConstr(x[i, j, t, day] <= z[i, j, day])
-    report(f"{day}: 8.8 depot arc consistency", len(A_dr) * len(T) + len(A_rd) * len(T))
 
+    report(
+        f"{day}: 8.8a depot arc consistency",
+        len(A_dr) * len(T) + len(A_rd) * len(T)
+    )
+
+    # ------------------------------------------------------------
     # 8.8b route–route arcs must stay within the same depot
+    # prevents cross-depot tours
+    # ------------------------------------------------------------
     for (u, v) in A_rr:
         for t in T:
             m.addConstr(
@@ -393,18 +409,66 @@ for day in T_days:
                 )
             )
 
-    report(f"{day}: 8.8b route–route depot consistency", len(A_rr) * len(T))
+    report(
+        f"{day}: 8.8b route–route depot consistency",
+        len(A_rr) * len(T)
+    )
 
-    
-    # 8.8c capacity feasibility for chaining (route -> route)
-    # only allow u -> v if D[u] + D[v] <= Q_t[mode]
-    cnt = 0
+    # ------------------------------------------------------------
+    # 8.8c forbid route–route chaining for non-car modes
+    # only cars are allowed to chain routes
+    # ------------------------------------------------------------
+    cnt_noncar = 0
     for (u, v) in A_rr:
         for t in T:
-            if D[u] + D[v] > Q_t[t]:
+            if t != "Car":
                 m.addConstr(x[u, v, t, day] == 0)
-                cnt += 1
-    report(f"{day}: 8.8c rr capacity cutoff (pairwise)", cnt)
+                cnt_noncar += 1
+
+    report(
+        f"{day}: 8.8c rr forbidden for non-car modes",
+        cnt_noncar
+    )
+
+    # ------------------------------------------------------------
+    # 8.8d car capacity feasibility for 2-route tours
+    # only allow car chaining if combined demand fits capacity
+    # ------------------------------------------------------------
+    cnt_cap = 0
+    Qcar = Q_t["Car"]
+
+    for (u, v) in A_rr:
+        if D[u] + D[v] > Qcar:
+            m.addConstr(x[u, v, "Car", day] == 0)
+            cnt_cap += 1
+
+    report(
+        f"{day}: 8.8d car rr capacity cutoff",
+        cnt_cap
+    )
+
+    # ------------------------------------------------------------
+    # 8.8e limit car tours to max 2 routes
+    # a route may not have both an incoming and outgoing
+    # car route–route arc
+    # ------------------------------------------------------------
+    cnt_len = 0
+    for i in I:
+        m.addConstr(
+            quicksum(x[u, i, "Car", day] for (u, i2) in A_rr if i2 == i) +
+            quicksum(x[i, v, "Car", day] for (i2, v) in A_rr if i2 == i)
+            <= 1
+        )
+        cnt_len += 1
+
+    report(
+        f"{day}: 8.8e car tour length ≤ 2 routes",
+        cnt_len
+    )
+
+
+
+
 
     for t in T:
         for j in J:
