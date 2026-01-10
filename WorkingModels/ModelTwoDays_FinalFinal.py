@@ -70,7 +70,7 @@ print(f"[ok] Y routes: {len(I_p['Y'])}")
 print("[step 2] setting cost and operational parameters")
 
 c_s = 0.75  # storage/handling cost per bag
-f_j = {j: 20 for j in J}  # fixed depot cost
+f_j = {j: 50 for j in J}  # fixed depot cost
 C_p = 10000  # max demand per depot per day
 
 c_t_s = {  # fixed cost per vehicle
@@ -400,8 +400,9 @@ print(f" vehicles:                    €{vehicle_fixed_cost_2days:,.2f}")
 print(f" storage/handling:            €{storage_handling_cost:,.2f}")
 print(f" vehicle operational + wage:  €{vehicle_operational_plus_wage_cost:,.2f}")
 
-# annual scaling: 2-day pattern repeats 2x/week for 52 weeks = 208 operational days
-annual_cost = m.ObjVal * 104
+# annual scaling: 201 operational days per year (accounting for holidays)
+# 201 days / 2 days per model = 100.5 repetitions
+annual_cost = m.ObjVal * 100.5
 
 # ============================================================
 # 10) FULL RESULTS & EXCEL EXPORT
@@ -418,7 +419,7 @@ if m.SolCount > 0:
         "objective_value_daily": round(m.ObjVal / 2, 2),
         "objective_value_weekly": round(m.ObjVal * 2, 2),
         "objective_value_annual": round(annual_cost, 2),
-        "operational_days_per_year": 208,
+        "operational_days_per_year": 201,
         "optimality_gap": round(m.MIPGap, 4),
         "status": m.Status,
         "num_routes_total": len(I_all),
@@ -536,7 +537,7 @@ if m.SolCount > 0:
                 })
 
     # WRITE FULL EXCEL
-    out_path = os.path.join(SCRIPT_DIR, "SensitivityAnalysis_€20.xlsx")
+    out_path = os.path.join(SCRIPT_DIR, "solution_twoday_final.xlsx")
     with pd.ExcelWriter(out_path, engine="xlsxwriter") as writer:
         pd.DataFrame(model_summary).to_excel(writer, sheet_name="ModelSummary", index=False)
         pd.DataFrame(cost_rows).to_excel(writer, sheet_name="CostBreakdown", index=False)
@@ -560,7 +561,7 @@ if m.SolCount > 0:
     print(f"SCALED COSTS:")
     print(f"  Daily average:               €{m.ObjVal / 2:,.2f}")
     print(f"  Weekly (4 delivery days):    €{m.ObjVal * 2:,.2f}")
-    print(f"  Annual (208 delivery days):  €{annual_cost:,.2f}")
+    print(f"  Annual (201 delivery days):  €{annual_cost:,.2f}")
     print("=" * 80)
 else:
     print("[warn] no feasible solution")
