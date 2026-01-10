@@ -70,7 +70,7 @@ print(f"[ok] Y routes: {len(I_p['Y'])}")
 print("[step 2] setting cost and operational parameters")
 
 c_s = 0.75  # storage/handling cost per bag
-f_j = {j: 50 for j in J}  # fixed depot cost
+f_j = {j: 20 for j in J}  # fixed depot cost
 C_p = 10000  # max demand per depot per day
 
 c_t_s = {  # fixed cost per vehicle
@@ -530,7 +530,7 @@ if m.SolCount > 0:
                 })
 
     # WRITE FULL EXCEL
-    out_path = os.path.join(SCRIPT_DIR, "solution_twoday_final.xlsx")
+    out_path = os.path.join(SCRIPT_DIR, "SensitivityAnalysis_€20.xlsx")
     with pd.ExcelWriter(out_path, engine="xlsxwriter") as writer:
         pd.DataFrame(model_summary).to_excel(writer, sheet_name="ModelSummary", index=False)
         pd.DataFrame(cost_rows).to_excel(writer, sheet_name="CostBreakdown", index=False)
