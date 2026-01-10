@@ -418,7 +418,7 @@ if m.SolCount > 0:
         "objective_value_daily": round(m.ObjVal / 2, 2),
         "objective_value_weekly": round(m.ObjVal * 2, 2),
         "objective_value_annual": round(annual_cost, 2),
-        "operational_days_per_year": 208,
+        "operational_days_per_year": 201,
         "optimality_gap": round(m.MIPGap, 4),
         "status": m.Status,
         "num_routes_total": len(I_all),
