@@ -383,7 +383,7 @@ if m.SolCount == 0:
 print(f"[ok] objective value (2 days): €{m.ObjVal:,.2f}")
 print(f"[ok] optimality gap: {m.MIPGap:.2%}")
 
-# cost breakdown
+# cost breakdown (2-day pattern: one X day + one Y day)
 vehicle_fixed_cost_2days = 2 * sum(c_t_s[t] * n[t].X for t in T)
 depot_cost_2days = 2 * sum(f_j[j] * y[j].X for j in J)
 vehicle_operational_plus_wage_cost = sum((c_t[t] + w) * g[t, p].X for t in T for p in P)
@@ -395,10 +395,13 @@ storage_handling_cost = sum(
 )
 
 print("[summary] cost breakdown (2 days)")
-print(f" depots: €{depot_cost_2days:,.2f}")
-print(f" vehicles: €{vehicle_fixed_cost_2days:,.2f}")
-print(f" storage/handling: €{storage_handling_cost:,.2f}")
-print(f" vehicle operational + wage: €{vehicle_operational_plus_wage_cost:,.2f}")
+print(f" depots:                      €{depot_cost_2days:,.2f}")
+print(f" vehicles:                    €{vehicle_fixed_cost_2days:,.2f}")
+print(f" storage/handling:            €{storage_handling_cost:,.2f}")
+print(f" vehicle operational + wage:  €{vehicle_operational_plus_wage_cost:,.2f}")
+
+# annual scaling: 2-day pattern repeats 2x/week for 52 weeks = 208 operational days
+annual_cost = m.ObjVal * 104
 
 # ============================================================
 # 10) FULL RESULTS & EXCEL EXPORT
@@ -413,7 +416,9 @@ if m.SolCount > 0:
     model_summary = [{
         "objective_value_2days": round(m.ObjVal, 2),
         "objective_value_daily": round(m.ObjVal / 2, 2),
-        "objective_value_annual": round(m.ObjVal * (365 / 2), 2),
+        "objective_value_weekly": round(m.ObjVal * 2, 2),
+        "objective_value_annual": round(annual_cost, 2),
+        "operational_days_per_year": 208,
         "optimality_gap": round(m.MIPGap, 4),
         "status": m.Status,
         "num_routes_total": len(I_all),
@@ -428,11 +433,12 @@ if m.SolCount > 0:
     cost_rows = [{
         "cost_depots_2days": round(depot_cost_2days, 2),
         "cost_vehicles_fixed_2days": round(vehicle_fixed_cost_2days, 2),
-        "cost_storage_handling": round(storage_handling_cost, 2),
-        "cost_vehicle_operational_wage": round(vehicle_operational_plus_wage_cost, 2),
+        "cost_storage_handling_2days": round(storage_handling_cost, 2),
+        "cost_vehicle_operational_wage_2days": round(vehicle_operational_plus_wage_cost, 2),
         "total_cost_2days": round(m.ObjVal, 2),
         "cost_daily_average": round(m.ObjVal / 2, 2),
-        "cost_annual": round(m.ObjVal * (365 / 2), 2),
+        "cost_weekly": round(m.ObjVal * 2, 2),
+        "cost_annual": round(annual_cost, 2),
     }]
 
     # day summary
@@ -542,16 +548,19 @@ if m.SolCount > 0:
 
     print(f"[ok] FULL solution written to: {out_path}")
     print("\n" + "=" * 80)
-    print("OBJECTIVE BREAKDOWN:")
+    print("COST BREAKDOWN:")
     print("=" * 80)
-    print(f"Vehicles (2 days, fixed): €{vehicle_fixed_cost_2days:,.2f}")
-    print(f"Depots (2 days, fixed): €{depot_cost_2days:,.2f}")
-    print(f"Storage/Handling: €{storage_handling_cost:,.2f}")
-    print(f"Vehicle Operational Costs + Wages: €{vehicle_operational_plus_wage_cost:,.2f}")
-    print(f" " + "-" * 20)
-    print(f"TOTAL (2 days): €{m.ObjVal:,.2f}")
-    print(f"Daily average: €{m.ObjVal / 2:,.2f}")
-    print(f"Annual: €{m.ObjVal * (365 / 2):,.2f}")
+    print(f"2-DAY PATTERN (Tue+Wed or Thu+Fri):")
+    print(f"  Depots (fixed):              €{depot_cost_2days:,.2f}")
+    print(f"  Vehicles (fixed):            €{vehicle_fixed_cost_2days:,.2f}")
+    print(f"  Storage/Handling:            €{storage_handling_cost:,.2f}")
+    print(f"  Vehicle Op + Wages:          €{vehicle_operational_plus_wage_cost:,.2f}")
+    print(f"  Subtotal (2 days):           €{m.ObjVal:,.2f}")
+    print()
+    print(f"SCALED COSTS:")
+    print(f"  Daily average:               €{m.ObjVal / 2:,.2f}")
+    print(f"  Weekly (4 delivery days):    €{m.ObjVal * 2:,.2f}")
+    print(f"  Annual (208 delivery days):  €{annual_cost:,.2f}")
     print("=" * 80)
 else:
     print("[warn] no feasible solution")
