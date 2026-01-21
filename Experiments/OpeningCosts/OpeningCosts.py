@@ -6,6 +6,11 @@ from gurobipy import Model, GRB, quicksum
 # =============================================================================
 # depot routing milp with two-day structure and vehicle reuse
 #
+# FIXED VERSION: vehicles are allocated per depot and fixed across days
+# - each depot has its own fleet N_jt (permanently stationed)
+# - daily usage n_jtp at depot j cannot exceed N_jt
+# - global fleet n_t is now just an aggregate for reporting
+#
 # this script assigns each delivery route to:
 # - exactly one depot
 # - exactly one transport mode
@@ -17,7 +22,7 @@ from gurobipy import Model, GRB, quicksum
 # =============================================================================
 
 print("=" * 80)
-print("DEPOT ROUTING - VEHICLE REUSE WITH L_ijt")
+print("DEPOT ROUTING - VEHICLE REUSE WITH L_ijt (FIXED: DEPOT-LEVEL FLEETS)")
 print("two-day structure with pre-computed travel times")
 print("=" * 80)
 
@@ -166,7 +171,7 @@ for p in P:
 # =============================================================================
 print("[step 5] building optimization model")
 
-m = Model("VRP_Twodays")
+m = Model("VRP_Twodays_DepotFleets")
 
 # solver settings
 m.Params.Threads = 0
@@ -180,7 +185,11 @@ m.Params.OutputFlag = 1
 # depot open decision (shared across days)
 y = m.addVars(J, vtype=GRB.BINARY, name="y")
 
-# total fleet size per mode (max over both days)
+# ===== NEW: DEPOT-LEVEL FLEET VARIABLES =====
+# N_jt: number of vehicles of type t stationed permanently at depot j
+N_jt = m.addVars(J, T, vtype=GRB.INTEGER, lb=0, ub=100, name="N_jt")
+
+# total fleet size per mode (for reporting/constraints; aggregate of depot fleets)
 n = m.addVars(T, vtype=GRB.INTEGER, lb=0, name="n")
 
 # route assignment variables: z_ijtp
@@ -191,12 +200,13 @@ for p in P:
         z[i, j, t, p] = z_p[i, j, t]
 
 # vehicles per depot, mode and day: n_jtp
-n_jt = {}
+# (number of vehicles deployed at depot j on day p for mode t)
+n_jt_p = {}
 for p in P:
-    n_jt_p = m.addVars(J, T, vtype=GRB.INTEGER, lb=0, ub=50, name=f"n_jt_{p}")
+    n_jt_p_dict = m.addVars(J, T, vtype=GRB.INTEGER, lb=0, ub=50, name=f"n_jtp_{p}")
     for j in J:
         for t in T:
-            n_jt[j, t, p] = n_jt_p[j, t]
+            n_jt_p[j, t, p] = n_jt_p_dict[j, t]
 
 # total working hours per mode and day: g_tp
 g = {}
@@ -214,6 +224,8 @@ print(f"[ok] total variables: {m.NumVars}")
 print("[step 6] setting objective function")
 
 depot_fixed = 2 * quicksum(f_j[j] * y[j] for j in J)
+
+# ===== CHANGED: Vehicle fixed cost now on depot-level fleet N_jt =====
 vehicle_fixed = 2 * quicksum(c_t_s[t] * n[t] for t in T)
 
 storage_cost = quicksum(
@@ -309,25 +321,32 @@ for p in P:
                     z[i2, j2, t2, p] * (L[(i2, j2, t2)] + S[(i2, j2, t2)])
                     for (i2, j2, t2) in ijts
                     if j2 == j and t2 == t
-                ) <= n_jt[j, t, p] * R_t[t],
+                ) <= n_jt_p[j, t, p] * R_t[t],
                 name=f"{p}_depot_time_{j}_{t}"
             )
             cnt += 1
 report("(C5) depot time capacity (reuse)", cnt)
 
-# -------- C6: Fleet sizing (max over days) --------
+# ===== NEW (C5b): N_jt must be >= daily usage on all days =====
+cnt = 0
+for j in J:
+    for t in T:
+        for p in P:
+            m.addConstr(
+                N_jt[j, t] >= n_jt_p[j, t, p],
+                name=f"fleet_min_{j}_{t}_{p}"
+            )
+            cnt += 1
+report("(C5b) fleet >= daily usage (all days)", cnt)
+# ===== CHANGED C6: n[t] = sum of depot fleets =====
 cnt = 0
 for t in T:
     m.addConstr(
-        n[t] >= quicksum(n_jt[j, t, "X"] for j in J),
-        name=f"fleet_X_{t}"
+        n[t] == quicksum(N_jt[j, t] for j in J),
+        name=f"fleet_agg_{t}"
     )
-    m.addConstr(
-        n[t] >= quicksum(n_jt[j, t, "Y"] for j in J),
-        name=f"fleet_Y_{t}"
-    )
-    cnt += 2
-report("(C6) fleet sizing (max over days)", cnt)
+    cnt += 1
+report("(C6) fleet sizing (sum of depot fleets)", cnt)
 
 # -------- C7: Global time accounting --------
 cnt = 0
@@ -356,9 +375,10 @@ print(f"[ok] total constraints in model: {m.NumConstrs:,}")
 # =============================================================================
 print("[step 8] solving model")
 
-m.Params.MIPGap = 0.01
+m.Params.MIPGap = 0.008
 m.Params.TimeLimit = 36000
 m.optimize()
+
 
 print(f"[status] solver status: {m.Status}")
 
@@ -380,7 +400,7 @@ if m.SolCount == 0:
 print(f"[ok] objective value (2 days): €{m.ObjVal:,.2f}")
 print(f"[ok] optimality gap: {m.MIPGap:.2%}")
 
-# cost breakdown (2-day pattern: one X day + one Y day)
+# ===== UPDATED: Cost breakdown now reflects depot-level fleets =====
 vehicle_fixed_cost_2days = 2 * sum(c_t_s[t] * n[t].X for t in T)
 depot_cost_2days = 2 * sum(f_j[j] * y[j].X for j in J)
 vehicle_operational_plus_wage_cost = sum((c_t[t] + w) * g[t, p].X for t in T for p in P)
@@ -393,7 +413,7 @@ storage_handling_cost = sum(
 
 print("[summary] cost breakdown (2 days)")
 print(f" depots:                      €{depot_cost_2days:,.2f}")
-print(f" vehicles:                    €{vehicle_fixed_cost_2days:,.2f}")
+print(f" vehicles (depot-level):      €{vehicle_fixed_cost_2days:,.2f}")
 print(f" storage/handling:            €{storage_handling_cost:,.2f}")
 print(f" vehicle operational + wage:  €{vehicle_operational_plus_wage_cost:,.2f}")
 
@@ -463,21 +483,37 @@ if m.SolCount > 0:
     # Mode usage
     mode_rows = []
     for t in T:
+        total_depot_fleet = sum(N_jt[j, t].X for j in J)
         for p in P:
             work_time = g[t, p].X
             routes_count = sum(1 for (i, j, t2) in IJTS[p] if t2 == t and z[i, j, t, p].X > 0.5)
-            vehicles_deployed = sum(n_jt[j, t, p].X for j in J)
+            vehicles_deployed = sum(n_jt_p[j, t, p].X for j in J)
             max_capacity = vehicles_deployed * R_t[t] if vehicles_deployed > 0 else 0.0
             mode_rows.append({
                 "day": p,
                 "mode": t,
-                "vehicles_total": int(round(n[t].X)),
+                "vehicles_total_fleet": int(round(total_depot_fleet)),
                 "vehicles_deployed": round(vehicles_deployed, 1),
                 "num_routes": routes_count,
                 "work_time_hours": round(work_time, 2),
                 "max_capacity_hours": round(max_capacity, 2),
                 "utilization_pct": round(100 * work_time / max_capacity, 1) if max_capacity > 0 else 0.0,
             })
+
+    # ===== NEW SHEET: Depot-level fleet allocation =====
+    depot_fleet_rows = []
+    for j in J:
+        for t in T:
+            fleet_size = round(N_jt[j, t].X, 1)
+            if fleet_size > 0 or y[j].X > 0.5:
+                depot_fleet_rows.append({
+                    "depot": j,
+                    "mode": t,
+                    "fleet_stationed": fleet_size,
+                    "depot_open": int(round(y[j].X)),
+                    "fixed_cost_per_vehicle": c_t_s[t],
+                    "total_vehicle_cost": round(fleet_size * c_t_s[t], 2),
+                })
 
     # Depot usage
     depot_rows = []
@@ -493,17 +529,19 @@ if m.SolCount > 0:
                 "total_demand": demand,
             })
 
-    # Depot-Mode matrix
+    # Depot-Mode matrix (daily deployment)
     depot_mode_rows = []
     for p in P:
         for j in J:
             for t in T:
-                vehicles_at_depot = round(n_jt[j, t, p].X, 1)
+                vehicles_deployed = round(n_jt_p[j, t, p].X, 1)
+                fleet_stationed = round(N_jt[j, t].X, 1)
                 depot_mode_rows.append({
                     "day": p,
                     "depot": j,
                     "mode": t,
-                    "vehicles_allocated": vehicles_at_depot,
+                    "vehicles_deployed": vehicles_deployed,
+                    "vehicles_stationed": fleet_stationed,
                     "depot_open": int(round(y[j].X)),
                 })
 
@@ -540,6 +578,7 @@ if m.SolCount > 0:
         pd.DataFrame(cost_rows).to_excel(writer, sheet_name="CostBreakdown", index=False)
         pd.DataFrame(day_summary).to_excel(writer, sheet_name="daySummary", index=False)
         pd.DataFrame(mode_rows).to_excel(writer, sheet_name="ModeUsage", index=False)
+        pd.DataFrame(depot_fleet_rows).to_excel(writer, sheet_name="DepotFleet", index=False)
         pd.DataFrame(depot_rows).to_excel(writer, sheet_name="DepotUsage", index=False)
         pd.DataFrame(depot_mode_rows).to_excel(writer, sheet_name="DepotModeMatrix", index=False)
         pd.DataFrame(route_rows).to_excel(writer, sheet_name="Routes", index=False)
@@ -550,7 +589,7 @@ if m.SolCount > 0:
     print("=" * 80)
     print(f"2-DAY PATTERN (Tue+Wed or Thu+Fri):")
     print(f"  Depots (fixed):              €{depot_cost_2days:,.2f}")
-    print(f"  Vehicles (fixed):            €{vehicle_fixed_cost_2days:,.2f}")
+    print(f"  Vehicles (depot-level):      €{vehicle_fixed_cost_2days:,.2f}")
     print(f"  Storage/Handling:            €{storage_handling_cost:,.2f}")
     print(f"  Vehicle Op + Wages:          €{vehicle_operational_plus_wage_cost:,.2f}")
     print(f"  Subtotal (2 days):           €{m.ObjVal:,.2f}")
